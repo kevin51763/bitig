@@ -1,0 +1,55 @@
+/* 字体文件的登记。字体文件都在 fonts/ 文件夹里，随网站一起发布，不依赖外部网站（国内也能正常显示）。
+   加一种新文字的字体：把 .woff2 文件放进 fonts/，照下面的样子写一段 @font-face，
+   再到 css/theme.css 里加一个 --f-xxx 变量，或在 config/languages.js 的 font 里直接写字体名。 */
+
+/* 拉丁字母（转写用）：Gentium Book Plus，含常用附加符号和希腊字母 */
+@font-face { font-family: "Gentium Book Plus"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url(../fonts/gentium-book-plus-latin-400-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Gentium Book Plus"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url(../fonts/gentium-book-plus-latin-ext-400-normal.woff2) format("woff2");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Gentium Book Plus"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url(../fonts/gentium-book-plus-greek-400-normal.woff2) format("woff2");
+  unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF; }
+@font-face { font-family: "Gentium Book Plus"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url(../fonts/gentium-book-plus-latin-400-italic.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Gentium Book Plus"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url(../fonts/gentium-book-plus-latin-ext-400-italic.woff2) format("woff2");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Gentium Book Plus"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url(../fonts/gentium-book-plus-greek-400-italic.woff2) format("woff2");
+  unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF; }
+@font-face { font-family: "Gentium Book Plus"; font-style: normal; font-weight: 700; font-display: swap;
+  src: url(../fonts/gentium-book-plus-latin-700-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Gentium Book Plus"; font-style: normal; font-weight: 700; font-display: swap;
+  src: url(../fonts/gentium-book-plus-latin-ext-700-normal.woff2) format("woff2");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Gentium Book Plus"; font-style: normal; font-weight: 700; font-display: swap;
+  src: url(../fonts/gentium-book-plus-greek-700-normal.woff2) format("woff2");
+  unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF; }
+
+/* 回鹘文 */
+@font-face { font-family: "Noto Serif Old Uyghur"; font-display: swap;
+  src: url(../fonts/noto-serif-old-uyghur.woff2) format("woff2"); unicode-range: U+0640,U+10AF2,U+10F70-10F89; }
+/* 突厥如尼文 */
+@font-face { font-family: "Noto Sans Old Turkic"; font-display: swap;
+  src: url(../fonts/noto-sans-old-turkic.woff2) format("woff2"); unicode-range: U+205A,U+2E30,U+10C00-10C48; }
+/* 满文、蒙古文（Noto Sans Mongolian 的精简本，含满文字母和词中连接需要的字符） */
+@font-face { font-family: "Mong"; font-display: block;
+  src: url(../fonts/noto-sans-mongolian-subset.woff2) format("woff2"); }
+/* 同一个字体再登记一个通用的名字，范文 HTML 里写 "Noto Sans Mongolian" 也能用上 */
+@font-face { font-family: "Noto Sans Mongolian"; font-display: block;
+  src: url(../fonts/noto-sans-mongolian-subset.woff2) format("woff2"); }
+/* 藏文 */
+@font-face { font-family: "Noto Serif Tibetan"; font-display: swap;
+  src: url(../fonts/noto-serif-tibetan.woff2) format("woff2"); unicode-range: U+0F00-0FFF,U+200C-200D,U+25CC,U+3008-300B; }
+/* 察合台文（阿拉伯字母） */
+@font-face { font-family: "Noto Naskh Arabic"; font-display: swap;
+  src: url(../fonts/noto-naskh-arabic.woff2) format("woff2");
+  unicode-range: U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC; }
+/* 标题书法字（马善政楷书），只含网站名“四译馆”三个字 */
+@font-face { font-family: "Ma Shan Zheng"; font-display: swap;
+  src: url(../fonts/ma-shan-zheng-title.woff2) format("woff2"); }

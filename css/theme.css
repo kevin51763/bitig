@@ -1,0 +1,43 @@
+/* 颜色与字体。网站的配色、各种文字用的字体都在这里集中定义，其他样式文件只引用这些名字。
+   浅色在 :root 里；深色（读者的系统设为深色模式时）在下面两段里，两段内容保持一致。 */
+:root {
+  /* 底色与文字 */
+  --paper: #eceee9;      /* 页面底色 */
+  --sheet: #fbfbf8;      /* 卡片、输入框的底色 */
+  --ink: #1b2024;        /* 正文 */
+  --ink-soft: #59626a;   /* 次要文字 */
+  --rule: #d2d7d2;       /* 分隔线 */
+  --lapis: #27457f;      /* 青金石蓝：链接、按钮、选中 */
+  --seal: #9B2B20;       /* 朱砂红：印章、查词 */
+  --warn: #a33c28;       /* 提示错误 */
+  --hl: #d5def3;         /* 对应词的高亮 */
+  --hl-self: #e6ebf6;    /* 当前词的高亮 */
+  /* 首页名句条 */
+  --scroll: #1f3150; --scroll-ink: #f1ead8; --scroll-soft: #b9c2d3; --scroll-rule: #3a4d70;
+
+  /* 字体 */
+  --f-ui: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --f-head: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --f-zh: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --f-brush: "Ma Shan Zheng", "STXingkai", "KaiTi", "Kaiti SC", "STKaiti", serif;
+  --f-lat: "Gentium Book Plus", "Gentium Plus", "Charis SIL", "Noto Serif", "Times New Roman", serif;
+  --f-ug: "Noto Serif Old Uyghur", serif;
+  --f-rn: "Noto Sans Old Turkic", sans-serif;
+  --f-mong: "Mong", "Noto Sans Mongolian", "Mongolian Baiti", sans-serif;
+  --f-bo: "Noto Serif Tibetan", "Jomolhari", "Microsoft Himalaya", serif;
+  --f-chg: "Noto Naskh Arabic", "Scheherazade New", "Amiri", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111418; --sheet: #181c21; --ink: #e3e6e9; --ink-soft: #9aa3ab; --rule: #2c3339;
+    --lapis: #9fb5ea; --seal: #E27462; --warn: #e48b74; --hl: #2a3a62; --hl-self: #222c45;
+    --scroll: #142036; --scroll-ink: #ece4cf; --scroll-soft: #9eabc2; --scroll-rule: #2c3d5c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111418; --sheet: #181c21; --ink: #e3e6e9; --ink-soft: #9aa3ab; --rule: #2c3339;
+  --lapis: #9fb5ea; --seal: #E27462; --warn: #e48b74; --hl: #2a3a62; --hl-self: #222c45;
+  --scroll: #142036; --scroll-ink: #ece4cf; --scroll-soft: #9eabc2; --scroll-rule: #2c3d5c;
+  color-scheme: dark;
+}

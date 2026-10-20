@@ -1,0 +1,326 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>愚公移山 满蒙对照</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="../../css/fonts.css">
+<style>
+/* 布局：四列对照表。中间两列为竖写原文，底色稍深，构成一条“原文带”；两侧为转写与注释，向中线对齐。 */
+:root{
+  --bg:#F1F3F0; --panel:#E4E8E3; --ink:#1B2023; --muted:#5B6569; --rule:#CDD4CF; --hl:#E8ECE7;
+  --case:#1C4C8C; --case-bg:#DAE5F3;
+  --vfx:#3B6636; --vfx-bg:#DDE9D9;
+  --part:#7A385B; --part-bg:#EFDDE7;
+  --seal:#9B2B20;
+  --f-tr:"Gentium Book Plus","Gentium Plus","Charis SIL","Times New Roman",serif;
+  --f-zh:"Noto Serif SC","Source Han Serif SC","Songti SC","SimSun",serif;
+  --f-ui:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  --f-mong:"Noto Sans Mongolian","Mongolian Baiti","Menk Qagan Tig",sans-serif;
+  --colw:8.75rem;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181A; --panel:#1C2225; --ink:#E2E6E3; --muted:#97A1A4; --rule:#2D3538; --hl:#1A2023;
+  --case:#93B8EC; --case-bg:#1C2B40; --vfx:#A2CB94; --vfx-bg:#202E1E; --part:#E2A6C6; --part-bg:#38222F; --seal:#E27462;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181A; --panel:#1C2225; --ink:#E2E6E3; --muted:#97A1A4; --rule:#2D3538; --hl:#1A2023;
+  --case:#93B8EC; --case-bg:#1C2B40; --vfx:#A2CB94; --vfx-bg:#202E1E; --part:#E2A6C6; --part-bg:#38222F; --seal:#E27462;
+  color-scheme:dark}
+
+body{background:var(--bg);color:var(--ink);font-family:var(--f-zh);line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:2rem 4rem}
+.page{max-width:76rem;margin:0 auto;display:flex;flex-direction:column;gap:1.5rem}
+
+header.top{display:flex;gap:1.5rem;align-items:flex-start;flex-wrap:wrap}
+.titles{display:flex;gap:.6rem;align-items:flex-start}
+.titles .v{font-size:1.25rem;color:var(--muted)}
+.htext{display:flex;flex-direction:column;gap:.4rem;min-width:0;flex:1 1 20rem}
+h1{font-size:2.4rem;font-weight:600;margin:0;letter-spacing:.08em;text-wrap:balance}
+.sub{margin:0;color:var(--muted);font-size:1rem}
+.intro{margin:0;max-width:44rem;font-size:.95rem}
+
+.bar{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;align-items:center;font-family:var(--f-ui);font-size:.82rem;color:var(--muted)}
+.key{display:inline-flex;align-items:center;gap:.4rem}
+.chip{display:inline-block;padding:0 .35em;border-radius:3px;font-family:var(--f-ui);font-size:.7rem;line-height:1.55;white-space:nowrap}
+.chip.case{background:var(--case-bg);color:var(--case)}
+.chip.vfx{background:var(--vfx-bg);color:var(--vfx)}
+.chip.part{background:var(--part-bg);color:var(--part)}
+.toggle{display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;color:var(--ink)}
+.toggle input{accent-color:var(--case)}
+
+.scroller{min-width:0}
+.table{display:flex;flex-direction:column}
+.row,.head{display:grid;grid-template-columns:minmax(0,1fr) var(--colw) var(--colw) minmax(0,1fr)}
+.head{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:2px solid var(--ink);
+  font-family:var(--f-ui);font-size:.75rem;letter-spacing:.06em;color:var(--muted)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.head>div{padding:.55rem .75rem}
+.head .m{text-align:right}
+.head .sc{text-align:center;background:var(--panel)}
+.head .sc.m{border-right:1px solid var(--rule)}
+
+.sent{display:flex;gap:.9rem;align-items:baseline;padding:1.4rem .75rem .5rem;border-bottom:1px solid var(--rule)}
+.num{font-family:var(--f-tr);font-size:.95rem;color:var(--seal);min-width:1.6rem;font-variant-numeric:tabular-nums}
+.sent p{margin:0;font-size:1.05rem}
+
+.row{border-bottom:1px solid var(--rule)}
+.row:hover>.c{background:var(--hl)}
+.row:hover>.sc{background:color-mix(in srgb,var(--panel) 70%,var(--case-bg))}
+.c{padding:.7rem .75rem;min-width:0}
+.tl{display:flex;flex-wrap:wrap;gap:.6rem 1.1rem;align-content:flex-start}
+.tl.m{justify-content:flex-end;text-align:right}
+.sc{background:var(--panel);display:flex;gap:.45rem;align-items:flex-start;padding-inline:.6rem}
+.sc.m{justify-content:flex-end;border-right:1px solid var(--rule)}
+.sc.j{justify-content:flex-start}
+.v{writing-mode:vertical-lr;font-family:var(--f-mong);font-size:1.45rem;line-height:1.5;white-space:nowrap}
+.none{color:var(--rule);font-family:var(--f-ui);align-self:center}
+.sc .none{align-self:flex-start;padding-top:.2rem}
+
+.tok{display:flex;flex-direction:column;gap:.15rem;min-width:0}
+.tl.m .tok{align-items:flex-end}
+.tr{font-family:var(--f-tr);font-size:1.12rem;line-height:1.3}
+.zh{font-size:.88rem;color:var(--muted);line-height:1.35}
+.mo{display:flex;flex-wrap:wrap;gap:.15rem .3rem;margin-top:.15rem}
+.tl.m .mo{justify-content:flex-end}
+.mp{display:inline-flex;flex-direction:column;align-items:flex-start;gap:.05rem}
+.tl.m .mp{align-items:flex-end}
+.mp b{font-family:var(--f-tr);font-weight:400;font-size:.85rem;color:var(--muted)}
+.mp.root i{font-style:normal;font-family:var(--f-ui);font-size:.7rem;color:var(--muted)}
+.hide-mo .mo{display:none}
+
+.note{grid-column:1/-1;padding:.1rem .75rem .6rem;font-family:var(--f-ui);font-size:.78rem;color:var(--muted);text-align:center}
+.note::before{content:"注　"}
+
+footer{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);max-width:44rem}
+
+@media (max-width:880px){
+  .scroller{overflow-x:auto}
+  .table{min-width:820px}
+  .head{position:static}
+  h1{font-size:2rem}
+}
+</style>
+
+<div class="page">
+  <header class="top">
+    <div class="titles" aria-hidden="true">
+      <span class="v" lang="mn-Mong">ᠲᠡᠨᠡᠭ ᠡᠪᠦᠭᠡᠨ ᠠᠭᠤᠯᠠ&#x202F;ᠶᠢ ᠨᠡᠭᠦᠯᠭᠡᠭᠰᠡᠨ ᠢᠨᠤ</span>
+      <span class="v" lang="mnc-Mong">ᠮᡝᠨᡨᡠᡥᡠᠨ ᡤᡠᠩ ᠠᠯᡳᠨ ᠪᡝ ᡤᡠᡵᡳᠪᡠᡥᡝᠩᡤᡝ</span>
+    </div>
+    <div class="htext">
+      <h1>愚公移山</h1>
+      <p class="sub">传统蒙古文与满文逐词对照</p>
+      <p class="intro">左起依次为蒙古文转写、蒙古文、满文、满文转写。同一行内的词意思相当，一侧画横线表示另一文本此处无对应。转写下第一行是词义，第二行是词素切分及语法说明。每段前的中文是该句的大意。</p>
+    </div>
+  </header>
+
+  <div class="bar">
+    <span class="key"><span class="chip case">格位</span>格位标记</span>
+    <span class="key"><span class="chip vfx">词缀</span>时体、副动词、使动等构形词缀</span>
+    <span class="key"><span class="chip part">虚词</span>语气词与复数、领属等虚词</span>
+    <label class="toggle"><input type="checkbox" id="mo-toggle" checked>显示词素分析</label>
+  </div>
+
+  <div class="scroller">
+    <div class="table" id="table">
+      <div class="head"><div class="m">蒙古文转写</div><div class="sc m">蒙古文</div><div class="sc j">满文</div><div>满文转写</div></div>
+    </div>
+  </div>
+
+  <footer>转写照录所给文本。蒙古文原文中“出入”一处在词与格尾之间多一逗号，亦照录，见第 3 句注。</footer>
+</div>
+
+<script>
+/* 每个词：转写|原文|词义|词素（形式=说明，空格分隔；“-”开头为词缀，“+”开头为虚词）。原文中“_”代表窄不换行空格（U+202F）。 */
+/*DATA-START*/
+const DATA = [
+ {n:"题", zh:"愚公移山", rows:[
+  [["Teneg|ᠲᠡᠨᠡᠭ|愚"],["mentuhun|ᠮᡝᠨᡨᡠᡥᡠᠨ|愚"]],
+  [["ebügen|ᠡᠪᠦᠭᠡᠨ|老翁"],["gung|ᡤᡠᠩ|公（汉语借词）"]],
+  [["aɣula-yi|ᠠᠭᠤᠯᠠ_ᠶᠢ|山|aɣula=山 -yi=宾格"],["alin|ᠠᠯᡳᠨ|山","be|ᠪᡝ||+be=宾格"]],
+  [["negülgegsen|ᠨᠡᠭᠦᠯᠭᠡᠭᠰᠡᠨ|使之迁移的|negü=迁移 -lge=使动态 -gsen=过去形动词","inu,|ᠢᠨᠤ ᠂||+inu=第三人称领属（此处提示话题）"],["guribuhengge|ᡤᡠᡵᡳᠪᡠᡥᡝᠩᡤᡝ|使之迁移这件事|guri=迁移 -bu=使动态 -he=完成形动词 -ngge=名物化"]]
+ ]},
+ {n:"1", zh:"北山的愚公年已九十。", rows:[
+  [["Umaratu|ᠤᠮᠠᠷᠠᠲᠤ|北边的|umara=北 -tu=领有（构成形容词）"],["amargi|ᠠᠮᠠᡵᡤᡳ|北边的"]],
+  [["aɣulan-u|ᠠᠭᠤᠯᠠᠨ_ᠤ|山的|aɣula=山 -n=词干n -u=属格"],["alin|ᠠᠯᡳᠨ|山","i|ᡳ||+i=属格"]],
+  [["teneg|ᠲᠡᠨᠡᠭ|愚"],["mentuhun|ᠮᡝᠨᡨᡠᡥᡠᠨ|愚"]],
+  [["ebügen|ᠡᠪᠦᠭᠡᠨ|老翁"],["gung|ᡤᡠᠩ|公"]],
+  [["nasun|ᠨᠠᠰᠤᠨ|年岁","següder|ᠰᠡᠭᠦᠳᠡᠷ|影（与 nasun 连用指寿数）","yere|ᠶᠡᠷᠡ|九十"],["uyunju|ᡠᠶᡠᠨᠵᡠ|九十","se|ᠰᡝ|岁"],"两边语序相反：yere 对 uyunju（九十），nasun següder 对 se（岁）。“九十”一般写作 yeren。"],
+  [["kürbei.|ᠬᠦᠷᠪᠡᠢ ᠃|到了|kür=到达 -bei=过去时"],["oho.|ᠣᡥᠣ᠉|成了|o=成为 -ho=完成形动词"]]
+ ]},
+ {n:"2", zh:"他面对着山居住。", rows:[
+  [["Aɣula-yi|ᠠᠭᠤᠯᠠ_ᠶᠢ|山|aɣula=山 -yi=宾格"],["alin|ᠠᠯᡳᠨ|山","i|ᡳ||+i=属格"],"格位不同：蒙文用宾格，作“对着”的对象；满文用属格，修饰 ishun（山的对面）。"],
+  [["esergüleǰi|ᠡᠰᠡᠷᠭᠦᠯᠡᠵᠢ|对着|esergüle=相向 -ǰi=联合副动词"],["ishun|ᡳᠰᡥᡠᠨ|对面，迎着"]],
+  [["saɣuɣsan|ᠰᠠᠭᠤᠭᠰᠠᠨ|居住的|saɣu=坐，居住 -ɣsan=过去形动词","aǰuɣu.|ᠠᠵᠤᠭᠤ ᠃|（叙述过去）|a=是，在 -ǰuɣu=过去时（叙述）"],["tehebi.|ᡨᡝᡥᡝᠪᡳ᠉|住着|te=坐，居住 -he=完成形动词 -bi=陈述（构成完成体）"]]
+ ]},
+ {n:"3", zh:"因为出入不便，他带领子孙，挑起扁担，拿着筐，要把山铲平（蒙文作“移走”）。", rows:[
+  [[],["terei|ᡨᡝᡵᡝᡳ|它的|tere=那 -i=属格"]],
+  [["Oroǰu|ᠣᠷᠣᠵᠤ|进|oro=进入 -ǰu=联合副动词","ɣaruqui-dur|ᠭᠠᠷᠤᠬᠤᠢ ᠂ ᠲᠤᠷ|出的时候|ɣar=出 -qui=形动词 -dur=与位格"],["tucire|ᡨᡠᠴᡳᡵᡝ|出的|tuci=出 -re=未完成形动词","dosirede|ᡩᠣᠰᡳᡵᡝᡩᡝ|进的时候|dosi=进 -re=未完成形动词 -de=与位格"],"“出入”次序相反：蒙文先进后出，满文先出后进。蒙文原文在 ᠭᠠᠷᠤᠬᠤᠢ 与格尾 ᠲᠤᠷ 之间多一逗号，照录。"],
+  [["töküm|ᠲᠥᠬᠥᠮ|便利"],["ildungga|ᡳᠯᡩᡠᠩᡤᠠ|便利"]],
+  [["ügei|ᠥᠬᠡᠢ|无，不"],["akū|ᠠᡴᡡ|无，不","be|ᠪᡝ||+be=宾格"]],
+  [["bolqor|ᠪᠣᠯᠬᠣᠷ|因为|bol=成为 -qor=副动词（此处表原因）"],["ubiyafi|ᡠᠪᡳᠶᠠᡶᡳ|厌恶|ubiya=厌恶 -fi=顺序副动词"],"两词位置相当，意思不同：蒙文说“因为不便”，满文说“厌恶不便”。"],
+  [["teneg|ᠲᠡᠨᠡᠭ|愚","ebügen|ᠡᠪᠦᠭᠡᠨ|老翁"],[]],
+  [[],["ini|ᡳᠨᡳ|他的|i=他 -ni=属格"]],
+  [["köbegüd|ᠬᠥᠪᠡᠭᠦᠳ|儿子们|köbegü(n)=儿子 -d=复数"],["juse|ᠵᡠᠰᡝ|儿子们（jui 的复数形）"]],
+  [["ači|ᠠᠴᠢ|孙","nar-iyan|ᠨᠠᠷ_ᠢᠶᠠᠨ|们，自己的|+nar=复数 -iyan=宾格·反身领属"],["omosi|ᠣᠮᠣᠰᡳ|孙子们（omolo 的复数形）","be|ᠪᡝ||+be=宾格"]],
+  [["daɣaɣulǰu|ᠳᠠᠭᠠᠭᠤᠯᠵᠤ|带领|daɣa=跟随 -ɣul=使动态 -ǰu=联合副动词"],["gaifi,|ᡤᠠᡳᡶᡳ᠈|带领|gai=取，带 -fi=顺序副动词"]],
+  [["damǰiɣur|ᠳᠠᠮᠵᠢᠭᠤᠷ|扁担"],["damjan|ᡩᠠᠮᠵᠠᠨ|扁担"]],
+  [["damnan,|ᠳᠠᠮᠨᠠᠨ ᠂|挑着|damna=挑 -n=方式副动词"],["meihereme,|ᠮᡝᡳᡥᡝᡵᡝᠮᡝ᠈|扛着|meihere=扛在肩上 -me=并列副动词"]],
+  [["saɣsu|ᠰᠠᠭᠰᠤ|筐"],["šoro|ᡧᠣᡵᠣ|筐"]],
+  [["toqoilan|ᠲᠣᠬᠣᠢᠯᠠᠨ|挎着|toqoila=挎在臂弯 -n=方式副动词"],["jafame|ᠵᠠᡶᠠᠮᡝ|拿着|jafa=拿 -me=并列副动词"]],
+  [["aɣula-yi,|ᠠᠭᠤᠯᠠ_ᠶᠢ ᠂|山|aɣula=山 -yi=宾格"],[]],
+  [["negülgesügei|ᠨᠡᠭᠦᠯᠭᠡᠰᠦᠭᠡᠢ|让我们移走吧|negü=迁移 -lge=使动态 -sügei=意愿式（第一人称）"],["necihiyeki|ᠨᡝᠴᡳᡥᡳᠶᡝᡴᡳ|想要铲平|necihiye=平整 -ki=祈愿式"],"蒙文“移”，满文“平”。"],
+  [["kemeküi-dür|ᠬᠡᠮᠡᠬᠦᠢ_ᠳᠤᠷ|说的时候|keme=说 -küi=形动词 -dür=与位格"],["serede,|ᠰᡝᡵᡝᡩᡝ᠈|说的时候|se=说 -re=未完成形动词 -de=与位格"]]
+ ]},
+ {n:"4", zh:"住在河湾的智叟大笑，拦住他说：", rows:[
+  [["ɣool-un|ᠭᠣᠣᠯ_ᠤᠨ|河的|ɣool=河 -un=属格"],["birai|ᠪᡳᡵᠠᡳ|河的|bira=河 -i=属格"]],
+  [["toqoi-dur|ᠲᠣᠬᠣᠢ_ᠳᠤᠷ|在河湾|toqoi=弯 -dur=与位格"],["mudan|ᠮᡠᡩᠠᠨ|弯","i|ᡳ||+i=属格"],"蒙文“在河湾（居住的）”，满文“河湾的”。"],
+  [["saɣuɣ-a|ᠰᠠᠭᠤᠭ᠎ᠠ|居住的|saɣu=居住 -ɣ-a=形动词（未完成）"],[]],
+  [["mergen|ᠮᠡᠷᠭᠡᠨ|聪明的"],["mergen|ᠮᡝᡵᡤᡝᠨ|聪明的"]],
+  [["ebügen|ᠡᠪᠦᠭᠡᠨ|老翁"],["sakda|ᠰᠠᡴᡩᠠ|老人"]],
+  [["yeke|ᠶᠡᠬᠡ|大","la|ᠯᠠ||+la=强调小品词"],[]],
+  [["iniyeged,|ᠢᠨᠢᠶᠡᠭᠡᠳ ᠂|笑了|iniye=笑 -ged=分离副动词"],["injefi|ᡳᠨᠵᡝᡶᡳ|笑了|inje=笑 -fi=顺序副动词"]],
+  [["qoriɣlaǰu|ᠬᠣᠷᠢᠭᠯᠠᠵᠤ|劝阻|qoriɣla=阻止 -ǰu=联合副动词"],["ilibume|ᡳᠯᡳᠪᡠᠮᡝ|拦住|ili=站立 -bu=使动态 -me=并列副动词"]],
+  [["tegün-dür|ᠲᠡᠭᠦᠨ_ᠳᠤᠷ|对他|tegün=他 -dür=与位格"],[]],
+  [["qandun|ᠬᠠᠨᠳᠤᠨ|向着（说）|qandu=朝向 -n=方式副动词"],["hendume,|ᡥᡝᠨᡩᡠᠮᡝ᠈|说|hendu=说 -me=并列副动词"],"满文 hendume 直接引出下文；蒙文 qandun 意为朝向，引语之后另用 kemeküi-dür 收住。"]
+ ]},
+ {n:"5", zh:"“太过分了！你真不聪明（蒙文作“您真是愚蠢”）。", rows:[
+  [["“Kečegüü|《 ᠬᠡᠴᠡᠭᠦᠦ|太过，难"],["asuru|ᠠᠰᡠᡵᡠ|太，过甚"]],
+  [["la|ᠯᠠ||+la=强调小品词","da!|ᠳᠠ!||+da=感叹语气词"],["kai,|ᡴᠠᡳ᠈||+kai=语气词（强调）"]],
+  [["Ta|ᠲᠠ|您"],["sini|ᠰᡳᠨᡳ|你的|si=你 -ni=属格"],"句式不同：蒙文“您是愚蠢的”，满文“你的聪明没有”。"],
+  [["teneg|ᠲᠡᠨᠡᠭ|愚"],["mergen|ᠮᡝᡵᡤᡝᠨ|聪明","akū|ᠠᡴᡡ|无，不"]],
+  [["yum|ᠶᠤᠮ||+yum=语气词（确认）","bain-a.|ᠪᠠᠢᠨ᠎ᠠ ᠃|是|bai=存在，是 -n-a=现在时"],["kai,|ᡴᠠᡳ᠈||+kai=语气词（强调）"]]
+ ]},
+ {n:"6", zh:"凭你衰老的余年余力，连山上的一根毛（蒙文作“一块石头”）也毁不动。”", rows:[
+  [["Tan-u|ᠲᠠᠨ_ᠤ|您的|tan=您 -u=属格"],["sini|ᠰᡳᠨᡳ|你的|si=你 -ni=属格"]],
+  [["ene|ᠡᠨᠡ|这"],[]],
+  [["ötelüge|ᠥᠲᠡᠯᠦᠭᠡ|衰老的"],["ebereke|ᡝᠪᡝᡵᡝᡴᡝ|衰弱了的|ebere=衰弱 -ke=完成形动词"]],
+  [["nasu|ᠨᠠᠰᠤ|年岁"],["se|ᠰᡝ|岁"]],
+  [["kögsin|ᠬᠥᠭᠰᠢᠨ|老的"],["funcehe|ᡶᡠᠨᠴᡝᡥᡝ|剩余的|funce=剩余 -he=完成形动词"],"蒙文“老”，满文“剩余”。"],
+  [["bey-e-ber|ᠪᠡᠶ᠎ᠡ_ᠪᠠᠷ|凭身体|bey-e=身体 -ber=工具格"],["hūsun|ᡥᡡᠰᡠᠨ|力气","i|ᡳ||+i=工具格"],"蒙文“凭身体”，满文“凭力气”，都用工具格。"],
+  [["aɣulan-u|ᠠᠭᠤᠯᠠᠨ_ᠤ|山的|aɣula=山 -n=词干n -u=属格"],["alin|ᠠᠯᡳᠨ|山","i|ᡳ||+i=属格"]],
+  [["nige|ᠨᠢᠭᠡ|一"],["emu|ᡝᠮᡠ|一"]],
+  [[],["da|ᡩᠠ|根（量词）"]],
+  [["čilaɣu-yi|ᠴᠢᠯᠠᠭᠤ_ᠶᠢ|石头|čilaɣu=石头 -yi=宾格"],["funiyehe|ᡶᡠᠨᡳᠶᡝᡥᡝ|毛发","be|ᠪᡝ||+be=宾格"],"蒙文“一块石头”，满文“一根毛”。"],
+  [["ču|ᠴᠤ||+ču=也（连…也）"],[]],
+  [["ködelgeǰü|ᠬᠥᠳᠡᠯᠭᠡᠵᠦ|使之动|ködel=动 -ge=使动态 -ǰü=联合副动词"],["efuleme|ᡝᡶᡠᠯᡝᠮᡝ|毁坏|efule=毁坏 -me=并列副动词"],"蒙文“搬动”，满文“毁坏”。"],
+  [["ese|ᠡᠰᠡ|未，不（否定过去）","čidaqu|ᠴᠢᠳᠠᠬᠤ|能|čida=能 -qu=将来形动词"],["muterakū|ᠮᡠᡨᡝᡵᠠᡴᡡ|不能|mute=能 -rakū=否定（未完成）"]],
+  [["bolai”|ᠪᠣᠯᠠᠢ 》||+bolai=判断语气词"],[]],
+  [["kemeküi-dür|ᠬᠡᠮᠡᠬᠦᠢ_ᠳᠤᠷ|说的时候|keme=说 -küi=形动词 -dür=与位格"],["sehede,|ᠰᡝᡥᡝᡩᡝ᠈|说了之后|se=说 -he=完成形动词 -de=与位格"]]
+ ]},
+ {n:"7", zh:"愚公回答说：", rows:[
+  [["teneg|ᠲᠡᠨᠡᠭ|愚"],["mentuhun|ᠮᡝᠨᡨᡠᡥᡠᠨ|愚"]],
+  [["ebügen|ᠡᠪᠦᠭᠡᠨ|老翁"],["gung|ᡤᡠᠩ|公"]],
+  [["qariɣu|ᠬᠠᠷᠢᠭᠤ|回，答","ögülerün:|ᠥᠭᠦᠯᠡᠷᠦᠨ ᠄|说道|ögüle=说 -rün=引语副动词"],["jabume,|ᠵᠠᠪᡠᠮᡝ᠈|回答|jabu=回答 -me=并列副动词"],"蒙文两词“回答说”，满文一词。"]
+ ]},
+ {n:"8", zh:"“不是这样。", rows:[
+  [["“Teimü|《 ᠲᠡᠢᠮᠦ|那样"],["tuttu|ᡨᡠᡨᡨᡠ|那样"]],
+  [["busu|ᠪᠤᠰᠤ|不是","bolai!|ᠪᠣᠯᠠᠢ!||+bolai=判断语气词"],["waka,|ᠸᠠᡴᠠ᠈|不是"]]
+ ]},
+ {n:"9", zh:"我即使死了，儿子又生孙子，孙子又生儿子，", rows:[
+  [["Minü|ᠮᠢᠨᠦ|我的|mi=我 -nü=属格"],["mini|ᠮᡳᠨᡳ|我的|mi=我 -ni=属格"]],
+  [["bey-e|ᠪᠡᠶ᠎ᠡ|身体，自身"],["beye|ᠪᡝᠶᡝ|身体，自身"]],
+  [["kedüiber|ᠬᠡᠳᠦᠢᠪᠡᠷ|虽然|kedüi=几多 -ber=工具格"],["udu|ᡠᡩᡠ|虽然"],"让步：蒙文 kedüiber 与条件副动词 -besü 呼应，满文 udu 与让步副动词 -cibe 呼应。"],
+  [["ükübesü|ᠦᠬᠦᠪᠡᠰᠦ|死了|ükü=死 -besü=条件副动词"],["bucecibe,|ᠪᡠᠴᡝᠴᡳᠪᡝ᠈|即使死了|buce=死 -cibe=让步副动词"]],
+  [["köbegüd|ᠬᠥᠪᠡᠭᠦᠳ|儿子们|köbegü(n)=儿子 -d=复数","mini|ᠮᠢᠨᠢ||+mini=我的（后置领属）"],["jui|ᠵᡠᡳ|儿子"]],
+  [[],["geli|ᡤᡝᠯᡳ|又"]],
+  [["ači-yi|ᠠᠴᠢ_ᠶᠢ|孙子|ači=孙 -yi=宾格"],["omolo|ᠣᠮᠣᠯᠣ|孙子","be|ᠪᡝ||+be=宾格"]],
+  [["törümüi,|ᠳᠦᠷᠦᠮᠦᠢ ᠂|生|törü=生 -müi=现在将来时"],["banjimbi,|ᠪᠠᠨᠵᡳᠮᠪᡳ᠈|生|banji=生 -mbi=现在将来时"]],
+  [["ači|ᠠᠴᠢ|孙","nar|ᠨᠠᠷ||+nar=复数"],["omolo|ᠣᠮᠣᠯᠣ|孙子"]],
+  [["taqin|ᠲᠠᠬᠢᠨ|再","basa|ᠪᠠᠰᠠ|又"],["geli|ᡤᡝᠯᡳ|又"]],
+  [["köbegüd|ᠬᠥᠪᠡᠭᠦᠳ|儿子们|köbegü(n)=儿子 -d=复数"],["jui|ᠵᡠᡳ|儿子","be|ᠪᡝ||+be=宾格"],"蒙文此处不加宾格词尾。"],
+  [["törümüi.|ᠳᠦᠷᠦᠮᠦᠢ᠃|生|törü=生 -müi=现在将来时"],["banjimbi,|ᠪᠠᠨᠵᡳᠮᠪᡳ᠈|生|banji=生 -mbi=现在将来时"]]
+ ]},
+ {n:"10", zh:"子子孙孙，没有穷尽。", rows:[
+  [["Keüked-ün|ᠬᠡᠦᠬᠡᠳ_ᠤᠨ|孩子们的|keüke(n)=孩子 -d=复数 -ün=属格"],["jui|ᠵᡠᡳ|儿子","i|ᡳ||+i=属格"]],
+  [["keüked,|ᠬᠡᠦᠬᠡᠳ ᠂|孩子们|keüke(n)=孩子 -d=复数"],["jui|ᠵᡠᡳ|儿子"]],
+  [["ači-yin|ᠠᠴᠢ_ᠶᠢᠨ|孙子的|ači=孙 -yin=属格"],["omolo|ᠣᠮᠣᠯᠣ|孙子","i|ᡳ||+i=属格"]],
+  [["ači|ᠠᠴᠢ|孙"],["omolo|ᠣᠮᠣᠯᠣ|孙子"]],
+  [["qoisi|ᠬᠣᠢᠰᠢ|往后","ür-e|ᠦᠷ᠎ᠡ|后代","ündüsü|ᠦᠨᠳᠦᠰᠦ ᠂|根脉"],[],"满文无对应。"],
+  [["tasurasi|ᠲᠠᠰᠤᠷᠠᠰᠢ|断绝"],["mohon|ᠮᠣᡥᠣᠨ|尽","wajin|ᠸᠠᠵᡳᠨ|完"]],
+  [["ügei|ᠥᠬᠡᠢ|无，不"],["akū|ᠠᡴᡡ|无，不"]],
+  [["bolai.|ᠪᠣᠯᠠᠢ ᠃||+bolai=判断语气词"],["kai.|ᡴᠠᡳ᠉||+kai=语气词（强调）"]]
+ ]},
+ {n:"11", zh:"山却不会再增高，", rows:[
+  [["Aɣula|ᠠᠭᠤᠯᠠ|山"],["alin|ᠠᠯᡳᠨ|山"]],
+  [["bolbasu|ᠪᠣᠯᠪᠠᠰᠤ|至于|bol=成为 -basu=条件副动词（作话题标记）"],["oci|ᠣᠴᡳ|至于|o=成为 -ci=条件副动词（作话题标记）"]],
+  [["öskü|ᠥᠰᠬᠦ|增长|ös=生长 -kü=将来形动词","ügei,|ᠥᠬᠡᠢ ᠂|无，不"],["nemerakū,|ᠨᡝᠮᡝᡵᠠᡴᡡ᠈|不增加|neme=增加 -rakū=否定（未完成）"],"否定：蒙文用独立的 ügei，满文否定在词尾 -rakū 里。"]
+ ]},
+ {n:"12", zh:"何必担心平不了它呢？”（蒙文末尾有 kemeǰüküi，意为“如此说道”。）", rows:[
+  [[],["aide|ᠠᡳᡩᡝ|为何|ai=什么 -de=与位格"],"满文疑问词在句首；蒙文对应的 yaɣun-dur 在句末动词前。两者都用与位格。"],
+  [["tegün-i|ᠲᠡᠭᠦᠨ_ᠢ|它|tegün=它 -i=宾格"],["terei|ᡨᡝᡵᡝᡳ|它的|tere=那 -i=属格"],"蒙文宾格，满文属格。"],
+  [["negülgen|ᠨᠡᠭᠦᠯᠭᠡᠨ|移走|negü=迁移 -lge=使动态 -n=方式副动词"],["necihiyeme|ᠨᡝᠴᡳᡥᡳᠶᡝᠮᡝ|铲平|necihiye=平整 -me=并列副动词"]],
+  [["deilkü|ᠳᠡᠢᠯᠬᠦ|能胜任|deil=胜 -kü=将来形动词","ügei-eče|ᠥᠬᠡᠢ_ᠠᠴᠠ|不能（因此）|ügei=无 -eče=从格"],["muterakū|ᠮᡠᡨᡝᡵᠠᡴᡡ|不能|mute=能 -rakū=否定（未完成）","de|ᡩᡝ||+de=与位格"],"表示担忧的缘由：蒙文用从格，满文用与位格。"],
+  [["yaɣun-dur|ᠶᠠᠭᠤᠨ_ᠳᠤᠷ|为何|yaɣun=什么 -dur=与位格"],[]],
+  [["ǰobamui”|ᠵᠣᠪᠠᠮᠤᠢ 》|发愁|ǰoba=受苦，发愁 -mui=现在将来时"],["sengguwembi.|ᠰᡝᠩᡤᡠᠸᡝᠮᠪᡳ᠉|担忧|sengguwe=忧惧 -mbi=现在将来时"]],
+  [["kemeǰüküi.|ᠬᠡᠮᠡᠵᠦᠬᠦᠢ ᠃|（他）这样说了|keme=说 -ǰüküi=过去时（叙述）"],[]]
+ ]}
+];
+/*DATA-END*/
+
+const NNBSP = " ";
+function el(tag, cls, text){ const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; }
+function parseMorphs(spec, tr, zh){
+  if(!spec) return [{form:tr.replace(/[“”.,!:]/g,""), gloss:zh, kind:"root"}];
+  return spec.split(" ").map(s=>{
+    const i=s.indexOf("="); let form=s.slice(0,i); const gloss=s.slice(i+1);
+    let kind="root";
+    if(form.startsWith("-")) kind="vfx";
+    else if(form.startsWith("+")){ kind="part"; form=form.slice(1); }
+    if(/格/.test(gloss)) kind="case";
+    return {form, gloss, kind};
+  });
+}
+function chip(m){ return el("span","chip "+m.kind, m.gloss); }
+function tokEl(str){
+  const [tr, , zh, spec] = str.split("|");
+  const box=el("div","tok");
+  box.appendChild(el("div","tr",tr));
+  const ms=parseMorphs(spec,tr,zh);
+  if(!zh){ const z=el("div","zh"); ms.forEach(m=>z.appendChild(chip(m))); box.appendChild(z); return box; }
+  box.appendChild(el("div","zh",zh));
+  if(ms.length>1){
+    const mo=el("div","mo");
+    ms.forEach(m=>{
+      const p=el("span","mp "+(m.kind==="root"?"root":""));
+      p.appendChild(el("b",null,m.form));
+      p.appendChild(m.kind==="root"? el("i",null,m.gloss) : chip(m));
+      mo.appendChild(p);
+    });
+    box.appendChild(mo);
+  }
+  return box;
+}
+function cellTl(toks, side){
+  const c=el("div","c tl "+side);
+  if(!toks.length) c.appendChild(el("span","none","—"));
+  toks.forEach(t=>c.appendChild(tokEl(t)));
+  return c;
+}
+function cellSc(toks, side){
+  const c=el("div","c sc "+side);
+  c.lang = side==="m" ? "mn-Mong" : "mnc-Mong";
+  if(!toks.length) c.appendChild(el("span","none","—"));
+  toks.forEach(t=>c.appendChild(el("span","v", t.split("|")[1].replace(/_/g,NNBSP))));
+  return c;
+}
+const table=document.getElementById("table");
+DATA.forEach(s=>{
+  const h=el("div","sent");
+  h.appendChild(el("span","num",s.n));
+  h.appendChild(el("p",null,s.zh));
+  table.appendChild(h);
+  s.rows.forEach(([m,j,note])=>{
+    const r=el("div","row");
+    r.append(cellTl(m,"m"), cellSc(m,"m"), cellSc(j,"j"), cellTl(j,"j"));
+    if(note) r.appendChild(el("div","note",note));
+    table.appendChild(r);
+  });
+});
+const tg=document.getElementById("mo-toggle");
+try{ if(localStorage.getItem("yg-mo")==="0"){ tg.checked=false; document.body.classList.add("hide-mo"); } }catch(e){}
+tg.addEventListener("change",()=>{
+  document.body.classList.toggle("hide-mo",!tg.checked);
+  try{ localStorage.setItem("yg-mo",tg.checked?"1":"0"); }catch(e){}
+});
+</script>
+
+</body></html>

@@ -1,0 +1,51 @@
+/* 通用：页面底子、版心、按钮、小标签、提示框。 */
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-ui); font-size: 15px; line-height: 1.6; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+a { color: var(--lapis); }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+
+/* 版心：每个栏目的外框 */
+.wrap {
+  max-width: 64rem; margin: 0 auto;
+  padding-block: 1.75rem 3rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 1.1rem;
+}
+
+/* 栏目标题 */
+.vh { margin: 0; font-family: var(--f-head); font-weight: 600; font-size: 1.75rem; letter-spacing: .06em; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; border-bottom: 2px solid var(--ink); padding-bottom: .35rem; }
+.sec-head h2 { margin: 0; font-size: 1.1rem; letter-spacing: .08em; }
+.sec-head .meta { font-size: .82rem; color: var(--ink-soft); }
+.sec-head.plain { border: 0; padding: 0; justify-content: flex-start; }
+.small { margin: 0; font-size: .8rem; color: var(--ink-soft); }
+.backlink { font-size: .85rem; color: var(--ink-soft); text-decoration: none; }
+.backlink:hover { color: var(--lapis); }
+
+/* 按钮与分段按钮 */
+.btn {
+  font: inherit; font-size: .85rem; line-height: 1.3; padding: .4rem .75rem; cursor: pointer;
+  border: 1px solid var(--rule); border-radius: 5px; background: var(--sheet); color: var(--ink);
+}
+.btn:hover { border-color: var(--lapis); }
+.btn[aria-pressed="true"], .btn.primary { background: var(--lapis); border-color: var(--lapis); color: var(--sheet); }
+a.btn { text-decoration: none; display: inline-block; }
+.toolbar { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; background: var(--sheet); }
+.seg button { font: inherit; font-size: .85rem; padding: .4rem .8rem; border: 0; background: transparent; color: var(--ink); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--lapis); color: var(--sheet); }
+
+/* 语言小标签、空状态、提示 */
+.lchips { display: inline-flex; gap: .3rem; flex-wrap: wrap; }
+.lchip { font-size: .72rem; padding: 0 .45rem; border-radius: 999px; border: 1px solid var(--rule); color: var(--ink-soft); white-space: nowrap; }
+.empty-box { padding: 1rem; border: 1px dashed var(--rule); border-radius: 6px; color: var(--ink-soft); font-size: .9rem; background: var(--sheet); }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--sheet); padding: .45rem .9rem; border-radius: 5px; font-size: .85rem; z-index: 20; }
+/* 配置文件写错时页面顶上的提示 */
+.problems { background: #fff3cd; color: #5c4400; border-bottom: 2px solid #e0b100; padding: .7rem max(16px, env(safe-area-inset-left, 0px)); font-size: .9rem; }
+.problems ul { margin: .3rem 0 0; padding-left: 1.2rem; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

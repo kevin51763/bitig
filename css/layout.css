@@ -1,0 +1,74 @@
+/* 页头、页脚和首页。 */
+
+/* ---------- 页头 ---------- */
+.site-head { background: var(--sheet); border-bottom: 1px solid var(--rule); }
+.site-head .in {
+  max-width: 76rem; margin: 0 auto; padding-block: .7rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.25rem;
+}
+.brand { font-family: var(--f-brush); font-weight: 400; font-size: 1.6rem; letter-spacing: .12em; line-height: 1; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.nav { display: flex; flex-wrap: wrap; gap: .15rem; margin-right: auto; }
+.nav a { color: var(--ink-soft); text-decoration: none; font-size: .9rem; padding: .3rem .6rem; border-radius: 5px; }
+.nav a:hover { color: var(--ink); background: var(--paper); }
+.nav a[aria-current="page"] { color: var(--sheet); background: var(--lapis); }
+.dict-link { display: inline-flex; align-items: center; gap: .4rem; font-size: .9rem; font-weight: 600; color: var(--seal); text-decoration: none;
+  border: 1px solid var(--seal); border-radius: 5px; padding: .3rem .7rem; white-space: nowrap; }
+.dict-link:hover { background: var(--seal); color: var(--sheet); }
+
+/* ---------- 页脚 ---------- */
+.site-foot { border-top: 1px solid var(--rule); background: var(--sheet); margin-top: 1rem; }
+.site-foot .in { max-width: 76rem; margin: 0 auto; padding-block: .9rem calc(.9rem + env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; font-size: .82rem; color: var(--ink-soft); }
+.foot-name { font-family: var(--f-brush); font-size: 1.15rem; color: var(--seal); }
+
+/* ---------- 首页大标题 ---------- */
+.hero .lead { margin: .35rem 0 0; color: var(--ink-soft); max-width: 44rem; }
+.hero .origin { margin: .5rem 0 0; font-size: .82rem; color: var(--ink-soft); max-width: 44rem; font-family: var(--f-zh); }
+.brush-title { margin: 0; display: flex; align-items: center; gap: .9rem; font-family: var(--f-brush); font-weight: 400; font-size: 3.6rem; letter-spacing: .18em; line-height: 1.1; }
+.seal { font-family: var(--f-brush); font-size: 1.5rem; letter-spacing: 0; color: var(--sheet); background: var(--seal); width: 2.4rem; height: 2.4rem;
+  display: inline-flex; align-items: center; justify-content: center; border-radius: 4px; transform: rotate(-4deg);
+  box-shadow: inset 0 0 0 2px var(--seal), inset 0 0 0 3px var(--sheet); }
+
+/* ---------- 名句条（首页深色那一条） ---------- */
+.saying-band { position: relative; background: var(--scroll); color: var(--scroll-ink); border-radius: 6px; border-top: 3px solid var(--seal);
+  padding: 1.4rem 1.4rem 2.2rem; display: flex; flex-direction: column; gap: .8rem; }
+.saying-band .btn { background: transparent; color: var(--scroll-ink); border-color: var(--scroll-rule); }
+.saying-band .btn:hover { border-color: var(--scroll-ink); }
+.say-next { position: absolute; top: .8rem; right: .9rem; font-size: .8rem; padding: .25rem .6rem; }
+.say-all { position: absolute; right: .95rem; bottom: .7rem; font-size: .8rem; color: var(--scroll-soft); text-decoration: none; }
+.say-all:hover { color: var(--scroll-ink); text-decoration: underline; }
+.saying { display: flex; gap: 1.4rem 2rem; align-items: center; flex-wrap: wrap; min-height: 9rem; padding-right: 4.5rem; }
+.say-sc { font-size: calc(2.1rem * var(--s, 1)); line-height: 1.7; min-width: 0; flex: 1 1 20rem; overflow-wrap: anywhere; }
+.say-sc.vert { writing-mode: vertical-lr; flex: none; max-height: 15rem; font-size: calc(1.9rem * var(--s, 1)); }
+.say-text { flex: 1 1 18rem; min-width: 0; display: flex; flex-direction: column; gap: .3rem; }
+.say-lang { font-size: .75rem; letter-spacing: .15em; color: var(--scroll-soft); }
+.say-lat { margin: 0; font-family: var(--f-lat); font-size: 1.2rem; font-style: italic; }
+.say-small { margin: 0; font-family: var(--f-lat); font-size: .9rem; color: var(--scroll-soft); }
+.say-zh { margin: .3rem 0 0; font-family: var(--f-zh); font-size: 1.15rem; letter-spacing: .04em; }
+.say-src { margin: 0; font-size: .78rem; color: var(--scroll-soft); }
+.say-src::before { content: "—— "; }
+
+/* ---------- 查词框 ---------- */
+.dict-card { border: 1px solid var(--seal); border-left-width: 4px; background: var(--sheet); border-radius: 6px; padding: .9rem 1.1rem; display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; align-items: center; }
+.dict-card h2 { margin: 0; font-size: 1.05rem; }
+.dict-card p { margin: .2rem 0 0; font-size: .85rem; color: var(--ink-soft); max-width: 40rem; }
+.dict-card .links { display: flex; flex-wrap: wrap; gap: .5rem; }
+.dict-card .links a { font-size: .9rem; color: var(--seal); border: 1px solid var(--seal); border-radius: 5px; padding: .35rem .8rem; text-decoration: none; font-weight: 600; }
+.dict-card .links a:hover { background: var(--seal); color: var(--sheet); }
+
+/* ---------- 编辑器入口卡片 ---------- */
+.tool-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: .75rem; margin-top: .75rem; }
+.tool-card { display: flex; gap: .9rem; align-items: center; padding: .85rem 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; color: var(--ink); text-decoration: none; min-width: 0; }
+.tool-card:hover { border-color: var(--lapis); }
+.tool-card .glyph { font-size: 1.6rem; line-height: 1.2; min-width: 2.4rem; text-align: center; color: var(--lapis); }
+.tool-card .glyph.v { writing-mode: vertical-lr; font-size: 1.5rem; }
+.tool-card b { display: block; font-size: 1rem; }
+.tool-card span.d { display: block; font-size: .8rem; color: var(--ink-soft); }
+#home-texts { margin-top: .6rem; }
+
+@media (max-width: 560px) {
+  .brush-title { font-size: 2.8rem; }
+  .saying { padding-right: 0; padding-top: 1.4rem; }
+}

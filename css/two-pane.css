@@ -1,0 +1,33 @@
+/* 通用两栏编辑器（js/editors/two-pane.js）：满文、蒙古文、藏文、察合台文。
+   原文一栏的字体、方向、字号比例在 config/languages.js 里设定。 */
+:root { --mm-ms: 34px; --mm-ls: 21px; }
+.mm-ctl { display: flex; flex-wrap: wrap; gap: .5rem 1.4rem; align-items: center; font-size: .85rem; color: var(--ink-soft); }
+.mm-ctl .g { display: inline-flex; gap: .5rem; align-items: center; }
+.mm-ctl input[type=range] { accent-color: var(--lapis); width: 110px; }
+.mm-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; }
+.mm-col { display: flex; flex-direction: column; min-width: 0; }
+.mm-col-head { display: flex; align-items: baseline; gap: .75rem; padding: 0 2px .45rem; }
+.mm-col-head h2 { margin: 0; font-size: 1rem; }
+.mm-col-head .sub { font-size: .8rem; color: var(--ink-soft); margin-right: auto; }
+.mm-pane { position: relative; height: max(26rem, calc(100vh - 21rem)); background: var(--sheet); border: 1px solid var(--rule); border-top: 2px solid var(--ink); border-radius: 0 0 6px 6px; overflow: hidden; }
+.mm-pane:focus-within { border-color: var(--lapis); border-top-color: var(--ink); }
+.mm-pane textarea, .mm-pane .mm-bd-in { margin: 0; border: 0; padding: 22px 24px; font-size: inherit; line-height: inherit; letter-spacing: 0; word-spacing: normal;
+  white-space: pre-wrap; overflow-wrap: break-word; tab-size: 4; font-family: inherit; font-weight: 400; text-rendering: auto; }
+.mm-pane textarea { position: absolute; inset: 0; width: 100%; height: 100%; resize: none; background: transparent; color: var(--ink); caret-color: var(--seal); outline: none; z-index: 1; }
+.mm-pane .mm-bd { position: absolute; left: 0; top: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.mm-pane .mm-bd-in { position: relative; color: transparent; min-width: 100%; min-height: 100%; }
+.mm-pane mark { color: transparent; border-radius: 2px; background: var(--hl-self); }
+.mm-pane mark.dst { background: var(--hl); }
+.mm-pane.m { font-size: calc(var(--mm-ms) * var(--mm-scale, 1)); line-height: 1.75; }
+.mm-pane.m.vert textarea, .mm-pane.m.vert .mm-bd-in { writing-mode: vertical-lr; }
+.mm-pane.l { font-family: var(--f-lat); font-size: var(--mm-ls); line-height: 1.9; }
+.mm-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1rem; font-size: .9rem; color: var(--ink-soft); min-height: 2.2em; border-top: 1px solid var(--rule); padding-top: .6rem; }
+#mm-pair { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1.6rem; }
+.mm-p { display: flex; align-items: center; gap: .7rem; color: var(--ink); }
+.mm-p .mw { font-family: var(--mm-font, var(--f-mong)); font-size: 1.4rem; }
+.mm-p .lw { font-family: var(--f-lat); font-size: 1.15rem; font-weight: 600; }
+.mm-p .ar { color: var(--lapis); }
+#mm-msg { margin-left: auto; }
+.mm-notes { max-width: 52em; font-size: .85rem; color: var(--ink-soft); }
+.mm-notes p { margin: 0 0 .6em; }
+@media (max-width: 860px) { .mm-grid { grid-template-columns: 1fr; } .mm-pane { height: 56vh; min-height: 300px; } }

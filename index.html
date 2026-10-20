@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>四译馆</title>
+<!-- 这个文件只是页面的骨架。要改文字和内容，请看 config/ 和 content/ 两个文件夹；详见 README.md -->
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/three-pane.css">
+<link rel="stylesheet" href="css/two-pane.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="in">
+    <a class="brand" id="brand" href="#home"></a>
+    <nav class="nav" id="nav" aria-label="栏目"></nav>
+    <a class="dict-link" id="dict-link" href="#" target="_blank" rel="noopener"></a>
+  </div>
+</header>
+
+<!-- 首页 -->
+<main class="view wrap home" id="v-home">
+  <div class="hero">
+    <h1 class="brush-title"><span id="home-title"></span><span class="seal" id="home-seal" aria-hidden="true"></span></h1>
+    <p class="lead" id="home-lead"></p>
+    <p class="origin" id="home-origin"></p>
+  </div>
+  <section class="saying-band" aria-label="名句">
+    <button type="button" class="btn say-next" id="say-next">换一句</button>
+    <div class="saying" id="saying" aria-live="polite"></div>
+    <a class="say-all" href="#sayings" id="say-all">全部名句 →</a>
+  </section>
+  <section class="dict-card" id="home-dicts" aria-label="词典">
+    <div><h2>查词</h2><p id="home-dict-intro"></p></div>
+    <div class="links" id="home-dict-links"></div>
+  </section>
+  <section id="home-tools-sec">
+    <div class="sec-head"><h2>对照编辑</h2><span class="meta">原文与拉丁字母互转，点一个词，各栏同时标出</span></div>
+    <div class="tool-cards" id="home-tools"></div>
+  </section>
+  <section>
+    <div class="sec-head"><h2>新近范文</h2><a class="meta" href="#texts">全部范文 →</a></div>
+    <div id="home-texts"></div>
+  </section>
+</main>
+
+<!-- 范文目录 -->
+<main class="view wrap" id="v-texts" hidden>
+  <div class="sec-head plain"><h1 class="vh">范文</h1><span class="meta" id="texts-count"></span></div>
+  <p class="small">按语言分类。同一篇涉及几种语言，就同时列在几个分类下。</p>
+  <div class="groups" id="texts-groups"></div>
+</main>
+
+<!-- 单篇范文 -->
+<main class="view wrap" id="v-text" hidden></main>
+
+<!-- 资料 -->
+<main class="view wrap" id="v-mats" hidden>
+  <div class="sec-head plain"><h1 class="vh">资料</h1><span class="meta" id="mats-count"></span></div>
+  <p class="small">按语言分类的参考资料：PDF、图片、文本，或网上资源的链接。同一份资料可以归入几种语言。</p>
+  <div class="groups" id="mats-groups"></div>
+</main>
+
+<!-- 全部名句 -->
+<main class="view wrap" id="v-says" hidden></main>
+
+<!-- 编辑器：内容由 js/editors/ 里的文件生成 -->
+<main class="view wrap" id="v-tri" hidden></main>
+<main class="view wrap" id="v-mm" hidden></main>
+
+<footer class="site-foot">
+  <div class="in"><span class="foot-name" id="foot-name"></span><span class="foot-meta" id="foot-meta"></span></div>
+</footer>
+<div class="toast" id="toast" hidden></div>
+
+<!-- 载入顺序不能乱：先命名空间，再配置和内容，再转换规则和编辑器，最后是各栏目和路由 -->
+<script src="js/siyi.js"></script>
+
+<script src="config/site.js"></script>
+<script src="config/languages.js"></script>
+<script src="config/dictionaries.js"></script>
+
+<script src="content/texts.js"></script>
+<script src="content/materials.js"></script>
+<script src="content/sayings.js"></script>
+
+<script src="js/data/turkic-corpus.js"></script>
+<script src="js/converters/turkic-common.js"></script>
+<script src="js/converters/old-uyghur.js"></script>
+<script src="js/converters/old-turkic.js"></script>
+<script src="js/converters/manchu.js"></script>
+<script src="js/converters/mongolian.js"></script>
+<script src="js/converters/tibetan.js"></script>
+<script src="js/converters/chagatai.js"></script>
+<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js"></script> -->
+
+<script src="js/editors/three-pane.js"></script>
+<script src="js/editors/two-pane.js"></script>
+
+<script src="js/pages/shared.js"></script>
+<script src="js/pages/sayings.js"></script>
+<script src="js/pages/texts.js"></script>
+<script src="js/pages/materials.js"></script>
+<script src="js/pages/home.js"></script>
+<script src="js/router.js"></script>
+</body>
+</html>
