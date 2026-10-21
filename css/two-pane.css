@@ -22,12 +22,8 @@
 .mm-pane.m.vert textarea, .mm-pane.m.vert .mm-bd-in { writing-mode: vertical-lr; }
 .mm-pane.l { font-family: var(--f-lat); font-size: var(--mm-ls); line-height: 1.9; }
 .mm-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1rem; font-size: .9rem; color: var(--ink-soft); min-height: 2.2em; border-top: 1px solid var(--rule); padding-top: .6rem; }
-#mm-pair { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1.6rem; }
-.mm-p { display: flex; align-items: center; gap: .7rem; color: var(--ink); }
-.mm-p .mw { font-family: var(--mm-font, var(--f-mong)); font-size: 1.4rem; }
-.mm-p .lw { font-family: var(--f-lat); font-size: 1.15rem; font-weight: 600; }
-.mm-p .ar { color: var(--lapis); }
 #mm-msg { margin-left: auto; }
+.mm-bar:has(#mm-msg:empty) { display: none; }
 .mm-notes { max-width: 52em; font-size: .85rem; color: var(--ink-soft); }
 .mm-notes p { margin: 0 0 .6em; }
 @media (max-width: 860px) { .mm-grid { grid-template-columns: 1fr; } .mm-pane { height: 56vh; min-height: 300px; } }

@@ -12,7 +12,7 @@
 
    每一项可以写：
      title   标题
-     note    说明：作者、年代、用途等（可不写）
+     note    作者与出版信息（可不写）
      langs   归入哪些语言（同范文）；不写就归入“综合”
      file    文件路径，或者
      url     网址
@@ -21,16 +21,15 @@
 SIYI.materials = [
   {
     title: '满洲实录',
-    note: '中华书局 1986 年影印《清实录》第一册所收，八卷。满、汉、蒙三体合璧，附实录图。黑白扫描，共 426 页。',
+    note: '北京：中华书局，1986 年影印（《清实录》第一册）。',
     langs: ['mnc', 'mn', '汉文'],
     url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/%E3%80%8A%E6%BB%A1%E6%B4%B2%E5%AE%9E%E5%BD%95%E3%80%8B.pdf',
-    size: '95 MB',
     added: '2026-10-21',
   },
 
   {
     title: 'A Grammar of Orkhon Turkic',
-    note: 'Talat Tekin 著。Bloomington: Indiana University; The Hague: Mouton, 1968（Uralic and Altaic Series 69）。本站如尼文的换写体系和转写规则依据此书。',
+    note: 'Talat Tekin 著。Bloomington: Indiana University; The Hague: Mouton, 1968（Uralic and Altaic Series 69）。',
     langs: ['rn'],
     url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/A%20grammar%20of%20orkhon%20turkic%20(Talat%20Tekin)%20(z-library.sk%2C%201lib.sk%2C%20z-lib.sk).pdf',
     added: '2026-10-21',

@@ -27,7 +27,7 @@
       <div class="mm-pane l" id="mm-paneL"><div class="mm-bd"><div class="mm-bd-in"></div></div><textarea id="mm-taL" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="拉丁转写"></textarea></div>
     </div>
   </div>
-  <div class="mm-bar" aria-live="polite"><span id="mm-pair">在任意一侧选中或点进一个词，另一侧会标出对应的词。</span><span id="mm-msg"></span></div>
+  <div class="mm-bar" aria-live="polite"><span id="mm-msg"></span></div>
   <div class="mm-notes" id="mm-notes"></div>
 `;
   document.getElementById('v-mm').innerHTML = MARKUP;
@@ -88,7 +88,6 @@
     paintSide(side, idx, 'src'); paintSide(other(side), idx, 'dst');
     syncScroll('m'); syncScroll('l');
     if (idx.length) reveal(other(side));
-    showPair(idx);
   }
   function repaint() {
     if (active) { paintSide(active.side, active.idx, 'src'); paintSide(other(active.side), active.idx, 'dst'); }
@@ -107,12 +106,6 @@
     }
     syncScroll(side);
   }
-  function showPair(idx) {
-    const box = $('mm-pair');
-    if (!idx.length) { box.textContent = '在任意一侧选中或点进一个词，另一侧会标出对应的词。'; return; }
-    const pick = idx.slice(0, 3).map(i => { const a = align[i]; return [ta.m.value.slice(...a.m), ta.l.value.slice(...a.l)]; });
-    box.innerHTML = pick.map(([m, l]) => `<span class="mm-p"><span class="mw">${esc(m)}</span><span class="ar">↔</span><span class="lw">${esc(l)}</span></span>`).join('') + (idx.length > 3 ? `<span>等 ${idx.length} 个词</span>` : '');
-  }
   function fit(side) {
     const t = ta[side], bd = pane[side].querySelector('.mm-bd');
     bd.style.width = t.clientWidth + 'px'; bd.style.height = t.clientHeight + 'px';
@@ -120,7 +113,7 @@
   function syncScroll(side) { const bd = pane[side].querySelector('.mm-bd'); bd.scrollLeft = ta[side].scrollLeft; bd.scrollTop = ta[side].scrollTop; }
   function pressSeg(id, v) { document.querySelectorAll(`#${id} button`).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === v))); }
   function loadText(latin) {
-    ta.l.value = latin; sync('l'); ta.m.scrollLeft = 0; ta.l.scrollTop = 0; active = null; fit('m'); fit('l'); repaint(); showPair([]);
+    ta.l.value = latin; sync('l'); ta.m.scrollLeft = 0; ta.l.scrollTop = 0; active = null; fit('m'); fit('l'); repaint();
   }
 
   function init() {
@@ -152,7 +145,7 @@
       fit('m'); fit('l'); repaint();
     });
     $('mm-sample').addEventListener('click', () => L.UI.sampleScript ? loadScript(L.UI.sampleScript) : loadText(L.UI.sample));
-    $('mm-clear').addEventListener('click', () => { ta.m.value = ''; ta.l.value = ''; align = []; active = null; repaint(); showPair([]); saveDraft(); ta.m.focus(); });
+    $('mm-clear').addEventListener('click', () => { ta.m.value = ''; ta.l.value = ''; align = []; active = null; repaint(); saveDraft(); ta.m.focus(); });
     const msg = $('mm-msg');
     document.querySelectorAll('[data-mmcopy]').forEach(b => b.addEventListener('click', async () => {
       const t = ta[b.dataset.mmcopy].value; if (!t.trim()) { msg.textContent = '这一栏还是空的。'; return; }
@@ -198,7 +191,7 @@
     });
   }
   function loadScript(s) {
-    ta.m.value = s; sync('m'); ta.m.scrollLeft = 0; ta.l.scrollTop = 0; active = null; fit('m'); fit('l'); repaint(); showPair([]);
+    ta.m.value = s; sync('m'); ta.m.scrollLeft = 0; ta.l.scrollTop = 0; active = null; fit('m'); fit('l'); repaint();
   }
 
 

@@ -19,13 +19,12 @@
     <label class="g">字号 <input type="range" id="tri-zoom" min="70" max="170" value="100"></label>
   </div>
 
-  <section class="now" id="now" aria-live="polite"></section>
 
   <div class="tri-grid">
   <section class="pane" id="pane-sc">
     <div class="pane-head">
       <div>
-        <h2><span id="sc-title">回鹘文</span> <span class="tag" id="sc-tag">Old Uyghur</span></h2>
+        <h2><span id="sc-title">回鹘文</span></h2>
       </div>
       <div class="tools">
         <button class="btn" type="button" data-copy="sc">复制</button>
@@ -40,7 +39,7 @@
   <section class="pane" id="pane-tl">
     <div class="pane-head">
       <div>
-        <h2>换写 <span class="tag">transliteration</span></h2>
+        <h2>换写</h2>
       </div>
       <div class="tools"><button class="btn" type="button" data-copy="tl">复制</button></div>
     </div>
@@ -55,7 +54,7 @@
   <section class="pane" id="pane-tr">
     <div class="pane-head">
       <div>
-        <h2>转写 <span class="tag">transcription</span></h2>
+        <h2>转写</h2>
       </div>
       <div class="tools"><button class="btn" type="button" data-copy="tr">复制</button></div>
     </div>
@@ -78,14 +77,6 @@
     </div>
   </details>
 
-  <details class="box" id="memo">
-    <summary>已记住的读法（<span id="memo-n">0</span>）</summary>
-    <div class="inner" id="memo-body"></div>
-  </details>
-
-  <details class="box" id="rules-ug">${SIYI.notes.ug}</details>
-
-  <details class="box" id="rules-rn">${SIYI.notes.rn}</details>
 `;
   document.getElementById('v-tri').innerHTML = MARKUP;
 })();
@@ -103,21 +94,21 @@
     set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   };
   const KEYS = {
-    ug: { draft: 'ougr-draft-v1', user: 'ougr-readings-v1' },
-    rn: { draft: 'ougr-draft-rn-v1', user: 'ougr-readings-rn-v1' }
+    ug: { draft: 'ougr-draft-v1' },
+    rn: { draft: 'ougr-draft-rn-v1' }
   };
   const SAMPLES = {
     ug: { text: 'wyγwr tnkry kwnkwl yrlγ\npylyk kʾlmʾδwk\npyr ʾyky ʾwyc twyrt' },
     rn: { text: 't¹b¹γč : b¹ud¹n¹ : s¹b¹i : s¹üčig : γis¹i : y²imšq : r²ms²\nt²ŋr²id²a : b¹ul¹mš : t²ür²kͦ : b²il²ga : qγn¹' }
   };
   const UI = {
-    ug: { title: '回鹘文', tag: 'Old Uyghur', lang: 'und-Ougr', aria: '回鹘文',
+    ug: { title: '回鹘文', lang: 'und-Ougr', aria: '回鹘文',
       kbLabel: '在回鹘文栏里，拉丁键直接打出回鹘文字母（a→ʾ，S→š，数字 1–4 打附加点）',
       kb1: '字母（按字母表顺序，左上角是对应的拉丁键）', kb2: '附加点与标点',
       tlPal: ['ʾ', 'B', 'Γ', 'Q', 'X', 'Δ', 'Š', 'Ž', 'C', '̇', '̈', '̣', '̤', '|', '‖', ':', '⁘'],
       trPal: ['ä', 'ï', 'ö', 'ü', 'γ', 'q', 'ŋ', 'ñ', 'č', 'š', 'ž', 'ā', 'ī', 'ū'],
       unk: '元音请用 ʾ、W、Y 表示。' },
-    rn: { title: '如尼文', tag: 'Old Turkic · Orkhon', lang: 'und-Orkh', aria: '鄂尔浑如尼文',
+    rn: { title: '如尼文', lang: 'und-Orkh', aria: '鄂尔浑如尼文',
       kbLabel: '在如尼文栏里，拉丁键直接打出如尼文字母（b→b¹，B→b²，u→o/u，U→ö/ü，数字打音节字母，: 打隔词号）',
       kb1: '字母（按 Tekin 字母表的顺序，左上角是对应的拉丁键）', kb2: '隔词号',
       tlPal: ['¹', '²', 'γ', 'g', 'q', 'k', 'qͦ', 'kͦ', 'qͥ', 'i͟č', 'n͟č', 'n͟t', 'l͟t', 'a͟š', 'b͟a͟š', 'ŋ', 'ń', 'č', 'š', ':'],
@@ -127,7 +118,6 @@
 
   let mode = store.get('ougr-mode') === 'rn' ? 'rn' : 'ug';
   let M = O.MODES[mode];
-  let user = {};
   let state = { tlW: [], trW: [] };
   let active = new Set(); let activeFrom = null;
   let kbOn = true;
@@ -160,18 +150,8 @@
     t.value = nv; t.setSelectionRange(p, p);
   }
   const mapKeys = s => Array.from(s).map(c => KEYMAP[mode][c] ?? c).join('');
-  const trText = tl => O.mapText(tl, O.LAT_WORD, w => M.info(w, user).tr, M.sepTlToTr);
+  const trText = tl => O.mapText(tl, O.LAT_WORD, w => M.info(w, null).tr, M.sepTlToTr);
   const scText = (tl, unk) => O.mapText(tl, O.LAT_WORD, w => M.fromTl(w, unk), M.sepFromTl);
-
-  let saveUserTimer = null;
-  function remember(tl, w) {
-    const k = M.canon(tl); const base = M.base(k);
-    if (w === base) { if (k in user) delete user[k]; else return; }
-    else if (user[k] !== w) user[k] = w; else return;
-    clearTimeout(saveUserTimer);
-    const m = mode;
-    saveUserTimer = setTimeout(() => { if (m === mode) { store.set(KEYS[mode].user, JSON.stringify(user)); renderMemo(); } }, 300);
-  }
 
   function fromTr() {
     const newW = O.words(TA.tr.value, O.LAT_WORD); const oW = state.trW, oT = state.tlW;
@@ -182,7 +162,7 @@
     const midTl = midNew.map((w, j) => {
       const o = M.orth(w);
       const t = same && midOld[j] !== undefined && M.skel(o) === M.skel(midOld[j]) ? midOld[j] : o;
-      remember(t, w); return t;
+      return t;
     });
     const tlW = [...oT.slice(0, p), ...midTl, ...oT.slice(oT.length - s)];
     let k = 0;
@@ -260,39 +240,6 @@
   function renderAll(src) {
     PANES.forEach(renderPane);
     PANES.forEach(p => { if (p !== src) reveal(p); });
-    renderNow();
-  }
-
-  // ---------- current word strip ----------
-  const nowEl = $('now');
-  const INFO = { ug: new Map(), rn: new Map() };
-  O.LETTERS.forEach(l => INFO.ug.set(l.ch, { g: l.ch, t: O.MODES.ug.up(l.tl), n: l.name, cp: l.cp }));
-  O.MARKS.forEach(m => INFO.ug.set(m.ch, { g: '◌' + m.ch, t: '◌' + m.comb, n: m.name, cp: m.cp }));
-  O.PUNCT.forEach(p => INFO.ug.set(p.ch, { g: p.ch, t: p.tl, n: p.name, cp: p.cp }));
-  O.RN.forEach(r => INFO.rn.set(r.ch, { g: r.ch, t: r.tl, n: r.name, cp: r.cp }));
-  for (const [cp, tl] of Object.entries(O.RN_Y)) INFO.rn.set(String.fromCodePoint(+cp), { g: String.fromCodePoint(+cp), t: tl, n: 'OLD TURKIC LETTER ' + O.Y_NAMES[cp], cp: +cp });
-  const SRC = { user: '你改过的读法', lex: '内置词表', att: 'Tekin 书中拼写实例', corpus: '碑文词形', rule: '规则推断' };
-  function renderNow() {
-    const idx = [...active].sort((a, b) => a - b);
-    const scW = O.words(TA.sc.value, M.WORD);
-    if (!idx.length || idx[0] >= scW.length) {
-      nowEl.innerHTML = '<p class="empty">点一个词，这里显示它的三种写法和逐个字母。</p>';
-      return;
-    }
-    const i = idx[0];
-    const u = scW[i] ?? '', l = state.tlW[i] ?? '', r = state.trW[i] ?? '';
-    const info = l ? M.info(l, user) : null;
-    const chips = Array.from(u).map(ch => {
-      const f = INFO[mode].get(ch) || { g: ch, t: '?', n: '不在这套文字里', cp: ch.codePointAt(0) };
-      return `<li><span class="g ${mode === 'rn' ? 'rn' : ''}">${esc(f.g)}</span><span class="t">${esc(f.t)}</span></li>`;
-    }).join('');
-    const more = idx.length > 1 ? `<span class="src">共选中 ${idx.length} 词，这里显示第一个</span>` : '';
-    nowEl.innerHTML = `<div class="forms">
-        <span><span class="lbl">${UI[mode].title}</span><span class="u ${mode === 'rn' ? 'rn' : ''}" dir="rtl">${esc(u)}</span></span>
-        <span><span class="lbl">换写</span><span class="l">${esc(l)}</span></span>
-        <span><span class="lbl">转写</span><span class="l">${esc(r)}</span></span>
-        ${info ? `<span class="src ${info.src === 'user' ? 'user' : ''}">${SRC[info.src]}</span>` : ''}${more}
-      </div><ol class="chips">${chips}</ol>`;
   }
 
   // ---------- unknown characters ----------
@@ -304,36 +251,6 @@
       : '';
     footTl.hidden = !unk.size;
   }
-
-  // ---------- memo ----------
-  const memoN = $('memo-n'), memoBody = $('memo-body');
-  let confirmClear = false;
-  function renderMemo() {
-    const keys = Object.keys(user).sort();
-    memoN.textContent = keys.length;
-    if (!keys.length) {
-      memoBody.innerHTML = `<p class="small">${UI[mode].title}还没有记住的读法。你在转写栏改过的词会列在这里，下次遇到同样的换写会照你的读法显示。</p>`;
-      return;
-    }
-    memoBody.innerHTML = `<div class="memo-list"><table>
-      <thead><tr><th>${UI[mode].title}</th><th>换写</th><th>你的读法</th><th>原先的推断</th><th></th></tr></thead>
-      <tbody>${keys.map(k => `<tr>
-        <td class="u ${mode === 'rn' ? 'rn' : ''}" dir="rtl">${esc(M.fromTl(k))}</td><td class="l">${esc(M.up ? M.up(k) : k)}</td>
-        <td class="l">${esc(user[k])}</td><td class="l">${esc(M.base(k))}</td>
-        <td><button class="btn" type="button" data-forget="${esc(k)}">删除</button></td></tr>`).join('')}</tbody>
-      </table></div>
-      <div><button class="btn" type="button" id="btn-forget-all">${confirmClear ? '再点一次，全部删除' : '全部删除'}</button></div>`;
-  }
-  memoBody.addEventListener('click', e => {
-    const b = e.target.closest('button'); if (!b) return;
-    if (b.dataset.forget !== undefined) { delete user[b.dataset.forget]; }
-    else if (b.id === 'btn-forget-all') {
-      if (!confirmClear) { confirmClear = true; renderMemo(); return; }
-      user = {}; confirmClear = false;
-    } else return;
-    store.set(KEYS[mode].user, JSON.stringify(user));
-    renderMemo(); sync('tl');
-  });
 
   // ---------- keyboard & palettes ----------
   function insertInto(p, str) {
@@ -441,17 +358,14 @@
   function applyMode(m, first) {
     if (!first) { clearTimeout(draftTimer); store.set(KEYS[mode].draft, TA.tl.value); }
     mode = m; M = O.MODES[m]; store.set('ougr-mode', m);
-    try { user = JSON.parse(store.get(KEYS[m].user) || '{}') || {}; } catch (e) { user = {}; }
     const u = UI[m];
-    $('sc-title').textContent = u.title; $('sc-tag').textContent = u.tag;
+    $('sc-title').textContent = u.title;
     TA.sc.setAttribute('lang', u.lang); TA.sc.setAttribute('aria-label', u.aria);
     fieldSc.classList.toggle('rn', m === 'rn');
     $('tri-orient-lab').textContent = u.title;
     $('tri-orient-g').hidden = !(canVert && m === 'ug');
     setVert(canVert && m === 'ug' && store.get('ougr-vert') !== '0');
-    $('rules-ug').open = false; $('rules-rn').open = false;
-    $('rules-ug').hidden = m !== 'ug'; $('rules-rn').hidden = m !== 'rn';
-    buildKeys(); confirmClear = false; renderMemo();
+    buildKeys();
     TA.sc.dataset.touched = ''; TA.tl.dataset.touched = ''; TA.tr.dataset.touched = '';
     const draft = store.get(KEYS[m].draft);
     if (draft !== null && draft.trim() !== '') load(draft, false); else load(SAMPLES[m].text, true);

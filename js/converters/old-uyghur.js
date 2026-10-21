@@ -230,33 +230,4 @@
   };
   Object.assign(SIYI.turkic, { LETTERS, MARKS, PUNCT, BYID, LEX_UG, corpusUg });
 
-  /* 编辑器下方“转写是怎样推断的”一栏的说明文字 */
-  SIYI.notes.ug = `
-    <summary>回鹘文：转写是怎样推断的</summary>
-    <div class="inner rules">
-      <h3>换写的记法</h3>
-      <ul>
-        <li>换写一律用大写字母。十八个字母依次记作 <span class="l">ʾ B Γ W Z X Y K Δ M N S P C R Š T L</span>，X 是词尾专用的 heth，L 是带钩的 resh。键入时大小写都可以，b、g、d、h 会自动换成 B、Γ、Δ、X。</li>
-        <li><span class="l">Q</span> 表示 Γ 上加两点，<span class="l">Ž</span> 表示 Z 下加两点。其余附加点用组合符号：上一点 <span class="l">◌̇</span>、上两点 <span class="l">◌̈</span>、下一点 <span class="l">◌̣</span>、下两点 <span class="l">◌̤</span>。</li>
-        <li>标点：<span class="l">|</span> 一竖，<span class="l">‖</span> 两竖，<span class="l">:</span> 两点，<span class="l">⁘</span> 四点。</li>
-      </ul>
-      <h3>从换写读出转写</h3>
-      <ul>
-        <li>先判断整个词是后元音还是前元音。含 Γ、Q、X 的算后元音；含 K 的算前元音；有 WY 连写，或词首是单个 ʾ 接辅音的，也算前元音；都不符合时按后元音处理。</li>
-        <li>o、ö、e 只出现在第一音节，后面的音节只有 a、ï、u 或 ä、i、ü（Tekin §2.121）。所以第一音节之后的 W 只读 u 或 ü。第一音节里 o 与 u、ö 与 ü 字面上分不开，一律先给 u、ü。</li>
-        <li>词首 ʾʾ 读 a（前元音词读 e），单个 ʾ 读 ä，ʾY 读 ï 或 i，ʾW 读 u 或 ü，ʾWY 读 ü。</li>
-        <li>Y 在词首、元音之后或 ʾ、W 之前读辅音 y，其余读 ï 或 i。</li>
-        <li>d、γ、g、ŋ、ń、r、z 不出现在词首，l 和 p 只在借词的词首出现（Tekin §2.2）。所以词首的 Γ 读 q，词首的 P 读 b。另外 NK 读 ŋ，Δ 读 d，B 读 v，C 读 č。K 在 Δ、L 之后，或在 i 之后作词尾时读 g。</li>
-        <li>闭元音 e 只在第一音节，常与 i 交替，如 eki ~ iki、el ~ il、yer ~ yir（Tekin §2.116）。回鹘文都写 Y，内置词表按通行写法给出。</li>
-        <li>查词的顺序：你改过的读法 → 内置的约五十个常用词 → 从 Tekin 书中五篇碑文转写里收集的 1615 个词形。只有拼写完全吻合，或只差一个字母且没有别的候选时，才采用碑文词形。都查不到才按上面的规则推。</li>
-      </ul>
-      <h3>从转写写出换写</h3>
-      <ul>
-        <li>词首 a、e 写 ʾʾ，ä 写 ʾ，i、ï 写 ʾY，o、u 写 ʾW，ö、ü 写 ʾWY。词中 a、ä、e 写 ʾ；ö、ü 在第一音节写 WY，之后写 W。</li>
-        <li>b、p 都写 P，ŋ 写 NK，d 写 Δ，č 写 C，x 写 Q，g 在前元音词里写 K、在后元音词里写 Γ。</li>
-        <li>如果你只改了元音，辅音没变，换写保持原样，只记下你的读法。这样 TNKRY 这类省写元音的拼法不会被改掉。</li>
-      </ul>
-      <p class="small">字母、码位与换写依 Unicode 回鹘文编码提案（Pandey 2020）；元音的写法参照 Kara 1996；音系依 Tekin, <i>A Grammar of Orkhon Turkic</i> (1968) 第二章。</p>
-    </div>
-`;
 })();

@@ -244,40 +244,4 @@
   };
   Object.assign(SIYI.turkic, { RN, RN_Y, Y_NAMES, parseRn, readRn, orthRn, canonRn, corpusRn, ATT_RN });
 
-  /* 编辑器下方“Tekin 的换写体系与拼写规则”一栏的说明文字 */
-  SIYI.notes.rn = `
-    <summary>如尼文：Tekin 的换写体系与拼写规则</summary>
-    <div class="inner rules">
-      <h3>换写的记法（Tekin §1.11）</h3>
-      <ul>
-        <li>四个元音字母记作 <span class="l">a i u ü</span>，每个表两个元音：a 表 a/ä，i 表 ï/i，u 表 o/u，ü 表 ö/ü。</li>
-        <li>大多数辅音分前后两套。上标 ¹ 的一套用于后元音词，上标 ² 的一套用于前元音词，如 <span class="l">b¹ b²、t¹ t²</span>。<span class="l">γ / g</span>、<span class="l">q / k</span> 本身就分前后。<span class="l">č m ń ŋ p š z</span> 前后通用。</li>
-        <li>音节字母：<span class="l">qͦ</span> 表 oq、uq、qo、qu，<span class="l">kͦ</span> 表 ök、ük、kö、kü，<span class="l">qͥ</span> 表 ïq、qï。带下划线的 <span class="l">i͟č n͟č n͟t l͟t a͟š b͟a͟š</span> 各是一个字母，不是两个。<span class="l">o͟p</span>、<span class="l">o͟t</span> 见于手抄本和叶尼塞碑铭。</li>
-        <li>碑文用形似冒号的符号 ⁚ 隔词（§1.23），换写记作 :，转写里换成空格。</li>
-        <li>打字时可以用简写：b1 → b¹，t2 → t²，oq → qͦ，ök → kͦ，ïq → qͥ，op → o͟p，[nt] → n͟t，[nč]、[lt]、[ič]、[aš]、[baš] 同理。</li>
-        <li>叶尼塞变体字母读进来时会换成对应的鄂尔浑字形，只有 ä 和 e 两个叶尼塞元音字母保留。</li>
-      </ul>
-      <h3>拼写规则（Tekin §1.22）</h3>
-      <ul>
-        <li>辅音字母本身代表“a 或 ä + 该辅音”的音节，所以词首的 a、ä、e 不写，第一音节非词首的 a、ä、e 也不写。ï、i 在词首总写，o、u、ö、ü 在第一音节通常写出。</li>
-        <li>词尾元音一律写出。非第一音节的 a、ä 和短 ï、i 一般不写，长元音则写。</li>
-        <li>非第一音节的 u、ü 在不圆唇音节之后写出，在圆唇音节之后通常不写，如 b¹ud¹n¹ bodun、t¹uqz toquz。</li>
-        <li>s² 常混用在后元音词里 ï 的前后；词首 y 后接 i 时常用 y²（§1.2221、§1.2222）。</li>
-      </ul>
-      <h3>从换写读出转写</h3>
-      <ul>
-        <li>先按辅音字母判断整个词的前后：¹ 类以及 γ、q、u 算后元音，² 类以及 g、k、ü 算前元音，s² 和 y² 只算半票。</li>
-        <li>按音节结构补出没写的元音。词首不能出现 d、γ、g、ŋ、ń、r、z，l 和 p 只见于借词（§2.2），遇到就在前面补 a 或 ä；连续两个以上的辅音中间补元音；词尾只允许 lq/lk、lp、lt、nč、nt、rč、rq/rk、rs、rt、yt 这几种复辅音，其他组合中间补元音。</li>
-        <li>补的元音一般是 a 或 ä；前一音节是圆唇元音时补 u 或 ü。d、t 与 m、ŋ 之间补 ï 或 i，对应 -dïm、-dïŋ 这类词尾；m 与词尾 s、š 之间补 i，因为 -miš 在鄂尔浑碑铭里不分前后，一律带 i（§2.1211）。</li>
-        <li>第一音节的 o 与 u、ö 与 ü 分不开，先给 u、ü；e 与 ä 也分不开。</li>
-        <li>查词的顺序：你改过的读法 → 书中第一章给出拼写的约一百二十个例词 → 五篇碑文转写里的 1615 个词形。比对碑文词形时，先用上面的拼写规则把它写成换写，辅音骨架相同、写法最多差一个字母（长词差两个）才采用。都查不到才按规则推。</li>
-      </ul>
-      <h3>从转写写出换写</h3>
-      <ul>
-        <li>照上面的拼写规则：该省的元音省去，词尾元音写出，辅音按整个词的前后选 ¹ 或 ² 那一套。叠辅音只写一个；n 接 t、č 时用 n͟t、n͟č。</li>
-        <li>如果你只改了元音，辅音没变，换写保持原样，只记下你的读法。</li>
-      </ul>
-      <p class="small">依 Talat Tekin, <i>A Grammar of Orkhon Turkic</i> (1968) §1.1–1.23、§2.1–2.3 与第二部分的碑文转写；码位依 Unicode 古突厥文区段 U+10C00–10C48。</p>
-    </div>
-`;
 })();
