@@ -139,7 +139,6 @@
   const RE = () => ({ sc: M.WORD, tl: O.LAT_WORD, tr: O.LAT_WORD });
 
   const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const hex = cp => 'U+' + cp.toString(16).toUpperCase().padStart(4, '0');
 
   // Latin keys typed into the script box
   const KEYMAP = { ug: {}, rn: {} };
@@ -282,7 +281,7 @@
     const idx = [...active].sort((a, b) => a - b);
     const scW = O.words(TA.sc.value, M.WORD);
     if (!idx.length || idx[0] >= scW.length) {
-      nowEl.innerHTML = '<p class="empty">在任一栏里点一下某个词，这里会列出它的三种写法、读法的来源，以及每个字母的名称和码位。</p>';
+      nowEl.innerHTML = '<p class="empty">在任一栏里点一下某个词，这里会列出它的三种写法、读法的来源，以及每个字母的名称。</p>';
       return;
     }
     const i = idx[0];
@@ -290,7 +289,7 @@
     const info = l ? M.info(l, user) : null;
     const chips = Array.from(u).map(ch => {
       const f = INFO[mode].get(ch) || { g: ch, t: '?', n: '不在这套文字里', cp: ch.codePointAt(0) };
-      return `<li><span class="g ${mode === 'rn' ? 'rn' : ''}">${esc(f.g)}</span><span class="t">${esc(f.t)}</span><span class="c">${hex(f.cp)} ${esc(f.n)}</span></li>`;
+      return `<li><span class="g ${mode === 'rn' ? 'rn' : ''}">${esc(f.g)}</span><span class="t">${esc(f.t)}</span><span class="c">${esc(f.n)}</span></li>`;
     }).join('');
     const more = idx.length > 1 ? `<span class="src">共选中 ${idx.length} 词，这里显示第一个</span>` : '';
     nowEl.innerHTML = `<div class="forms">
