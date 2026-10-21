@@ -120,3 +120,13 @@ details.box .inner { padding: 0 1rem 1rem; display: flex; flex-direction: column
   .tri-grid .field.sc { font-size: clamp(1.5rem, 1rem + 1vw, 1.9rem); }
   .tri-grid .field.lat { font-size: clamp(1.1rem, .95rem + .35vw, 1.3rem); }
 }
+
+/* ---------- 字号滑块：--tri-z 由编辑器设定 ---------- */
+#v-tri .field.sc { font-size: calc(clamp(1.5rem, 1.05rem + 1.9vw, 2.05rem) * var(--tri-z, 1)); }
+#v-tri .field.sc.rn { font-size: calc(clamp(1.35rem, 1rem + 1.4vw, 1.8rem) * var(--tri-z, 1)); }
+#v-tri .field.lat { font-size: calc(clamp(1.15rem, 1rem + .7vw, 1.4rem) * var(--tri-z, 1)); }
+@media (min-width: 1000px) {
+  #v-tri .tri-grid .field.sc { font-size: calc(clamp(1.5rem, 1rem + 1vw, 1.9rem) * var(--tri-z, 1)); }
+  #v-tri .tri-grid .field.sc.rn { font-size: calc(clamp(1.3rem, .95rem + .8vw, 1.65rem) * var(--tri-z, 1)); }
+  #v-tri .tri-grid .field.lat { font-size: calc(clamp(1.1rem, .95rem + .35vw, 1.3rem) * var(--tri-z, 1)); }
+}

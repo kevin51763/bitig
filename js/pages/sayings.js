@@ -34,19 +34,27 @@
 
   /* 轮换：本浏览器记住看过哪些，全部看过一遍才重新开始 */
   let cur = null;
+  /* 先选语言，再在这种语言里选句子：相邻两句语言不同，连续三句里语言不重复 */
   function pick() {
     const pool = SIYI.sayings;
     if (!pool.length) return null;
-    let seen = [];
-    try { seen = JSON.parse(SIYI.store.get('siyi-say-seen') || '[]'); } catch (e) {}
-    if (!Array.isArray(seen)) seen = [];
+    const load = k => { try { const v = JSON.parse(SIYI.store.get(k) || '[]'); return Array.isArray(v) ? v : []; } catch (e) { return []; } };
+    let seen = load('siyi-say-seen'), recent = load('siyi-say-recent').slice(-2);
     const live = new Set(pool.map(keyOf));
     seen = seen.filter(k => live.has(k));
     let fresh = pool.filter(q => !seen.includes(keyOf(q)));
     if (!fresh.length) { seen = cur ? [keyOf(cur)] : []; fresh = pool.filter(q => !seen.includes(keyOf(q))); if (!fresh.length) fresh = pool; }
-    const q = fresh[Math.floor(Math.random() * fresh.length)];
-    seen.push(keyOf(q));
+    const allowed = q => !recent.includes(q.lang);
+    let cand = fresh.filter(allowed), fromBag = true;
+    if (!cand.length) { cand = pool.filter(allowed); fromBag = false; }
+    if (!cand.length) cand = pool;
+    const langs = [...new Set(cand.map(q => q.lang))];
+    const lang = langs[Math.floor(Math.random() * langs.length)];
+    const list = cand.filter(q => q.lang === lang);
+    const q = list[Math.floor(Math.random() * list.length)];
+    if (fromBag) seen.push(keyOf(q));
     SIYI.store.set('siyi-say-seen', JSON.stringify(seen));
+    SIYI.store.set('siyi-say-recent', JSON.stringify(recent.concat(q.lang).slice(-2)));
     return q;
   }
   function next() {

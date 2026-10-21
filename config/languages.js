@@ -18,6 +18,7 @@
                 'rotated' 只用于首页名句和卡片，编辑器里另有开关
      scale      原文字号的比例，1 是标准大小
      card       首页卡片：glyph 是卡片上的示例字，desc 是一句说明
+     hidden     写 hidden: true 就暂时不在页头和首页显示这个编辑器（网址仍可打开，名句照常显示）
 
    加一种只作分类的语言，最少只要写 { id: 'xx', name: '某某文' }。 */
 SIYI.languages = [
@@ -28,7 +29,7 @@ SIYI.languages = [
   },
 
   {
-    id: 'rn', name: '突厥如尼文', short: '如尼文', editor: 'three-pane',
+    id: 'rn', name: '突厥如尼文', short: '如尼文', editor: 'three-pane', hidden: true,
     font: 'var(--f-rn)', dir: 'rtl', vertical: false, scale: 0.86,
     card: { glyph: '𐱅𐰇𐰼𐰜', desc: '依 Tekin 的换写体系，三栏' }
   },

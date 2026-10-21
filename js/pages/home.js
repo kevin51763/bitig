@@ -9,6 +9,7 @@
     $('home-seal').textContent = site.seal || '';
     $('home-seal').parentNode.hidden = !site.seal;
     $('home-lead').textContent = site.lead || '';
+    $('home-lead').hidden = !site.lead;
     $('home-origin').textContent = site.origin || '';
     $('home-origin').hidden = !site.origin;
 
@@ -17,7 +18,7 @@
     $('home-dict-intro').textContent = D.intro || '';
     $('home-dict-links').innerHTML = list.map(d => `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.name)} ↗</a>`).join('');
 
-    const tools = SIYI.languages.filter(l => l.editor);
+    const tools = SIYI.languages.filter(l => l.editor && !l.hidden);
     $('home-tools-sec').hidden = !tools.length;
     $('home-tools').innerHTML = tools.map(l => {
       const c = l.card || {};

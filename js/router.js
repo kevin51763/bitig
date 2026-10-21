@@ -5,13 +5,14 @@
   const $ = SIYI.$, esc = SIYI.esc;
   const site = SIYI.config.site, D = SIYI.dictionaries;
   const tools = SIYI.languages.filter(l => l.editor);
+  const shown = tools.filter(l => !l.hidden);
 
   /* 页头与页脚 */
   document.title = site.title;
   $('brand').textContent = site.title;
-  $('nav').innerHTML = [['home', '首页'], ['texts', '范文'], ['materials', '资料']]
-    .concat(tools.map(l => ['tool-' + l.id, l.short || l.name]))
-    .map(([h, t]) => `<a href="#${esc(h)}" data-nav="${esc(h)}">${esc(t)}</a>`).join('');
+  const links = list => list.map(([h, t]) => `<a href="#${esc(h)}" data-nav="${esc(h)}">${esc(t)}</a>`).join('');
+  $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
+  $('nav-right').innerHTML = links([['texts', '范文'], ['materials', '资料库']]);
   $('foot-name').textContent = site.title;
   $('foot-meta').textContent = site.footer || '';
 

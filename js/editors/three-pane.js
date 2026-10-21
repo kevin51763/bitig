@@ -13,6 +13,12 @@
     </div>
   </header>
 
+  <div class="mm-ctl tri-ctl">
+    <span class="g" id="tri-orient-g"><span id="tri-orient-lab">回鹘文</span>
+      <span class="seg" id="tri-orient"><button type="button" data-v="vert" aria-pressed="true">竖排</button><button type="button" data-v="horiz" aria-pressed="false">横排</button></span></span>
+    <label class="g">字号 <input type="range" id="tri-zoom" min="70" max="170" value="100"></label>
+  </div>
+
   <section class="now" id="now" aria-live="polite"></section>
 
   <div class="tri-grid">
@@ -22,7 +28,6 @@
         <h2><span id="sc-title">回鹘文</span> <span class="tag" id="sc-tag">Old Uyghur</span></h2>
       </div>
       <div class="tools">
-        <button class="btn" id="btn-vert" type="button" aria-pressed="false" hidden>竖排</button>
         <button class="btn" type="button" data-copy="sc">复制</button>
       </div>
     </div>
@@ -90,7 +95,7 @@
   const $ = id => document.getElementById(id);
   const TA = { sc: $('ta-sc'), tl: $('ta-tl'), tr: $('ta-tr') };
   const BD = { sc: $('bd-sc'), tl: $('bd-tl'), tr: $('bd-tr') };
-  const fieldSc = $('field-sc'), btnVert = $('btn-vert');
+  const fieldSc = $('field-sc');
   const PANES = ['sc', 'tl', 'tr'];
 
   const store = {
@@ -109,9 +114,9 @@
     ug: { title: '回鹘文', tag: 'Old Uyghur', lang: 'und-Ougr', aria: '回鹘文',
       kbLabel: '在回鹘文栏里，拉丁键直接打出回鹘文字母（a→ʾ，S→š，数字 1–4 打附加点）',
       kb1: '字母（按字母表顺序，左上角是对应的拉丁键）', kb2: '附加点与标点',
-      tlPal: ['ʾ', 'β', 'γ', 'q', 'x', 'δ', 'š', 'ž', 'c', '̇', '̈', '̣', '̤', '|', '‖', ':', '⁘'],
+      tlPal: ['ʾ', 'B', 'Γ', 'Q', 'X', 'Δ', 'Š', 'Ž', 'C', '̇', '̈', '̣', '̤', '|', '‖', ':', '⁘'],
       trPal: ['ä', 'ï', 'ö', 'ü', 'γ', 'q', 'ŋ', 'ñ', 'č', 'š', 'ž', 'ā', 'ī', 'ū'],
-      unk: '元音请用 ʾ、w、y 表示。' },
+      unk: '元音请用 ʾ、W、Y 表示。' },
     rn: { title: '如尼文', tag: 'Old Turkic · Orkhon', lang: 'und-Orkh', aria: '鄂尔浑如尼文',
       kbLabel: '在如尼文栏里，拉丁键直接打出如尼文字母（b→b¹，B→b²，u→o/u，U→ö/ü，数字打音节字母，: 打隔词号）',
       kb1: '字母（按 Tekin 字母表的顺序，左上角是对应的拉丁键）', kb2: '隔词号',
@@ -261,7 +266,7 @@
   // ---------- current word strip ----------
   const nowEl = $('now');
   const INFO = { ug: new Map(), rn: new Map() };
-  O.LETTERS.forEach(l => INFO.ug.set(l.ch, { g: l.ch, t: l.tl, n: l.name, cp: l.cp }));
+  O.LETTERS.forEach(l => INFO.ug.set(l.ch, { g: l.ch, t: O.MODES.ug.up(l.tl), n: l.name, cp: l.cp }));
   O.MARKS.forEach(m => INFO.ug.set(m.ch, { g: '◌' + m.ch, t: '◌' + m.comb, n: m.name, cp: m.cp }));
   O.PUNCT.forEach(p => INFO.ug.set(p.ch, { g: p.ch, t: p.tl, n: p.name, cp: p.cp }));
   O.RN.forEach(r => INFO.rn.set(r.ch, { g: r.ch, t: r.tl, n: r.name, cp: r.cp }));
@@ -313,7 +318,7 @@
     memoBody.innerHTML = `<div class="memo-list"><table>
       <thead><tr><th>${UI[mode].title}</th><th>换写</th><th>你的读法</th><th>原先的推断</th><th></th></tr></thead>
       <tbody>${keys.map(k => `<tr>
-        <td class="u ${mode === 'rn' ? 'rn' : ''}" dir="rtl">${esc(M.fromTl(k))}</td><td class="l">${esc(k)}</td>
+        <td class="u ${mode === 'rn' ? 'rn' : ''}" dir="rtl">${esc(M.fromTl(k))}</td><td class="l">${esc(M.up ? M.up(k) : k)}</td>
         <td class="l">${esc(user[k])}</td><td class="l">${esc(M.base(k))}</td>
         <td><button class="btn" type="button" data-forget="${esc(k)}">删除</button></td></tr>`).join('')}</tbody>
       </table></div>
@@ -357,7 +362,7 @@
     const u = UI[mode];
     $('kb-map-label').textContent = u.kbLabel; $('kb-lbl-1').textContent = u.kb1; $('kb-lbl-2').textContent = u.kb2;
     if (mode === 'ug') {
-      $('keys-letters').innerHTML = O.LETTERS.map(l => keyBtn(l.ch, l.ch, l.tl, '', l.key === 'S' ? '⇧S' : l.key)).join('');
+      $('keys-letters').innerHTML = O.LETTERS.map(l => keyBtn(l.ch, l.ch, O.MODES.ug.up(l.tl), '', l.key === 'S' ? '⇧S' : l.key)).join('');
       $('keys-extra').innerHTML =
         O.MARKS.map(m => keyBtn(m.ch, '◌' + m.ch, '◌' + m.comb, m.label, m.key)).join('') +
         O.PUNCT.map(p => keyBtn(p.ch, p.ch, p.tl, p.label, p.key)).join('') + utilKeys();
@@ -377,14 +382,20 @@
   });
   $('kb-map').addEventListener('change', e => { kbOn = e.target.checked; });
 
-  // ---------- vertical (Old Uyghur only) ----------
+  // ---------- orientation (Old Uyghur only; vertical by default) and font size ----------
   const canVert = !!(window.CSS && CSS.supports('writing-mode', 'sideways-lr'));
-  btnVert.addEventListener('click', () => {
-    const on = !fieldSc.classList.contains('vertical');
+  function setVert(on) {
     fieldSc.classList.toggle('vertical', on);
-    btnVert.setAttribute('aria-pressed', String(on));
+    document.querySelectorAll('#tri-orient button').forEach(b => b.setAttribute('aria-pressed', String((b.dataset.v === 'vert') === on)));
     TA.sc.scrollTop = 0; TA.sc.scrollLeft = 0;
     renderPane('sc');
+  }
+  document.querySelectorAll('#tri-orient button').forEach(b => b.addEventListener('click', () => {
+    const on = b.dataset.v === 'vert'; store.set('ougr-vert', on ? '1' : '0'); setVert(on);
+  }));
+  $('tri-zoom').addEventListener('input', e => {
+    $('v-tri').style.setProperty('--tri-z', e.target.value / 100);
+    PANES.forEach(renderPane);
   });
 
   // ---------- events ----------
@@ -435,8 +446,9 @@
     $('sc-title').textContent = u.title; $('sc-tag').textContent = u.tag;
     TA.sc.setAttribute('lang', u.lang); TA.sc.setAttribute('aria-label', u.aria);
     fieldSc.classList.toggle('rn', m === 'rn');
-    fieldSc.classList.remove('vertical'); btnVert.setAttribute('aria-pressed', 'false');
-    btnVert.hidden = !(canVert && m === 'ug');
+    $('tri-orient-lab').textContent = u.title;
+    $('tri-orient-g').hidden = !(canVert && m === 'ug');
+    setVert(canVert && m === 'ug' && store.get('ougr-vert') !== '0');
     $('rules-ug').open = false; $('rules-rn').open = false;
     $('rules-ug').hidden = m !== 'ug'; $('rules-rn').hidden = m !== 'rn';
     buildKeys(); confirmClear = false; renderMemo();
