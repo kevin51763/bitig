@@ -3,7 +3,8 @@
    加一份资料：
      · 文件：放进 content/materials/（文件名用英文或拼音），再在下面写 file: 'content/materials/文件名'
      · 网上资源：不放文件，写 url: 'https://…'
-     · 有版权、不能公开的书：file 和 url 都不写，只登记书名、作者、出版信息，列为“书目”
+     · 有版权、不能公开的书：放在南大网盘研究室的资料库里，url 写网盘里的文件地址，
+       再写 access: '南大网盘，研究室成员登录后可看'；网盘里还没有的，只登记书名、作者、出版信息，列为“书目”
    PDF、图片会在浏览器里直接打开。
 
    注意：GitHub 上单个文件不能超过 100 MB；免费的 GitHub Pages 网站是公开的，
@@ -15,6 +16,7 @@
      langs   归入哪些语言（同范文）；不写就归入“综合”
      file    文件路径，或者
      url     网址
+     access  怎样才能看到，如“南大网盘，研究室成员登录后可看”（可不写），显示在条目下方
      size    文件大小，如 '95 MB'（可不写；文件大时写上，读者点开前心里有数）
      added   加入的日期（可不写） */
 SIYI.materials = [
@@ -29,8 +31,10 @@ SIYI.materials = [
 
   {
     title: 'A Grammar of Orkhon Turkic',
-    note: 'Talat Tekin 著。Bloomington: Indiana University; The Hague: Mouton, 1968（Uralic and Altaic Series 69）。本站如尼文的换写体系和转写规则依据此书。仍在版权期内，不附全文。',
+    note: 'Talat Tekin 著。Bloomington: Indiana University; The Hague: Mouton, 1968（Uralic and Altaic Series 69）。本站如尼文的换写体系和转写规则依据此书。',
     langs: ['rn'],
+    url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/A%20grammar%20of%20orkhon%20turkic%20(Talat%20Tekin)%20(z-library.sk%2C%201lib.sk%2C%20z-lib.sk).pdf',
+    access: '南大网盘，研究室成员登录后可看',
     added: '2026-10-21',
   },
 

@@ -13,7 +13,7 @@
     return `<li><span class="kind">${isImg ? `<img src="${esc(m.file)}" alt="" loading="lazy">` : esc(kind(m))}</span>
       <span class="info">${href ? `<a class="t" href="${esc(href)}" target="_blank" rel="noopener">${esc(m.title || '未命名')} ↗</a>` : `<span class="t">${esc(m.title || '未命名')}</span>`}
         ${m.note ? `<span class="note">${esc(m.note)}</span>` : ''}
-        <span class="meta"><span>${esc(kind(m))}${m.size ? ' · ' + esc(m.size) : ''}${host ? ' · ' + esc(host) : ''}</span>${SIYI.chips(m)}</span></span></li>`;
+        <span class="meta"><span>${esc(kind(m))}${m.size ? ' · ' + esc(m.size) : ''}${m.access ? ' · ' + esc(m.access) : host ? ' · ' + esc(host) : ''}</span>${SIYI.chips(m)}</span></span></li>`;
   }
 
   function renderList() {
