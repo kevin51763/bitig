@@ -5,7 +5,6 @@
   <header class="top">
     <div>
       <h1 id="tri-h1">回鹘文对照转写</h1>
-      <p class="desc">三栏联动：改任何一栏，另外两栏随之改写。点选或选中一个词，三栏同时标出它。</p>
       <p class="tool-dicts" id="tri-dicts" hidden></p>
     </div>
     <div class="toolbar">
@@ -13,7 +12,6 @@
       <button class="btn" id="btn-clear" type="button">清空</button>
     </div>
   </header>
-  <p class="note" id="sample-note" hidden></p>
 
   <section class="now" id="now" aria-live="polite"></section>
 
@@ -21,7 +19,6 @@
     <div class="pane-head">
       <div>
         <h2><span id="sc-title">回鹘文</span> <span class="tag" id="sc-tag">Old Uyghur</span></h2>
-        <p id="sc-hint"></p>
       </div>
       <div class="tools">
         <button class="btn" id="btn-vert" type="button" aria-pressed="false" hidden>竖排</button>
@@ -48,7 +45,6 @@
     <div class="pane-head">
       <div>
         <h2>换写 <span class="tag">transliteration</span></h2>
-        <p id="tl-hint"></p>
       </div>
       <div class="tools"><button class="btn" type="button" data-copy="tl">复制</button></div>
     </div>
@@ -64,7 +60,6 @@
     <div class="pane-head">
       <div>
         <h2>转写 <span class="tag">transcription</span></h2>
-        <p>按读音推断，难免有误，直接改就行。改过的读法记在这台设备的浏览器里，同一个词下次照你的读。</p>
       </div>
       <div class="tools"><button class="btn" type="button" data-copy="tr">复制</button></div>
     </div>
@@ -104,27 +99,19 @@
     rn: { draft: 'ougr-draft-rn-v1', user: 'ougr-readings-rn-v1' }
   };
   const SAMPLES = {
-    ug: { text: 'wyγwr tnkry kwnkwl yrlγ\npylyk kʾlmʾδwk\npyr ʾyky ʾwyc twyrt',
-      note: '现在显示的是示例词：前两行取自你的资料和 Unicode 编码提案，第三行是数词一到四。' },
-    rn: { text: 't¹b¹γč : b¹ud¹n¹ : s¹b¹i : s¹üčig : γis¹i : y²imšq : r²ms²\nt²ŋr²id²a : b¹ul¹mš : t²ür²kͦ : b²il²ga : qγn¹',
-      note: '现在显示的是阙特勤碑南面的两句：第一行是你的资料（Kara 1996）引的那一句，第二行取自 Tekin 书 §1.23 举的例子。' }
+    ug: { text: 'wyγwr tnkry kwnkwl yrlγ\npylyk kʾlmʾδwk\npyr ʾyky ʾwyc twyrt' },
+    rn: { text: 't¹b¹γč : b¹ud¹n¹ : s¹b¹i : s¹üčig : γis¹i : y²imšq : r²ms²\nt²ŋr²id²a : b¹ul¹mš : t²ür²kͦ : b²il²ga : qγn¹' }
   };
   const UI = {
     ug: { title: '回鹘文', tag: 'Old Uyghur', lang: 'und-Ougr', aria: '回鹘文',
-      hint: '从右向左书写，词与词之间空一格。可点下方字母键，也可以直接用拉丁键盘打。',
       kbLabel: '在回鹘文栏里，拉丁键直接打出回鹘文字母（a→ʾ，S→š，数字 1–4 打附加点）',
       kb1: '字母（按字母表顺序，左上角是对应的拉丁键）', kb2: '附加点与标点',
-      tlHint: '逐字母对应，与回鹘文可以互相还原。打字时 \' b g d h 会自动换成 ʾ β γ δ x。',
-      tlFoot: 'q 是 γ 加两点，ž 是 z 下加两点。其他附加点用下方的组合符号。',
       tlPal: ['ʾ', 'β', 'γ', 'q', 'x', 'δ', 'š', 'ž', 'c', '̇', '̈', '̣', '̤', '|', '‖', ':', '⁘'],
       trPal: ['ä', 'ï', 'ö', 'ü', 'γ', 'q', 'ŋ', 'ñ', 'č', 'š', 'ž', 'ā', 'ī', 'ū'],
       unk: '元音请用 ʾ、w、y 表示。' },
     rn: { title: '如尼文', tag: 'Old Turkic · Orkhon', lang: 'und-Orkh', aria: '鄂尔浑如尼文',
-      hint: '从右向左书写，碑文用 ⁚ 隔词。可点下方字母键；直接用拉丁键盘打时，小写是后元音那一套，大写是前元音那一套。',
       kbLabel: '在如尼文栏里，拉丁键直接打出如尼文字母（b→b¹，B→b²，u→o/u，U→ö/ü，数字打音节字母，: 打隔词号）',
       kb1: '字母（按 Tekin 字母表的顺序，左上角是对应的拉丁键）', kb2: '隔词号',
-      tlHint: 'Tekin 的记法。可以打 b1、t2、oq、ök、ïq、[nt] 这样的简写，会自动换成 b¹、t²、qͦ、kͦ、qͥ、n͟t。',
-      tlFoot: '¹ 是后元音那一套，² 是前元音那一套；γ q 属后，g k 属前；qͦ kͦ qͥ 和带下划线的是音节字母。',
       tlPal: ['¹', '²', 'γ', 'g', 'q', 'k', 'qͦ', 'kͦ', 'qͥ', 'i͟č', 'n͟č', 'n͟t', 'l͟t', 'a͟š', 'b͟a͟š', 'ŋ', 'ń', 'č', 'š', ':'],
       trPal: ['ä', 'ï', 'ö', 'ü', 'γ', 'q', 'ŋ', 'ń', 'č', 'š', 'ā', 'ī', 'ū'],
       unk: '元音请用 a、i、u、ü 表示，辅音加 ¹ 或 ²。' }
@@ -281,7 +268,7 @@
     const idx = [...active].sort((a, b) => a - b);
     const scW = O.words(TA.sc.value, M.WORD);
     if (!idx.length || idx[0] >= scW.length) {
-      nowEl.innerHTML = '<p class="empty">在任一栏里点一下某个词，这里会列出它的三种写法、读法的来源，以及每个字母的名称。</p>';
+      nowEl.innerHTML = '<p class="empty">点一个词，这里显示它的三种写法和逐个字母。</p>';
       return;
     }
     const i = idx[0];
@@ -289,7 +276,7 @@
     const info = l ? M.info(l, user) : null;
     const chips = Array.from(u).map(ch => {
       const f = INFO[mode].get(ch) || { g: ch, t: '?', n: '不在这套文字里', cp: ch.codePointAt(0) };
-      return `<li><span class="g ${mode === 'rn' ? 'rn' : ''}">${esc(f.g)}</span><span class="t">${esc(f.t)}</span><span class="c">${esc(f.n)}</span></li>`;
+      return `<li><span class="g ${mode === 'rn' ? 'rn' : ''}">${esc(f.g)}</span><span class="t">${esc(f.t)}</span></li>`;
     }).join('');
     const more = idx.length > 1 ? `<span class="src">共选中 ${idx.length} 词，这里显示第一个</span>` : '';
     nowEl.innerHTML = `<div class="forms">
@@ -306,7 +293,8 @@
     const unk = new Set(); scText(TA.tl.value, unk);
     footTl.innerHTML = unk.size
       ? `<span class="warn">这些字母在${UI[mode].title}里没有对应：<b>${[...unk].map(esc).join('、')}</b>。${UI[mode].unk}</span>`
-      : `<span>${esc(UI[mode].tlFoot)}</span>`;
+      : '';
+    footTl.hidden = !unk.size;
   }
 
   // ---------- memo ----------
@@ -426,10 +414,8 @@
     const fallback = () => { t.focus(); t.select(); say('已选中全部文字，请按 Ctrl+C 或 ⌘C 复制'); };
     try { navigator.clipboard.writeText(t.value).then(() => say('已复制'), fallback); } catch (e) { fallback(); }
   }));
-  const note = $('sample-note');
   function load(text, isSample) {
     TA.tl.value = text; active = new Set(); activeFrom = null;
-    note.hidden = !isSample; note.textContent = SAMPLES[mode].note;
     TA.tl.setSelectionRange(0, 0);
     sync('tl');
     active = new Set(); renderAll(null);
@@ -443,8 +429,7 @@
     mode = m; M = O.MODES[m]; store.set('ougr-mode', m);
     try { user = JSON.parse(store.get(KEYS[m].user) || '{}') || {}; } catch (e) { user = {}; }
     const u = UI[m];
-    $('sc-title').textContent = u.title; $('sc-tag').textContent = u.tag; $('sc-hint').textContent = u.hint;
-    $('tl-hint').textContent = u.tlHint;
+    $('sc-title').textContent = u.title; $('sc-tag').textContent = u.tag;
     TA.sc.setAttribute('lang', u.lang); TA.sc.setAttribute('aria-label', u.aria);
     fieldSc.classList.toggle('rn', m === 'rn');
     fieldSc.classList.remove('vertical'); btnVert.setAttribute('aria-pressed', 'false');
