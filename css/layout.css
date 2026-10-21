@@ -12,9 +12,6 @@
 .nav a { color: var(--ink-soft); text-decoration: none; font-size: .9rem; padding: .3rem .6rem; border-radius: 5px; }
 .nav a:hover { color: var(--ink); background: var(--paper); }
 .nav a[aria-current="page"] { color: var(--sheet); background: var(--lapis); }
-.dict-link { display: inline-flex; align-items: center; gap: .4rem; font-size: .9rem; font-weight: 600; color: var(--seal); text-decoration: none;
-  border: 1px solid var(--seal); border-radius: 5px; padding: .3rem .7rem; white-space: nowrap; }
-.dict-link:hover { background: var(--seal); color: var(--sheet); }
 
 /* ---------- 页脚 ---------- */
 .site-foot { border-top: 1px solid var(--rule); background: var(--sheet); margin-top: 1rem; }
@@ -33,12 +30,10 @@
 
 /* ---------- 名句条（首页深色那一条） ---------- */
 .saying-band { position: relative; background: var(--scroll); color: var(--scroll-ink); border-radius: 6px; border-top: 3px solid var(--seal);
-  padding: 1.4rem 1.4rem 2.2rem; display: flex; flex-direction: column; gap: .8rem; }
+  padding: 1.4rem; display: flex; flex-direction: column; gap: .8rem; }
 .saying-band .btn { background: transparent; color: var(--scroll-ink); border-color: var(--scroll-rule); }
 .saying-band .btn:hover { border-color: var(--scroll-ink); }
 .say-next { position: absolute; top: .8rem; right: .9rem; font-size: .8rem; padding: .25rem .6rem; }
-.say-all { position: absolute; right: .95rem; bottom: .7rem; font-size: .8rem; color: var(--scroll-soft); text-decoration: none; }
-.say-all:hover { color: var(--scroll-ink); text-decoration: underline; }
 .saying { display: flex; gap: 1.4rem 2rem; align-items: center; flex-wrap: wrap; min-height: 9rem; padding-right: 4.5rem; }
 .say-sc { font-size: calc(2.1rem * var(--s, 1)); line-height: 1.7; min-width: 0; flex: 1 1 20rem; overflow-wrap: anywhere; }
 .say-sc.vert { writing-mode: vertical-lr; flex: none; max-height: 15rem; font-size: calc(1.9rem * var(--s, 1)); }

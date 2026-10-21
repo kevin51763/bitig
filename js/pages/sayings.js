@@ -52,7 +52,6 @@
   function next() {
     cur = pick();
     $('saying').innerHTML = cur ? block(cur) : '';
-    $('say-all').textContent = `全部名句 ${SIYI.sayings.length} 句 →`;
   }
 
   /* “全部名句”页 */

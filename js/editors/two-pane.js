@@ -4,7 +4,7 @@
 (function () {
   const MARKUP = `
   <header class="top">
-    <div><h1 id="mm-title">对照编辑</h1><p class="tool-dicts" id="mm-dicts" hidden></p></div>
+    <div><h1 id="mm-title">对照转写</h1><p class="tool-dicts" id="mm-dicts" hidden></p></div>
     <div class="toolbar">
       <button class="btn" id="mm-sample" type="button">载入示例</button>
       <button class="btn" id="mm-clear" type="button">全部清空</button>
@@ -172,7 +172,7 @@
     langKey = key; L = CONV[key];
     const u = L.UI, lg = SIYI.lang(key) || {};
     NAME = lg.name || key;
-    $('mm-title').textContent = NAME + '对照编辑';
+    $('mm-title').textContent = NAME + '对照转写';
     $('mm-hm').textContent = NAME;
     $('mm-orient-lab').textContent = NAME;
     $('mm-latsub').textContent = u.latinSub || '';

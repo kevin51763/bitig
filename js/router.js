@@ -12,8 +12,6 @@
   $('nav').innerHTML = [['home', '首页'], ['texts', '范文'], ['materials', '资料']]
     .concat(tools.map(l => ['tool-' + l.id, l.short || l.name]))
     .map(([h, t]) => `<a href="#${esc(h)}" data-nav="${esc(h)}">${esc(t)}</a>`).join('');
-  if (D.header && D.header.url) { $('dict-link').href = D.header.url; $('dict-link').textContent = (D.header.name || '查词') + ' ↗'; }
-  else $('dict-link').hidden = true;
   $('foot-name').textContent = site.title;
   $('foot-meta').textContent = site.footer || '';
 
