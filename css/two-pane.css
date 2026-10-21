@@ -24,6 +24,4 @@
 .mm-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1rem; font-size: .9rem; color: var(--ink-soft); min-height: 2.2em; border-top: 1px solid var(--rule); padding-top: .6rem; }
 #mm-msg { margin-left: auto; }
 .mm-bar:has(#mm-msg:empty) { display: none; }
-.mm-notes { max-width: 52em; font-size: .85rem; color: var(--ink-soft); }
-.mm-notes p { margin: 0 0 .6em; }
 @media (max-width: 860px) { .mm-grid { grid-template-columns: 1fr; } .mm-pane { height: 56vh; min-height: 300px; } }

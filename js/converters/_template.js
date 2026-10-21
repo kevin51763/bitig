@@ -32,8 +32,7 @@
       lang: 'xx',                 // 原文输入框的语言标记
       schemes: null,              // 两种拉丁写法时写 ['学术', '简便']，否则 null
       latinSub: '说明拉丁一栏的写法',
-      sample: 'a b sh',           // “载入示例”给出的拉丁文字；或改写 sampleScript: '原文'
-      notes: ['编辑器下方的说明，一段一项。']
+      sample: 'a b sh'            // “载入示例”给出的拉丁文字；或改写 sampleScript: '原文'
     }
   };
 })();

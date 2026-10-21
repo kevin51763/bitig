@@ -65,12 +65,7 @@
       WORD: { m: /[᠐-᠙ᠠ-ᡸ᠋-᠏‌‍ ]/, l: /[0-9A-Za-zŪūŮůŠšŽž'·|\-]/ },
       UI: {
         name: '满文', lang: 'mnc', schemes: ['穆麟德夫', '简便'], latinSub: 'ū、š、ž 也可以打 v、x、z',
-        sample: 'manju gisun\n\nbi manju bithe be tacimbi.\nere bithe be hūla.\nabka na, alin bira.\nsain inenggi, šun biya.',
-        notes: [
-          '左右两栏都可以编辑，改动一侧，另一侧随即重写。拉丁一栏用穆麟德夫转写；没有特殊字母时，ū 打 v，š 打 x，ž 打 z。从满文生成拉丁转写时，按上方所选的写法输出：“简便”就是用 v、x、z 代替这三个字母。切换写法，会按满文一栏重新生成拉丁转写。',
-          '汉语借词的特定字可以直接输入：k\' g\' h\' ts\' dz ž sy c\'y jy。ng 默认合成一个字母；如果要 n 和 g 分开写，中间加一个间隔号，如 n·g。',
-          '满文按编码逐字对应。原文如果不是按满文的标准编码输入的，比如有些输入法借用了蒙古文字母，转出的拉丁字母可能有误。',
-          '如果浏览器不支持竖排输入框，把满文切换为横排即可。']
+        sample: 'manju gisun\n\nbi manju bithe be tacimbi.\nere bithe be hūla.\nabka na, alin bira.\nsain inenggi, šun biya.'
       }
     };
   })();

@@ -29,7 +29,7 @@
   white-space: pre-wrap; overflow-wrap: break-word; word-break: normal;
 }
 .field textarea {
-  display: block; width: 100%; height: 11rem; min-height: 7rem; resize: vertical;
+  display: block; width: 100%; height: 11rem; min-height: 7rem; resize: none;
   background: transparent; color: var(--ink); caret-color: var(--lapis);
   position: relative; z-index: 1; outline: none;
   overflow-y: auto; overflow-x: hidden; scrollbar-gutter: stable;
@@ -87,7 +87,7 @@ details.box .inner { padding: 0 1rem 1rem; display: flex; flex-direction: column
 @media (min-width: 1000px) {
   .tri-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; }
   .tri-grid .field { flex: 1 1 auto; }
-  .tri-grid .field textarea { height: max(16rem, calc(100vh - 28rem)); resize: vertical; }
+  .tri-grid .field textarea { height: max(16rem, calc(100vh - 28rem)); resize: none; }
   .tri-grid .field.sc.vertical textarea { height: max(16rem, calc(100vh - 28rem)); }
   .tri-grid .palette { margin-top: auto; }
   .tri-grid .field.sc { font-size: clamp(1.5rem, 1rem + 1vw, 1.9rem); }

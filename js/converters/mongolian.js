@@ -65,11 +65,7 @@
       WORD: { m: /[᠐-᠙ᠠ-ᡂ᠋-᠏‌‍ ]/, l: /[0-9A-Za-zÖÜöüγɣČčǰŠšĒē'\-]/ },
       UI: {
         name: '蒙古文', lang: 'mn-Mong', schemes: ['学术', '简便'], latinSub: '学术、简便两种写法都能输入',
-        sample: 'mongγol-un niγuča tobčiyan\n\nsayin bayin-a uu.\nköke tngri, aγula usu.\nmongγol kele bičig.\nkökeqota, ulaγanbaγatur.',
-        notes: [
-          '左右两栏都可以编辑，改动一侧，另一侧随即重写。拉丁一栏接受学术转写（q γ č ǰ š）和简便写法（h g ch j sh），也接受 oe、ue、v、gh、x 等替代写法；从蒙古文生成拉丁转写时，按上方所选的写法输出。切换写法，会按蒙古文一栏重新生成拉丁转写。',
-          '词尾分写的 a、e 在拉丁一栏写作 -a、-e；附加成分前用连字符，如 mongγol-un；撇号把字母隔开，如 n\'g。蒙古文按编码逐字对应，原文若是按字形编码的（例如把 u 编成 o），转出的拉丁字母会跟着出错。',
-          '如果浏览器不支持竖排输入框，把蒙古文切换为横排即可。']
+        sample: 'mongγol-un niγuča tobčiyan\n\nsayin bayin-a uu.\nköke tngri, aγula usu.\nmongγol kele bičig.\nkökeqota, ulaγanbaγatur.'
       }
     };
   })();

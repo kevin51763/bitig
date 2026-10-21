@@ -1,7 +1,7 @@
 /* 页头、页脚和首页。 */
 
 /* ---------- 页头 ---------- */
-.site-head { background: var(--sheet); border-bottom: 1px solid var(--rule); }
+.site-head { position: sticky; top: 0; z-index: 10; background: var(--sheet); border-bottom: 1px solid var(--rule); padding-top: env(safe-area-inset-top, 0px); }
 .site-head .in {
   max-width: 76rem; margin: 0 auto; padding-block: .7rem;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
@@ -15,7 +15,7 @@
 .nav a[aria-current="page"] { color: var(--sheet); background: var(--lapis); }
 
 /* ---------- 页脚 ---------- */
-.site-foot { border-top: 1px solid var(--rule); background: var(--sheet); margin-top: 1rem; }
+.site-foot { border-top: 1px solid var(--rule); background: var(--sheet); margin-top: auto; }
 .site-foot .in { max-width: 76rem; margin: 0 auto; padding-block: .9rem calc(.9rem + env(safe-area-inset-bottom, 0px));
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; font-size: .82rem; color: var(--ink-soft); }

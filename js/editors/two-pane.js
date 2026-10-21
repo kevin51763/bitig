@@ -28,7 +28,7 @@
     </div>
   </div>
   <div class="mm-bar" aria-live="polite"><span id="mm-msg"></span></div>
-  <div class="mm-notes" id="mm-notes"></div>
+
 `;
   document.getElementById('v-mm').innerHTML = MARKUP;
   const CONV = SIYI.converters;
@@ -172,7 +172,6 @@
     SIYI.dictLine($('mm-dicts'), key);
     if (u.schemes) document.querySelectorAll('#mm-scheme button').forEach((b, i) => { b.textContent = u.schemes[i]; });
     ta.m.setAttribute('lang', u.lang || key); ta.m.setAttribute('aria-label', NAME);
-    $('mm-notes').innerHTML = (u.notes || []).map(p => `<p>${esc(p)}</p>`).join('');
     scheme = 'sch'; pressSeg('mm-scheme', 'sch');
     $('mm-scheme-g').hidden = !u.schemes;
     $('mm-orient-g').hidden = !lg.vertical;

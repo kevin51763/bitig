@@ -156,11 +156,7 @@
       WORD: { m: /[ཀ-ྼ]/, l: /[A-Za-z'+.\-]/ },
       UI: {
         name: '藏文', lang: 'bo', schemes: null, latinSub: '威利转写（Wylie / EWTS）',
-        sample: 'bkra shis bde legs/\n\nchu thigs bsags na rgya mtsho chags/\nsangs rgyas chos dang tshogs kyi mchog rnams la/\nbyang chub bar du bdag ni skyabs su mchi/',
-        notes: [
-          '左右两栏都可以编辑，改动一侧，另一侧随即重写。拉丁一栏用威利转写（扩展版 EWTS）：音节之间空一格，对应藏文的音节点“་”；斜杠 / 对应垂符“།”。',
-          '叠字按常规自动判断，比如 bsgrubs 读作前加字 b、上加字 s、基字 g、下加字 r。需要强制分开或叠写时，用点号或加号：g.yag 是前加字 g 加基字 y，k+Sha 是梵文叠字。',
-          '长元音和梵文字母用大写：A I U 是长元音，T Th D N Sh 是卷舌音，M 是随韵。没有元音的音节会按前加字、后加字的规则推定基字，偶有歧义时请检查转写栏。']
+        sample: 'bkra shis bde legs/\n\nchu thigs bsags na rgya mtsho chags/\nsangs rgyas chos dang tshogs kyi mchog rnams la/\nbyang chub bar du bdag ni skyabs su mchi/'
       }
     };
   })();
