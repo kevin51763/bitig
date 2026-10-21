@@ -15,6 +15,7 @@
 
   <section class="now" id="now" aria-live="polite"></section>
 
+  <div class="tri-grid">
   <section class="pane" id="pane-sc">
     <div class="pane-head">
       <div>
@@ -29,16 +30,6 @@
       <div class="backdrop" dir="rtl" aria-hidden="true"><div class="bd-inner" id="bd-sc"></div></div>
       <textarea id="ta-sc" dir="rtl" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="原文"></textarea>
     </div>
-    <details class="kb" id="kb" open>
-      <summary>字母键</summary>
-      <div class="kb-body">
-        <label class="small"><input type="checkbox" id="kb-map" checked> <span id="kb-map-label"></span></label>
-        <div class="grp-lbl" id="kb-lbl-1"></div>
-        <div class="keys" id="keys-letters"></div>
-        <div class="grp-lbl" id="kb-lbl-2"></div>
-        <div class="keys" id="keys-extra"></div>
-      </div>
-    </details>
   </section>
 
   <section class="pane" id="pane-tl">
@@ -69,6 +60,18 @@
     </div>
     <div class="palette" id="pal-tr"></div>
   </section>
+  </div>
+
+  <details class="box kb-box" id="kb" open>
+    <summary>字母键</summary>
+    <div class="kb-body">
+      <label class="small"><input type="checkbox" id="kb-map" checked> <span id="kb-map-label"></span></label>
+      <div class="grp-lbl" id="kb-lbl-1"></div>
+      <div class="keys" id="keys-letters"></div>
+      <div class="grp-lbl" id="kb-lbl-2"></div>
+      <div class="keys" id="keys-extra"></div>
+    </div>
+  </details>
 
   <details class="box" id="memo">
     <summary>已记住的读法（<span id="memo-n">0</span>）</summary>

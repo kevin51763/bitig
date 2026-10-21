@@ -104,3 +104,19 @@ details.box .inner { padding: 0 1rem 1rem; display: flex; flex-direction: column
   .field textarea, .field .bd-inner { padding: .75rem .85rem; }
   .keys { grid-template-columns: repeat(auto-fill, minmax(3.1rem, 1fr)); }
 }
+
+/* ---------- 三栏并排：宽屏时原文、换写、转写左右排开，一屏看全 ---------- */
+#v-tri.wrap { max-width: 92rem; }
+.tri-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.tri-grid .pane { display: flex; flex-direction: column; min-width: 0; }
+.tri-grid .pane-head > div:first-child { flex: 1 1 auto; }
+.kb-box .kb-body { padding: 0 1rem 1rem; }
+@media (min-width: 1000px) {
+  .tri-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; }
+  .tri-grid .field { flex: 1 1 auto; }
+  .tri-grid .field textarea { height: max(16rem, calc(100vh - 28rem)); resize: vertical; }
+  .tri-grid .field.sc.vertical textarea { height: max(16rem, calc(100vh - 28rem)); }
+  .tri-grid .palette { margin-top: auto; }
+  .tri-grid .field.sc { font-size: clamp(1.5rem, 1rem + 1vw, 1.9rem); }
+  .tri-grid .field.lat { font-size: clamp(1.1rem, .95rem + .35vw, 1.3rem); }
+}
