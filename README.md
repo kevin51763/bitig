@@ -1,4 +1,6 @@
-# 四译馆
+# bitig
+
+bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 
 回鹘文、突厥如尼文、满文、蒙古文、藏文、察合台文的对照转写，以及范文、资料和名句。
 
@@ -122,8 +124,6 @@ python3 -m http.server 8000
 
 都在 `config/site.js`。
 
-注意：大标题的书法字体只含“四译馆”三个字，以控制文件大小。如果改了站名，标题会改用系统自带的楷体。要书法字体，可以请 Claude 重新生成 `fonts/ma-shan-zheng-title.woff2`。
-
 ### 加一种语言
 
 **只用来给范文、资料分类**（比如以后加西夏文、粟特文的范文）：在 `config/languages.js` 里加一行即可：
@@ -165,10 +165,10 @@ python3 -m http.server 8000
 
 ### 第一次发布
 
-1. 登录 GitHub，点右上角 **+** → **New repository**。仓库名可以叫 `siyi`；选 **Public**（免费账号的 GitHub Pages 只支持公开仓库）。
+1. 登录 GitHub，点右上角 **+** → **New repository**。仓库名可以叫 `bitig`；选 **Public**（免费账号的 GitHub Pages 只支持公开仓库）。
 2. 进入新仓库，点 **uploading an existing file**，把这个文件夹里的**全部内容**拖进去。要拖的是文件夹里面的东西，不是文件夹本身：`index.html` 要位于仓库的最外层。然后点 **Commit changes**。
 3. 进入仓库的 **Settings** → 左侧 **Pages**。在 **Build and deployment** 下：Source 选 **Deploy from a branch**，Branch 选 **main**，文件夹选 **/(root)**，点 **Save**。
-4. 等一两分钟，刷新这一页，上方会显示网址，形如 `https://你的用户名.github.io/siyi/` 。
+4. 等一两分钟，刷新这一页，上方会显示网址，形如 `https://你的用户名.github.io/bitig/` 。
 
 文件夹里有一个空文件 `.nojekyll`，作用是让 GitHub 原样发布全部文件，请一并上传。电脑默认会隐藏以点开头的文件，看不到时可以在 GitHub 网页上新建一个同名空文件。
 
@@ -192,4 +192,4 @@ python3 -m http.server 8000
 
 - 编辑器里打的字、改过的读法，存在读者自己的浏览器里，不会上传，也不会互相看见。
 - 网站不连接任何外部服务，字体也都在 `fonts/` 里，所以国内外访问的差别只取决于 GitHub Pages 本身的速度。
-- 字体来源：Noto 系列与 Gentium Book Plus、马善政楷书均为 SIL Open Font License 开源字体。
+- 字体来源：Noto 系列与 Gentium Book Plus 均为 SIL Open Font License 开源字体。

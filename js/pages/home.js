@@ -7,7 +7,7 @@
     const site = SIYI.config.site, D = SIYI.dictionaries;
     $('home-title').textContent = site.title;
     $('home-seal').textContent = site.seal || '';
-    $('home-seal').hidden = !site.seal;
+    $('home-seal').parentNode.hidden = !site.seal;
     $('home-lead').textContent = site.lead || '';
     $('home-origin').textContent = site.origin || '';
     $('home-origin').hidden = !site.origin;

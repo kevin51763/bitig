@@ -50,6 +50,3 @@
 @font-face { font-family: "Noto Naskh Arabic"; font-display: swap;
   src: url(../fonts/noto-naskh-arabic.woff2) format("woff2");
   unicode-range: U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC; }
-/* 标题书法字（马善政楷书），只含网站名“四译馆”三个字 */
-@font-face { font-family: "Ma Shan Zheng"; font-display: swap;
-  src: url(../fonts/ma-shan-zheng-title.woff2) format("woff2"); }
