@@ -3,17 +3,17 @@
   const $ = SIYI.$, esc = SIYI.esc;
   const KIND = { pdf: 'PDF', png: '图片', jpg: '图片', jpeg: '图片', gif: '图片', webp: '图片', svg: '图片',
     txt: '文本', md: '文本', csv: '表格', json: '数据', mp4: '视频', webm: '视频', zip: '压缩包', docx: 'Word', xlsx: 'Excel' };
-  const ext = m => ((m.file || '').split('.').pop() || '').toLowerCase();
-  const kind = m => m.file ? (KIND[ext(m)] || '文件') : m.url ? '链接' : '书目';
+  const ext = m => ((m.file || m.url || '').split(/[?#]/)[0].split('.').pop() || '').toLowerCase();
+  const kind = m => KIND[ext(m)] || (m.file ? '文件' : m.url ? '链接' : '书目');
 
   function item(m) {
     const href = m.file || m.url || '';
     const isImg = m.file && KIND[ext(m)] === '图片';
-    const host = !m.file && m.url ? ((m.url.match(/^https?:\/\/([^/]+)/) || [])[1] || '') : '';
+    const host = kind(m) === '链接' ? ((m.url.match(/^https?:\/\/([^/]+)/) || [])[1] || '') : '';
     return `<li><span class="kind">${isImg ? `<img src="${esc(m.file)}" alt="" loading="lazy">` : esc(kind(m))}</span>
       <span class="info">${href ? `<a class="t" href="${esc(href)}" target="_blank" rel="noopener">${esc(m.title || '未命名')} ↗</a>` : `<span class="t">${esc(m.title || '未命名')}</span>`}
         ${m.note ? `<span class="note">${esc(m.note)}</span>` : ''}
-        <span class="meta"><span>${esc(kind(m))}${m.size ? ' · ' + esc(m.size) : ''}${m.access ? ' · ' + esc(m.access) : host ? ' · ' + esc(host) : ''}</span>${SIYI.chips(m)}</span></span></li>`;
+        <span class="meta"><span>${esc(kind(m))}${m.size ? ' · ' + esc(m.size) : ''}${host ? ' · ' + esc(host) : ''}</span>${SIYI.chips(m)}</span></span></li>`;
   }
 
   function renderList() {
