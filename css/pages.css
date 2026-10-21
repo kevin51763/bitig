@@ -36,7 +36,7 @@ iframe.tframe { display: block; width: 100%; height: 80vh; border: 1px solid var
 .say-item { padding: 1rem .2rem; border-bottom: 1px solid var(--rule); }
 .say-item .saying { min-height: 0; padding: 0; gap: .8rem 1.6rem; }
 .say-item .say-sc { font-size: calc(1.6rem * var(--s, 1)); flex-basis: 16rem; }
-.say-item .say-sc.vert { max-height: 11rem; font-size: calc(1.5rem * var(--s, 1)); }
+.say-item .say-sc.vert, .say-item .say-sc.rot { max-height: 11rem; font-size: calc(1.5rem * var(--s, 1)); }
 .say-item .say-lang, .say-item .say-small, .say-item .say-src { color: var(--ink-soft); }
 .say-item .say-lat { font-size: 1.05rem; }
 .say-item .say-zh { font-size: 1rem; margin-top: .1rem; }

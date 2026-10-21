@@ -39,6 +39,8 @@
 .saying { display: flex; gap: 1.4rem 2rem; align-items: center; flex-wrap: wrap; min-height: 9rem; padding-right: 4.5rem; }
 .say-sc { font-size: calc(2.1rem * var(--s, 1)); line-height: 1.7; min-width: 0; flex: 1 1 20rem; overflow-wrap: anywhere; }
 .say-sc.vert { writing-mode: vertical-lr; flex: none; max-height: 15rem; font-size: calc(1.9rem * var(--s, 1)); }
+/* 回鹘文式竖写：竖排后整体转 180°，字形左转、自上而下、行从左到右；各浏览器都支持 */
+.say-sc.rot { writing-mode: vertical-rl; text-orientation: sideways; transform: rotate(180deg); flex: none; max-height: 16rem; font-size: calc(1.9rem * var(--s, 1)); line-height: 1.9; }
 .say-text { flex: 1 1 18rem; min-width: 0; display: flex; flex-direction: column; gap: .3rem; }
 .say-lang { font-size: .75rem; letter-spacing: .15em; color: var(--scroll-soft); }
 .say-lat { margin: 0; font-family: var(--f-lat); font-size: 1.2rem; font-style: italic; }
@@ -61,6 +63,7 @@
 .tool-card:hover { border-color: var(--lapis); }
 .tool-card .glyph { font-size: 1.6rem; line-height: 1.2; min-width: 2.4rem; text-align: center; color: var(--lapis); }
 .tool-card .glyph.v { writing-mode: vertical-lr; font-size: 1.5rem; }
+.tool-card .glyph.rot { writing-mode: vertical-rl; text-orientation: sideways; transform: rotate(180deg); font-size: 1.5rem; }
 .tool-card b { display: block; font-size: 1rem; }
 .tool-card span.d { display: block; font-size: .8rem; color: var(--ink-soft); }
 #home-texts { margin-top: .6rem; }

@@ -13,7 +13,9 @@
                   不写          只用作分类，没有编辑器（比如暂时只放范文的语言）
      font       原文用的字体（CSS 写法）；字体文件的登记在 css/fonts.css
      dir        书写方向：'ltr' 从左到右，'rtl' 从右到左
-     vertical   是否竖写：true 或 false
+     vertical   是否竖写：false 横写；true 竖写，字形直立、行从左到右（满文、蒙古文）；
+                'rotated' 竖写，把横写的字整体左转 90°，自上而下读、行从左到右（回鹘文）。
+                'rotated' 只用于首页名句和卡片，编辑器里另有开关
      scale      原文字号的比例，1 是标准大小
      card       首页卡片：glyph 是卡片上的示例字，desc 是一句说明
 
@@ -21,7 +23,7 @@
 SIYI.languages = [
   {
     id: 'ug', name: '回鹘文', editor: 'three-pane',
-    font: 'var(--f-ug)', dir: 'rtl', vertical: false, scale: 1,
+    font: 'var(--f-ug)', dir: 'rtl', vertical: 'rotated', scale: 1,
     card: { glyph: '𐽳𐽶𐽲𐽳𐽾', desc: '原文 · 换写 · 转写，三栏' }
   },
 

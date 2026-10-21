@@ -22,7 +22,7 @@
     $('home-tools').innerHTML = tools.map(l => {
       const c = l.card || {};
       return `<a class="tool-card" href="#tool-${esc(l.id)}">
-        <span class="glyph${l.vertical ? ' v' : ''}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(c.glyph || '')}</span>
+        <span class="glyph${l.vertical === 'rotated' ? ' rot' : l.vertical ? ' v' : ''}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(c.glyph || '')}</span>
         <span><b>${esc(l.name)}</b><span class="d">${esc(c.desc || '')}</span></span></a>`;
     }).join('');
 
