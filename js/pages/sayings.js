@@ -71,7 +71,7 @@
     $('v-says').innerHTML = `<a class="backlink" href="#home">← 首页</a>
       <div class="sec-head plain"><h1 class="vh">名句</h1><span class="meta">共 ${list.length} 句</span></div>
       <p class="small">首页轮流显示这里的句子。句子写在 content/sayings.js 里。</p>
-      <div class="seg say-filter" role="group">${[['all', `全部 ${list.length}`]].concat(langs.map(k => [k, `${SIYI.langName(k)} ${counts[k]}`]))
+      <div class="lang-filter" role="group">${[['all', `全部 ${list.length}`]].concat(langs.map(k => [k, `${SIYI.langName(k)} ${counts[k]}`]))
         .map(([k, t]) => `<button type="button" data-f="${esc(k)}" aria-pressed="${filter === k}">${esc(t)}</button>`).join('')}</div>
       <ul class="slist">${list.filter(q => filter === 'all' || q.lang === filter).map(q => `<li class="say-item"><div class="saying">${block(q)}</div></li>`).join('')}</ul>`;
     $('v-says').querySelectorAll('[data-f]').forEach(b => b.addEventListener('click', () => { filter = b.dataset.f; renderPage(); }));

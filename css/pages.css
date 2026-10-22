@@ -31,8 +31,12 @@ iframe.tframe { display: block; width: 100%; height: 80vh; border: 1px solid var
 .mlist .info .meta { font-size: .75rem; color: var(--ink-soft); display: flex; gap: .3rem .8rem; flex-wrap: wrap; align-items: center; }
 
 /* ---------- 全部名句 ---------- */
-.say-filter, .lang-filter { flex-wrap: wrap; align-self: flex-start; }
+/* 资料库、全部名句页顶上的语言筛选：样式与页头导航一致 */
+.lang-filter { display: flex; flex-wrap: wrap; gap: .15rem; }
 .lang-filter:empty { display: none; }
+.lang-filter button { font: inherit; font-size: .9rem; line-height: inherit; color: var(--ink-soft); background: transparent; border: 0; padding: .3rem .6rem; border-radius: 5px; cursor: pointer; }
+.lang-filter button:hover { color: var(--ink); background: var(--sheet); }
+.lang-filter button[aria-pressed="true"] { color: var(--sheet); background: var(--lapis); }
 .slist { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
 .say-item { padding: 1rem .2rem; border-bottom: 1px solid var(--rule); }
 .say-item .saying { min-height: 0; padding: 0; gap: .8rem 1.6rem; }
