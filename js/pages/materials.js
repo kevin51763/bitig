@@ -16,12 +16,25 @@
         <span class="meta"><span>${esc(kind(m))}${m.size ? ' · ' + esc(m.size) : ''}${host ? ' · ' + esc(host) : ''}</span>${SIYI.chips(m)}</span></span></li>`;
   }
 
+  /* 顶上一排语言按钮筛选；“全部”时每份资料只列一次，按加入先后，新的在前 */
+  let filter = SIYI.store.get('siyi-mat-filter') || 'all';
   function renderList() {
-    const all = SIYI.materials;
+    const all = SIYI.materials.slice().reverse();
     $('mats-count').textContent = all.length ? `共 ${all.length} 份` : '';
-    $('mats-groups').innerHTML = all.length
-      ? SIYI.groupByLang(all.slice().reverse(), '综合').map(g => `<div class="group"><h3>${esc(g.name)} <span class="n">${g.items.length} 份</span></h3><ul class="mlist">${g.items.map(item).join('')}</ul></div>`).join('')
-      : '<div class="empty-box">还没有资料。资料的登记方法见 content/materials.js 开头的说明。</div>';
+    if (!all.length) {
+      $('mats-filter').innerHTML = '';
+      $('mats-groups').innerHTML = '<div class="empty-box">还没有资料。资料的登记方法见 content/materials.js 开头的说明。</div>';
+      return;
+    }
+    const groups = SIYI.groupByLang(all, '综合').map(g => ({ ...g, f: g.key || '_' }));
+    if (filter !== 'all' && !groups.some(g => g.f === filter)) filter = 'all';
+    $('mats-filter').innerHTML = [{ f: 'all', name: '全部', items: all }].concat(groups)
+      .map(g => `<button type="button" data-f="${esc(g.f)}" aria-pressed="${g.f === filter}">${esc(g.name)} ${g.items.length}</button>`).join('');
+    $('mats-filter').querySelectorAll('button').forEach(btn => btn.addEventListener('click', () => {
+      filter = btn.dataset.f; SIYI.store.set('siyi-mat-filter', filter); renderList();
+    }));
+    const shown = filter === 'all' ? all : groups.find(g => g.f === filter).items;
+    $('mats-groups').innerHTML = `<ul class="mlist">${shown.map(item).join('')}</ul>`;
   }
 
   SIYI.checkList(SIYI.materials, 'content/materials.js', ['title']);

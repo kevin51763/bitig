@@ -8,13 +8,13 @@
 <!-- 这个文件只是页面的骨架。要改文字和内容，请看 config/ 和 content/ 两个文件夹；详见 README.md
      下面每个文件名后的 ?v=日期 是版本号：改过任何文件后，把所有 ?v= 后面的数字一起改成新日期，
      读者的浏览器就会重新下载，而不是沿用旧文件。 -->
-<link rel="stylesheet" href="css/fonts.css?v=2026102109">
-<link rel="stylesheet" href="css/theme.css?v=2026102109">
-<link rel="stylesheet" href="css/base.css?v=2026102109">
-<link rel="stylesheet" href="css/layout.css?v=2026102109">
-<link rel="stylesheet" href="css/pages.css?v=2026102109">
-<link rel="stylesheet" href="css/three-pane.css?v=2026102109">
-<link rel="stylesheet" href="css/two-pane.css?v=2026102109">
+<link rel="stylesheet" href="css/fonts.css?v=2026102201">
+<link rel="stylesheet" href="css/theme.css?v=2026102201">
+<link rel="stylesheet" href="css/base.css?v=2026102201">
+<link rel="stylesheet" href="css/layout.css?v=2026102201">
+<link rel="stylesheet" href="css/pages.css?v=2026102201">
+<link rel="stylesheet" href="css/three-pane.css?v=2026102201">
+<link rel="stylesheet" href="css/two-pane.css?v=2026102201">
 </head>
 <body>
 
@@ -65,7 +65,8 @@
 <main class="view wrap" id="v-mats" hidden>
   <div class="sec-head plain"><h1 class="vh">资料库</h1><span class="meta" id="mats-count"></span></div>
   <p class="small">添加资料，请联系 <a href="mailto:231810083@smail.nju.edu.cn">231810083@smail.nju.edu.cn</a></p>
-  <div class="groups" id="mats-groups"></div>
+  <div class="seg lang-filter" id="mats-filter" role="group" aria-label="按语言筛选"></div>
+  <div id="mats-groups"></div>
 </main>
 
 <!-- 全部名句 -->
@@ -81,34 +82,34 @@
 <div class="toast" id="toast" hidden></div>
 
 <!-- 载入顺序不能乱：先命名空间，再配置和内容，再转换规则和编辑器，最后是各栏目和路由 -->
-<script src="js/siyi.js?v=2026102109"></script>
+<script src="js/siyi.js?v=2026102201"></script>
 
-<script src="config/site.js?v=2026102109"></script>
-<script src="config/languages.js?v=2026102109"></script>
-<script src="config/dictionaries.js?v=2026102109"></script>
+<script src="config/site.js?v=2026102201"></script>
+<script src="config/languages.js?v=2026102201"></script>
+<script src="config/dictionaries.js?v=2026102201"></script>
 
-<script src="content/texts.js?v=2026102109"></script>
-<script src="content/materials.js?v=2026102109"></script>
-<script src="content/sayings.js?v=2026102109"></script>
+<script src="content/texts.js?v=2026102201"></script>
+<script src="content/materials.js?v=2026102201"></script>
+<script src="content/sayings.js?v=2026102201"></script>
 
-<script src="js/data/turkic-corpus.js?v=2026102109"></script>
-<script src="js/converters/turkic-common.js?v=2026102109"></script>
-<script src="js/converters/old-uyghur.js?v=2026102109"></script>
-<script src="js/converters/old-turkic.js?v=2026102109"></script>
-<script src="js/converters/manchu.js?v=2026102109"></script>
-<script src="js/converters/mongolian.js?v=2026102109"></script>
-<script src="js/converters/tibetan.js?v=2026102109"></script>
-<script src="js/converters/chagatai.js?v=2026102109"></script>
-<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026102109"></script> -->
+<script src="js/data/turkic-corpus.js?v=2026102201"></script>
+<script src="js/converters/turkic-common.js?v=2026102201"></script>
+<script src="js/converters/old-uyghur.js?v=2026102201"></script>
+<script src="js/converters/old-turkic.js?v=2026102201"></script>
+<script src="js/converters/manchu.js?v=2026102201"></script>
+<script src="js/converters/mongolian.js?v=2026102201"></script>
+<script src="js/converters/tibetan.js?v=2026102201"></script>
+<script src="js/converters/chagatai.js?v=2026102201"></script>
+<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026102201"></script> -->
 
-<script src="js/editors/three-pane.js?v=2026102109"></script>
-<script src="js/editors/two-pane.js?v=2026102109"></script>
+<script src="js/editors/three-pane.js?v=2026102201"></script>
+<script src="js/editors/two-pane.js?v=2026102201"></script>
 
-<script src="js/pages/shared.js?v=2026102109"></script>
-<script src="js/pages/sayings.js?v=2026102109"></script>
-<script src="js/pages/texts.js?v=2026102109"></script>
-<script src="js/pages/materials.js?v=2026102109"></script>
-<script src="js/pages/home.js?v=2026102109"></script>
-<script src="js/router.js?v=2026102109"></script>
+<script src="js/pages/shared.js?v=2026102201"></script>
+<script src="js/pages/sayings.js?v=2026102201"></script>
+<script src="js/pages/texts.js?v=2026102201"></script>
+<script src="js/pages/materials.js?v=2026102201"></script>
+<script src="js/pages/home.js?v=2026102201"></script>
+<script src="js/router.js?v=2026102201"></script>
 </body>
 </html>
