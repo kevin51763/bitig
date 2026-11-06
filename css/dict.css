@@ -31,8 +31,9 @@ body.in-dict .site-foot { display: none; }
 .dx-source { grid-column: 1; grid-row: 2; font-size: 13px; color: var(--ink-soft); white-space: nowrap; font-family: var(--f-ui); }
 .dx-source b { margin-left: 8px; padding: 1px 8px; font-weight: 600; color: var(--seal); border: 1px solid var(--seal); border-radius: 2px; }
 .dx-search { grid-column: 2; grid-row: 1; display: flex; gap: 10px; align-items: stretch; min-width: 0; }
+.dx-qwrap { flex: 1; min-width: 0; position: relative; display: flex; }
 .dx-q {
-  flex: 1; min-width: 0; font-family: var(--latin); font-size: 22px; letter-spacing: .01em;
+  flex: 1; min-width: 0; padding-right: 42px !important; font-family: var(--latin); font-size: 22px; letter-spacing: .01em;
   padding: 5px 14px; color: var(--ink); background: var(--sheet);
   border: 1px solid var(--rule); border-bottom: 2px solid var(--lapis); border-radius: 2px; outline: none;
 }
@@ -55,7 +56,15 @@ body.in-dict .site-foot { display: none; }
 .dx-toggle input:checked ~ .dx-name, .dx-one .dx-name { color: var(--ink); }
 .dx-toggle input:focus-visible + .dx-seal { outline: 2px solid var(--seal); outline-offset: 2px; }
 .dx-n { font-variant-numeric: tabular-nums; font-size: 12px; }
-.dx-legend-btn { margin-left: auto; background: none; border: 0; padding: 0; font: inherit; font-size: 14px; color: var(--lapis); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.dx-clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  width: 28px; height: 28px; display: grid; place-items: center; padding: 0;
+  border: 0; border-radius: 50%; background: transparent; color: var(--ink-soft); cursor: pointer;
+}
+.dx-clear:hover { background: var(--paper); color: var(--ink); }
+.dx-clear[hidden] { display: none; }
+.dx-tools { margin-left: auto; order: 1; display: inline-flex; gap: 16px; white-space: nowrap; }
+.dx-legend-btn, .dx-spine-btn { background: none; border: 0; padding: 0; font: inherit; font-size: 14px; color: var(--lapis); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
 .dx-legend { grid-column: 2; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); padding: 10px 14px; display: none; }
 .dx-legend.open { display: block; }
 .dx-legend h3 { margin: 0 0 4px; font-size: 14px; }
@@ -158,8 +167,18 @@ body.in-dict .site-foot { display: none; }
   .dx-col { font-size: 20px; max-height: 160px; }
   .dx-headline .dx-tl { font-size: 21px; }
 }
+/* 收起左栏：结果占满宽度 */
+.dx-nospine .dx-spine { display: none; }
+.dx-nospine .dx-main, .dx-nospine .dx-main.two { grid-template-columns: 1fr; }
+@media (max-width: 760px) {
+  .dx-nospine .dx-main, .dx-nospine .dx-main.two { grid-template-rows: 1fr; }
+  /* 手机上顶栏尽量紧凑：词条数不显示 */
+  .dx-n { display: none; }
+  .dx-filters { gap: 4px 16px; }
+  .dx-grp { gap: 4px 10px; }
+}
+.dx-results { overscroll-behavior: contain; }
 /* 输入框获得焦点时已有朱红底线，不再加外框 */
 #v-dict .dx-q:focus-visible { outline: none; }
 /* 有两组选项时（满汉蒙）：“转写规则”跟在第一组后面，第二组另起一行 */
-.dx-legend-btn { order: 1; }
 .dx-grp + .dx-grp { order: 2; width: 100%; }

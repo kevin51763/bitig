@@ -62,6 +62,9 @@
   }
 
   /* 一部词典。C 是设置（见 dictionaries.js），root 是放这部词典的元素；headLeft 是顶栏左侧的 HTML（切换词典的链接）。 */
+  // 上次是否收起了左栏
+  try { if (localStorage.getItem('dict-spine') === 'off') document.documentElement.classList.add('dx-nospine'); } catch (e) {}
+
   function DictApp(C, root, headLeft) {
     var store = {
       get: function (k, d) { try { var v = localStorage.getItem('dict-' + C.id + '-' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -77,7 +80,9 @@
     root.innerHTML =
       '<div class="dx-head">' +
         '<div class="dx-left">' + headLeft + '</div>' +
-        '<form class="dx-search" role="search"><input class="dx-q" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="转写或释义">' +
+        '<form class="dx-search" role="search"><span class="dx-qwrap"><input class="dx-q" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="转写或释义">' +
+          '<button type="button" class="dx-clear" aria-label="清空输入" title="清空输入" hidden>' +
+          '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></span>' +
           '<select class="dx-mode" aria-label="查询方式"><option value="smart">综合</option><option value="prefix">词首</option>' +
           '<option value="contain">包含</option><option value="fuzzy">近似拼写</option><option value="def">释义反查</option></select></form>' +
         '<div class="dx-source">数据来源<b>栗林均词典</b></div>' +
@@ -88,7 +93,7 @@
         '<section class="dx-results" aria-live="polite"><div class="dx-status">正在载入词库…</div><div class="dx-list"></div></section></div>';
     var q$ = function (sel) { return root.querySelector(sel); };
     var qEl = q$('.dx-q'), modeEl = q$('.dx-mode'), listEl = q$('.dx-list'), statusEl = q$('.dx-status');
-    var spineEl = q$('.dx-spine'), resultsEl = q$('.dx-results');
+    var spineEl = q$('.dx-spine'), resultsEl = q$('.dx-results'), clearBtn = q$('.dx-clear');
 
     // ---------- 数据 ----------
     var E = [];            // 词头 { i, key, script, mask, alt, raw（释义原文，读入后才有）, senses }
@@ -334,6 +339,7 @@
 
     function run(keepScroll) {
       var q = qEl.value.trim();
+      clearBtn.hidden = !qEl.value;
       store.set('q', qEl.value);
       if (!keepScroll) selected = -1;
       if (!q) {
@@ -388,7 +394,7 @@
       run(); qEl.focus();
     }
 
-    qEl.addEventListener('input', function () { selected = -1; drawSpine(); schedule(); });
+    qEl.addEventListener('input', function () { clearBtn.hidden = !qEl.value; selected = -1; drawSpine(); schedule(); });
     modeEl.addEventListener('change', function () { store.set('mode', modeEl.value); run(); });
     q$('.dx-search').addEventListener('submit', function (e) { e.preventDefault(); run(); });
 
@@ -398,6 +404,8 @@
       var b = ev.target.closest('[data-input]');
       if (b) { setInput(b.getAttribute('data-input')); run(); qEl.focus(); return; }
       if (ev.target.closest('.dx-more')) { more(); return; }
+      if (ev.target.closest('.dx-clear')) { qEl.value = ''; run(); qEl.focus(); return; }
+      if (ev.target.closest('.dx-spine-btn')) { setSpine(!spineHidden()); return; }
       if (ev.target.closest('.dx-legend-btn')) {
         var open = q$('.dx-legend').classList.toggle('open'); ev.target.setAttribute('aria-expanded', open); return;
       }
@@ -418,6 +426,15 @@
     });
 
     // ---------- 顶栏 ----------
+    // 左栏（原文与复制按钮）可以收起，三部词典共用这一设置，记在浏览器里
+    function spineHidden() { return document.documentElement.classList.contains('dx-nospine'); }
+    function setSpine(hide) {
+      document.documentElement.classList.toggle('dx-nospine', hide);
+      try { localStorage.setItem('dict-spine', hide ? 'off' : 'on'); } catch (e) {}
+      document.querySelectorAll('.dx-spine-btn').forEach(function (b) {
+        b.setAttribute('aria-pressed', hide); b.textContent = hide ? '显示原文' : '收起原文';
+      });
+    }
     function buildFilters(counts) {
       var html = '';
       if (C.inputs.length > 1) {
@@ -435,7 +452,8 @@
         html += '<span class="dx-grp"><span>词典</span><span class="dx-one">' + H.seal(0) + '<span class="dx-name">' + esc(C.dicts[0].name) + '</span>' +
           (counts ? '<span class="dx-n">' + E.length.toLocaleString() + ' 个词头</span>' : '') + '</span></span>';
       }
-      html += '<button type="button" class="dx-legend-btn" aria-expanded="false">转写规则</button>';
+      html += '<span class="dx-tools"><button type="button" class="dx-spine-btn" aria-pressed="' + spineHidden() + '">' + (spineHidden() ? '显示原文' : '收起原文') + '</button>' +
+        '<button type="button" class="dx-legend-btn" aria-expanded="false">转写规则</button></span>';
       var f = q$('.dx-filters');
       f.innerHTML = html;
       f.querySelectorAll('input[data-d]').forEach(function (cb) {
@@ -445,6 +463,7 @@
 
     modeEl.value = store.get('mode', 'smart');
     qEl.value = store.get('q', '') || '';
+    clearBtn.hidden = !qEl.value;
     qEl.placeholder = input().placeholder;
     buildFilters(null);
     run();
