@@ -1,5 +1,6 @@
 /* 最后载入：生成页头导航和页脚，按网址里 # 后面的部分切换栏目。
      #home 首页   #texts 范文   #text-简写 单篇范文   #materials 资料   #sayings 全部名句
+     #dict 词典（#dict-manhan、#dict-menghan、#dict-manhanmeng）
      #tool-语言简写 该语言的编辑器 */
 (function () {
   const $ = SIYI.$, esc = SIYI.esc;
@@ -12,11 +13,11 @@
   $('brand').textContent = site.title;
   const links = list => list.map(([h, t]) => `<a href="#${esc(h)}" data-nav="${esc(h)}">${esc(t)}</a>`).join('');
   $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
-  $('nav-right').innerHTML = links([['texts', '范文'], ['materials', '资料库']]);
+  $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '范文'], ['materials', '资料库']]);
   $('foot-name').textContent = site.title;
   $('foot-meta').textContent = site.footer || '';
 
-  const VIEWS = ['v-home', 'v-texts', 'v-mats', 'v-tri', 'v-mm', 'v-text', 'v-says'];
+  const VIEWS = ['v-home', 'v-texts', 'v-mats', 'v-tri', 'v-mm', 'v-text', 'v-says', 'v-dict'];
   function route() {
     const h = (location.hash || '#home').slice(1);
     let view = 'v-home', nav = 'home';
@@ -28,7 +29,9 @@
     else if (h.startsWith('text-')) { view = 'v-text'; nav = 'texts'; }
     else if (h === 'materials') { view = 'v-mats'; nav = 'materials'; }
     else if (h === 'sayings') { view = 'v-says'; }
+    else if (h === 'dict' || h.startsWith('dict-')) { view = 'v-dict'; nav = 'dict'; }
     VIEWS.forEach(id => { $(id).hidden = id !== view; });
+    document.body.classList.toggle('in-dict', view === 'v-dict');
     document.querySelectorAll('[data-nav]').forEach(a => { if (a.dataset.nav === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
 
     if (view === 'v-tri') {
@@ -40,6 +43,7 @@
     else if (view === 'v-text') SIYI.pages.texts.renderReader(h.slice(5));
     else if (view === 'v-mats') SIYI.pages.materials.renderList();
     else if (view === 'v-says') SIYI.pages.sayings.renderPage();
+    else if (view === 'v-dict') SIYI.pages.dict.show(h.slice(5));
     else SIYI.pages.home.render();
     if (view !== 'v-home' && view !== 'v-text') {
       const t = $(view).querySelector('h1'); if (t && t.textContent) document.title = t.textContent + ' · ' + site.title;
