@@ -24,12 +24,17 @@ var SIYI = globalThis.SIYI = {
   /* 一个语言标记（如 'mnc'，或直接写的 '汉文'）对应的显示名 */
   SIYI.langName = id => (SIYI.lang(id) || {}).name || id;
 
+  /* 一条词典链接：站外的在新标签页打开并加 ↗，站内的（如 dict/ 里的词典）直接打开 */
+  SIYI.dictLink = d => /^https?:/.test(d.url || '')
+    ? `<a href="${SIYI.esc(d.url)}" target="_blank" rel="noopener">${SIYI.esc(d.name)} ↗</a>`
+    : `<a href="${SIYI.esc(d.url)}">${SIYI.esc(d.name)}</a>`;
+
   /* 某种语言的词典链接，显示在编辑器标题下面 */
   SIYI.dictLine = (el, langId) => {
     if (!el) return;
     const list = (SIYI.dictionaries.list || []).filter(d => (d.langs || []).includes(langId));
     el.hidden = !list.length;
-    el.innerHTML = list.length ? '查词：' + list.map(d => `<a href="${SIYI.esc(d.url)}" target="_blank" rel="noopener">${SIYI.esc(d.name)} ↗</a>`).join('') : '';
+    el.innerHTML = list.length ? '查词：' + list.map(SIYI.dictLink).join('') : '';
   };
 
   /* 配置或内容文件写错时，在页面顶上直接说明是哪个文件、第几行，免得整页空白却不知原因 */

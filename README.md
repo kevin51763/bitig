@@ -120,6 +120,29 @@ python3 -m http.server 8000
     { name: '藏汉大辞典', url: 'https://…', langs: ['bo'] },
 ```
 
+### 在线词典（`dict/` 文件夹）
+
+首页“查词”里的满汉、蒙汉、满汉蒙三部词典是本站自己的网页，数据来自栗林均词典：
+
+```
+dict/manhan.html        满汉词典（满汉大辞典、新满汉、満漢和）
+dict/menghan.html       蒙汉词典
+dict/manhanmeng.html    满汉蒙词典（欽定蒙文彙書、蒙文総彙、蒙文倒綱、蒙漢字典）
+dict/core.js            三部词典共用的查询程序
+dict/translit-mnc.js    满文转写与穆麟德夫式转写
+dict/translit-mn.js     蒙古文转写与学术转写
+dict/data/              词库（由 CSV 生成，不要手改）
+dict/tools/build_data.py  从 CSV 生成词库的脚本
+```
+
+拿到新版 CSV 后，在仓库最外层运行（不需要的一份可以不给）：
+
+```
+python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv
+```
+
+然后把三个词典 HTML 里 `data/….txt?v=` 后面的日期改新再上传。词库要通过网址读取，双击打开词典页面会提示载入失败，请用“本地预览”的方法打开。
+
 ### 改网站名、首页文字
 
 都在 `config/site.js`。

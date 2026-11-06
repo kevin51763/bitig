@@ -17,7 +17,7 @@
     $('home-dicts').hidden = !list.length && !D.intro;
     $('home-dict-intro').textContent = D.intro || '';
     $('home-dict-intro').hidden = !D.intro;
-    $('home-dict-links').innerHTML = list.map(d => `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.name)} ↗</a>`).join('');
+    $('home-dict-links').innerHTML = list.map(SIYI.dictLink).join('');
 
     const tools = SIYI.languages.filter(l => l.editor && !l.hidden);
     $('home-tools-sec').hidden = !tools.length;

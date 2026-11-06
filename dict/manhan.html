@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>满汉词典 · bitig</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%239B2B20'/%3E%3Ctext x='33' y='47' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='44' fill='%23fbfbf8'%3Eb%3C/text%3E%3C/svg%3E">
+<!-- 词典页面。查询程序在 dict/core.js，样式在 dict/dict.css，词库在 dict/data/；
+     词库由 dict/tools/build_data.py 从栗林均词典的 CSV 生成。下面只是这部词典自己的设置。 -->
+<link rel="stylesheet" href="../css/fonts.css?v=2026110601">
+<link rel="stylesheet" href="../css/theme.css?v=2026110601">
+<link rel="stylesheet" href="dict.css?v=2026110601">
+</head>
+<body>
+<header>
+  <div class="brand"><a class="home" href="../index.html">bitig</a><h1>满汉词典</h1></div>
+  <form class="search" id="form" role="search">
+    <input id="q" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="转写或释义">
+    <select id="mode" aria-label="查询方式">
+      <option value="smart">综合</option>
+      <option value="prefix">词首</option>
+      <option value="contain">包含</option>
+      <option value="fuzzy">近似拼写</option>
+      <option value="def">释义反查</option>
+    </select>
+  </form>
+  <div class="source">数据来源<b>栗林均词典</b></div>
+  <div class="filters" id="filters"></div>
+  <div class="legend" id="legend">
+    <h3>满文转写（穆麟德夫式）</h3>
+    <dl>
+      <div><dt>ū</dt><dd>也可打 v 或 @</dd></div>
+      <div><dt>š</dt><dd>也可打 S 或 x</dd></div>
+      <div><dt>ž</dt><dd>也可打 R</dd></div>
+      <div><dt>k'</dt><dd>也可打 K</dd></div>
+      <div><dt>ts'</dt><dd>也可打 ts</dd></div>
+      <div><dt>c'y</dt><dd>也可打 cy</dd></div>
+      <div><dt>zy</dt><dd>也可打 jy</dd></div>
+      <div><dt>ng、dz</dt><dd>各算一个字母</dd></div>
+    </dl>
+    <p>结果中的转写一律用正式写法。查询时不分 q 与 k、γ 与 g，ö 与 o、ü 与 u、š 与 s 也可互通；用 * 代替任意多个字母，? 代替一个字母。输入汉字则在释义中反查。点击词条空白处，左栏改显示该词条的原文。</p>
+  </div>
+</header>
+<main>
+  <aside class="spine" id="spine" aria-label="原文"></aside>
+  <section class="results" id="results" aria-live="polite">
+    <div class="status" id="status">正在载入词库…</div>
+    <div class="list" id="list"></div>
+  </section>
+</main>
+<script src="translit-mnc.js?v=2026110601"></script>
+<script src="core.js?v=2026110601"></script>
+<script>
+(function () {
+  var D = MNC.display, NAMES = ['满汉大辞典', '新满汉', '満漢和'];
+  var col = function (e) { return e.script || MNC.toScript(e.key); };
+  DictApp({
+    data: 'data/manhan.txt?v=2026110601', storeKey: 'dict-manhan-', colLang: 'mnc',
+    dicts: [{ name: NAMES[0], seal: '大' }, { name: NAMES[1], seal: '新' }, { name: NAMES[2], seal: '和' }],
+    inputs: [{ id: 'mnc', label: '满文转写', lang: MNC, placeholder: '输入满文转写，如 abka、hūwa；也可输入汉字反查' }],
+    sense: function (f) { return { d: f[0], hom: f[1], page: f[2], def: f[3] }; },
+    looseOf: function (e) { return [{ r: e.key }]; },
+    senseText: function (s) { return s.def; },
+    head: function (e, c) {
+      var d = D(e.key);
+      return '<button class="tl" data-q="' + c.H.esc(d) + '" data-in="mnc">' + c.H.markDisplay(MNC, d, c.q) + '</button>';
+    },
+    senseHtml: function (s, c) {
+      return '<span class="src">' + NAMES[s.d] + (s.page ? ' 页 ' + c.H.esc(s.page) : '') + (s.hom ? ' <i>/' + c.H.esc(s.hom) + '</i>' : '') + '</span>' +
+        '<span class="def">' + c.H.linkWords(c.H.markTerms(s.def), MNC, 'mnc') + '</span>';
+    },
+    col: col,
+    spine: function (c) {
+      if (c.q && !c.def && !c.selectedEntry) return c.H.pane({ lbl: '满文', lang: 'mnc', script: MNC.toScript(c.q), tl: D(c.q) });
+      if (c.top && (c.def || c.selectedEntry)) return c.H.pane({ lbl: '满文', lang: 'mnc', script: col(c.top), tl: D(c.top.key), from: c.selectedEntry ? '所选词条' : '首条结果' });
+      return c.H.pane({ lbl: '满文', empty: '满文随输入显示' });
+    },
+    intro: '<h2>输入满文转写开始查询</h2>' +
+      '<p>输入时左栏随即写出满文。结果按完全相同、词首相同、词中包含、拼写相近的顺序排列；输入汉字或日文则在释义中反查。</p><p>' +
+      ['abka', 'morin', 'bithe', 'hūwa', 'gisun'].map(function (w) { return '<span class="eg" data-q="' + w + '" data-in="mnc">' + w + '</span>'; }).join('') +
+      ['马', '学问'].map(function (w) { return '<span class="eg zh" data-q="' + w + '">' + w + '</span>'; }).join('') + '</p>'
+  });
+})();
+</script>
+</body>
+</html>
