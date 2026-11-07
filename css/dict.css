@@ -275,3 +275,9 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
     transition: transform var(--hide-ms, 300ms) ease-out;
   }
 }
+
+/* 释义一栏不许撑宽页面：长书名可换行，过长的词（梵文长词、成串的藏文）在必要时断开。
+   否则手机上整页会被撑宽，可以缩小到屏幕以外（藏文词典里最常见） */
+.dx-sense > div, .dx-body, .dx-headline { min-width: 0; }
+.dx-sense > div { overflow-wrap: anywhere; }
+.dx-src { white-space: normal; }
