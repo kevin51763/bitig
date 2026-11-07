@@ -123,7 +123,7 @@ python3 -m http.server 8000
 
 ### 词典栏目
 
-页头的“词典”栏目里有满汉、蒙汉、满汉蒙、清文鉴、藏文五部词典。前四部数据来自栗林均词典，藏文词典数据来自 [Christian Steinert 藏文词典](https://github.com/christiansteinert/tibetan-dictionary)（各词典版权属于原作者）。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`、`#dict-tibetan`。
+页头的“词典”栏目里有满汉、蒙汉、满汉蒙、清文鉴、藏文五部词典。前四部数据来自栗林均词典，藏文词典数据来自 [Christian Steinert 词典](https://github.com/christiansteinert/tibetan-dictionary)（各词典版权属于原作者）。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`、`#dict-tibetan`。
 
 ```
 js/dict/dictionaries.js   各部词典的设置（显示什么、怎样排）

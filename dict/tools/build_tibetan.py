@@ -1,4 +1,4 @@
-"""把 Christian Steinert 藏文词典仓库里的词典数据整理成网页用的词库（dict/data/tibetan*）。
+"""把 Christian Steinert 词典仓库里的词典数据整理成网页用的词库（dict/data/tibetan*）。
 
 数据仓库：https://github.com/christiansteinert/tibetan-dictionary
 用法（在本仓库最外层运行，需要 node 来读取原仓库的词典说明）：
@@ -130,7 +130,7 @@ def main(repo):
     # 词典说明
     with open(os.path.join(ROOT, 'js', 'dict', 'tibetan-dicts.js'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('/* 藏文词典各部的名称、语种（en 藏英、tib 藏文释藏文、skt 藏梵）和出处说明。\n'
-                '   由 dict/tools/build_tibetan.py 从 Steinert 藏文词典仓库生成，不要手改。 */\n'
+                '   由 dict/tools/build_tibetan.py 从 Steinert 词典仓库生成，不要手改。 */\n'
                 'SIYI.tibetanDicts = ' + json.dumps([{k: d[k] for k in ('name', 'group', 'about')} for d in dicts],
                                                    ensure_ascii=False, indent=1) + ';\n')
 

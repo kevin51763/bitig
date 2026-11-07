@@ -1,5 +1,5 @@
 /* 藏文词典各部的名称、语种（en 藏英、tib 藏文释藏文、skt 藏梵）和出处说明。
-   由 dict/tools/build_tibetan.py 从 Steinert 藏文词典仓库生成，不要手改。 */
+   由 dict/tools/build_tibetan.py 从 Steinert 词典仓库生成，不要手改。 */
 SIYI.tibetanDicts = [
  {
   "name": "Hopkins 2015",
