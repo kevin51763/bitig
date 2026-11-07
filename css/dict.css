@@ -281,3 +281,5 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
 .dx-sense > div, .dx-body, .dx-headline { min-width: 0; }
 .dx-sense > div { overflow-wrap: anywhere; }
 .dx-src { white-space: normal; }
+/* 藏文词典：所选词条不画左侧红线（释义很长，读时容易误点，红线反而干扰） */
+.dx-entry.nocol.sel { border-left-color: transparent; }
