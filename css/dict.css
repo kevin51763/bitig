@@ -254,3 +254,11 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
   .dx-tablist a { padding: .26rem .55rem; font-size: .85rem; }
   .dx-search { grid-row: 2; }
 }
+
+/* 手机上往下滑时收起页头、词典顶栏和左栏（由 js/pages/dict.js 加上 dx-collapsed） */
+@media (max-width: 760px) {
+  body.in-dict.dx-collapsed .site-head,
+  body.in-dict.dx-collapsed .dx-head,
+  body.in-dict.dx-collapsed .dx-spine { display: none; }
+  body.in-dict.dx-collapsed .dx-main { grid-template-rows: 1fr; }
+}

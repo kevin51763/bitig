@@ -42,7 +42,36 @@
     headH();
     if (window.ResizeObserver) new ResizeObserver(headH).observe(document.querySelector('.site-head'));
     else window.addEventListener('resize', headH);
+    watchScroll();
   }
+  /* 手机上：结果往下滑时收起页头、词典顶栏和左栏，只留结果；往上滑或回到顶部时再显示。电脑端不收。
+     收起时页头高度为 0，ResizeObserver 会把 --head-h 改成 0，词典随之占满整屏。 */
+  const narrow = window.matchMedia('(max-width: 760px)');
+  let lock = 0;
+  function setCollapsed(on) {
+    if (document.body.classList.contains('dx-collapsed') === on) return;
+    document.body.classList.toggle('dx-collapsed', on);
+    lock = Date.now() + 350;   // 收放会改变列表高度、引起一次滚动，这段时间里不再判断，免得来回跳
+  }
+  function watchScroll() {
+    const last = new WeakMap(), acc = new WeakMap();
+    $('v-dict').addEventListener('scroll', e => {
+      const t = e.target;
+      if (!t.classList || !t.classList.contains('dx-results')) return;
+      const y = t.scrollTop, d = y - (last.get(t) || 0);
+      last.set(t, y);
+      if (!narrow.matches) return setCollapsed(false);
+      if (Date.now() < lock) return;
+      if (y < 30) { acc.set(t, 0); return setCollapsed(false); }
+      // 同一方向累计滑过 40 像素才收放，轻微抖动不算
+      const a = acc.get(t) || 0, n = (a > 0) === (d > 0) ? a + d : d;
+      acc.set(t, n);
+      if (n > 40) setCollapsed(true);
+      else if (n < -40) setCollapsed(false);
+    }, true);
+    narrow.addEventListener('change', () => setCollapsed(false));
+  }
+
   function app(id) {
     build();
     if (!apps[id]) apps[id] = SIYI.DictApp(cfgOf(id), $('dx-' + id), tabs(id));
@@ -60,6 +89,7 @@
       app(id);
       SIYI.dictConfigs.forEach(c => { $('dx-' + c.id).hidden = c.id !== id; });
       $('dict-h1').textContent = cfgOf(id).title;
+      setCollapsed(false);
       headH();
       apps[id].show();
       // 稍后趁空闲预读另外两部的检索文件，切换过去时不用等
