@@ -16,6 +16,7 @@
       const src = c.source || '栗林均词典';
       let row = rows.find(r => r.src === src);
       if (!row) rows.push(row = { src, url: c.sourceUrl, list: [] });
+      if (!row.url) row.url = c.sourceUrl;
       row.list.push(c);
     });
     return '<nav class="dx-tabs" aria-label="切换词典">' + rows.map(r => {

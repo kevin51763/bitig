@@ -4,6 +4,8 @@
    重新生成词库后，把下面 VER 的日期改新，读者的浏览器才会重新下载。 */
 (function () {
   var VER = '?v=2026110709';
+  // 栗林均词典的官网：词典页左上角点“栗林均词典”即打开
+  var KURI = 'http://hkuri.cneas.tohoku.ac.jp/';
   var MNC = window.MNC, MN = window.MN;
 
   var LEGEND_MNC =
@@ -36,7 +38,7 @@
     var D = MNC.display, NAMES = ['满汉大辞典', '新满汉', '满汉和'];
     var col = function (e) { return e.script || MNC.toScript(e.key); };
     return {
-      id: 'manhan', tab: '满汉', title: '满汉词典', data: 'dict/data/manhan', ver: VER, colLang: 'mnc',
+      id: 'manhan', tab: '满汉', title: '满汉词典', data: 'dict/data/manhan', ver: VER, source: '栗林均词典', sourceUrl: KURI, colLang: 'mnc',
       dicts: [{ name: NAMES[0], seal: '大' }, { name: NAMES[1], seal: '新' }, { name: NAMES[2], seal: '和' }],
       inputs: [{ id: 'mnc', label: '满文转写', lang: MNC, placeholder: '输入满文转写，如 abka、hūwa；也可输入汉字反查' }],
       legend: LEGEND_MNC + LEGEND_TAIL,
@@ -81,7 +83,7 @@
     }
     function uniq(arr) { return arr.filter(function (x, i) { return x && arr.indexOf(x) === i; }); }
     return {
-      id: 'menghan', tab: '蒙汉', title: '蒙汉词典', data: 'dict/data/menghan', ver: VER, colLang: 'mn',
+      id: 'menghan', tab: '蒙汉', title: '蒙汉词典', data: 'dict/data/menghan', ver: VER, source: '栗林均词典', sourceUrl: KURI, colLang: 'mn',
       dicts: [{ name: '蒙汉词典', seal: '蒙' }],
       inputs: [{ id: 'mn', label: '蒙文转写', lang: MN, placeholder: '输入蒙古文转写，如 mongγol、bičig；也可输入汉字反查' }],
       legend: LEGEND_MN + LEGEND_TAIL,
@@ -136,7 +138,7 @@
       }).join('');
     }
     return {
-      id: 'manhanmeng', tab: '满汉蒙', title: '满汉蒙词典', data: 'dict/data/manhanmeng', ver: VER, colLang: 'mn', twoPanes: true,
+      id: 'manhanmeng', tab: '满汉蒙', title: '满汉蒙词典', data: 'dict/data/manhanmeng', ver: VER, source: '栗林均词典', sourceUrl: KURI, colLang: 'mn', twoPanes: true,
       dicts: NAMES.map(function (n, i) { return { name: n, seal: SEALS[i] }; }),
       inputs: [
         { id: 'mn', label: '蒙文转写', lang: MN, placeholder: '输入蒙古文转写，如 ayimaγ、bičig；也可输入汉字反查' },
@@ -201,7 +203,7 @@
       }).join('');
     }
     return {
-      id: 'qingwenjian', tab: '清文鉴', title: '清文鉴词典', data: 'dict/data/qingwenjian', ver: VER, colLang: 'mnc', twoPanes: true,
+      id: 'qingwenjian', tab: '清文鉴', title: '清文鉴词典', data: 'dict/data/qingwenjian', ver: VER, source: '栗林均词典', sourceUrl: KURI, colLang: 'mnc', twoPanes: true,
       dicts: NAMES.map(function (n, i) { return { name: n, seal: SEALS[i] }; }),
       inputs: [
         { id: 'mnc', label: '满文转写', lang: MNC, placeholder: '输入满文转写，如 abka、bithe；也可输入汉字反查' },
