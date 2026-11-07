@@ -3,7 +3,7 @@
    词库在 dict/data/，由 dict/tools/build_data.py 从栗林均词典的 CSV 生成；
    重新生成词库后，把下面 VER 的日期改新，读者的浏览器才会重新下载。 */
 (function () {
-  var VER = '?v=2026110602';
+  var VER = '?v=2026110701';
   var MNC = window.MNC, MN = window.MN;
 
   var LEGEND_MNC =
@@ -173,5 +173,74 @@
     };
   })();
 
-  SIYI.dictConfigs = [manhan, menghan, manhanmeng];
+  /* ---------- 清文鑑 ---------- */
+  var qingwenjian = (function () {
+    var NAMES = ['増訂清文鑑', '満蒙清文鑑', '五体清文鑑', '三合切音清文鑑', '大清全書'], SEALS = ['增', '蒙', '五', '三', '全'];
+    var D = MNC.display;
+    var clean = function (s) { return s.replace(/\[[^\]]*\]/g, '').replace(/\s*\/\s*\d+\s*$/, '').trim(); };
+    var foldMn = function (s) { var o = ''; for (var i = 0; i < s.length; i++) o += MN.foldChar(s[i]); return o.replace(/\s+/g, ' ').trim(); };
+    var col = function (e) { return MNC.toScript(e.key); };
+
+    // 某词条对应的蒙古文：蒙文输入时取与查询相符的一项，否则取第一项
+    function mongolOf(e, c) {
+      var best = null, fq = c.inputId === 'mn' && c.q ? foldMn(MN.normInput(c.q)) : '';
+      c.H.alts(e).forEach(function (a) {
+        if (!c.H.enabled(a.d)) return;
+        var f = foldMn(MN.display(a.r)), sc = !fq ? 2 : f === fq ? 0 : f.indexOf(fq) >= 0 ? 1 : 2;
+        if (!best || sc < best.sc) best = { p: a.r, sc: sc };
+      });
+      return best && best.p;
+    }
+    function mnHtml(s, c) {
+      return s.mn.split(/(\s*[,;]\s*)/).map(function (p) {
+        if (/^\s*[,;]\s*$/.test(p)) return c.H.esc(p);
+        var q = clean(p), d = MN.display(p);
+        if (!q) return c.H.esc(d);
+        return '<span class="dx-w" data-q="' + c.H.esc(MN.display(q)) + '" data-in="mn">' +
+          (c.inputId === 'mn' ? c.H.markDisplay(MN, d, c.q) : c.H.esc(d)) + '</span>';
+      }).join('');
+    }
+    return {
+      id: 'qingwenjian', tab: '清文鑑', title: '清文鑑', data: 'dict/data/qingwenjian', ver: VER, colLang: 'mnc', twoPanes: true,
+      dicts: NAMES.map(function (n, i) { return { name: n, seal: SEALS[i] }; }),
+      inputs: [
+        { id: 'mnc', label: '满文转写', lang: MNC, placeholder: '输入满文转写，如 abka、bithe；也可输入汉字反查' },
+        { id: 'mn', label: '蒙文转写', lang: MN, placeholder: '输入蒙古文转写，如 tngri、bičig；也可输入汉字反查' }
+      ],
+      legend: LEGEND_MNC + LEGEND_MN + LEGEND_TAIL,
+      sense: function (f) { return { d: f[0], hom: f[1], raw: f[2], zh: f[3], mn: f[4], expl: f[5], page: f[6], cyr: f[7] }; },
+      looseOf: function (e, id, alts) { return id === 'mnc' ? [{ r: e.key }] : alts(e); },
+      senseText: function (s) { return s.zh + ' ' + s.expl; },
+      head: function (e, c) {
+        var d = D(e.key);
+        return '<button type="button" class="dx-tl" data-q="' + c.H.esc(d) + '" data-in="mnc">' +
+          (c.inputId === 'mnc' ? c.H.markDisplay(MNC, d, c.q) : c.H.esc(d)) + '</button>';
+      },
+      senseHtml: function (s, c) {
+        var H = c.H;
+        return '<span class="dx-src">' + NAMES[s.d] + (s.page ? ' 页 ' + H.esc(s.page) : '') + (s.hom ? ' <i>/' + H.esc(s.hom) + '</i>' : '') + '</span>' +
+          (s.raw ? '<span class="dx-alt">原书作 ' + H.esc(D(s.raw)) + '</span>' : '') +
+          (s.zh ? '<span class="dx-def">' + H.markTerms(s.zh) + '</span>' : '') +
+          // 释义：増訂、満蒙两部是满文，五体是日文，大清全書是汉文；其中的满文词点一下即查
+          (s.expl ? '<span class="dx-ex">' + H.linkWords(H.markTerms(s.expl), MNC, 'mnc') + '</span>' : '') +
+          (s.mn ? '<span class="dx-eq"><span class="dx-k">蒙文</span>' + mnHtml(s, c) +
+            (s.cyr ? ' <span class="dx-cyr" lang="mn-Cyrl">' + H.esc(s.cyr) + '</span>' : '') + '</span>' : '');
+      },
+      col: col,
+      spine: function (c) {
+        var live = c.q && !c.def && !c.selectedEntry, from = fromLabel(c);
+        var mnc = { lbl: '满文', lang: 'mnc', empty: '满文' }, mn = { lbl: '蒙文', lang: 'mn', empty: '蒙文' };
+        if (live && c.inputId === 'mnc') { mnc.script = MNC.toScript(c.q); mnc.tl = D(c.q); }
+        else if (c.top) { mnc.script = col(c.top); mnc.tl = D(c.top.key); mnc.from = from; }
+        if (live && c.inputId === 'mn') { mn.script = MN.toScript(MN.normInput(c.q), true); mn.tl = MN.normInput(c.q); }
+        else if (c.top) { var p = mongolOf(c.top, c); if (p) { mn.script = MN.toScript(p, true); mn.tl = MN.display(p); mn.from = from; } }
+        return c.H.pane(mnc) + c.H.pane(mn);
+      },
+      intro: '<h2>输入满文或蒙古文转写开始查询</h2>' +
+        '<p>收増訂清文鑑、満蒙清文鑑、五体清文鑑、三合切音清文鑑、大清全書五部，可分别勾选。増訂、満蒙两部以满文释满文，五体附日文译释，大清全書附汉文释义；释义里的满文词点一下即可查询。左栏并列满文和蒙古文，蒙古文原文由转写生成。</p>' +
+        '<p>' + eg(['abka', 'bithe', 'morin', 'aššafi'], 'mnc') + eg(['tngri', 'bičig'], 'mn') + eg(['天', '書']) + '</p>'
+    };
+  })();
+
+  SIYI.dictConfigs = [manhan, menghan, manhanmeng, qingwenjian];
 })();

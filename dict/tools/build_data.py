@@ -1,7 +1,7 @@
 """把栗林均词典的 CSV 整理成网页用的词库文件（dict/data/*.txt），网站“词典”栏目读取这些文件。
 
 用法（在仓库根目录运行，三个参数分别是三份 CSV，不需要的可以不给）：
-    python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv
+    python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv --qingwenjian 清文鑑.csv
 
 每部词典生成检索文件和释义文件两个，格式见 write() 的说明。网页先载入较小的检索文件，释义随后在后台载入。
 """
@@ -211,11 +211,48 @@ def manhanmeng(path):
     write('manhanmeng', out, lambda k, g: same_or(g['script'], to_mongolian(k, True)), alt)
 
 
+# ---------- 清文鑑 ----------
+def qingwenjian(path):
+    dicts = ['増訂清文鑑', '満蒙清文鑑', '五体清文鑑', '三合切音清文鑑', '大清全書']
+    note = re.compile(r'\s*\[[^\]]*\]')
+    groups = collections.OrderedDict()
+    for x in csv.DictReader(open(path, encoding='utf-8-sig')):
+        d = x['词典'].strip()
+        if d not in dicts:
+            continue
+        raw = x['満洲語'].strip()
+        m = HOM.search(raw)
+        key = re.sub(r'\s+', ' ', note.sub('', HOM.sub('', raw))).strip().replace('@', 'v').replace('x', 'S')
+        if not key:
+            continue
+        # 原书写法带校注（如 abdaha[S:abtaha]）时另行列出
+        shown = HOM.sub('', raw) if note.search(raw) else ''
+        g = groups.setdefault(key, {'senses': []})
+        g['senses'].append((dicts.index(d), m.group(1) if m else '', shown, x['漢語'].strip(),
+                            x['モンゴル語'].strip(), x['訳・語解'], x['页码'].strip(), x['西里尔'].strip()))
+    for g in groups.values():
+        g['senses'].sort(key=lambda s: (s[0], s[1]))
+
+    def alt(k, g):
+        # 蒙文检索项：各义项的蒙古文，拆成单项，去掉 /2 一类的同形词编号，带上词典序号
+        seen = []
+        for sn in g['senses']:
+            for p in re.split(r'\s*[,;]\s*', sn[4]):
+                p = re.sub(r'\s*/\s*\d+\s*$', '', note.sub('', p)).strip()
+                item = f'{sn[0]}:{p}'
+                if p and item not in seen:
+                    seen.append(item)
+        return '\x1e'.join(seen)
+    # 数据里没有满文原文，一律由网页从转写生成
+    write('qingwenjian', groups, lambda k, g: '', alt)
+
+
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
-    ap.add_argument('--manhan'); ap.add_argument('--menghan'); ap.add_argument('--manhanmeng')
+    ap.add_argument('--manhan'); ap.add_argument('--menghan'); ap.add_argument('--manhanmeng'); ap.add_argument('--qingwenjian')
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
     if a.manhan: manhan(a.manhan)
     if a.menghan: menghan(a.menghan)
     if a.manhanmeng: manhanmeng(a.manhanmeng)
+    if a.qingwenjian: qingwenjian(a.qingwenjian)

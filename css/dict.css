@@ -1,7 +1,7 @@
 /* “词典”栏目的版式。所有类名都以 dx- 开头，不影响网站其他部分。颜色取自 theme.css，深色模式随网站切换。 */
 #v-dict {
   --latin: "Source Serif 4", var(--f-lat);
-  --d0: #27457f; --d1: #9B2B20; --d2: #4F6B3A; --d3: #8A6420;
+  --d0: #27457f; --d1: #9B2B20; --d2: #4F6B3A; --d3: #8A6420; --d4: #5E4B7D;
   /* 占满页头以下的整个窗口；--head-h 由 js/pages/dict.js 按页头实际高度设定 */
   height: calc(100vh - var(--head-h, 56px));
   height: calc(100dvh - var(--head-h, 56px));
@@ -76,6 +76,7 @@ body.in-dict .site-foot { display: none; }
 .dx-seal { display: inline-grid; place-items: center; width: 22px; height: 22px; font-size: 13px; line-height: 1; font-weight: 600; color: #fff; border-radius: 2px; flex: none; font-family: var(--f-zh); }
 .dx-seal.d0 { background: var(--d0); } .dx-seal.d1 { background: var(--d1); }
 .dx-seal.d2 { background: var(--d2); } .dx-seal.d3 { background: var(--d3); }
+.dx-seal.d4 { background: var(--d4); }
 
 /* ---------- 左栏与结果 ---------- */
 .dx-main {
@@ -121,6 +122,8 @@ body.in-dict .site-foot { display: none; }
 .dx-src { font-size: 12px; color: var(--ink-soft); margin-right: 8px; white-space: nowrap; }
 .dx-src i { font-family: var(--latin); font-style: normal; }
 .dx-alt { font-family: var(--latin); font-size: 15px; color: var(--ink-soft); margin-right: 8px; }
+/* 清文鑑的释义（满文、日文或汉文）另起一行 */
+.dx-ex { display: block; margin-top: 2px; }
 .dx-eq { display: block; margin-top: 2px; font-size: 14px; color: var(--ink-soft); }
 .dx-k { margin-right: 6px; }
 .dx-w { font-family: var(--latin); font-size: 15.5px; cursor: pointer; }
@@ -164,8 +167,14 @@ body.in-dict .site-foot { display: none; }
   .dx-panel { padding: 0; }
   .dx-head { grid-template-columns: 1fr auto; padding: 8px 12px; border: 0; border-bottom: 1px solid var(--rule); border-radius: 0; }
   .dx-main { border: 0; border-radius: 0; }
-  .dx-left { grid-column: 1; grid-row: 1; }
+  .dx-left { grid-column: 1; grid-row: 1; min-width: 0; }
   .dx-source { grid-column: 2; grid-row: 1; justify-self: end; }
+  /* 四部词典的切换按钮在窄屏上收紧；来源只留朱红框，“数据来源”几字不显示 */
+  .dx-tabs a { font-size: .85rem; padding: .32rem .55rem; }
+  .dx-source { font-size: 0; }
+  .dx-source b { margin-left: 0; font-size: 12px; }
+  .dx-filters { min-width: 0; }
+  .dx-tools { flex-wrap: wrap; }
   .dx-search { grid-column: 1 / -1; grid-row: 2; }
   .dx-filters, .dx-legend { grid-column: 1 / -1; grid-row: auto; }
   .dx-q { font-size: 19px; }

@@ -1,4 +1,4 @@
-/* “词典”栏目的查询程序，满汉、蒙汉、满汉蒙三部词典共用。各词典的设置在 js/dict/dictionaries.js。
+/* “词典”栏目的查询程序，满汉、蒙汉、满汉蒙、清文鑑四部词典共用。各词典的设置在 js/dict/dictionaries.js。
    一般不需要改动这个文件。
 
    载入顺序：先读较小的检索文件（*.idx.txt），读完即可查询；释义文件（*.def.txt）随后在后台读入，
@@ -450,7 +450,7 @@
     });
 
     // ---------- 顶栏 ----------
-    // 左栏（原文与复制按钮）可以收起，三部词典共用这一设置，记在浏览器里
+    // 左栏（原文与复制按钮）可以收起，各部词典共用这一设置，记在浏览器里
     function spineHidden() { return document.documentElement.classList.contains('dx-nospine'); }
     function setSpine(hide) {
       document.documentElement.classList.toggle('dx-nospine', hide);
