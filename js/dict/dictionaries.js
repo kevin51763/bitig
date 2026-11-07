@@ -272,7 +272,7 @@
       }).join('');
     }
     return {
-      id: 'tibetan', tab: '藏文', title: 'Steinert 词典', data: 'dict/data/tibetan', ver: VER,
+      id: 'tibetan', tab: '藏文', title: 'Steinert 藏文词典', data: 'dict/data/tibetan', ver: VER,
       shard: 600, listDicts: true, noCol: true, reverse: 'dict/data/tibetan.en.txt',
       defLabel: '英文反查', defPrefix: '英文对应', loadingNote: '词头较多，第一次打开稍慢',
       source: 'Steinert 词典', sourceUrl: 'https://dictionary.christian-steinert.de',
@@ -305,7 +305,7 @@
         return c.H.pane({ lbl: '藏文', empty: '藏文随输入显示' });
       },
       intro: '<h2>输入威利转写开始查询</h2>' +
-        '<p>收 Christian Steinert 词典里的六十部词典，三十四万多个词头：藏英词典为主，另有藏文释藏文的辞书和藏梵对照。输入时左栏随即写出藏文，也可以直接粘贴藏文。' +
+        '<p>收 Christian Steinert 藏文词典里的六十部词典，三十四万多个词头：藏英词典为主，另有藏文释藏文的辞书和藏梵对照。输入时左栏随即写出藏文，也可以直接粘贴藏文。' +
         '要按英文找藏文，把右边的查询方式改为“英文反查”。词典很多，点上方“词典来源”可按语种勾选。</p>' +
         '<p>' + eg(['bkra shis', 'sangs rgyas', 'byang chub sems', 'chos'], 'bo') + '</p>'
     };
