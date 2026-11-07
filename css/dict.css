@@ -256,8 +256,9 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
 }
 
 /* ---------- 手机：整页滚动，上方内容随滑动收放 ----------
-   页头、词典顶栏、原文栏、结果数一行依次吸顶；往下滑时前三者一起滑出屏幕，结果数一行移到最上，
-   往上滑时滑回（由 js/pages/dict.js 加上 dx-collapsed）。
+   页头、词典顶栏、原文栏、结果数一行依次吸顶，四者一起上移 --hide 像素：
+   往下滑时 --hide 随滑动距离增加（跟手），最多到前三者的总高，结果数一行停在最上；
+   快速往上滑时 --hide 平滑回到 0（加 dx-anim 时才有动画）。--hide 由 js/pages/dict.js 设定。
    --sh、--dh、--sp 分别是页头、词典顶栏、原文栏的高度，也由 dict.js 量出。 */
 @media (max-width: 760px) {
   #v-dict { height: auto; }
@@ -267,12 +268,10 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
   .dx-head { position: sticky; top: var(--sh, 0px); z-index: 7; }
   .dx-spine { position: sticky; top: calc(var(--sh, 0px) + var(--dh, 0px)); z-index: 6; }
   .dx-status { top: calc(var(--sh, 0px) + var(--dh, 0px) + var(--sp, 0px)); z-index: 5; }
-  body.in-dict .site-head, .dx-head, .dx-spine, .dx-status { transition: transform .28s ease; }
-  body.in-dict.dx-collapsed .site-head { transform: translateY(-100%); }
-  body.in-dict.dx-collapsed .dx-head { transform: translateY(calc(-1 * (var(--sh, 0px) + var(--dh, 0px)))); }
-  body.in-dict.dx-collapsed .dx-spine,
-  body.in-dict.dx-collapsed .dx-status { transform: translateY(calc(-1 * (var(--sh, 0px) + var(--dh, 0px) + var(--sp, 0px)))); }
-}
-@media (max-width: 760px) and (prefers-reduced-motion: reduce) {
-  body.in-dict .site-head, .dx-head, .dx-spine, .dx-status { transition: none; }
+  body.in-dict .site-head, body.in-dict .dx-head, body.in-dict .dx-spine, body.in-dict .dx-status {
+    transform: translateY(calc(-1 * var(--hide, 0px)));
+  }
+  body.in-dict.dx-anim .site-head, body.in-dict.dx-anim .dx-head, body.in-dict.dx-anim .dx-spine, body.in-dict.dx-anim .dx-status {
+    transition: transform .3s ease-out;
+  }
 }

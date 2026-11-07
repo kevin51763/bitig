@@ -44,40 +44,58 @@
     else window.addEventListener('resize', headH);
     watchScroll();
   }
-  /* 手机上：整页滚动。往下滑时页头、词典顶栏和原文栏一起滑出屏幕，只留结果数一行；往上滑时滑回。
-     电脑端不收。具体的位置和动画在 css/dict.css 末尾。 */
+  /* 手机上：整页滚动，上方内容（页头、词典顶栏、原文栏）随滑动收放。电脑端不收。
+     往下滑：上方内容跟着手指一起移走，滑多少收多少。
+     往上滑：慢慢滑时保持收起，方便来回看词条；快速往上一划（超过 FAST）才平滑滑回。
+     回到页首附近时总是完整显示。位置和动画在 css/dict.css 末尾。 */
   const narrow = window.matchMedia('(max-width: 760px)');
-  let collapsed = false, lastY = 0, acc = 0;
-  function setCollapsed(on) {
-    if (collapsed === on) return;
-    collapsed = on;
-    document.body.classList.toggle('dx-collapsed', on);
+  const FAST = 0.8;          // 往上滑的速度超过每毫秒 0.8 像素（约每秒 800 像素）才算快
+  let hide = 0, top = 0, lastY = 0, trail = [], animTimer = 0, frame = 0;
+  const rootStyle = document.documentElement.style;
+  function apply() { frame = 0; rootStyle.setProperty('--hide', hide + 'px'); }
+  function setHide(px, animate) {
+    px = Math.max(0, Math.min(px, top));
+    if (px === hide) return;
+    hide = px;
+    clearTimeout(animTimer);
+    document.body.classList.toggle('dx-anim', !!animate);
+    if (animate) animTimer = setTimeout(() => document.body.classList.remove('dx-anim'), 320);
+    if (!frame) frame = requestAnimationFrame(apply);
   }
-  // 量出页头、当前词典顶栏、原文栏的高度，供吸顶和滑出的位置用
+  function setCollapsed(on) { setHide(on ? top : 0, true); }
+  // 量出页头、当前词典顶栏、原文栏的高度，供吸顶和收起的位置用
   function measure() {
-    const root = document.documentElement.style, panel = document.querySelector('.dx-panel:not([hidden])');
+    const panel = document.querySelector('.dx-panel:not([hidden])');
     const h = sel => { const el = panel && panel.querySelector(sel); return el ? el.offsetHeight : 0; };
-    root.setProperty('--sh', document.querySelector('.site-head').offsetHeight + 'px');
-    root.setProperty('--dh', h('.dx-head') + 'px');
-    root.setProperty('--sp', h('.dx-spine') + 'px');
-    return document.querySelector('.site-head').offsetHeight + h('.dx-head') + h('.dx-spine');
+    const sh = document.querySelector('.site-head').offsetHeight, dh = h('.dx-head'), sp = h('.dx-spine');
+    rootStyle.setProperty('--sh', sh + 'px');
+    rootStyle.setProperty('--dh', dh + 'px');
+    rootStyle.setProperty('--sp', sp + 'px');
+    top = sh + dh + sp;
+    if (hide > top) setHide(top);
   }
   let ro = null;
   function watchScroll() {
     if (window.ResizeObserver) ro = new ResizeObserver(() => measure());
     window.addEventListener('scroll', () => {
       if (!document.body.classList.contains('in-dict')) return;
-      const y = window.scrollY, d = y - lastY;
+      if (!narrow.matches) return setHide(0);
+      const y = Math.max(0, window.scrollY), now = performance.now(), d = y - lastY;
       lastY = y;
-      if (!narrow.matches) return setCollapsed(false);
-      // 上方内容还没整个滚过去时不收，否则会把结果数一行也推出屏幕
-      if (y < measure() + 10) { acc = 0; return setCollapsed(false); }
-      // 同一方向累计滑过 30 像素才收放，轻微抖动不算
-      acc = (acc > 0) === (d > 0) ? acc + d : d;
-      if (acc > 30) setCollapsed(true);
-      else if (acc < -30) setCollapsed(false);
+      // 记下最近 120 毫秒的位置，用来算速度
+      trail.push([now, y]);
+      while (trail.length > 2 && now - trail[0][0] > 120) trail.shift();
+      if (d > 0) {
+        document.body.classList.remove('dx-anim');
+        setHide(hide + d);                       // 往下：跟手收起
+      } else if (d < 0 && hide > 0) {
+        const [t0, y0] = trail[0], v = (y - y0) / Math.max(1, now - t0);
+        if (v < -FAST) setHide(0, true);         // 快速往上：滑回
+      }
+      // 回到页首附近时，上方内容不能比页面滚过的距离收得更多，否则结果上面会空出一块
+      if (hide > y) setHide(y);
     }, { passive: true });
-    narrow.addEventListener('change', () => { setCollapsed(false); measure(); });
+    narrow.addEventListener('change', () => { setHide(0); measure(); });
   }
   function observe(id) {
     if (!ro) return;
