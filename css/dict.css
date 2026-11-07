@@ -257,8 +257,8 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
 
 /* ---------- 手机：整页滚动，上方内容随滑动收放 ----------
    页头、词典顶栏、原文栏、结果数一行依次吸顶，四者一起上移 --hide 像素：
-   往下滑时 --hide 随滑动距离增加（跟手），最多到前三者的总高，结果数一行停在最上；
-   快速往上滑时 --hide 平滑回到 0（加 dx-anim 时才有动画）。--hide 由 js/pages/dict.js 设定。
+   往下滑时 --hide 一次设为前三者的总高，结果数一行移到最上；快速往上滑时 --hide 回到 0。
+   加 dx-anim 时有动画，时长 --hide-ms 随滑动快慢而定。--hide 由 js/pages/dict.js 设定。
    --sh、--dh、--sp 分别是页头、词典顶栏、原文栏的高度，也由 dict.js 量出。 */
 @media (max-width: 760px) {
   #v-dict { height: auto; }
@@ -272,6 +272,6 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
     transform: translateY(calc(-1 * var(--hide, 0px)));
   }
   body.in-dict.dx-anim .site-head, body.in-dict.dx-anim .dx-head, body.in-dict.dx-anim .dx-spine, body.in-dict.dx-anim .dx-status {
-    transition: transform .3s ease-out;
+    transition: transform var(--hide-ms, 300ms) ease-out;
   }
 }
