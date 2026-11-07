@@ -9,8 +9,24 @@
   const idle = window.requestIdleCallback || (f => setTimeout(f, 200));
 
   const cfgOf = id => SIYI.dictConfigs.find(c => c.id === id);
-  const tabs = id => '<nav class="dx-tabs" aria-label="切换词典">' +
-    SIYI.dictConfigs.map(c => `<a href="#dict-${c.id}"${c.id === id ? ' aria-current="page"' : ''}>${esc(c.tab)}</a>`).join('') + '</nav>';
+  /* 左上角的词典切换：按数据来源分行，每行开头是来源，后面是出自这一来源的词典 */
+  const tabs = id => {
+    const rows = [];
+    SIYI.dictConfigs.forEach(c => {
+      const src = c.source || '栗林均词典';
+      let row = rows.find(r => r.src === src);
+      if (!row) rows.push(row = { src, url: c.sourceUrl, list: [] });
+      row.list.push(c);
+    });
+    return '<nav class="dx-tabs" aria-label="切换词典">' + rows.map(r => {
+      const cur = r.list.some(c => c.id === id);
+      const label = r.url
+        ? `<a class="dx-tabsrc" href="${esc(r.url)}" target="_blank" rel="noopener" title="数据来源">${esc(r.src)}</a>`
+        : `<span class="dx-tabsrc" title="数据来源">${esc(r.src)}</span>`;
+      return `<div class="dx-tabrow${cur ? ' cur' : ''}">${label}<span class="dx-tablist">` +
+        r.list.map(c => `<a href="#dict-${c.id}"${c.id === id ? ' aria-current="page"' : ''}>${esc(c.tab)}</a>`).join('') + '</span></div>';
+    }).join('') + '</nav>';
+  };
 
   /* 词典占满页头以下的窗口，要知道页头有多高（窄屏时导航会折行） */
   function headH() {

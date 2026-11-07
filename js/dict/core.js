@@ -87,9 +87,6 @@
           '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></span>' +
           '<select class="dx-mode" aria-label="查询方式"><option value="smart">综合</option><option value="prefix">词首</option>' +
           '<option value="contain">包含</option><option value="fuzzy">近似拼写</option><option value="def">' + esc(C.defLabel || '释义反查') + '</option></select></form>' +
-        '<div class="dx-source">数据来源' + (C.sourceUrl
-          ? '<a href="' + esc(C.sourceUrl) + '" target="_blank" rel="noopener"><b>' + esc(C.source) + '</b></a>'
-          : '<b>' + esc(C.source || '栗林均词典') + '</b>') + '</div>' +
         '<div class="dx-filters"></div>' +
         '<div class="dx-dictpanel" hidden></div>' +
         '<div class="dx-legend">' + C.legend + '</div>' +
