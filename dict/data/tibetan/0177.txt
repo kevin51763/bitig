@@ -1,0 +1,600 @@
+41(trans) ring road {snum 'khar rigs grang khyer gyi dbus su 'gra mi dgas par mtha' zur nas skar te 'gro 'ong byed 'jug sa'i gzhung lam sgar ma zhig}
+51{lam rim la shin tu mkhas par grags pa'i }\u0f38{rgyal mchog lnga pa chen po'i bla ma zhig du kU la'i gos bzang glegs bam stod cha 247las/ byang chub lam gyi rim pa la rje bla ma nas 'jam dbyangs stag lung brag pa'i bar du bshad rgyun nyams pa med pa gling smad zhabs drung la mnga' zhing dus thog der lam rim la de las mkhas pa med par nges pa rnyed de gsang sngags mkhar nas gdan drangs/ lam rim chen mo'i spyod pa spyi bslab yan la zhib bshad/ zhi lhag la don bsdu/ lam rim chung ba'i zhi lhag la zhib bshad dang de phyin la ljags lung gnang zhing gsung bshad rnams la rgyugs 'bul kyang zhus/ lar snam bu 'dom re rnyed pa la dka' tshegs mi 'dug kyang paN zhwa ser po sne ring tshad kyis lam rim/ sa zhu 'byor tshad kyis lam 'bras/ o rgyan paN zhu dmar zing tshad kyis rdzogs chen/ sgom zhwa pus 'khyud yod tshad kyis phyag chen 'chad ga la shes/ chos 'di shes pa zhig la gtugs pa gnad che bar snang / zhes gsungs/}
+54{khong ni rab byung bcu pa'i chu mo bya lo ste spyi lo} 1573 {lor gra nang dgon pa'i zhol du sku 'khrungs/} {rab byung bcu gcig pa'i me pho khyi lo ste spyi lo} 1646 {lor sku gshegs/} {khong dgung lo chung ngu'i dus su bsod nams rgyal mchog las dge bsnyen gyi sdom pa bzhes/} {dgung lo bcu gnyis par dwags po grwa tshang du zhugs shing slob dpon blo bzang chos 'phel las dge tshul bsgrubs te mtshan la dkon mchog chos 'phel zhes gsol/} {slob gnyer nan tan du mdzad pas mkhas pa snyan graT che bar gyur/} {dgung lo nyer gnyis par rtses thang du rab 'byams }[311]{pa'i grwa skor mdzad/} {de nas skyid shod du phebs te mdo sngags gnyis la zab sbyangs mdzad pas dge bshes chen por gyur zhing dga' ldan gyi tshogs chen gral du bgro gleng gnang bas mkhas pa'i snyan grags phyogs bcur khyab/} {dgung lo nyer bzhi par rgyal khang rtse pa dpal 'byor rgya mtsho las bsnyen par rdzogs te khams su 'bul sdud la byon pas phyag rdzas gang 'byor dga' ldan du phul/} {gsang phu ra ba stod dang rgyud stod pa'i 'chad nyan pa mdzad/} {gtsang sog gi bar mdzad pas se 'bras gnyis la phan thogs shing gtsang pa yang dgyes par gyur/} {gsang phu'i khrir phebs te gling smad chos rje zhes grags/} {dga' ldan shar gyi gdan sa dang /} {blo gsal gling gnyis sbrel ba'i bla ma mdzad pas 'chad nyan smar ba byung /} {dgung lo nga bzhi pa rab byung bcu pa'i me lo stag lo ste spyi lo} 1626 {lor dga' ldan gser khri la bzhugs nas lo ngo bcu gnyis kyi ring du gser khri bskyangs/} {skyor mo lung dang /} {gsang sngags mkhar/} {rin chen gling /} {'ol dga' rdzing phyi/} {gsang phu rnams spyi bla'am mkhan po mdzad/} {dbus khul gyi bla ma phal cher bu slob tu gyur bas rnam dkar gyi 'phrin las nam mkha' dang mnyam par gyur/} {dgung lo don bzhi par gsang sngags mkhar du dgongs pa chos dbyings su gshegs/} {dgongs rdzogs kyi phyir du bzhengs pa'i dngul gdung rnam rgyal mchod rten ni dga' ldan li ma lha khang shar gyi rten gtso'i g.yas gnyis par bzhugs so/} {khong ni dga' ldan gser khri 'dzin pa'i khri rabs sum cu rtsa lnga pa yin no//} [312]
+55{rab byung bcu gnyis pa'i me rta spyi lo1726shar zla klung sngon ma'i 'gram sde dge'i gling tshang du sku 'khrungs/} {dgung lo drug pa nas yi ge 'bri klog nas brtsams te slob sbyong gnang /} {dgung lo bcu gnyis son pa dang dpal spung dgon du kun mkhyen si tu chos kyi 'byung gnas kyi drung nas gso ba rig pa la dmigs gsal du sbyong brtson gnang stabs/} {rig gnas spyi dang khyad pa gso ba rig pa'i mkhas pa'i mtshan snyan rgyas/} {rab byung bcu gsum pa'i shing khyi spyi lo 1754lor dpal spungs gnas lnga rigs pa'i slob gling nang du gso rig gi bstan pa spel ba'i phrin las pa gtso bor chags/} {dgung lo gya gsum pa rab byung bcu bzhi pa'i sa 'brug spyi lo1808lor kun mkhyen si tu rin po che'i thun mong ma yin pa'i gdams ngag rnams phyogs gcig tu bsdus pa'i rgyud bzhi'i dka' gnad 'grel pa rtsom 'go tshugs/} {dgung lo gya lnga pa'i lcags rta spyi lo1810lor yongs su brtsams grub/} {de'i rjes dgung lo ji bzhugs ma gsal/}
+9the poles
+9the poles
+9north pole. N pole
+9northern lights, aurora borealis
+9arctic circle
+9S pole
+9aurora australis
+9antarctic circle
+9aurora
+9antarctic and arctic circles
+29{rje 'di nyid rab byung bcu bzhi pa'i lcags khyi (1850)lor sku bltams/sku na chung dus dpa' ldan 'bras dkar spungs par chos zhugs kyis mdo sngags kyi zab chos kun la sbyangs pa mthar phyin mdzad/de rjes rgyud la phebs nas gsang ba sngags kyi rig lam la mnga' brnyes/rgyud stod mkhan po mdzad nas chos kyi 'khor lo rgya cher bskor/shing lug (1895)lor rgyal dbang sku phreng bcu gsum pa thub bstan rgya mtsho mchog gi yongs 'dzin mdzad/bka' rtsom yang (them skam gnyis pa sgrub thabs ngag 'don bdud las rnam rgyal )zhes pa dang (bdag 'jug bya tshul dngos grub 'gugs pa'i lcags kyu nyer ltung glang po 'joms pa'i mtshon cha/) (kha skong gi sbyin sreg byatshul sdig ltung mun pa 'joms shing dngos grub 'od dkar 'byed pa'i zla gzhon )sogs pod chung gcig tsam mdzad dgung grangs nga gsum la phebs pa rab byung bco lnga pa'i chu stag (1902)lor sku gshegs}54{khong ni rab byung bcu bzhi pa'i lcags pho khri lo ste spyi lo} 1850 {lor sku 'khrungs/} {rab byung bco lnga pa'i chu pho stag lo ste spyi lo} 1902 {lor sku gshegs/} {khong dgung lo chung ngu'i dus nas 'bras spungs su chos zhugs mdzad de yi ge'i sbyor klog dang 'don chos bcas la byang ba mdzad/} {de nas gzhung chen bka' pod lnga la gsan bsam mdzad cing lha ldan smon lam chen po'i grwa skor mdzad/} {rgyud stod du zhugs te gsang chen chos kyi cho ga dang phyag len bcas la nang byan tshud par mdzad cing rgyud pa'i bla ma dbu mdzad dang mkhan khrir rim gyis phebs nas gsar sngags bstan pa'i 'chad nyan spel/} {rab byung bco lnga pa'i shing mo lug lo ste spyi lo} 1895 {lor rgyal dbang sku phreng bcu gsum pa thub bstan rgya mtsho'i yongs 'dzin gyi 'gan 'khri bzhes te mdo sngags chos kyi mchod pa phul/} {dgung lo lnga bcu nga gsum par dgongs pa chos dbyings su gshegs so/} {khong gi gsung rtsom ni }《{rim gnyis kyi rnam bshad dngos grub nor bu'i mdzod kyi sgo brgya legs par 'byed pa'i legs bshad rin chen gser gyi lde mig}》 [309] {bcas chos tshan bco brgyad longs pa'i pod gcig bzhugs so//}55{rje 'di nyid rab byung bcu bzhi pa'i lcags khyi} ({1850}) {lor sku bltams/} {sku na chung dus dpal ldan 'bras dkar spungs par chos zhugs kyis mdo sngags kyi zab chos kun la sbyangs pa mthar phyin mdzad/} {de rjes rgyud la phebs nas gsang ba sngags kyi rig lam la mnga' brnyes/} {rgyud stod mkhan po mdzad nas chos kyi 'khor lo rgya cher bskor/} {shing lug} ({1895}) {lor rgyal dbang sku phreng bcu gsum pa thub bstan rgya mtsho mchog gi yongs 'dzin mdzad/} {dgung grangs nga gsum la phebs rab byung bco lnga pa'i chu stag} ({1902}) {lor sku gshegs/}
+9caretaker of park/ grove
+55{gtsang po'i dkyil sogs su gnas pa'i sa stong /}
+55{gling tsha'i shangs bla mas btabs/} {dus nam btabs ma gsal/} {grub mtha' dge lugs pa yin/} {da lta mtsho lho bod rigs rang skyong khul khri ka rdzong khongs su yod/}
+55{gling tshang gi yul gru kun la dbang bsgyur byed mkhan gyi dpon po'i ming /}
+55{gling chos 'phel nag po nas deng dus kyi gling tshang rgyal po'i bar rgyal rabs re lnga yin pa bshad kyang /} {don du rgyal rabs mi rabs nyer dgu las brtsi yas mi 'dug} {gling ge sar rgyal po gling tshang rgyal rabs zhe gsum pa yin pa bshad kyang don du mi rabs bdun pa yin/}
+29{bod rab byung bco lnga pa'i chu yos (1903)lor stod lung bde chen rdzong yab mda' shang spang phu grong tsho'i dkar sbog tshang du sku 'khrungs/gling tshang sku phreng lnga pa'i yang srid du ngos 'dzin zhus pa dang/dgung lo bco la 'bras spungs blo gsal gling du chos zhugs kyis tshogs chen sprul sku gnang/dgung lo nyi shu rtsa bzhi me stag (1926)laur dge bshes lha rams pa'i ang grangs gnyis pa thob/lo der rgyud stod du zhugs/rab byung bcu drug pa'i lcags lug (1931)lo nas rim bzhin rgyud stong dge bshes dang/de rjes bla ma dbu mdzad lo gnyis gnang nas rgyud stod mkhas po lo gsum gnang skabs chu bya (1933)lor tA la'i bla ma sku phreng bcu gsum pa sku gshegs pa'i sku gdung zhabs zhu dang gsung 'bum phyogs sgrig kyi thugs 'gan bzhes/lcags 'brug (1940)lor tA la'i bla ma sku phreng bcu bzhi pa'i mtshan zhabs dang de rjes yongs 'dzin sku gzhon pa gnang mus su sa glang (1949)lo tsam la shar pa chos rje gnang/stag brag sku gshegs rjes chu sbrul (1953)lor yongs 'dzin sku bgres pa gnang/me sprel 1956)lor krung go nang bstan mthun tshogs kyi tshogs gtso gzhon pa dang/krung go nang bstan mthun tshogs bod yan lag mthun tshogs kyi tshogs gtso gzhon pa gnang/sa phag (1959)lor phyir rgyal du phebs/chu phag (1983)lor dgung grangs brgya cu gya gcig thog rgya gar du sku gshegs}55{bod rab byung bco lnga pa'i chu yos} ({1903}) {lor stod lung bde chen rdzong yab mda' shang spang phu grong tsho'i dkar sbog tshang du sku 'khrungs/} {gling tshang sku phreng lnga pa'i yang srid du ngos 'dzin zhus pa dang /} {dgung lo bcu la 'bras spungs blo gsal gling du chos zhugs kyis tshogs chen sprul sku gnang /} {dgung lo nyi shu rtsa bzhi me stag } ({1926}) {lor dge bshes lha rams kyi mtshan rtags bzhes te lha rams pa'i ang gnyis pa thob/} {chu phag} ({1983}) {lor dgung grangs brgyad cu gya gcig thog rgya gar du sku gshegs/}
+9archipelago, group of islands26{rgya mtsho'i nang la phan tshun thag nye bar gnas pa'i gling phran khag gcig}55{rgya mtsho'i nang la phan tshun thag nye bar gnas pa'i gling phran khag gcig}
+2eclipse caused by the earth's shadow
+55{ngor gdan rabs re drug pa klu lding mi 'gyur rgyal mtshan gyis btabs/} {'debs dus mi gsal/} {grub mtha' sa skya pa yin/} {da lta dkar mdzes bod rigs rang skyong khul ser shul rdzong khongs su yod/}
+8a chief priest of dga' ldan
+31global address administration55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }global address administration {zer/}
+55{gna' dus bod btsan po'i skabs kyi mdo khams 'bri chu'i shar brgyud kyi yul sde 'di dag gi ming yin zhing /} {yul der dbang bsgyur byed mkhan gyi dpon po la gling tshang zhes zer/} {spyi lo'i dus rabs bcu bdun pa'i dkyil tsam du gling dpon 'og gi blon chen po sde dge'i bla chen byams pa phun tshogs kyis yul gru phal cher bdag bzung byas pas des bdag tu bzung ba'i yul la sde dge thogs shing /} {gling tshang gi mnga' khongs chung ngu tsam las med par chags pa red/}
+9[arch] felt cushion/ seat10Btsan-lha.26{(rnying) phying ba'i stan/}48{phying ba lta bu'i dngos rdzas kyi ming ste/} 《{dge slong gi bslab bya chen mo'i brda dkrol}》{las/ glings pa ni phying ba lta bu dang / zhes gsungs pa ltar ro/ /}51{phying pa lta bu la bshad do/ /}55{'dul bar bstan pa'i phying pa'i gding ba zhig gi ming yin/}
+9[arch] felt seat26{(rnying) phying ba'i gdan/}32{rtswa dang bal gyi bzos pa'i gdan gyi ming /}55〔{rnying}〕{phying ba'i gdan/}
+0side; proximity2lungs; 1) abbr. for glo ba. 2) a cough. 3) girth of a saddle. 4) side. 5) Mustang [area in northwest Nepal]. 6) proximity, "side"8girth of a saddle cough, side, side of the body, cough, lungs, 1 of don lnga91) chest; 2) lungs; 3) cough; 3) saddle cinch; 4) nearby, [be]side, proximity [Khang pa'i glo]; 5) Mustang [area in NW Nepal). 1) chest; 2) lungs; 3) cough; 3), girth saddle cinch; 4) nearby, [be]side, proximity; 5) Mustang; 6) mind; 7) side10(coll.) strap or girth (of saddle). MTTP.24pārśva261) {lus kyi gzhogs/ khang pa'i zur du glo phab nas nyal ba/ sa la glo g.yas phab ste nyal ba/} 2) {lud pa lu ba'i glo/ glo lu ba/ cham pa phog nas glo langs pa/} 3) {rta dang phyugs kyi sga brtan por gnas pa'i sdom thag leb mo/ sga glo/} 4) {lod dang/ nye 'khor/ rtsig pa'i glo na yod pa/ khang pa'i glo gnyis su ljon shing mang po btsugs pa/}321. {rtsib logs kyi ming ste/ glo g.yas/ glo 'bur/ glo khug khang ba 'i glo sgo/ glo gri zhes pa lta bu/} 2. {sga'i glo thag gi ming ste/ rta la sga brgyab nas glo 'then lta bu/} 3. {glo ba zhes pa'i tshig bsdus pa/}36<term> flanks39<term> pārśva41(med) begma {gla dang lud pa lu ba/}431. = {rtsib logs} pārśvam, kakṣādhobhāgaḥ — {glo g}.{yas pa} dakṣiṇena pārśvena śrā.bhū.6ka/11 2. kāsaḥ, rogaviśeṣaḥ yo.śa.32; kāsastu kṣavathuḥ a.ko.2.6.52 3. = {glo ba/}55(1) {lus kyi gzhogs/} {khang pa'i zur du glo phab nas nyal ba/} {sa la glo g.yas phab ste nyal ba/} {glo lu ba/} {cham pa phog nas glo langs pa/} (3) {rta dang phyugs kyi sga brtan por gnas pa'i sdom thag leb mo/} {sga glo/} (4) {logs dang /} {nye 'khor/} {rtsig pa'i glo na yod pa/} {khang pa'i glo gnyis su ljon shing mang po btsugs pa/}
+9{glo 'bras} disease [mid pa dang aol krong gi mgor babs pa zhig ste, symptoms: mid pa na zhing, skad 'gags pa, glo lu zhing zas mid dka' ba zhig]. {glo 'bras} disease26{mid pa dang ol krong gi mgor babs pa zhig ste/ nad rtags mid pa na zhing/ skad 'gags pa/ glo lu zhing zas mid dka' ba zhig}55{mid pa dang ol krong gi mgor babs pa zhig ste/} {nad rtags mid pa na zhing /} {skad 'gags pa/} {glo lu zhing zas mid dka' ba zhig}
+9lung disease of sheep and cattle26{nor lug gi glo bar 'bu zhugs pa'i nad cig}55{nor lug gi glo bar 'bu zhugs pa'i nad cig}
+8paintings & sculptures, projection, uprising9rise, rtsig pa dang gyang nas zur du 'bur ba'i khang pa'am rtsig pa26{rtsig pa dang gyang nas zur du 'bur ba'i khang pa'am rtsig pa/}42pradhāna43=*avacchādanakaḥ — {rtsig ngos kyi phyogs 'khor bar glo 'bur dag bya'o} karaṇam… avacchādanakānāñca kaṇṭhādeśaparikṣiptānām vi.sū.59ka/114.44Also abbreviated as {glu+or}. (Source: Bacot écriture cursive Tibétaine)55{khang pa'i cha shas tshur thon pa/}
+9lus kyi left and right lung la 'dogs pa'i gri dang khab shubs etc.26{lus kyi glo g.yas g.yon la 'dogs pa'i gri dang khab shubs sogs/}43= {ral gri} kaukṣeyakaḥ, khaḍgaḥ mi.ko.46kha \n55{lus kyi glo g.yas g.yon la 'dogs pa'i gri dang khab shubs sogs/}
+42kṣata
+55{shes pa 'khrul 'khrul/}
+9glo brgyab ste lud pa 'gog pa [syn: 'khogs pa dang, glo rgyag pa, lu ba, lud 'bod pa]26{glo brgyab ste lud pa 'gog pa/ ming gi rnam grangs la 'khogs pa dang/ glo rgyag pa/ lu ba/ lud 'bod pa bcas so/}55{glo brgyab ste lud pa 'gog pa/} {ming gi rnam grangs la 'khogs pa dang /} {glo rgyag pa/} {lu ba/} {lud 'bod pa bcas so/}
+8cough
+8cough, feel stifled
+8a disease42kṣata
+23kṣataḥ42kṣata43kṣataḥ, vyādhiviśeṣaḥ ma.vyu.9513; mi.ko.52kha \n52(Skt. kṣataḥ) a sore or hurt of the lungs
+8cough, feel stifled
+29{sman bcos dka' ba'i glo nad/(tsa)}55({tsa}) {sman bcos dka' pa'i glo nad/}
+2the lungs8lungs; lung, lungs9lungs; 1) lungs [in the upper torso, 1 of the don lnga, its function, support of breathing and exhaling old breath, and inhaling new]; 2) mind [= blo]10kloman; Note possible cognate in Skt. kloman (the right lung). For the ZZ term, see lung.11lung(s)23klomakaḥ23phupphusaḥ24kloman261) {mi lus kyi byang khog stod du gnas shing/ don lnga'i ya gyal zhig ste/ de'i byed las ni dbugs kyi rten byed cing nang gi dbugs rnying pa phyir 'dor zhing/ phyi yi dbugs gsar pa nang du rngubs pa sogs byed pa yin no/ glo bar mi phan mchin pa'i dug} 2) {sems sam yid/ drang gtam gnas lugs tshang ma glo bar chud pa/}32{mi dang mtho rim srog chags kyi dbugs 'byin rngub byed pa'i dbang bo yin/ mi'i glo ba ni brang khog gi nang na yod cing phyi ngos su phyi shun 'byar bag can srab la sob pa zhig gis g.yogs yod/ glo ba g.yas g.yon gnyis yod pas/ g.yon pa la 'dab ma gnyis dang g.yas par 'dab ma gsum yod/ glo ba g.yas g.yon gnyis ka ol grog gis sbrel cing / snying khong nas thon pa'i khrag rgyun dbyang gnyis than gyur can de glo ba'i 'phar rtsa brgyud nas glo ba'i chu bur du song rjes/ de'i nang nas rlung khams brje res byas te/ khrag rgyun rnams dbyang dbugs ldan pa'i khrag rgyun du gyur nas glo ba'i sdod rtsa brgyud nas slar snying khong la rgyu ba red/ tshig bsdus na glo zhes 'bri chog ste/ glo ba'i sman la glo sman zer ba lta bu/ (glo kha) dmar la dkar zhad che ba'i mdog gi ming / (glo lu) glo ba dang ol grog la nad yod pa'i rkyen gyis lud pa lu ba'i nad kyi ming / (glo sor) glo ba'i ol grog gi nad rigs shig gi ming / (glo sud) ol grog gi nad rigs shig gi ming / (glo rgyas) glo ba skrangs ba'i nad rigs shig gi ming /}41(anat) lung {dan lnga'i ya gyal byang khag stad kyi char snying gi g.yas g.yan du gnas te/dbugs 'byin rngub kyi byed las ldan pa'i dbang rten zhig}421) klemaka 2) ḍimba 3) phupphusa 4) hṛd431. klomam, phupphusaḥ — tatrādhyātmamupādāya \n tadyathā — keśā romāṇi… hṛdayaṃ plīhakaṃ klomam śrā.bhū./203; klomakaḥ — santi asmin kāye keśā romāṇi… hṛdayaṃ plīhā klomaka antrāṇi vi.va.184kha/2.109; vṛkkāhṛdayaṃ klomakaṃ tathā \n khādyamānaṃ kṛmiśataiḥ vi.va.291kha/1.114; phupphusaḥ — ayaṃ kāyo viṣṭhādyaśucibhājanam \n atyāntrākulaṃ hyudaraṃ sayakṛt phupphusākulam śi.sa.51ka/48 2. = {yid} hṛt — {bdag ni mchog tu glo ba dga' zhing mchis} parā ca nastuṣṭiravasthitā hṛdi śa.bu.152; dra. {glo ba nye ba/} {glo ba re/} {glo bar chud pa/}45Sanskrit: klomaka <Word/Term/Phrase>\n\n\nTibetan renderings of klomaka: {glo ba/}\n\nEnglish: lung, pleura, the lungs\nListed in the Mvy as one of the bodily parts and substances and the like (under the collective heading Mvy.1, no. 3929).\nklomaka, m. ( = Pali kilomaka; to Skt. kloman plus -ka), lung, or pleura (seemingly the latter in Pali, cf. Buddhaghosa as quoted by Childers): Mvy 4018 °kaḥ = Tib. glo ba, lung; Śikṣ 70.1; 209.9 °kaḥ (in list of bodily parts).\n\nSee the full entry at:https://www.itlr.net/hwid:3414845Sanskrit: kloma <Word/Term/Phrase>\n\n\nTibetan renderings of kloma: {glo ba/}\n\nEnglish: the lungs\nListed as one of the (bodily) impure substances.\n\nSee the full entry at:https://www.itlr.net/hwid:57859052(Skt. klomakaḥ/phusphusaḥ) the lungs52the lungs55(1) {mi lus kyi byang khog stod du gnas shing /} {don lnga'i ya gyal zhig ste/} {de'i byed las ni dbugs kyi rten byed cing nang gi dbugs rnying pa phyir 'dor zhing /} {phyi yi dbugs gsar pa nang du rngubs pa sogs byed pa yin no/} {/glo bar mi phan mchin pa'i dug} (2) {sems sam yid/} {drang gtam gnas lugs tshang ma glo bar chud pa/}57[sound:2-452a.wav]\n{glo ba} Lungs\nSyllables: {glo/} as in: {glo rgyag pa/} = to cough.\n-----\nExample: [sound:2-452c.wav]\n {nga la glo ba gnyis yod/}  I have two lungs.
+10Btsan-lha.48{blo ring ba ste sems log nas rgyab gtod pa'i don te/} 《{tun hong gter yig bod kyi yig rnying}》{las/ spu rgyal pang du myi len re/ btsan po spu rgyal la glo ba 'dring re/ zhes pa lta bu'o/ /}
+55{sems pham pa'am yid 'phang ba'i don/}
+85 anterior lobes of the lungs9glo ba'i mdun ngos kyi cha shas lnga ste, mdzo sna, bya sgab, thugs khab, rte mig dgra lce26{glo ba'i mdun ngos kyi cha shas lnga ste/ mdzo sna dang/ bya sgab/ thugs khab/ rte mig dgra lce bcas so/}29{lus kyi glo ba'i mdun gyi lo ma lnga}55{glo ba'i mdun ngos kyi cha shas lnga ste/} {mdzo sna dang /} {bya sgab/} {thugs khab/} {rte mig dgra lce bcas so/ /}
+95th vertebra glo ba bu lnga dang 'brel ba'i me btsa'i gsang mig ste, der me btsa' bzhag na glo la rlung dang bad kan zhugs pa la phan26{rgyab kyi sgal tshigs lnga pa glo ba bu lnga dang 'brel ba'i me btsa'i gsang mig ste/ der me btsa' bzhag na glo la rlung dang bad kan zhugs pa la phan/}55{rgyab kyi sgal tshigs lnga pa glo ba bu lnga dang 'brel ba'i me btsa'i gsang mig ste/} {der me btsa' bzhag na glo la rlung dang bad kan zhugs pa la phan/}
+55{glo nad rigs brgyad kyi nang tshan bung bas tshang bsags pa ltar glo ba'i rtsa sbubs la rnag bsags pa zhig}
+9{glo ba bung tshang} disease [among the glo nad rigs brgyad, bung bas tshang bsags pa ltar glo ba'i rtsa sbubs la rnag bsags pa zhig]26{glo nad rigs brgyad kyi nang tshan bung bas tshang bsags pa ltar glo ba'i rtsa sbubs la rnag bsags pa zhig}
+9{glo ba chu shor} disease [among the glo nad rigs brgyad, ngan chu glo la shor ba zhig ste, symptoms: stod brgyang ba dang, mgo na ba, mig sprin ser por 'gyur ba]26{glo nad rigs brgyad kyi nang tshan ngan chu glo la shor ba zhig ste/ nad rtags stod brgyang ba dang/ mgo na ba/ mig sprin ser por 'gyur ba zhig}55{glo nad rigs brgyad kyi nang tshan ngan chu glo la shor ba zhig ste/} {nad rtags stod brgyang ba dang /} {mgo na ba/} {mig sprin ser por 'gyur ba zhig}
+0take joy (in); delight (in)2quite good21{glo ba dga'/ dga'/ dga'/ dga'/}26{yid dga' ba'am sems dga'/}47{yid dga' ba'am sems dga'/}48{yid tshim pa'i don te/} 《{brda yig reg gzigs gsar bu'i nyer mkho}》{las/ glo ba dga' ni yid tshim pa/ zhes gsungs/} 《{bka' gdams pa'i gsung bgros thor bu}》{las/ bskor ba byed pa yang glo ba dga' ste/ de bas chos cig byas na mi dga' 'am/ zhes pa lta bu'o/ /}55{yid dga' ba'am sems dga'/}
+10= sems dga'. 367 I 230. Btsan-lha.51({yul skad}) {sems dga' ba'i yul skad yin par bshad/}
+9sems dkar ba26{sems dkar ba/}55{sems dkar ba/}
+51{yid la gcags pa/ zhes brgyad stong pa'i dka' 'grel snying po mchog na gsal/}
+43= {glo ba la gnas pa/}
+43klomakāśī, nārakīyapakṣibhedaḥ — evamarthānurūpasaṃjñā dantotpāṭakā nāma, kaṇṭhanāḍyapakarṣakā nāma \n klomakāśinaḥ śi.sa. 45ka/42.
+85 posterior lobes of the lungs9glo ba'i rgyab ngos kyi cha shas lnga ste stag mgo dang, sgang, rtsibs, gsham, zags sna bcas so26{glo ba'i rgyab ngos kyi cha shas lnga ste stag mgo dang/ sgang/ rtsibs/ gsham/ zags sna bcas so/}55{glo ba'i rgyab ngos kyi cha shas lnga ste stag mgo dang /} {sgang /} {rtsibs/} {gsham/} {zags sna bcas so/ /}
+9at the 4th vertebra ma lnga dang 'brel ba'i me btsa'i gsang ste, der me btsa' bzhag na glo bar wind and phlegm zhugs pa la phan26{rgyab kyi sgal tshigs bzhi pa glo ba ma lnga dang 'brel ba'i me btsa'i gsang ste/ der me btsa' bzhag na glo bar rlung dang bad kan zhugs pa la phan/}55{rgyab kyi sgal tshigs bzhi pa glo ba ma lnga dang 'brel ba'i me btsa'i gsang ste/} {der me btsa' bzhag na glo bar rlung dang bad kan zhugs pa la phan/}
+43vi. = {yid mi ches pa} sāśaṅkaḥ — ataḥ sāśaṅkānyatra no hṛdayāni jā.mā.259/150.
+43= {glo ba nye ba/}
+9snying thag nye ba26{snying thag nye ba/}43• saṃ. anurāgaḥ, prītiḥ — abhivardhayase svakīrtiśobhāmanurāgaṃ jagato hitodayaṃ ca jā.mā.249/144; bhaktiḥ — bhaktirmayi ca darśitā jā.mā.242/140. \n\n• vi. anuraktaḥ — {'bangs glo ba nye ba rnams la} anuraktānāṃ prajānām jā.mā.81/48.47{snying thag nye ba/}51{snying nye ba dang sha tsha ba'i don/}55{snying thag nye ba/}
+10Btsan-lha.48{mgo btags zhu ru 'ong ba'i don te/} 《{tun hong gter yig bod kyi yig rnying}》{las/ pham nas glo ba nyer 'ong ba ni/ ma bgag ma brgal bar thongs shig ces pa lta bu'o/ /}
+43manorathaḥ — {bdag gi yul 'dir dgung char dbab tu glo ba re lags so} me vijite devo varṣet a.śa.40ka/35.
+9rgyab gtod byas pa'am, snying thag ring ba26{rgyab gtod byas pa'am/ snying thag ring ba/}43vi. aparādhī — tena adattādāyināṃ puruṣāṇāṃ caurāṇām… aparādhinām ga.vyū.192ka/273.55{rgyab gtod byas pa'am/} {snying thag ring ba/}
+55{ngo log byas pa dang blo log pa'i brda rnying /}
+9{glo ba skya rbab} disease [among the glo nad brgyad, skya rbab glo ba la babs pa ste, symptoms glo lu ba &, gdong dang mig lcibs skrang ba, dbugs hal ba etc occur]26{glo nad brgyad kyi nang tshan skya rbab glo ba la babs pa ste/ nad rtags su glo lu ba dang/ gdong dang mig lcibs skrang ba/ dbugs hal ba sogs 'byung ba zhig}55{glo nad brgyad kyi nang tshan skya rbab glo ba la babs pa ste/} {nad rtags su glo lu ba dang /} {gdong dang mig lcibs skrang ba/} {dbugs hal ba sogs 'byung ba zhig}
+10Btsan-lha.48{snying thag pa zhes pa'i don te/} 《{'dul ba lung rnam 'byed}》{las/ deng slan chad ji srid 'tsho'i bar du glo ba thag pa nas rab tu dang bas skyabs su mchi'o/ /}
+41(med) pulmonary edema {gla bar chu bsags pa'i nad/}
+43= {mgo'i glog pa/}
+41(med) pneumonia {nad srin phra ma'i rkyen gyis gla bar gnyan tshad phog nas tsha ba rgyas pa dang /brang bsdam pa/dbugs 'byin dka' ba sogs kyi nad rtags yod pa'i nad cig}
+491. {glo nad thang po dang / skya rbab gnyis ni rlung glo/} (Source: 《{rgyud bzhi'i 'grel chen drang srong zhal lung }》{deb gnyis pa }》{sha }738.9{las btus/}).
+2the lung channel / nadi9the lung nadi
+9{glo ba'i sgang rtsa} bleeding nadi [gru mo'i phyi zur nas below four fingers sgang zur bleeding nadi connected w the lungs, if bled good for lung disease, skad 'gag pa etc.]26{gru mo'i phyi zur nas mas su sor bzhi gzhal mtshams kyi sgang zur du yod pa'i glo ba dang 'brel ba'i gtar rtsa ste/ de gtar na glo tshad dang/ skad 'gag pa sogs la phan/}55{gru mo'i phyi zur nas mas su sor bzhi gzhal mtshams kyi sgang zur du yod pa'i glo ba dang 'brel ba'i gtar rtsa ste/} {de gtar na glo tshad dang /} {skad 'gag pa sogs la phan/}
+9pneumonia
+43kri. jānāti — tasya mama bhagavannatyayaṃ jānato'tyayaṃ paśyataḥ atyayam atyayataḥ vi.va.143ka/1.1.32.
+10Btsan-lha.48{zhe sems khrel ba zhes pa'i don te/} 《{'dul ba'i gleng 'bum gyi ming brda'i rnam bshad}》{las/ glo bas bas par mi 'gyur ni khrel bar mi 'gyur zhes pa'i don no/ /zhes gsungs/ dper na/} 《{'dul ba}》{las/ slad kyi dbon po dang / dbon mos 'bul bas khyod nye dus glo bas bas par mi 'gyur bar gyis shig ces pa lta bu'o/ /}
+43pārśvabandhanam — na carmapaṭṭena pārśvabandhanaṃ kurvīta vi.sū.52kha/67.
+8country in tibet
+52(Skt. āgantukaḥ) coming suddenly
+29{rdzong kha pa'i dpon sa 'phar ba'i sde dpon yin/de yang dpon a ma dpal gyi ring thog mar chos rje phyogs las pa bla mar bsten cing phyis sa skya'i ngor pa kun dga' bzang po bla bar bsten/mnga' khongs kyi chos sde rnams na'ang chos lugs gzhan 'dzin mi byed/spyir sa skya pa dang sgos ngor pa yin gcig min gcig byed du bcug ste/dge lugs par sdang/de rjes dpon bkra shis mgon gyi ring yang chos lugs sngar bzhin la dge phyogs stobs che}55{rdzong kha ba'i dpon sa 'phar ba'i sde dpon yin/} {de yang dpon a ma dpal gyi ring thog mar chos rje phyogs las pa bla mar bsten cing phyis sa skya'i ngor pa kun dga' bzang po bla mar bsten/} {mnga' khongs kyi chos sde rnams na'ang chos lugs gzhan 'dzin mi byed/} {spyir sa skya pa dang sgos ngor pa yin gcig min gcig byed du bcug ste/} {dge lugs par sdang /} {de rjes dpon bkra shis mgon gyi ring yang chos lugs sngar bzhin la dge phyogs stobs che/}
+2bsod nams lhun grub
+2sa skya pa
+54{khong ni spyi lo'i dus rabs bcu gnyis pa'i dus smad tsam du sku 'khrungs pa'i snyan grags can gyi lo tsA ba zhig yin/} {khong dgung lo chung ngu'i dus nas bstan pa'i chos sgor zhugs te rab byung /} {dge tshul/} {dge slong gi sdom pa rim gyis bzhes shing 'dul ba'i chos gzhung sogs la slob gnyer mdzad/} {de nas bal yul dang /} {rgya gar sogs su phebs te paN grub mang po'i zhabs la gtugs shing rgya gzhung dang legs sbyar gyi skad la sbyangs nas bstan bcos du ma bsgyur ba mdzad/} {khong gi bsgyur rtsom ni}《{bstan 'gyur}》{las}《{rdo rje'i tshig rnal 'byor dbye ba}》{dang /} 《{rdo rje tsa tsi ka'i las sgrub thabs}》{/} 《{dpal rdo rje phag mo'i sgrub thabs}》{/} 《{dpal rdo rje dbyangs can ma'i sgrub thabs}》{/} 《{rdo rje dkar mo'i sgrub thabs}》{/} 《{gshed dmar gyi rdzogs rim shin tu spros pa med pa de kho na nyid kyi man ngag}》{/} 《{gshin rje gshed dmar po'i rdzogs pa'i rnal 'byor}》{/} 《{dpal gshin rje gshed dmar po'i 'tsho ba de kho na nyid kyi man ngag}》{/} 《{gshin rje gshed mthar byed dmar po'i byin gyis brlabs pa'i rim pa}》{/} 《{rnal 'byor bzhi'i de kho na nyid rang byin gyis brlabs pa'i man ngag}》{/} 《{byin gyis brlabs pa'i rim pa}》{/} 《{me'i lha mchod}》{/} 《{'phags ma gdugs dkar mo can gzhan gyis mi thub pa'i sgrub thabs}》{/} 《{dpal g.yul las rnam par rgyal ba'i rgyud kyi rgyal po dbyangs 'char ba}》{sho lo ka stong phrag gcig pa/} 《{tshe'i gnas }[314]{skabs kyi 'bras bu gnod pa 'byung ba'i las}》{/} 《{dbyangs 'char ba'i don bsdus}》{bcas bzhugs so/ /}
+29{mnga' ris gung thang gi ming gi rnam grangs yin tshul/ka thog rig 'dzin chen po'i rnam thar lo rgyus su gsal}55{mnga' ris gung thang gi ming gi rnam grangs zhig yin/}
+55{cham nad sogs kyi skabs yong ba'i nad rtags shig}
+9glo ba'i mdun phyogs kyi cha shas chung ba26{glo ba'i mdun phyogs kyi cha shas chung ba/}55{glo ba'i mdun phyogs kyi cha shas chung ba/}
+9hole/wound into the lungs26{glo gnyis la rma khung thon pa/ rta rgan rgyab chad glo bug}43= {bu ga} suṣiram, vivaram — atha kuharaṃ suṣiraṃ vivaraṃ bilam \n chidraṃ nirvyathanaṃ rokaṃ randhraṃ śvabhraṃ vapā suṣiḥ a.ko.1.9.1.55{glo gnyis la rma khung thon pa/} {rta rgan rgyab chad glo bug}
+0adventitious; temporary; sudden; circumstantial21) temporary, fleeting, passing, momentary, incidental, transient, superficial, adventitious. 2) sudden, abrupt, immediate, suddenly, instantaneously; adventitious, accidental2adventitious [ggd]7Comment: "Adventitious" in this context does not mean "uncaused"; it means "superficial" and is the opposite of "innermost" (phugs).8accidental, incidental, adventitious, fortuitous, suddenly, random, mere surface, merely superficial, immediately, momentary, sudden91) suddenly [& unforseen]; 2) not part of the ongoing nature, incidental, adventitious; 3) newly arisen, never having been seen before; 4) temporary, fleeting, passing, momentary, transient; 5) abrupt; 6) immediate, instantaneous[ly]11{glo bur ba} adventitious; superficial; incidental16[MSA,MV]āgantuka; āgantakumala; [MV]āgantukatva; ākasmika24āgantuka261) {ma bsams ma dran par 'phral du byung ba/ glo bur chags rkyen/ glo bur gyi nad/ 'grul pa glo bur du 'byor ba/ glo bur drag tu khros pa/ glo bur stag gis mi tshugs/nam mkhar sprin nag glo bur du 'khrigs pa/} 2) {gnyug ma min pa'am sngar med gsar du byung ba/ dri ma glo bur/}32{bsam yul las 'das pa'i don byung bar ston pa'i tshig grogs te/ glo bur du lam la chas/ glo bur du yar langs/ glo bur du mgo bo yar bkyags lta bu/ (glo bur stag gis mi tshugs) gra sgrig med par glo bur du byung ba'i don la ya lan byed dka' ba'i don/ (glo rdeg) dang (glo rgyag) glo bur du zhes pa dang don 'dra/}36<term> adventitious, externally added37<term> adventitious, externally added (Skt: āgantuka): Also rendered in this translation as “externally added.” (Original glossary entry: https://84000.co/glossary/entity-2745.html)421) akasmāt 2) ākasmika 3) āgantu 4) āgantuka43• kri.vi. = {glo bur du} akasmāt — akasmānmṛtyurāyāto hā hato'smi bo.a.7.8; akāṇḍam; akāṇḍe — {glo bur du bdag ci la gdung} kimakāṇḍe rujanti mām kā.ā.2.126. \n\n• vi. = {glo bur ba} ākasmikaḥ, acintitaḥ — ākasmikamahāśaniḥ bo.a.2.34; akāṇḍaḥ — na hyasau kevalo'kāṇḍa iti \n… akāṇḍa iti prastāvamantareṇa ta.pa.358ka/436; āgantuḥ — yasmān malāstvāgantavo matāḥ ta.sa.125ka/1082; āgantukaḥ, o kī — evamāgantuko'smīti na mayā pratyavekṣitam bo.a.2.39; ma.ṭī.300ka/167. \n\n• saṃ. = {glo bur ba nyid} āgantukatā — doṣāgantukatāyogād guṇaprakṛtiyogataḥ ra.vi.1.51.44Also abbreviated as {glu+or}. (Source: Dzongkha abbreviations)52(Skt. akasmāt) suddenly55(1) {ma bsams ma dran par 'phral du byung ba/} {glo bur chags rkyen/} {glo bur gyi nad/} {'grul pa glo bur du 'byor ba/} {glo bur drag tu khros pa/} {glo bur stag gis mi tshugs/} {nam mkhar sprin nag glo bur du 'khrigs pa/} (2) {gnyug ma min pa'am sngar med gsar du byung ba/} {dri ma glo bur/}
+41(adm) burst {gla bur du byung ba'i gas 'thar ram 'bar gas/}
+55{blo yul las ma dran pa'i skabs su 'jab dmag rgyag pa/}
+2passing confusion, momentarily deluded, [opposed to innate or inherent]9passing confusion, momentarily deluded
+0adventitious; sudden; temporary2temporary, adventitious, superficial; adventitious, transient, passing, coincidental, momentary, non-inherent8suddenness9adventitious, transient, passing, [co]incidental10Agantuka; coincidental. Skt. Agantuka. Thurman.16[MSA]ākasmika; [MSA]āgantuka24āgantuka26{thol gyis byung ba'am 'phral du byung ba'i gras/ bsam blo glo bur ba/ 'grul pa glo bur ba/}421) ākasmikatva 2) āgantuka43• vi. 1. ākasmikaḥ — hetupratibaddho hi bhāvānāṃ svabhāvapratiniyamaḥ, nākasmikaḥ ta.pa.264kha/998; āgantukaḥ abhi.sphu.28kha/1117. 2. atithiḥ — kālopanatamatithijanaṃ pratipūjya jā.mā.52/31. \n\n• avya. akasmāt pra.a.107ka/114.511. {ma bsams par 'phral du byung ba/ mgron po glo bur du slebs lta bu/}512. {gtan du mi gnas pa/ dri ma glo bur ba zhes pa lta bu/}55{thol gyis byung ba'am 'phral du byung ba'i gras/} {bsam blo glo bur ba/} {'grul pa glo bur ba/}
+43āgantukatvam — āgantukatvaprativedhataḥ sū.a.167kha/59.
+43pā. āgantukatvaprativedhaḥ, prativedhaprāyogikabhedaḥ — sa ( prativedhaprāyogikaḥ) punarekādaśavidho veditavyaḥ, āgantukatvaprativedhataḥ… vyavasthāpitadharmaprativedhataśca sū.a.167kha/59.
+2took opportune birth
+24āgantuka-saṃjñā
+49{de yang / 'dul ba gzhi rgya cher 'grel pa las byung ba dbyar gnas pa'i skabs te/} (Source: 《{bstan 'gyur tsu pa }》{sha }323{ba }5{las btus }).
+2the two types of passing obscurations. {nyon mongs pa'i sgrib pa, shes bya'i sgrib pa}9the two types of passing/incidental obscuration {nyon mongs pa'i sgrib pa}. {shes bya'i sgrib pa}. the two types of passing/incidental obscuration {nyon mongs pa'i sgrib [ma/ pa]} of the kleshas {shes bya'i sgrib [ma/ pa]} klesh vara a of objects of knowledge jñey vara a ]
+2suchness of the purity of freedom from the passing8Thusness which is pure due to being freed from adventitious impurities9suchness of the purity of freedom from the incidental
+2mandala of supreme enlightenment. +9pure mandala of supreme enlightenment
+41(adm) decamp {su la'ang ma bshad par gla bur ram gsang ba'i sga nas than phyin pa/}
+41(pol) incursion {dgra'i 'du shes bcangs te gzhan gyi sa khul du glo bur du btsan pa dbang shed kyis 'dzul ba'i bya gzhag}
+9purify the incidental
+0adventitiously/suddenly arisen16[MV]āgantukatva21{'byung/ 'byung/ byung/ byung/}42āgantuka
+41(adm,acc) contingency fund {gtong yul gtan 'bebs ma byung ba'i dgos mkho'i 'gro gron ched du zur 'jog byas pa'i dngul 'bab/}
+2the abandonment of freedom from the passing stains, One of {spang ba rnam gnyis}9renunciation as an antidote for obscurations which suddenly arise, the abandonment of freedom from the passing stains [one of {spang ba rnam gnyis}
+0factor of freedom from adventitious defilements; factor of being separated from adventious defilements9the factor of freedom from adventitious defilements
+2the nirvana that is free from momentary defilement5(PH) nirvana that is free from momentary defilement9nirvana free from obscuration of the kleshas/ incidental stains26{glo bur gyi dri ma nyon sgrib spangs pa'i myang 'das/}47{glo bur gyi dri ma nyon sgrib spangs pa'i myang 'das/}53{glo bur gyi dri ma nyon sgrib spangs pa'i myang 'das/}55{glo bur gyi dri ma nyon sgrib spangs pa'i myang 'das/}
+29{gshis rgyud la glo bur gyi dri ma thams cad dang bral ba'i ngo bo nyid sku'o/_}55{gshis rgyud la glo bur gyi dri ma thams cad dang bral ba'i ngo bo nyid sku'o/ /}
+11buddhahood that is free of/ as freedom from adventitious distortions
+2passing stains / impurities, temporary defilements9passing stains, incidental impurities43= {glo bur gyi dri ma} āgantukamalaḥ — tṛtīyaṃ viśodhyaṃ cāgantukamalādviśuddhaṃ ca prakṛtyā sū.a.168ka/59; he.ta.22ka/70.
+43vi. āgantukamalāvṛtaḥ — sattvā buddhā eva kintu āgantukamalāvṛtāḥ he.ta.22ka/70.
+2free from temporary defilements
+0sudddenly; adventitiously; temporarily8suddenly; accidentally, incidentally, suddenly, abruptly, all on a sudden, instantaneously, sudden, suddenly9suddenly16[C] āgantuka(m)22[C](something) adventitious24akasmāt36<term> plucked out of thin air39<term> āgantuka43= {glo bur/}44Also abbreviated as {glu+oru}. (Source: Dzongkha abbreviations)45Sanskrit: akāṇḍe <Word/Term/Phrase>\n\n\nTibetan renderings of akāṇḍe: {glo bur du/}\n\nind. causelessly, unexpectedly.\n\nSee the full entry at:https://www.itlr.net/hwid:811039
+43= {glo bur du 'ong ba/}
+43vi. āgantukaḥ — asti te mahārāja vijite kaścidvihāro yatrāgantukā gamikāśca bhikṣavo vāsaṃ kalpayiṣyanti a.śa.46ka/39; = {glo bur du lhags pa/}
+43= {glo bur du 'ongs pa/}
+2suddenly arrived9incidentally occurring42āgantuka43āgantukaḥ — āgantukaṃ pratyavekṣyāvāsikānāmārocayecchayanāsanārtham vi.sū.10kha/11; atithiḥ — atithijanopayuktaśeṣeṇa jā.mā.62/37; = {glo bur du lhags pa/}
+23āgantukaḥ
+23āgantukaḥ
+36<term> name plucked out of thin air38Synonyms: {glo bur du ming btags}, {glo bur du ming du btags pa}, {ming du btags pa}, {ming tsam kho na}39<term> āgantukaṃ nāmadheyaṃ
+43= {glo bur du byung ba/}
+0adventitiously/suddenly arisen16[MV]āgantukatva21{'byung/ 'byung/ byung/ byung/}43vi. āgantukaḥ — āgantukadhātūnāṃ ṣaḍaṃśaṃ deyaṃ yoginyādipūjārtham vi.pra.181ka/3.198.43vi. āgantukaḥ — āgantukametannāmadheyaṃ prakṣiptam a.sā.42ka/24.
+8burst out
+8break out
+43= {glo bur du lhags pa/}
+24āgantuka43atithiḥ, āgantukaḥ — kālopanatamatithijanam jā.mā.62/37; = {glo bur du 'ongs pa/}
+38Synonyms: {glo bur du btags pa'i ming}, {glo bur du ming du btags pa}, {ming du btags pa}, {ming tsam kho na}
+38Synonyms: {glo bur du btags pa'i ming}, {glo bur du ming btags}, {ming du btags pa}, {ming tsam kho na}
+2appearing suddenly / momentarily2{rgyu rkyen rten 'brel tshogs pa las glo bur du snang ba sgyu ma lta bu} as in a magic show, things are made to appear by a temporary conjunction of causes, circumstances and connections9appear suddenly/ momentarily
+9glo bur 'dre yis rgyud brlams pa ste, example of nges med thog rgyag tu obstacles arising26{glo bur 'dre yis rgyud brlams pa ste/ nges med thog rgyag tu bar chad byung ba'i dpe/}47{glo bur 'dre yis rgyud brlams pa ste/ nges med thog rgyag tu bar chad byung ba'i dpe/}
+55{glo bur 'dre yis rgyud brlams pa ste/} {nges med thog rgyag tu bar chad byung ba'i dpe/}
+2from moment to moment9[very] suddenly
+51{'phral gyi 'khrul rgyu dang don 'dra/ 'phral gyi 'khrul rgyu la gzigs/}
+8momentary tendencies9momentary tendencies
+24āgantukeṣu dharmeṣu
+0adventitious defilement/stain2incidental defilements2momentary defilement, passing stains, temporary stains. The obscurations that are not intrinsic to the sugata-garbha, like clouds are not inherent in the sky2temporary defilement, passing stains, adventitious defilements. momentary obscurations; adventitious distortions3fleeting stain4An emotional or cognitive obscuration that temporarily obscures the realization of Buddha-nature.5(PH) adventitious defilement8incidental defilements; adventitious defilements, incidental defilements, incidental and passing stains, adventitious distortions9[a+_kasmika-mala] adventitious defilement, temporary stains [of kleshas and knowables nyon mongs pa, shes bya'i sgrib pa gnyis, not of the nature of mind and therefore separable]11adventitious/ superficial distortions24āgantuka-mala26{nyon mongs pa dang shes bya'i sgrib pa gnyis ni sems kyi rang bzhin la ma zhud par sems dang 'bral rung du yod pas na glo bur gyi dri ma zhes bya'o/}28Adventitious defilement; incidental stains. Usually refers to all obscurations that temporarily obscure the pristine mind.42āgantukamala43= {glo bur dri ma/}47{nyon mongs pa dang shes bya'i sgrib pa gnyis ni sems kyi rang bzhin la ma zhugs par sems dang 'bral rung du yod pas na glo bur gyi dri ma zhes bya'o//}53{nyon mongs pa dang shes bya'i sgrib pa gnyis ni sems kyi rang bzhin la ma zhugs par sems dang 'bral rung du yod pas na glo bur gyi dri ma zhes bya'o/}55{nyon mongs pa dang shes bya'i sgrib pa gnyis ni sems kyi rang bzhin la ma zhugs par sems dang 'bral rung du yod pas na glo bur gyi dri ma zhes bya'o/ /}
+2free from momentary defilement
+55{nyon sgrib dang shes sgrib gnyis las nyon sgrib spangs pa'i myang 'das/}
+2free from momentary defilement
+51({'dul ba}) {gso sbyong gi bye brag cig gnod pa bzlog pa'i gso sbyong dang 'dra/}
+24āgantukī saṃjñā
+9sudden illness/ pain, acute disease
+2temporary disturbing emotions42āgantukleśa
+8secondary and adventitious factors
+9momentary thoughts
+9emergency medical treatment/ 1st aid
+2temporary constructs9adventitious complexities
+41(adm) outbreak {nad dang /'khrug 'dzing /dmag 'khrug sogs nyen tshabs can gyi gnas tshul gla bur du byung ba/}
+51{dus la ma ltos par dgos pa khyad par can gyi dus su 'bul ba'i gtor ma la zer/}
+2adventitious impurities
+8momentary coemergent ignorance
+9defilements of momentary coemergent ignorance
+41(adm) assassination {gnad yod mi sna lta bu glo bur ram gsang ba'i sga nas gsod pa'i bya gzhag}
+8disease that arises suddenly
+55{glo bur zhes sngon med 'phral byung gi don te/} {de'u dmar dge bshes bstan 'dzin phun tshogs kyis mdzad pa'i gso rig skor gyi ming tshig nyer mkho'i don gsal las/} {glo bur sngon med 'phral byung don/} {zhes gsungs pa ltar gyi sngon med 'phral byung gi nad lnga ni gag pa dang /} {pho log} {nywa log} {lhog pa/} {sna khrag mang du shor ba bcas lnga la zer te/} {rgyud chung bdud rtsi snying po las/} {glo bur nad lnga gag pa pho log dang /} {nywa log lhog pa sna khrag bskyel ma bsten/} {zhes gsungs pa ltar ro/ /}
+2two kinds of suddenly arisen obscuration. The obscuration of conflicting emotions {nyon mongs pa'i sgrib} and the obscuration concerning the knowable {shes bya'i sgrib}. See also {sgrib pa gnyis}9two kinds of suddenly arisen obscuration [conflicting emotions {nyon mongs pa'i sgrib} or kles' vara a and of the knowable {shes bya'i sgrib} or jn~ey vara a]
+8name of king of tibet about 1000 AD
+9wound from being pieced by knives arrows and weapons etc. [divisions: bshus pa'i rma, gshags pa'i rma etc 8]26{phyi rol nas mda' rdo gri mtshon sod phog pa'i rkyen las byung ba'i rma ste/ nang gses su dbye na bshus pa'i rma dang/ gshags pa'i rma sogs rigs brgyad mchis so/}55{phyi rol nas mda' rdo gri mtshon sogs phog pa'i rkyen las byung ba'i rma ste/} {nang gses su dbye na bshus pa'i rma dang /} {gshags pa'i rma sogs rigs brgyad mchis so/ /}
+29{bshus pa/gshags pa/bcad pa/rnam par bcad pa/rab tu 'phyang ba/rab tu lhung ba/rab tu grub pa/rab tu phug pa}55{bshus/} {gshags pa/} {bcad pa/} {rnam par bcad pa/} {rab tu grub pa/} {rab tu phug pa/}
+2eight types of temporary [phenomena]9CHN
+2total purity from the temporary [defilements]9completely pure of the incidental [of the two obscurations, the truth of cessation]26{glo bur gyi dri ma dang bral ba'i 'gog bden/}47{glo bur gyi dri ma dang bral ba'i 'gog bden/}53{glo bur gyi dri ma dang bral ba'i 'gog bden la zer/ tshig 'di gsar du bcos pa yin/}55{glo bur gyi dri ma dang bral ba'i 'gog bden/}
+0factor of adventitious purity7Comment: A state of purity brought about by the path rathan than a factor of natural purity (rang bzhin rnam dag gi cha).
+28Nature truth body that is pure from adventitious stains. For instance, the noble truth of cessation within Buddha's mental continuum.
+2the essence-body belonging to the aspect of purity from the temporary9the svabh vikak ya in which the incidental arises in complete purity
+11kaya that is totally pure anew (one of the two aspects of svabhavikakaya)
+41(adm) spot check {phal che bar sngon tshun nas brda gsal med par glo bur byung rgyal gyi zhib 'jug}
+2momentarily, suddenly
+2to break out, burst out9break out, burst out
+2purifying the temporary
+2the lightning-bolt of a momentarily occurring thought9the suddenly arising lightning of false conceptions
+9glo bur thog rgyag26{glo bur thog rgyag dang don gcig}55{glo bur thog rgyag dang don gcig}
+8accidentally
+9suddenly, all of a sudden [& unforseen] ngang la new occurrence26{ma bsams ma dran pa'i ngang la gsar du byung ba'i rigs/ glo bur thog rgyag la lhags pa chen po langs pa/}55{ma bsams ma dran pa'i ngang la gsar du byung ba'i rigs/} {glo bur thog rgyag la lhags pa chen po langs pa/}
+2to come suddenly
+2strikes suddenly
+55{rgyan cha'i ming ste/} {gos chen gyi gdan gzhi la stong skud kyi 'ja' khrid pa/} {sne la dngul sgros can pa tra'i ngos su g.yu byur sogs kyis phra btabs pa/} {de'i sne la gri chung dang /} {'khrol lo/} {tsha lu sogs 'dogs chog pa/} {pho mo gnyis ka'i rgyan cha rung ba zhig yin/}
+8catarrh in the lungs9cham pa glo bar bab pa zhig [symptons: glo rgyag and lud pa mang po 'byung ba, dbugs hal ba, brang dang stod rgyab gzer ba etc.]26{cham pa glo bar bab pa zhig ste/ nad rtags su glo rgyag cing lud pa mang po 'byung ba dang/ dbugs hal ba/ brang dang stod rgyab gzer ba sogs 'byung ba zhig}55{cham pa glo bar bab pa zhig ste/} {nad rtags su glo rgyag cing lud pa mang po 'byung ba dang /} {dbugs hal ba/} {brang dang stod rgyab gzer ba sogs 'byung ba zhig}
+55〔{skye rgu}〕{gzhog g.yas g.yon gnyis ka'i phar rgyangs ched chon thag la go/} {gzhan yang mkhal chon yang zer/}
+41(med) pulmonary edema {gla bar chu bsags pa'i nad/}
+9phyi glo'am rgyu glo26{phyi glo'am rgyu glo/}55{phyi glo'am rgyu glo/}
+9lung capacity
+2delighted, fascinated
+8small door or window in house for light9rtsig ldebs right or left window26{rtsig ldebs g.yas g.yon gyi sge khung/}42gavākṣa51{skar khung dra ba can/}55{rtsig ldebs g.yas g.yon gyi sge khung /}
+9gzhang 'brum gcod byed kyi yo byed ldebs sam logs su bug pa yod pa zhig26{gzhang 'brum gcod byed kyi yo byed ldebs sam logs su bug pa yod pa zhig}55{gzhang 'brum gcod byed kyi yo byad ldebs sam logs su bug pa yod pa zhig}
+9mo'i gzhang 'brum gang na yod shes nas 'brum pa gcod byed kyi yod byad cig26{mo'i gzhang 'brum gang na yod shes nas 'brum pa gcod byed kyi yod byad cig}55{mo'i gzhang 'brum gang na yod shes nas 'brum pa gcod byed kyi yo byad cig}
+9pho'i gzhang 'brum gang na yod shes nas 'brum pa gcod byed kyi yo byad cig26{pho'i gzhang 'brum gang na yod shes nas 'brum pa gcod byed kyi yo byad cig}
+55{pho'i gzhang 'brum gang na yod shes nas 'brum pa gcod byed kyi yo byad cig}
+43= {glo skar khra ma/}
+8wind pipe9windpipe
+10= slob dpon. "teacher, preceptor." Kuijp (1986) 34.
+8disease of the lungs which increases during the night, chronic bronchitis9{glo gcong} disease [one of the glo nad brgyad, glo rgyun du lu ba &, body flesh becomes emaciated la shed chung ba, from the throat nas sor sgra 'byung ba, lus rngul zhing 'gul skyod dka' bar]. lung diseases26{glo nad brgyad kyi nang tshan glo rgyun du lu ba dang/ lus kyi sha skem la shed chung ba/ mgrin pa nas sor sgra 'byung ba/ lus rngul zhing 'gul skyod dka' bar gyur pa bcas so/}44Also abbreviated as {glocong}. (Source: Dzongkha abbreviations)55{glo nad brgyad kyi nang tshan glo rgyun du lu ba dang /} {lus kyi sha skem la shed chung ba/} {mgrin pa nas sor sgra 'byung ba/} {lus rngul zhing 'gul skyod dka' bar gyur pa bcas so/ /}
+55{nad zhugs tshul dang /} {nad kyi stobs/} {nad kyi mtshan nyid bcas la bltos nas btags pa'i gcong chen zad byed kyi ming ste/} {mi pham rnam rgyal rgya mtshos mdzad pa'i rgyud bzhi bka' mchan 'dod 'byung nor bu'i me long las/} {glo gcong chen po zer ba'i nges tshig spyir bu ga'i rgyu lam thams cad la gnod pa yin/} {de'ang bu ga 'gag pa'am/} {shin tu bye ba yin la/} {bye brag tu/} {bu gar rgyu ba'i rlung gis bu ga byed las dang ldan par byed pa las/} {'dir zungs sogs rgyu ba'i bu ga lus thams cad la khyab pa dang /} {bye brag dbugs kyi nyer len rtsa ba glo ba de rtsa sbubs mang ba yin la/} {zas thog mar zhu ba lus stod du gcong chen thog mar zhu ba lus stod du gcong chen thog mar 'bab pas de byung lta bu la btags/} {chen po ni nad gzhi mang po'i rjes su 'brangs shing /} {nad mang po'i sngon du 'gro ba/} {rang nyid nad kun las gsal zhing rags la nad thams cad skyed pa'i bu ga kun tu 'khrugs pa'i nad chen po rgyal po lta bu'o/} {/zad byed ces pa ni lus thams cad zungs med pas rim par skem pa'o/} {/zhes gsungs pa ltar ro/ /}
+491. {rlung las gyur pa'i glo gcong chen po zad byed kyi nad/} (Source: 《{rgyud bzhi'i 'grel chen drang srong zhal lung }》{deb gnyis pa sha }285.3{las btus/}).
+55{1} ({rlung las gyur pa'i gcong}) {klad pa dang rtsib logs na/} {yan lag rnams na/} {skad 'gags/} {mgul pa sub snyam byed/} {2} ({mkhris pa las gyur pa'i gcong}) {rkang lag dang /} {phrag pa rnams tsha ba/} {tshad pas 'khru ba/} {khrag sogs skyug pa/} {dri kha bas sna za ba/} {lus byings rims kyis thebs pa dang 'dra ba na ba/} {3} ({bad kan las gyur pa'i gcong }) {lus lci/} {skyug pa/} {yi ga 'chus pa/} {mchil snabs mang ba/} {cham pa phog pa/} {pho ba'i me drod nyams pa/} {4} ({gcong chen gyi gcong nad}) {zas mi zhu ba dang /} {'khru ba/} {skyug pa/} {cham pa phog pa/} {lud pa mang ba/} {skad 'gags pa/} {yi ga 'chus pa bcas so/} {/ma zhu ba'i rkyen las byung ba'o/ /}
+49{de yang / yan lag brgyad pa'i snying po zhes bya ba'i sman dpyad kyi rang 'grel las byung ba ste/} (Source: 《{bstan 'gyur gso ba rig pa e pa }》{sha }109{ba}3{las btus/}).
+55{bshang gci dang 'phyen dbugs bkag pa/} {dwangs ma la sogs pa'i lus zungs bdun po'i snum zad pa dang /} {drag shul gyi las byas pa/} {zas skom mi mthun pa bsten pa rnams kyis/} {rlung mkhris bad kan gsum po 'khrugs nas lus kun la khyab cing so so rgyu ba'i bu ga rnams 'khrugs pa dang /} {pho ba'i me drod nyams pas dwangs ma smin ma thub pas/} {zas gang zos pa de dag dri mar gyur nas lus zungs zad par byed do/ /}
+10See shing mngar.
+9glor 'dogs pa'i gri chung shubs ldan10Knife illus. in Yisun.26{glor 'dogs pa'i gri chung shubs ldan/}55{ske rags la gri shub btags te glo g.yas la btags yod/} {sha za ba sogs kyi bed spyad chung chung byed ched/} {bud med rnams kyis gser dngul sogs gri dang gri shubs rgyan te btags yod/}
+9glo gsang moxibustion point [4th and 5th vertebrae glo ma dang glo bu 'brel ba'i me btsa'i gsang ste, if moxibustionn is done there it is good for glo bar wind and phlegm zhugs pa etc.]26{rgyab kyi sgal tshigs bzhi pa dang lnga pa glo ma dang glo bu 'brel ba'i me btsa'i gsang ste/ der me btsa' bzhag na glo bar rlung dang bad kan zhugs pa sogs la phan/}44Also abbreviated as {glosang}. (Source: Dzongkha abbreviations)55{rgyab kyi sgal tshigs bzhi pa dang lnga pa glo ma dang glo bu 'brel ba'i me btsa'i gsang ste/} {der me btsa' bzhag na glo bar rlung dang bad kan zhugs pa sogs la phan/}
+9a moxibustion point26{lus kyi gsang gnad cig}55{lus kyi gsang gnad cig}
+9a moxibustion point26{lus kyi gsang gnad cig}55{lus kyi gsang gnad cig}
+9glo rgyun mi 'chad par rgyag pa26{glo rgyun mi 'chad par rgyag stangs shig phru gu chung ngu de glo gsud rgyun mi 'chad par rgyag pa/}55{glo rgyun mi 'chad par rgyag stangs shig} {phru gu chung ngu de glo gsud rgyun mi 'chad par rgyag pa/}
+8right side of the body9right lung/ side
+24dakṣiṇena pāśvena
+24dakṣiṇena pāśvena śayyāṃ kalpayati
+24dakṣiṇena pāśvena śayyāṃ kalpayati
+9lie down on the right side of the chest
+24dakṣiṇe pārśve-avatiṣṭhate
+8left side of the body
+24vāme pārśve ... avatiṣṭhate
+55〔{skye rgu}〕{sbra yi gzhog g.yas g.yon gnyis la ka ba gnyis yod pa la go dgos/} {gzhan yang mkhas kar yang zer/}
+8color like the blood of the lungs, pale-red9lung color10lung color; lung color. Jackson.55{dmar la dkar shad che ba'i mdog gi ming /}
+2Lhopa tribesmen
+9tribesmen
+41(med) bronchorrhgia {gla yu'i khrag rtsa ral rdal gyi nad/}
+8bag carried at one's side, small moneybag attached to the sash or girdle of a tibetan26{gzhogs la 'dogs rgyu'iu khug ma/}55{gzhogs la 'dogs rgyu'i khug ma/}
+29{glo'am brang khog hrab hrab tu 'gul stangs/(tsa)}55({tsa}) {glo'am brang khog hrab hrab tu 'gul stangs/}
+8convulsions of the lungs, cough
+9a cough [arose]42vahirāyāma43=*bahirāyāmaḥ, rogabhedaḥ ma.vyu.9548; {ba hi rA yA maH dang kAs+sha/} {glo langs pa} mi.ko.52kha \n
+9snying 'gul ba26{snying 'gul ba/}55{snying 'gul ba/}
+55{dbyibs zlum la leb pa/} {rgyu ha yang las grub pa'i dmag mi'i chu snod glo la 'dogs yas zhig}
+9saddle's glo 'ching thag pa26{rta sga'i glo 'ching thag pa/}55{rta sga'i glo 'ching thag pa/}
+42utkāsana
+9cough41(med) bex {gla ba nas lud pa phyir lu ba/}
+9back side of the lungs kyi cha shas che ba26{glo ba'i rgyab phyogs kyi cha shas che ba/}55{glo ba'i rgyab phyogs kyi cha shas che ba/}
+2Mustang, Lo Mangthang,
+9glo mchin 'doms nadi [glo ba'i sgang rtsa and mchin rtsa ru thung gnyis 'doms pa'i mkhrig ma'i joint on the back side bleeding nadi, if bled good for mchin pa na ba &, mig sprin dmar ser chags pa, glo lu ba]26{glo ba'i sgang rtsa dang mchin rtsa ru thung gnyis 'doms pa'i mkhrig ma'i tshigs 'bur rgyab ngos kyi gtar rtsa ste/ de gtar na mchin pa na ba dang/ mig sprin dmar ser chags pa/ glo lu ba bcas la phan/}55{glo ba'i sgang rtsa dang mchin rtsa ru thung gnyis 'doms pa'i mkhrig ma'i tshigs 'bur rgyab ngos kyi gtar rtsa ste/} {de gtar na mchin pa na ba dang /} {mig sprin dmar ser chags pa/} {glo lu ba bcas la phan/}
+42na medo 'ntarāṇi nāpyaham
+2to jump to the side9jump to the side
+2Lomi Kyimdun, the Seven Households of Lo, in Tsari
+55{glo ba dang mid pa gnyis kyi bsdus ming /}
+55{byed las la bltos nas btags pa'i gre ba dang ol krong gi bar na gnas pa'i phrum rus ol mdud kyang zer ba de'i ming ste/} {rdzong 'phrang 'phrul gyi lde mig las/} {ol krong dang glo mig 'brel nas gre ba'i 'og na gnas/} {zhes dang /} {dpal spungs dbon karma bstan 'dzin 'phrin las rab rgyas kyis mdzad pa'i rgyud bzhi'i dka' 'grel las/} {glo mig ni/} {gre ba dang ol krong gi bar na gnas pa'i phrum rus ol mdud kyang zer ba de'o/} {/des zas skom khong du bsten pa dang skad 'byin pa'i tshe mig gdang 'dzum byed pa ltar 'gul bas na de ltar du grags so/} {rgyud du glo gcong glo mig lud pa'i gcong 'dril bas/} {a krong lums sam sman chu chu lums bsten/} {zhes gsungs pa'ang ol mdud phyi nas lums rdzas bdug dgos pa'i don yin no/} {/gzhan yang skabs 'gar glo ba'i sbubs kyi rtsa mig rnams kyi ming du go dgos pa'ang mchis so/}
+0Lo Ken-chen Sö-nam-hlün-drup(GD:ix)
+8being of quick comprehension, sharp
+29{glo lu/glo langs pa}55{glo lu/} {glo langs pa/}
+24pārśva-śaya
+10Btsan-lha.48{nye logs na yod pa'i don te/} 《{brda yig blo gsal mgrin rgyan}》{las/ glo na yod pa ni nye logs na yod pa'o/ /zhes gsungs pa ltar ro/ /}
+8tuberculosis91) lung disease of humans/ cattle; 2) TB [in cattle when rlung diesease first appears nyal dus lus stod mthon por byas te nyal ba dang, nang du glo ba rnag gis bzas te 'chi ba'i phyugs kyi major infection disease]261) {mi phyugs kyi glo bar byung ba'i nad cig} 2) {nor phyugs la glo nad thog mar phog skabs nyal dus lus stod mthon por byas te nyal ba dang/ nang du glo ba rnag gis bzas te 'chi ba'i phyugs kyi 'gos nad che gras shig}41(med) bagassosis {gla ba'i nad/}55{glo nad spyi'i slong rkyen ni/} {rlung dang /} {mkhris pa dang /} {bad kan dang /} {khrag nad dang /} {chu gzhi rnams kyis bskyed pa dang /} {gzhan yang zas rul ba dang /} {skyur mo'i rigs/} {tho mar/} {tshwa dang /} {du ba bcas bsten drag pa/} {cham pa 'gram pa dang /} {drag shul gyi las rnams kyis skyed do/ /} {spyir na glo ba bad kan gyi yul yin pas na dbyar ka'i dus bde la dgun gyi dus su na ba dang /} {nyin mo bde la mtshan mo'i dus su na ba yin no/ /}
+2eight types of lung disease9the 8 lung diseases [glo nad theng po, glo ba skya rbab, glo tsad, chu shor, thes po, glo gcong, glo rgyas, glo ba bung tsang]26{glo nad theng po dang/ glo ba skya rbab/ glo tshad/ chu shor/ thes po/ glo gcong/ glo rgyas/ glo ba bung tshang bcas brgyad mchis so/}29{thang po/skya rbab/tsha ba/chu shor/thes po/glo gcong/glo rgyas/bung tshang can no/_}55{glo nad theng po dang /} {glo ba skya rbab/} {glo tshad/} {chu shor/} {thes po/} {glo gcong /} {glo rgyas/} {bung tshang bcas brgyad mchis so/ /}
+55{'dra ba'i sgo nas dpe don sbyar ba'i glo rnag gi ming ste/} {gong sman dkon chog bde legs kyis mdzad pa'i pod dmar las/} {bung tshang can zhes bya ba'i glo nad ni/} {ngo bo glo tshad glo rnag 'gyur ba la/} {mtshon byed bung ba'i tshang du sbrang bsags ltar/} {glo ba'i rtsa sbubs rnag yod pa yi don/} {zhes gsungs/}
+55{ngal chu ste lus thang chad pa'i skabs kyi mchil ma glo bar shor bas/} {stod brgyangs/} {mgo na/} {mig sprin ser por 'ong ba/} {grang ga mi bde/} {glo mang /} {dbugs rngam pas theg pa/} {sha skam pa/} {rngul med pa/} {gtam sbrel nas smra mi thub par gtam gyi bar bcad cing smra ba/} {tha ma glo lu ba'i tshe lud pa sha skyo lta bu 'ong ba bcas so/ /}
+55{sha skem/} {shed chung /} {'gul mi nus/} {byi li'i mgul 'dra ba ste li lis sgrol ma bton par grags pa lta bu mgrin pa nas hob sgra grags pa/} {zas dang sman gyis phan skyed chung ba/}
+55{mig dmar/} {lce mthu mkhur tshos bcas kha dog smug pa/} {skad 'dzer/} {stod rgyangs/} {rngam rgod pa ste dbugs thung ba/} {lud pa dmar po 'ong /}
+55{glo mang zhing mig lcibs dang rkang 'bol skrangs/}
+55{rgyun du lu ba zhig 'gogs dka' ba/} {lbu ba gsog cing dgong dang tho rangs mang du lu ba'o/}
+9among the {glo nad rigs brgyad rlung} {dang} {'doms pa'i glo nad} symptoms: {glo 'gog dka'} and {dgong dang tho rengs kyi dus su wu sob can lu ba zhig}26{glo nad rigs brgyad kyi nang tshan rlung dang 'doms pa'i glo nad de/ nad rtad glo 'gog dka' zhing dgong dang tho rengs kyi dus su wu sob can lu ba zhig}
+9among the glo nad brgyad, lus stod lci zhing khengs la dbugs 'tshang ba dang, lud pa lngo ljang du lu ba zhig26{glo nad brgyad kyi nang tshan lus stod lci zhing khengs la dbugs 'tshang ba dang/ lud pa lngo ljang du lu ba zhig}55{lud pa sngo ljob mang du lu ba/} {dbugs gyen la theg pa/} {ro stod lci la khengs pa/} {lud pa thon rjes cung zad bde snyam byed/}
+55({tsha subs}) {rtsa dang chu la tshad rnams che ba/} {ro stod rgyangs/} {lud par tshwa'i bro ba can lbu chung mang po yod pa can 'ong ba/} {dus ston ka dang /} {las drag shul/} {zas drod bcud rnams kyis gnod/} ({tsha gzer}) {nyal ba'i mi bde zhing dbugs kyis btegs pa lta bu'i tshor ba 'ong /} {lud pa dmar ser can lu zhing skabs su gzer/}
+41(med) black lung disease {las yul gyi dbang gis rda sol gyi thal ba gla bar rngub drags pa'i nad/}
+2person Lo
+9lie down
+9lay down on 1 side
+9long phreng26{long phreng dang 'dra/}55{long phreng dang 'dra/}
+8place where things are kept, niche91) rtsig ldebs su brus pa'i ca lag 'jog sa; 2) Rtsa lam gyi glo'am logs ngos nas bleeding, medical means or treatment261) {rtsig ldebs su brus pa'i ca lag 'jog sa/} 2) {rtsa lam gyi glo'am logs ngos nas gtar kha brgyab ste khrag 'don pa'i sman bcos byed thabs shig}55(1) {rtsig ldebs su brus pa'i ca lag 'jog sa/} (2) {rtsa lam gyi glo'am logs ngos nas gtar kha brgyab ste khrag 'don pa'i sman bcos byed thabs shig}
+10See under blo rdeg.26{glo bur/ glo rdeg tu mi mang po 'dzoms pa/}55{glo bur/} {glo rdeg tu mi mang po 'dzoms pa/}
+9glo rdeg tu many people 'dzoms pa
+8sudden
+8excessive expectoration10glo nad khrag skyugs pa. mthil lam lto bar bu ga yod pa. Btsan-lha.41(med) haemoptysis {gla bar gnyan kha rgyas nas gla rtsa rdal bas lud pa khrag can lu ba/}42sacchidra43vi. sacchidraḥ — {glo rdol bum pa'i chu bzhin du/} {dran pa la ni de mi gnas} sacchidrakumbhajalavanna smṛtāvavatiṣṭhate bo.a.5.25.48(1) {glo nad khrag skyugs pa'i ming ste/} 《{brda sprod dpag bsam ljon pa'i snye ma}》{las/ glo rdol ni glo nad khrag skyugs pa/ zhes gsungs/}48(2) {mthil lam lto bar bu ga yod pa'i ming ste/} 《{spyod 'jug}》{las/ glo rdol bum pa'i chu bzhin du/ /dran pa la ni de mi gnas/ /zhes pa lta bu'o/ /}55{glo ba'i sbubs kyi khrag rtsa phra mo rnams rdol nas khrag tu lu ba'i glo nad kyi ming /}
+42sacchidrakumbhajalavat
+9sheep, calves etc. glo drag tu lu ba'i cattle disease26{lug dang be'u sogs glo drag tu lu ba'i phyugs nad cig}55{lud dang be'u sogs glo drag tu lu ba'i phyugs nad cig}
+8cough
+91) cough; 2) incidental, sudden261) {glo lu ba'am langs pa/} 2) {glo bur/}55(1) {glo lu ba'am langs pa/} (2) {glo bur/}
+2to cough8cough; cough, feel stifled9cough57[sound:2-497a.wav]\n{glo rgyag pa} To cough\nSynonyms: {glo langs pa/}\nSyllables: {glo ba/} = lungs.\n-----\nExample: [sound:2-497c.wav]\n {deng sang nga mtshan mo'i skabs la glo rgyag gi 'dug_byas tsang gnyid yag po khug gi mi 'dug}  These days, I cough a lot in the night. Therefore, I don’t sleep well.
+9gzhogs la 'dogs rgyu'i ornament26{gzhogs la 'dogs rgyu'i rgyan cha/}55{glo nad brgyad kyi nang tshan te/} {nad rtags su skad 'dzer zhing /} {stod rgyong ba/} {dbugs rngam rgod byed pa/} {lud pa khrag 'byung ba zhig}
+8asthma; disease of the lungs, asthma9asthma; asthma [among the glo nad brgyad, symptoms: skad 'dzer &, stod rgyong ba, dbugs rngam rgod byed pa, lud pa bleeding]26{glo nad brgyad kyi nang tshan te/ nad rtad su skad 'dzer zhing/ stod rgyong ba/ dbugs rngam rgod byed pa/ lud pa khrag 'byung ba zhig}29{blo 'dab che ba'i tsha nad}55{glo ba skrangs pa'i nad rigs shig gi ming /}
+55{byis pa'i glo nad tsha srubs kyi ming gi rnam grangs shig ste/} {sde srid sangs rgyas rgya mtshos mdzad pa'i man ngag rgyud kyi lhan thabs las/} {bye brag tsha srubs zhes sam glo rkun ni/} {glo brgyal 'gog tu mi 'dod drag tu lu/} {lus po tsha la rtsa dang 'phar sgo drag glo bstud 'ong zhing brang dang ma la 'brad/} {rjes su lus rngul 'khun zhing skyug par byed/} {khyad par mi 'gyur rtags su sna khrag 'dzag} {glo rkun g.yag glo zhes 'bod byis par mang /} {zhes gsungs pa ltar ro/ /}
+9a sore on the lungs
+9get a sore on the lungs
+9glo bar tsha ba zhugs nas glo ba'i rtsa sbubs kyi blood and pus rul nas rnag tu gyur pa zhig26{glo bar tsha ba zhugs nas glo ba'i rtsa sbubs kyi khrag dang chu ser rnams rul nas rnag tu gyur pa zhig}55{glo bar tsha ba zhugs nas glo ba'i rtsa sbubs kyi khrag dang chu ser rnams rul nas rnag tu gyur pa zhig}
+91) M mirror? sog pa'i me long 'og gi sngon bu dang gru mo'i sgang rtsa lta bu glo ba dang 'brel ba'i nadi; 2) the mind's way of being and thinking261) {sog pa'i me long 'og gi sngon bu dang gru mo'i sgang rtsa lta bu glo ba dang 'brel ba'i rtsa/} 2) {sems shugs dang bsam tshul/ don med gtam 'chal mang pos grogs po'i glo rtsa dkrugs/}55(1) {sog pa'i me long 'og gi sngon bu dang gru mo'i sgang rtsa lta bu glo ba dang 'brel ba'i rtsa/} (2) {sems shugs dang bsam tshul/} {don med gtam 'chal mang pos grogs po'i glo rtsa dkrugs/}
+10sems dkrugs pa'i don. 367 II 130.1.
+29{glo rtsa'i gtar dmigs kyi steng du gtsag bu brdegs pa/(tsa)}55{glo rtsa'i gtar dmigs kyi steng du gtsag bu brdegs pa/}
+29{glo nad bcos byed kyi sman}55{glo nad bcos byed kyi sman/}
+8wind pipe
+9lung's khog sbubs26{glo ba'i khog sbubs/}55{glo ba'i khog sbubs/}
+9side door of a house26{khang pa'i logs zur du yod pa'i sgo/}43= {logs sgo} pakṣadvāram mi.ko.140kha; {khang pa'i logs zur du yod pa'i sgo} bo.ko.429.55{khang pa'i logs zur du yod pa'i sgo/}
+9coughing sound26{glo rgyag pa'i sgra/}55{glo rgyag pa'i sgra/}
+9[arch] rig pa spyang ba10rig pa sbyang ba. Dpe-chos 512. Btsan-lha.26{(rnying) rig pa spyang ba/}48{rig pa spyang ba'i don te/} 《{dbyangs can dga' blo'i brda dkrol}》{las/ glo sho rgod ni rig pa spyang ba/ zhes gsungs pa ltar ro/ /}55〔{rnying}〕{rig pa spyang ba/}
+55{mi'i lpags pa'i ngos su skam tshags kyis shun thal ba lta bu dkar po zhig 'thor ba'i ming /} {mgo dang lus la glo shu thon na za phrug langs kyi yod pa red/}
+8small door or window9[rtsig ldebs right or left] window26{glo dkar dang 'dra/}43= {skar khung} gavākṣaḥ, vātāyanam mi.ko.141ka; = {skar khung dra ba can/} {glo skar khra ma/}45Sanskrit: gavākṣa <Word/Term/Phrase>\n\n\nTibetan renderings of gavākṣa: {khol ma/}, {skar khung/}, {skar khung dra ba can/}, {glo skar/}, {dra mig/}, {ba lang mig/}, {'od mig/}\n\nm. (Kāś. on Pāṇ. 5–4, 76 and 6–1, 123) ‘a bull’s eye’, an air-hole, loop-hole, round window, R.; Ragh. (ifc. f(ā)., Ragh. xi, 93), Kum. &c.\n\nSee the full entry at:https://www.itlr.net/hwid:4272855{glo dkar dang 'dra/}
+43= {skar khung} vātāyanam, gavākṣaḥ a.ko.2.2.9.
+55{glo ba la skran nad phog pa/}
+42āgantuka43āgantukaḥ ma.vyu.6937.
+10a medicinal preparation. BP 365.1. BT 28v.2.
+29{1 se 'bru srung lnga/2 shing tsha srang gsum/3 sug smel srang gsum/4 pi pi ling srang bzhi/5 shing mngar srang do/6 rgun 'brum dkar po srang do/7 zi ra dkar po srang do/8 cu gang srang do}
+29{1 tsan dan dkar po srang do/_/2 li shi srang gang/3 cu gang srang gang/4 gur gum srang gang/5 ga dur (shun 'dor )srang gang/6 sro lo dkar po srang gang/7 rgun 'brum dkar po srang gang/8 shing mngar (shun 'dor )srang gang}
+9the lungs's sgang rtsa dang snying rtsa snod kha gnyis 'doms pa'i 'khrig ma'i yar zur gyi rus 'bur nas upwards four fingers bleeding nadi, if bled good for glo snying la tsha ba zhugs pa &, brang rgyab gzer ba, khrag ngan rgyas pa, glo langs nas lud pa, 'gog dka' ba etc.
+2lungs and heart9lungs and heart; 1) heart and lungs; 2) mind. lungs and heart261) {nang khrol glo ba dang snying/ dngangs skrag skyes nas glo snying ldeg ldeg tu 'gul ba/} 2) {sems sam yid/ glo snying gtad pa/}55(1) {nang khrol glo ba dang snying /} {dngangs skrag skyes nas glo snying ldeg ldeg tu 'gul ba/} (2) {sems sam yid/} {glo snying gtad pa/}
+2making your very heart quiver with fear
+26{glo ba'i sgang rtsa dang snying rtsa snod kha gnyis 'doms pa'i 'khrig ma'i yar zur gyi rus 'bur nas gyen du song bzhi gzhal ba'i sar yod pa'i gtar rtsa ste/ de gtar na glo snying la tsha ba zhugs pa dang/ brang rgyab gzer ba/ khrag ngan rgyas pa/ glo langs nas lud pa/ 'gog dka' ba sogs la phan/}55{glo ba'i sgang rtsa dang snying rtsa snod kha gnyis 'doms pa'i mkhrig ma'i yar zur gyi rus 'bur nas gyen du sor gzhi gzhal ba'i sar yod pa'i gtar rtsa ste/} {de gtar na glo snying la tsha ba zhugs pa dang /} {brang rgyab gzer ba/} {khrag ngan rgyas pa/} {glo langs nas lud pa 'gog dka' ba sogs la phan/}
+2to entrust oneself completely, give one's lungs, heart and chest9the mind w/o any hesitation 1 pointedly focused blo gtad 'chol ba, entrust oneself completely, give one's lungs, heart and chest26{yid gnyis med par rtse gcig tu blo gtad 'chol ba/}47{yid gnyis med par rtse gcig tu blo gtad 'chol ba/}55{yid gnyis med pa rtse gcig tu blo gtad 'chol ba/}
+9glo yu'i lam nas "sor sor" sound occurring lung disease26{glo yu'i lam nas sor sor zhes pa'i sgra 'byung ba'i glo nad cig}55{glo yu'i lam nas sor sor zhes pa'i sgra 'byung ba'i glo nad cig}
+8kind of shield
+9choking while coughing
+9saddle cinch26{sga'i glo thag pa/}55{sga'i glo thag pa/}
+55{rgyas tshad dang tsha lkugs la glo tsha zhes pa de dang yang na dug thabs glo bu la babs pa la zer zhes sde srid sangs rgyas rgya mtshos mdzad pa'i man ngag rgyud kyi 'grel pa bai sngon las gsungs/}
+9{glo tshad} disease [one of the glo nad rigs brgyad}, in the lungs bar tsha ba; symptoms: lus stod mdun rgyab gzer &, glo drag tu lu ba, lud pa'i nang nas khrag arising]. {glo tshad} disease26{glo nad rigs brgyad kyi nang tshan glo bar tsha ba zhugs pa'i nad de/ nad rtags su lus stod mdun rgyab gzer zhing/ glo drag tu lu ba/ lud pa'i nang nas khrag 'byung ba zhig}41(med) pneumonia {nad srin phra ma'i rkyen gyis gla bar gnyan tshad phog nas tsha ba rgyas pa dang /brang bsdam pa/dbugs 'byin dka' ba sogs kyi nad rtags yod pa'i nad cig}55{glo nad rigs brgyad kyi nang tshan glo bar tsha ba zhugs pa'i nad de/} {nad rtags su lu stod mdun rgyab gzer zhing /} {glo drag tu lu ba/} {lud pa'i nang nas khrag 'byung ba zhig}
+10a medicinal preparation. Prescriptions 32. Lag-len 24.5. TMC 37 (80). BT 50r.7. BP 191.1.
+10a medicinal preparation. BT 12r.2.
+9windpipe, trachea26{glo ba 'dzin byed kyi yu ba ltar gyur pa dbugs rgyu ba'i lam ol krong gi ming gzhan zhig}41(physiol) trachea {glo ba nas gre ba'i bar du zug pa'i dbugs rgyu ba'i lam gla yu yang zer ba de'i ming gi rnam grangs shig}421) kaṇṭha 2) go+īvā55{glo ba 'dzin byed kyi yu ba ltar gyur pa dbugs rgyu ba'i lam ol krong gi ming gzhan zhig}
+41(med) bronchitis {rlung rgyu sa'i gla yur gnyan kha rgyas pa'i nad/}
+41(med) bronchiectasis {al krang gi mar sne dang sbrel ba'i gla ba'i rtsa sbubs kyi gnyan kha rgyas te rnag chu gsog pa'i nad/}
+41(med) bronchiectasis {al krang gi mar sne dang sbrel ba'i gla ba'i rtsa sbubs kyi gnyan kha rgyas te rnag chu gsog pa'i nad/}
+9tracheitis
+41(anat) bronchi {ol krong ngam/glo yu nas gyes pa'i yal 'dab gnyis nas gang rung zhig}
+41(med) byssinosis {srin bal gyi zegs rdul gla yur shar ba'i za 'phrug}
+2Mustang [now in Northwest Nepal]2the land of Lho
+9khams phyogs kyi pho mo gnyis kas gzhogs la 'dogs rgyu'i ornament26{khams phyogs kyi pho mo gnyis kas gzhogs la 'dogs rgyu'i rgyan cha zhig}55{khams phyogs kyi pho mo gnyis kas gzhogs la 'dogs rgyu'i rgyan cha zhig}
+421) utpika 2) utpikā
+2to flaunt [material goods]9flaunt [material goods]
+2lamp, electric light / lamp9lamp, electric light
+44Abbreviation for {glo gcong}. (Source: Dzongkha abbreviations)
+2loosely; to release, to let go, to let loose, to set free, to relax, loosen, let go, rest8stay relaxed, let loose, let go, to release, let go, sense of looseness, relaxed, loosening, relax9release, let go/ loose, set free, relax, loosen, rest27Present: {glod} LZ, CD, DK, TC. \nPast: {glod} LZ, DK, TC.\nFuture: {glod} LZ, DK, TC.\nImperative: {glod} LZ, DK, TC.\nVoluntary: TC, (Hoshi 2003).\nTransitive: TC.\nCharacteristic Example: {bcur sems sogs} LZ.\nMeaning: To relax, loosen; to release; to set free DK. To release, to set free, to let go, to let loose TC.32{klod kyi 'bri srol gzhan/}
+9loose, [set] free, let go of, relax, slacken, comfort, console, release, pardon
+55{btson khang ngam bkag nyar byas pa las glod grol btang ba/}
+8emancipation, release9loose, [set] free, let go of, relax, slacken, comfort, console, release, pardon26{glod pa/ btson pa glod bkrol btang ba/}55{glod pa/} {btson pa glod bkrol btang ba/}
+9loose, [set] free, let go of, relax, slacken, comfort, console, release, pardon
+8relaxed quality
+8relax!
+10See lo btsan 'thong po.
+8delivery
+8acquit
+8intense relaxation
+31free55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }free {zer/}
+21) releasing, letting go, freeing9release, let go, free, launch, send off
+9release, let go, free, launch, send off
+8relax
+511. {bcos slad med par rang gar bzhag pa'i don/}512. ({phyag chen}) {sems la gang shar ci 'dug de ka'i thog tu zhe 'dod ci yang mi bya bar rang lugs su lhod de bzhag pa/ tai lo pas/ ma bcos gnyug ma'i ngang du glod la zhog /bcings pa glod na grol bar the tshom med/ /ces dang / rje sgam po bas/ glod pa rab la sgom pa rab/ glod pa 'bring la sgom pa 'bring / glod pa tha ma la sgom pa tha ma/ zhes sogs gsungs pa ltar ro/ /}
+8relax in contemplation
+8you may stay here always with easy mind
+2Relax and rest!2remain at ease
+0loosen; relax; release; set free2{glod pa, glod pa, glod pa, glod} trans. v.; loose, free, to relax. slacken, to comfort, console8relax, loosen, disengage, emancipate, loose, relieve, slow, relaxed, unstrung, slackened, easy, careless, unconcerned, to release9(tha dad pa,, loose, free, let go of. relax. slacken, comfort, console10loosening up, loosening. Generally, means 'relax.' Skt. samavaghAta, acc. to Norbu, Cycle. Would like to know how he got this. Klong-chen-pa 12.6.11to relax/ let go16[MSA]samavaghāta21{glod pa/ glod pa/ glod pa/ glod pa/}26{(tha dad pa) 'grol ba'am gtong ba/ bcings pa glod pa/ sems glod pa/ gdong glod pa/ ma bzung ma glod par sdod pa/}42samavaghāta43• saṃ. viśrāmaḥ — eṣa bodhisattvasaṃgraho yatra bodhisattvānāmabhyāsaviśrāme'pi āpattayo vyavasthāpyante bo.pa.48. \n\n• vi. muktaḥ — {bsdams pa glod pa} muktapragrahaḥ jā.mā.139/81.55〔{tha dad pa}〕{'grol ba'am gtong ba/} {bcings pa glod pa/} {sems glod pa/} {gdong glod pa/} {ma bzung ma glod par sdod pa/}
+9btags pa dang bcug pa'i rigs glod pa'am, rang bzhin gyis shor ba,...Btson pa rnams glod shor med par do dam byed pa26{btags pa dang bcug pa'i rigs glod pa'am/ rang bzhin gyis shor ba/ btson pa rnams glod shor med par do dam byed pa/}55{btags pa dang bcug pa'i rigs glod pa'am/} {rang bzhin gyis shor ba/} {btson pa rnams glod shor med par do dam byed pa/}
+8parting
+0lightning21) electricity. 2) lightning, a flash of lightning8lightning; electricity, lightning, current, 1 of 12 sgyu ma'i dpe, electricity9lightning; electricity, flash [of lightening] [syn: skad cig 'od dang, skad cig gsal ba, skyod byed, sgra 'gyed, chu skyes can, chun mdzes can, 'jug pa brgya pa, bde 'thung, sprin gyi lcug ma, gzhi sngon skyes, lus phra, rnam gsal]. electricity, [flash [of] lightning]10See tsi tra ka.16[C]vidyuta; [C]vidyut; vidyuj-jyotis22[C]lightning flash26{rnam gsal lam skad cig 'od/ 'phrul 'khor nas glog 'don pa/ chu shugs glog 'don/ me shugs glog 'don/ rta yi bang rtsal glog 'khyug pa ltar rgyug pa/ mtshams rer yod cing/ mtshams rer med par 'gro ba de dag nam mkhar glog 'gyu ba ltar 'gyur skyen po 'dug mun nag tu glog rgyag pa/ ming gi rnam grangs la skad cig 'od dang/ skad cig gsal ba/ skyod byed/ sgra 'gyed/ chu skyes can/ chun mdzes can/ 'jug pa brgya pa/ bde 'thung/ sprin gyi lcug ma/ gzhi sngon skyes/ lus phra/ rnam gsal bcas so/}321. {dngos gzugs kyi khrod du gnas pa'i nus pa zhig gi ming ste/ de la gdags glog dang srib glog gam/ pho glog dang mo glog rigs gnyis yod/ mi rnams kyis nus pa de bkol nas glog sgron 'ger zhing 'khrul 'khor skor gyin yod/ (glog rdul) dngos lugs rig par bshad pa'i rdul phra rab 'grub byed kyi rmang gzhi'i phra rdul zhigagi ming /} 2. {drag char 'bab skabs sprin rim las byung ba'i glog gi 'od kyi ming la 'jug pa ni/ glog zhags/ glog 'khyug nas 'brug sgra grags zhes pa lta bu/}34a bolt of lightning36<person> Lightning, Vidyut37<person> Lightning: The wife of the son of the brahmin Agnidatta. (Original glossary entry: https://84000.co/glossary/entity-16461.html)39<person> vidyut41(phys) electricity {gtan tshugs sam g.yo 'gul can gyi glag zungs yod pa'i nus pa/}421) aśani 2) ākāliṃkā 3) āvarta 4) cañcalā 5) capalā 6) calā 7) taḍit 8) vidyut 6) vidyukkatā 10) śatāvarta 11) sphūrjathu 12) hrādinī42śatāvarta43vidyut 1. taḍit — pradīpavidyunmaṇicandrabhāskarān pratītya paśyanti yathā sacakṣuṣaḥ ra.vi.5.17; taḍit — {glog gi thag pa g}.{yo ba yang} calañca taḍitāndāma kā.ā.2.104; stanitaṃ garjitaṃ meghanirghoṣo rasitādi ca \n\n śampā śatahradāhrādinyairāvatyaḥ kṣaṇaprabhā \n taḍit saudāminī vidyuccañcalā capalā a.ko.1.3.89; śatahradā — śatahradonmeṣasamṛddhadīpte jā.mā.345/201; vidyullatā — vidyullatābhaṅghuralolamāyuḥ jā.mā.52/31. 2. pā. samādhiviśeṣaḥ — vidyunnāma samādhiḥ kā.vyū.222ka/284.55{rnam gsal lam skad cig 'od/} {'phrul 'khor nas glog 'don pa/} {chu shugs glog 'don/} {me shugs glog 'don/} {rta yi bang rtsal glog 'khyug pa ltar rgyug pa/} {mtshams rer yod cing /} {mtshams rer med par 'gro ba de dag nam mkhar glog 'gyu ba ltar 'gyur skyen po 'dug} {mun nag tu glog rgyag pa/} {ming gi rnam grangs la skad cig 'od dang /} {skad cig gsal ba/} {skyod byed/} {sgra 'gyed/} {chu skyes can/} {chu mdzes can/} {'jug pa brgya pa/} {bde 'thung /} {sprin gyi lcug ma/} {gzhi sngon skyes/} {lus phra/} {rnam gsal bcas so/ /}56[sound:1-56a.mp3]\n{glog} Electricity (Other meanings: Light. Lamp. Power.)\nSyllables: {glog} as in: {glog klad/} = computer, (lit. electric brain).\n-----\nExample: [sound:1-56c.mp3]\n {'dzin khang la glog mi 'dug}  There is no electricity in the classroom.57[sound:2-146a.mp3]\n{glog} Electricity (Other meanings: Light. Lamp. Power.)\nSyllables: {glog} as in: {glog klad/} = computer, (lit. electric brain).\n-----\nExample: [sound:2-146c.mp3]\n {khyed rang nyal na glog bsad dgos red/}  If you sleep, you need to switch off the light.
+23vidyujjvālaḥ36<person> Vidyujjvāla37<person> Vidyujjvāla (Skt: vidyujjvāla): A nāga king present in the assembly of the Buddha Śākyamuni. (Original glossary entry: https://84000.co/glossary/entity-36007.html)39<person> vidyujjvāla42vidyujjvāla43nā. vidyujjvālaḥ, nāgaḥ ma.vyu.3316.52(Skt. vidyujjvālaḥ) flash of lightning
+9insulate [electrically]
+9insulating material [electrically]
+9insulating material [electrically]
+9electrolysis41(phys) electrolysis {zhun ma'i gnas skabs kyi dngas pa zhig la glag brgyud 'khrid byas te/rdzas 'gyur gyi byed las la brten nas zhun ma de nyid kyi thog ma'i grub cha so sor kha bkral tshul/}
+41(phys) electrolytic refining {glag 'byed kyi thabs la brten nas lcags rigs lhad med pa bza thabs/}
+36<person> Vidyuddatta, Vidyotana37<person> Vidyotana (Skt: vidyotana): A nāga king. (Original glossary entry: https://84000.co/glossary/entity-45707.html)37<person> Vidyuddatta (Skt: vidyuddatta): The 341st buddha in the first list, 340th in the second list, and 335th in the third list. (Original glossary entry: https://84000.co/glossary/entity-27044.html)39<person> vidyuddatta, vidyotana421) utsṛṣṭavidyut 2) vidyuddatta43= {glog 'byin pa/}52(Skt. Utsṛṣṭavidyut) Buddha holding light
+42vidyotana43• kri. vidyotate ta.pa. \n\n• saṃ. vidyotanam — tataste jvalanatapanavarṣaṇavidyotanaprātihāryāṇi kṛtvā nirupadhiśeṣe nirvāṇadhātau parinirvṛtāḥ vi.va.123kha/1.12; dra. {glog gtong ba/}
+43kri. vidyotate — {sprin las glog 'byung ngo} balāhako vidyotate ta.pa.72kha/597.
+8to generate electricity9electric power production
+9generator
+8electric generator55{glog btang yas kyi 'khrul 'khor/}
+9produce electric power
+41(phys,mech) turbine {rgyug chu lta bu'i 'gul skyod byed bzhin pa'i gsher gzugs kyi shugs la brten nas 'gul 'khor ma lag cig bskor ba'i nus pa de glag gam 'phrul 'khar gyi nus shugs su sgyur byed/}
+9electric power plant29{bod kyi glog 'don khang thog ma ste de lnga bod sa gnas sring gzhung skabs shing byi (1924)lor rgya gar nas glog 'don 'phrul 'khor yo chas cha tshang zhig bod du 'don 'dren gnang rgyu'i skabs der bod du glog las kyi shes yon yod pa byang ngos rig 'dzin rdo rje rgyus mnga'i babs kyis gtong gnang gis glog chas bod du slebs rjes dog bde sa gnas su glog khang gsar rgyag bgyis te thog mar nor gling pho brang yas mas su glog gtong 'go tshugs pa dang/de nas rim bzhin lha sa rje 'bum sgang du glog khang gsar rgyag gis grong khyer dang/gra bzhi glog 'phrul las khungs gi thon skyed la'ang bed spyod gtong thub pa byung zhing/skabs der glog khang gi thog ma'i gtso 'gan 'khur mi lha gnyer rim bzhi byang ngos pa rig 'dzin rdo rje dang/de rjes lha gnyer thang smad pa bdud 'dul tshe ring yin}55{bod kyi glog 'don khang thog ma ste de snga bod sa gnas srid gzhung skabs shing byi} ({1924}) {lor rgya gar nas glog 'don 'phrul 'khor yo chas cha tshang zhig bod du 'don 'dren gnang rgyu'i skabs der bod du glog las kyi shes yon yod pa byang ngos rig 'dzin rdo rje rgyus mnga'i babs kyis gtong gnang gis glog chas bod du slebs rjes dog bde sa gnas su glog khang gsar rgyag bgyis te thog mar nor gling pho brang yas mas su glog gtong 'go tshugs pa dang /} {de nas rim bzhin lha sa rje 'bum sgang du glog khang gsar rgyag gis grong khyer dang /} {gra bzhi glog 'phrul las khungs kyi thon skyed la'ang bed spyod gtong thub pa byung zhing /} {skabs der glog khang gi thog ma'i gtso 'gan 'khur ma lha gnyer rim bzhi byang ngos pa rig 'dzin rdo rje dang /} {de rjes lha gnyer thang smad pa bdud 'dul tshe ring yin/}
+9electric power generating station/ plant55{glog gi nus pa/}
+9electric generating equipment
+9generating capacity/ output
+41(phys) capacitance {dngas rdzas shig gi glag zungs gsog 'jag gi nus pa'i 'jal tshad/de ni kha steng glag zungs de nyid glag gi nus tshad kyis bags pa'i thab grangs dang mtshungs pa yin/}
+41(phys) capacitor {glog nus khyab ra'i nang glog zungs dang nus pa gsog 'jag ched du bkol ba'i glag gi yo chas shig}
+8plug
+9electric resistance
+9electric
+5(PH) flash of lightening9story36<person> Lightning37<person> Lightning: Attendant of the buddha Siṃhadatta. (Original glossary entry: https://84000.co/glossary/entity-23707.html)42vidyut43= {glog 'gyu ba/}
+2lightening5(PH) flash of lightening9lightning431. vidyut — rātrau yathā meghaghanāndhakāre vidyut kṣaṇaṃ darśayati prakāśam bo.a.1.5; saudāmanī bo.pa.5; vidyullatā — tadyathā mahāmate vidyullatā kṣaṇabhaṅgadṛṣṭanaṣṭadarśanaṃ punarbālānāṃ khyāyate la.a.99ka/46; vidyudunmeṣaḥ — vidyudunmeṣaprāyatvāt atikṛśam bo.pa.6. 2.\n\n• vi. śātahradaḥ — {sprin gyi nang na glog 'gyu me 'bar bzhin} śātahradaṃ vahnimivābhrakakṣe jā.mā.306/178.51{glog 'phro ba/}
+36<term> vidyutā37<term> vidyutā (Skt: vidyutā): A female vidyut, a class of nonhuman beings associated with lightning. (Original glossary entry: https://84000.co/glossary/entity-47367.html)39<term> vidyutā
+42āśuvidyutsadṛśa
+9electric hoe
+8tram car9electric train/ trolley/ machinery/ motor
+41(phys) spintronics {glog rdul 'khar rgyug la brten nas spel ba'i khab len dang glag nus khyab ra'i skar gyi tshan rig}
+8tram car station
+9electric conductivity
+9electrify [house etc.]
+41(phys) electrolyte {glag brgyud khrid byed mkhan gyi rlan gsher zhig ste/rlan gsher de'i nang gyes rdul pha mo gang rung gnas yad pa'i rkyen gyis glag brgyud khrid byed kyi yod/}
+9electric
+9generator
+9electric motor/ machinery
+9electric motor/ machinery factory
+9electric motor/ machinery
+9electric motor/ machinery factory
+9electric train
+9electric sewing machine
+9lightning
+8electrocution
+9[be] lightning, flash
+2lightening, to flash; lightning8lightning, flash, rapid motion of lightning9[be] lightning, flash43taḍillatā — imā muhūrtanartakyaḥ kālameghataḍillatāḥ a.ka.3.145.55{drag char 'bab skabs bar snang du 'od chen po 'khyug pa de/}56[sound:1-370a.mp3]\n{glog 'khyug pa} To flash of lightning\nSyllables: {glog} = light, as in: {glog klad/} = computer.\n-----\nExample: [sound:1-370c.mp3]\n {nam mkha' la glog 'khyug gi red/}  There is a lightning in the sky.
+36<term> lightning wielder37<term> lightning wielder: A class of vidyādharas. (Original glossary entry: https://84000.co/glossary/entity-29612.html)
+8lightning
+8lightning
+9light of lightning26{glog gi 'od mdangs/}36<person> Flash of Lightning, Flashing Light, Vidyutprabha36<place> Lightning Flash37<person> Flash of Lightning: Son of the buddha Sujāta. (Original glossary entry: https://84000.co/glossary/entity-21703.html)37<place> Lightning Flash: Birthplace of the buddha Candrodgata. (Original glossary entry: https://84000.co/glossary/entity-28019.html)37<person> Vidyutprabha (Skt: vidyutprabha): \n1) A mountain king.\n2) A nāga king.\n\n(Original glossary entry: https://84000.co/glossary/entity-44058.html)37<person> Flashing Light: Foremost in terms of miraculous abilities among the followers of the buddha Amitābha. (Original glossary entry: https://84000.co/glossary/entity-21706.html)39<person> vidyutprabha42vidyutprabha43= {glog gi 'od/}52(Skt. Vidyutprabha) thunder light55{glog gi 'od mdangs/}
+81 of lha'i smad 'tshong ma
+36<person> Mahāvidyujjvāla37<person> Mahāvidyujjvāla (Skt: mahāvidyujjvāla): A nāga king present in the assembly of the Buddha Śākyamuni. (Original glossary entry: https://84000.co/glossary/entity-36008.html)39<person> mahāvidyujjvāla
+36<person> Flashing Splendor37<person> Flashing Splendor: Foremost in terms of insight among the followers of the buddha Jyotiṣprabha. (Original glossary entry: https://84000.co/glossary/entity-21709.html)
+36<person> Flashing Light37<person> Flashing Light: Mother of the buddha Sañjayin. (Original glossary entry: https://84000.co/glossary/entity-21705.html)43nā. vidyutprabhā, patradevī vi.pra.132kha/3.64; = {glog ma} vidyut \n
+36<person> King of the Tip of the Flash of Lightning37<person> King of the Tip of the Flash of Lightning: Name of the thus-gone one of the world system Flash of Lightning. Likely an alternate name for the thus-gone one King of the Tip of the Lamp of Lightning. (Original glossary entry: https://84000.co/glossary/entity-17389.html)
+8telegraph, telegram, cable, telegram9[radio-]telegram, cable, wire [message]26{kha par ram glog 'phrin nam/ skud med glog 'phrin gyi sgrig chas gang rung zhig gi thog nas skyel ba'i gtam mam gsar 'gyur/}51{glog gi 'phrin yig ste/ phyi rgyal bas }e-mail {I mA+el zer ba de'o/ /}55{kha par ram glog 'phrin nam/} {skud med glog 'phrin gyi sgrig chas gang rung zhig gi thog nas skyel ba'i gtam mam gsar 'gyur/}
+9[radio-]telegram, cable, wire [message] equipment
+55{brnyan 'phrin dang skad sgam brgyud nas btang ba'i gsar 'gyur/}
+9telegraph receiver/ transmitter
+9telegraphed/ wireless news
+9[radio-]telegram, cable, wire [message] equipment
+8radio station9telegraph office, broadcasting station
+9[radio-]telegram sent to many places
+9send [radio-]telegram to many places
+9telegraph operator
+9telegraphing money, telegraphed money order
+8telegraph
+9electric machine41(phys) electric motor {glag 'phrul yo chas shig ste/des glag gi nus pa gang zhig 'phrul 'khar gyi nus par brje bsgyur byed pa'i glog gis drangs pa'i 'phrul chas shig}
+9electro-therapy
+55{glog skud khrid pa'am 'then pa/} {thag pa bran pa bzhin/}
+41(mech) transmitter {skad sgra rnams glag rdul gyi brda'i rnam par sgyur byed kyi kha par ma lag gi lhu lag cig}
+9conduct electricity
+8movie; film, movie, cinema, movie, movies9movie55{deng rabs ltad mo'i rigs kyi ming ste/} {lo rgyus dang gtam rgyud sogs rtse rigs sna tshogs brnyan thag thog phab pa de dag 'phrul 'khor brgyud nas khrom la ston yas kyi ltad mo'i ming yin/} {rgya skad du}电影{zer/}
+9act in movies
+9movie script
+9movie industry
+9feature film
+9movies
+9make movies
+9movies
+9make movies
+41(lit) scenario {glog brnyan gyi 'khrab gzhung sogs kyi nang don zhib cha min par snying bsdus shig bris pa/}
+9movie projector
+9movie theater
+9movie theater
+8cinema, movie house9movie theater55{glog brnyan blta sa/}56[sound:1-296a.mp3]\n{glog brnyan khang } Cinema (Other meanings: Movie hall.)\nSyllables: {glog brnyan/} = movie - {glog} = light, electricity; {brnyan/} = image, replica as in: {gzugs brnyan/} = reflection - ; {khang /} = house, building.\n-----\nExample: [sound:1-296c.mp3]\n {nga gnyis mi mnyam du glog brnyan khang la phyin pa yin/}  The two of us went to the movies with [some other] folks.
+9film studio
+9movie film
+9movie film developing and printing factory
+9show movies
+9movie projector
+9movie projector
+9movie theater
+41(theatr) projectionist {ltad ma khang du glag brnyan ston byed 'phrul 'khor bkol spyod kyis snang brnyan dang /sgra gdangs kyi spus ka'i thad lta rtog 'gan khur yod pa'i gang zag}
+9movie theater
+9electro-therapy
+31power off55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power off {zer/}
+9electric
+9electric motor/ machine
+9electric fan
+9electric power transmission
+57[sound:2-170a.mp3]\n{glog bsod pa} To switch off the light\nSyllables: {glog} = electricity, as in: {glog klad/} = computer; {bsod pa/} = to kill.\n-----\nExample: [sound:2-170c.mp3]\n {mi cig gnyid khug bsdad yod na glog gsod dgos red/}  If one person sleeps, one has to switch off the light.
+31power save mode55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power save mode {zer/}
+9produced electric power
+36<person> Giver of Lightning37<person> Giver of Lightning: Mother of the buddha Oṣadhi. (Original glossary entry: https://84000.co/glossary/entity-22127.html)
+41(phys) busbar {glag rgyun 'khar rgyug gi ma lag cig gi nang yod pa'i glag lam tha dad pa phan tshun dbar glog rgyun shugs tshad mtho ba rnams skyel 'dren byed pa'i glog gi brgyud 'khrid dngas rdzas shig}
+9electric sgron me. electric light26{glog gi nus par brten nas 'od 'byin pa'i sgron me/}55{glog gi nus par brten nas 'od 'byin pa'i sgron me/}
+9electric industry
+9electric industry worker, electrician
+43= {sprin} taḍitvān, meghaḥ a.ko.1.3.7; mi.ko.143kha \n
+9electric appliances
+36<person> Light Beam of Great Lightning37<person> Light Beam of Great Lightning: The name of a bodhisattva in the Buddha's audience. (Original glossary entry: https://84000.co/glossary/entity-10211.html)
+9electric insulation, insulated
+9vulcanized/ insulated sheet metal
+9insulating bushings
+9insulating paper
+23sāvartam
+42* vidyudghaṭasādharmyeṇa
+36<person> Possessor of Lightning37<person> Possessor of Lightning: Attendant of the buddha Pratibhānakūṭa. (Original glossary entry: https://84000.co/glossary/entity-24875.html)
+42vidyudākāśādi
+31read electronic book55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }read electronic book {zer/}
+9red lightning .Drag char 'bab pa'i rtags su glog chem chem g.yo26{glog gi kha dog 'brug sgra ma bsgrags gong du glog dmar 'khyug drag char 'bab pa'i rtags su glog dmar chem chem g.yo/}55{glog gi kha dog} {'brug sgra ma bsgrags gong du glog dmar 'khyug} {drag char 'bab pa'i rtags su glog dmar chem chem g.yo/}
+55{sman khang du rus pa'i gas skyon sogs brtag dpyad byed yas}X{'od kyi 'phrul chas/}
+55{glog shugs kyi ma lag phyogs bzhi mtshams brgyad la dra ba bzhin 'dren pa'i sgrig gzhi/}
+9electric bell/ buzzer
+9KW hour
+55{glog shugs kyis tsha mo bya ba'i gdan zhig} {dgun kar glog gdan spyad na nyal dus dron mo 'dug}
+8electric
+9refrigerator
+9flash of lightning36<person> Flash of Light, Vidyutprabha, Flash of Lightning36<place> Flash of Lightning, Vidyutprabha36<term> lightning light, vidyutprabha37<person> Flash of Lightning: A buddha from the past. (Original glossary entry: https://84000.co/glossary/entity-28891.html)37<place> Flash of Lightning: A name given in this sūtra to a storied mansion. (Original glossary entry: https://84000.co/glossary/entity-46147.html)37<person> Vidyutprabha (Skt: vidyutprabha): The 128th buddha in the first list, 128th in the second list, and 129th in the third list. (Original glossary entry: https://84000.co/glossary/entity-27048.html)37<place> Flash of Lightning: Name of the world system of the thus-gone one King of the Tip of the Lamp of Lightning. (Original glossary entry: https://84000.co/glossary/entity-17329.html)\n\nSynonym: {glog snang}37<term> lightning light, vidyutprabha (Skt: vidyutprabha): \n1) The 108th meditative stability in chapters 6 and 8.\n2) Lit. “lightning flash.” Name of a meditative stabilization.\n\n(Original glossary entry: https://84000.co/glossary/entity-41215.html)37<place> Vidyutprabha (Skt: vidyutprabha): “Light of Lightning.” Name of the universe where, according to the Buddha Śākyamuni's prophecy, the girl Vimalaśraddhā will finally reach full enlightenment under the name of the Thus-Gone One Raśmivyūha. (Original glossary entry: https://84000.co/glossary/entity-19143.html)38Synonym: {glog snang}39<place> vidyutprabha39<term> vidyutprabha421) vidyutprabha 2) suryavidyutprabha431. saudāmanī, vidyut — saudāmanyā kanakanikaṣasnigdhayā darśayorvīm me.dū. 344kha/1.41. 2. vidyutprabhaḥ, samādhiviśeṣaḥ — {glog gi 'od ces bya ba'i ting nge 'dzin} vidyutprabho nāma samādhiḥ ma.vyu.612. 3. (nā.) vidyutprabhā, nāgakanyā — anekāni ca nāgakanyāśatasahasrāṇi sannipatitāni \n tadyathā… vidyutprabhā nāma nāgakanyā kā.vyū.201kha/259.45Sanskrit: Vidyutprabhā <Personal Name>\n\n\nTibetan renderings of Vidyutprabhā: {glog gi 'od/}\n\nn. of a nāga maid: Kv\n 4.1.\n\nSee the full entry at:https://www.itlr.net/hwid:82788952(Skt. Vidyutprabha) light of thunder
+23vidyutprabho nāma samādhiḥ42vidyutprabho nāma samādhi52(Skt. vidyutprabho nāma samādhiḥ) deep meditation on the flash of lightning
+23mahāvidyutprabhaḥ42mahāvidyutprabha43nā. mahāvidyutprabhaḥ, nāgaḥ ma.vyu.3317.52(Skt. mahāvidyutprabhaḥ) a great flash of lightning
+36<person> Flashing Radiance37<person> Flashing Radiance: Buddha in the presence of whom the buddha Prabhāsthitakalpa (415 according to the third enumeration) first gave rise to the mind of awakening. (Original glossary entry: https://84000.co/glossary/entity-21708.html)
+9electric motor/ machine
+36<person> Intelligent Lightning, Vidyunmati37<person> Intelligent Lightning, Vidyunmati (Skt: vidyunmati): \n1) A bodhisattva in the Buddha's retinue.\n2) A bodhisattva in the retinue of the Buddha.\n\n(Original glossary entry: https://84000.co/glossary/entity-33286.html)39<person> vidyunmati
+9electric fan
+36<person> Vidyuddatta37<person> Vidyuddatta (Skt: vidyuddatta): A king in a kalpa in the distant past. (Original glossary entry: https://84000.co/glossary/entity-31769.html)39<person> vidyuddatta
+9electrician, electrical worker
+9electric clock/ watch
+9electric clock/ watch
+41(phys) electric field line {gal te tshod lta'i pho rdul zhig glog shugs khyab ra'i nang bzhag na/de'i kha phyags gang du 'gro ba ston par byed/}
+43vidyujjihvaḥ — krodhāgnidhūmanivahariva tasya ghanodgamaiḥ \n vidyujjihrairakampanta diśaḥ saṃtrāsitā iva a.ka.56.15.
+37<person> Vidyuddeva (Skt: vidyuddeva): A bodhisattva who is a prince in this sūtra predicted to be the future buddha Ketu, and is attested in the Vimalakīrtinirdeśa. (Original glossary entry: https://84000.co/glossary/entity-7083.html)\n\nSynonym: {glog gi lha zhes}38Synonym: {glog gi lha zhes}
+36<person> Vidyuddeva37<person> Vidyuddeva (Skt: vidyuddeva): A bodhisatva great being. (Original glossary entry: https://84000.co/glossary/entity-7083.html)\n\nSynonym: {glog gi lha}38Synonym: {glog gi lha}39<person> vidyuddeva
+36<person> Supreme Lightning37<person> Supreme Lightning: Name of a bodhisattva. (Original glossary entry: https://84000.co/glossary/entity-46123.html)
+8battery43vidyudagniḥ, dakṣiṇāgniḥ — iha śarīre dakṣiṇāgnirgārhapatyamāhavanīyo'gnitrayam \n yathāsaṃkhyaṃ hṛtpadme dhanvākāre paviḥ vidyudagniḥ vi.pra.235kha/2.36.
+43nā. vidyullocanā, nāgakanyā — anekāni ca nāgakanyāśatasahasrāṇi sannipatitāni \n tadyathā… vidyullocanā nāma nāgakanyā kā.vyū. 201kha/259; dra. {glog gi spyan/}45Sanskrit: Vidyullocanā <Personal Name>\n\n\nTibetan renderings of Vidyullocanā: {glog gi mig/}\n\nn. of a nāga maid: Kv\n 3.24.\n\nSee the full entry at:https://www.itlr.net/hwid:827902
+36<place> Forest of Fiery Mist37<place> Forest of Fiery Mist (Skt: abhrāgninīhāravana): One of sixteen realms that surround the Howling Hell. (Original glossary entry: https://84000.co/glossary/entity-30182.html)39<place> abhrāgninīhāravana
+41(phys) electric potential {glag nus khyab ra gang zhig gis glag zungs g.yo 'gul byed par mkha ba'i las rtsal gyi tshad/}
+36<person> Vidyunmālin37<person> Vidyunmālin (Skt: vidyunmālin): A nāga king present in the assembly of the Buddha Śākyamuni. (Original glossary entry: https://84000.co/glossary/entity-35950.html)\n\nSynonym: {glog gi phreng ba}38Synonym: {glog gi phreng ba}39<person> vidyunmālin43= {glog gi phreng ba/}
+8string of lightning, aurora borealis, name of a country36<person> Garland of Lightning36<place> Garlands of Lightning37<person> Garland of Lightning: A nāga who visits Saṅkāśa Mountain. (Original glossary entry: https://84000.co/glossary/entity-35950.html)\n\nSynonym: {glog gi phreng}38Synonym: {glog gi phreng}43vidyunmālā — {glog gi phreng bar bcas} vidyunmālī sa.pu.48kha/86; vidyullatā — vidyullatākalāpā iva gaganatale lambamānāḥ ga.vyū.77kha/169.
+43vi. vidyunmālī — so ca vārisya saṃpūrṇo vidyunmālī mahāmbudaḥ sa.pu.48kha/86.
+43nā. vidyunmālinī ba.vi.169kha \n
+36<person> Mass of Lightning37<person> Mass of Lightning: Name of a bodhisattva. (Original glossary entry: https://84000.co/glossary/entity-46098.html)
+5(PH) lightning-like
+9electric switch
+36<term> vidutpradīpa, lightning lamp, vidyutpradīpa37<term> lightning lamp, vidyutpradīpa (Skt: vidyutpradīpa): \n1) The 42nd meditative stability in chapters 6 and 8.\n2) Lit. “lightning lamp.” Name of a meditative stabilization.\n\n(Original glossary entry: https://84000.co/glossary/entity-41214.html)39<term> vidutpradīpa, vidyutpradīpa43nā. 1. vidyutpradīpaḥ, tathāgataḥ — vidyutpradīpo nāma tathāgato yatra yaśasā tathāgatena prathamaṃ bodhicittamutpāditaṃ daśikāṃ dattvā tantra(ntu)vāyabhūtena śi.sa.7kha/8 2. samādhiviśeṣaḥ — {glog gi sgron ma zhes bya ba'i ting nge 'dzin} vidyutpradīpo nāma samādhiḥ ma.vyu.546.
+36<person> King of the Tip of the Lamp of Lightning37<person> King of the Tip of the Lamp of Lightning: Name of the thus-gone one of the world system Flash of Lightning. (Original glossary entry: https://84000.co/glossary/entity-17390.html)
+23vidyutpradīpo nāma samādhiḥ42vidyutpradīpo nāma samādhi52(Skt. vidyut-pradīpo nāma samādhiḥ) deep meditation on the great lamp of lightning
+41(phys) volt {glag lam gyi gnas gang zhig tu glag shugs kyi tshad 'jal ba'i rtsi gzhi/}
+9phonograph
+9electric saw
+43vidyullocanaḥ, samādhiviśeṣaḥ — avalokiteśvaraḥ anekaiḥ samādhiśataiḥ samanvāgataḥ \n tadyathā… vidyullocano nāma samādhiḥ kā.vyū. 244ka/305; dra. {glog gi mig}
+36<person> Vidyutketu37<person> Vidyutketu (Skt: vidyutketu): The 254th buddha in the first list, 253rd in the second list, and 253rd in the third list. (Original glossary entry: https://84000.co/glossary/entity-27047.html)39<person> vidyutketu42vidyutketu43vidyutketuḥ lo.ko.402.52(Skt. Vidyutketu) with a crest ornament of lightening52crest ornament of lightening
+36<person> Given by Lightning37<person> Given by Lightning: Father of the buddha Dyutimat. (Original glossary entry: https://84000.co/glossary/entity-22099.html)
+43nā. vidyuddattaḥ, nṛpaḥ — atīte'dhvani vimalaprabhe kalpe pralambabāhurnāma tathāgato loke udapādi \n ahaṃ ca rājño vidyuddattasyaikā duhitā abhūvam ga.vyū.39ka/133.
+9voltage
+9voltage meter
+9voltage meter
+9electric plow
+9battery
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }charging {zer/}
+31charging
+9electric drill
+8electrify43= {glog 'byin pa} vidyotanam — ye jvalanatapanavidyotanavarṣaṇaprātihāryāṇi kurvanti kā.vyū.240ka/302.
+55{glog 'khyud yod pa'i rkub stegs steng btson pa bzhag nas rtsad 'dri byed thabs kyi khrims gcad gtong thabs shig}
+8lightning with flash
+41(phys) electrolysis {mdzes chos dang sman bcos kyi dgas 'dun sogs kyi ched du glag rgyun bed spyad de lus kyi ba spu dang /sme ba/mdzer pa/skran sogs med pa bza thabs/}
+59electromagnetic\nMetrics: lok khaplen
+41(phys) electromagnetic radiation {glog shugs khab len gyi rlabs kyi rnam par gnas pa'i 'gyed 'phra/'gyed 'phra de la khab len dang glag gi khyab ra yad cing /'di gnyis rgyud gtang bya yul gyi kha phyags su phan tshun drang zur dbyibs can/} ({zur gug 90}) {yin zhing brgyud lam gyi rags skyar gang yang med par skyad kyi yod/}
+41(phys) electromagnetic force {glog nus dang khab len gyi khyab ra la brten nas byung ba'i zungs ldan gyi rdul phan tshun dbar gyi 'thab sbyor zhigade'i nus stobs ni drag pa'i 'thab sbyor las ldab brgya yis zhan pa yod/}41(phys) electromagnetic interaction {glog nus dang khab len gyi khyab ra la brten nas byung ba'i zungs ldan gyi rdul phan tshun dbar gyi 'thab sbyor zhigade'i nus stobs ni drag pa'i 'thab sbyor las ldab brgya yis zhan pa yod/}
+41(phys) electromagnetic induction {glog lam phan tshun sbrel byed khab len khyab ra'i nang 'pho 'gyur byung ba'i stabs kyis glog lam gcig nas gzhan du glag shugs 'pho tshul/}
+41(phys) electromagnetic field {'gul skyod can gyi glog zungs dang lhan du 'grogs pa'i glog dang khab len gyi nus pa'i khyab ra'i gnas shig ste/khyab ra de gnyis phan tshun la ltos pa'i khug zur 90can la than spel byed do/}
+41(phys) electromagnetic wave {glog shugs khab len gyi nus pa'i rlabs/}
+41(phys) electromagnetic force {glog zungs ldan pa'i rdul gyi 'thab sbyor dang /de dag gi glag dang khab len gyi khyab ras rkyen byas pa las byung ba'i shugs/}59electromagnetic force
+9generator building, electric power plant26{glog 'don sa'i 'phrul 'khor khang/}55{glog 'don sa'i 'khrul 'khor khang /}
+31power55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power {zer/}
+31power meter55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power meter {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power switch adapter {zer/}
+31power switch adapter
+31power management55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power management {zer/}
+31power mode55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power mode {zer/}
+31power switch failure55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power switch failure {zer/}
+31power buttons55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power buttons {zer/}
+31plugged in55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }plugged in {zer/}
+31power status55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power status {zer/}
+31power configurator
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }power configurator {zer/}
+9electric shovel
+32{glog rdul gyis steng 'dzin byed pa'i 'a phru la 'khor ste/ brda 'phrin gsog 'jog dang 'tshol bsdu/ bkod sgrig bcas byed thub pa ma zad/ brgyud rim ldan pa'i ngang nas 'phrul 'khor phan tshun steng 'dzin yang byed nus pa'i 'phrul 'khor la zer/ dbyin skad du kham pi Tar zer/}51{phyi rgyal bas kam pu'i krar zhes pa de'o/ /}computer{'di la bsgyur mi 'dra ba } “{rtsis 'khor}” {dang / 'phrul rtsis/ glog klad/ phra rtsis bcas yod pa las/ glog klad ces pa phyi rgyal bas }memory {zer ba de'i ming du byas nas shin tu 'tsham par snang yang / deng sang ni bod mi mang che bas kam pu'i krar la glog klad ces pa'i tha snyad 'di nyid shugs che shos su bed spyod byed par snang ngo / /}55{deng rabs 'tsho ba'i yo byad cig ste/} {dbyin skad du}computer{zer/}56[sound:1-65a.mp3]\n{glog klad} Computer (Other meanings: PC.)\nSyllables: {glog} = electricity, light; {klad/} = {klad pa/} = brain.\n-----\nExample: [sound:1-65c.mp3]\n {nga la glog klad yag po gcig yod/}  I have a good computer.
+42vidyudādi
+31circuits41(phys) electric circuit {kaHglog rgyun rgyug pa'am rgyug srid pa'i mthud mtshams can gyi rgyu lam zhigakhaHglag lam gyis sbrel ba'i 'phrul chas ma lag}55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }circuits {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }line code {zer/}
+31circuit switching55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }circuit switching {zer/}
+31line code
+9electric industry
+9become electrified
+9school of electrical engineering
+9become electrified
+36<person> Lightning Tongue37<person> Lightning Tongue: A nāga king. (Original glossary entry: https://84000.co/glossary/entity-44059.html)
+81 of srin mo'i gtso mo
+8cloud, full of lightning, flashed cloud9{met} cloud26{{mngon} sprin pa/}36<person> Endowed with Lightning37<person> Endowed with Lightning: Son of the buddha Arthavādin. (Original glossary entry: https://84000.co/glossary/entity-20844.html)42taḍitvat43= {sprin} taḍitvān, meghaḥ ṅa.ko.53; = {glog can/}55〔{mngon}〕{sprin pa/}
+45Sanskrit: vidyutvat <Word/Term/Phrase>\n\n\nTibetan renderings of vidyutvat: {glog ldan te sprin no///}\n\nmfn. containing or charged with l° (a cloud), MBh.; Megh. …  m. a thunder-cloud, Kum.\n\nSee the full entry at:https://www.itlr.net/hwid:898777
+36<person> Vidyutdeva39<person> vidyutdeva
+0lightning-like meditative stabilization16[C]vidyutopama21{gzung/ 'dzin/ bzung/ zungs/}36<term> meditative stabilization like a flash of lightning37<term> meditative stabilization like a flash of lightning (Skt: vidyutopamasamādhi): Name of a meditative stabilization. (Original glossary entry: https://84000.co/glossary/entity-37916.html)39<term> vidyutopamasamādhi
+36<person> Vidyutkarālī37<person> Vidyutkarālī (Skt: vidyutkarālī): ‟One with Flashing Fangs,” one of the eight demonesses who inhabit the eight great charnel grounds. (Original glossary entry: https://84000.co/glossary/entity-13093.html)39<person> vidyutkarālī
+2flashing like lightening9flash like lightening
+8move rapidly like the flash of lightning
+36<person> Lightning Gaze37<person> Lightning Gaze: A bodhisattva in the retinue of the Buddha Śākyamuni. (Original glossary entry: https://84000.co/glossary/entity-32247.html)
+9electro-typing
+9make an electrotype
+43nā. vidyut, patradevī — brāhmaṇyāḥ pūrvapatrādau sāvitrī, padmanetrā, jalajavatī, buddhiḥ, vāgīśvarī, gāyatrī, vidyut, smṛtiḥ vi.pra.41kha/4.32.
+36<person> Lightning Worship37<person> Lightning Worship: Mother of the buddha Vidyutketu. (Original glossary entry: https://84000.co/glossary/entity-23708.html)
+36<person> Supreme Lightning37<person> Supreme Lightning: Foremost in terms of miraculous abilities among the followers of the buddha Kusumaparvata. (Original glossary entry: https://84000.co/glossary/entity-26435.html)
+41(phys) electroluminescence {dngas rdzas shig dang glag nus khyab ra 'phrad pa las 'od 'phra tshul/}
+8lightning of beautiful strings or zig-zags
+55{glog rdo'i shugs kyis gsal ba'i lag khyer sgron me zhig}
+9electric socket
+9non conductor
+9electric energy41(phys) electrical energy {brgyud khrid dngas rdzas shig gi nang glag zungs rgyug pa las thab pa'i nus pa/}
+41(phys) electric field {glog zungs kyis bskrun pa'i nus pa zhig yod pa'i rnam pa can gyi sa khul/}
+2lightning8large ulcer or sore, silver9lightning; lightning, electricity, a skin disease23rajatam24rajas26{pags nad cig}32{pags nad kyi rigs shig ste/ glog shu yang zer/ (glog shun) glog pa'i nad kyi dbang gis lus kyi phyi shun srab mo phub ma lta bu byung ba de'i ming /}36<term> welts37<term> welts (Skt: rajata): Symptom that may be evidence of an illness considered an impediment to ordination. (Original glossary entry: https://84000.co/glossary/entity-3975.html)39<term> rajata421 )+rūṣikā 2) rajata431. rajatam, vyādhiviśeṣaḥ ma.vyu.9540; arūṣikā lo.ko.403; {pags nad kyi rigs shig} da.ko.133; {pags nad cig} bo.ko.433. 2. rajaḥ — tatrādhyātmamupādāya \n tadyathā — keśā romāṇi nakhā dantā rajo malam… śrā.bhū./203.45Sanskrit: rajas <Word/Term/Phrase>\n\n\nTibetan renderings of rajas: {glog pa/}\n\nEnglish: impurity i.e. the menstrual discharge of a woman, blood\nIn the context of Buddhist Tantric ritual, a word for blood.\nOne of the (bodily) impure substances.\n\nSee the full entry at:https://www.itlr.net/hwid:18426852(Skt. rajataṁ) an ulcer sore55{pags nad cig}
+8disease not found in medical works but mentioned in grammar
+8x-ray9x-rays, movie41(phys) x-ray {'od zer phra ma'i nus pa la brten nas lus pa'i nang gi cha shas lta bu sags kyi phyi gsal nang gsal gyi par rgyag rgyu'i nus pa zhig}55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }filmstrip {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }filmstrip {zer/}
+9movie theater
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }filmstrip view {zer/}
+8x-ray
+9x-ray
+43vidyullatā — vidyullatodbhāsuralolajihvā jā.mā.161/93; dra. {glog 'gyu ba/}
+36<person> Lightning Garland, Vidyunmālinī37<person> Vidyunmālinī (Skt: vidyunmālinī): A goddess. (Original glossary entry: https://84000.co/glossary/entity-43660.html)37<person> Lightning Garland: A Licchavi youth present in the assembly of the Buddha Śākyamuni. (Original glossary entry: https://84000.co/glossary/entity-35405.html)39<person> vidyunmālinī
+9[calcium] carbide55{glog gsogs yod pa'am glog gsogs rung ba'i glog ldan pa'i yo byad rdo ltar sra la ljid pa zhig}
+9electron[ic]41(phys) electron {leb Tan khyim tshang du gtags pa'i g.yo med kyi gdos tshad g+ha ram 9 107}x{10}-{28dang rob rtsis ltar na glog zungs khu lom }-{1 602}x{10}-{19can gyi brtan pa'i rmang gzhi'i phra rdul/}
+9electronic computer
+31electronic publishing55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electronic publishing {zer/}
+31electronic book55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electronic book {zer/}
+9electron microscope
+31electronic data interchange55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electronic data interchange {zer/}
+31spreadsheet55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }spreadsheet {zer/}
+31spreadsheet program
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }spreadsheet program {zer/}
+9electronics
+9electronic computer
+41(phys) electron tube {kha bkag pa'i shel snod kyi nang du rlangs gzugs sam yang na stang sangs gang rung 'dus pa'i ya chas shig ste/de'i nang glag rdul rnams glag sne phan tshun dbar rgyu thub kyi yod/}
+9electronic/ vacuum tube
+41(phys) synchrotron {phra rdul myur tshad spar chas shig ste/de'i nang 'ad kyi myur tshad dang nye ba'i zungs ldan phra rdul rnams stabs shugs che ba'i khab len gyis/sbubs stong sgor mo zhig la bskor nas 'khrid 'jug byas te glog rdul snyom sgrig yo chas 'gyed 'phra spel skrun byed pa yin/}
+41(phys) electron cloud {glog rdul zhig gi lte nying gi mtha' skor du 'khar skyad byed bzhin pa'i glog rdul gyi sde khag cig}
+31electronic document interchange55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electronic document interchange {zer/}
+31electronic archive55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electronic archive {zer/}
+55〔{a mdo}〕{chu tsha mo mi 'khyag par byed pa'i tsha dem/} {glog dem yang zer/}
+9battery55{glog 'od 'bar byed kyi rdzas te/} {lag bzhug sogs kyi nang du blug bya/} {dbyin skad du }battery {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }battery-powered calator {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }critical battery alarm {zer/}

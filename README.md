@@ -123,7 +123,7 @@ python3 -m http.server 8000
 
 ### 词典栏目
 
-页头的“词典”栏目里有满汉、蒙汉、满汉蒙、清文鉴四部词典，数据来自栗林均词典。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`。
+页头的“词典”栏目里有满汉、蒙汉、满汉蒙、清文鉴、藏文五部词典。前四部数据来自栗林均词典，藏文词典数据来自 [Christian Steinert 藏文词典](https://github.com/christiansteinert/tibetan-dictionary)（各词典版权属于原作者）。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`、`#dict-tibetan`。
 
 ```
 js/dict/dictionaries.js   各部词典的设置（显示什么、怎样排）
@@ -145,6 +145,15 @@ python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manh
 ```
 
 然后把 `js/dict/dictionaries.js` 开头 `VER` 的日期改新再上传。词库要通过网址读取，双击打开 `index.html` 时词典会提示载入失败，请用“本地预览”的方法打开。
+
+藏文词典另有一个脚本。它收词约三十五万，释义分成数百份小文件（`dict/data/tibetan/`），网页只读当前一页结果用得到的几份；“英文反查”用 `dict/data/tibetan.en.txt`。更新时先把 Steinert 的仓库下载下来，再运行（需要装有 node）：
+
+```
+git clone --depth 1 https://github.com/christiansteinert/tibetan-dictionary /tmp/tibdict
+python3 dict/tools/build_tibetan.py /tmp/tibdict
+```
+
+它同时生成 `js/dict/tibetan-dicts.js`（各部词典的名称和出处）。只有页码、没有文字的扫描本词典不收。
 
 `dict/` 里的三个 HTML 只是把旧链接转到词典栏目，不必改动。
 

@@ -1,0 +1,600 @@
+9make preparations/ arrangements
+8uniform9uniform; 1) parts and equipment [connected w machines, houses etc]; 2) uniform26{'phrul 'khor dang khang pa sogs kyi yan lag tu gyur pa'i dngos chas/}31device41(adm) uniform {slob grwa'i khrod slob phrug gam las ka bye brag pa'i tshogs pa lta bu/yang na sgrig 'dzugs shig gi khongs mi rnams kyi cha mtshungs kyi gyon chas dmigs bsal zhig }55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device {zer/}57[sound:2-193a.mp3]\n{sgrig chas} Uniform\nSyllables: {sgrig} = to organize, arrange, as in: {gra sgrig byed pa/} = to plan, to prepare; {chas/} = tool, thing, as in: = {za chas/} foodstuff, {nyal chas/} = bed sheets, {snod chas/} = vessels, pots.\n-----\nExample: [sound:2-193c.mp3]\n {ngas byas na slob grwa'i sgrig chas de tsho dpe mi srid pa'i snying rje bo 'dug}  If you ask me, I think the school uniforms are very nice!
+31intermediate equipment55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }intermediate equipment {zer/}
+31device space55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device space {zer/}
+31device administration55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device administration {zer/}
+31device manager55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device manager {zer/}
+31device coordinate55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device coordinate {zer/}
+9be in uniform
+31equipment technology55{'phrul 'khor dang khang pa sogs kyi yan lag tu gyur pa'i dngos chas/} {dbyin skad du }equipment technology {zer/}
+31add device wizard55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }add device wizard {zer/}
+31device name55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device name {zer/}
+31device type55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device type {zer/}
+31device setup55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device setup {zer/}
+31device transformation55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device transformation {zer/}
+31device drivers
+31add device55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du zer/}
+91) supply/ install parts and equipment [R], equip; 2) be in uniform
+31device control character55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }device control character {zer/}
+2liturgical text outlining the proper method of practicing rites and meditative precepts
+31complex language
+10A mammal. See Sandberg, Tibet 295.
+31handle
+31processing
+31modes of processing
+31operating methods
+31processor; processing unit
+31processor buffer
+31processor time
+31central processing unit
+31processor bits
+31processor speed
+31processor core
+31processor external frequency
+31multiprocessing
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }multiprocessing {zer/}
+41(adm,pol) cadre {sgrig 'dzugs che ba zhig gi bkod sgrig la nges par mkho ba'i sbyong brdar can gyi mi cha/}
+8erecting for exhibition, displaying, showing41(com) show-case {skye ba'i nus rtsal lam dngas pa'i spus tshad rnams mang tshogs la gsham ston byed pa'i rnam pa zhig}
+41(com) show-room {dmigs bsal mo Ta dang glog chas lta bu tshong zog rigs mang tshogs kyi mthang sar gsham ston byed sa'i tshong khang chen pa zhig}
+9display stand
+8structure, way something is organized, composition9construction, structure, composition31infrastructure41(adm) code {spyi tshogs kyis ngas len dang /lag bstar byed par thag chod pa'i blang dor gyi sgrig khrims dang bca' yig lta bu/}55{las khungs dang sde tshan sogs chags tshul gzhi rten gyi spyi ming /} {dbyin skad du }infrastructure {zer/}
+31structural description55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }structural description {zer/}
+9[exponent of] the theory of structural reform
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }remove infrastructure {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }structured programming {zer/}
+31structured program
+31structured programming
+31structured design
+31structured walk-through55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }structured walk-through {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }stuctured design {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }structured program {zer/}
+31remove infrastructure
+31structure chart55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }structure chart {zer/}
+9order, organization, class, rank[s]
+9joined the ranks of
+8discipline9discipline; [tradition of] discipline, discipline and law, law and order55{gang byung ci dgar byed mi chog pa'i lam lugs/}
+8disciplinarian
+9highly disciplined
+55{sgrig khrims gtan 'khel byas pa las 'gal ba'i nyes chad/}
+9disciplinary action/ measure
+9sense of discipline
+9lacking a sense of discipline
+9lacking a sense of discipline
+9lack of a sense of discipline
+9w/o regard for discipline
+9disregard discipline
+9observe/ respect discipline/ rules
+8defect in fixing gems10nyams zhan du song ba'am nang rul byung ba. Btsan-lha.48{nyams zhan du song ba'am nang rul byung ba'i don te/} 《{dag yig legs bshad tshig gter}》{las/ mu men gyi sgrig lad 'ga' zhig byung 'dug rung / zhes pa lta bu'o/ /}
+2order, discipline, custom, rules, regimen8order, rule, custom, arrangement, according to usage, discipline, etiquette, discipline, law and order9order, discipline, custom, rules, regimen; tradition[al]/ [according to the] rules, discipline, order. order, discipline, custom, rules, regimen10regimen, rules.55{thun mong gi 'tsho ba'i nang du tshang mas brtsi srung byed dgos pa'i bsrung bya'i lam lugs kyi ming ste/} {ngal rtsol gyi sgrig lam/} {bya ba'i sgrig lam zhes pa lta bu/}
+9strict discipline
+8discipline
+8strict
+9maintain discipline, follow orders, obey rules
+8setting
+31components55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }components {zer/}
+9tradition, code, rule, regulation
+9disorder, confusion, turmoil55{ya rabs med pa'am sgyid lug ngan pa la'ang go} {dper na/} {phru gu de tshos pha ma med shul la nang gi ca lag tshang ma gang byung du bkram nas thal rdzar ba rdzar bzos bzhag} {de 'dra'i sgrig med la ang /}
+9cause disorder/ confusion/ turmoil
+9editor, compiler
+9chief editor/ compiler
+2{sgrig pa, bsgrigs pa, bsgrig pa, sgrigs pa} trans. v.; to set in place/ up; to put, place2to adjust, correct, fix2to arrange8put, place, agree, arrange, put in order, adjust, fit together, join, construct, coordinate, fit, set9(tha dad pa bsgrigs pa, bsgrig pa, sgrigs,, 1) prepare, establish, put in order, place; 2) put together, unite, stick together * put, place10so sgrig pa; to grit the teeth.11to set in place/ up26{(tha dad pa) bsgrigs pa/ bsgrig pa/ sgrigs//}1) {gshom pa/ mi mang po star bsgrigs te phyin pa/ dmag dpung gi bkod pa gsar du bsgrigs pa/} 2) {sbyor ba/ snyan tshig kha 'thor ba rnams phyogs gcig tu bsgrigs pa/ shing kha bsgrigs pa/}31set55〔{tha dad pa}〕{bsgrigs pa/} {bsgrig pa/} {sgrigs/} (1) {gshom pa/} {mi mang po star bsgrigs te phyin pa/} {dmag dpung gi bkod pa gsar du bsgrigs pa/} (2) {sbyor ba/} {snyan tshig kha 'thor ba rnams phyogs gcig tu bsgrigs pa/} {shing kha bsgrigs pa/} {dbyin skad du }install {zer/}
+9composer, comp[iler, editor
+8fit
+55{'phrul 'khor dang khang pa sogs kyi yan lag tu gyur pa'i dngos chas/} {dbyin skad du }do not allow installation {zer/}
+55{'phrul 'khor dang khang pa sogs kyi yan lag tu gyur pa'i dngos chas/} {dbyin skad du }setup options {zer/}
+10regulation of (public) order, fundamentals of administration. (Aris thinks sgrig was first used for monastic administration, only later for public admin.). Sources.
+9prepare newly established things etc by phyogs bsdus [put together?],26{gsar 'gyur sogs phyogs bsdus kyis rtsom pa/ sgrig rtsom par skrun/}55{gsar 'gyur sogs phyogs bsdus kyis rtsom pa/} {sgrig rtsom par skrun/}
+9make preparations
+91) assembly, installation; 2) arrange/ produce and practice/ rehearse
+91) assemble, install, set up; 2) arrange/ produce and practice/ rehearse
+9assembly, installation31tile41(telecom,phys) modulation {rlung 'phrin rgyang sring nang khyer rlabs shig gi steng du dus mtshams kyi brda zhig gi thun min khyad chos bsnan pa'i brgyud rim zhig ste/de'i stabs kyis brda de'i nang 'dus pa'i gnas 'phrin de rlabs des rgyang sring byed thub pa yin/}55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }tile{zer/}
+9assemble, install
+31installed by55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }installed by {zer/}
+31compilation55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compilation {zer/}
+31compiler; compiling program55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compiler，compiling program {zer/}
+31compiler generator
+31compiler55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compiler {zer/}
+31compiler directive
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compiler compiler {zer/}
+31compiler compiler; metacompiler
+31compiler code
+31compile phase55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compile phase {zer/}
+31compilation duration55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compilation dulation {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compiler specification language {zer/}
+31compiler specification language
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compiler directive {zer/}
+31compilation unit55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }compilation unit {zer/}
+31compiled knowledge
+2code, rule, regulation9code, rule, regulation; tradition, code, rule, regulation55{gtan khel bzos pa'i lam srol/}
+55{rgyal khab las khungs dang /} {khe las/} {bya las tshan pa sogs pa'i sgrig 'dzugs lam lugs la bsgyur bcos gtong bar zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }rule-based system {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }rule based synthesis {zer/}
+31rule-based synthesis
+31rule-based system
+9system of law/ rules
+31rule matching55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }rule matching {zer/}
+2the manner / way in which things are set / arranged, style of composition / compiling9the manner/ way in which things are set/ arranged, style of composition/ compiling26{sgrig lugs/}55{sgrig lugs/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }progress indicator {zer/}
+55{spyod pa gtsang la tshul dang ldan pa/}
+9[written] tradition/ rules/ regulations or way of accomplishing a task/ work
+2[monastic] discipline9enter into an order suitable for a task. enroll, enter the regimen of [Tse]
+2to enroll, enter the regimen of9enroll, enter the regimen of
+41(com) informal sector {gzhung gi rtag zhib dang /dpya khral bsdu len/de bzhin lo re'i rgyal khab spyi yongs thon skyed kyi rtsis khra'i nang ma tshud pa'i zur skyang bza las khag}
+41(edu) informal education {slab grwa'i khar yug dang /sgrig gzhi sogs kyi sgrom gzhi las ldog ste rang gi dgos 'dun dang bstun te/sgram gzhi gzhan zhig gi 'og slob sbyong sprad len byed pa'i las gzhi/}
+9previous/ later times of entering into an order suitable for a task/ the sangha
+2side by side; imp. of {sgrig pa}8arrange, SA sgrig pa91) side by side; 2) Sgrig pa!; 3) properly, by the rules261. {sgrig pa'i skul tshig }2. {tshul mthun lam lugs/ sgrigs yag po/ sgrigs med/ bya spyod ngan pa lang shor gyis sgrigs lad pa/ lus ngag gi bya spyod tshul dang mthun par sgrigs gcun pa/ ma rabs kyi kun spyod la brten nas sgrigs 'chal ba/}27see {sgrig}32{sgrig la ltos/}46see {sgrig}55(1){sgrig pa'i skul tshig} (2){tshul mthun lam lugs/} {sgrigs yag po/} {sgrigs med/} {bya spyod ngan pa lang shor gyis sgrigs lad pa/} {lus ngag gi bya spyod tshul dang mthun par sgrigs gcun pa/} {ma rabs kyi kun spyod la brten nas sgrigs 'chal ba/}
+8disorganized
+29{rgyun gyi sgrigs lam thog tu gnas par go}
+55{rgyun gyi sgrigs lam thog tu gnas par go /}
+9sgrigs khongs nas phyir phud pa26{sgrigs khongs nas phyir phud pa/}29{sgrigs zhugs nas gnas dbyung gtong ba}55{sgrigs khong nas phyir phud pa/}
+8charter
+9[tradition of] discipline, discipline and law, law and order26{sgrigs lam dang khrims srol/ bag yod tshul mthun gyi sgo nas sgrigs khrims brtsi khur byas pa/ ngan spyod ngo khyer gyis sgrigs khrims 'dral ba/ sgrigs khrims dkrugs pa/}55{sgrigs lam dang khrims srol/} {ngag yod tshul mthun gyi sgo nas sgrigs khrims brtsi khur byas pa/} {ngan spyod ngo khyer gyis sgrigs khrims dkrugs pa/}
+2code of behavior, discipline, rules; regulations, dictates, prescripts9tradition[al]/ [according to the] rules, discipline, order26{lugs mthun lam srol/ sgrigs lam dam po/ chog dang mi chog gi sgrigs lam btsugs pa/ sngar gyi drang po min pa'i sgrigs lam tshang ma zhig pa/ rtsing spyod mkhan gyis sgrigs lam dkrugs pa/ sgrin/ sgrin pa'i skul tshig sgrin pa/}1. {(tha dad pa) bsgrin pa/ bsgrin pa/ sgrin// sdur ba/ spus tshad legs nyes phan tshun bsgrin pa/ pha rol po dang stobs shugs sgrin pa/ }2. {mkhas pa/}55{lugs mthun lam srol/} {sgrigs lam dam po/} {chog dang mi chog gi sgrigs lam btsugs pa/} {sngar gyi drang po min pa'i sgrigs lam tshang ma zhig pa/} {rtsing spyod mkhan gyis sgrigs lam dkrugs pa/}
+9strict discipline
+29{gtan 'bebs byas pa'i sgrigs lam rnams gnon mkhan gyis gnon pa dang/'khur mkhan gyis 'khur dgos pa}55{gtan 'bebs byas pa'i sgrigs lam rnams gnon mkhan gyis gnon pa dang /} {'khur mkhan gyis 'khur dgos pa/}
+9maintain discipline, follow orders, obey rules
+9tradition, code, rule, regulation
+8undisciplined, rowdy, ruffian9disorder, confusion, turmoil
+9cause disorder/ confusion/ turmoil
+55{ya rabs spyod pa dang bral ba/} {dper na/} {mi mang gi sgrigs ngan pa la ang /} {gang sar gcin pa gtong gi 'dug lta bu'o/ /}
+2to arrange; side by side8adjust11to set in place/ up
+8compile books, stitch books, covers42acchādayati, grathnāti
+8precise
+29{sgrigs khrims dang 'gal mi chog }55{sgrigs khrims dang 'gal mi chog}
+9tradition, code, rule, regulation
+8tolerably fit, just fit
+9[written] tradition/ rules/ regulations or way of accomplishing a task/ work55{yig thog tu gtan la phab pa'i sgrig 'dzugs kyi lam lugs sam las don sgrub stangs/}
+9enter into an order suitable for a task26{bya spyod mthun pa'i gral du 'dzul ba/}55{bya spyod mthun pa'i gral du 'dzul ba/}
+2elder and younger monks9previous/ later times of entering into an order suitable for a task/ the sangha261) {sgrigs 'dzugs su 'dzul dus snga phyi/} 2) {dge 'dun gyi nang du 'dzul dus snga phyi/}55(1) {sgrigs 'dzugs su 'dzul dus snga phyi/} (2) {dge 'dun gyi nang du 'dzul dus snga phyi/}
+2{bsgril} 1) to roll, to wind, to wrap, pack. 2) to combine together, to unite, to put together. 3) exchange. {zla sgril} to combine, join]; imp. of {sgril ba}8to roll up, wind up9{bsgril} - 1) roll, wind, wrap, pack; 2) combine, unite, join, put together; 3) exchange; 4) sgril ba!26{sgril ba'i skul tshig}27Present: {sgrild} LZ. {sgril} CD, ND, DK, DS, TC. \nPast: {bsgrild} LZ, ND, DK. {bsgril} CD, DS, TC.\nFuture: {bsgril} LZ, CD, ND, DK, DS, TC.\nImperative: {sgrild} LZ, ND, DK. {sgril} DS, TC.\nVoluntary: ND, DS, TC, (Hoshi 2003).\nTransitive: DS, TC.\nSyntax: [Erg. Abs.] (Hackett 2003).\nCausative of: {'gril} [CD], (Rona-Tas 1978: 359), (Beyer 1992: 116), (Gyurme 1992: 259), (Duff). {'khril} NWH.\nCharacteristic Example: {thig skud sogs} LZ, {mar la dang gcig tu} ND.\nMeaning: To make a roll of, to roll, wrap up; to wind into a spool CD. To fold, to wrap up; to cause to fold or roll up; to combine DK. 1. To make something roll. 2. To roll up, make into a ball. 3. To twist, braid, spin (rope and thread) DS. 1. To twist, to wind. 2. To combine, to muster. 3. To stuff. 4. To barter, to convert currency, to exchange currency, exchange merchandise. 5. (math) To convert lower digits into higher numeric places TC.\nNote:(Rona-Tas 1978: 359) calls {'dril} 'to be turned, rolled round, twisted into a thing.' the 'passive' of this verb, in addition he suggests a connection to the adjective {hril po} 'round, globular, close, dense' and the noun {ril ba} 'scroll'.32{(byed 'brel las tshig da lta ba dang skul tshig) 1 thog 'og rje bzhin 'gror bcug pa'i don te/ thur la rbab rdo sgril/ thang la gru gu sgril ba/ gru gu sgril mkhan/ rbab rdo sgril mkhan/ rbab rdo sgril cig lta bu/ (bsgril) ni ma 'ongs pa dang 'das pa ste/ bsgril bya'i rbab rdo bsgril dgos/ byis pas lgang bu bsgril nas brtse lta bu/} 2. {ril bu byas pa'i don te/ sman gyi ril bu bsgril lta bu/} 3. {skud pa dang thag pa sogs grim po byas pa ste/ bal thag sgril/ gso thag bsgril nas thon skyed byas lta bu/}43nigaḍaḥ, paśubandhanopakaraṇam — sattvān nānāhaḍinigaḍakaṭakakuṇḍalaśṛṅkhalākhalīnabandhanabaddhān ga.vyū.191kha/273.55{sgril ba'i skul tshig}
+8reel
+9hoisting machine, winch, windlass
+2{sgril ba, bsgril ba, bsgril ba, sgril} trans. v.; roll up, to condense, to wind, wrap round8roll up, wrap, pack, roll, wrap up, scroll9(tha dad pa bsgril ba, bsgril ba, sgril,, 1) bind, tie, wind/ wrap [around]; 3) envelop; 4) in keeping accounts rang 'khor longs na gnas gong mar bcug pa; 5) roll up; 6) condense10Stein. mjug ma bsgril ba; [the dog] wagged his tail. 4 125v.3.26{(tha dad pa) bsgril ba/ bsgril ba/ sgril//}1) {sdom pa/ thag pa nyis sgril dang sum sgril byas pa/} 2) {sre ba'am spung ba/ stobs shugs mtha' dag phyogs gcig tu bsgril/} 3) {btum pa/ 'bog gi nang du yo byad sgril ba/} 4) {rtsis rgyag skabs rang 'khor longs na gnas gong mar bcug pa/ dbyug la bsgril/ bcu lon na bcu gnas su bsgril/ mkha' ro thub pas bsgril ba'i lhag}55〔{tha dad pa}〕{bsgril ba/} {bsgril ba/} {sgril/} (1) {sdom pa/} {thag pa nyis sgril dang sum sgril byas pa/} (2) {sre ba'am spung ba/} {stobs shugs mtha' dag phyogs gcig tu bsgril/} (3) {btum pa/} {'bog gi nang du yo byad sgril ba/} (4) {rtsis rgyag skabs rang 'khor longs na gnas gong mar bcug pa/} {dbyug la bsgril/} {bcu lon na bcu gnas su bsgril/} {mkha' ro thub pas bsgril ba'i lhag}
+55〔{skye rgu}〕{lo gsum lon pa'i rta la zer/} {lo gsum lon dus kha lo btsab dgos/}
+9kind of gzong [chisel, punch?] for making ear rings etc kyi 'bur sgril26{gzong gi bye brag rna long sogs kyi 'bur sgril bzo byed cig}55{gzong gi bye brag rna long sogs kyi 'bur sgril bzo byed cig}
+8piece rolled together9roll of something, wrapped bundle26{dril ba'i sgril sgril/ ras kyi sgril kha/ shog bu'i sgril kha/}41(cine) reel {glag brnyan gyi spyin shag bskum khru 1000tsam yod pa'i sgril/}55{dril ba'i sgril kha/} {ras kyi sgril kha/} {shog bu'i sgril kha/}
+9tape measure
+9twisted together43= {thag pa} varāṭakaḥ, rajjuḥ — śulbaṃ varāṭakaḥ strī tu rajjustriṣu vaṭī guṇaḥ a.ko.2.10.27.45Sanskrit: guṇa <Word/Term/Phrase>\n\n\nTibetan renderings of guṇa: {sgril ma/}\n\na single thread or strand of a cord or twine (e.g. tri-g° q.v.), string or thread, rope\n\nSee the full entry at:https://www.itlr.net/hwid:487534
+9barter [system]
+9barter
+8roll9wrapped/ rolled/ wound up ril ril26{thum gyis btums pa'i ril ril/}55{thum gyis btums pa'i ril ril/}
+9roll/ wind up
+8furl
+91) thang ka'i lower stick; 2) CH noodles wrapping stick261) {thang ka'i smad shing/} 2) {rgya thug sgril byed kyi shing kan khrang/}41(xx) rolling pin {bag zan leb mor sgril byed shing gi rgyug ril te/zur gnyis la yu ba yod pa'i mdong dbyibs can gyi nyer mkha'i thab chas shig}55(1) {thang ka'i smad shing /} (2) {rgya thug sgril byed kyi shing kan khrang /}
+9wrapping paper55{phyi sgril rgyag byed kyi shog bu/}
+9cigarette
+27see {sgril}
+2p. {bsgrims} 1) to concentrate. 2) to twist together8twist, SA sgrim pa, thread stretched lengthwise in spinning, strong9[past: {bsgrims} 1) concentrate; 2) twist together, wind, a twist27Present: {sgrim} TD, LZ, ND, CD, DK, DS, TC. \nPast: {bsgrims} TD, LZ, ND, CD, DK, DS, TC. \nFuture: {bsgrim} TD, LZ, ND, CD, DK, DS, TC. \nImperative: {sgrims} TD, LZ, ND, CD, DK, DS, TC.\nVoluntary: TD, ND, CD, DS, TC, (Hoshi 2003).\nTransitive: DS, TC.\nSyntax: [Erg. Abs.] (Hackett 2003).\nCausative of: {grim} (Gyurme 1992: 259), (Duff).\nCharacteristic Example: {blo dang skud pa sogs} TD, {rig pa dang skud pa sogs} LZ, {rig las skud pa} NDB. {rig pa las dang skud pa} NDA.\nMeaning: 1. To hold fast; to force or twist together; to endeavor; (Cs.) to squeeze in, crow in, (Sch.) to be confused CD. To concentrate; to exercise the mental power on; to pay attention; to spin or twist the threads together, to entwine DK. 1. To tightly spin (rope, thread &c.). 2. To be intelligent, careful DS. 1. To concentrate, to focus. 2. To twist together TC.32{(byed 'brel las tshig da lta ba) skud pa dang thag pa sogs bkal nas dam por byas pa'i don te/ thag pa sgrim mkhan/ rtsid skud sgrim gyin yod lta bu/ (bsgrim) ni ma 'ongs pa ste/ bsgrim bya'i thag pa/ rtsid skud bsgrim dgos lta bu/ (bsgrims) ni 'das pa ste/ rtsid skud bsgrims nas grims lta bu/ (sgrims) ni skul tshig ste/ thag pa sgrims shig lta bu/} 2. {blo rig gsal bo byed pa'am dogs zon byed pa'i don te/ rig pa bsgrims nas slob sbyong byas/ las ka la sha sgrims/ dgra la dogs sgrims lta bu/ (sgrim po) gri ma po yi 'bri tshul gzhan/}42tatpara43= {sgrim pa/}59to focus (the mind)\ne.g. {rig pa sgrim}, {blo sgrim}
+2tightness; concentration, fixed attention9not loose26{lhod lhod min pa/ rig pa sgrom cha yod pa zhig byed pa/}55{lhod lhod min pa/} {rig pa sgrim cha yod pa zhig byed pa/}
+11{sgrim glod med pa} (without) tension or laxity/ looseness
+2tight and loose / relaxed9tight and loose/ relaxed
+2tight and loose26{sgrim pa dang lhod pa/ thag pa sgrim lhod 'tsham po/}55{sgrim pa dang lhod pa/} {thag pa sgrim lhod 'tsham po/}
+9rope between tight and loose
+43ayatnaḥ — {sgrim mi dgos par} ayatnataḥ abhi.sa.bhā.6kha/7.
+43ayatnataḥ — athaivaṃvidhamātmānaṃ kaścit parikalpayet tathāpi nopapadyate'rūpādika ātmā, ayatnato mokṣadoṣāt abhi.sa.bhā.6kha/7.
+2{sgrim pa, bsgrims pa, bsgrim pa, sgrims} tha dad pa; 1) apply oneself fully; {rtse gcig tu gzhol ba}, to concentrate, endeavor / take part in one-pointedly; concentrate one's attention. e.g., {blo dang rig pa sgrim pa} "to be careful both in mind and intelligence, to bring all the intelligence into play";. 2) Syn {'khol ba} (to spin) - {skud pa bsgrim pa}, to spin thread; {skud pa sgrim pa} "to twist threads together that they may become a compact plait.". 3) ii) to twist [strings, threads, wires, etc.] together. 3b) to hold fast; force or twist together; squeeze in, crowd in8hold fast, force or twist together, endeavour, squeeze in, crowd in, spin, wring, stretching, to remain vigilant, to contract, SA tshigs sbyong lnga, concentration, tightening, focus9(tha dad pa bsgrims pa, bsgrim pa, sgrims,, 1) bring and keep to 1 point, concentrate; 2) spin10Stein. Compare grims pa (to be careful) and 'grim pa (perambulate).24parā-krama26{(tha dad pa) bsgrims pa/ bsgrim pa/ sgrims//}1) {rtse gcig tu gzhol ba/ blo rtse gcig tu bsgrims te rna ba nyon/ rig pa dam por sgrim pa/ lag rtsal ha cang mkhas pas las ka byed dus blo sems cher bsgrim mi dgos pa/} 2) {'khal ba/ skud pa bsgrims pa/ bal gyi nyag ma phra yang/ bsgrims na seng ge 'khyig thub/}43• saṃ. ābhogaḥ — {sgrim pa med pa} anābhogaḥ śi.sa.148ka/143; yatnaḥ — {sgrim mi dgos par} ayatnataḥ abhi.sa.bhā.6kha/7; ādaraḥ — ko nāma loke śithilādaraḥ syāt kartuṃ dhanenārthijanapriyāṇi jā.mā.27/14; autsukyam — {sgrim par byed pa} autsukyamāpadyate bo.bhū.77kha/99 \n\n• vi. = {mkhas pa} caturaḥ mi.ko.119kha \n55〔{tha dad pa}〕{bsgrims pa/} {bsgrim pa/} {sgrims/} (1) {rtse gcig tu gzhol ba/} {blo rtse gcig tu bsgrims te rna ba nyon/} {rig pa dam por sgrim pa/} {lag rtsal ha cang mkhas pas las ka byed dus blo sems cher bsgrim mi dgos pa/} (2) {'khal ba/} {skud pa bsgrims pa/} {bal gyi nyag ma phra yang /} {bsgrims na seng ge 'khyig thub/}
+43anābhogaḥ — na śanairmandaṃ mandaṃ kramānutkṣipati, na nikṣipati, yugamātraprekṣikayā saviśvastaprekṣikayā anābhogaprekṣikayā śi.sa.148ka/143.
+23ābhogaḥ
+52(Skt. ābhogaḥ) completion, effort
+24ghaṭa43kri. autsukyam āpadyate — pūrvameva cāpatteḥ bodhisattvaḥ tīvram autsukyamāpadyate bo.bhū.77kha/99.
+2tight, uptight, unrelaxed, tense, taut8wise91) learned and clever/ intelligent, bright; 2) not loose/ relaxed, tight; 3) twisted, tangled261) {mkhas po dang grung po/ mgo thon sgrim po/} 2) {lhod po min pa'am dam po/ dar skud sne nas bzung ste sgrim rgyag pa/ rgyus yod lam la 'gro dus sems sgrim por byed mi dgos/}41(adm,edu) alertness {gzab nan gyi sga nas do snang sprad pa/}41(adm,edu,psycho) active {las kar hur brtsan dang grung sha dod pa/}43= {mkhas pa} peśalaḥ mi.ko.119kha \n55(1) {mkhas po dang grung po/} {mgo thon sgrim po/} (2) {lhod po min pa'am dam po/} {dar skud sne nas bzung ste sgrim rgyag pa/} {rgyus yod lam la 'gro dus sems sgrim por byed mi dgos/}
+41(adm) actively {hur brtsan dang grung sha dod pa'i sga nas/}
+5(PH) fixed tight
+10sgrim sha bston la. Zhi-byed Coll. I 165.5.
+0forcibly engaging; forcible engagement9forcibly engaging16balavāhana34forcible engagement
+2imp. of {sgrim pa}8twist, SA sgrim pa, be aware of9be aware of * sgrom pa!26{sgrom pa'i skul tshig}27see {sgrim}32{sgrim la ltos/}43kri. {sgrim pa} ityasyāḥ vidhau \n55{sgrim pa'i skul tshig}
+9tight and loose
+9"neither too tight nor too loose"
+8spun, twisted24yatna
+9forcible engagement
+0competition2imp. of {sgrin pa}; p. {bsgrin} Syn {'gran}9[sgrin pa! sgrin pa]; 1) (Tha dad pa bsgrin pa, bsgrin pa, sgrin,, compare, match w, contend; 2) learned14competition; The Tibetan people, having a keen sense of competition, [GZ/BG 69a.5]15{/bod kyi mi ni sgrin la tshor rkyen te/}27Present: {sgrin} LZ, DK, DS (archaic), TC. \nPast: {bsgrind} LZ, DK. {bsgrin} DS, TC.\nFuture: {bsgrin} LZ, DK, DS, TC.\nImperative: {sgrind} LZ, DK. {sgrin} DS, TC.\nVoluntary: DS, TC.\nTransitive: TC.\nCharacteristic Example: {phan tshun} LZ.\nMeaning: To have a competition; to cause to compete or to compare DK. (archaic) To contest for victory DS.To rival, compete with, to compare TC.32{'gran pa'i brda rnying ste/ da lta ba dang skul tshig la sgrin dang 'das ma 'ongs la bsgrin bris pa yod/ (sgrin po) mkhas pa'am spyang po/}43= {sgrin pa/} {sgrin po} vi. tīkṣṇaḥ — {pha rol bslu la mchog tu sgrin} tīkṣṇāḥ paraṃ paravañcane a.ka.32.49.55{sgrin pa'i skul tshig}
+10naked. low on intellect (shes rab). shes dman. Btsan-lha.48(1) {gcer bu'i ming ste/} 《{bod kyi brda skad ming gzhi gsal bar ston pa'i bstan bcos}》{las/ sgrin bu ni gcer bu/ zhes gsungs pa dang /}48(2) {shes rab dman pa'i don te/} 《{brda sprod dpag bsam ljon pa'i snye ma}》{las/ sgrin bu ni shes dman/ zhes gsungs pa ltar ro/ /}
+43= {sgrin gyur pa/}
+43vi. dakṣaḥ — pūjādhikṣepadakṣābhūd dāsī a.ka.7.84.
+2{sgrin pa, bsgrin pa, bsgrin pa, sgrin} trans. v10Delighting & being skilled in virtuous actions. great altruism. Btsan-lha. chos shes pa'i dgos pa stor ba'i sgrin myig la bros. Zhi-byed Coll. V 69.1. sgrin kha la bros pa'i shes rab che bas go ma bcad de. Zhi-byed Coll. V 70.1. sgrin mdo myed rnams kyi myi tshe stong zad la song tsam na. Zhi-byed Coll. V 128.3. pho mdo che chung dang / mo sgrin glen thams cad bye brag 'chi kar gsal. Zhi-byed Coll. V 132.6. sgrin myig la bros su song ba'o. Zhi-byed Coll. V 466.2 (also, 469.3). kha mi la mo sgrin pa ni phyi ma'i rgyags phye thogs na 'dzangs ma. Zhi-byed Coll. V 511.1. pho mdo che chung dang mo sgrin glen dus da res la gsal lo. Zhi-byed Coll. V 512.7. chos zab mo'i don go ba 'di dgrin pa las byung pa men no. Zhi-byed Coll. IV 51.2.24paṭu. mahā-vijñāna42abhoga43• vi. = {mkhas pa} paṭuḥ — dakṣaḥ sarvatra paṭupracāraḥ bo.pa.69 \n\n• saṃ. = {sgrim pa} ābhogaḥ ma.vyu.2092; mi.ko.124kha \n48(1) {dge ba'i bya ba la mkhas shing spro ba'i don te/} 《{brda gsar rnying gi brda chad 'ga' zhig gi dris lan}》{las/ sgrin cing gzo la byas pa gzo ba zhes pa ni/ dge ba'i bya ba la mkhas shing spro bas sgrin pa/ blang dor tshul bzhin byed pas gzo ba/ phan btags pa'i lan du phan 'dogs pas byas pa gzo ba'o/ /zhes gsungs pa dang /}48(2) {phan sems che ba'i don te/} 《{skye bo gso thigs pa'i rnam bshad}》{las/ phan sems che ba sgrin pa'i tshul/ /drang po'i tshul ni mi slu ba/ /zhes gsungs pa ltar ro/ /}55(1)〔{tha dad pa}〕{bsgrin pa/} {bsgrin pa/} {sgrin/} {sdur ba/} {spus tshad legs nyes phan tshun bsgrin pa/} {pha rol po dang stobs shugs sgrin pa/} (2){mkhas pa/}
+43= {sgrin po/}
+8skilful, clever, prudent, expert9prudent, skillful, clever, capable23paṭuḥ26{spyang po'm grung po/ lag rtsal mkhas shing sgrin po/ zur tsam smras pas go na sgrin po zer/}42paṭu43vi. 1. paṭuḥ — sadyojāto'pi yadyogād itikarttavyatāpaṭuḥ ta.pa.2kha/450; dakṣe tu caturapeśalapaṭavaḥ sūtthāna uṣṇaśca a.ko.2.10.19 2. dhūrtaḥ — ke punarahrīkāste evaṃvidhāḥ ? ityāha— ‘śaṭhāḥ’ \n dhūrtāḥ, māyāvinaḥ; parasampattāvīrṣyālava iti yāvat vā.ṭī.51kha/4.52(Skt. panuḥ (paṭuḥ)) diligence55{spyang po'am grung po/} {lag rtsal mkhas shing sgrin po/} {zur tsam smras pas go na sgrin po zer/}
+45Sanskrit: dākṣi <Word/Term/Phrase>\n\n\nTibetan renderings of dākṣi: {sgrin po'i bu/}, {myur ba'i bu/}\n\na son of Dakṣa, Pāṇ. 4–1, 93.\n\nSee the full entry at:https://www.itlr.net/hwid:850003
+2fallen into the trap of shrewd self-deception
+27see {sgrin}
+55{stod thung gi gong ba la gos chen ce 'gag gis 'thum pa'i ming yin/}
+8admit, introduce
+8rules, regulations of admission
+55〔{skye rgu}〕{lo gsum lon pa'i rta mo la zer/}
+55〔{skye rgu}〕{lo gsum lon pa'i rta pho la go/}
+21) n. feathers. 2) to elevate, exalt, exaggerate8postulation, speculative imputations, debate, SA sgro ba, large feather, elevate, sack, bag91) feathers; 2) elevate, exalt, exaggerate, superimpose; 3) leather bag10rgyal ba. Gces 589.6. feather, to elevate, exalt, exaggerate, sack, bag (made of leather or scrotum). T&BS I 342. n. of a clan. Btsan-lha.26{bya'i gshog pa dang mjug mar yod pa'i spu lta bu/ gshog sgro/ mjug sgro/ khyim bya rnams kyis skabs skabs sa la nyal lang byas nas sgro sprug pa/ ming gi rnam grangs la 'gebs byed dang/ 'dab ma/ lus skyes/ gshog pa bcas so/}27Present: {sgro} CD, DS. \nPast: {bsgros} CD, DS.\nFuture: {bsgro} CD, DS.\nImperative: {sgro} CD, {bsgros} DS.\nVoluntary: CD, DS.\nTransitive: DS, TC.\nMeaning: To debate, discuss, chatter freely CD. 1. 'go bar bya pa'i [to make into a head], e.g. 'go nad mi la ma bsgo. 2. To speak to others (e.g. a teacher to students) DS.321. {bya rigs kyi gshog pa dang mjug ma'i bya spu'i ming ste/ rma bya'i mjug sgro/ bya rgod kyi gshog sgro zhes pa lta bu/ (sgro mdongs) ni rma bya'i mjug sgro'i sne mo'i thig le khra bo tshon mdog can gyi ming /} 2. {bsgro yi da lta ba/}42bhāra431. pakṣaḥ \ni. = {gshog pa} pakṣiṇāmavayavaviśeṣaḥ — {rma bya'i sgro} māyūrapakṣaḥ a.ka.53.34; pattram — garutpakṣacchadāḥ patraṃ patattraṃ tanūruham a.ko.2.5.36 \nii. śarapakṣaḥ — pakṣo vājaḥ a.ko.2.8.87 2. dra.— {sgro btags pa/} {sgro 'dogs pa/}48{bod kyi rigs rus kyi ming ste/} 《{mkhas pa'i dga' ston}》{las/ 'phan yul stong sde sgro dang rma yi yul/ /zhes dang /} 《{deb ther sngon po}》{las/ myang smad kyi sgro dar seng la rnam 'joms dang phur pa rtsa ba sor bzhag gi lugs gsan/ zhes pa lta bu'o/ /}55{bya'i gshog pa dang mjug mar yod pa'i spu lta bu/} {gshog sgro/} {mjug sgro/} {khyim bya rnams kyis skabs skabs sa la nyal lang byas nas sgro sprug pa/} {ming gi rnam grangs la 'gebs byed dang /} {'dab ma/} {lus skyes/} {gshog pa bcas so/ /}
+9superimpositions
+0superimposition; exaggeration; reification; overestimation; that which superimposes/exaggerates/ reifies/overestimates21) imputation, misinterpretation, exaggeration, superimposition, uncertainty, [ascription, hypostatized, misconception, preconceptions, attribution, conceptualization]. 2) doubts. 3) superimposition [lit. "attaching a feather" i.e. adding what was not there to begin with) [when in a simple context] misconception[s]. misunderstanding; misconceptions; doubts2superimposed, superimposition [ggd]3interpolation4The projection or superimposition, onto an object, of a quality or a conventional or ultimate identity that it doesn't have. For instance, to superimpose true existence onto the conventionally existent "me." Literally, the term means "sticking feathers on to something." Some translators render it as "exaggeration," but it is not the exaggeration of something present. Rather, it is the adding of something that is not there, as if it were present.6Def.: an awareness viewing that object which is its object of observation as more than it [is]8postulation, make-up, imputations, exaggerated affirmation, doubts, superimpositions, superimposition, embellished claims, doubts, doubts, intellectual interpretation, intellectual conjectures, uncertainties91) imputation, misinterpretation, exaggeration, uncertainty, ascription, hypostatized, misconception, preconceptions, attribution, conceptualization]; 2) doubts; 3) superimpositions11{sgros 'dogs, sgro btags pa} to exaggerate/ elaborate/ affirm/ reify/ overstate/ misinterpret; to cloak (as . . . ); naive affirmation/ postulation/ imputation; speculation; (to make) false assumptions; wishful thinking; isc. to project16[LCh,L,MV]samāropa; [LCh,L,MV]āropa; [MSA]adhi (=adhyāropa); āropita20{mtshan nyid/ rang gi dmigs yul gyi don de las lhag par lta ba'i blo}21{gdags/ 'dogs/ btags,brtags/ thogs/}26{med par yod 'dzin gyi kun btags/ khyad gzhi med par khyad chos mang po'i sgro gtags pa/ gzugs med grib bzo lta bu'i skyon gyi sgro 'dogs pa/ dri gtug nan tan byas kyang som nyi'i sgro 'dogs ma chod pa/ mkhas pa'i mdun du the tshom gyi sgro 'dogs gcod pa/ tshig don la rmongs pa'i sgro 'dogs chod pa/}29{sgra rtag par 'dzin pa lta bu sgro 'dogs yin/mi yin pa yin par sgro 'dogs pa}30superimposition41(psycho) imputation {gang zag dang /dngas pa sogs kyi steng sngar med kyi khyad chos shig gsar du sbyar ba/}42samāropa43= {sgro 'dogs pa/}44Also abbreviated as {sgraugs}. (Source: Bacot écriture cursive Tibétaine)47{med par yod 'dzin gyi kun btags/}55{rang yul phyin ci log tu 'dzin pa'i mngon zhen gyi blo/}
+9resolve/ clear/ cut/ eradicate misunderstandings/ doubt/ misconceptions
+2elimination of false superimpositions [ggd]2resolve misunderstandings, resolve, clear / cut doubt / misconceptions, to eradicate doubt / misconceptions, clearing of doubts8to clear up uncertainties9resolve/ clear/ cut/ eradicate misunderstandings/ doubt/ misconceptions
+2to exaggerate9exaggerate
+43= {sgro 'dogs par byed pa/}
+9when uncertainty is cut, come to mastery/ true understanding
+2have cleared up uncertainties2to be free from / have cut through misconceptions; when uncertainty is cut; severed all doubts and misconceptions; doubts were cleared away9be free from/ have cut through misconceptions
+9as though cutting off doubt
+2to master completely, to thoroughly understand, vi. to come to master, to come to a true understanding8free from doubts, clear up uncertainty9[come to] master [completely], thoroughly/ truly understand
+2to clear misconceptions2to clear up doubts; x {the tshom gyi dogs sel la sogs pa dri zhing sgro 'dogs thams cad gcod pa} ask questions to clear up any hesitations and doubts2to eliminate false superimpositions [ggd]9clear misconceptions
+9intellectual reification
+2exaggerated view / belief9exaggerated view53{lta ba gnyis kyi nang gses shig}
+2misconceived nihilism9exaggerated extreme of non-existence26{dgag bya bkag pa'i med pa yang dag par yod do snyam du 'dzin pa/}55{dgag bya bkag pa'i med pa yang dag par yod do snyam du 'dzin pa/}
+9extreme of superimposition
+8doubts not cleared up, not clear up uncertainties29{yod pa la med snyam pa'i dogs pa za ba de ma chod pa'i don}55{yod pa la med snyam pa'i dogs pa za ba de ma chod pa'i don/}
+2have not cleared up uncertainties
+2exaggerate the truth, embellish the truth, exaggeration; reification. The extreme view of affirmation, overestimate, exaggerate, misconception, misinterpretation, exaggerate the truth, embellish the truth, exaggeration; to exaggerate/ overstate; naive affirmation; wishful thinking2presumed9reification, extreme view of affirmation, overestimate, exaggerate, misconception, misinterpretation10reification. Skt. samaropa/adhyaropa. Thurman.24sam-ā-/ruh:samāropayati. samāropa. samāropika36<term> imputation, superimposition37<term> imputation, superimposition (Skt: samāropa): \n1) A term that refers to the activity of superimposition or imputing characteristics to things that they do not possess. A paradigm case in Buddhism is the imputation of a singular, self-existent, enduring self to the transient bundle of skandhas that make up a person.\n2) To superimpose inherent existence upon something that does not exist inherently.\n\n(Original glossary entry: https://84000.co/glossary/entity-33436.html)\n\nSynonyms: {sgro btags}, {sgro btags pa}38Synonyms: {sgro btags pa}, {sgro btags}39<term> samāropa421) adhyāropa 2) āropita 3) vyavasthita 4) samāropa43• kri. samāropayati — yena… cittavikalpalakṣaṇagrāhābhiniveśena… mahābhūtān… asadbhūtasamāropeṇa samāropayati la.a.104ka/50; āropyate — yatra hyaṃśe bhrāntinimittena na guṇāntaram āropyate, tatraiva niścayaḥ ta.pa.220ka/909; samāropeti — {chos nyid la yang sgro 'dogs} samāropenti dharmatām la.a.117ka/63 \n\n• saṃ. āropaḥ — yāvatā snehena tadeva doṣadarśanamapākriyate sadguṇāropavidhāyinā pra.a.146ka/155; adhyāropaḥ — mithyādhyāropahānārthaṃ yatno'satyapi moktari pra.a. 128ka/137; samāropaḥ — tadatra yadi samāropaviṣayavyavacchedena gṛhītamiti hetvarthaḥ, tadā hetoḥ asiddhatā ta.pa.14kha/475; samāropaṇam — ekāntaviparyastatvādālambane nitīrakatvāt, samāropaṇācca abhi.bhā.231ka/779; adhyāhāraḥ pra.vṛ.175-4/28 \n\n• vi. āropakaḥ — vidyate hi nirālambamāropakam (jñānam) ta.sa.43kha/440; samāropakaḥ — kudṛṣṭāvagratāsamāropako dṛṣṭiparāmarśaḥ abhi.sa.bhā.6ka/6; samāropikā — pañcaskandhātmake jñeye ātmātmīyasvabhāvasamāropikā satkāyadṛṣṭiḥ abhi.sa.bhā.6ka/6; āskandiḥ — tasmādanarthāskandinyo'bhinnārthābhimateṣvapi \n śabdeṣu vācyabhedinyo vyatirekāspadaṃ dhiyaḥ pra.vā.2.117 \n\n• bhū.kā.kṛ. āropitam — buddheraskhalitā vṛttiḥ mukhyāropitayoḥ sadā pra.vā.2.36; adhyāropitam pra.pa. \n
+42apavāda43pā. samāropāpavādaḥ — samāropāpavādo hi cittamātre na vidyate la.a.83ka/30.
+43samāropāpavādī — kalpitaṃ yatra nāśenti samāropāpavādinaḥ la.a.178ka/142.
+43pā. samāropāpavādadṛṣṭiḥ — {sgro 'dogs pa dang skur ba'i lta ba ngan pa} samāropāpavādakudṛṣṭiḥ la.a.82kha/30.
+43samāropāpavādakudṛṣṭiḥ — {sgro 'dogs pa dang skur ba'i lta ba ngan pa rnam par spangs pa'i blo can} samāropāpavādakudṛṣṭivarjitamatiḥ la.a.82kha/30.
+43pā. samāropāpavādāntaḥ — gambhīro bhāvanāmārgo gāmbhīryaṃ śūnyatādikam \n samāropāpavādāntamuktatā sā gabhīratā abhi.a.4.42.
+0superimposition and depreciation2to exaggerate or denigrate9exaggeration and denigration16[MSA]ādhyāropa ... apavāda; [MSA]samāropāpavāda
+24samārop^apavād^anta-dvaya-vivarjitatva
+49{de yang / rnal 'byor spyod pa'i sa rnam par gtan la dbab pa bsdu ba las byung ba ste/} (Source: 《{bstan 'gyur sems tsam zhi pa }》{sha }191{na }6{las btus/}).
+43pā. samāropavicchedaviṣayaḥ — na samāropavicchedaviṣayatvena mānatā \n anumāyāḥ pramāṇatvaprasaṅgena smṛterapi ta.sa.48ka/475; dra.— {sgro 'dogs pa rnam par gcod pa'i yul can/}
+43pā. samāropavyavacchedaviṣayaḥ — tathā hi, bhavatāmatra avivādaḥ, ‘samāropavyavacchedaviṣayo niścayaḥ’ iti ta.pa.14kha/475; dra.— {sgro 'dogs pa rnam par bcad pa'i yul can/}
+49{de yang / rnal 'byor spyod pa'i sa rnam par gtan la dbab pa bsdu ba las byung ba ste/} (Source: 《{bstan 'gyur sems tsam zhi pa }》{sha }36{ba }5{las btus/}).
+43kudṛṣṭisamāropaḥ — asyaiva kudṛṣṭisamāropasyānupalabdhipravicayābhāvād apavādo bhavati la.a.83ka/30.
+2the extreme of ascription9the extreme of ascription; the extreme of ascription/ exaggeration26{rtag brtan ther zug tu grub par khas len pa'i lta ba'o/}42āropānta43samāropāntaḥ, anyataro'ntaḥ — asti bhikṣavaḥ rūpe āsvāda ityevamādinā'pavādāntaṃ samāropāntaṃ ca varjayitvā tattvārthanayo'bhidyotitaḥ abhi.sa.bhā.107ka/144.47{rtag brtan ther zug tu grub par khas len pa'i lta ba'o//}53{rtag brtan ther zug tu grub par khas len pa'i lta ba'o/}55{rtag brtan ther zug tu grub par khas len pa'i lta ba'o/ /}
+49{de yang / rnal 'byor spyod pa'i sa rnam par gtan la dbab pa bsdu ba las byung ba ste/} (Source: 《{bstan 'gyur sems tsam zi pa }》{sha }111{ba }5{las btus/}).
+2imputing thought9exaggerated conceptions43pā. adhyāropavikalpaḥ, daśavidhavikalpeṣu ekaḥ — daśavidhavikalpo bodhisattvena parivarjanīyaḥ \n abhāvavikalpaḥ … bhāvavikalpaḥ… adhyāropavikalpo yasya pratipakṣeṇāha, ‘rūpaṃ śāriputra svabhāvena śūnyamiti… apavādavikalpaḥ… ekatvavikalpaḥ… nānātvavikalpaḥ… svalakṣaṇavikalpaḥ… viśeṣavikalpaḥ… yathānāmārthābhiniveśavikalpaḥ… yathārthanāmābhiniveśavikalpaḥ sū.a.180ka/74.
+2exaggerated impression
+24samārop^asad-grāh^anta
+42āropayanti43= {sgro 'dogs par byed pa/}
+2to ascribe, impute, exaggerate9exaggerate24samāropitatva42aropayanti43• kri. \ni. (varta.) āropayati — yadi aviparyastaḥ, kathamāropayati vikalpāvasthāyām ta.pa.304kha/1068; adhyāropayati — ātmadṛṣṭirhi rūpādike vastuni kārakavedakavaśavartitvena ātmatvam abhūtam adhyāropayati abhi.bhā.33ka/995; samāropayati — na hi cakṣurvijñānaṃ rasasārūpyaṃ samāropayati ta.pa.185kha/832 \nii. (vidhyādau) samāropayet — tat kathamagṛhītvā vyañjakasthaṃ mahattvādi śabde samāropayet ta.pa.139ka/730; saṃ. samāropaṇam \n\n• vi. samāropakaḥ, o pikā — katham ucchedadṛṣṭiḥ samāropikā abhi.sphu.95kha/773; āropakārī — nanu hastyādiśūnyāyāṃ bhūmāvāropakāriṇaḥ \n pratyayā ye pravarttante bhedastatra kimāśrayaḥ ta.sa.10kha/128.
+42samāropāpavādin43= {sgro 'dogs pa dang skur ba/}
+43= {sgro 'dogs pa dang skur ba 'debs pa/}
+9intellectual reification
+10Flügel schlagen, beat wings. Perhaps also to be understood as sgrog 'gyur. Kretsch.
+91) bird feather hat crest; 2) bird's natural crest261) {bya sgro'i zhwa tog} 2) {bya rigs kyi mgor skyes pa'i sgro'i gtsug phud/}55(1) {bya sgro'i zhwa tog} (2) {bya rigs kyi mgor skyes pa'i sgro'i gtsug phud/}
+42phalaka
+0debate; discuss21) bag made of skin/ hide [Rta sgro]; 2) scrotum; 3) the bark2a bag; a bag made of skin, hide bag, the bark8elevate, exalt, increase, exaggerate, species of willow, the penis, debate, discuss, chatter freely, leather bag for flour or peas91) bag made of skin/ hide [Rta sgro]; 2) scrotum; 3) the bark. scrotum, testicles261) {ko ba las bzos pa'i sgro snod/ rta sgro/} 2) {rlig hril gyi dpe'am gab tshig}32{ko ba las bzos pa'i khug ma dang mtshungs pa'i snod kyi ming /}43= {rlig pa} meḍhraḥ, śiśnaḥ — śiśno meḍhro mehanaśephasī a.ko.2.6.76.55(1) {ko ba las bzos pa'i sgro snod/} {rta sgro/} (2) {rlig hril gyi dpe'am gab tshig}
+9{sgro ba} med. tree10SS 507.2.26{shing sman gyi rigs shig me tog dkar po dang dmar po 'char ba gnyis te/ ro kha la bska/ zhu rjes bsil/ nus pas tshad pa rnying pa 'joms/ rma tshad dang rnag chu skem pa sogs la phan/}55{shing sman gyi rigs shig} {me tog dkar po dang dmar po 'char ba gnyis te/} {ro kha la bska/} {zhu rjes bsil/} {nus pas tshad pa rnying pa 'joms/} {rma tshad dang rnag chu skem pa sogs la phan/}
+8embellishment and discredit
+43• bhū.kā.kṛ. āropitam — tadarthagrahaṇaṃ śabdakalpanāropitātmanām \n aliṅgatvaprasiddhyartham arthādarthasya siddhitaḥ pra.vā.4.13; samāropitam — vikalpavāsanodbhūtāḥ samāropitagocarāḥ pra.vā.3.287 \n\n• vi. āropakaḥ — yato nānyam āropakavikalpavyatirekeṇa śabdasya samutthāpakaṃ paśyati ta.pa.304kha/1068.
+0superimposed; reified; exaggerated; superimposition; reification; exaggeration21) uncertainties. 2) preconceived ideas. 3) misconceptions2reification2reification, super-imposition [in philosophical context of sgro btags / skur 'debs]2superimposition [ggd]7Comment: For a definition, see sgro 'dogs.8reification; superimposition, reification, to add something, preconceived attributes9reification; reification, super-imposition16samāropa; āropa; [L]āropayati; āropita21{gdags/ 'dogs/ btags,brtags/ thogs/}28[samāropa]/ Overestimation; exaggeration; superimposition; hypostatization. Exaggerating the meaning or significance of the mode of abidance of a phenomenon without any basis; taking something as existing in a certain way when it does not actually exist in that way.36<term> imputation, superimpose37<term> imputation, superimpose (Skt: samāropa): The activity of imputing characteristics to things that they do not possess. A paradigmatic case in Buddhism is the imputation of a singular, self-existent, enduring self to the transient bundle of aggregates that make up a person. (Original glossary entry: https://84000.co/glossary/entity-33436.html)\n\nSynonyms: {sgro btags pa}, {sgro 'dogs pa}38Synonyms: {sgro 'dogs pa}, {sgro btags pa}42adhyāropya43= {sgro btags pa/} {sgro btags nas} āropya — abhūtān ṣoḍaśākārān āropya paritṛṣyati pra.vā.1.273; samāropya — buddhigate eva tīvramandatve śabde samāropya bhrāmyati ta.pa.150ka/752.
+42āropya
+43vi. anāropitaḥ — adhyāropitamevāto vācyavācakamiṣyate \n anāropitam arthaṃ ca pratyakṣaṃ pratipadyate ta.sa.46kha/462.
+2Exaggeration and denigration9exaggeration and denigration
+0having refuted other superimposed factors
+43= {sgro btags med pa/}
+43vi. anāropitam — anāropitarūpā ca svasaṃvittiriyaṃ sthitā ta.sa.125ka/1083.
+43vi. anāropitarūpam — anāropitarūpā ca svasaṃvittiriyaṃ sthitā ta.sa.125ka/1083.
+0superimposed; exaggerated; reified2superimposed [ggd]2to specially posit8make a false show, pretend much, vanity, presumption9fabricated assertions, inventions, fabrications, imputation, superimposition, projection11see {sgro 'dogs}16samāropya21{gdags/ 'dogs/ btags,brtags/ thogs/}24samāropa36<term> project, superimposition37<term> project, superimposition (Skt: samāropa): To superimpose existence upon something that does not exist; adherents of eternalist views superimpose existence upon something that does not exist. They grasp at a concrete reality. The opposite is the view of nihilists, which denies the existence of phenomena. (Original glossary entry: https://84000.co/glossary/entity-33436.html)\n\nSynonyms: {sgro btags}, {sgro 'dogs pa}38Synonym: {sgro 'dogs pa}421) āropa 2) āropita 3) āropyate 4) samāropa 5) samāropita 6) samāropyamāṇa43• pā. āropaḥ — kathaṃ vidhipratiṣedhalakṣaṇaṃ vyavahāram āropavaśena śabdāḥ sampādayanti ta.pa.194ka/853; adhyāropaḥ — na khalu adhyāropeṇa satyārthaviṣayeṇa bhavitavyaṃ pratibandham antareṇeti vyavasthitam pra.a.11-1/21; samāropaḥ — tadatra yadi samāropaviṣayavyavacchedena gṛhītamiti hetvarthaḥ, tadā hetorasiddhatā ta.pa.14kha/475; vyāropaḥ — buddhyā vyāropa upacāraḥ pra.a.257-4/562 \n\n• bhū.kā.kṛ. āropitaḥ — āropitākāraḥ śabdapratyayayoḥ gocaraḥ viṣayo yatra pratītyasamutpāde sa tathoktaḥ ta.pa.142kha/15; samāropitam — sarvabodhisattvāśayasamāropitena premṇā ga.vyū.289kha/368; adhyāropitaḥ — āropitaḥ bāhyatvenādhyāropitaḥ ta.pa.142kha/15; adhyāropita eṣa pāṭhaḥ abhi.sphu.292kha/1143 \n\n• vi. āropakaḥ — {sgro btags pa'i rnam par rtog pa} āropakaṃ vikalpam ta.pa.305ka/1068.
+43kri. āropyate — athaikaṃ pūrvarūpatayā dṛṣṭam āropyate \n aparaṃ tu drakṣyamāṇatayā pararūpatayā ca pra.a.24kha/28.
+43pravṛttasamāropaḥ — {sgro btags pa zhugs pa rnam par gcod pa} pravṛttasamāropavyavacchedaḥ ta.pa.16ka/478.
+43pā. pravṛttasamāropavyavacchedaḥ — tatrānumānasya pravṛttasamāropavyavacchedāya pravarttamānasya prāmāṇyaṃ bhavati, na punaḥ pratyakṣānantarabhāvivikalpasya; tasya pravṛttasamāropavyavacchedābhāvāt ta.pa.16ka/478; = {sgro btags pa zhugs pa rnam par gcod pa/}
+43pā. pravṛttasamāropavyavacchedaḥ — tatrānumānasya pravṛttasamāropavyavacchedāya pravarttamānasya prāmāṇyaṃ bhavati, na punaḥ pratyakṣānantarabhāvivikalpasya; tasya pravṛttasamāropavyavacchedābhāvāt ta.pa.16ka/478; = {sgro btags pa zhugs pa gcod pa/}
+29{rtog pas sgro btags pa'i chos rnams te dper na/gcig dang tha dad/mtshan nyid dang mtshon bya la sogs pa lta bu'o/de rnams rtog pas sgro btags pa'i chos yin te/gcig dang tha dad la sogs pa rnams don rang ngos nas tshur grub pa med cing/so sor ba ma yin pa'i chos dang so so ba'i cho sa gnyis la rtog pas gcig dang tha dad ces blos phar sgrog btags tsam yin pas so/_/de lta rtog pas sgro btags pa'i chos rnams rang ldog nas rtag pa yin kyang de yin na rtag pa yin mi dgos te gcig rang ldog rtag pa yin kyang gcig yin rtag pa yin mi dgos pa ni bum pa gcig yin kyang rtag pa ma yin pa'i phyir te dngos po yin pa'i phyir ro/_}55{rtog pas sgro btags pa'i chos rnams te dper na gcig dang tha dad/} {mtshan nyid dang mtshon bya la sogs pa lta bu'o/} {/de rnams rtog pas sgro btags pa'i chos yin te/} {gcig dang tha dad la sogs pa rnams don rang ngos nas tshur grub pa med cing/} {so so ba ma yin pa'i chos dang so so ba'i chos gnyis la rtog pas gcig dang tha dad ces blos phar sgro btags tsam yin pas so/} {/de ltar rtog pas sgro btags pa'i chos rnams rang ldog nas rtag pa yin kyang /de yin na rtag pa yin mi dgos te/} {gcig rang ldog rtag pa yin kyang gcig yin na rtag pa yin mi dgos pa ni bum pa gcig yin kyang rtag pa ma yin phyir te/} {dngos po yin pa'i phyir ro/ /}
+43pā. samāropāntaḥ, anyataro'ntaḥ — anena tāvat samāropāntaṃ parihṛtya apavādāntaṃ parijihīrṣayā āha tri.bhā.164kha/80.
+43= {sgro btags rnam can/}
+421) āropyamāna 2) samāropya
+43vi. āropitākāraḥ — guṇadravyakriyājātisamavāyādyupādhibhiḥ \n śūnyam āropitākāraśabdapratyayagocaram ta.sa.1/1.
+2Exaggeration and denigration
+9kind of monk's hat26{grwa pa'i zhwa mo zhig}55{grwa pa'i zhwa mo zhig}
+10See gre ba shing.
+9w feathers, bird26{(mngon) 'dab chags/}43= {bya} pattrī, pakṣī — patattripattripatagapatatpattrarathāṇḍajāḥ a.ko.2.5.33.55〔{mngon}〕{'dab chags/}
+54{khong ni rab byung dang po'i sa pho rta lo ste spyi lo} 1078 {lor 'phan yul du yab sgro ston 'phan rgyal dang /} {yum rje mo bkra shis gnyis kyi sras su sku 'khrungs/} {rab byung gsum pa'i chu pho sprel lo ste spyi lo} 1152 {lor sku gshegs/} {khong gzhon nu'i dus nas rab tu }[429]{byung /} {dge bshes rje rgan 'bum pa las sher phyin gsan/} {de nas skam ye shes rgyal mtshan gyi mdun du phebs shing snying po'i don dang mngon rtogs gnyis/} {mdo rgyas 'bring gdams ngag rnams gsan/} {de nas ding ri la byon te pha dam pa sangs rgyas dang mjal zhing sher phyin la sogs pa'i chos rnams rgyugs phul bas shin tu dgyes par gyur/} {pha dam pas kyang 'phags pa brgyad stong la sogs pa'i chos rnams rdzogs par gnang /} {de nas lan pa se gseb tu lo ngo nyi shu rtsa dgu'i bar du sgrub pa nyams len mdzad/} {spyan ras gzigs kyis zhal gzigs shing dgongs pa mthar skyol/} {dgung lo bdun cu rtsa gnyis nas bshad pa mdzad/} {slob ma mang du bskyangs/} {dgung lo bdun cu rtsa lnga par dgongs pa chos dbyings su gshegs/} {zhi byed skam lugs brgyud pa spel zhing brgyud 'dzin gyi slob ma mchog tu gyur ba ni 'chus pa dar ma brtson 'grus yin no/ /}
+29{sgro dang rma yi rus brgyud la dbang ba'i sa cha}55{sgro dang rma yi rus brgyud la dbang ba'i sa cha/}
+29{sgro ni sgro 'dogs ces pa'i tshig sdud/de yang gzhi dngos po der gtan nas med pa'i khyad chos dang skyon sogs yod par bshad pa ste/dper na mda' yi rtse mo dang/zhwa yi rtse mor sgro 'dogs pa dang 'dra ba yin pas sgro 'dogs zhes brjod pa yin/skur ba ni skur 'debs ces pa ste/rgyu mtshan yang ma dag pa la brten nas yod pa don la med par khas len pa dang tshig tu smra ba bcas la zer}55{sgro ni sgro 'dogs zhes pa'i tshig sdud/} {de yang gzhi dngos po der gtan nas med pa'i khyad chos dang skyon sogs yod par bshad pa ste/} {dper na mda' yi rtse mo dang /} {zhwa yi rtse mor sgro 'dogs pa dang 'dra ba yin pas sgro 'dogs zhes brjod pa yin/} {skur ba ni skur 'debs zhes pa ste/} {rgyu mtshan yang ma dag pa la brten nas yod pa don la med par khas len pa dang tshig tu smra ba bcas la zer/}
+41(bot) linear {dkyus ring la kha zheng chung ba'i lo ma/} ({zur sbyar bzhi par ltas/})
+91) {sgro ba} tree w white flowers; 2) white feathered bird261) {sgro ba shing me tog dkar po 'char ba zhig} 2) {bya sgro dkar po/}55(1) {sgro ba shing me tog dkar po 'char ba zhig} (2) {bya sgro dkar po/}
+2reification
+8little bubbles in sparkling beverages, ropes used to pack cloth, fetter, cord9cord, rope
+43kṛ. āropyam — śabdapravṛttyupāyam āropakaṃ vikalpam āropyaṃ ca ta.pa.305ka/1068; samāropyam — sa tatra avidyamāno'pi dṛśyaḥ samāropyaḥ nyā.ṭī.50ka/101.
+9peacock feather
+2conversation, debate
+9had a debate
+8deliberation
+91) bird's feathers and wings; 2) water wheel's paddles; 3) shog rgyu'i thug pa dkrug byed [stir/ twirl?] kyi shing 'khor261) {bya'i sgro dang gshog pa/} 2) {(yul) chu 'khor gyi 'khor lo'i gshog pa'i ming/} 3) {(yul) shog rgyu'i thug pa dkrug byed kyi shing 'khor/}43= {gshog pa} pakṣaḥ, pakṣiṇāmavayavaviśeṣaḥ — patraguptaśukasārikākokilahaṃsakroñcamayūracakravākakuṇālakalaviṅkajīvaṃjīvakādayo vicitrarucirapakṣāḥ la.vi.24kha/28.55(1) {bya'i sgro dang gshog pa/} (2) 〔{yul}〕{chu 'khor gyi 'khor lo'i gshog pa'i ming /} (3) 〔{yul}〕{shog rgyu'i thug pa dkrug byed kyi shing 'khor/}
+9peacock feather
+10See pu shud.
+8string, binding strap9attaching cord, string, satrap, ribbon26{sdom byed kyi lung thag lag sgam gyi sgro gu sbyor ba/}32{sgrog gu yi 'bri tshul gzhan/}43granthikā — pāśakasya anapagamāya cīvare dānaṃ va(pha)lakaṃ dattvā granthikāyāśca vi.sū.69kha/86; dra.— {sgrog gu'i rten ma} phalakaḥ ma.vyu.9192; {lham sgro gu can} pūlā vi.sū.69ka/86; vi.sū.26ka/32.51{sgrog gu dang 'dra/}55{sdom byed kyi lung thag} {lag sgam gyi sgro gu sbyor ba/}
+8steel blade of arrow to which feather is attached
+42phalaka
+10(coll.) opening feathers brilliantly. MTTP.
+9feather fan26{bya sgro las bzos pa'i rlung g.yab/ sgro g.yab dal gyis g.yob pa/}55{bya sgro las bzos pa'i rlung g.yab/} {sgro g.yab dal gyis g.yob pa/}
+42niryuha
+8feathered race, birds, arrow91) bird; 2) arrow101. mda'. 2. bya. Blan 527.26{(mngon)}1) {bya/} 2) {mda'/}43= {mda'} pattrī, bāṇaḥ — apahnutirapahnutya kiñcadanyārthadarśanam \n na pañceṣu smarastasya sahasraṃ patriṇāmiti kā.ā.2.301.55〔{mngon}〕 (1) {bya/} (2) {mda'/}
+9a kind of monk's hat26{grwa pa'i zhwa mo zhig}55{grwa pa'i zhwa mo zhig}
+9parrot26{(mngon) ne tso/}55〔{mngon}〕{ne tso/}
+10See ne tso.
+55{nas sogs blugs snod la sgro ba zer/} {de'i bzung sa bzos par lung ste/} {de gnyis mnyam la sgro lung zhes brjod/}
+9lamp according to All-surpassing realization GD
+0non-reified object21{gdags/ 'dogs/ btags,brtags/ thogs/}
+42anāropita43bhū.kā.kṛ. asamāropitam pra.vṛ.171-1/18.
+9four lamps GD
+9six lamps GD
+8peacock's plumes, chinese decoration on hat9sgro thig55{sgro thig dang don gcig}
+9feathered spear w rope for pulling back55{sgro sbyar ba'i 'phang mdung /}
+91) feather hat crest; 2) bird's natural feather crest261) {bya sgro'i zhwa tog} 2) {bya rigs kyi mgor skyes pa'i sgro'i gtsug phud/}55(1) {bya sgro'i zhwa tog} (2) {bya rigs kyi mgor skyes pa'i sgro'i gtsug phud/}
+8place in Tibet
+8a person, a temple53{mtshan dngos shAkya seng ge zhu/ gsang sngags rnying ma'i slob dpon zur mes dbon rnam gsum du grags pa'i ya gyal/ zur chung rgya bo ba'i sras yin la/ yab 'das pa'i lo de nyid rab byung dang po'i shing stag la 'khrungs/ yab kyi dngos slob ka chen bzhi bya ba bsten nas mdo sgyu sems gsum gyi gdams pa mthar phyin par sbyangs/ sgro phug dgon pa bzhengs te slob ma stong 'dus par grags/ rab byung gnyis pa'i shing stag la 'das so/ tshig 'di gsar du bcos pa yin/}
+9{sgro phug pa sha kya seng ge}
+26{gsang sngags rnying ma'i slob dpon zur mes dbon rnam gsum du grags pa'i ya gyal/ zur chung rgya bo ba'i sras yin la/ yab 'das pa'i lo de nyid rab byung dang po'i shing stag la 'khrungs/ yab kyi dngos slob ka chen bzhi bya ba bsten nas mdo sgyu sems gsum gyi gdams pa mthar phyin par sbyangs/ sgro phug dgon pa bzhengs te slob ma stong 'dus par grags/ rab byung gnyis pa'i shing stag la 'das so/}29{gsang sngags rnying ma'i slob dpon zur mes dbon rnam gsum gyi ya gyal/'ji nyin yab zur chung pa'i sras su rab byung dang po'i shing stag (1074)lor yab 'das pa'i lo de rang la sku 'khrungs/yab kyi zhal nang nga'i bu 'di bstan pa'i gtso bo dang tshul mthun pa 'gro ba la phan thogs pa zhig yong bar 'dug pas ming shAkya seng ger thogs gsungs/yum gyi zhal nang mig rtsa grung hor pa'i mig 'dra bas shin tu grung ba zhig yong bar 'dug pas ming hor por thog gsungs/sku na gzhon pa'i dus su yum dang zhang pos bskyangs nas mda' phur lo bco lnga bzhugs/de nas chu bar du glan dang sked lungs su yang khyeng gi sar byon nas lo gsum la chos gas/dgung lo bcu dgu la che 'don mdzad pas sku bsod rgyas nas gzhan du bzhud pa'i skabs ma byung/bla ma mkhas pa dag tshur spyan drangs shing slob gnyer rnams rdzogs par mdzad/de yang yab kyi dgos slob ka ba bzhi sogs bsten nas mdo sgyu sems gsum dang rdzogs chen skor lugs sogs gsan/de ltar mkhas pa mang po bsten nas thos bsam gyis sgrog 'dogs chod par mdzad pa lags/byang phyogs kyi rgyud 'dir sngags kyi bstan pa rgyas par mdzad pa la byon nas gdul bya'i tshogs bsam gyis mi khyab pa la chos kyi 'khor lo bskor/sgro phug dgon pa bzhengs/slob ma dge ba'i bshes gnyen che po grwa sa 'dzin zhing bstan pa skyong ba gdugs thogs stong thon nas gsang sngags kyi bstan pa dar zhing rgyas par mdzad de nyi zla ltar grags pa yin no/mthar dgung lo drug cu rtsa gcig pa rab byung gnyis pa'i shing stag (1134)lor sku gshegs/slob ma stong 'dus par grags pas las thugs zin pa'i slob ma bcu gnyis te/me bzhi dang/nag bzhi/ston bzhi bcas so/_}54{khong ni rab byung dang po'i shing pho stag lo ste spyi lo} 1074 {lor yab zung chung rgya bo dang /} {yum mnga' mo gtsug tor lcam gnyis kyi sras su sku 'khrungs/} {rus zur yin/} {rab byung gnyis pa'i shing pho stag lo ste spyi lo} 1134 {lor sku gshegs/} {khong 'khrungs lo der yab gshegs/} {yum dang zhang po gnyis kyis bskyangs/} {dgung lo bco lnga par rnying ma'i chog skor gsan/} {dgung lo bcu dgu par yab kyi bu chen bzhi las theg pa rim pa dgu yi chos tshan so sor }[430]{gsan nas mkhas par gyur/} {de nas khong gis sgro phug dgon pa gsar 'debs mdzad/} {slob ma stong tsho 'dus pa la mdo sgyu sems gsum 'chad mnyan mdzad nas dus 'da' ba'o/} {/khong ni gsang sngags rnying ma'i slob dpon zur mes dbon rnam gsum du grags pa'i ya gyal yin/ /}55{gsang sngags rnying ma'i slob dpon zur mes dbon rnams gsum du grags pa'i ya gyal/} {zur chung rgya bo ba'i sras yin la/} {yab 'das pa'i lo de nyid rab byung dang po'i shing stag la 'khrungs/} {yab kyi dngos slob ka chen bzhi bya ba bsten nas mdo rgyud sems gsum gyi gdams pa mthar phyin par sbyangs/} {sgro phug dgon pa bzhengs te slob ma stong 'dus par grags/} {rab byung gnyis pa'i shing stag la 'das so/ /}
+8feather duster9feather duster
+55{puSha}\u0f87{ zhes legs sbyar gyi skad de/} {bod kyi skad du bsgyur na/} {me tog la 'jug pas sgro ba shing gi me tog dmar po'i ming ngo / /}
+10See gre ba shing.
+55〔{skye rgu}〕{sgro ba chung ngu la lto ba ldir yod pa la zer/}
+2when my feathers grew
+54{khong ni spyi lo'i dus rabs brgyad pa'i dus stod tsam du sku 'khrungs shing /} {rgyal po khri srong lde btsan gyi skabs su snyan grags can gyi lo tsA ba zhig yin/} {khong gi bsgyur rtsom ni}《{shes rab snying po sho lo ka nyer lnga ba}》{/} 《{bcom ldan 'das shes rab kyi pha rol tu phyin pa'i snying po}》{bcas bzhugs so/ /} [430]
+8feather, fir, species of tall fir9feather[ed] bottom26{bya sgro'i rtsa ba'i rkang/}55{bya sgro'i rtsa ba'i rkang /}
+55{bya sgros bzos pa'i rmyu gu/}
+9feather[ed] tip26{bya sgro'i rtse mo/}55{bya sgro'i rtse mo/}
+10unversehrte Federn (?) "phyag mda' sgro sel zhol legs" Kretsch.
+55{ko bas bzos pa'i sgro ba rnying pa snum med pa gyur pa/} {kha dog cung ser ba/} {snyi sob can gyi ko ba'i ming /}
+0superimposition and depreciation2exaggeration and denigration, over and under estimation / rating, misconceptions, praise and blame, superimposition and depreciation2exaggeration or deprecation8assumption and negation, abbr. of sgro 'dogs pa dang sku pa 'debs pa, i.e., decorating with feathers and casting abuse, or, exaggeration and depreciation, affirmation and negation, exaggeration & disparagement exaggeration and denigration, praise and blame, to conceptualize, to confirm or refute, exaggeration and denigration9exaggeration/ glorification/ superimposition and denigration, over and under estimation/ rating, misconceptions, praise and blame11[where duality is not prominent] value judgement; misinterpret(ation) [where duality is prominent] exaggeration and denigration/ deprecation/ disparagement; wishful thinking and/ or cynicism; overstatement and/ or understatement/ belittling; unfounded supposition and/ or denial; isc. contradiction; isc. to glorify or disparage19{sgro 'dogs dang skur 'debs/}26{med pa la yod par sgro 'dogs pa dang yod pa la med par skur ba 'debs pa/}55{med pa la yod par sgro 'dogs pa dang yod pa la med par skur ba 'debs pa/}
+2slander [exaggerated]; to slander8slander9slander
+2removing / dispelling exaggeration and denigration
+29{sgro 'dogs dang skur 'debs gnyis}55{sgro 'dogs dang skur 'debs gnyis/}
+2fall in to the extremes of exaggeration and denigration
+2refute objecting thoughts
+8quill
+9birds feathers26{bya bye'u'i sgro dang spu/}55{bya bye'u'i sgro dang spu/}
+29{de ni sngar bod sa gnas srid gzhung skabs gro mor bca' p+sadom tshong don gyi spyi khyab zhig yin kyang rjes su dmangs srid kyi las ka yang gcig lcogs byed/spyi khyab pa shar gseng mar bca' sdod kyis gro mo stod smad gnyis dang phag ri rdzong bcas la do dam byed kyi yod pa dang/gru mo spyi khyab ma btsugs gong gro mo stod smad gnyis phag ri rdzong gi khongs gtogs yin}
+9eye on feathers of peacock etc.55{rma bya sogs kyi sgro'i mig}
+26{sgro sbyar ba'i 'phang mdung/ sgro mdongs/ sgro thig dang don gcig}
+8haughtiness, arrogance, pride9[dignity/ haughtiness], arrogance, pride, pretentiousness, pomposity26{'bying nyams dang/ dregs pa'i rnam 'gyur/ mi de pho sgrob che bas rang mnyam su dang yang mtun po mi 'dug 'dra chags chags kyi spros pa la dga' ba'i sgrob chen bas nas gzhung sger gyi rgyu dngos 'phro brlag tu btang ba/}32{nga r+g+ral khengs dregs kyi lus ngag gi rnam 'gyur gyi ming ste/ sgrob nyams ston mi rung / sgrob rdzu byed don med lta bu/}51<{A To paH}> 1. {brjid nyams dang / bsgyings nyams/ spam rdzu byas pa bcas kyi don la 'jug go/ 'di legs sbyar gyi }आटोपः “{A To paH}” {zur chag par/ li shi'i gur khang du gsungs/ bod rgya tshig mdzod chen mor/ 'gying nyams/ dregs pa'i rnam 'gyur/ mi de pho sgrob che bas rang mnyam su dang yang mthun po mi 'dug ces gsal/} 2. {lha rtse ba'i skad du lad zlos byed pa dang 'phya smod byed pa la zer/ kho re mi rgan pa la che sgrob } ({brjod pa'i tshe che sgrom zhes pa lta bur brjod}) {ma byed ces pa lta bu/}55{'gying nyams dang /} {dregs pa'i rnam 'gyur/} {mi de pho sgrob che bas rang mnyam su dang yang mthun po mi 'dug} {'dra chags chags kyi spros pa la dga' ba'i sgrob chen byas nas gzhung sger gyi rgyu dngos 'phro brlag tu btang ba/}
+9be haughty/ arrogant/ proud, pretentious, pompous
+8one with great airs, bumptious, pretentious person, pompous10O.T. Skt. from garba, 'pride.' Blan 307.4.
+8pretentiousness, self-assumption
+55{rdzig rdzig ston pa/}
+26{spam rdzu mkhan/}
+9hypocrisy/ charlatanism, self-misrepresentation55{spam rdzu mkhan/}
+55{gzhan gyi mdun na nyams byed pa'am sgrob nyams ston pa/} {khong 'jon thang che yang sgrob tsha po ye nas mi 'dug}
+2imp. of {sgrod pa}9sgrod pa!, progress, traverse, tread26{sgrod pa'i skul tshig}27Present: {sgrod} LZ, CD, ND, DS, TC. \nPast: {bsgrod} LZ, ND, TC.\nFuture: {bsgrod} LZ, ND, TC.\nImperative: {sgrod} LZ, ND, TC.\nVoluntary: TC.\nTransitive: TC.\nCausative of: {bgrod} [CD], [DS].\nCharacteristic Example: {phan tshun} LZ, {lam la} NDB, {shing khams lam sogs} NDA.\nMeaning: (rare) To go CD. (in some {dag yig} 'spelling primers' a way of spelling {bgrod} ) 1. To go. 2. 'dod spyadDS. To engage in sexual intercourse TC.32{bgrod kyi 'bri tshul zhig yin par dag yig la lar bshad 'dug}55{sgrod pa'i skul tshig}
+2{sgrod pa, bsgrod pa, bsgrod pa, sgrod} trans. v8go outside, SA 'grod pa9(tha dad pa bsgrod pa, bsgrod pa, sgrod,, have sex26{(tha dad pa) bsgrod pa/ bsgrod pa/ sgrod// bgrod pa ste chags pa spyod pa/ khrims 'gal gyis bud med la bsgrod pa/}55〔{tha dad pa}〕{bsgrod pa/} {bsgrod pa/} {sgrod/} {bgrod pa ste chags pa spyod pa/} {khrims 'gal gyis } {bud med la bsgrod pa/}
+0proclaim; declare; shout forth2imp. of {sgrog pa}. 1) va. to shout out, to call out, to read out; to proclaim, roar. 2) to strap up, to tie up, to chain. 3) shackles, fetter, chain, trap8strap, 1 of 28 constellations, SA rgyu skar, to shout, call out, to utter, to sound9/ [past: bsgrags sgrogs!],; 1) shout/ call/ read out; 2) [past: bsgrogs sgrogs!],, strap/ sew/ tie [up]; 3) binding rope/ string etc; 4) trap/ snare for wild animals10generally means a 'fastening rope.' shing rta zhes pa ni 'khor lo'i sgrog tu khog pa tshud pas. Zhi-byed Coll. I 418.5. See under sgrom.11fetter/ chain [lit. and fig.]16[LCh]ghuṣ; [LCh]ava-ghuṣ21{bsgrag/ sgrog/ bsgrags/ sgrogs/}261) {'ching byed thag pa/ ko sgrog lham sgrog lcags sgrog rkang sgrog rta drel gyi rkang lag la sgrog brgyab 'dug} 2) {ri dwags 'dzin byed rgya rnyi/}27Present: {sgrog} KYN, TD, LZ, CD, ND, DK, DS, TC. \nPast: {bsgrags} KYN, TD, LZ, CD, ND, DK, DS, TC. \nFuture: {bsgrag} KYN, TD, LZ, CD, ND, DK, DS, TC. \nImperative: {sgrogs} KYN, TD, LZ, ND, DK, DS, TC. {sgrag} CD. {sgrags} CD.\nVoluntary: KYN, TD, CD, ND, DS, TC, (Hoshi 2003).\nTransitive: DS, TC.\nSyntax: [Erg. Abs.] (Hackett 2003).\nCausative of: {grags} (Gyurme 1992: 259), (Duff).\nCharacteristic Example: {dam tshig dang dril bu} TD, {dam tshig dang bka' shog sogs} LZ, {skad sgra} ND.\nMeaning: To call, shout forth, publish, proclaim, declare CD. To read; to announce; to declare; to proclaim, promulgate DK. 1. To make a large noise. 2. To make known to all by speaking from the mouth or presenting in writing DS. To call out, to shout out, to roar, to proclaim, to read aloud TC.27Present: {sgrog} DK, DS, TC. \nPast: {bsgrogs} DK, DS, TC.\nFuture: {bsgrog} DK, DS, TC.\nImperative: {sgrogs} DK, DS, TC.\nVoluntary: DS, TC, (Hoshi 2003).\nTransitive: DS, TC.\nMeaning: To mend; to re-stitch DK. To bind with a rope &c. the feet and hands of men and cattle DS. 1. To sew, to stitch. 2. To tie, to fasten, to attach TC.32{(byed 'brel las tshig da lta ba) mi phyugs kyi rkang lag thag pa sogs kyis sbrel ba'i don te/ rta rgod sgrog mkhan/ sgrog byed ces pa lta bu/ (bsgrog) ni ma 'ongs pa ste/ rta rgod bsgrog dgos/ bsgrog bya'i rta rgod ces pa lta bu/ (bsgrogs) ni 'das pa ste/ rta rgod bsgrogs nas btul lta bu/ (sgrogs) ni skul tshig te/ rta rgod sgrogs shig lta bu/}321. {yan lag chings byed kyi yo byad cig gi ming ste/ lcags sgrog rta sgrog lag sgrog ces pa lta bu/ (lham sgrog) lham yu sdom byed kyi tha gu'i ming / (sgrog gu) lwa ba'i bsnol mtshams dang snod kha sbrel byed kyi ming ste/ sgrog ril/ sgrog lung / sgrog bu/ sgrog leb ces pa lta bu/ (sgrog rus) mi'i phrag mdun gyi rus pa zhig ste/ sne gcig dpung ba'i mgo dang 'brel zhing sne gzhan zhig rke tshigs la 'brel/} 2. {bsgrag gi da lta ba/}421) karaṇḍaka 2) nigaḍa 3) bhaṇāti 4) śatabhiṣā431. = {lcags thag} nigaḍaḥ, śṛṅkhalā — atha śṛṅkhalā \n anduko nigaḍo'strī a.ko.2.8.41; dra. {lcags sgrog shing sgrog} 2. (?) karaṇḍakam — {chos gos kyi sgrog} cīvarakaraṇḍakam ma.vyu.9379 3. = {sgrog pa/}46(TR) to promulgate\nv1 {sgrog} v2 {bsgrags} v3 {bsgrag} v4 {sgrogs}55{lham sgrog} {lcags sgrog} {rkang sgrog} {rta drel gyi rkang lag la sgrog brgyab 'dug} (2) {ri dwags 'dzin byed rgya rnyi/}
+31deadlock
+91) way of tying up w belt, cord, ribbon, rope etc.; 2) way of going in turn/ series261) {sgrog thag bcings pa'i 'gro stangs/} 2) {re mos mu mthud byas nas 'gro stangs/ bang chen sgrog 'gros byas nas gtong ba/}55(1) {sgrog thag bcings pa'i 'gro stangs/} (2) {re mos mu mthud byas nas 'gro stangs /} {bang chen sgrog 'gros byas nas gtong ba/}
+91) loosen binding rope[s]; 2) clear away doubt261) {'ching thag bkrol ba/} 2) {the tshom bsal ba/}55(1) {'ching thag bkrol ba/} (2) {the tshom bsal ba/}
+43bhū.kā.kṛ. svanitam, dhvanitam — svanitaṃ dhvanitaṃ same a.ko.3.1.92.
+43vi. vācālaḥ — {khu byug ca cor sgrog byed cing /} {ma la ya rlung bdag la 'ong} kokilālāpavācālo māmeti malayānilaḥ kā.ā.1.48.
+0constant/continuing reverberation
+41(adm) tableware {bza' btung 'dren pa'am/rgya cog steng sgrig sham byed ched kyi dkar yol dang /dngul/shel gyi snad chas sogs/}
+9bracelets [made of conch]511. {dung dkar las bzos pa'i bud med kyi lag gdub/}512. {lag gdub spyi'i ming / thog mar 'di dung dkar las bzos pa'i lag gdub la grags kyang / phyis su rim gyis lag gdub spyi'i ming du chags so/ /dper na gser gyi sgrog dung / dngul gyi sgrog dung zer ba lta bu'o/ /}55{dung dkar las bzos pa'i bud med kyi lag gdub/}
+8triangular patch generally made up of satin on pang gdan (bibu which covers the front of a woman's petticoat)9string strap ribbon [for hand-box etc.26{lung thag sbyor sa'i gzhi gdan/ pang gdan gyi sgrog gdan/}55{lung thag sbyor sa'i gzhi gdan/} {pang gdan gyi sgrog gdan/}
+8bracelet, bangle, bangle made of cord or straps also of jade
+2armlet2bracelet2bracelet, bangle9bracelet; bracelet, bangle
+9discussion
+10sich unterhalten, ein Gespräch führen. Kretsch.
+8button9button; button, string, strap ribbon10button; something to tie with, button. Norbu in TH&L 384. See M.Vy. 9192, which says sgrog gu'i rten pa is the part of the garment that covers the buttocks, in Skt. phalaka (a word of many meanings).26{sgro gu dang 'dra/}51{sdom byed dam 'ching byed kyi lung thag}55{sgro gu dang 'dra/}
+23phalakaḥ42phalaka43phalakaḥ ma.vyu.9192; dra.— {sgrog rten/}52(Skt. phalakaḥ) that part which covers the buttocks
+41(adm) table linen {gsol tshigs ma drangs gong cog rtse'i steng snyom sgrig byed ched du 'geb rgyu'i khebs ras/}
+45Sanskrit: jhara <Word/Term/Phrase>\n\n\nTibetan renderings of jhara: {sgrog ldan/}\n\nEnglish: water-fall\nSee the full entry at:https://www.itlr.net/hwid:498768
+9flat strap/ ribbon26{sgro gu leb mo/}55{sgro gu leb mo/}
+9string, strap, ribbon26{sgro gu/}55{sgro gu/}
+51{gang gis 'dzin pa/ 'dzin byed/}
+41(mech) speaker {rlung 'phrin dang /gzugs mthang rlung 'phrin/sgra sdud yo chas sogs sgra phyir than sa'i cha lag}
+31socketing
+31socket55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }socketi {zer/}
+2{chos sgra sgrog pa} to make the Dharma resound2give voice to2{sgrog pa, bsgrags pa, bsgrag pa, sgrog} trans. v.; alt. {sgrog pa, bsgrogs pa, bsgrog pa}; to call, call out; proclaim, resound; broadcast, publish, shout forth, sound; utter, profess, yell, roar2spreading; {snyan pa sgrog pa} spreading the word of renown8call, shout forth, publish, proclaim, declare91) chain shackles/ fetter/ trap; 2) strap up, tie up; 3) p {bsgrags} {sgrogs}! shout/ call/ read out, utterance, yelling, proclaim (tha dad pa; 4) bsgrags pa, bsgrag pa, sgrogs! say completely; 5) bsgrogs pa, bsgrog pa, sgrogs,; 1) sew; 2) tie to11to proclaim/ resound26{(tha dad pa) 1/ bsgrags pa/ bsgrag pa/ sgrogs/ khyab par shod pa/ don gnad gal che ba rnams kun la bsgrags pa/ thag ring nas skad chen bsgrag dgos/ chos sgrog pa/ 2 bsgrogs pa/ bsgrog pa/ sgrogs//}1) {'tshem pa/ tshem bu sgrog pa/} 2) {'dogs pa/ rta sga'i phyi sha la slo ma bsgrogs pa/}31padlocking43• kri. (varta.; saka.; bhavi. {bsgrag pa/} bhūta. {bsgrags pa/} vidhau {sgrogs}) nadati — siṃhanādaṃ nadati, ‘kṣīṇā me jātiḥ, uṣitaṃ brahmacaryam’ la.a.80ka/27; samyaksaṅkalpena samutthāpitavācā siṃhanādaṃ nadati ma.ṭī.279ka/138 \n\n• saṃ. nirghoṣaḥ — {de bzhin gshegs pa thams cad kyi chos kyi 'khor lo sgrog pa'i gtsug phud} sarvatathāgatadharmacakranirghoṣacūḍaḥ ga.vyū.275kha/2; stanitam — prasaktamandastanitāḥ prahāsinastaḍitpinaddhāśca ghanāḥ samantataḥ jā.mā.54/32.55〔{tha dad pa}〕(1) {bsgrags pa/} {bsgrag pa/} {sgrogs/} {khyab par shod pa/} {don gnad gal che ba rnams kun la bsgrags pa/} {thag ring nas skad chen bsgrag dgos/} (2) {bsgrogs pa/} {bsgrog pa/sgrogs/} (3) {'tshem pa/} {tshem bu sgrog pa/} (4) {'dogs pa/rta sga'i phyi sha la slo ma bsgrogs pa/}
+8declaimer, preacher
+43= {sgrog pa'i rnga nyid} ḍiṇḍimatvam — yasyāyayau vijayamaṇḍanaḍiṇḍimatvaṃ dānena kuñjarapateḥ iva a.ka.55.6.
+43ḍiṇḍimaḥ, vādyabhedaḥ — {grags pa min pa sgrog pa'i rnga} yaśaḥkhaṇḍanaḍiṇḍimaḥ a.ka.39.33.
+43kri. kathayati — udgītairaṅganānāṃ … udvāhasnānavelāṃ kathayati bhavataḥ nā.nā.275ka/91.
+8blaze about
+31lockout55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }lockout {zer/}
+8button; button, round button9button26{sgro gu ril mo/}55{sgro gu ril mo/}
+8button up
+43phalakaḥ — {mi 'phyil bar bya ba'i phyir chos gos la sgrog rten byas te sgrog thungs gdags so} pāśakasya anapagamāya cīvare dānaṃ va(pha)lakaṃ dattvā vi.sū.69kha/86; dra.— {sgrog gu'i rten ma} phalakaḥ ma.vyu.9192.
+2table, desk; desk, table8table, desk9table, desk; (CH 1) platform, [tea] table, etc for arranging food etc zas ston; 2) set out zas ston; 3) table, desk26{(rgya)} 1) {zas ston sgrig sa'i stegs cog} 2) {(yul) rgyas bshams kyi zas ston zhig}
+9collar bone10DD illus.13.26{phrag tshigs nas ske stong gi thad bar sgrog pa ltar 'dzin pa'i rus pa ste/ gzhan du nam tshong gi rus pa zhes kyang 'byung/}41(anat) clavicle {sog rus kyi mdun ngas g.yas g.yon du phrag pa nas ske steng bar 'phred du gnas pa'i rus pa nar ma/}55{phrag tshigs nas ske stong gi thad bar sgrog pa ltar 'dzin pa'i rus pa ste/} {gzhan du nam tshong gi rus pa zhes kyang 'byung /}
+9hole behind the collar bone26{sgrog rus yod sa'i kong kong/}55{sgrog rus yod sa'i kong kong /}
+55{sgrog rus kyi khug}
+29{sgrog rus kyi khug /(tsa)}
+8shelter for swans42haṃsahaṭa
+41(anat) supra clavicular lymph node {sgrag rus kyi gshang du gnas pa'i rmen bu'i ming /}
+9profess, recitation
+2MG: annoncement, reading of notices/documents in public; va. -- byed to make a public announcement. to present a paper (at a conference). See also sgrogs sbyang. [mss]9announcement, reading a public notice. make a public announcement, read a public notice
+9rgyu skar mon gru26{rgyu skar mon gru/}55{rgyu skar mon gru/}
+9rgyu skar mon gre26{rgyu skar mon gre/}55{rgyu skar ma mon gre/}
+9binder/ hobbles for forelegs + 1 hind leg of horse etc55{rta drel gyi lag pa gnyis dang rkang pa ya gcig sgrog byed cig}
+26{sgrog pa'i skul tshig}
+2belt, ribbon, tape; sting, strap, ribbon, belt tape8belt, ribbon, tape, horse-tying string9string, strap, ribbon, belt, tape, binding rope55{'ching thag}
+26{dung dkar las bzos pa'i bud med kyi lag gdub/}
+43pāśakaḥ — {mi 'phyil bar bya ba'i phyir chos gos la sgrog rten byas te sgrog thungs gdags so} pāśakasya anapagamāya cīvare dānaṃ va(pha)lakaṃ dattvā vi.sū.69kha/86.
+9(CH 1) platform, [tea] table, etc for arranging food etc zas ston; 2) set out zas ston; 3) table, desk55(1) {zas ston sgrig sa'i stegs cog} (2) 〔{yul}〕{rgyas bshams kyi zas ston zhig}
+8move the table in
+9chained
+2chained, in shackles
+9avoid being caught up in
+44Abbreviation for {sgrogs su}. (Source: Dzongkha abbreviations)
+0to proclaim; declare; shout forth2uttering, proclaim, profess9uttering, proclaim, profess; sgrog pa! uttering, proclaim, profess21{bsgrag/ sgrog/ bsgrags/ sgrogs/}27see {sgrog}321. {sgrog gi skul tshig 2 bsgrag gi skul tshig}421) dhvanita 2) ° nādin 3) ° nirnādin431. {sgrog pa} ityasyāḥ vidhau 2. = {sgrogs pa/}46see {sgrog}55{sgrog pa'i skul tshig}
+36<person> Proclaimer37<person> Proclaimer: A great bodhisattva. (Original glossary entry: https://84000.co/glossary/entity-13833.html)431. = {brjod pa} ākhyānam — puṇyaṃ yat samupārjitaṃ jinaguṇākhyānaprabandhānmayā a.ka.108. 7 2. = {sems} svāntam — cittaṃ tu ceto hṛdayaṃ svāntaṃ hṛnmānasaṃ manaḥ a.ko.1.4.31 3. = {ba sha ka} vāśikā, vāsakaḥ mi.ko.57kha \n
+43= {sgrogs byed/}
+42nadati
+8river42kallolinī43jharaḥ, nirjharaḥ mi.ko.148ka \n
+43=(vi.strī.) bhāṣiṇī — smareṇākāṇḍavairiṇā… hanyate mañjubhāṣiṇī kā.ā.3.138.
+36<person> Expert Proclaimer37<person> Expert Proclaimer: Foremost in terms of insight among the followers of the buddha Brahmavāsa. (Original glossary entry: https://84000.co/glossary/entity-21418.html)42pravīṇa
+0proclaim; declare; shout forth2making utterance, yelling, to proclaim, proclaimed; shouting, roar8delight, profess16[C]nadati; [C]nadate; [C]nadanatā21{bsgrag/ sgrog/ bsgrags/ sgrogs/}22[C]roars; roaring; resounding declaration24abhinadana. ā-/khyā:ākhyāsyanti. udbhāvanā36<person> Proclaimer36<place> Nirghoṣa37<place> Nirghoṣa (Skt: nirghoṣa): A buddha realm. (Original glossary entry: https://84000.co/glossary/entity-14446.html)39<place> nirghoṣa43• kri. garjati — {'khu dang mi mthun sgrogs pa dang} druhyati pratigarjati kā.ā.2.61; rauti — kāraṇaṃ kartṛbhūtamiti kṛtvā tadyathā nādasya kāraṇaṃ ghaṇṭeti ‘ghaṇṭā rauti’ ityucyate, tadvat abhi.sphu.325kha/1219; gāyati — {tshigs su bcad pa sgrogs} gāthā gāyanti a.ka.71.6; {da lta'ang gang gis grags pa sgrogs} gāyatyadyāpi yatkīrtiḥ a.ka.35.3; ghoṣayati — yasmādayaṃ jātamātra eva saṃsāra iti ghoṣayati, tasmādbhavatu dārakasya saṃsāra iti nāma a.śa.267kha/245; śrāvayati — ānandavacanaṃ sattvānāṃ śrāvayati śi.sa.151ka/146; vijñapayati — ataste īrṣyāhetunā cottarimanuṣyadharmairātmānaṃ vijñapayanti śi.sa.40ka/38; gīyase — cintāmaṇirgīyase tvaṃ ślāghyo jagati jaṅgamaḥ a.ka.23.21; vyāhriyate — śukasārikādibhiḥ vyāhriyate śabdaḥ ta.pa.176kha/811 \n\n• saṃ. \ni. = {sgra} dhvānaḥ, śabdaḥ — śabde ninādaninadadhvanidhvānaravasvanāḥ a.ko.1.7.1; nādaḥ — {dril bu ni sgrogs pa'i rgyu yin pas dril bus sgrogs so} nādasya kāraṇaṃ ghaṇṭeti ghaṇṭā rauti abhi.sphu.325kha/1219; rāvaḥ — tānārtarāvamukharān bhavilaḥ sārthanāyakaḥ \n uvāca a.ka.36.55; ālāpaḥ — {khu byug sgrogs pa'i skal bzang} kokilālāpasubhagāḥ kā.ā.2.351; pravyāharaṇam — yā ca daśabalapāramitā … yacca dharmacakrapravartanam… dharmaśaṅkhapravyāharaṇam a.sā.121ka/69; uccāraṇam — nairyāṇikatvam anityaduḥkhaśūnyānātmaśabdoccāraṇatayā ra.vi.124ka/103; kūjitam — ākarṇya karuṇākrandaṃ kurarīkūjitopamam a.ka.3.128; gītiḥ — maṇḍalīkṛtya varhāṇi kaṇṭhairmadhuragītibhiḥ kā.ā.1.70 \nii. avaghoṣaṇā, pratijñā — avaghoṣaṇeti pratijñā ta.pa.244kha/204 \n\n• vi. nādī — {seng ge'i sgra sgrogs} siṃhanādanādī ma.vyu.685; nirnādī — {cher sgrogs} mahānirnādī ma.vyu.3339; kathikaḥ — {chos sgrogs pa} dharmakathikaḥ ma.vyu.2763.45Sanskrit: knūyitṛ <Word/Term/Phrase>\n\n\nTibetan renderings of knūyitṛ: {sgrogs pa/}\n\nmfn. stinking, Pāṇ. 3–2, 152; Kāś.\nCf. “knūy cl.\n 1. Ā. knūyate (ind.p. knoyitvā, Vop. xxvi, 207), to be wet, Dhātup. xiv, 14; to make a creaking sound, ib.; to stink, L.: Caus. P. knopayati (Pāṇ. 7–3, 36 and 86), to make wet, Nir. vii, 14 (Sāy. on RV. i, 1, 1).”\n\nSee the full entry at:https://www.itlr.net/hwid:892944
+43kri. nadati — buddhāstu… parṣadi siṃhanādaṃ samyageva nadanti ta.pa.323kha/1114.
+8preach42udgata
+36<person> Proclaiming Friend37<person> Proclaiming Friend: Foremost in terms of miraculous abilities among the followers of the buddha Meruraśmi. (Original glossary entry: https://84000.co/glossary/entity-25097.html)
+36<person> Vinarditarāja37<person> Vinarditarāja (Skt: vinarditarāja): One of the hundred names prophesied by the Buddha Ratnagarbha for 2, 500 buddhas, presumably the name of twenty-five of those buddhas. (Original glossary entry: https://84000.co/glossary/entity-42906.html)39<person> vinarditarāja
+0proclaim; declare; shout forth16[C]niśāmayātī22[C]preach43kri. anuśrāvayati — bhaumā yakṣāḥ śabdamudīrayanti, ghoṣamanuśrāvayanti a.śa.210kha/984; kīrtayati — ṛddho'pi ca pareṣāṃ na marmāṇi kīrtayati bo.bhū.135kha/174.
+421) kolāhala 2) vādayat43= {sgrogs par byed/}
+36<term> monk crier37<term> monk crier (Skt: udghoṣako bhikṣuḥ): The monk who makes announcements to the saṅgha. This chapter contains the lone appearance of the term “monk crier” in the Tibetan Mūlasarvāstivāda Vinaya canon. (Original glossary entry: https://84000.co/glossary/entity-46837.html)39<term> udghoṣako bhikṣuḥ
+2is hard to express
+43kri. nadati — {seng ge'i sgra sgrogs par mdzad} siṃhanādaṃ nadati abhi.sphu.265kha/1083; dra.— {sgrogs pa yin/} {sgrogs par byed/}
+24na vivṛnoti. na-kīrtayati
+2CM: tshogs 'du'i thog yig rigs sgrobs sbyangs byed pa. [mss]9tshogs 'du'i thog yig rigs sgrogs sbyang byed pa26{tshogs 'du'i thog yig rigs sgrogs sbyang byed pa/}55{tshogs 'du'i thog yig rigs sgrogs sbyang byed pa/}
+42kvaṇanti
+44Also abbreviated as {sgrogasu}. (Source: Dzongkha abbreviations)
+43kri. avaghoṣaṇaṃ kāraya — bhavantaḥ sarvavijite ghaṇṭāvaghoṣaṇaṃ kārayata vi.va.155kha/1.43.
+8scream43= {rdo rje} dambholiḥ, vajram — śatakoṭiḥ svaruḥ śambodambholiraśaniḥ a.ko.1.1.48.
+0liberate; save; free; release2imp. of {sgrol ba}; p. {bsgral} 1) to free, deliver, delivering, liberation, save, liberate, set free, cross over. 2) to pass, to cross, transport. 3) destroy. 4) protecting7Comment: This is the transitive form; grol is intransitive form.8destroy, slaying rituals9p {bsgral},, 1) free, deliver[ing], liberate[tion], save; 2) pass, cross [over], transport; 3) destroy; 4) protect16[LCh]tṛ21{bsgral/ sgrol/ bsgrald/ sgrold/}26{sgrol ba'i sul tshig sgrol dkar/ tshe lha zhig ste sgrol dkar yid bzhin 'khor lo/}27Present: {sgrol} KYT, KYN, TD, LZ, CD, DK, DS, TC. \nPast: {bsgral} KYT, CD, DS, TC.{bsgrald} KYN, TD, LZ, DK. \nFuture: {bsgral} KYT, KYN, TD, LZ, CD, DK, DS, TC. \nImperative: {sgrol} KYT, KYN, DS, TC. {sgrold} TD, LZ, DK.\nVoluntary: KYT, KYN, TD, DS, TC, (Hoshi 2003).\nTransitive: DS, TC.\nSyntax: [Erg. Abs.] (Hackett 2003).\nCausative of: {grol} (Gyurme 1992: 259). {rgal} [Beyer 1992: 85]\nCharacteristic Example: {dgra dang 'khor ba} TD, {dgra bo dang 'khor ba sogs las} LZ.\nMeaning: To save, rescue, deliver; to set free; to liberate CD. To save, rescue; to set free; to liberate DK. 1. To set free from (fear &c.). 2. To sentence to death DS. To liberate, to free, to deliver, to release, to cross over TC.32{(byed 'brel las tshig da lta ba dang skul tshig) 1 'jigs pa sogs las thar bar byas pa'i don te/ chu la bying ba'i mi chu las sgrol mkhan/ dbul bo sdug bsngal las sgrol mkhan/ 'jigs pa las sgrol cig lta bu/ (bsgral) ni ma 'ongs pa dang 'das pa ste/ sdug bsngal las bsgral dgos/ chu bo las bsgral bya'i mi/ byis pa zhig chu bo las bsgral nas rang srog btang lta bu/} 2. {gsod khrims bcad pa'i don/}36<term> liberate38Synonyms: {grol ba}, {grol}, {rnam grol}, {thar bar 'gyur}, {thar bar byas}39<term> vimukti421) tara 2) tārā 3)431. kri. ({sgrol ba} ityasyāḥ vidhau) tāraya {sdug bsngal las sgrol} duḥkhāt tāraya ba.vi.171kha; = {sgrol cig} 2. = {sgrol ba/}46(TR) to rescue\nv1 {sgrol} v2 {bsgral} v3 {bsgral} v4 {sgrol}55{sgrol ba'i skul tshig} {'jigs pa sogs las thar bar byas pa'i don te/} {chu la bying ba'i mi chu las sgrol mkhan/} {dbul po sdug bsngal las sgrol mkhan/} {'jigs pa las sgrol cig lta bu/}
+9depending on ko ba [hide boat/ boatmen] and boat/ship cross and get over water26{ko ba dang gru la brten nas chu las sgrol zhing 'don pa/}55{ko ba dang gru la brten nas chu las sgrol zhing 'don pa/}
+43= {sgrol bar 'gyur/}
+42uttarati43= {sgrol bar 'gyur/}
+0liberate; save; free; release2{sgrol ba, bsgral ba, bsgral ba, sgrol} tha dad pa; 1a) freedom, liberation, 1b) to liberate. to rescue, deliver, save; 2) Gana/ liberation of evil-doers; rites of deliverance; liberation offering2to carry across; {'khor ba'i chu bo las sgrol ba} to carry across the river of cyclic life2to free8loosen, deliver, save, rescue, set free, transport, carry, cross by boat, remove, expel, drive away, rites of deliverance, magical rituals employed to slay other beings, rites of elimination of evil entities9(tha dad pa bsgral ba, bsgral ba, sgrol,, 1) liberate, bring out, set free, rescue, deliver; 2) kill, execute, * destroy; 3) expel; 4) [arch] Skol ba [boil?]; 5) Zhu ba [melt?]; 6) liberation offering10skol ba dang zhu ba la 'jug. Btsan-lha.11{bsgral ba} to liberate16[C]nistārayitṛ; [MSA]uttāraṇa21{bsgral/ sgrol/ bsgrald/ sgrold/}22[C]one who has finished with23uttaraṇam26{(tha dad pa) bsgral ba/ bsgral ba/ sgrol//}1) {thar bar byed pa'am 'don par byed pa/ srog gi 'dzid pa las sgrol bar byed/ btson khang las sgrol ba/ chu bo las bsgral te 'gram ngogs su bton/} 2) {gsod khrims bcod pa'am gsod par byed pa/ gnod byed thams cad sgrol bar byed/} 3) {ring du skrod pa'i 'bud par byed pa/ dgra bo rnams pha rol tu sgrol ba/} 4) {(rnying) }1. {skol ba/ }2. {zhu ba/}43• kri. (varta.; saka.; bhavi., bhūta. {bsgral ba/} vidhau {sgrol}) uttarati — tatpunaḥ hetubhāvena sat phalabhāvenāsat guṇottāraṇārthena gotraṃ veditavyam, guṇā uttaranti asmād udbhavantīti kṛtvā sū.a.137kha/11; uttārayati — sarvasattvabhārāṃśca sahate uttārayati vā śi.sa.104ka/103; tārayasi — tīrṇa tārayasi sattvakoṭiyo mukta mocayasi bandhanājjagat rā.pa.230kha/123; tārayate — sā tārā tārayate jantūm ma.mū.273ka/428 \n\n• saṃ. 1. taraṇam — sukṛtasacivaḥ sattvotsāhaḥ pravāsasakhī dhṛtiḥ viṣamataraṇe vīryaṃ seturvipadyadhikā kṛpā a.ka.19. 140; tāraṇam — parārthasampat jagattāraṇāt tāyitvam pra.a.3.2/1; uttāraṇam — tatpunaḥ hetubhāvena sat phalabhāvenāsat guṇottāraṇārthena gotraṃ veditavyam sū.a.137kha/12; santāraṇam — sarvasattvasantāraṇodyataḥ a.ka.4.115; niṣkṛtiḥ — tulyaṃ pituśca arhatasya vadhe kā mama niṣkṛtiḥ a.ka.40.108 \n\n• pā. pratāraṇi, raśmiviśeṣaḥ — {des na sgrol ba'i 'od zer grub par 'gyur} tena pratāraṇi raśmi nivṛttā śi.sa. 179ka/177 \n\n• vi. tārayitā — {sems can ma rgal ba rnams sgrol ba} atīrṇānāṃ sattvānāṃ tārayitā a.śa.3ka/2; tārakaḥ mi.ko.84kha; santārakaḥ — kuśalasantārakavirahitā anāthā da.bhū.191kha/17; tāriṇī — tāriṇī sarvabhūtānāṃ naukeva kṣemagāminī pra.vi.5.3; tāraṇī — {'phags pa 'jigs pa chen po brgyad las sgrol ba zhes bya ba'i gzungs} āryāṣṭamahābhayatāraṇīnāmadhāraṇī ka.ta.931.48{skol ba dang zhu ba la 'jug ste/} 《{brda yig blo gsal mgrin rgyan}》{las/ sgrol ba ni bskol ba'i don/ zhes gsungs/} 《{rab byung gi gzhi}》{las/ bcud thams cad mar dang sgrol cig ces pa lta bu'o/ /}55〔{tha dad pa}〕 (1) {bsgral ba/} {bsgral ba/} {sgrol/} (2) {thar bar byed pa'am 'don par byed pa/} {srog gi 'jigs pa las sgrol bar byed/} {btson khang las sgrol ba/} {chu bo las bsgral te 'gram ngogs su bton/} {gnod byed thams cad sgrol bar byed/} {ring du skrod pa'am 'bud par byed pa/} {dgra bo rnams pha rol tu sgrol ba/} (3) {gsod khrims gcod pa'am gsod par byed pa/} (4) 〔{rnying}〕 {skol ba/} {zhu ba/}
+49{de yang / chos thams cad kyi rang bzhin mnyam pa nyid rnam par spros pa ting nge 'dzin gyi rgyal po'i mdo las byung ba ste/} (Source: 《{mdo ta pa }》{sha }124{ba }6{las btus/}).
+42uttaraṇa43pā. uttaraṇam, śaraṇaparyāyaḥ ma.vyu.1751.
+8deliverer, savior23tārakaḥ42tāraka43vi. tārakaḥ ma.vyu.416.52(Skt. tārakaḥ) he who carries one safely to the other shore
+2syn. bsgral ba'i zhing bcu; the ten subjects to be liberated, the ten subjects suitable for liberation, acc. to the {phur pa khrag 'thung rtsa ba'i rgyud} they are: 1) those who slander or dishonour the three jewels, 2) those who cause harm to the buddhist faith, 3) those who steal or misappropriate the property of the sangha, 4) those who slander the great vehicle, 5) those who endanger or cause harm to the life or body of the guru, 6) those who cause dispute among the sangha, 7) those who cause hindrances towards the attainment of accomplishment, 8) those who damage or break their samaya, 9) those who are devoid of compassion and spread perverted views and 10) those who cause obstacles to those who strive in religious practice
+8lord of final deliverance42muktasvāmin, mukteśvara
+2the siddhi of liberating
+2the ferryman who carried us across
+9boat's oar's26{(mngon) gru'i skya ba/}55〔{mngon}〕{gru'i skya ba/}
+9long life deity sgrol dkar yid bzhin 'khor lo
+42pratārayiṣyasi43= {sgrol 'gyur} kri. 1. (varta.) tarati — tām… tarati puṇyavān a.ka.6.77; uttarati — kṛtvāpi pāpāni… sudāruṇāni… bodhicittasya āśrayād… uttarati nistarati bo.pa.10 2. (bhavi.) tariṣyasi — tariṣyasi bhavāmbodhim a.ka.24.49; samuttariṣyati — kaḥ punarvādo yo lokān samuttariṣyati lokottarayā prajñayā su.pa.24ka/4; tārayiṣyasi — anyāṃ sattvāṃ mahoghena… tārayiṣyasi la.vi.171kha/259; pratārayiṣyasi — pratārayiṣyasi tvaṃ… mahābhayasamudrāt su.pra.23kha/46.
+43= {sgrol bar 'gyur/}
+2{sems can rnams yang dag par sgrol bar 'os pa} capable of liberating all beings
+43uttāraṇam — uttāraṇaṃ ca tiryagyonigatānām kā.vyū.230kha/293.
+43= {sgrol bar byed pa/}
+421) tarī 2) tāraka43• kri. tāryate — yatra vāyubhiḥ \n majjanonmajjanaiḥ jantuḥ saptāvarteṣu tāryate a.ka.6. 70; uttārayati — uttārayati saṃsāraduḥkhamahārṇavāt bo.pa.6; santārayati — santārayanti janatāṃ bhavasāgaraughāt rā.pa.233kha/127 \n\n• saṃ. taraṇam — nṛṇāṃ bhūbhṛtsevā jaladhitaraṇaṃ hemakaraṇaṃ… akhilaṃ bhojanaphalam a.ka.91.16; uttaraṇam — durgatyuttaraṇe setuḥ bo.a.3.30 3. = {sgrol byed/}
+11liberating sublime knowing/ wisdom/ transcendent knowledge
+43= {sgrol bar mdzad pa/}
+43= {sgrol mdzad} \n\n• kri. tārayasi — tīrṇa tārayasi anyaprāṇino dāśabhūta sugatā namo'stu te la.vi.31ka/41 \n\n• vi. mocakaḥ — {dbul ba'i sdug bsngal sgrol bar mdzad} dāridraduḥkhamocakaḥ sa.du.169/168.
+51{rje dge 'dun grub kyis mdzad pa'i sgrol ma'i bstod pa legs bris ma zhes grags pa de'o/ /}
+2liberating8deliverer, boat, ship9liberating; liberating, sun23tārakaḥ26{(mngon) nyi ma/}431. tārakaḥ \ni. pā. śaraṇaparyāyaḥ ma.vyu.1750 \nii. = {gru} potaḥ — utpāṭya gāḍhabaddhasya sa tasya nayanāmbujam \n taṃ tārakaṃ bhayāmbhodhau cakāra gatatārakam a.ka.31.20; plavaḥ — uḍupaṃ tu plavaḥ kolaḥ a.ko.1.12.11 \niii. nā. asuraḥ — {sgrol byed 'dul} tārakajit a.ko.1.1.41 2. = {nyi ma} taraṇiḥ, sūryaḥ — dyumaṇistaraṇimitraścitrabhānurvirocanaḥ a.ko.1.3.30 3. = {rgyu skar} tārakā, nakṣatram mi.ko.32kha \n52(Skt. tārakaḥ) a savior55〔{mngon}〕{nyi ma/}
+43= {gdong drug} tārakajit, kārtikeyaḥ a.ko.1.1.41; tārakāsuraṃ jayatīti tārakajit a.vi.1.1.41.
+43= {sgrol byed/}
+2Tara practice9[4 mandala] Tara ritual47{rje btsun sgrol ma la brten pa'i maN+Dal bzhi pa'i cho ga/}55{rje btsun sgrol ma la brten pa'i maN+Dal bzhi pa'i cho ga}
+43kri. uttārayatu — uttārayantu bhavanto māmimāṃ nadīm a.śa.77kha/68.
+2White Tara; [deity] White Tara, the Savioress, Sitatara; White Tara8white tara, goddess, personal female name9[deity] White tara, the savioress, sitatara42sitatārā43= {sgrol ma dkar mo/}47{tshe lha zhig ste sgrol dkar yid bzhin 'khor lo/}52(Skt. Sita Tārā) Sita Tārā53{tshe lha zhig ste/ tshe lha rnam gsum gyi ya gyal/ tshig 'di gsar du bcos pa yin/}55{tshe lha zhig ste sgrol dkar yid bzhin 'khor lo/} {sgrol ma dkar mo/}
+52(Skt. Sita Tārā (Ba ri lo tsā ba)) Sita Tārā in the tradition of Ba ri lo tsā ba
+51{yongs grags kyi spyan gnyis la 'grel bshad dmigs bsal ma mthong la/ dpral ba'i dbus kyi spyan ni ye shes kyi spyan dang / phyag zhabs kyi mthil gyi spyan bzhis rnam thar sgo bzhi mtshon par/ paN chen blo bzang chos kyi rgyal mtshan gyi sgrol dkar sgrub thabs na gsal/}
+42° sitatāra52(Skt. Sita Tārā (Great Paṇḍita of Kashmir)) Sita Tārā in the tradition of the Great Paṇḍita of Kashmir
+42ṣaḍbhuja sitatārā
+2white Tara of the seven eyes
+2Wishfulfilling Wheel of White Tara
+2by {'on rgyal sras skal bzang thub bstan}
+2Wishfulfilling Wheel of White Tara; White Tara9wish fulfilling mandala of white tara42cintāmaṇicakra sitatārā
+52(Skt. Cintāmaṇi Sita Mahākāla) Cintāmaṇi Sita Mahākāla
+2pure-vision terma of {'bri gung chos rgyal rin chen phun tshogs}
+8arrange
+2killer Gings
+2[ritual sword of deliverance
+8path of liberation
+42śyāmatārā
+2Shyamatara, green Tara8green tara, personal name9Shyamatara, Green Tara26{sku 'dog ljang gu yin pa'i rje btsun sgrol ma/}43=(nā.) śyāmatārā, devī lo.ko.569.47{sku mdog ljang gu yin pa'i rje btsun sgrol ma/}52(Skt. Śyāma Tārā) Śyāma Tārā55{sku mdog ljang gu yin pa'i rje btsun sgrol ma/}
+42° śyāpatārā52(Skt. Śyāma Tārā (Great Paṇḍita of Kashmir)) Śyāma Tārā in the tradition of the Great Paṇḍita of Kashmir
+42tārāmaṇḍalavidhi
+0Tārā; liberatrix21) [deity] Tara, the Savioress, Goddess Tara [mother who saves us from the suffering of worldly existence]. 2) the consort of Amoghasiddhi2Tara2Tara. The Savioress, She who Takes (beings) Across (the Ocean of Samsara)8tara (yab is don yod grub pa), SA sgrol ma dkar po, sgrol ma ljang gu, khro gnyer can ma, ral gcig ma, ku ru ku le SA thar byed dril bu ljang mo, (names include om mdzad, rgyal yum, mchog gi ma, myur skyob, 'jig rten dbang sras mo, dbang sras mo, zhi ma phongs skyob, legs byin ma, chos kyi dpal mo)9Tara; 1) [deity] Tara, the savioress16tārā21{bsgral/ sgrol/ bsgrald/ sgrold/}23tārā26{(tArA) 'jigs pa brgyad las sgrol ba'i cha nas btags pa'i yi dam lha mo'i rigs shig ste/ nang gses su sku mdog dang phyag mtshan mi 'dra ba brten nas dbye ba nyer gcig sogs phye yod/ ming gi rnam grangs la rgyal yum dang/ chos kyi dpal mo/ mchog gi ma/ 'jig rten dbang phyug sras mo/ myur skyob/ phongs skyob/ zhi ma legs byin ma/ oM mdzad bcas so/}29{sangs rgyas chos lugs kyi yi dam lha mo zhig ste/rgyal ba kun skyes pa'i yum yin zhes zer/'di la yongs grags su sgrol ljang dang sgrol dkar zhes mi 'dra ba gnyis yod/lha tshogs nyer gcig las jo bo rje'i lugs la tshang ma zhal gcig phyag gnyis dang/sgrub thob nyi ma sbas pa'i lugs la sna tshogs yod}36<term> Tārā37<term> Tārā (Skt: tārā): \n1) A goddess whose name can be translated as “Savior.” She is known for giving protection and is variously presented in Buddhist literature as a great bodhisattva or a fully awakened buddha.\n2) The Buddhist goddess of compassion.\n3) Lit. “the Saviouress.”\n4) Lit. “Savior.” Though often described as a goddess known for giving protection, she is variously presented in Buddhist literature as a great bodhisattva or a fully awakened buddha.\n5) Female bodhisattva of compassion; the chief goddess of the activity family, personifying the true nature of the element wind; one of the five goddesses personifying the five “hooks of gnosis.”\n6) A female deity (lit. “Deliverer”) known for giving protection. She is variously presented in Buddhist literature as a great bodhisattva or a fully awakened buddha.\n7) Female bodhisattva of compassion; also one of the vidyārājñīs dwelling with Śākyamuni in the realm of the Pure Abode.\n8) A goddess (lit. “Savior”) known for giving protection. She is variously presented in Buddhist literature as a great bodhisattva or a fully awakened buddha.\n9) A vidyā queen (vidyārājñī), Tārā is more generally regarded as a deity from the Buddhist pantheon known for bestowing her protection.\n\n(Original glossary entry: https://84000.co/glossary/entity-36756.html)\n\nSynonym: {tA ra}38Synonym: {tA ra}39<term> tārā421) ulkā 2) tāraṇī 3) tārā 4) tāriṇī43• nā. tārā, vidyā — vidyā tārāpāṇḍarāmāmakīlocanā iti vi.pra.55kha/4.95; vidyārājñī — tārā sutārā… candrā sucandrā candrāvatī ceti \n etaiścānyaiśca vidyārājñībhiḥ ma.mū.96ka/7; tāraṇī — ekāreṇa locanādevī vaṃkāreṇa māmakī smṛtā \n makāreṇa pāṇḍurā ca yākāreṇa tāraṇī smṛtā he.ta.2kha/4 \n\n• vi. uttāriṇī — {ngan song las sgrol ma'i sgrub thabs} durgatyuttāriṇīsādhanam ka.ta.3502.44Also abbreviated as {sgroMl}. (Source: Dzongkha abbreviations)46(PN) Sgrol-ma (Skt. Tārā)47({tArA}){'jigs pa brgyad las sgrol ba'i cha nas btags pa'i yi dam lha mo'i rigs shig ste/ nang gses su sku mdog dang phyag mtshan mi 'dra bar brten nas dbye ba nyer gcig sogs yod/ ming gi rnam grangs la rgyal yum dang / chos kyi dpal mo/ mchog gi ma/ 'jig rten dbang phyug sras mo/ myur skyob/ phongs skyob/ zhi ma/ legs byin ma/ oM mdzad bcas so//}52Tārā52(Skt. tārā) the (female) deliverer, the (she) deliverer, saver transporter55〈{tArA}〉{'jigs pa brgyad las sgrol ba'i cha nas btags pa'i yi dam lha mo'i rigs shig ste/} {nang gses su sku mdog dang phyag mtshan mi 'dra bar brten nas dbye ba nyer gcig sogs phye yod/} {ming gi rnam grangs la rgyal yum dang /} {chos kyi dpal mo/} {myur skyob/} {phongs skyob/} {zhi ma/} {legs byin ma/} {oM mdzad bcas so/ /}
+36<term> The Arising of Tārā39<term> tārodbhava
+36<term> The Meditative Absorption of Tārā39<term> tārāsamādhi
+36<text> Tārā Who Protects from the Eight Dangers37<text> Tārā Who Protects from the Eight Dangers (Skt: Tārāṣṭaghoratāraṇī): Toh.731 (Read the text at: https://84000.co/translation/toh731#UT22084-094-008-100)39<text> Tārāṣṭaghoratāraṇī
+42tārāṣṭadhoratāraṇīsūtra
+2the Tara who saves from the eight fears9Tara protecting from the 8 dangers26{seng ge dang/ glang chen/ me sburul/ rkun po/ lcags sgrog chu/ sha za bcas kyi 'jigs pa brgyad las skyob pa'i sgrol ma/}29{rje btsun sgrol mas nyon mongs dug gsum dang/nga rgyal/phrag dog /ser sna/the tshom/log lta bcas kyi mtshon rtags te/chu dang/me/glang chen/seng ge /sbrul/lcags sgrog /sha za/rkun po bcas kyi 'jigs pa chen po brgyad las skyob pa'i sgrol ma}47{seng ge dang / glang chen/ me/ sbrul/ rkun po/ lcags sgrog chu/ sha za bcas kyi 'jigs pa brgyad las skyob pa'i sgrol ma/}491. {'dod chags/} (Source: 《{dung dkar tshig mdzod chen mo }》{sha }739.7{las btus/}).53{seng ge dang / glang chen/ me/ sbrul/ rkun po/ lcags sgrog chu/ sha za bcas kyi 'jigs pa brgyad las skyob pa'i sgrol ma/}55{seng ge dang /} {glang chen/} {me/} {sbrul/} {rkun po/} {lcags sgrog} {chu/} {sha za bcas kyi 'jigs pa brgyad las skyob pa'i sgrol ma/}
+10pan chen blo bzang chos kyi rgyal mtshan gyis / gtso bo dmag zor ma / ma cig dpal gyi lha mo / ma cig rdo rje rab brtan ma / lha mo dud sol ma / lha mo phyag bzhi ma / lha mo dus mtshan ma / rang byung rgyal mo / lha mo nam mkha'i gos can / lha mo nam gru ma / lha mo tsantri ka / lha mo e ka dza ti dang bcu gcig / bcu gnyis pa der mi gsal bas / kha cig ma cig rdo rje gshog rgod ma yin zer / kha cig la stod a phyi chos kyi sgron ma yin zer / gong gi de rnams ngos 'dzin mdzad pa e wam las 'byung ngo // bka' gdams pa rang gi mtshan gsol ba ni / gser mtsho ma / 'od mtsho ma / bstan skyong ma / yid 'dzin ma / stobs po che / drag shul can / khrag mdog ma / dud kha ma / thogs med ma / shugs can ma / dbang sdud ma / las 'joms ma dang bcu gnyis zer ro. 600 157-159.
+42sukhasādhanatārā52(Skt. Sukhasādhana Tārā) Sukhasādhana Tārā
+42mārasūdanatārā
+36<person> Sutārā37<person> Sutārā (Skt: sutārā): One of the vidyārājñīs dwelling with Śākyamuni in the realm of the Pure Abode. (Original glossary entry: https://84000.co/glossary/entity-12347.html)39<person> sutārā
+8maha tara, great goddess42mahātārā43= {sgrol ma chen mo/}
+43=(nā.) mahātārā, devī — {sgrol ma chen mo'i sgrub thabs} mahātārāsādhanam ka.ta.3483.
+42mahātārāsādhana
+43= {sgrol dkar} (nā.) sitatārā, devī — {sgrol ma dkar mo'i sgrub thabs} sitatārāsādhanam ka.ta.3204.53{sgrol dkar dang don gcig tshig 'di gsar du bcos pa yin/}
+42ṣaḍbhujaśuklatārāsādhan
+42tārā
+2samadhi of White Tara9sadhana of White Tara421) śuklatārāsādhana 2) sitatārāsādhana
+8sitatara, white, chinese princess, yab is spyan ras gzigs
+42tārā
+2Tara mandala
+8red sgrol ma
+42tārā52(Skt. Rakta Tārā (Sakya)) Rakta Tārā in the Saskya tradition
+42° rakta tārā
+52(Skt. Siddhisambhava Tārā) Siddhisambhava Tārā
+42siddhisaṃbhavatārā
+42tārāmahāśrī
+43=(nā.) ugratārā, devī — {'phags ma sgrol ma drag mo'i sgrub thabs zhes bya ba} āryogratārāsādhananāma ka.ta.1727.
+36<person> Bell Tārā37<person> Bell Tārā: A wrathful form of the goddess Tārā. (Original glossary entry: https://84000.co/glossary/entity-36605.html)
+43=(nā.) jāṅghulītārā, devī — {sgrol ma dug sel ba'i sgrub thabs} jāṅgulītārāsādhanam ka.ta.3206.
+42jāṃgulītārāsādhana
+43= {sgrol ma dug sel ba/}
+42kanakavarṇā tārā
+9a deity
+2a Tara statue who spoke
+2the Tara who wards off invasions47{rje btsun sgrol ma la brten nas bar chad kyi g.yul ngo zlog pa'i cho ga/}55{rje btsun sgrol ma la brten nas bar chad kyi g.yul ngo zlog pa'i cho ga}
+42aparājitā tārā
+42hūṃsvaranadinītārā
+2Wrathful-Frowning Tara2wrathful Tara42bhṛkuṭitārā43=(nā.) bhṛkuṭitārā, devī śa.ko.495; dra.— {khro gnyer can/}
+43=(nā.) ugratārā, devī — {sgrol ma khro mo la rtsa ba'i sngags kyis bstod pa} ugratārāmūlamantrastotranāma ka.ta.1725.
+42ugratārāmūlamantrastotra
+42kālī kruddhatārā42tārā
+42tārā
+42tārākurukullestotra
+42tārākurukullekalpa
+2the praise through homage / salutation to the twenty-one Taras36<text> Praise to Tārā with Twenty-One Verses of Homage37<text> Praise to Tārā with Twenty-One Verses of Homage (Skt: Namastāraikaviṃśatistotra): Toh.438 (Read the text at: https://84000.co/translation/toh438#UT22084-081-007-100)39<text> Namastāraikaviṃśatistotra
+42namastāre ekaviṃśatistotra guṇahitasahita
+42tārodbhavakurukullāsādhana
+36<person> Hook Tārā37<person> Hook Tārā: A wrathful form of the goddess Tārā. (Original glossary entry: https://84000.co/glossary/entity-36602.html)
+36<person> Shackles Tārā37<person> Shackles Tārā: A wrathful form of the goddess Tārā. (Original glossary entry: https://84000.co/glossary/entity-36604.html)
+2Netang Drölma Lhakang; Netang Drölma Lhakang was the main residence of Jowo Atisha in Tibet, and the place where he died in 10549Jowo Atisha's residence55{lha khang 'di cung gna' bo'i dus nas bzhengs pa rjes su dge lugs par bsgyur/} {da lta grub mtha' dge lugs pa yin/} {bod rang skyong ljongs mnga' ris khul rtsa mdza' rdzong khongs su yod/}
+42tārādevīpañcasādhana
+2Tara Goddess. 'Divine Savioress.' A important female bodhisattva of compassion, the one who takes beings across the ocean of samsara. There are twenty-one forms of Tara while the most popular are the white and green Taras
+8syamatara, green, nepalese princess
+42tārāgraprāpti
+8the wealth giver42dhanada tārā43=(nā.) = {nor sbyin ma} dhanadatārā, devī — {sgrol ma nor sbyin ma'i sgrub thabs} dhanadatārāsādhanam ka.ta.3207.52(Skt. Dhanada Tārā) Dhanada Tārā
+42dhanadatārāsādhana
+821 manifestations of goddess sgrol ma
+51{sgrol ma phyag 'tshal nyer gcig gi bstod pa (} {oM rje btsun ma 'phags ma sgrol ma la phyag 'tshal lo} {)zhes bya ba 'di dang / de'i phan yon (} {lha mo la gus ma} {)gnyis po 'di/ sangs rgyas nyid kyis rje btsun sgrol ma la bstod pa mdzad pa'i rgyud kyi gzhung tshig yin/ 'di rgyud 'bum (} {ca} {)pa 42ba3na bzhugs shing / mjug byang du/ bcom ldan ma sgrol ma la yang dag par rdzogs pa'i sangs rgyas kyis bstod pa gsungs pa rdzogs so/ /zhes gsungs so/ /rje dge 'dun grub kyi sgrol ma'i TIka las 'di de bzhin gshegs pa thams cad kyi yum sgrol ma la bstod pa zhes bya ba'i rgyud le'u sum cu rtsa lnga yod pa'i le'u gsum pa la phyag 'tshal nyi shu rtsa gcig ma 'di gsungs so/ /zhes gsungs/}
+51{sgrol ma'i TIka la gzigs/}
+9the 21 Taras47{myur dpa' ma dang / khro ba dkar ma/ gser mdog can ma/ gtsug tor rnam rgyal ma/ hUM sgrogs ma/ 'jig rten gsum rgyal ma/ gzhan 'joms ma/ bdud dag 'joms ma/ dkon mchog gsum mchod ma/ bdud dbang sdud ma/ phongs pa kun sel ma/ me ltar 'bar ma/ khro gnyer can ma/ bkres 'byin ma/ zhi ba chen mo/ rims nad kun sel ma/ dngos grub kun stsol ma/ dug sel ma/ sdug bsngal kun sel ma/ rig pa hUM sgrol ma/ 'jig rten gsum g.yo ma bcas nyer gcig go/}53{myur dpa' ma dang / khro ba dkar ma/ gser mdog can ma/ gtsug tor rnam rgyal ma/ hUM sgrogs ma/ 'jig rten gsum rgyal ma/ gzhan 'joms ma/ bdud dag 'joms ma/ dkon mchog gsum mchod ma/ bdud dbang sdud ma/ phongs pa kun sel ma/ me ltar 'bar ma/ khro gnyer can ma/ bkres 'byin ma/ zhi ba chen mo/ rims nad kun sel ma/ dngos grub kun stsol ma/ dug sel ma/ sdug bsngal kun sel ma/ rig pa hUM sgrol ma/ 'jig rten gsum g.yo ma bcas nyer gcig go/ tshig 'di gsar du bcos pa yin/}55{myur dpa' ma dang /} {khro ba dkar ma/} {gser mdog can ma/} {gtsug tor rnam rgyal ma/} {hU~M  sgrogs ma/} {'jig rten gsum rgyal ma/} {gzhan 'joms ma/} {bdud dag 'joms pa/} {dkon mchog gsum mchod ma/} {bdud dbang sdud ma/} {phongs pa kun sel ma/} {me ltar 'bar ma/} {khro gnyer can ma/} {bkres 'byin ma/} {zhi ba chen mo/} {rims nad kun sel ma/} {dngos grub kun stsol ma/} {dug sel ma/} {sdug bsngal kun sel ma/} {rig pa hU~M sgrol ma/} {'jig rten gsum g.yo ma bcas nyer gcig go/}
+26{g khro ba dkar ma/ gser mdog can ma/ gtsug tor rnam rgyal ma/ hUm sgrogs ma/ 'jig rten gsum rgyal ma/ gzhan 'joms ma bdud ga 'joms ma/dkon mchog gsum mchod ma/ bdud dbang sdud ma/ phongs pa kun sel ma/ me ltar 'bar ma/ khro gnyer can ma/ bkres 'byin ma/ zhi ba chen mo/ rims nad kun sel ma/ dngos grub kun stsol ma/ dug gsel ma/ sdug bsngal kun sel ma/ rig pa hUm sgrol ma/ 'jig rten gsum g.yo ma bcas nyer gcig go /}
+42divāśāntarātrikruddha tārā52(Skt. Divāśāntarātrikrudha Tārā) Divāśāntarātrikrudha Tārā
+55{'debs mkhan dang btabs dus grub mtha' sogs gang yin ma gsal/} {jo mo'i dgon pa zhig yin/} {da lta bod rang skyong ljongs lho kha sa khul sna mkhar rtse rdzong khongs su yod/}
+29{rje btsun sgrol ma la sku'i rnam 'gyur mi 'dra ba zhal gcig phyag gnyis ma dang/zhal gsum phyag brgyad ma sogs nyi shu lhag tsam yod pa'i nang gses zhig }55{rje btsun sgrol ma la sku'i rnam 'gyur mi 'dra ba zhal gcig phyag gnyis ma dang /} {zhal gsum phyag brgyad ma sogs nyi shu lhag tsam yod pa'i nang gses zhig}
+42praphulla tārā52(Skt. Saṃkusumita Tārā) Saṃkusumita Tārā
+42prasannatārāsādhana
+43=(nā.) prasannatārā, devī — {sgrol ma rab tu dang ba'i sgrub thabs} prasannatārāsādhanam ka.ta.3261.
+42tārā
+42tārāsvapratijñā
+36<text> The Dhāraṇī “Tārā's Own Promise”37<text> The Dhāraṇī “Tārā's Own Promise” (Skt: Tārāsvapratijñādhāraṇī): \n1) Toh.1002\n2) Toh.730\n\n(Read the text at: https://84000.co/translation/toh730#UT22084-094-007-46)39<text> Tārāsvapratijñādhāraṇī
+51{'di'i skor tA ra nA tha'i rgya gar chos 'byung 163na bzhugs so/ /}
+55(2){'debs mkhan dang 'debs lo mi gsal/} {grub mtha' dge lugs pa yin/} {da lta bod rang skyong ljongs chab mdo sa khul brag g.yab rdzong khongs su yod/}
+42sitavijayatārā
+2Skt. Ugratara Mulamantra Stotra, T 1725 - Praises to Tara
+42duḥkhadahanatārā52(Skt. Duḥkhadahana Tārā) Duḥkhadahana Tārā
+42pītatārā52(Skt. Pīta Tārā) Pīta Tārā
+2Drölma Kyidzom, wife of Dakpo Drumpa
+42pācakatārā
+53{yi dam lha mo'i rigs shig}
+2pray to Tara!
+42cintāmaṇi tārā52(Skt. Cintāmaṇi Tārā) Cintāmaṇi Tārā
+42cintāmaṇitārāsādhana
+42paripūraṇa tārā52(Skt. Paripūraṇa Tārā) Paripūraṇa Tārā
+36<person> Lasso Tārā37<person> Lasso Tārā: A wrathful form of the goddess Tārā. (Original glossary entry: https://84000.co/glossary/entity-36603.html)
+9a deity
+8sgrol ma in mild aspect42tārikāśinī (?)
+42candrakānti tārā (?)
+42tārā
+42tārāmaṇḍalāvatārakṛtya
+42tārāguhyasādhana
+36<text> The Dhāraṇī of Tārā37<text> The Dhāraṇī of Tārā (Skt: Tārādhāraṇī): \n1) Toh.1001\n2) Toh.729\n\n(Read the text at: https://84000.co/translation/toh729#UT22084-094-006-44)39<text> Tārādhāraṇī
+51{oM tA re tut+tA re tu re swAhA zhes pa'i thad du gzigs/}
+42tārādhāvanavidhi
+53{bka' 'gyur nang gi sgrol ma'i bstod pa phyag 'tshal nyer gcig ma'i bsdus ming /}
+42kalpoktatārobhavakurukullesādhana
+42muktakena tārodbhavakurukullesādhana
+2Tara sadhana42tārāsādhana51{sgrol ma'i TIkar gzigs/}
+51{rgya gar gyi slob dpon tsan+d+ra go mis mdzad/ bstan 'gyur rgyud 'grel (} {mu} {)268ba3na bzhugs so/ /'di na sgrol mi 'dra ba brgya dang brgyad kyi sgrub thabs mdor bsdus re gsungs yod/}
+42tārāsādhanaśataka
+42tārāsādhanopadeśakrama
+51{1 sgrol ma'i sgrub thabs zhes bya ba sgrol ma rgya mtsho'i rgyud nas phyung ba 'phags pa klu sgrub kyis mdzad pa/ bstan 'gyur rgyud (} {sha pa} {)shog grangs 1nas 6bar bzhugs so/ /2 rje btsun ma 'phags ma sgrol ma spyi'i mngon par rtogs pa zhes bya ba 'phags pa klu sgrub kyis mdzad pa/ bstan 'gyur rgyud (} {sha pa} {)shog grangs 6na nas 6ba bar bzhugs so/ /3 lha mo sgrol ma'i bstod pa nyi shu rtsa gcig pa'i sgrub thabs zhes bya ba/ kha che'i paN+Di ta slob dpon nyi ma sbas pas mdzad pa/ bstan 'gyur rgyud (} {sha pa} {)6nas 10bar bzhugs so/ /'di'i nang sgrol ma nyer gcig so so'i sku mdog phyag mtshan sogs gsal bar gsungs yod/ 4. bcom ldan 'das ma sgrol ma la bstod pa nyi shu rtsa gcig pa'i sgrub thabs/ rje btsun lha mo mchog nyid kyi skus rjes su bzung ba'i slob dpon chen po kha che'i paN+Di ta slob dpon nyi ma sbas pas mdzad pa/ bstan 'gyur rgyud (} {sha pa} {)26ba nas 34yig phreng 5bar bzhugs so/ /slob dpon nyi ma sbas pas mdzad pa'i sgrol ma'i bstod pa nyer gcig pa'i sgrub thabs mi 'dra gong 'og gnyis ka yang phal cher 'dra ba la/ 'og mas rgyas par bshad yod do/ /5 lha mo sgrol ma nyi shu rtsa gcig la bstod pa rnam dag gtsug gi nor bu zhes bya ba/ slob dpon chen po sUr+Ya gup+ta'am nyi ma sbas pas mdzad pa/ bstan 'gyur rgyud (} {sha pa} {)35na nas 38ba bar bzhugs so/ /6 rgyal mchog sku phreng dang po rje dge 'dun grub kyis sgrol TIka rin chen phreng ba sgron ljang sgrub thabs dang bcas pa zhig 7. rgyal mchog sku phreng gnyis pa rje dge 'dun rgya mtsho'i sgrol ma phyag 'tshal nyer gcig gi rnam bshad/ 8. sa skya'i rje btsun grags pa rgyal mtshan gyi sgrol ma'i TI ka/ 9. jo nang tA ra nA tha'i sgrol ma'i TI ka/} ({'di tA ra nA tha'i gsung 'bum pod (} {na} {)par bzhugs}) {10 dngul chu d+harma b+ha dra'i sgrol mar phyag 'tshal nyer gcig gis bstod pa'i rnam bshad yid 'phrog ut+pala'i chun po/ 11 si tu pad+ma nyin byed kyis mdzad pas sgrol ma phyag 'tshal nyer gcig gi bstod pa'i rnam bshad gsal ba'i 'od zer zhes bya ba/}
+52(Skt. Tārā, Sudhanakumāra) Attendants: Tārā, Sudhanakumāra
+0liberate; save; free; release; untie; one who liberates/saves/frees/releases/unties21{bsgral/ sgrol/ bsgrald/ sgrold/}43= {sgrol bar mdzad pa/}
+43= {sgrol bar mdzad pa/}
+2who carries us across
+2to liberate9liberate
+42nistāraṇa
+43= {shing sgrol rgyu} tārāyaṇaḥ, vṛkṣaviśeṣaḥ — saptame saptāhe tathāgato tārāyaṇamūle viharati sma la.vi.182ka/276.
+36<term> tree of liberation38Synonym: {shing sgrol rgyu}39<term> tārāyaṇa
+8abbr of sgrol ma 'don rgyu and shes rab snying po9[4 mandala] Tara ritual and Heart Sutra26{sgrol chog dang shes rab snying po gnyis kyi bsdus tshig}47{sgrol chog dang shes rab snying po gnyis kyi bsdus tshig}53{sgrol chog dang shes rab snying po gnyis kyi bsdus tshig}55{sgrol chog dang shes rab snying po gnyis kyi bsdus tshig}
+8bon of magic power who knows how to perform the rites of destruction, 1 of shes pa bcu gnyis
+55{rab byung bzhi pa'i lcags khyi spyi lo 1250lor sgrub khang sngo bzang tshul khrims kyis btabs/} {grub mtha' dge lugs pa yin/} {da lta bod rang skyong ljongs nag chu sa khul a mdo rdzong khongs su yod/}
+55{me tog lug mig gi ming gi rnam grangs shig ste/} {de'u dmar dge bshes bstan 'dzin phun tshogs kyis mdzad pa'i gso rig skor gyi ming tshig nyer mkho'i don gsal las/} {nI lA ut+pal go slad dang /} {/a phyag sngon po rgyal ba'i spyan/} {/sgrol sngon stong 'khor lug skyes mig} {/ral gri'i 'khor lo 'dab stong ldan/} {/nI lA ut+pal ral gri ma/} {/'di dag lug mig ming yin no/ /}
+0liberate; save; free; release21{bsgral/ sgrol/ bsgrald/ sgrold/}
+2a leather box; box, chest, trunk, coffer, stand, rack, frame2chest one of {'bras bu'i rta babs brgyad}8stand, rack, frame, trunk, box, large leather box91) hollow, interior; 2) scaffold for working on building etc.; 3) box, chest, trunk, coffer; 4) stand, rack; 5) frame, outer structure10box. For different boxes containing gter ma, see 17 II 198. 'khor lo'i sgrom du shing rta tshud pas dal ba'i dbang myi 'ong bar gda' gsung. Zhi-byed Coll. II 176.2 (In an internal parallel, this reads sgrog, q.v.).261) {gsob bam khog mal sgrom/ rus sgrom/ bstan bcos kyi mgo sgrom/ khang sgrom/} 2) {khang pa rgyag skabs kyi las khri/ sgrom slong ba/} 3) {sgam/ mchod sgrom/ thab sgrom/ rin po che'i sgrom/ smyug sgrom/}32{sgam gyi ming gzhan nam mi shi ba'i bem ro 'jug pa'i sgam gyi ming ste/ pur sgrom zhes pa lta bu/ (sgrom pu) sgam chung ngu /}36<term> droṇa37<term> droṇa (Skt: droṇa): A measure of capacity or volume, and sometimes of weight, roughly equivalent to 5 liters or 9.5 kilograms. It can also be used to denote a vessel or container of that capacity, hence the Tibetan translation here sgrom, “box” or “chest,” which is a little misleading in the passage in this text. (Original glossary entry: https://84000.co/glossary/entity-35249.html)\n\nSynonyms: {bre}, {bre bo che}38Synonyms: {bre bo che}, {bre}39<term> droṇa421) piṭaka 2) peṭaka 3) peṭā 4) peṭī43= {sgrom bu} peṭā — vidita iva sulekho ratnapeṭeva muktā vivṛta iha sa dharmaḥ prītimagryāṃ dadhāti sū.a.130ka/2; peḍā — caturṇāṃ ratnānāṃ peḍā kṛtā, yatra prajñāpāramitā prakṣiptā a.sā.443ka/250; piṭakaḥ — piṭakaḥ peṭakaḥ peṭā mañjūṣā a.ko.2.10.29; droṇī — āyasīṃ ca tadā droṇīṃ bhittvā pādau vinirgatau ma.mū.298ka/463.\n0. jaghanam — {ma yi sgrom la chags gyur pa} jananījaghanāsaktiḥ a.ka.10.79.45Sanskrit: piṭaka <Word/Term/Phrase>\n\n\nTibetan renderings of piṭaka: {shing snod/}, {sgrom/}\n\na basket (from √piṭ in the sense of gathering together) or box\n\nSee the full entry at:https://www.itlr.net/hwid:49166046box, chest51{sgam dang sprog ma'i ming du bshad/}55(1) {gsob bam khog} {mal sgrom/} {rus sgrom/} {bstan bcos kyi mgo sgrom/} {khang sgrom/} (2) {khang pa rgyag skabs kyi las khri/} {sgrom slong ba/} (3) {sgam/} {mchod sgrom/} {thab sgrom/} {rin po che'i sgrom/} {rmyug sgrom/}
+2a small case, casket; casket, vessel, chest, box; a casket; a case, casket8small box, casket, vessel, casket91) small, casket, vessel, chest, box [eg for amulet/relic]; 2) spun bcug ste, phar 'then tshur 'tsen byed pa'i thag spyad10small box. lus kyi sgrom bu. 4 294r.5.261) {ga'u'am/ sgam chung/} 2) {spun bcug ste/ phar 'then tshur 'tshen byed pa'i thag spyad/}43= {sgrom} mañjūṣā — dhṛtvā tau vastrapihite mañjūṣe gūḍhamudrite \n gaṅgājale… kumārau cikṣipuḥ a.ka.68.61.45Sanskrit: peṭaka <Word/Term/Phrase>\n\n\nTibetan renderings of peṭaka: {sprog ma/}, {sgrom bu/}, {bang ba/}\n\nmf(ikā)n. (fr. piṭa, °ṭaka, q.v.) a little basket, casket, box … (cf. kośa-peṭaka , bhūṣaṇa-peṭikā)\n\nSee the full entry at:https://www.itlr.net/hwid:49187947{ga'u'am/ sgam chung /}55(1) {ga'u'am/} {sgam chung /} (2) {spun bcug ste/} {phar 'phen tshur 'then byed pa'i thags spyad/}
+29{rgyal po'i bka' yig dang phyag rten yod pa'i sgam chung}55{rgyal po'i bka' yig dang phyag rten yod pa'i sgam chung /}
+9the box mudra
+31chapin chart55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }chapin chart {zer/}
+8large box or chest
+8pompous, SA sgrob chen
+9of large size/ extent26{gzhi rgya che ba/ mi tshang de phyi sgrom chen po byas pa ma gtogs don la khrig khrig cig red/}55{gzhi rgya che ba/} {mi tshang de phyi sgrom chen po byas pa ma gtogs don la khrig khrig cig red/}
+2to put in a casket9put in a casket
+55{sgrom grwa tshang thos bsam dar rgyas gling /} {khyung shes sngags rams pas btabs/} {bla ma 'di'i 'khrungs 'das lo tshig dang /} {dgon pa nam btabs kyi dus tshig ma rnyed/} {sku phreng lnga pa dge 'dun bstan pa dar rgyas rab byung bcu drug pa'i lcags khyi spyi lo 1970lor sku gshegs par brtags na spyi lo'i dus rabs bco brgyad pa'i dus stod tsam du btabs yod par sems/} {grub mtha' dge lugs pa yin/} {da lta mtsho lho bod rigs rang skyong khul khri ka rdzong khongs su yod/}
+9kind of terma of material things, reliquary box of precious substance26{rdzas gter gyi bye brag cig ste/ gter nas gton pa'i rin po che gang rung las grub pa'i sgrom bu/}47{rdzas gter gyi bye brag cig ste/ gter nas bton pa'i rin po che gang rung las grub pa'i sgrom bu/}55{rdzas gter gyi bye brag cig ste/} {gter nas bton pa'i rin po che gang rung las grub pa'i sgrom bu/}
+31frame41(adm) framework {gnas khang ngam/dngas pa gang zhig gi rten byed cing de nyid kyi bza dbyibs sbyin par byed pa'i cha/yang na thag chod dang /bgro gleng byed skabs gzhi 'jag sa'i grub mtha' dang /lta ba/khrims kyi yig cha sogs/}55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }frame {zer/}
+31frame buffer55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }frame buffer {zer/}
+8chakra of air at juncture
+31block diagram55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }block diagram {zer/}

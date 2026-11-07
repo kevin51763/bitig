@@ -3,7 +3,7 @@
    词库在 dict/data/，由 dict/tools/build_data.py 从栗林均词典的 CSV 生成；
    重新生成词库后，把下面 VER 的日期改新，读者的浏览器才会重新下载。 */
 (function () {
-  var VER = '?v=2026110701';
+  var VER = '?v=2026110709';
   var MNC = window.MNC, MN = window.MN;
 
   var LEGEND_MNC =
@@ -33,7 +33,7 @@
 
   /* ---------- 满汉词典 ---------- */
   var manhan = (function () {
-    var D = MNC.display, NAMES = ['满汉大辞典', '新满汉', '満漢和'];
+    var D = MNC.display, NAMES = ['满汉大辞典', '新满汉', '满汉和'];
     var col = function (e) { return e.script || MNC.toScript(e.key); };
     return {
       id: 'manhan', tab: '满汉', title: '满汉词典', data: 'dict/data/manhan', ver: VER, colLang: 'mnc',
@@ -111,7 +111,7 @@
 
   /* ---------- 满汉蒙词典 ---------- */
   var manhanmeng = (function () {
-    var NAMES = ['欽定蒙文彙書', '蒙文総彙', '蒙文倒綱', '蒙漢字典'], SEALS = ['彙', '総', '倒', '字'];
+    var NAMES = ['钦定蒙文汇书', '蒙文总汇', '蒙文倒纲', '蒙汉字典'], SEALS = ['汇', '总', '倒', '字'];
     var clean = function (s) { return s.replace(/\[[^\]]*\]/g, '').replace(/\([^)]*\)/g, '').replace(/\{[^}]*\}/g, '').trim(); };
     var foldMnc = function (s) { var o = ''; for (var i = 0; i < s.length; i++) o += MNC.foldChar(s[i]); return o.replace(/\s+/g, ' ').trim(); };
     var col = function (e) { return e.script || MN.toScript(e.key, true); };
@@ -175,7 +175,7 @@
 
   /* ---------- 清文鉴 ---------- */
   var qingwenjian = (function () {
-    var NAMES = ['増訂清文鉴', '満蒙清文鉴', '五体清文鉴', '三合切音清文鉴', '大清全書'], SEALS = ['增', '蒙', '五', '三', '全'];
+    var NAMES = ['增订清文鉴', '满蒙清文鉴', '五体清文鉴', '三合切音清文鉴', '大清全书'], SEALS = ['增', '蒙', '五', '三', '全'];
     var D = MNC.display;
     var clean = function (s) { return s.replace(/\[[^\]]*\]/g, '').replace(/\s*\/\s*\d+\s*$/, '').trim(); };
     var foldMn = function (s) { var o = ''; for (var i = 0; i < s.length; i++) o += MN.foldChar(s[i]); return o.replace(/\s+/g, ' ').trim(); };
@@ -221,7 +221,7 @@
         return '<span class="dx-src">' + NAMES[s.d] + (s.page ? ' 页 ' + H.esc(s.page) : '') + (s.hom ? ' <i>/' + H.esc(s.hom) + '</i>' : '') + '</span>' +
           (s.raw ? '<span class="dx-alt">原书作 ' + H.esc(D(s.raw)) + '</span>' : '') +
           (s.zh ? '<span class="dx-def">' + H.markTerms(s.zh) + '</span>' : '') +
-          // 释义：増訂、満蒙两部是满文，五体是日文，大清全書是汉文；其中的满文词点一下即查
+          // 释义：增订、满蒙两部是满文，五体是日文，大清全书是汉文；其中的满文词点一下即查
           (s.expl ? '<span class="dx-ex">' + H.linkWords(H.markTerms(s.expl), MNC, 'mnc') + '</span>' : '') +
           (s.mn ? '<span class="dx-eq"><span class="dx-k">蒙文</span>' + mnHtml(s, c) +
             (s.cyr ? ' <span class="dx-cyr" lang="mn-Cyrl">' + H.esc(s.cyr) + '</span>' : '') + '</span>' : '');
@@ -237,10 +237,79 @@
         return c.H.pane(mnc) + c.H.pane(mn);
       },
       intro: '<h2>输入满文或蒙古文转写开始查询</h2>' +
-        '<p>收増訂清文鉴、満蒙清文鉴、五体清文鉴、三合切音清文鉴、大清全書五部，可分别勾选。増訂、満蒙两部以满文释满文，五体附日文译释，大清全書附汉文释义；释义里的满文词点一下即可查询。左栏并列满文和蒙古文，蒙古文原文由转写生成。</p>' +
+        '<p>收增订清文鉴、满蒙清文鉴、五体清文鉴、三合切音清文鉴、大清全书五部，可分别勾选。增订、满蒙两部以满文释满文，五体附日文译释，大清全书附汉文释义；释义里的满文词点一下即可查询。左栏并列满文和蒙古文，蒙古文原文由转写生成。</p>' +
         '<p>' + eg(['abka', 'bithe', 'morin', 'aššafi'], 'mnc') + eg(['tngri', 'bičig'], 'mn') + eg(['天', '書']) + '</p>'
     };
   })();
 
-  SIYI.dictConfigs = [manhan, menghan, manhanmeng, qingwenjian];
+  /* ---------- 藏文词典（Steinert） ---------- */
+  var tibetan = (function () {
+    var BOC = SIYI.converters.bo;
+    // 威利转写：显示照原样；查询时不分大小写，去掉 . + - 等分隔号；输入藏文时先转成威利
+    var BO = {
+      display: function (s) { return s; },
+      toScript: function (s) { return BOC.toScript(s); },
+      foldChar: function (c) { var l = c.toLowerCase(); return /[a-z' ]/.test(l) ? l : ''; },
+      normInput: function (s) {
+        if (/[ༀ-࿿]/.test(s)) s = BOC.toLatin(s);
+        return s.replace(/[\s\/]+$/, '').trim();
+      }
+    };
+    var GROUP = { en: { seal: '英', color: 0 }, tib: { seal: '藏', color: 1 }, skt: { seal: '梵', color: 2 } };
+    var DICTS = (SIYI.tibetanDicts || []).map(function (d) {
+      return { name: d.name, group: d.group, about: d.about, seal: GROUP[d.group].seal, color: GROUP[d.group].color };
+    });
+    // 释义里 {威利} 是藏文：写成藏文字，短的可点击查询；\n 换行
+    function defHtml(def, H) {
+      return def.split(/\{([^}]*)\}/).map(function (part, k) {
+        if (k % 2) {
+          var w = part.replace(/[\s\/]+$/, '').trim(), sc = H.esc(BOC.toScript(part));
+          return w.length && w.length <= 40
+            ? '<span class="dx-bo-in" data-q="' + H.esc(w) + '" data-in="bo" title="' + H.esc(w) + '">' + sc + '</span>'
+            : '<span class="dx-bo-in plain" title="' + H.esc(w) + '">' + sc + '</span>';
+        }
+        return H.markTerms(part).replace(/\\n/g, '<br>');
+      }).join('');
+    }
+    return {
+      id: 'tibetan', tab: '藏文', title: 'Steinert 藏文词典', data: 'dict/data/tibetan', ver: VER,
+      shard: 600, listDicts: true, noCol: true, reverse: 'dict/data/tibetan.en.txt',
+      defLabel: '英文反查', defPrefix: '英文对应', loadingNote: '词头较多，第一次打开稍慢',
+      source: 'Steinert 藏文词典', sourceUrl: 'https://dictionary.christian-steinert.de',
+      dicts: DICTS,
+      groups: [{ id: 'en', label: '藏英' }, { id: 'tib', label: '藏文释义' }, { id: 'skt', label: '藏梵' }],
+      panelNote: '各词典的版权属于原作者，鼠标移到词典名上可看出处。数据取自 ' +
+        '<a href="https://github.com/christiansteinert/tibetan-dictionary" target="_blank" rel="noopener">christiansteinert/tibetan-dictionary</a>；' +
+        '只有页码、没有文字的扫描本词典不收。',
+      inputs: [{ id: 'bo', label: '威利转写', lang: BO, placeholder: '输入威利转写，如 bkra shis、sangs rgyas；也可粘贴藏文' }],
+      legend: '<h3>威利转写（扩展威利 EWTS）</h3><dl>' +
+        '<div><dt>ng ny zh sh</dt><dd>ང ཉ ཞ ཤ</dd></div><div><dt>ts tsh dz</dt><dd>ཙ ཚ ཛ</dd></div>' +
+        '<div><dt>\'</dt><dd>འ（小阿）</dd></div><div><dt>a</dt><dd>ཨ</dd></div>' +
+        '<div><dt>空格</dt><dd>音节之间的 ་</dd></div><div><dt>.</dt><dd>分开容易误读的字母，如 g.yag</dd></div>' +
+        '<div><dt>T Th D N Sh</dt><dd>梵文卷舌音</dd></div><div><dt>A I U M H</dt><dd>梵文长元音、随韵、止声</dd></div></dl>' +
+        '<p>查询时不分大小写；也可以直接粘贴藏文，会自动转成威利转写。“英文反查”按英文词找藏文词头，只收有英藏对照表的几部词典。点击词条空白处，左栏改显示该词条的藏文。</p>',
+      sense: function (f) { return { d: f[0], def: f[1] }; },
+      looseOf: function (e) { return [{ r: e.key }]; },
+      senseText: function (s) { return s.def; },
+      head: function (e, c) {
+        return '<span class="dx-bo" lang="bo">' + c.H.esc(BOC.toScript(e.key)) + '</span>' +
+          '<button type="button" class="dx-tl" data-q="' + c.H.esc(e.key) + '" data-in="bo">' + c.H.markDisplay(BO, e.key, c.q) + '</button>';
+      },
+      senseHtml: function (s, c) {
+        return '<span class="dx-src">' + c.H.esc(DICTS[s.d].name) + '</span><span class="dx-def">' + defHtml(s.def, c.H) + '</span>';
+      },
+      col: function () { return ''; },
+      spine: function (c) {
+        if (c.q && !c.def && !c.selectedEntry) { var w = BO.normInput(c.q); return c.H.pane({ lbl: '藏文', lang: 'bo', horizontal: true, script: BOC.toScript(w), tl: w }); }
+        if (c.top && (c.def || c.selectedEntry)) return c.H.pane({ lbl: '藏文', lang: 'bo', horizontal: true, script: BOC.toScript(c.top.key), tl: c.top.key, from: fromLabel(c) });
+        return c.H.pane({ lbl: '藏文', empty: '藏文随输入显示' });
+      },
+      intro: '<h2>输入威利转写开始查询</h2>' +
+        '<p>收 Christian Steinert 藏文词典里的六十部词典，三十四万多个词头：藏英词典为主，另有藏文释藏文的辞书和藏梵对照。输入时左栏随即写出藏文，也可以直接粘贴藏文。' +
+        '要按英文找藏文，把右边的查询方式改为“英文反查”。词典很多，点上方“词典来源”可按语种勾选。</p>' +
+        '<p>' + eg(['bkra shis', 'sangs rgyas', 'byang chub sems', 'chos'], 'bo') + '</p>'
+    };
+  })();
+
+  SIYI.dictConfigs = [manhan, menghan, manhanmeng, qingwenjian, tibetan];
 })();

@@ -171,7 +171,7 @@ body.in-dict .site-foot { display: none; }
   .dx-source { grid-column: 2; grid-row: 1; justify-self: end; }
   /* 四部词典的切换按钮在窄屏上收紧；来源只留朱红框，“数据来源”几字不显示 */
   .dx-tabs a { font-size: .85rem; padding: .32rem .55rem; }
-  .dx-source { font-size: 0; }
+  .dx-source { font-size: 12px; }
   .dx-source b { margin-left: 0; font-size: 12px; }
   .dx-filters { min-width: 0; }
   .dx-tools { flex-wrap: wrap; }
@@ -212,3 +212,42 @@ body.in-dict .site-foot { display: none; }
 #v-dict .dx-q:focus-visible { outline: none; }
 /* 有两组选项时（满汉蒙）：“转写规则”跟在第一组后面，第二组另起一行 */
 .dx-grp + .dx-grp { order: 2; width: 100%; }
+
+/* ---------- 藏文词典 ---------- */
+.dx-entry.nocol { grid-template-columns: 1fr; padding-left: 16px; }
+.dx-bo { font-family: var(--f-bo); font-size: 26px; line-height: 1.6; color: var(--lapis); }
+.dx-headline .dx-bo + .dx-tl { font-size: 18px; color: var(--ink-soft); }
+.dx-bo-in { font-family: var(--f-bo); font-size: 1.15em; line-height: 1.6; cursor: pointer; }
+.dx-bo-in.plain { cursor: auto; }
+.dx-bo-in:not(.plain):hover { color: var(--seal); }
+.dx-v.h { writing-mode: horizontal-tb; font-family: var(--f-bo); font-size: 34px; line-height: 1.7; max-height: none; overflow-wrap: anywhere; }
+.dx-source a { text-decoration: none; }
+/* 词典很多时的来源面板 */
+.dx-pick { font: inherit; font-size: 13px; padding: 1px 12px; cursor: pointer; border-radius: 2px; background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); }
+.dx-pick[aria-expanded="true"] { border-color: var(--lapis); }
+.dx-dictpanel { grid-column: 1 / -1; max-height: 46vh; overflow-y: auto; border: 1px solid var(--rule); background: var(--paper); padding: 10px 14px; font-family: var(--f-ui); }
+.dx-dictpanel[hidden] { display: none; }
+.dx-pgroup + .dx-pgroup { margin-top: 10px; }
+.dx-pgroup h4 { margin: 0 0 6px; font-size: 14px; display: flex; align-items: center; gap: 10px; }
+.dx-pgroup h4 button { font: inherit; font-size: 12px; font-weight: 400; background: none; border: 0; padding: 0; color: var(--lapis); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.dx-pgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 4px 18px; }
+.dx-pgrid .dx-toggle { align-items: flex-start; font-size: 13px; color: var(--ink-soft); }
+.dx-pgrid .dx-seal { margin-top: 1px; }
+.dx-pgrid .dx-name { flex: 1; min-width: 0; color: var(--ink); line-height: 1.4; }
+.dx-pgrid .dx-name small { display: block; color: var(--ink-soft); font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dx-pgrid input:not(:checked) ~ .dx-name { color: var(--ink-soft); }
+.dx-pnote { margin: 10px 0 0; font-size: 12px; color: var(--ink-soft); }
+@media (max-width: 760px) {
+  .dx-dictpanel { max-height: 50vh; }
+  .dx-v.h { font-size: 26px; }
+  .dx-bo { font-size: 22px; }
+}
+@media (max-width: 760px) {
+  /* 五部词典的按钮占满一行、平分宽度；来源另起一行 */
+  .dx-left { grid-column: 1 / -1; grid-row: 1; }
+  .dx-tabs { display: flex; width: 100%; }
+  .dx-tabs a { flex: 1; text-align: center; padding: .32rem .2rem; }
+  .dx-source { grid-column: 1 / -1; grid-row: 2; justify-self: start; font-size: 12px; }
+  .dx-source b { margin-left: 6px; }
+  .dx-search { grid-row: 3; }
+}

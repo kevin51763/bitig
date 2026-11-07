@@ -1,0 +1,600 @@
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }battery status {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }use batteries {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }low battery alarm {zer/}
+9[be] lightning, flash
+9[be] lightning, flash
+41(phys) dielectric {glag gam yang na brgyud khrid kyi nus pa ha cang zhan pa'i dngas rdzas te/shel dang dkar yol lta bu/}
+41(phys) dielectric constant {dngos rdzas shig gi nang du glog gi khyab ra 'gag nus kyi tshad gzhi/}
+8electric current; electric current, electric current9electric current41(phys) current {brgyud khrid dngas rdzas shig brgyud de rgyu ba'i glag zungs/}
+41(phys) galvanometer {khab len khyab ra zhig gi nang yod pa'i glag skud dkri skar ma zhig gis 'od dam/yang na mda' rtags shig 'gul skyad btang ba brgyud glag rgyun chung ngu rnams kyi kha phyags dang nus stobs 'jal ba'i yo chas shig}
+41(mech) rheostat {glog sgron lta bu'i 'phrul chas brgyud glog rgyun gyi rgyug phyags la 'pho 'gyur dang stangs 'dzin byed pa'i yo byad cig}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }coincident-current selection {zer/}
+31coincident-current selection
+41(phys) electromotive force {gnas gcig nas gzhan du glag skyod du 'jug mkhan gyi shugs shig}
+41(electr) ampere {glag shugs bkag cha gcig can gyi glog thag nang rgyu ba'i glag shugs cha tshad gcig can gyi glag shugs kyi tshad gzhi/}
+9electro-plating41(phys) electroplating {glog rdul gsog 'jog gi thabs la brten nas lcags rigs gcig gi steng du lcags rigs gzhan zhig gi rtsi gtang thabs/}
+9gift of lightning37<person> Giver of Lightning: Foremost in terms of miraculous abilities among the followers of the buddha Brahmaghoṣa. (Original glossary entry: https://84000.co/glossary/entity-22125.html)52(Skt. Vidyuddatta) providing light
+36<person> Giver of Lightning37<person> Giver of Lightning: Mother of the buddha Muktiskandha (Original glossary entry: https://84000.co/glossary/entity-22124.html)
+43= {glog gis byin pa/}
+8electric switch, switch9electric door, switchboard
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }switching variable {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }switch dndicatoe {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }switching function {zer/}
+55{glog shugs kyi sgron me ltar bu'i gsal ba zhig}
+8electrically operated
+8electric motor
+9electric transformer
+9electric transformer saltation
+9electric transformer41(mech) transformer {'phel 'grib byed pa'i glog rlabs dang /glog rgyun/gnas stabs glag shugs bcas la 'pha 'gyur 'gro ba dang mnyam du spel rgyug glag rgyun gyi rgyu lam gcig nas gzhan la glag shugs spa bar byed pa'i 'phrul chas shig}41(phys) converter {spel rgyug glog rgyun rnams thad rgyug glog rgyun la sgyur byed kyi glag gi 'phrul chas shig yin zhing /skabs re lugs ldog tu'ang bsgyur ba yod/}
+55{pags pa'i steng dang skra gseb sogs nas phyir gog pa'i skyi pags dkar zhib can gyi ming ste/} {de'u dmar dge bshes bstan 'dzin phun tshogs kyis mdzad pa'i gso rig skor gyi ming tshig nyer mkho'i don gsal las/} {glog shu pags steng nas thon pa'i/} {skyi ro dkar zhib can gyi ming /}
+8voltage9electric power55{glog gi nus shugs/}
+9electric power industry
+9electrified
+9be electrified
+9electric transformer
+9electro magnetism/ magnet
+41(phys) electromagnetism {glog dang /khab len gyi rang bzhin dang /rdzas sbyor gyi 'ching rgya dang /de bzhin 'od the ba'i glag shugs khab len gyi 'gyed 'phro'i rnam pa mtha' dag gi glog zungs dang glog dang khab len gyi khyab ra'i spyod tshul dang 'brel gtug bya tshul bcas kyi snang tshul sna tshogs pa/}
+8volt
+9escalator26{glog shugs can gyi skas 'dzeg}55{glog shugs can gyi skas 'dzeg}
+8electric wire, electric wire, electric cable9electric wire/ cable/ line26{glog rgyu sa'i lcags rigs kyi skud pa/}55{glog rgyu sa'i lcags rigs kyi skud pa/}
+9electric pole
+9electric pole
+9electric
+9electric motor/ machinery
+9electric locomotive
+9electrical power transmission
+9transmit electrical power
+9electrical power transmission
+9generator
+9transmit electrical power
+9TV
+9generator
+9electric power station
+8battery9battery31battery
+31battery-powered calculator
+31critical battery alarm
+31battery status
+31use batteries
+31low battery alarm
+41(mech) test pencil {glog skud la glog yod med lta byed kyi dbyibs snyu gu lta bu'i lag cha zhig ga/}
+36<place> Flash of Lightning37<place> Flash of Lightning: Name of the world system of the thus-gone one King of the Tip of the Lamp of Lightning. (Original glossary entry: https://84000.co/glossary/entity-17329.html)\n\nSynonym: {glog gi 'od}38Synonym: {glog gi 'od}
+36<person> Vidyuprabhāsa37<person> Vidyuprabhāsa (Skt: vidyuprabhāsa): A thus-gone one who taught the King of the Array of all Dharma Qualities to Vajrapāṇi. (Original glossary entry: https://84000.co/glossary/entity-5034.html)39<person> vidyuprabhāsa
+36<place> Splendid Flashes of Highly Superior Illumination37<place> Splendid Flashes of Highly Superior Illumination: Birthplace of the buddha Vaiḍūryagarbha. (Original glossary entry: https://84000.co/glossary/entity-28222.html)
+9electrode41(phys) electrode {glog rgyun brgyud khrid kyi dngos rdzas shig ste/'di nyid brgyud de glog gi yo chas shig gi nang glog 'gro 'ong byed sa de yin/}
+41(phys) diode {glag sne gnyis can gyi glag chas shig ste/spel rgyug glog rgyun rnams thad rgyug glog rgyun du sgyur byed cig}
+9electronic condenser
+9electric transformer
+9electric transformer
+9x-rays, movie
+57[sound:2-169a.mp3]\n{glog spar ba} To turn on the light\nSyllables: {glog} = electricity, as in: {glog klad/} = computer; {spar ba/} = to turn on, as in: {gong spar ba/} = to increase the price.\n-----\nExample: [sound:2-169c.mp3]\n {nag khung chags na glog spar dgos red/}  If it gets dark, one has to turn on the light.
+9movie theater
+9x-ray
+8switch
+36<person> Lightning Cloud37<person> Lightning Cloud: A buddha. (Original glossary entry: https://84000.co/glossary/entity-29274.html)
+8electricity use9electricity usage
+8lightning of dense luster, sheet-lightning
+9electric stove/ furnace55{glog shugs kyi thab ka/}57[sound:2-145a.mp3]\n{glog thab} Electric stove\nSyllables: {glog} = electric light, electricity, as in: {glog klad/} = computer, "electronic brain"; {thab/} = stove.\n-----\nExample: [sound:2-145c.mp3]\n {deng sang glog thab 'dra mi 'dra 'dug}  These days there are all types of electric stoves.
+9electric cable/ wire
+9DC current
+29{srong btsan skabs bar khams ldan ma sa khul du btab pa ru gnon gyi gtsug lag khang}
+42vidyutprāptaparipṛccha
+42vidyutketu
+9electric meter
+9electroscope
+9electric meter
+9electric meter
+41(electr) short-circuit {glog rgyun 'gro lam zhig nang glog skud phan tshun dbar sbrel mthud byed stangs nor ba'am glog skud la skyon shor ba lta bu don rkyen gang zhig gis glog lam nar ba'i skyan/}
+31electronic mail55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electaonic mail {zer/}
+31e-mail address55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }e-mail address {zer/}
+31create new e-mail55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }create new e-mail {zer/}
+31electronic messaging55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electronic messaging {zer/}
+31electronic mailbox55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }electronic mailbox {zer/}
+9flashing noose of lightning26{glog 'od zhags pa'i gzugs su bkod pa/ char sprin nang du glog zhags yang yang 'khyug}55{glog 'od zhags pa'i gzugs su bkod pa/} {char sprin nang du glog zhags yang yang 'khyug}
+41(phys) electroweak unification {gzhi rtsa'i shugs bzhi'i nang nas glog khab len gyi shugs dang zhan pa'i shugs gnyis nus pa mtho ba'i shugs rkyang pa zhig gi tshul du 'grel ba'i rnam gzhag}
+36<person> Lightning-Pacifying Venerable37<person> Lightning-Pacifying Venerable: A preta king present in the assembly of the Buddha Śākyamuni. (Original glossary entry: https://84000.co/glossary/entity-35641.html)
+8electric light; electric light, lamp, electric light, electricity, flashlight, light9electric light
+8to turn off the light
+8electricity was cut off
+8electric bulb9light bulb55{glog me 'od 'phro byed kyi shel tog}
+9electric light
+41(phys) electroscope {shel dam stong pa'i nang bcug pa'i gser shag lheb ma gnyis kyi dbar sar gnas glag rgyun gyi 'then shugs dang /'phul shugs la brten nas dngas pa zhig la glag zungs yod med dpyad thabs kyi yo chas shig}
+41(phys) conservation of charge {ma lag cig gi nang khyon bsdams glag zungs 'phar chag med par gnas pa'i gtan sral/}
+41(phys) charge density {phung gzugs shig gam nam mkha'i rgya khyon gyi rtsi gzhi re re'am/shang tshad kyi rtsi gzhi re rer glog gi zungs ji yod kyi 'bar/}
+9glon pa!, patch, cover up26{glon pa'i skul tshig}27{glon} CD, DS, TC. give as the present of {glan}32{glan la ltos/}
+2to return an answer, to reply; {glon pa, glan pa, glan pa, glon} trans. v8return, give back, pay back, return an answer, reply, patch, mend9(tha dad pa glan pa, glan pa, glon,; 1) mend [clothes]; 2) Lag pod dam answer/ reply,...Bzang lan glan pa,...Ngan lan glan pa,...Dgra la 'khon lan glan; 3) [arch] chags pa10Btsan-lha.24bandha26{(tha dad pa) glan pa/ glan pa/ glon/ /}1) {lhan pa rgyag pa/ gos la lhan pa glan te gyon pa/} 2) {lag pod dam lan slog pa/ bzang lan glan pa/ ngan lan glan pa/ dgra la 'khon lan glan/} 3) {(rnying) chags pa/}43dra. — {yongs su glon} vyāvartayati ga.vyū.23ka/120.48(1) {chags pa'i ming ste/} 《{brda yig reg gzigs gsar bu'i nyer mkho}》{las/ glon pa zhes pa chags pa'o/ /zhes gsungs/}48(2) {lan slog pa ste/} 《{'dul ba gzhung dam pa}》{las/ de dag smras pa'i lan slar glon pa ni chos mthun pa dag gis smad pa'i gnas su mi 'gyur ro/ /zhes pa lta bu'o/ /}55〔{tha dad pa}〕{glan pa/} {glan pa/} {glon/} (1) {lhan pa rgyag pa/} {gos la lhan pa glan te gyon pa/} (2) {lag pod dam lan slog pa/} {bzang lan glan pa/} {ngan lan lan pa/} {dgra la 'khon lan glan/} (3) 〔{rnying}〕{chags pa/}
+9sbyar rgyu'i medicine26{sbyar rgyu'i sman/}55{sbyar rgyu'i sman/}
+27Present: {glong} DS. \nPast: {glongs} DS.\nFuture: {glong} DS.\nImperative: {glongs} DS\nVoluntary: DS.\nTransitive: DS.\nMeaning: To scower DS.32{(byed 'brel las tshig) glongs pa'i ma 'ongs pa dang da lta ba/ dngos rdzas mang bo steng 'og slog pa'am go sa brjes nas dngos rdzas gzhan 'tshol ba'i don te/ sa glong rdo glong byas nas btsal/ khyim glong brgyab/ glong bya'i dngos rdzas/ glong bya'i rtswa/ rtswa glong mkhan zhes pa lta bu/ (glongs) ni 'das pa dang skul tshig ste/ rtswa glongs nas 'bru btus/ dpe cha glongs nas lung khungs btsal/ khyod kyis dpe cha glongs shig lta bu/} 2. {khong khro slong ba'i tshig bshad pa dang bya spyod byed pa'i don la 'jug pa ni/ smyon pa'i kha glong mkhan/ khyi kha ma glong zhes pa lta bu/}431. = {glong ba} 2. = {klong /}55({byed 'brel las tshig ma 'ongs pa dang da lta ba}){dngos rdzas mang po steng 'og pa'am go sa brjes nas dngos rdzas gzhan 'tshol ba'i don te/} {sa glong rdo glong byas nas btsal/} {khyim glong brgyab/} {glong bya'i dngos rdzas/} {glong bya'i rtswa/} {rtswa glong mkhan zhes pa lta bu/}
+8disturb, SA dkrug pa10O.T. = rmugs shing song ba. Blan 296.5.42mantha43kṣobhaḥ; dra. — {glong ba med pa'i bsam pa} akṣubhitāśayatā da.bhū.201kha/23; {glongs pa/}55{dkrug pa/}
+43vi. akṣubhitaḥ — {glong ba med pa'i bsam pa} akṣubhitāśayatā da.bhū.201kha/23.
+42cāḍya
+9TSE
+42sāvartam
+9TSE
+8a place in Tibet and also in kham10appears in a list of offerings (note that this appears in the name of a temple founded by Srong-btsan-sgam-po). glong thang ze tse rdo rje sgur chung 'bul. 'Jig-rten-mgon-po, Bka'-'bum (2001) IV 523.5.
+2the Tara Temple at Longtang9{glong thang sgrol ma} temple [founded in the time of srong btsan sgam po in khams 'dan ma sa khul, 1 of the ru gnon gyi gtsug lag khang bzhi]26{srong btsan sgam po'i skabs btab pa khams 'dan ma sa khul du yod pa ru gnon gyi gtsug lag khang bzhi'i ya gyal zhig}47{srong btsan sgam po'i skabs btab pa khams 'dan ma sa khul du yod pa ru gnon gyi gtsug lag khang bzhi'i ya gyal zhig}53{srong btsan sgam po'i skabs btab pa khams 'dan ma sa khul du yod pa ru gnon gyi gtsug lag khang bzhi'i ya gyal zhig}55{srong btsan sgam po'i skabs btab pa khams 'dan ma sa khul du yod pa ru gnon gyi gtsug lag khang bzhi'i ya gyal zhig}
+8monastery & temple in kham
+44Abbreviation for {glang po che'i}. (Source: Dzongkha abbreviations)
+10dkrugs pa'am bsrub pa. Dagyab.27see {glong}32{glong la ltos/}43= {glongs pa/}55{ni 'das pa dang skul tshig ste/} {rtswa glongs nas 'bru btus/} {dpe cha glongs nas lung khungs btsal/} {khyod kyis dpe cha glong shig lta bu/} {khong khro slong ba'i tshig bshad pa dang bya spyod byed pa'i don la 'jug pa ni/} {smyon pa'i kha glong mkhan/} {khyi kha ma glong zhes pa lta bu/}
+43vi. saṃkulaḥ — lauhīṣu durjanakalevarasaṃkulāsu kumbhīṣvabhijvalitavahnidurāsadāsu jā.mā.351/206.
+10Btsan-lha.43= {dkrugs pa} avadhūtaḥ — gambhīro'pi udadhirivānilāvadhūtastacchokavyathitamanāḥ samācakampe jā.mā.404/235; luḍitaḥ ma.vyu.6819.48{bton cing 'tshol ba'i don te/} 《{brda yig blo gsal mgrin rgyan}》{las/ glongs pa ni bton cing 'tshol ba/ zhes gsungs/ dper na/} 《{deb ther dpyid kyi rgyal mo'i glu dbyangs}》{las/ bros stabs su bsam yas la phebs/ rgya dpe rnams glongs pas sngar ma gzigs pa mang po mchis pa/ zhes pa lta bu'o/ /}
+43= {glongs 'gyur/}
+9set at odds
+10Btsan-lha.48{mgo mjug bzlog ste zhes pa'i don te/} 《{'dul ba'i gleng 'bum gyi ming brda'i rnam bshad}》{las/ glongs te ni mgo mjug bzlog ste zhes pa'o/ /zhes gsungs/ dper na/} 《{'dul ba}》{las/ ji ltar bde bar brgyus/ chom rkun pas bcom mo/ /ji ltar gyur/ skabs de brjod nas gsol ba dang / yang na glongs te 'gro bar bya'o/ /zhes pa lta bu'o/ /}
+9sudden change, mutation
+9temporary kleshas
+9gla ba!26{gla ba'i skul tshig}43= {glo yis/} {glos phab te} pārśvaṃ dattvā — nāgupto divā pārśvaṃ dattvā middhamavakrameta vi.sū.12kha/14.55{gla ba'i skul tshig}
+24pārśva
+43pārśvasukham — bodhisattva utpannamālasyakausīdyaṃ nidrāsukhaṃ śayanasukhaṃ pārśvasukhañcākāle amātrayā svīkaroti, sāpattiko bhavati bo.bhū.92kha/118; śayanāsanarāgaścaturvidhaḥ \n tadyathā — saṃsparśarāgaḥ, pratiśrayarāgaḥ, pārśvasukhaśayanasukharāgaḥ, āstaraṇapratyāstaraṇopacchādanarāgaḥ śrā.bhū.68ka/161.
+24pārśva-sukha-śayana-sukha-rāga
+43pārśvamanuprayacchati — na tvakāle pārśvamanuprayacchati mañce vā pīṭhe vā tṛṇasaṃstare vā parṇasaṃstare vā bo.bhū.104ka/133.
+24pārśvam anuprayacchati
+24pārśva
+24pārśva-sukha
+10Btsan-lha.48{drung ngam nye 'gram gyi ming ste/} 《{mngon brjod legs bshad gser gyi lde mig}》{las/ glos gzhogs gam yo nye khor ming / /zhes gsungs pa ltar ro/ /}
+8stupidity, ignorance9[arch] stupid10O.T. = rmongs pa. Blan 292.3. Btsan-lha.26{(rnying) rmongs pa/}48(1) {rmugs pa'i ming ste/} 《{dbyangs can dga' blo'i brda dkrol}》{las/ glos pa ni rmugs pa la zer/ dper na khyis glos pa'i rma zhes pa lta bu/ zhes gsungs/}48(2) {rmongs pa la'ang 'jug ste/} 《{gsar rnying brda'i rnam dbye}》{las/ glos pa ni rmongs pa/ zhes gsungs pa ltar ro/ /}50{rmongs pa/}55〔{rnying}〕{rmongs pa/}
+9lie down10Btsan-lha.48{gnyid la 'jug pa'i don te/} 《{brda yig blo gsal mgrin rgyan}》{las/ glos phab ni gnyid la 'jug pa dang / glos phab ste nyal ba ni ngos gcig gis nyal ba/ zhes gsungs/ dper na/} 《{'dul ba lung gzhi}》{las/ mu ge dang bcas pa'i dus byung nas/ dge slong dag ltogs par gyur pas de rnams glos phab ste 'dug pa/ zhes pa lta bu'o/ /}
+8lie down on one's side, to lie on one side or on the side
+9lay down on 1 side
+44Abbreviation for {glo gsang}. (Source: Dzongkha abbreviations)
+0song2{glu len pa} (to sing a) song2tune, song. {rdo rje'i glur bzhengs pa} composed vajra song8song; song, ditty, tune, folk song, 1 of 4 brothers, SA mgur lha mched bzhi, song, melody9song; tune, song [glo ba 'dzin byed kyi yu ba ltar gyur pa dbugs rgyu ba'i lam aol krong gi ming gzhan zhig ???]11song; {glu len pa} (to sing a) song16[C]gīta22[C]song24gīta26{gar mi 'khrab pa'i gzhas/ skyo glu/ hor glu/ sgrung glu/ glu len zhing mdun du shar shar skyod/ glu len gar 'khrab/ pho re re'i kha nas gtam re bshad/ mo re re'i kha nas glu re blangs/}32{dbyangs su gyer chog pa'i tshig sbyor ram tshig sbyor rigs dbyangs su gyer ba'i dbyangs sogs rig rtsal gyi rnam pa zhig ste/ glu len gar rtsed/ dmangs glu/ bod glu/ bde skyid kyi 'tsho ba la bstod glu len lta bu/ (glu dbyangs) rta dbyangs nges can la gyer ba'i skad dang rol mo'i sgra'i ming ste/ bkra shis bde legs kyi glu dbyangs len lta bu/ (glu gar) kha nas glu len zhing lus kyis gar 'khrab pa'i rig rtsal gyi rnam pa zhig (glu chung) pho mo'i brtse dung ston pa'i glu'i ming /}421) ṛṣabha (?) 2) gana 3) gīta 4) geya 5) pañcama (?) 6) saṃgītaka 7) saṃgīti 8)431. gītam, gānam — na gītanṛtyākhyāyikānaṭanartakacāraṇakathāyogānuyogamanuyuktā viharanti a.sā.296ka/167; geyam — vadhūjanamukhodgatam… geyam kā.ā.3.182; gītiḥ — gītiṃ navīnāṃ vitanoṣi kāṃcit a.ka.59.130; gītikā vi.pra.48kha/4.51; gam śrī.ko.172kha. 2. (nā.) gītā \ni. granthaḥ — gītāsiddhāntapurāṇādayo dharmāḥ pustake likhitāḥ vi.pra.141ka/1.40 \nii. = {glu ma} devī — lāsyā mālā tathā gītā nṛtyā devyaścatuṣṭayāḥ sa.du.161/160.55{gar mi 'khrab pa'i gzhas/} {skyo glu/} {hor glu/} {sgrub glu/} {glu len zhing mdun du shar shar skyod/} {glu len gar 'khrab/} {pho re re'i kha nas gtam re bshad/} {mo re re'i kha nas glu re blangs/}
+9singer
+8codonopsis pilosula (franch.) nannf.
+43kri. gīyate — {legs par glu blang gar kyang bya} gīyate nṛtyate param he.ta.19kha/62.
+43= {glu blang /}
+43kri. 1. gīyate — {spyan la sogs pa rnams kyis glu blang bar bya'o} locanādibhirgīyate he.ta.5kha/14 2. geyaṃ kārayet — {la lar glu yang blang bar bya} kvacidgeyaṃ tu kārayet gu.si.6.18.
+43= {glu blangs pa/} {glu blangs nas} anugāyya — laṅkādhipatiḥ toṭakavṛttenānugāyya punarapi la.a.56kha/2.
+2sang a spontaneous song
+43= {glu blangs} kri. agāyat — sahasaiva vikāreṇa rāgādvismṛtasaṃvṛtiḥ \n agāyat a.ka.14.122; anugāyati sma — gāthābhigītairanugāyati sma la.a.56kha/1.
+0evil female nāga
+9melodious song
+9the 8 great songs
+2a little song8little song, ditty9a little song; a little song [w skad gdangs dma' po]26{skad gdangs dma' pos gtong ba'i glu dbyangs/}55{skad gdangs dma' pos gtong ba'i glu dbyangs/}
+24gīta-sahagata
+28The seven principles of sounds and chanting\n1. {drug skyes rma bya'i skad ltar sgrog} drag-skyes like the sound of a peacock\n2. {drang srong ba glang skad kyis rtsom/} drang-srong like the sound of a mendicant\n3. {sa 'dzin skyes ni ra yi skad/} sa-'dzin-skyes like the sound of a goat\n4. {bar ma khrung khrung sgra sgrog bzhin/} bar-ma like the sound of a crane\n5. {lda ldan me tog ldan dus su/} {khu byug skad snyan sgrog lta bu/} lnga-ldan like the sound of a kucoo during the spring\n6. {blo gsal rta skad lta bur 'tsher/} «blo-gsal» like the sound of a horse\n7. {'khor nyan glang po'i sgra lta bu/} «khor-nyan» like the sound of an elephent.
+0pleasant song; song2song, melody, melodious song8music, singing9song; song, melody, melodious song; song [having a pleasant mlody, pleasing words w music]16[LCh]gīta; [LCh]saṃgīti; [MSA]saṃgīti-ghoṣā23saṃgītiḥ26{rta dbyangs nges can la brten nas gtong ba'i snyan tshig rol mo dang bcas pa/ glu dbyangs snyan pa/ dga' ba'i mes rgyal la glu dbyangs 'bul ba/ bkra shis bde legs kyi glu dbyangs 'bul ba/ ming gi rnam grangs la khas brjod dang/ glu/ mgrin skyes bcas so/}36<person> Saṃgīti, Song37<person> Song: Foremost in terms of insight among the followers of the buddha Guṇottama. (Original glossary entry: https://84000.co/glossary/entity-25714.html)37<person> Saṃgīti (Skt: saṃgīti): The 959th buddha in the first list, 958th in the second list, and 949th in the third list. (Original glossary entry: https://84000.co/glossary/entity-25543.html)39<person> saṃgīti421) gītā 2) saṃgīti43= {glu'i dbyangs} saṅgītiḥ — apsarasaḥkoṭīniyutaśatasahasrasaṃgītisaṃpracalite la.vi.8ka/8; stutisaṃgītisaṃcoditaḥ ga.vyū.193ka/275; saṅgītighoṣaḥ — kinnarasaṃgītighoṣā madhuratvāt sū.a.183ka/78; gītam — mayā saṃprati vīṇāyāṃ yojitā gītasāraṇā a.ka.80.6; gītasvaraḥ — ṣaḍjarṣabhagāndhāradhaivataniṣādamadhyamakaiśikagītasvaragrāmamūrchanādiyuktena la.a.56kha/1; gītiḥ — sa dṛṣṭvā gītikuśalaṃ gāndharvikagaṇottamam a.ka.80.85; geyam — {glu dbyangs kyi rgyal po} geyarājā ma.vyu.3593; gānam — gītaṃ gānamime same a.ko.1.7.14; gītā — {ye shes chen po'i glu dbyangs} mahājñānagītā ma.vyu.4322.52(Skt. saṃgītiḥ) melody, harmony; song55{rta dbyangs nges can la brten nas gtong ba'i snyan tshig rol mo dang bcas pa/} {glu dbyangs snyan pa/} {dga' ba'i mes rgyal la glu dbyangs 'bul ba/bkra shis bde legs kyi glu dbyangs 'bul ba/} {ming gi rnam grangs la brjod dang /} {glu/} {mgrin skyes bcas so/}
+2sang songs
+2sang a song2sang songs
+2Festival of Melodious Songs2singing festival41(mus) song-fest {glu gzhas mnyam du gtang rgyu'i ched mi mang 'du 'dzoms stabs bde zhig}
+9sing a [very slow] song/ chant/ melody
+43= {glu dbyangs kyi khang pa/}
+8place where singing is done, music booth
+8stage42saṃgītiprāsāda43saṅgītiprāsādaḥ ma.vyu.5563; mi.ko.140kha; = {glu dbyangs len pa'i khang bzangs/}
+52(Skt. saṁgitīnāmāni) on the names of the parts of a harmonious song.
+55{1} {skad mtho ba nas bar 'gyur ba'i 'gyur ba dang /} {2} {skad gdangs mtho dma'i bar gyi khug pa/} {3} {skad gdangs mtho bar 'degs pa/} {4} {skad gdangs dma' bar 'jog pa/} {5} {skad gdangs brjid cing sbom pa/} {6} {skad gdangs grims shing phra ba ste drug}
+9succession of high and low notes etc26{dbyangs mtho dma' sogs kyi rim pa/}55{dbyangs mtho dma' sogs kyi rim pa/}
+2seven harmonious tones9the 7 successions of high and low notes [among the 64 sgyu rtsal [drug skyes, drang srong, sa 'dzin, bar ma, lnga ldan, blo gsal, 'khor nyan], drug skyes rma bya'i skad ltar sgrog/ drang srong ba lang skad kyis rtsom/ sa 'dzin skyes ni ra yi skad/ bar ma khrung khrung sgra sgrog bzhin/ lnga ldan me tog ldan dus su/ khu byug skad snyan sgrog lta bu/ blo gsal rta skad lta bur 'tser/ 'khor nyan glang po'i sgra lta bu'o//, rtsed mo rlom par blang ba ni/ bar ma dang ni lnga ldan dbyangs/ dpa' bo drag po ngo mtsar du/ drug skyes drang srong de bzhin no/ sa 'dzin pa dang 'khor nyan dbyangs/ snying rje'i ro la blang bar bya/ 'thab mo 'jigs dang bcas pa la/ blo gsal dbyangs ni blang ba'o]26{sgyu rtsal drug cu re bzhi'i nang gses rigs shig ste/ drug skyes dang/ drang srong/ sa 'dzin/ bar ma/ lnga ldan/ blo gsal/ 'khor nyan dang bdun/ drug skyes rma bya'i skad ltar sgrog drang srong ba lang skad kyis rtsom/ sa 'dzin skyes ni ra yi skad/ bar ma khrung khrung sgra sgrog bzhin/ lnga ldan me tog ldan dus su/ khu byug skad snyan sgrog lta bu/ blo gsal rta skad lta bur 'tsher/ 'khor nyan glang po'i sgra lta bu'o/ rtsed mo rlom par blang ba ni/ bar ma dang ni lnga ldan dbyangs/ dpa' bo drag po ngo mtshar du/ drug skyes drang srong de bzhin no/ sa 'dzin pa dang 'khor nyan dbyangs/ snying rje'i ro la blang bar bya/ 'thab mo 'jigs dang bcas pa la/ blo gsal dbyangs ni blang ba'o/}29{drug skyes rma bya'i skad dang/drang srong ngam khrung khrung gi skad/lnga ldan khu byug gi skad/blo gsal rta yi skad/'khor nyan glang po che'i skad du bdun}47{sgyu rtsal drug cu re bzhi'i nang gses rigs shig ste/ drug skyes dang / drang srong / sa 'dzin/ bar ma/ lnga ldan/ blo gsal/ 'khor nyan dang bdun/ drug skyes rma bya'i skad ltar sgrog drang srong ba lang skad kyis rtsom/ /sa 'dzin skyes ni ra yi skad/ /bar ma khrung khrung sgra sgrog bzhin/ /lnga ldan me tog ldan dus su/ khu byug skad snyan sgrog lta bu/ /blo gsal rta skad lta bur 'tsher/ /'khor nyan glang po'i sgra lta bu'o/ /rtsed mo rlom par blang ba ni/ /bar ma dang ni lnga ldan dbyangs/ /dpa' bo drag po ngo mtshar du/ /drug skyes drang srong de bzhin no/ /sa 'dzin pa dang 'khor nyan dbyings// snying rje'i ro la blang bar bya/ /'thab mo 'jigs dang bcas pa la// blo gsal dbyangs ni blang ba'o//}49{de yang / 'di la khag gnyis yod pa ste/} (Source: 《{mdo rgyud mdzod dza pa }》{sha }505.20{las btus/}).49{khag gnyis pa/} (Source: 《{shes bya kun khyab }》{deb bar cha sha }302.9{las btus/}).51{sgyu rtsal drug cu rtsa bzhi'i ya gyal te/ bar ma/ drang srong / sa 'dzin/ drug ldan/ lnga pa/ blo gsal/ 'khor nyan dang bdun no/ /}55{sgyu rtsal drug cu re bzhi'i nang gses rigs shig ste/} {drug skyes dang /} {drang srong /} {sa 'dzin/} {bar ma/} {lnga ldan/} {blo gsal/} {'khor nyan dang bdun/} {drug skyes rma bya'i skad ltar sgrog} {drang srong ba lang skad kyis rtsom/} {sa 'dzin skyes ni ra yi skad/} {bar ma khrung khrung sgra sgrog bzhin/} {lnga ldan me tog ldan dus su/} {khu byug skad snyan sgrog lta bu/} {blo gsal rta skad lta bur 'tsher/} {'khor nyan glang po'i sgra lta bu'o/} {/rtsed mo rlom par blang ba ni/} {bar ma dang ni lnga ldan dbyangs/} {dpa' bo drag po ngo mtshar du/} {drug skyes drang srong de bzhin no/} {/sa 'dzin pa dang 'khor nyan dbyangs/} {snying rje'i ro la blang bar bya/} {'thab mo 'jigs dang bcas pa la/} {blo gsal dbyangs ni blang ba'o/ /}
+29{1 skad mtho ba nang dma' bar 'gyur ba'i 'gyur ba dang/2 skad gdangs mtho dma'i bar gyi khug pa/3 skad gdangs mtho bar 'degs pa/4 skad gdangs dma' bar 'jog pa/5 skad gdangs brjid cing sbom pa/6 skad gdams grims shing phra ba ste drug }491. {skad mtho ba nas dma' bar 'gyur ba'i 'gyur ba/} (Source: 《{dung dkar tshig mdzod chen mo }》{sha }583.28{las btus/}).51{drug ldan glu la gzigs/}
+23geyarājā42geyarājā43nā. geyarājā, nṛpaḥ ma.vyu.3593.52(Skt. geya-rājā) the prince of Gaya (a harmonious song)
+2to sing a song43upagītam — bhṛṅgopagītakusumāni a.ka.56.19; saṅgītiḥ — {glu dbyangs len pa'i khang bzangs} saṅgītiprāsādaḥ la.vi.104ka/151.
+43saṅgītiprāsādaḥ — saṅgītiprāsāde pūrvābhimukhaḥ sthitvā la.vi.104ka/151; = {glu dbyangs kyi khang pa/}
+36<place> Pleasure Grove of Song37<place> Pleasure Grove of Song: A grove in Garland of Splendor. (Original glossary entry: https://84000.co/glossary/entity-30607.html)
+2sing out!
+0mind-generation like pleasant song2song-like resolve9arouse song- like bodhicitta [among the {sems bskyed nyer gnyis}, in the continuum of the 10th bhumi having wisdom paramita the ye shes kyi phar phyin as for arousing bodhicitta, as for teaching the dharma produced by the aspirations of those to be tamed, it is like the melody of the gandharvas, arouse song-like bodhicitta]26{sems bskyed nyer gnyis kyi nang gses/sa bcu pa ba'i rgyud kyi ye shes kyi phar phyin dang ldan pa'i sems bskyed ni gdul bya yid 'dun par byed pa'i chos ston pas na dri za'i glu dbyangs lta bu'o/}28[gītopamā cittotpāda]/ The song-like bodhicitta. The Bodhisattva motive of enlightenment associated with primordial cognition possessed by the Bodhisattva on the tenth stage, surpassing the practice of primordial wisdom.47{sems bskyed nyer gnyis kyi nang gses/ sa bcu pa ba'i rgyud kyi ye shes kyi phar phyin dang ldan pa'i sems bskyed ni gdul bya yid 'dun par byed pa'i chos ston pas na dri za'i glu dbyangs lta bu'o//}53{sems bskyed nyer gnyis kyi nang gses shig/ sa bcu pa ba'i rgyud kyi ye shes kyi phar phyin dang ldan pa'i sems bskyed ni gdul bya yid 'dun par byed pa'i chos ston pas na dri za'i glu dbyangs lta bu'o/}55{sems bskyed nyer gnyis kyi nang gses/} {sa bcu pa ba'i rgyud kyi ye shes kyi phar phyin dang ldan pa'i sems bskyed ni gdul bya yid 'dun par byed pa'i chos ston pas na dri za'i glu dbyangs lta bu'o/ /}
+2bard8singer, singing instructor43= {sad byed} vaitālikaḥ, bodhakaraḥ mi.ko.49ka \n
+9chorus, choir
+2seven harmonious tones9the 7 successions of high and low notes
+2offered a song
+36<person> Mind of Melodious Song37<person> Mind of Melodious Song: Attendant of the buddha Jñānakośa. (Original glossary entry: https://84000.co/glossary/entity-24328.html)
+8to sing
+2Moon of Songs910th month26{(mngon) hor zla bcu pa/}43āśvayujaḥ, āśvinamāsaḥ — āśvina iṣo'pyāśvayujo'pi a.ko.1.4.18.55〔{mngon}〕{bod zla bcu pa/}
+8sing, chant
+8song and dance9song and dance26{gzhas dang zhabs bro/ glu gar 'bud dkrol/ sa bzhi glu gar rol mo'i rtsed mjos bkang/}431. = {glu dang gar} nṛtyagītam — {glu gar de bzhin rol mo dang} nṛtyagītaistathā vādyaiḥ jñā.si.1.69; nṛttagītam — pravṛttanṛttagītahāsyalāsyavāditram jā.mā.147/85 2. saṃgītam — vaneṣu kṛtasaṃgītaṃ harṣayiṣyati te manaḥ jā.mā.101/60.44Also abbreviated as {glur}. (Source: Dzongkha abbreviations)55{gzhas dang zhabs bro/}
+55{sa gzhi glu gar rol mo'i rtsed 'jos bkang /}
+8song and dance performer
+2sang and danced
+8artiste
+55{'debs mkhan dang 'debs lo mi gsal/} {grub mtha' rnying ma pa yin/} {da lta bod rang skyong ljongs chab mdo sa khul 'jo mda' rdzong khongs su yod/}
+2song, dance, and music; singers, dancers, and musicians
+2{glu gar rtsed 'jo yi ngang nas} singing, dancing, and playing
+8dance and play
+8sing
+9song and dance troupe
+8musical association, dance troupe9song and dance troupe55{glu dang gzhas/} {zhabs bro bcas 'khrab ston byed mkhan gyis tshogs pa'i ming /}
+9melody, tune
+9sing [??? gtong?]
+9skad gsang mthon pos gtong ba'i song26{skad gsang mthon pos gtong ba'i glu/}55{skad gsang mthon pos gtong ba'i glu/}
+83 medicines(sdig srin, zhal nag, byang nag)
+53{de kho na nyid kyi glu dang chos nyid kyi glu dang phyag rgya'i glu'o/}
+0mischevious nāgas
+8song, sportive song9songs [& joke]26{glu dang/ gzhas/ glu gzhas mnyam gtong/}44Also abbreviated as {gluzhas}. (Source: Dzongkha abbreviations)55{glu dang /} {gzhas/} {glu gzhas mnyam gtong /}
+9at the time of smon lam the people of Lhasa kyi khyim du glu gzhas btang chog pa tshogs chen zhal ngor dgongs pa zhus pa'i 'khrol 'dzin26{sngar smon lam tshugs dus lha sa'i mi dmangs kyi khyim du glu gzhas btang chog pa tshogs chen zhal ngor dgongs pa zhus pa'i 'khrol 'dzin/}55{sngar smon lam tshugs dus lha sa'i mi dmangs kyi khyim du glu gzhas btang chog pa tshogs chen zhal ngor dgongs pa zhus pa'i 'khros/}
+9sing
+9choral singing
+9chorus, choir
+9chorus, choir
+9[TT] opera, musical play
+9ldong ros, med. mineral26{(mngon) ldong ros/}55〔{mngon}〕{ldong ros/}
+2to sing a song8sing; songs, sing the song9sing43= {glu len pa/}
+9song and dance26{glu gar mnyam byed/ dga' spro'i ngang nas glu len bro 'khrab byed pa/}55{glu gar mnyam byed/} {dga' spro'i ngang nas glu len bro 'khrab byed pa/}
+9singing and dancing
+43= {glu len par byed/}
+9opera
+8songstress9songstress; songstress, sandalwood tree26{(mngon) shing seng ldeng/}43= {seng ldeng} gāyatrī, khadiravṛkṣaḥ — gāyatrī bālatanayaḥ khadiro dantadhāvanaḥ a.ko.2.4. 49.55〔{mngon}〕{shing seng ldeng /}
+2to sing; (to sing a) song8sing, chant9singer42gāyati43• kri. = {glu len} gāyati — purastātsthitvā nṛtyati gāyati vādayate a.śa.200kha/185; gīyate — gītanāṭyābhyāṃ gīyate nṛtyate param he.ta.19kha/62 \n\n• saṃ. gītam — mādhuryānavagītaṃ ca gītaṃ madhupayoṣitām jā.mā.101/60; gānam vi.sū.53ka/68; upagītam — athāyayau bhṛṅgagaṇopagītaḥ sindūrapūrāyitakiṃśukaśrīḥ a.ka.59.18; \n\n• vi. gāyantī — janapadakalyāṇyā gāyantyā madhuraṃ gītasvaram śi.sa.141kha/136.
+42gāyati43= {glu len byed} kri. gāyati nā.nā.216ka/22; gīyate — asmatpure siddhavilāsinībhiryadgīyase a.ka.108.35.
+9two persons singing to each other, duet in musical play
+9sing to each other/ duet in musical play
+2song goddess, the female bodhisattva Gita, song girl. One of {sems ma brgyad, mchod pa'i lha mo brgyad}; Gita Song Goddess (his consort)91) female singer; 2) Gita, song girl [offering goddess of pleasant melodious songs1 of {sems ma brgyad}. {mchod pa'i lha mo brgyad} female bodhisattva]261) {glu dbyangs gtong mkhan gyi bud med/} 2) {snyan zhing 'jebs pa'i glu dbyangs kyis lha tshogs mchod pa'i lha mo'i ming/}43nā. gītā, pūjādevī — dvādaśapūjādevīnām… nṛtyā vādyā gandhā mālā dhūpā dīpā naivedyā akṣatā lāsyā hāsyā gītā kāmā vi.pra.31ka/4.4.53{snyan zhing 'jebs pa'i glu dbyangs kyis lha tshogs mchod pa'i lha mo'i ming /}55(1) {glu dbyangs gtong mkhan gyi bud med/} (2) {snyan zhing 'jebs pa'i glu dbyangs kyis lha tshogs mchod pa'i lha mo'i ming /}
+2song [of one's experience]...Yid skyo ba'i9song [of one's experience]..Yid skyo ba'i26{nyams mgur ram mgur ma/ yid skyo ba'i glu ma dbyangs blangs/}55{nyams mgur ram mgur ma/} {yid skyo ba'i glu dbyangs blangs/}
+9sing a song
+9female singer gtam
+43gītāmudrā — gītāmudrāṃ baddhvaivaṃ vadet sa.du.143/142.
+43gāyanaḥ, gāyakaḥ eṣa durvyasanī… puṣṇāti viṭaceṭakagāyanān a.ka.64.19.
+8songstress
+45Sanskrit: rāmā <Word/Term/Phrase>\n\n\nTibetan renderings of rāmā: {bud med mchog/}, {dga' ma/}, {glu mkhas ma/}\n\na beautiful woman, any young and charming woman, mistress, wife, any woman\n\nSee the full entry at:https://www.itlr.net/hwid:504360
+43vi. gītakuśalaḥ — sarveṣu ca vīthīmukheṣu pañca pañca kanyāśatāni sthāpitāni abhūvan gītakuśalāni nṛttakuśalāni rā.pa.245kha/144.
+2singer, bard, poet, songster9singer26{glu dbyangs gtong mkhan/}55{glu dbyangs gtong mkhan/}
+2song
+55{glu dbyangs len pa dang glu dbyangs kyi rig gzhung la ches mkhas pa/} {glu rams pa/}
+8alternate songs
+42kuśalo nṛtyagīteṣu
+43=({p+lu ta} ityasya bhra.pā.) plutaḥ — ādiśabdena padavicchedaplutodāttādiparigrahaḥ ta.pa.213ka/896.
+2chanted
+2to express in song
+2expressed as a song2offered in song / verse
+8time in singing9sound of singing, music26{glu blangs pa'i sgra skad/}
+9dbyangs kyi sgo nas tshig shags rgyag res,...Dga' spror 'tshogs pa'i mi rnams glu shags rgyag res byed pa,...Phan tshun gtam nad ma theg par glu shags rgyag pa26{dbyangs kyi sgo nas tshig shags rgyag res/ dga' spror 'tshogs pa'i mi rnams glu shags rgyag res byed pa/ phan tshun gtam nad ma theg par glu shags rgyag pa/}55{dbyangs kyi sgo nas tshig shags rgyag res/} {dga' spror 'tshogs pa'i mi rnams glu shags rgyag res byed pa/} {phan tshun gtam nad ma theg par glu shags rgyag pa/}
+8naga brksa
+8sing a sweet song
+36<place> Sarasvatisaṃgīti37<place> Sarasvatisaṃgīti (Skt: sarasvatisaṃgīti): A palace in another world in the distant past. (Original glossary entry: https://84000.co/glossary/entity-31791.html)39<place> sarasvatisaṃgīti
+41(mus) song-fest {glu gzhas mnyam du gtang rgyu'i ched mi mang 'du 'dzoms stabs bde zhig}
+9words of a song/ singing, lyrics26{glu len pa'i tshig ste/ dbyangs su gyer chog pa'i tshig sbyor/}55{glu len pa'i tshig ste/} {dbyangs su gyer chog pa'i tshig sbyor/}
+8singer
+53{rgya gar phyi rol pa'i grub mtha' zhig gi ming /}
+421) saṃgīta 2) saṃgīti43= {glu dbyangs/}
+43gītitattvam — {glu'i de kho na nyid ces bya ba} gītitattvanāma ka.ta.1207.
+42gītitattva
+43gītopahāraḥ — codayanti tato devyo nānāgītopahārataḥ he.ta.24ka/78.
+43gītagoṣṭī, saṅgītagoṣṭī — {glu yi mdun sar khyod la mig/} {gtad pas}… {der} tvadarpitadṛśastasyāṃ gītagoṣṭyām kā.ā.2.260.
+24gīta-śabda43gītaśabdaḥ — vividhāḥ śabdā niścaranti … hastiśabdā vā… gītaśabdā vā sa.pu.133ka/210.
+36<place> Enraptured by and Attached to Song37<place> Enraptured by and Attached to Song (Skt: saṃhṛṣṭagītadhvanyabhiratā): A realm in the Heaven of the Thirty-Three. (Original glossary entry: https://84000.co/glossary/entity-30107.html)39<place> saṃhṛṣṭagītadhvanyabhiratā
+21) Ransom ritual. Safeguard-ransoms. A ceremony in which evil spirits are given an effigy of the afflicted person. 2) ransom, redemption, pawn, pledge2blud - glud tshab - a ransom2ransom ritual8rites of ransom, thing given as a ransom, ransoming form of exorcism, ransom effigies, general name used for all the types of ransom rites, SA mdos, yas, the ritual substitute for a person or animal usually made of tsampa, ransom, substitute effigy, ritual9ransom, redemption, pawn, pledge [could be anything]1087 LXIX. Discussed in Karmay, Arrow 246, 339 ff. Best described as a 'ransoming' ritual (not as a scapegoat).26{lus tshab/ gzugs kyi glud/ rta glud/ phyugs glud/ srog gi glud/ mi glud/ 'dre shar sgor bzhag nas glud nub sgor gtong ba/ sngar lung pa der nad pa'i don du 'dre la glud gtong ba'i srol 'dug}28Scapegoat. A clay or dough effigy of a person consecrated and sent away as ransom to appease harmful spirits which causes sickness or interference.32{lus tshab ste/ gzugs kyi glud/ rta glud/ phyugs glud/ srog gi glud/ mi glud/ dper na 'dre shar sgor bzhag nas glud nub sgor gtong ba lta bu/}47{lus tshab/}55{lus tshab/} {gzugs kyi glud/} {rta glud/} {phyugs glud/} {srog gi glud/} {mi glud/} {'dre shar sgor bzhag nas glud nub sgor gtong ba/} {sngar lung pa der nad pa'i don du 'dre la glud gtong ba'i srol 'dug}
+8the demon-ransom king (ceremony on the 29th day of the 2nd Tibetan month)
+9in Lhasa tshogs offered torma, rdzong ba'i glud 'gong26{lha sa'i tshogs mchod gtor rgyag skabs rdzong ba'i glud 'gong/}29{(glud ma )srog tshab tu gtong ba ste/bon gyi chos lugs/mi gson po'i srog tshab tu nor phyugs sogs sems can ngo ma gsod ma dgos par zan dang mar sogs las sems can de'i 'dra gzugs bcos nas sngags dang smon lam btab te gtong srol yod pa de 'dra zhig yin/yul mi dang grong mi mang po'i don du mi gson po glud du brdzangs pa'i srol ni sngar bod sa gnas srid gzhung gis srid dbang bzung ba'ip+sakabs su yang bon chos kyi goms gshis dang 'dra bar tshogs mchod gtor rgyag skabs bod ljongs mi dmangs spyi'i tshab byed pa'i gling 'gong rgyal po zer ba mi gnyis glas te gcig bsam yas pe har lcog dang gcig 'phan po rgyal khang du gtong srol yod pa ste/lo ltar bod zla gnyis pa'i tshes nyi shu dgur gsang sngags rnying ma byang chub gling pa'i tshogs yongs nas rnying lugs gtor sgrub dang 'brel ba'i sku glud du mi gnyis 'gro dgos pa 'khri khungs zhol las khungs nas pho yan mi gcig dang 'phan po glud 'gong sgang nas mi gcig bcas la chas gos ni 'go snam phyir nar bslog pa'i mgo shub/sked par shog bus bzos pa'i 'bo dang/bre nyag ga /sho bcas btags/lag tu g.yag gi rnga nag thogs pa/ras dkar gyi zhwa cog rtse ring la rnga nag gi tog dang/ras nag gi lcog dar can/'gram g.yas nag po/g.yon dkar po bzos pa glud 'gong rgyal po'i gzugs su bya ba gnyis yod/de'i skabs bla steng (bla brang )steng ste sa gtsug lag khang gi 'khyams ra'i yang steng)zur 'phyong rab gsal du tA la'i bla ma chibs bsgyur yod na dang med tshe mgron gzim nas na bza' gdan zhu byed pa dang/khams gsum rab gsal du bka' blon rnam pa/rdo gcal gyi byang ngos su 'bras spungs tshogs chen dge bskos/chab bdag ma/sku tshab rnam gra'i sku zhabs dbu paN dang/sku ber/stong tshab kyi dom ra bskyon pa zhig dang/byang chub gling pa'i slob dpon bcas gdan thog 'khod/lha sa tsho par 'khri ba'i dpa' bo dang/dpa' mo zhes gzhon nu gnyis la rgyas gos rgyas spros kyis g.yog bzhi bcas langs nas sdod pa/byang chub gling pas dkyil 'khor mthil du rgyal po btsan mdos sgrub gzhag sngon zin ltar rdor slob kyis dbu zhwa nag bdun sgo 'phyor 'og gsung chog dang 'brel bas 'chams dang/gser skyems zin mtshams glud 'gong nas kyang rang lugs 'chams dang 'brel so so nas byang chub gling pa'i rdor slob dang mnyam du sho thems gsum re rgyag kyang/rdor slob kyi sho grub bzhi dkar po mig gcig nas drug par yod pa dang/glud 'gong gi sho nag po mig gnyis kyang kyang yang yang mngon chung ang ki chung chung gnyis nas drug par bkod yod/de ni mtha' bskor ltad mo ba mi mang ba'i rkyen gyis phyi gyar gsang thabs kyi dgos pa zhig yin 'dug pa las nang don sho 'phang skabs shod grung gcig nas su rgyal ba ltas te sam Ta bris nas snyan zhur 'bul dgos/sho rgyag tshar 'phral glud 'gong gnyis khro bo'i zhal 'bag gyon pa'i ha la rnams kyis 'ded de gcig ra sgang brgyud bsam yas dang/gcig 'phan po rgod la brgyud glud 'gong sgang du brdzangs pa ltar rgyang thag gang tsam zhig ma chod par phyir bltas tsam slob mi chod par bskyod dgos/de rgyab rgyud smad tshogs yongs nas bla steng e waM nang chos rgyal sgo nas gtor sgrub zor 'phen la sngon du 'phyar dar mang po bsgrengs shing/zhal ngo 'khor bcas dang/zhabs brtan do dam rtse drung/'bras spungs spyi so/_/tshogs rabs dge bshes brgyad/gnas chung chos rgyal mi'i khog rlom bcas klu sgug gtor gong dkar chos sde so sos de nyin rang la gtor rgyag kyang rgyag srol 'dug }47{lha sa'i tshogs mchod gtor rgyag skabs rdzong pa'i glud 'gong /}53{lha sa'i tshogs mchod gtor rgyag skabs rdzong ba'i glud 'gong /}55{lha sa'i tshogs mchod gtor rgyag skabs rdzong ba'i glud 'gong /}
+9ransom
+53{glud ni bar chad dang gnod pa sel ched du bzos pa'i lus tshab cig la zer/ de dag thag ring sar 'bud pa'am skyel bar glud brdzangs pa zer/}
+2implements for the ransom ritual9in giving a pledge/ ransom sprod pa'i rdzongs skal dngos chas26{glud gtong skabs sprod pa'i rdzongs skal dngos chas/}47{glud gtong skabs sprod pa'i rdzongs skal dngos chas/}53{glud gtong skabs sprod pa'i rdzongs skal dngos chas rnams la zer/ tshig 'di gsar du bcos pa yin/}55{glud gtong skabs sprod pa'i rdzongs skal dngos chas/}
+8ransom attire
+9give a ransom/ pledge
+2ransom torma8offerings made to ransom a life9ransom torma; ransom torma [for sick people etc. given to 'dre gdon etc.]26{nad pa sogs kyi don du 'dre gdon la gtong ba'i gtor ma/}47{nad pa sogs kyi don du 'dre gdon la gtong ba'i gtor ma/}53{nad pa sogs kyi don du 'dre gdon la gtong ba'i gtor ma zhig /}55{nad pa sogs kyi don du 'dre gdon la gtong ba'i gtor ma/}
+2to throw a ransom, [certain ritual]9throw a ransom, [ritual]
+8substitute effigy
+8ransom a scape-goat
+8release
+2material for the ransom ritual8ransom objects9ransom articles [various things given w with ransom torma]26{gtor glud dang mnyam du gtong ba'i rdzas sna tshogs/}47{gtor glud dang mnyam du gtong ba'i rdzas sna tshogs/}53{gtor glud dang mnyam du gtong ba'i rdzas sna tshogs/}55{gtor glud dang mnyam du gtong ba'i rdzas sna tshogs/}
+2effigy given as ransom to harmful spirits/ a ghost-trap8ransom offered to some malignant spirit, effigy offering, ransoming by effigy form of exorcism
+9glud dang rdzongs chas26{glud dang rdzongs chas/}47{glud dang rdzongs chas/}53{glud dang rdzongs chas bcas la zer/ tshig 'di gsar du bcos pa yin/}55{glud dang rdzongs chas/}
+42niṣikta
+2sruva, [implement in fire puja], filling tool9shruva [implement in fire puja], filling tool]
+10Btsan-lha.48{blugs pa ste/} 《{bod kyi gna' rabs yig cha gces btus}》{las/ khrag zag na spu s+m+wa'i gong na mchings}({bcings}) {pa dang / pong tshogs mchings te mgo thog tu chu glugs pa/ zhes pa lta bu'o/ /}
+42nastakaraṇam
+2boiled barley, wheat or rice8fresh fermented grain used to brew beer instead of malt9boiled grain after the chang essence is extracted10The grain that remains as a byproduct of beer making. Das says it's the fresh fermented grain used instead of malt in brewing beer. Ardussi, Drinking 119. lta bsgom bsnyen bsgrub tu bskyal bas / nyams myong glum langs pa bzhin du 'ong. Zhi-byed Coll. II 333.7.26{chang rtsi brgyab nas bsnyal ba'i 'bru btsos ma/ glum la chu btab nas chang gsing ba/}32{btsos nas chang rtsi btab pa'i 'bru rigs kyi ming ste/ yongs grags la sbang ma zer/ chang glum/ sbang glum zhes pa lta bu/}43golakaḥ — kundaṃ dharmodayākhyātaṃ golako'mṛtaṃ gīyate \n yā surā vajrayoginyo yo madaḥ sa ca herukaḥ sa.u.26.12; = {chang gi sbang ma'i glum} cho.ko.141.55{chang rtsi brgyab nas bsnyal ba'i 'bru bcos ma/} {glum la chu btab nas chang gsing ba/}
+91) of {gsung rab yan lag bcu gnyis}
+8ligularia achyrotricha (diels) ling, ligularia sagitta (maxim.)mattf.
+44Abbreviation for {glo bur}. (Source: Dzongkha abbreviations)44Abbreviation for {glo 'bur}. (Source: Bacot écriture cursive Tibétaine)
+44Abbreviation for {glo bur du}. (Source: Dzongkha abbreviations)
+44Abbreviation for {glu gar}. (Source: Dzongkha abbreviations)
+43= {glur blangs pa/}
+43= {glu ru blangs pa} 1. gītam — aho nu rājaputryā tadgītaṃ sādhu subhāṣitam a.ka.107.11 2. = {do ha} dohā — {thugs kyi gsang ba glur blangs pa zhes bya ba} cittaguhyadohanāma ka.ta.2443.
+44Abbreviation for {glu gzhas}. (Source: Dzongkha abbreviations)
+9invincible
+9Maitreya
+9affirming negation/ negative
+9predominant custom
+9sense-field of the eye
+9person on the stage of devoted conduct {tshogs lam} or {sbyor lam}
+9use old traditions in the present age
+21) former, ancient. 2) gna' ba. 3) gna' po. 4) gna' bo8large wild sheep10O.T. = thog ma. = sngon. Blan 285.4. Btsan-lha.321. {yun ring lon pa'i sngon dus kyi ming ste/ gna' snga mo/ gna' dus zhes pa lta bu/ (gna' gtam) ngag rgyun la grags pa'i gtam rgyud sna tshogs kyi spyi ming ste/ byis par gna' gtam bshad lta bu/ (gna' bo) dus yun ring bo 'am lo mang bo 'das pa'i don te/ gna' bo'i dkar yol ni gna' dkar/ gna' bo'i khang pa ni gna' khang zhes pa lta bu/} 2. {ri dwags kyi rigs shig}43pūrvam — {'di ltar bdag tu lta ba bskyed mi dgos/} {gna' nas skyes zin pa'i phyir ro//} yasmāt ātmadṛṣṭiranutpādyā, pūrvamevotpannatvāt sū.vyā.239kha/152.48{sngon zhes pa'i brda rnying ste/}《{brda gsar rnying gi brda chad 'ga' zhig gi dris lan}》{las/ gna' 'di brda rnying / brda gsar la sngon zer/ des na gna' mi ni sngon mi zhes pa'i don/ zhes gsungs pa ltar ro//}50{thog ma'am sngon/}55{yun ring lon pa'i sngon dus kyi ming ste/} {gna' snga mo/} {gna' dus zhes pa lta bu/}
+0burrhel sheep2antelope, wild sheep, ovis nahur2baral2burrhel, wild sheep8blue sheep, bharal, large wild sheep, ovis nahur, former, ancient, ovis nahura, type of wild sheep9antelope10O.T. = sngon. Blan 294.3. a type of wild sheep. Norbu, Drung 123. See under rna ba. Acc. to Allen, Search 64, the nawa (blue sheep), which the Nepalese call bhural. Khenrap in TJ 25 no. 4 (2000) 51. JD 232. SS 502.2, 539.1.26{ri dwags shig}51{bod kyi ri dwags shig 'di la phyi rgyal bas }Himalayan blue sheep, bharal {dang / mtshan rig gi ming du } pseudois nayaur {zer/ bod yig dbyangs bzhi pa na ro'am/ gna' ru'am/ rna ru zhes pa ri dwags 'di'i rwa co la dpe blangs nas ming thogs pa yin/}55{rdza ri sogs/} {ri brag mtho par gnas/} {ri dwags shig}
+21) ancient, original, beginning 2) long time back, old time, formerly, in old times, former times, time of yore; ancient time, of yore/ the old days, 3) the ancients2ancient8former time, of yore9ancient; ancient, original[ly], from a long long time back, formerly, in old times, former times, time of yore. ancient, primeval, classical26{snga ma'am gzod ma dang/ gdod ma/ gna' dang da mi 'dra/ pha dang bu mi 'dra/}43= {snga ma/} {gzod ma/} {gdod ma/} dra. {gna'/}50{sngon/}55{snga ma'am gzod ma dang /} {gdod ma/} {gna' dang da mi 'dra/} {pha dang bu mi 'dra/}
+55{gna' bo'i dur khung sogs lkog tu sngog nas gna' rdzas brkus pa la zer/}
+55{spyi lo'i dus rabs lnga pa nas drug pa'i bar gyi nyi hong bran g.yog spyi tshogs kyi skabs su thon pa'i bang so'i nang gi ldebs ris dang ri mor zer/}
+41(adm,his) antique {gna' ba'i dus nas byung ba'am de dang 'brel ba'i/}
+9classical reference book
+55{rgyu zangs las grub pa'i me long zhig yin/} {de ni hrang kro'u dus skabs su thon zhing /} {me long gi mtha' dang rgyab la rgyan ris sna tshogs brkos yod pas der sgyu rtsal gyi rang bzhin chen po ldan yod/}
+2aboriginal, man of ancient times
+55{chi lho ma'i shad ho yis brtsams pa zhig yin/} {de'i nang don rgyal khab gsum gyi dus nas chi lho ma'i bar du thon pa'i ri mo mkhas can nyi shu rtsa bdun rnams rim pa drug tu dbye nas re re bzhin dpyad brjod byas yod/} {lhag par du gleng gzhi'i nang du rtsa 'dzin drug gi sa bcad rnams bkod yod pas rgya srol ri mo'i rmang gzhi'i rtsa ba gtan 'khel byung stabs shugs rkyen chen po byung nas dus da lta gzhi 'dzin sa'i rtsa 'dzin byed kyi yod/}
+9classical literature
+55{rang rgyal gna' bo'i dus skabs su dpe deb dang /} {ri mo sogs nyar tshags byed sa'i khang chen la zer/} {de'i nang mang che ba gna' bo'i ma dpe rnying pa dang /} {dpe cha rnying pa/} {ri mo rnying pa/} {yo chas rnying pa sogs nyar tshags byas yod par brten/} {rjes su mi rnams kyis dpe deb dang ri mo rnying pa 'jog gang mang che bar gna' ba'i sna 'dzoms dpe mdzod khang chen zhes 'bod kyi yod/}
+2ancient customs
+55{gna' dus su bris pa'i yi ge ste/} {rus par brkos pa'i yi ge dang /} {li ma'i yo chas steng gi yi ge/} {kro'u yi ge bcas la zer/} {phyogs mtshungs han rgyal rabs sngon gyi chin rgyal rabs skabs su bris pa'i dpe rnying gi spyi ming la gna' bo'i yi ge zhes zer srol chags/}
+51{gna' bo dang deng dus/ dper na gna' deng gi mkhas pa zhes pa lta bu/}
+9example/ proverb/ saying/ pecha from former times261) {sngon dus kyi gtam dpe/} 2) {sngon dus kyi dpe cha/}55(1) {sngon dus kyi gtam dpe/} (2) {sngon dus kyi dpe cha/}
+55{spyi lo'i dus rabs bcu bdun pa'i skabs yo rob nub mar thon pa'i rtsom rig sgyu rtsal gyi bsam pa'i rlabs rgyun zhig yin/} {rlabs rgyun de h+pha ran sir 'phel rgyus shin tu chen po byung zhing /} {de'i nang don la dgos 'dun bzhi yod pa ste/} {1tshul mthun gyi dad gus zhes pa de ni tshul mthun ring lugs de gsar rtsom byed pa'i slob ston bsam blo yin dgos pa/} {2rang byung gi dad gus/} {zhes pa de ni spyi mtshan can du 'gyur ba dang rnam pa ring lugs kyi phyogs lhung yod dgos pa/} {3gna' dpe'i dad gus/} {zhes pa de ni gna' bo'i zhi la dang /} {ro ma gnyis kyi rig rtsal la lad zlos byed pa dang /} {gna' bo'i brjod bya spyod rgyu'i 'dod tshul 'dzin gyi yod/} {4sgyu rtsal legs grub kyi dad gus zhes pa de ni dngos yod ring lugs kyi rgyu rkyen ldan yod cing /} {ri mo'i thad tA we dang an }\u0fce{ra sogs tshab byed mi sna yod/}
+55{spyi lo'i dus rabs bcu dgu pa'i dus mjug tu thon pa'i rig rtsal gsar rtsom gyi bsam pa'i rlabs rgyun zhig yin/} {spyi lo'i dus rabs nyi shu pa'i dus 'gor mngon gsal dod po'i sgo nas 'jar men gyi rig rtsal gar stegs thog thon te de rjes ma rtsa ring lugs kyi rgyal khab khag gi rig rtsal gar stegs dang /} {ri mo dang rol mo sogs kyi sgyu rtsal tshan khag gi nang du dar khyab song /} {ming 'ga' zhig gi ngos 'dzin la spyi lo'i dus rabs bcu drug nas bco brgyad bar gyi yo rob tu thon pa'i gna' dpe ring lugs kyi rig rtsal la lad mo byas nas dar spel byas pa zhig yin pas der } ་་ {gna' dpe ring lugs gsar pa } ་་ {zhes zer/} {kho pa tsho'i 'bod tshig ni } ་་ {zhi la dang ro mar bskyar log rgyag dgos } ་་ {zer ba dang /} {gna' bo'i sgyu rtsal gyi sgrig khrims dang goms srol slar gso byed dgos zer ba/} {gna' dpe ring lugs la 'ud bstod byed pa bcas kyi 'dod tshul 'dzin gyi yod/}
+55{gna' dpe } ་་ {zhes pa ni la ting yi ge zhes pa 'di don sgyur yin zhing de'i nang don ni } ་་ {gsung rab } ་་ {kyi don du go/} {gna' dpe'i sgyu rtsal gyi khongs su mi rigs khag gi gna' bo'i 'dzugs skrun dang /} {'bur brnyan/} {ri mo/} {rol mo/} {zlos gar/} {snyan ngag gi glu gzhas/} {lha sgrung /} {sgrung gtam sogs yin/} {dbyi thA li'i rig rtsal bskyar dar skabs kyi sgyu rtsal mkhas pa dang sgyu rtsal gyi lo rgyus mkhas can tshos gna' bo'i zhi la dang ro ma'i sgyu rtsal de slob sbyong byed sa'i mig dper 'dzin par brten rjes su ming de 'bod srol du gyur/}
+2antiquity, ancient2former / ancient times8former, SA thog ma, sngon chad9former times, antiquity26{sngon gyi dus/ gna' dus cha lugs/}55{sngon gyi dus/} {gna' dus cha lugs/}
+9style/ fashion of former times/ antiquity
+49{de yang / bod ljongs sman rtsis khang gi rtsis rams pa yum pas brtsams pa rtsis rig la 'jug pa'i sgo las byung ba ste/} (Source: 《{rtsis rig la 'jug pa'i sgo }》{deb sha }192.3{las btus/}).
+8just like it was in the past
+8in the past
+9gna' bo'i gshis lugs26{gna' bo'i gshis lugs/ gna' gshis kyi shugs/}55{gna' bo'i gshis lugs/} {gna' gshis kyi shugs/}
+2ancient history9continuous stream of talk, old/ ancient saying26{ngag rgyun la grags pa'i gtam rgyud/ byis pa rnams la gna' gtam bshad/}55{ngag rgyun la grags pa'i gtam rgyud/} {byis pa rnams la gna' gtam bshad/}
+55{gna' ri dwags shig ste gna' ba pho/}
+9wild animal like sheep male
+9ancient/ classical custom
+9ancient/ classical dance
+10gsha' ma'am bzang po. Btsan-lha.48(1) {gsha' ma'am bzang po'i don te/}《{bka' chems ka khol ma}》{las/ gser gyi dong tse gna' ma lnga brgya/ zhes pa lta bu'o//}48(2) {thog ma'am sngon gyi ming ste/}《{brda yig blo gsal mgrin rgyan}》{las/ gna' ma ni thog ma'am sngon gyi brda rnying / zhes gsungs pa ltar ro//}
+21) witness. 2) {gna' bo'i mi}8man of ancient time9witness, person from former times10Menschen der Vorzeit. Kaschewsky2.26{snga dus kyi mi/}36<person> Purāṇa37<person> Purāṇa (Skt: purāṇa): The Hundred Deeds appears to list him as one of the attendants of the queen in Śrāvastī during the time of the Buddha. Elsewhere he and his associate Datta are remembered as a ministers or attendants (sthapati) to King Prasenajit. (Original glossary entry: https://84000.co/glossary/entity-7784.html)39<person> purāṇa43nā. purāṇaḥ, sthapatiḥ — {de bzhin du dge bsnyen lnga brgya dang}… {btsun mo 'khor gyi bla drang srong sbyin dang gna' mi dang}…{rgyal po gsal rgyal rnams kyis kyang skabs phye ste} tathā pañcabhirupāsakaśatairalpotsukā kriyate…ṛṣidattapurāṇābhyāṃ sthapatibhyāṃ…rājñā prasenajitā a.śa.193ka/178; vi.va.160kha/1.49.55{snga dus kyi mi/}
+2ancient9ancient; 1) the past, former times; 2) female of sheep-like wild animal gna' ba; 3) ancient, classical261) {snga mo'am sngon dus/} 2) {ri dwags gna' ba mo/}55(1) {snga mo'ang sngon dus/} (2) {ri dwags gna' ba mo/}
+9ancient city
+9classical music
+8primitive
+0previously; before; early; earlier9from former times, from long ago, originally16[MSA]pūrva
+8never seen before
+55{zhi la'i gna' bo'i thog ma'i dus kyi 'bur brnyan la zer ba dang /} {spyi lo'i sngon gyi dus rabs lnga pa'i gong du thon zhing /} {brkos dkrol de rigs da yod mthong rgyu yod pa gtso bo ni zhi la'i dgon pa khag gi ri gyang brkos dkrol rnams yin/} {lhag par du a'e ci nA gling phran thog gi A h+phe yA lha khang gi ri gyang brkos dkrol dang /} {a'o lin phi yA kro'u si lha khang gi ri gyang brkos dkrol rnams gtso bo yin/} {brkos dkrol de rigs ni rgyab mdun gnyis kar brkos yod pa dang /} {phyi sgrom ni zur gsum cha mnyam can mang po 'brel nas bzos yod/}
+10A mammal. See Sandberg, Tibet 298.
+2ancient times9ancient, primeval, classical10A mammal. See Sandberg, Tibet 296.
+9ancient city
+9primeval forest
+2ancient, ancient times, antique, classical2antiquity, ancient8ancient times, men who lived in olden times, the ancients, in ancient times, long ago9ancient times, antique, classical, former generations, paleo-26{gna' snga mo'i dus rabs/}43= {gna'i rabs} purāṇam, vyāsādimunipraṇītaśāstraviśeṣaḥ — {de ltar byung brjod gna'i rabs las/} /{gang yang tshangs sogs kun mkhyen yin//} itihāsapurāṇeṣu brahmādiryo'pi sarvavit \n ta.sa.116kha/1009; {gna' rabs zhes bya ba ni bstan bcos so//} purāṇaṃ nāma śāstram ta.pa.323kha/1114.55{gna' snga mo'i dus rabs/}
+8ancient
+9middle ages
+55{gna' dus su bcad shing spyod pa'i khrims srol/}
+9ancient history
+9paleo-anthropology
+9old/ ancient things/ articles/ curios, antiques26{snga dus kyi dngos rdzas/}55{snga dus kyi dngos rdzas/}
+9museum of antiquities
+9old/former things and yul lung gi rjes shul26{snga dus kyi dngos rdzas rnying pa dang yul lung gi rjes shul/}55{snga dus kyi dngos rdzas rnying pa dang yul lung gi rjes shul/}
+9closely examine previous history by looking at past artifacts, archeology
+9archeologist
+9archeologist
+9closely examine previous history by looking at past artifacts, archeology26{snga dus kyi dngos po dang rjes shul la brten nas sngar gyi lo rgyus la zhib 'jug brtag dpyad byed pa/}55{snga dus kyi dngos po dang rjes shul la brten nas sngar gyi lo rgyus la zhib 'jug brtag dpyad byed pa/}
+9archeologist
+9archeologist
+10See shil gyi gna' ru.511. {bod yig gi dbyangs bzhi pa mtshon byed kyi ri mo zhig}512. {ri dwags gna' ba'i rwa co/}
+41(archeol) remains {deng gi char 'tshol rnyed byung ba'i gna' bo'i dngos po dang khang pa sogs kyi cha lag rgyun gnas byung ba rnams/}
+9person who was subsequently famous26{snga rabs kyi rjes shul ming grags can/}55{snga rabs kyi rjes shul ming grags can/}
+2ancient2ancient times, deep antiquity8ancient; ancient time, in the past9ancient; former/ ancient times, antiquity26{sngar snga mo/}55{sngar snga mo/}
+9former tradition. ancient/ classical custom26{sngar gyi lugs srol/}55{sngar gyi lugs srol/}
+10gna' tsan me ge na ni sngon dus su ma ki na zhes pa ste gna' bo ni sngon dang dang po la 'jug. Dpe-chos 512.
+55{gna' ma khyim du 'dzul rjes thog mar gna' ma la phye mar sder gang dang khem bu zhig bzhag} {gzhan bza' chas sogs bkod pa la zer/}
+29{'di gna' dus shig zhes pa'i tshig sdud dang/sngon dus shig /sngar zhig /snga ma zhig /snga dus shig sogs kyi ming gi rnam grangs}55{'di gna' dus shig zhes pa'i tshig sdud dang /} {sngon dus shig} {sngar zhig} {snga ma zhig} {snga dus shig sogs kyi ming gi rnam grangs/}
+9old/ ancient things/ articles/ curios, antiques
+9museum of antiquities
+9old/former things and yul lung gi rjes shul
+9archeologist
+9closely examine previous history by looking at past artifacts, archeology
+9archeologist
+9closely examine previous history by looking at past artifacts, archeology
+9archeologist
+9archeologist
+43purāṇam ma.vyu.7129(101kha).45Sanskrit: purāṇa <Word/Term/Phrase>\n\n\nTibetan renderings of purāṇa: {sngon gyi rabs/}, {gna'i rabs/}\n\nIn the Buddhist context, one of the eighteen fields of knowledge (vidyāsthāna: rig pa’i gnas).\nN. of a class of sacred works (supposed to have been compiled by the poet Vyāsa and to treat of 5 topics [cf. pañca-lakṣaṇa]; the chief purāṇas are 18, grouped in 3 divisions: viz. 1. rājasa exalting brahmā [e.g. the brahma, brahmāṇḍa, brahmavaivarta, mārkaṇḍeya, bhaviṣya, vāmana]; 2. sāttvika exalting viṣṇu [e.g. the viṣṇu, bhāgavata, nāradīya, garuḍa, padma, varāha]; 3. tāmasa exalting śiva [e.g. the śiva, liṅga, skanda, agni or in place of it the vāyu, matsya, kūrma]; by some the padma are divided into 4, and by others into 6 groups\n\nSee the full entry at:https://www.itlr.net/hwid:3884252(Skt. purāṇaṁ) ancient generation, mythology
+27{gnab} CD. gives the present of as {nab}
+2{gnabs}, to put on [clothes]8SA bzhes, put on clothes, SA mnab pa
+10kha zas sam / bza' ba. Btsan-lha.48{kha zas sam/ bza' ba'i ming ste/}《{bod kyi brda skad ming gzhi gsal bar ston pa'i bstan bcos}》{las/ gnab rtsal kha zas bza' ba/ zhes gsungs pa ltar ro//}
+2see {gnab pa}8SA gnab pa
+2garment8garment; garment or dress to be worn
+21) pith, secret, essence, posture; key point, crucial point; the very heart of, essential point. main point, significance, importance, essence, technique, essential point, secret point, main point, crucial point, vital point, critical point, 2) vital organs. 3) crucial, essential, key, vital3key points4The most important main points of a topic.8(main, key, essential, crucial) point, practice, essence, the most important decisive thing, the very nature, pith, heart, quintessence, technique, essential, way, the point is, fundamental points, specific points, methods, crucial importance, main point, main points, key point, key points, method, pith-instruction91) marma: body life nadi; 2) important/ fundamental / key/ main/ critical point; 3) pith; 4) significance importance, essence, technique; 5) secret [point]; 5) essence (6) posture (7) cost)/ ['di ga tshod gnad gi 'dug: how much does this cost?]. 1) marma: body life nadi; 2) important/ fundamental / key/ main/ critical point; 3) pith; 4) significance importance, essence, technique; 5) secret [point]; 5) essence; 6) posture; 7) cost10marman; difficult point. In medicine, 'vital juncture' of the body which may be easily injured. Klong-chen-pa 9.5, 9.6. lus gnad gsum. Stein. See the long discussion of the 107 marman of Ayurveda in Hartzell, Dissert. 626 ff.11key/ crucial point; the very heart of . . . ; isc. (when ending a line of verse or a sentence) it is crucial to . . .24marman261) <{marma}>{ lus kyi srog rtsa/} 2) {gal che sa'am rtsa ba thug sa/ gnad du phog pa/}30crucial point; key point321. {mi dang srog chags kyi lus phung gi gal ha cang che sa'i khag gi ming ste/ rtsa gnad/ sha gnad ces pa lta bu/} 2. {dpe cha'i nang gi go dka' ba'i tshig dang don gal chen gyi ming ste/ gzhung gi dka' gnad/ tshig gi gnad don/ tshig gnad la khel zhes pa lta bu/ (gnad 'gag)} (1) {lam sne mang bo 'dus pa'i phreng 'gag lta bu'i ming /} (2) {skad cha dang rtsom gyi don 'dus shing tshig nyung ba'i gnad ka'i ming / (gnad don)} (1) {'grel bshad rgyag pa dang lan 'debs dgos pa'i don tshan gyi ming ste/ da thengs kyi rgyugs len pa la gnad don lnga yod/ gnad don de la ngas lan btab pa yin lta bu/} (2) {rtog dpyod dang gros byas nas thag gcod dgos pa'i 'gal ba dang dka' ngal sogs kyi ming ste/ bsam pa'i gnad don/ langs phyogs kyi gnad don / rtswa sa'i rtsod gleng gi gnad don zhes pa lta bu/} (3) {bsam yul las 'das pa'i bya dngos mi legs pa'i ming ste/ lam nas gnad don zhig la thug zer ba lta bu/} (4) {gnad kyi don po zhes pa'i tshig bsdus pa ste/ tshig brgya stong bshad pa'i gnad don zhes pa lta bu/ (gnad gsum) thod rgal bsgom pa'i gnad gsum ste/ bca' ba lus kyi gnad sku gsum gyi bzhugs stangs gsum las mi g.yo ba/ 'khrid pa dbyib sa kyi gnad sku gsum gyi gzigs stangs las mi 'gul ba/ snang ba yul gyi gnad dbyings rig mi 'bral zhing rlung dal bar sdod pa rnams so/}43marma — {gser gyi logs ni de yi tshe/} /{brtse ba'i zhags pas dbang du byas/} /{mda' yis gnad du phug pa bzhin/} /{de nyid du ni g}.{yo med gnas//} suvarṇapārśvastu tadā kṛpāpāśavaśīkṛtaḥ \n tatraiva niścalastasthau marmaviddha iveṣuṇā \n\n a.ka.256ka/30.13.55(1) 〈{marma}〉{lus kyi srog rtsa/} (2) {gal che sa'am rtsa ba thug sa/} {gnad du phog pa/}
+9by weapons or inner wind lus kyi rtsa gnad rnams dum bur zhig 'gro ba24marma-ccheda26{mtshon cha dang/ nang rlung gang rung gi rkyen la brten nas lus kyi rtsa gnad rnams dum bur zhig 'gro ba/}55{mtshon cha dang /} {nang rlung gang rung gi rkyen la brten nas lus kyi rtsa gnad rnams dum bur zhig 'gro ba/}
+24marma-ccheda-duḥkha
+8essential point, essential
+2crux of a matter, key to a situation, important thing, focus, significance; essential key point, important points, main point, salient points, condensed into a single point; a point of importance, important matter, importance8very important point, salient point, object, purpose, main point, important, really9crux of the matter, key to a situation, important thing, focus, significance. essential key/ important/ main/ salient point31critical55{gal 'gangs che sa'am gzhi rtsa/} {las don 'grub thub min gyi gnad 'gag mi shugs la thug yod/} {las don gang yin de'i gnad 'gag che sa nas bsam blo gtong thub pa dang /} {gnad 'gag chung sa nas lag len bstar thub byed dgos/} {dbyin skad du }critical {zer/}59significance, importance
+9important/ essential/ critical/ consequential [point]
+8important
+41(adm) bottom line {gal gnad gtso ba'am gnad 'gag che shas/}58[sound:3-380a.mp3]\n{gnad 'gag che shos} most crucial, of foremost importance, most essential\nSyllables: {gnad/} = key point, main point; {'gag} = to be stopped, as in: {'gog pa'i bden pa/} = Truth of Cessation, {dgag sgra/} = negation particle; {che/} = {chen po/} = big, great, as in: {glang chen/} = elephant; {shos/} = superlative, as in: {dga' shos/} = favourite\n-----\nExample: [sound:3-380b.mp3]\n {khyed rang skad sgyur yag po byed 'dod yod na bla mas gsung shul ring kar nges par du tshig gnad 'gag che shos de tsho tshang ma zin bris rgyag dgos red/}  If you want to be a good interpreter, you definitely need to take notes while the {bla ma/} is speaking.
+2very important, important subject matter8important, serious, severe, critical, vital9important/ essential/ critical/ consequential [point]
+26{las don 'grub thub min gyi gnad 'gag mi shugs la thug yod/ las don gang yin de'i gnad 'gag che sa nas bsam blo gtong thub pa dang/ gnad 'gag chung sa nas lag len bstar thub pa byed dgos/}
+2essential point
+9unimportant/ inessential/ inconsequential [point]
+2the ultimate key point
+9question, problem, matter, importance, significance, essence, pith, essential meaning
+2a most crucial and deep point9most crucial and deep point
+2crucial point
+9crux of the matter, key to a situation, important thing, focus, significance. essential key/ important/ main/ salient point
+55{las ka'i gal 'gangs che chung /}
+8explain the main point91) unravel and explain the essential points; 2) loose a net/ know261) {gnad don bkral nas 'chad pa/} 2) {rgya'am mdud pa 'grol ba/}55(1) {gnad don bkral nas 'chad pa/} (2) {rgya'am mdud pa 'grol ba/}
+43• nā. makkoṭakaḥ, parvataḥ — {de ltar gnad 'joms pa'i ri la gnad 'joms pa'i srog chags su gyur pa rnams kyis phyi dang nang rdul phra rab tsam yan chad kyang zos par 'gyur ro//} evaṃ makkoṭakaparvate mākkoṭakaiḥ prāṇijātibhiḥ sāntarbahiḥ paramāṇuśaḥ prabhakṣyate śi.sa.45kha/43; \n\n• saṃ. mākkoṭakāḥ, prāṇijātiviśeṣaḥ — {de ltar gnad 'joms pa'i ri la gnad 'joms pa'i srog chags su gyur pa rnams kyis phyi dang nang rdul phra rab tsam yan chad kyang zos par 'gyur ro//} evaṃ makkoṭakaparvate mākkoṭakaiḥ prāṇijātibhiḥ sāntarbahiḥ paramāṇuśaḥ prabhakṣyate śi.sa.45kha/43.45Sanskrit: Makkoṭaka <Place Name>\n\n\nTibetan renderings of Makkoṭaka: {gnad 'joms pa/}\n\nMakkoṭaka(-parvata), m., n. of a mountain of torment in hell: °te Śikṣ 71.2. Acc. to Bendall and Rouse, Tib. gnad ḥjoms pa (destroying the vitals), which fits the description of torments there. (AMg. makkoḍaa is defined ant; Deśīn. 6.142 makkoḍa, a pile, rāśi, for setting up a machine).\n\nSee the full entry at:https://www.itlr.net/hwid:639259
+55{gna' bo'i rgya srol ri mor dpyad brjod byed pa'i ming tshig cig yin/} {de ni ching rgyal rabs skabs kyi hren ca'e kro'u yis bstan pa zhig yin pa ste/} {mi sna 'bri skabs su ri mo mkhan gyi mig gnad du 'khel ba dang /} {lag pa gnad du 'khel ba/} {sems gnad du 'khel ba bcas gnad 'khel gsum phyogs bsdus thub pa yin na gzhi nas pir brtan por bzung thub pa'o/ /}
+8accurate
+9incisive
+9appropriate, good, just right55{'gag rtsa'i thog tu tag tag 'khel ba/}
+2follow precisely; Thrangu Rinpoche: = tshod zin na; make neatly, exactly, right measure
+2pf of gnad gcod pa. [mss]
+21) the seven vital parts [of the body]. 2) sevenfold posture87 important parts of the body
+2essential point, essence, importance
+2deep essence / meaning
+2Syn {gnad du bkrol ba}
+8to reveal the key point11to reveal the key point
+2to hit the vital point, penetrate to the essence, to penetrate the essence9hit the vital point, penetrate to the essence
+2to strike at the vital point, "hit the nail on the head"11to hit on/ strike at the vital point/ "hit the nail on the head"
+11to summarize the key points; synopsis of the key points
+2essential points
+2summary, abstract, abridgment, synopsis, key points8essential points9summary, abstract, abridgment, synopsis, key points; embodiment/ summary of all the piths, summary, abstract, abridgment, synopsis, key points26{gnad 'gag thams cad gcig tu bsgril ba/}31abstract41(lit) brief {don gsal la tshig nyung ba'i brjad pa/}55{gnad 'gag thams cad gcig tu bsgril ba/} {dbyin skad du }abstract {zer/}
+9embodiment/ summary of all the essential piths26{gnad don phyogs bsdus kyi snying po/}55{gnad don phyogs bsdus kyi snying /}
+2synopsis, theses9outline, sketch, abstract, summary, synopsis
+9translating the essence/ important parts
+43= {gnad bsnun pa/}
+11/ chun pa - to intensify focus on/ emphasize the key/ crucial point43• saṃ. marmaprahāraḥ — {gnad mi bzad par bsnun pa la sogs pa ni 'khrul pa'i rgyu nang gi rten la gnas pa gzung ngo //} gāḍhamarmaprahārādaya ādhyātmikāśrayasthā vibhramahetavo gṛhyante nyā.ṭī.42kha/55; \n\n•vi. āviddhaḥ — {de nas glang chen bdag po yis/} /{gnad du bsnun bkye glang po che/} /{drag po khang bzang rkang 'thung 'joms/} /{khro bas long bas de mdun rgyugs//} atha hastipakotsṛṣṭaḥ kṛṣṭaprāsādapādapaḥ \n tamabhyadhāvadāviddhaḥ krodhāndhaḥ krūrakuñjaraḥ \n\n a.ka.241kha/28.16; marmahataḥ lo.ko.1362; marmaṇi tāḍitaḥ lo. ko.1362.
+9skillful, clever, ingenious
+2essential inventory; crucial prophetic guide8inner prophetic guide9crucial prophetic guide
+2the four vital points [of a teaching], {phyi bshad pa'i khog che ba}, {nang lag len gyi gzhung tshugs pa}, {gsang ba'i don thog tu pheb pa}, {de kho na nyid kyi 'gag don zin pa}8four principal points, four main points9the four vital points [of a teaching], {phyi bshad pa'i khog che ba}., {nang lag len gyi gzhung tshugs pa}., {gsang ba'i don thog tu pheb pa}., {de kho na nyid kyi 'gag don zin pa}51({dbu ma}) {nga rang bzhin gyis med par gtan la dbab pa la gnad bzhi'i sgo nas gtan la dbab dgos pas/ gnad bzhi ni/ dgag bya nges pa'i gnad/ khyab pa nges pa'i gnad/ phyogs chos kyi zur dang po bden pa'i gcig tu ma grub par nges pa'i gnad/ phyogs chos kyi zur phyi ma bden pa'i tha dad du ma grub par nges pa'i gnad dang bzhi'o/ /gnad bzhi dang tshad ma bzhi zhes tha snyad mi 'dra ba gnyis 'byung yang / tha snyad sbyor tshul tsam las don la gnad gcig yin no/ /de la dang po dgag bya nges pa'i gnad ni/ rang rgyud la brtags te gang zag gi bdag tu 'dzin lugs ngos zin par bya ba yin te/ de ni sngar bshad do/ /gnyis pa khyab pa nges pa'i gnad ni/ gang zag de rang bzhin gyis grub na phung po dang ngo bo gcig dang tha dang gang rung du grub dgos kyi/ de gnyis las gzhan du grub thabs med par thag bcad pa'o/ /de ni spyir bum pa dang ka bzhes pa lta bu zla bcas su tshur yongs su gcod pa na/ zla med yin pa phar rnam par gcod cing / bum pa zhes pa lta bu zla med du tshung yongs su gcod pa na/ zla bcas yin pa phar rnam par gcod pa myong bas grub pas/ gcig dang du ma gang yang min pa'i phung gsum med la/ de'i phyir ngo bo gcig dang tha dad gnyis gang yang min pa yang mi srid par nges par byed pa'o/ /gsum pa phyogs chos kyi zur dang po bden pa'i gcig tu ma grub par nges pa'i gnad ni/ gang zag dang phung po gnyis rang bzhin gyis grub pa'i ngo bo gcig yin pa la gnod pa mthong ba'o/ /bzhi pa ni de gnyis rang bzhin gyis grub pa'i tha dad yin pa la gnod byed legs par mthong ba'o/ /de ltar bzhi tshang na de nas gang zag gi bdag med pa'i de kho na nyid rtogs pa'i lta ba rnam dag skye'o/ /'di rje'i lam rim 'bring po la gzhi byas te bkod do/ /}55{mnga' bdag mar pa'i zhal gdams nyams len gyi gnad bzhi ste/} {brten pa lus kyi gnad/} {gnas pa rtsa'i gnad/} {g.yo ba rlung gi gnad 'dzin pa sems kyi gnad do/ /}
+9important, consequential, significant51{gnad 'gag can/ gnad che ba/ 'gangs chen/ gal chen/}
+24marma-ccheda43marmacchedaḥ — {gnad chad pa'i tshor ba dag ces pa ni skom pa dang lus tsha ba la sogs pa'i sdug bsngal} marmacchedādivedaneti pipāsāgātrasantāpādiduḥkham bo.pa.65ka/31; dra. {gnad gcod pa/}
+2important, significant, major, vitally important8important, important9important, significant, major, consequential vitally important
+8principal, main
+9major industrial products
+2important point9important/ significant/ major/ consequential/ vitally important/ key point main aspect55{gnad 'gag che sa/}
+55{dgag gnad che ba'i gyod gzhi/}
+9important, significant, major, consequential vitally important items/ factors
+2Syn {gnad che}9important, significant, major, consequential vitally important
+8very important
+2Syn {gnad che}8important9important; important, significant, major, vitally important. important, significant, major, consequential vitally important
+11/ bsnun pa - to intensify focus on/ emphasize the key/ crucial point
+9a very small point made big26{gnad chung chung zhig chen po bzos pa/}55{gnad chung chung zhig chen po bzos pa/}
+2an essential point; x {de na lta ba'i gnad cig yod} here is an essential point for the view8this factor
+8real practice
+2that is the essential point
+36<place> Ripping of All Vital Points37<place> Ripping of All Vital Points (Skt: marmamarmanikṛntana): One of sixteen realms that surround the Crushing Hell. (Original glossary entry: https://84000.co/glossary/entity-30658.html)39<place> marmamarmanikṛntana
+21) essence, pith, essential meaning, real meaning of the essential point; pith of the matter. 2) question, problem, matter, importance, significance8proper meaning, the pith of the matter, real meaning of the essential point9gnad 'gag thug sa'i don,... question, problem, matter, importance, significance, essence, pith, essential meaning26{gnad 'gag thug sa'i don/}44Also abbreviated as {gnadon}. (Source: Dzongkha abbreviations)55{gnad 'gag thug sa'i don/}
+31problem space55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }problem space {zer/}
+8to epitomize
+41(law) statement of case {khrims kyi gyad gzhir 'tshud pa'i gyad ya phan tshun tshang ma'i dngas yad gnas lugs gsal ba'i lugs mthun gyi bsgrags gtam zhig}
+31problem definition55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }problem definition {zer/}
+9essence, nature
+31problem reduction
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }problem reduction {zer/}
+9decide the significance/ question
+31problem description55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }problem definition {zer/}
+86 crucial means (sgo gsum, 'od gsal concentrations)10sangs rgyas kyi gnad drug: 1. thos grol. 2. mthong grol. 3. reg grol. 4. tshor grol. 5. myong grol. 6. btags grol. Mkhyen-rab-rgya-mtsho 1557 532-533. Thondup, BM 74.
+491. {nyams pa med pa'i byang chub sems la gnas/ /} (Source: 《{klong chen mdzod bdun man ngag mdzod }》{sha }96{ba }1{las btus/}).
+2important
+51{gzhan gyi zhe la phog pa'i tshig smra ba/ tshig rtsub smra ba/ sa skya legs bshad las/ pha rol gnad du 'bebs pa'i tshig /dgra bo la yang smra mi bya/ /brag cha bzhin du rang nyid la/ /de ma thag tu le lan 'khor/ /zhes gsungs/}
+2to essentialize9essentialize
+2to strike a vitally important organ (the heart)
+2to be effective, strike to its essential point, "hit home."9be effective, strike the essential point, hit home
+2strike to its essential point9strike to the essential point
+9be accurate/ precise/ exact55{rnag thog gtsag 'khel lta bu don gyi 'gag rtsa'i thog tu 'khel ba/}
+43pā. marmavedhaḥ, kalāviśeṣaḥ ma.vyu.4993(76ka); marmavedhitvam — {de bzhin du mchongs pa dang}…{gnad du 'phog pa dang}…{spos sbyar ba la sogs pa'i sgyu rtsal}…{thams cad la} evaṃ laṅghite…marmavedhitve…gandhayuktau \n ityevamādyāsu sarvakarmakalāsu la.vi.80kha/108.52(Skt. marma-vedhaḥ) the shooting or hurting of a vital member or organ
+55{snying dang klad pa lta bu gnyan pa'i gnad kyi gnas su mtshon phog nas bcos dka' bar gyur pa'i don te/} {phyi ma 'phrin las rgyud las/} {gnad du babs pa srog gnas bcom pa ste/} {srog rtsa chad pas bcos thabs ci la rnyed/} {gras ka btsan po dgra la shor ba 'dra/} {zhes gsungs pa ltar ro/ /}
+2laying bare the key points, revealing the key point
+2strike the essential point, hit the vital point8strike the essential point
+491. {bza' mi tshong dus 'gron po tshogs pa 'dra/ / nam 'bral mi shes mthar thug don la sbyangs/ /} (Source: 《{klong chen mdzod bdun man ngag mdzod }》{sha }28{ba }3{las btus/}).
+8focused on, captures the mind, applying the key points, pierce to the pith, captures the essence9capture the mind, apply the key points, pierce to the pith, concentrate on, reach the essential point43= {gnad bsnun pa/}51({gsang sngags}) {gnad du bsnun pa la gzigs/}
+2encapsulate, essentialize2to apply the key points, emphasize the key/ crucial point, hit the vital point, pierce the essential point, get to the essential point, reaching the crucial point, capture the mind, applying the key points, pierce to the pith, concentrate on, exclusively concentrate, that pierces to the pith, to apply the key point, pierce to the pith, pierce / hit / reach the essential / crucial / vital point, brings one into the essence, applying the key points9hit the vital point, penetrate to the point10lus kyi gnad du bsnun te bsad pa. Btsan-lha.11/ chun pa - to intensify focus on/ emphasize the key/ crucial point43= {gnad bsnun pa/}48{lus kyi gnad du bsnun te bsad pa ste/}《{'dul ba lung gzhi}》{las/ shes ldan dag ngas khyed cag las lnga brgya gnad du bsnun zin gyis lhag ma rnams srog bskyab kyis slar dengs shig ces pa lta bu'o//}51({gsang sngags}) 1. {gnad gsang la phog par byed pa'am 'khel bar byed pa'i don/} 2. {lus kyi gnad che sar dmigs pa drag tu gtad de sems ma yengs par bsgom pa la zer/ lus kyi gnad che sa ni snying ga'i rtsa 'khor gyi d+hU tI'i dbus lta bu yin la/ bsnun zhes pa ni dmigs pa la sems gtad de bsgom pa'i don no/ /rje'i dgongs pa ltar ro/ /lus la gnad du bsnun pa dang 'dra/} 3. {dmigs pa gtad pa/ dmigs pa gtad pa'i gzhi la gnad du bsnun pa'i gzhi zhes pa lta bu/}
+9pierce / get to the essential point, read the crucial point
+29{mda' 'phen pa'i lag rtsal gnas lnga'i nang nas gcig ste/thog mar 'ben gang la gtad pa de rang la thog pa la zer}55{mda' 'phen pa'i lag rtsal gnas lnga'i nang nas gcig ste/} {thog mar 'ben gang la gtad pa de rang la phog pa la zer/}
+8penetrate the heart of, immediate and vivid
+11/ bsnun pa - to intensify focus on/ emphasize the key/ crucial point
+51{gnad du 'beb dang don 'dra/}
+8applying the key points
+2fail to take effect, never got around to it, was ineffective, useless, in vain, unsuccessful, barren, futile, fruitless, ineffectual, unavailing9fail to take effect
+8not become effective
+51{gnad du 'beb dang don 'dra/}
+2hurt someone's feelings, pierce the heart8pierce the heart, wound the feelings9pierce to the pith23marmavedhaḥ24marm^abhighātatā43• vi. marmaviddhaḥ — {de nas mya ngan med kyis lha'i tshig thos nas gnad du phog pa bzhin du yeng ces byas te} athāśoko devatāvacanamupasṛ(śru)tya marmaviddha iva pracalitavān a.śa.115kha/105; \n\n• pā. marmavedhaḥ, kalāviśeṣaḥ mi.ko.28ka; dra.— {gnad du 'phog pa/}51{'chi rkyen 'byung ba'i gnas lus kyi snying sogs su phog pa'i don/ 'dul ba gzhi rgya gar 'grel pa las/ gnad du phog pa zhes bya ba ni 'chi ba'i phyogs dag tu phog pa'o/ /}
+2be effective9ripening of the effect
+2to effectuate, have arrived at/ penetrated to the key point11to have arrived at/ penetrated to the key point
+8difficult to apply
+8to precisely concentrate upon
+8to precisely perfect9concentrate on
+2captured the essential point, capture with precision8captured the essential point9capture the essential point /precision
+2captured prana with precision9captured prana w precision
+8emphasis
+8main
+9importance
+8salient, very important point
+8single essential point
+9make/ affect a breakthrough
+21) causing intense suffering or pain, wounding mortally. 2) interruption of life, dying. 3) great sorrow9interruption of life51({mdzod}) 1. {lus kyi 'byung ba'i nus pa rgyun bcad pa'am nyams nas 'chi bar byed pa la zer/ sgra bshad ni/ gnad ces pa 'dir lus kyi gal gnad che ba'i cha shas la go dgos la gcod pa ni rgyun gcod pa'i don no/ /des na lus kyi nus pa nyams nas sam rgyun bcad nas 'chi bar byed pas na de skad ces bya'o/ /}2 {gnad gcod kyi sdug bsngal dang don gcig skabs rer gnad gcod kyi sdug bsngal gyi tshig sna bsdus nas gnad gcod ces brjod/}
+2the pain of dying9suffering of interruption51({mdzod}) 1. {'chi nad kyi sdug bsngal drag po/ sgra bshad ni/ lus kyi gnad che sa rnams mtshon rnon pos bcad pa 'dra ba'i tshor ba mi bzad pa 'byung ba'i phyir gnad gcod kyi sdug bsngal zhes bya'o/ /lung phran tshegs kyi 'grel pa las/ gnad kyi phyogs mtshon rnon pos bcad pa 'dra ba'i tshor ba 'byung ba'i phyir gnad 'chad par 'gyur ba zhes gsungs so/ /zhes gsungs/ yang na/ rlung mkhris bad kan gsum po gang rung gis lus kyi 'byung ba'i nus pa nyams pa'am rgyun bcad nas 'chi bar byed pa'i skabs kyi sdug bsngal drag po yin pas na gnad gcod kyi sdug bsngal zhes bya'o/ /de yang mtshon cha rnon pos gcod pa ltar tshor ba mi bzad pas nyams par byed pa la bcad pa'i sgra sbyar ba yin gyi/ dngos su shing dum bur gcod pa ltar bcad pa ni ma yin no/ /de yang chu'i 'byung ba shas che zhing drag tu 'khrugs na bad kan gyis gcod/ me shas che na mkhris pas gcod/ rlung shas che na rlung nad kyis gcod par byed do/ /gnad gcod pa ni chu sogs kyis/ /zhes pa'i mdzod rtsa ba dang / de'i thad kyi rang 'grel dang / mchims mdzod sogs la gzhi byas te bkod/ mdzod rang 'grel las/ gnad 'chad pa'i tshor bas nyen pa'i srog chags rnams ni phal cher de lta de ltar rim gyis 'chi bar 'gyur ro/ /gnad gcod pa ni chu la sogs kyis lus kyi phyogs 'ga' zhig nyams na 'chi bar 'gyur ba de dag ni gnad rnams zhes bya'o/ /de dag kyang chu dang me dang rlung gi khams rnams las gang yang rung ba zhig drag tu 'khrugs par 'gyur ba ni mtshon cha thams cad bdar bas btab pa dang 'dra bas tshor ba mi bzad pa dag gis bcad pas bcad pa lta bu yin gyi/ de dag shing gcod pa lta bur ni ma yin no/ /yang na bcad pa dang 'dra bar yang g.yo ba med pas na bcad pa zhes bya'o/ /ci'i phyir sa'i khams kyis ma yin zhe na/ skyon bzhi pa med pa'i phyir te/ rlung dang mkhris pa dang bad kan rnams ni skyon gsum yin pa de dag gi gtso bo ni ci rigs par chu dang me dang rlung gi khams dag yin no/ /zhes gsungs so/ /}2 {'chi ba'i tshe 'khrul snang sna tshogs kyis bskyed pa'i lus sems kyi sdug bsngal/ rje'i lam rim chen mo las/ mi dge ba chen po byed pa rnams ni/ mtshan ma mi sdug pa de dag mthong bas lus la sdug bsngal 'byung zhing spu zing zhes byed pa dang / rkang lag g.yob pa dang bshang gci 'byung ba dang nam mkha' la rnyob dang mi ldog pa dang kha nas dbu ba 'byung ba dang de 'dra ba rnams 'byung ngo / /gal te mi dge ba 'bring byed pa yin na de dag las kha cig 'byung la/ kha cig mi 'byung bas rdzogs par mi 'byung ngo / /las nyes pa byed pa rnams la gnad gcod shin tu tshabs che'o/ /gnad gcod ni lha dang dmyal ba } ({lha dang dmyal ba rdzus skyes yin pas de la gnad gcod med do}) {ma gtogs pa'i skye gnas thams cad la yod do/ /zhes gsungs pa ltar ro/ /yang rje'i gsung las/ de'i tshe rgyal ba 'khor dang bcas pa la dmigs pa'i rab tu dad pa drag po skyes te/ gnad gcod kyi sdug bsngal med pa dang / zhes gsungs/ paN chen blo bzang chos kyi rgyal mtshan gyi rang rnam las kyang / gnad gcod kyi mtshon rnon drag pos bsnun/ /ngan song gi 'khrul snang sna tshogs shar/ /sngar byas kyi las la 'gyod cing mtsher/ /a tsa ma ci bya gtol med gyur/ /ces gsungs pa ltar ro/ /}
+2interruption of life2interruption of life. 2) CM: rang bzhin gyis 'chi skabs rlung dang/ gsod dus mtshon chas lus kyi rtsa gnad rnams gcod pa, the wind at the time of natural death and cutting of the vital point of body with a weapon at the time of killing. [mss]9interruption, cessation26{rang bzhin gyis 'chi skabs rlung dang/ gsod dus mtshon chas lus kyi rtsa gnad rnams gcod pa/}43marmacchedaḥ — {gnad gcod pa ni chu sogs kyis//} marmacchedastvabādibhiḥ abhi.ko.8kha/504; dra. {gnad chad pa/}51({mdzod}) {gnad gcod dang 'dra/}55{rang bzhin gyis 'chi skabs rlung dang /} {gsod dus mtshon chas lus kyi rtsa gnad rnams gcod pa/}
+2to focus, apply a key point9focus
+2to focus on the key / crucial point; getting to the point9get to the point11to focus on the key/ crucial point
+2essential / main point9bleeding/ moxibustion point or gsang nadi gnad dang rgyus gnad med pa'i gsang dmigs, essential point26{gtar ga'i dmigs dang/ me btsa'i gsang lta bu lus kyi rtsa gnad dang rgyus gnad med pa'i gsang dmigs/}55{gtar ga'i dmigs dang /} {me btsa'i gsang lta bu lus kyi rtsa gnad dang rgyus gnad med pa'i gsang dmigs/}
+83 key points, 3 essential points , three main points9three key points [thod rgal meditation, bca' ba lus kyi gnad sku gsum gyi bzhud stangs gsum las mi g.yo ba, 'khrid pa dbyings kyi gnad sku gsum gyi gzigs stangs las mi 'gul ba, snang ba yul gyi gnad dbyings rig mi 'bral zhing rlung dal bar sdod pa rnams so]26{thod rgal bsgom pa'i gnad gsum ste/ bca' ba lus kyi gnad sku gsum gyi bzhud stangs gsum las mi g.yo ba/ 'khrid pa dbyings kyi gnad sku gsum gyi gzigs stangs las mi 'gul ba/ snang ba yul gyi gnad dbyings rig mi 'bral zhing rlung dal bar sdod pa rnams so/}28A. The three principles. The principal psycho-physical discipline to be maintained in the leap-over (thod-rgal) system of {rdzogs chen } meditation.\n1. {bca' ba lus kyi gnad sku gsum gyi bzhugs stangs gsum las mi g.yo ba/} stillness as the principle of the body seated in the manners of three kayas\n2. {'khred pa dbyings kyi gnad sku gsum gyi gzigs stangs las mi 'gul ba/} guidance as the principle of absorption in reality immutable from the manner of looking into three kayas\n3. {snang ba yul gyi gnad dbyings rig mi 'bral zhing rlung dal bar sdod pa/} appearance as the principle of the object of meditation inseparable from primordial awareness and reality, and maintaining a gentle pace of the flow of energy wind.\nB. The three essential practices.\n1. {snang ba sems su sgrub pa/} taking all appearances as the (nature of) mind\n2. {sems sgyu mar srub pa/} taking mind as illusory\n3. {sgyu ma rang bzhin med par sgrub pa/} taking all illusories as lacking inherent existence.47{thod rgal bsgom pa'i gnad gsum ste/ bca' ba lus kyi gnad sku gsum gyi bzhugs stangs gsum las mi g.yo ba/ 'khrid pa dbyings kyi gnad sku gsum gyi gzigs stangs las mi 'gul ba/ snang ba yul gyi gnad dbyings rig mi 'bral zhing rlung dal bar sdod pa rnams so/}49{'di la khag gnyis yod pa ste/} (Source: 《{mdo rgyud mdzod tsi pa }》{sha }202.5{las btus/}).49{gsang sngags lam gyi rim pa'i 'grel pa rin chen phreng ba las byung ba khag gcig ste/} (Source: 《{rin chen gter mdzod i pa }》{sha }45{ba }5{las btus/}).53{rdzogs pa chen po'i thod rgal bsgom pa'i gnad gsumaste/ bca' ba lus kyi gnad sku gsum gyi bzhugs stangs gsum las mi g.yo ba/ 'khrid pa dbyings kyi gnad sku gsum gyi gzigs stangs las mi 'gul ba/ snang ba yul gyi gnad dbyings rig mi 'bral zhing rlung dal bar sdod pa rnams so/}55{thod rgal bsgom pa'i gnad gsum ste/} {bca' ba lus kyi gnad sku gsum gyi bzhugs stangs gsum las mi g.yo ba/} {'khrid pa dbyings kyi gnad sku gsum gyi gzigs stangs las mi 'gul ba/} {snang ba yul gyi gnad dbyings rig mi 'bral zhing rlung dal bar sdod pa rnams so/}
+9dharmata wheel of the three key points
+2the view which possesses the three essential points
+9most important essence
+10seems to refer to the borrowing of essential items in time of need. Samdo A III 131r-131v.
+2{rgyu mtshan gyis}, because of9because of, due to
+9happen because of
+2key point, essence, important part9essence, fundamental point10don gnad dam lus gnad sogs. Btsan-lha.26{snying po dang/ rtsa ba'am 'gag rtsa/ tshig gi gnad ka/ don gyi gnad ka/ dka' ba'i gnad ka/ rtsa ba'i gnad ka/ skyon brjod gnad kar phog pa dang/ legs bcos mthil du phyin pa/}48{don gnad dam lus gnad sogs kyi don te/}《{ngag sgron gyi 'grel pa}》{las/ gnad ka don gnad lus gnad sogs/ zhes gsungs/ dper na/} 《{dpe chos rin chen spungs pa'i 'bul 'grel}》{las/ bstan pa la phan cing 'dal ka che ba lags te/ de'i gnad ka yang / gzhan la sgrub brgyud zer nas gdams pa skor chung re las med/ ces pa lta bu'o//}55{snying po dang /} {rtsa ba'am 'gag rtsa/} {tshig gi gnad ka/} {don gyi gnad ka/} {dka' ba'i gnad ka/} {rtsa ba'i gnad ka/} {skyon brjod gnad kar phog pa dang /} {legs bcos mthil du phyin pa/}
+2Syn {gnad 'gag}9crux of the matter, key to a situation, important thing, focus, significance. essential key/ important/ main/ salient point. main/ essential point
+91) fulfill a goal/purpose; 2) strike/ attack a vital essential place in the body [load happen, fulfill hit strike]261) {dgos don gyi thog tu 'khyol ba/ las don byed phyogs gnad khel ba/ na tsha'i sman bcos gnad khel ba/} 2) {lus kyi gnad che sar khel ba/ rma nad gnad khel gyis rkyen pas nyen kha che/}55(1) {dgos don gyi thog tu 'khyol ba/} {las don byed phyogs gnad khel ba/} {na tsha'i sman bcos gnad khel ba/} (2) {lus kyi gnad che sar khel ba/} {rma nad gnad khel gyis rkyen pas nyen kha che/}
+8all the main points
+8crucial, essential
+2essential sign9symbol of the/ symbolic pith
+2essential advice, crucial instructions
+2key instruction, essential instructions, crucial pith-instructions8key instruction9key instruction
+49{de yang / gsang sngags lam gyi rim pa'i 'grel pa rin chen phreng ba las byung ba mkhar chen bzas slob dpon chen por zhus lan te/} (Source: 《{rin chen gter mdzod i pa }》158{ba }1{las btus/}).
+43marmasthānam — {byang chub sems dpa'i sdom pa ni/} /{rgyas par theg pa che las byung /} /{gang gis ltung bar mi 'gyur ba'i/} /{gnad kyi gnas rnams 'dir rig bya//} mahāyānādbodhisattvasya saṃvaraḥ \n marmasthānānyato vidyādyenānāpattiko bhavet \n\n śi.kā.1ka/1.
+2key texts
+8crucial upadesha, fundamental upadesha, quintessential upadesha9vital instruction
+8essential practice
+491. {sha gnad bzhi bcu rtsa lnga/} (Source: 《{rgyud bzhi'i 'grel chen drang srong zhal lung }》{deb dang po sha }150.2{las btus/}).
+8essential point, quintessential
+2Neykyi Sintig. Scripture on Mahamudra9Neykyi sintig
+2due to, due to the fact of, because of9due to [the fact of] because of
+8applying the key points
+9get to the essential phug rtsa ..Rtsa don gyi gnad la bkar nas gros mol byed,...Khrims kyi gnad la bkar nas sgrigs la bcur,...Byas nyes kyi gnad la bkar nas khrims chad 'gel ba26{don gnad kyi phug rtsar gtugs pa/ rtsa don gyi gnad la bkar nas gros mol byed/ khrims kyi gnad la bkar nas sgrigs la bcur/ byas nyes kyi gnad la bkar nas khrims chad 'gel ba/}55{don gnad kyi phug rtsar gtugs pa/} {rtsa don gyi gnad la bkar nas gros mol byed/} {khrims kyi gnad la bkar nas sgrigs la bcur/} {byas nyes kyi gnad la bkar nas khrims chad 'gel ba/}
+8to bring to its real condition
+91) harm by deceit; 2) crooked unsteady wavering; 3) Gnad don rigs 'gre gtong rgyu'am gnad don gcig mtshungs bya rgyu10yon po dang sgyu thabs kyis gnod pa byed pa. Btsan-lha.261) {g.yo thabs kyis gnod pa byed pa/} 2) {yon po dang gya gyu'i rnam pa/} 3) {gnad don rigs 'gre gtong rgyu'am gnad don gcig mtshungs bya rgyu/}29{g.yo thabs kyis gnon pa byed pa ste/rje'i mdo rtsa'i zin bris las/gnad la bsgre ba ni yon po dang gya char g.yu'i rnam pas gnod pa byad pa ste de su la yang mi bya'o/_}43cakrakaḥ — {gnad la bsgre bar mi bya'o//} na cakrakaṃ kuryāt vi.sū.17ka/19.48{yon po dang sgyu thabs kyis gnod pa byed pa'i ming ste/}《{gnam rtse ldeng ma'i brda don}》{las/ gnad la bsgre ba ni yon po dang sgyu thabs kyis gnod pa byed pa'i ming ste/ rje'i mdo rtsa'i zin bris las/ gnad la bsgre ba ni yon po dang gya gyu'i rnam pas gnod par byed pa ste/ de su la yang mi bya'o// zhes dang /} 《{brda gsar rnying gi rnam gzhag blo gsal yid 'phrog}》{las/ gnad la bsgre ba g.yo thabs kyis// gnod par byed pa'am yon po dang / gya gyu'i rnam pa sogs kyi ming // zhes gsungs pa ltar ro//}55(1) {g.yo thabs kyis gnod pa byed pa/} (2) {yon po dang gya gyu'i rnam pa/} (3) {gnad don rigs 'gre gtong rgyu'am gnad don gcig mtshungs bya rgyu/}
+11to strike at/ hit on the key/ crucial point
+43vi. marmoparodhikā—{gang gi tshe bcom ldan 'das gzims mal gyi tha mar bzhugs te gnad la gnod pa'i tshor ba myong zhing} yadā bhagavatā paścimaśayanopagatena dha(ma)rmoparodhikāyāṃ vedanāyāṃ vartamānāyām a.śa.114ka/103.
+8strike the vital parts, hit mortally
+2wounded. Syn {gnad pa}
+491. {rlung log mi 'byung ba 'bud pa'i gnad/} (Source: 《{shes bya kun khyab }》{deb smad cha sha }338.20{las btus/}).
+8unmistaken essential point
+8not recognize the essential point
+2never got around to it
+2ineffectual
+55{mchin pa'i 'grams khrag lus dang yan lag la byer ba'i mchin nad cig gi ming /}
+9the interruption of life
+43gāḍhamarmaprahāraḥ — {gnad mi bzad par bsnun pa la sogs pa ni 'khrul pa'i rgyu nang gi rten la gnas pa gzung ngo //} gāḍhamarmaprahārādaya ādhyātmikāśrayasthā vibhramahetavo gṛhyante nyā.ṭī. 42kha/55.
+2cannot bear, don't get the point, don't understand9not be able to bear, not get the point/understand
+8ultimate point, real essence
+9similar meaning
+2wounded; {gnad la reg pa} wounded10gnad du phog pa. Btsan-lha.48{gnad du phog pa zhes pa'i don te/}《{mi dbang rtogs brjod}》{las/ ji tsam na rje bo dam pa tha'i ji'i zhabs la'ang me'i 'phrul 'khor gyi mde'us gnad par gyur te/ zhes pa lta bu'o//}
+9grandmother
+2important points2the essential teachings
+8pith practices9pith practices; pith practices [Notes. The reference in this context is to the four yogas of mahamudra]
+11to summarize the key points; synopsis of the key points
+8efficacy
+2; x {blang dor gyi gnad shes} know what we should and should not do43vi. marmajñaḥ — {'di ni gnas} ({gnad} ) {shes mchog gi blo//} marmajño'sau vidagdhadhīḥ a.ka.85ka/8. 68.
+2most essential / quite important point9most essential point, quite important point
+2to be effective9be of use, effective26{gang du dmigs sa'i gnad thog tu phan pa/ rgyu dngos bed spyod gnad smin pa zhig byed dgos/}55{gang du dmigs sa'i gnad thog tu phan pa/} {rgyu dngos bed spyod gnad smin pa zhig byed dgos/}
+29{gang du dmigs sa'i gdan thog tu phan par byas pa}55{gang du dmigs sa'i gnad thog tu phan par byas pa/}
+9effective
+41(adm) effective {rang gi 'dod pa ltar grub 'bras son pa'am lam lhong 'byung ba'i/}
+9essential pith/ main point26{don gnad snying po/}55{don gnad snying po/}
+9new/ better techniques
+2epitomizes all the other points
+2important means, crucial means9important/ crucial means
+11to embrace the key point (of)
+9fulfill a goal/purpose
+9be of use/ effective
+2similar to moxabustion applied directly to the vital point
+9hotel, inn, wife
+31keywords55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }keywords {zer/}
+8instructions on essential aspects9instructions on essential aspects31keyword55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }keyword {zer/}
+31search key55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }search key {zer/}
+31primary key55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }primary key {zer/}
+31secondary key55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }secondary key {zer/}
+9important
+8star
+41(adm,pol) dignitary {spyi tshogs shig gi nang du gal gnad che ba'i ming gnas ldan pa'i skye ba/}
+9excerpt
+9excerpt
+9excerpt
+44Abbreviation for {gnad don}. (Source: Dzongkha abbreviations)
+21) black, unwholesome, hostile, negative, opposed, 2) cattle8cattle9cattle; black, unwholesome, hostile, negative, opposed, cattle10shin tu nag por song ba'i don dang phyugs rigs kyi ming. Btsan-lha. skyes pa'i yul las thag bsrings / gnad gi gnyen 'tshams bor / hrul ba'i gos gon nas dman pa'i sa bzung ba'i skyes bu de'i. Zhi-byed Coll. IV 37.2. Dung-dkar 140.321. {sgo phyugs ba lang dang 'bri g.yag ma he sogs kyi spyi ming / (gnag rdzi) nor 'tsho ba'i rdzi bo/} 2. {(byed med las tshig) zhe sdang langs pa'am rdzig nyams bstan pa ste/ ngo gnag nas sdigs mo byas/ dgra la gnag kyang dmangs la byams lta bu/} 3. {sems rtsub pa'i don te/ mi rngam gnag zhe gnag ces pa lta bu/}43• saṃ. 1. = {ba lang} gauḥ — {gnag rdzi} gopālaḥ ta.pa.360ka/440; {gnag ra} gokulam vi.va.148ka/1.36; {bdag po rnams la gnag gtad de 'ong bar 'gyur} svāmināṃ gāṃ arpayitvā āgamiṣyati vi.va.148kha/1.37; \n\n• vi. = {nag po} kṛṣṇaḥ — {bde ba gnag cing bde ba ser//} sukhaṃ kṛṣṇaṃ sukhaṃ pītam he.ta.15kha/48; asitaḥ — {lus can rnams ni dmar dang dkar dang gnag dang khra ba'i las skud kyis/} /{rnam par bkra ba skye ba'i gos kyis lan mang dag tu g}.{yogs par gyur//} raktaiḥ śuklairasitaśabalairdehināṃ karmasūtraiścitrākāraṃ bhavati bahuśaḥ prāvṛtaṃ janmavastram \n a.ka.140kha/67.75; śyāmaḥ — {dal gyis mun pa chung ngu gnag/} /{mtshan mos srid pa'i snod dag las/} /{thun mtshams dmar ba'i chang 'thungs nas/} /{myos pa bzhin du skad cig 'khyams//} śanaiḥ stokatamaḥ śyāmā śyāmā bhuvanabhājanāt \n saṃdhyārāgāsavaṃ pītvā kṣībevāghūrṇata kṣaṇam \n\n a.ka.301ka/108.70; kālakaḥ—{e ma'o dge sbyong gau ta ma ni gnag go//} kālako bata bhoḥ śramaṇo gautamaḥ la.vi.126ka/186; dra. {nam zhig mi lus thob par gyur pa na/}…/{de na de dag lus gnag 'theng por gyur//} puruṣātmabhāvaṃ ca yadā labhante te kuṇṭhakā laṅgaka bhonti tatra \n sa.pu.37kha/67; {rigs kyi bu 'di ni khro ba dang zhe gnag pa shas che bas khyad par thob par mi 'gyur gyis} ayaṃ kulaputraḥ krodhaparyavasthānabahulo viśeṣaṃ nādhigacchati a.śa.252ka/231; \n\n• nā. kṛṣṇā, devakumārikā—{nub phyogs logs kyi phyogs cha na/} /{lha mo gzhon nu brgyad yod de/} /{rna cha skra 'dres ma dang ni/} /{pad ma dkar dang skya rengs dang /} /{cha med gcig dang dgu pa dang /} /{rol dang gnag dang stabs myur srid//} paścime'smin diśo bhāge aṣṭau devakumārikāḥ \n alambuśā miśrakeśī puṇḍarīkā tathāruṇā \n\n ekādaśā navamikā śītā (līlā) kṛṣṇā draupadī \n la.vi.183kha/284.45Sanskrit: Kṛṣṇā <Personal Name>\n\n\nTibetan renderings of Kṛṣṇā: {gnag/}\n\n?Kṛṣṇā, possibly n. pr. (of a devakumārikā), see s.v. Draupadī: LV 390.6; Mv iii.308.9; also short form for next, q.v.\n\nSee the full entry at:https://www.itlr.net/hwid:81707346yak48{shin tu nag por song ba'i don dang phyugs rigs kyi ming ste/}《{brda gsar rnying gi rnam gzhag blo gsal yid 'phrog}》{las/ gnag ni nag po 'am ri phyugs ming / zhes dang /}《{brda yig blo gsal mgrin rgyan}》{las/ gnag ni phyugs te phyugs rdzi la gnag rdzi zer ba bzhin no// yang gnag ni shin tu nag por song ba la yang 'jug ces gsungs pa ltar ro//}511. {nag po/ dbu skra bung ba ltar gnag ces pa lta bu/}512. {ngan pa/ sems gnag ces pa lta bu/}513. {phyugs rigs/}514. {mang po dang ldan pa'am mthug po/ yang na nag po/ mun pa rab tu gnag pa zhes slob dpon tshul khrims bskyangs gsungs pa bzhin no/ /}55{'bri g.yag dang mdzo mo bcas pa'i phyugs rigs/}
+9black stain43kālaḥ — {sku la sme ba dang gnag bag med pa} vyapagatatilakakālagātraḥ ma.vyu.309(8kha).55{mdog nag po'i dri ma/} {gdong par sme ba dang gnag bag med/}
+26{gdong par sme ba dang gnag bag med/}
+24kṛṣṇa-śuklaṃ kṛṣṇa-śukla-vipākaṃ karma
+36<person> Kṛṣṇā Draupadī37<person> Kṛṣṇā Draupadī (Skt: kṛṣṇā draupadī): One of the eight goddesses in the west, called upon to grant protection. (Original glossary entry: https://84000.co/glossary/entity-5338.html)39<person> kṛṣṇā draupadī
+10O.T. = sran dka'. = khe chung ba. Also, mnog chung. Blan 303.3.
+55{gnag gdongs zhes pa'i don de gnag ni shin tu nag por song ba'am phyugs rigs kyi ming las skabs 'dir phyugs la go dgos pa dang /} {gdang ni sa la thag pa brkyangs pa'i sne mor phur pa brgyab pa'i sgo phyugs 'dogs thag la zer zhing /} {spyir na gdang gcig la gnag bcu btags thub/}
+43=* ({snag gi gnyen mtshams} ityasya sthāne) \n
+8herd of cattle
+10phyugs nor bzhon ma'am drus ma. Btsan-lha.48{phyugs nor bzhon ma'am drus ma'i ming ste/}《{tun hong gter yig gna' bo'i bod yig shog dril} 》{las/ 'bri 'og nas phyung ba'i byad gar}({dga'}) {gnag grus gcig stsal zhig ces pa lta bu'o//}
+43=*> {rnag gzan/}
+8herd of cattle, cowherd9herd of cattle/ livestock26{dud 'gro 'bri g.yag dang/ mdzo'i khyu/}55{dud 'grang 'bri g.yag dang/} {mdzo'i khyu/}
+34black result due to black actions
+24kṛṣṇaṃ kṛṣṇa-vipākaṃ karma
+2Maskari Gosaliputra; one of {mu stegs kyi ston pa drug} at the time of Buddha Shakyamuni
+9cattle shed/ barn
+36<place> Gośālaka37<place> Gośālaka (Skt: gośālaka): A country. (Original glossary entry: https://84000.co/glossary/entity-16709.html)39<place> gośālaka
+36<person> Gośālīputra37<person> Gośālīputra (Skt: gośālīputra): One of the six tīrthika teachers contemporaneous with Śākyamuni. Teacher and head of the Ājīvika sect. (Original glossary entry: https://84000.co/glossary/entity-4303.html)39<person> gośālīputra43gośālīputraḥ — {kye gau ta ma 'jig rten na mu stegs can gyi gnas tha dad pa 'di lta ste/} {'od srung rdzogs byed dang}…{kun tu rgyu gnag lhas kyi bu dang} bho gautama pṛthagloke tīrthyāyatanāni, tadyathā—pūraṇaḥ kāśyapaḥ…māskarī (maskarī) gośālīputraḥ a.śa.113ka/102.
+36<person> Govinda37<person> Govinda (Skt: govinda): A brahmin. (Original glossary entry: https://84000.co/glossary/entity-16399.html)39<person> govinda
+9[arch] = hunted meat, have collected large tax of meat10sha lings btab pa'am / sha khral bsdus pa. Btsan-lha.26{(rnying) sha lings btab kyang zer/ sha khral chen po bsdus pa/}48{sha lings btab pa'am/ sha khral bsdus pa'i don te/}《{tun hong gter yig bod kyi yig rnying}》{las/ btsan po nyen dkar na bzhugs shing / blon chen stong rtsan gyis/ g.yug tu gnag lings btab/ da rgyal mang po rjes zhing gi phying ril bgyis/ zhes pa lta bu'o//}55〔{rnying}〕{sha lings btab kyang zer/} {sha khral chen po bsdus pa/}
+9cattle and sheep
+8domestic animals
+9disease of cattle26{phyugs nad/}55{phyugs nad/}
+21) hostile, aggressive; opposed to, hostile to; 2) black, sooty, ex. {skam la gnag pa} to be dark and skinny. 3) black cattle2unvirtuous {las dang 'bras bu gnyis ka gnag pa 'dod par sdug bsngal myong byed} actions and results, which are both 'unvirtuous', cause pain to be experienced in the desire realms8black9black; 1) w gentle exterior inner malice; 2) sooty black [cattle]10sran pa. Btsan-lha.24kṛṣṇatva. kṛṣṇa261) {phyi'i rnam 'gyur 'jam 'jam 'dra yang/ nang du gnod sems 'chang ba'i sems ngan po/ zhe gnag pa/ gnag pa'i glas ka/} 2) {nag po/ dud 'gro spu gnag ngo gnag ma ston/ skra snum la gnag pa/}43vi. = {nag po} kṛṣṇaḥ — {las gcig tu nges par gnag pa rnams ni rnam par smin pa yang gcig tu nges par gnag par 'gyur ro//} ekāntakṛṣṇānāṃ karmaṇāmekāntakṛṣṇo vipākaḥ a.śa.110kha/101; {khros shing khro bcas gnag pa dang /} /{mche ba rnon po rab tu bsgom//} kruddhaṃ saroṣaṇaṃ kṛṣṇaṃ tīkṣṇadaṃṣṭraṃ prabhāvayet \n\n gu.sa. 118kha/61; dra. {gnag} 0. ({brtag pa} ityasya sthāne) kalpaḥ — {mngon sum du gnag pas 'dug na'o//}…{dben par gnag pas 'greng na'o//} pratyakṣakalpena niṣadane…sthāne rahaḥkalpena vi.sū.40ka/50; saṃkalpaḥ — {'dir zhag drug tu 'gro ba ha cang thal ba nyid la ni gnag pa yan lag ma yin no//} anaṅgamatrātivāhyatve ṣaḍrātrasya prakrāntau saṅkalpaḥ vi.sū.28ka/35.48{sran pa'i don la 'jug pa yod de/}《{brda gsar rnying gi bye brag rtogs byed}》{las/ gnag pa zhes pa sran pa ste// ji ltar bsam bzhin sran tshugs pa'o// zhes dang / yang de nyid las/ sems kyi mno dang gnag pa yi// khyad par legs par bsam pa dang // ji ltar bsam bzhin sran tshugs pa'o// zhes gsungs pa ltar ro//}55(1) {phyi'i rnam 'gyur 'jam 'jam 'dra yang /} {nang du gnod sems 'chang ba'i sems ngan po/} {zhe gnag pa/} {gnag pa'i las ka/} (2) {nag po/} {dud 'gro spu gnag} {ngo gnag ma ston/} {skra snum la gnag pa/}
+43vi. na kṛṣṇā — {phyag rgya chen po}…{gnag pa ma yin dkar ba min//} mahāmudrā…na kṛṣṇā na ca gaurikā \n he.ta.27ka/90.
+2black cattle9cattle, livestock, dris yaks and dzos10Grossvieh.
+2yaks; cattle, livestock, black yaks9cattle, livestock26{'bri g.yag dang mdzo'i rigs/}55{'bri g.yag dang mdzo'i rigs/}
+91) w gentle exterior inner malice; 2) sooty black [cattle]26{gnag pa dang 'dra/}55{gnag pa dang 'dra/}
+43gokulam, gosthānam — {ba rnams kyang gzhon la be'u rnams kyang tshar te rang rang gi gnag ra shes pas rang rang gi gnas su 'gro bar 'gyur} gāvastaruṇavatsā jñāsyanti svakasvakāni gokulāni \n gamiṣyanti svakasvakāni niveśanāni vi.va.148ka/1.36.
+2MSS: cowherd (R75: 184.1) [mss]8keeper of cattle, cowherd, neat-herd9cattle herder, shepherd16[C]go-pāla22[C]cowherd26{gnag phyugs 'tsho mkhan rdzi bo/ ri rtse'i glu dbyangs gnag rdzis len/ dwangs dgra'i mgo btags dpa' bos len/}43gopālaḥ, gavāṃ pālakaḥ — {rmi lam la sogs pa la}… {shes pa gnag rdzi'i bar du rang rig pa nyid du mngon sum gyis shin tu gsal bar grub bo//} svapnādiṣu… jñānamāgopālamatisphuṭameva svasaṃvedanapratyakṣasiddham ta.pa.360ka/440; gopālakaḥ — {btsun pa bcom ldan 'das kyis ci'i slad du gnag rdzi dga' bo legs par gsungs pa'i chos 'dul ba la rab tu 'byung bar 'tshal ba bzlog ste sdum par btang lags} kasmādbhadanta bhagavatā nando gopālakaḥ svākhyāte dharmavinaye pravrajitukāmaḥ punarapyagārāyodyojitaḥ vi.va.148kha/1.37; vi.va.147kha/1.36.55{gnag phyugs 'tsho mkhan rdzi bo/} {ri rtse'i glu dbyangs gnag rdzis len/} {dwangs dgra'i mgo btags dpa' bos len/}
+43gopālaḥ, gavāṃ pālakaḥ— {de ni shin tu rmongs don te/} /{gnag rdzi mo bar grags phyir ro//} tadatyantavimūḍhārthamāgopālamasaṃvṛteḥ \n\n pra.vā.122ka/2. 99.
+55{gnag ces mi'i bdag pa'i dud 'gro spyi yi ming yin yang skabs 'dir g.yag dar ma rmo 'gel ma byas shing spu gra ma nyams pa'i sha la zer te/} {de'u dmar dge bshes bstan 'dzin phun tshogs kyis mdzad pa'i gso rig skor gyi ming tshig nyer mkho'i don gsal las/} {gnag ces mi'i bdag ba lang dang /} {'bri mdzo ra lug spyi yi ming /} {gnag rgod g.yag ni dar ma'i ming /} {zhes gsungs pa ltar ro/ /}
+9cattle's for and hind legs gi rjes26{phyugs rigs kyi rkang lag gi rjes/}42goṣpada43goṣpadam — {rgya mtsho zab pa nyid kyang ni/} /{gnag rjes lta bur sa ler gda'//} goṣpadottānatāṃ yāti gāmbhīryaṃ lavaṇāmbhasaḥ \n śa.bu.111kha/35.55{phyugs rigs kyi rkang lag gi rjes/}
+8sooty
+29{gnag gdang zhes pa'i don te gnag ni shin tu nag por song ba'am phyugs rigs kyi ming las skabs 'dir phyugs la go dgus pa dang/gdang ni la sa thag pa brkyangs pa'i sne mor phur pa brgyab pa'i sgo phyugs 'dogs thag la zer zhing/spyir na gdang gcig la gnag bcu btags thub}
+2evil, wicked, sinister8sinister, insidious9evil, wicked, sinister; evil, wicked, sinister, malicious26{gdug sems sam zhe nag po/}55{gdug sems sam zhe nag po/}
+55{gnag sems yid la bcangs nas gzhan la dma' 'bebs dang skyon 'dzugs byed pa/}
+55{gnag ni mi'i bdag po byed pa'i phyugs rigs spyi yi ming yin pas de'i sha'i ming /}
+2gleaming / glimmering black
+2black shiny8shiny black9black, shiny, twisted into a point29{btsan dug bong ba'i mdog ltar nag po nag rkyang dang/snum ni 'od mdangs ldan pa'i don/dper na/sems can spu nag la gnag phyugs dang/kha 'jam gting rtsub la sems gnag po zer ba las/sems nag po mi zer ba phal skad kha rgyun la dbye ris gsal ba ltar red}55{btsan dug bong ba'i mdog ltar nag po nag rkyang dang /} {snum ni 'od mdangs ldan pa'i don/} {dper na/} {sems can spu nag la gnag phyugs dang /} {kha 'jam gting rtsub la sems gnag po zer ba las/} {sems nag po mi zer ba phal skad kha rgyun la dbye ris gsal ba ltar bu yin/}
+43nā. gautikaḥ, arhat — {tshe dang ldan pa gnag tshogs can slob par gyur pa}…{'chi ba'i dus kho nar dgra bcom pa nyid thob cing yongs su mya ngan las 'das par yang gyur te} āyuṣmān gautikaḥ śaikṣībhūtaḥ …maraṇakāla evārhattvaprāptaḥ parinirvṛtaśca abhi.bhā.34ka/999; abhi.sphu.220ka/999.

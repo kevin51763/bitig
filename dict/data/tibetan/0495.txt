@@ -1,0 +1,600 @@
+9{sngon 'gro'i khrid yig kun bzang bla ma'i zhal lung}26{rdzogs chen dpal dge sprul sku 'jigs med chos kyi dbang pos mdzad pa'i klong chen snying thig gi sngon 'gro'i khrid yig ste/ thun mong phyi'i sngon 'gro/ thun min nang gi sngon 'gro/ nyams len dngos gzhi'i rim pa/ nye lam 'pho ba'i cha lag dang bcas pa'i dmigs rim rnams nyams khrid du bshad pa'i gzhung/}47{rdzogs chen dpal dge sprul sku 'jigs med chos kyi dbang pos mdzad pa'i klong chen snying thig gi sngon 'gro'i khrid yig ste/ thun mong phyi'i sngon 'gro/ thun min nang gi sngon 'gro/ nyams len dngos gzhi'i rim pa/ nye lam 'pho ba'i cha lag dang bcas pa'i dmigs rim rnams nyams khrid du bshad pa'i gzhung /}53{rdzogs chen dpal dge sprul sku 'jigs med chos kyi dbang pos mdzad pa'i klong chen snying thig gi sngon 'gro'i khrid yig thun mong phyi'i sngon 'gro/ thun min nang gi sngon 'gro/ nyams len dngos gzhi'i rim pa/ nye lam 'pho ba'i cha lag bcas so/ tshig 'di gsar du bcos pa yin/}55{rdzogs chen dpal dge sprul sku 'jigs med chos kyi dbang pos mdzad pa'i klong chen snying thig gi sngon 'gro'i khrid yig ste/} {thun mong phyi'i sngon 'gro/} {thun min nang gi sngon 'gro/} {nyams len dngos gzhi'i rim pa/} {nye lam 'pho ba'i cha lag dang bcas pa'i dmigs rim rnams nyams khrid du bshad pa'i gzhung /}
+2introductory liturgical arrangement2liturgy for the preliminary practices
+8preliminary practices
+9advance force, vanguard, avant garde
+0preparatory training21{sbyar/ sbyor/ sbyard/ sbyord/}
+31preprocessing
+31preprocessor
+41(adm) preliminary estimate {las 'char zhig 'go 'dzugs ma byas gong do bdag la sprad rgyu'i ched bzos pa'i rob rtsis shigade la phyi nang gi rkyen dang phyogs so so'i gnas stangs la ltos te 'gyur ba 'gro nges yin/}
+0prefix2prefix; A term of grammar. Prefix. See {snon 'jug lnga}8prefix; prefix, letter prefix, prefixed letter9prefix; prefix [letters]. prefix letter55{rang rang 'jug rung du gyur pa'i ming gzhi'i sngon du 'jug pa'i yi ge lnga la zer/}
+51{sngon 'jug lnga po rnams pho dang ma ning sogs su ji ltar 'jog ce na/ dka' gnad gsal ba'i me long las/ sngon 'jug lnga yi ba yig pho/ /ga da ma ning 'a mo yig /ma ni shin tu mo yin no/ /zhes gsungs pa ltar ro/ /de dag pho dang ma ning mo sogs su bzhag pa'i rgyu mtshan gang yin zhe na/ si tu 'grel chen las/ rtags de ltar dbye ba'i rgyu mtshan ni ming gzhi ltar sngon 'jug gi yi ge rang rang klog pa'i sgra grims lhod sogs las ma yin te 'chad 'gyur ltar de dag 'jug yul gyi ming gzhi'i yi ge dang sbyar nas klog pa'i tshe sgra gdangs shugs che chung du 'gyur ba'i cha nas bzhag pa'o/ /zhes dang / yang mjug tsam du/ 'grel byed phal mo ches skabs 'di'i 'jug tshul drag zhan sogs sgra gdangs kho na'i sgo nas bzhag par 'dod kyang legs pa ma yin te/ pho dang ma ning gi 'jug tshul la sgra drag zhan gyi dbye ba cher med kyang gtso bor byed rtsol che chung gi sgo sna 'byed dgos shing / gzhan rnams la'ang sgra gdangs drag zhan du ma zad byed rtsol che chung gi khyad pa re'ang zhib mo'i blos dpyad na mngon sum gyis grub pa'i phyir ro/ /zhes gsungs so/ /}
+49{ga da ba ma 'a dang lnga'o/ /} (Source: 《{gser tog sum rtags }》{deb sha }251.1{las btus/}).
+2A term of grammar. The five prefixes. Five letters which can be joined before the "Name-base". There are five prefixes {ga/ da/ ba/ ma/ 'a/}9the five prefix letters [ga da ba ma ' ste lnga po 'di'i rtags la ba pho dang, ga da ma ning, ' mo, ma shin tu mo bcas nang gses dbye ba bzhir phye yod pa]26{ming gzhi'i sngon du 'jug pa'i yi ge ga da ba ma 'a ste lnga po 'di'i rtags la ba pho dang/ ga da ma ning/ 'a mo/ ma shin tu mo bcas nang gses dbye ba bzhir phye yod pa/ ga da ba ma 'a ba ga da 'a ma}55{ming gzhi'i sngon du 'jug pa'i yi ge ga da ba ma 'a ste lnga po 'di'i rtags la ba pho dang /} {ga da ma ning /} {'a mo/} {ma shin tu mo bcas nang gses dbye ba bzhir phye yod pa/}
+491. {sngon 'jug pho ba yig} (Source: 《{gser tog sum rtags }》{deb sha }257.6{las btus/}).
+9the 1st part/ preface and remainder26{snga ma'i 'jug dang/ lhag ma/ gzhung don sngon 'phros bshad pa/ las grwa sngon 'phros gtsang mar 'jug bsdus pa/}55{snga ma'i mjug dang /} {lhag ma/} {gzhung don sngon 'phros bshad pa/} {las grwa sngon 'phros gtsang mar mjug bsdus pa/}
+42bhūyasyā mātrayā
+9target, schedule, goal, predetermined
+9predetermined time
+9production target/ schedule
+9target, schedule, goal, predetermined31predefined55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }predefined {zer/}
+9predetermined time
+31predefined identifier
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }predefined identifier {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }predefined type {zer/}
+31predefined type
+9production target/ schedule
+2former Tibetan kings9former Tibetan king
+43vi. brāhmaṇapūrvakaḥ — atha brāhmaṇapūrvako devaputraścalavimalakuṇḍaladharaḥ… bhagavataḥ purastānniṣaṇṇo dharmaśravaṇāya a.śa.142ka/131.
+9recently sent letter/ spoken talk * advance notice/ warning, forecasting26{sngon tshud nas gtong ba'i 'phrin nam gtam/ khungs so sor sngon brda gtong ba/ sang zhogs char pa 'bab pa'i sngon brda khas gzhes nyin nas btang ba/}41(meteor) forecasts {rgyun gtan brnyan 'phrin dang /rlung 'phrin/tshags shag sogs brgyud nas 'byung 'gyur gnam gshis gnas stangs ji 'gyur gyi sngan dpag}55{sngon tshud nas gtong ba'i 'phrin nam gtam/} {khungs so sor sngon brda gtong ba/} {sang zhogs char pa 'bab pa'i sngon brda khas gzhes nyin nas btang ba/}
+9sent advance notice/ warning, predicted
+9give advance notice/ warning, forecast, predict
+8forecast, forewarn
+8foreword, preface, introduction9preface, foreword, introduction, prologue
+2former accumulation [of merit]9previously accumulated26{sngar nas bsgrubs pa dang spungs pa/}53{tshe rabs sngon mar bsags pa'i las/}55{sngar nas bsgrubs pa dang spungs pa/}
+2enjoying the excellent fruition of his past deeds
+2as a result of their past negative actions
+8power due to merits formerly acquired, virtue, piety
+55{thengs sngon mar bsags pa'i nag nyes kyi ming /}
+2attained through having formerly trained
+9forecast, prediction, projection
+9forecast, predict, project
+41(adm) spadework {las don dngos gzhi'i sngon du byed dgos pa'i dka' sdug che ba'i las ka}
+31prescanning time55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }prescanning time {zer/}
+43= {sngon bskyed pa/}
+43vi. utpāditapūrvaḥ — utpāditapūrvāṇāṃ tu deveṣu sammukhībhāvaḥ abhi.bhā.14kha/916.
+43= {sngon du bsnyen pa} pā. pūrvasevā — pūrvasevāṃ svacakrasthaṃ prathamaṃ devatātmakam \n baliṃ ca dāpayet tatra pūrvasevādhikārakam sa.u.17.2; kṛtajāpī vivekajño pūrvasevānusevinaḥ ma.mū.154ka/67; evaṃ ṣaḍlakṣajāpena pūrvasevā nigadyate vi.pra.81kha/4.168.
+2who has formerly created merit
+2welcoming, greeting91) preliminary preparations/ arrangements; 2) invitation; 3) welcome[ing], greeting261) {dngos gzhir ma slebs gong nas byed pa'i gra sgrig} 2) {sna 'dren/}51{sngun bsu dang / sngon bsu/ mdun bsu rnams don gcig sngon du 'ong ba'ang 'jug ste/ sdig can rnams la da lta'i tshe gzhug 'di rang nas ci mi 'dod pa'i na tsha sdug bsngal sna tshogs 'ong ba de/ sngon gyi dge ba'i 'bras bu rnams zad nas sdug bsngal gyi 'bras bu sngon bsus slebs pa bya ba yin/ zhes 'byung ba lta bu/ sngun bsu la gzigs/}55(1) {dngos gzhir ma slebs gong nas byed pa'i gra sgrig} (2) {sna 'dren/}
+2to welcome91) preliminary preparations/ arrangements; 2) invitation; 3) welcome[ing], greeting
+9welcome
+55{spyi lo 1947lor bla ma phun tshogs nas gsar 'debs mdzad par snang /} {grub mtha' rnying ma pa yin/} {da lta rnga ba bod rigs rang skyong khul 'bar khams rdzong khongs su yod/}
+43= {sngon du btang ba/}
+2sngar - before, beforehand, previously, formerly, at first8a vegetable, a medicinal plant, delphinium cashmirianum gentianaaristata maxim.9{sngon bu} field med10JD 149. TM IV 65. KP1 69.2. KP3 271.6. SS 492.6. TM IV 65. = ling la, bi sha la, g.yu shing, sngo a tsa ra, shog shing pa, sgyib shing. DG 275.6. Mdo 107.26{thang sman gyi rigs shig ste/ ro mngar la tsha ba/ zhu rjes drod/ nus pas chu ser gyi nad rnams 'jam por sbyong bar byed/ ming gi rnam grangs la gyib shing dang/ sngo a tsa ra/ bi sha la/ shog shing pa bcas so/}32{lo gcig skye ba'i rtsi shing chung ngu zhig gi ming yin la ring tshad lis smis lnga nas bcu gnyis bar yod/ sdong bu phra zhing lo ma ral gri'i dbyibs can cha mnyam du skyes pas sdong bu btums pa/ me tog 'dab ma lnga ba sngo smug gam kham dmar cong gi dbyibs can zhig la ngos 'dzin/ rtswa yongs rdzogs sman du byed chog}44Also abbreviated as {sngonu}. (Source: Dzongkha abbreviations)55{thang sman gyi rigs shig ste/} {ro mngar la tsha ba/} {zhu rjes drod/} {nus pas chu ser gyi nad rnams 'jam por sbyong bar byed/} {ming gi rnam grangs la gyib shing dang /} {sngo a tsa ra/} {bi sha la/} {shog shing pa bcas so/ /}
+2endowed with the good karma accrued through training in his previous lives
+2done before, committed in the past8destiny, fate9previously performed/past task/ work/ action26{sngar byas pa'i las don/ sngon byas la rtsad gcod mi byed/ sngon byas kyi las kar bskyar zhib byed pa/}43• saṃ. = {skal ba} niyatiḥ, bhāgyam — daivaṃ diṣṭaṃ bhāgadheyaṃ bhāgyaṃ strī niyatirvidhiḥ a.ko. 1.4.28; \n\n• vi. kṛtapūrvaḥ — na ca tvayā bhoḥ puruṣa atra karma kurvatā śāṭhyaṃ vā vakratā vā… mrakṣo vā kṛtapūrvaḥ, karoṣi vā sa.pu.42ka/74.55{sngar byas pa'i las don/} {sngon byas la rtsad gcod mi byed/} {sngon byas kyi las kar bskyar zhib byed pa/}
+9subsequently analyze past work
+9no questions about past actions
+9no questions about past actions
+24pūrva-kṛta43= {sngon byas/}
+24pūrva-kṛta-hetu
+24pūrva-kṛta-hetuka
+24pūrva-kṛta-hetu-vāda
+43= {sngon du byed pa/}
+21) appeared / occurred in the past, bygone. 2) great savants of the past8ancient9appeared/ occurred in the past, bygone, predecessor, precursor, forerunner, pioneer26{da lta'i sngon nas phebs pa/ sngon byon mkhas bzang/ skyes bu sngon byon/ sngon byon rgyal po/}55{da lta'i sngon nas phebs pa/} {sngon byon mkhas bzang /} {skyes bu sngon byon/} {sngon byon rgyal po/}
+9something that appeared/ occurred in the past, bygone, predecessor, precursor, forerunner, pioneer
+2occurred / existed before or in the past8history, ancient account, early events, gone before, previous9occurred/ existed before or in the past, previous26{sngar byung zin pa'i rnam thar lo rgyus sogs/ mkhas pa mang pos bsgrigs pa'i sngon byung gi lo rgyus rnam thar/}41(adm) precedence {mi zhig gis ma 'ongs par yang bskyar las don de dang 'dra ba zhig sgrub 'dod yod par dpe mtshon du bkol ba'i thag gcod dam bya spyod cig}42adhisarga, itihāsaka, puravṛtta43= {sngon du byung ba} \n\n• pā. itihāsaḥ, aṣṭādaśavidyāsthāneṣu ekam ma.vyu.4971; nigame purāṇe itihāse vede vyākaraṇe nirukte … gandhayuktau \n ityevamādyāsu sarvakarmakalāsu la.vi.80kha/108; {sngon byung gtam las gyur pa} itihāsakathodbhūtam kā.ā.1. 15 2. = {sngon gyi rabs} purāvṛttam, itihāsaḥ — itihāsaḥ purāvṛttam a.ko.1.6.4 3. prāgvṛttam — prāgvṛttasmaraṇasmeravadanaḥ smitakāraṇam \n sa tatra pṛṣṭaḥ śakreṇa a.ka.55.2; śāriputrasya prabhāvamatha bhikṣubhiḥ \n pṛṣṭo babhāṣe bhagavān prāgvṛttam a.ka.50.17 4. bhūtapūrvam — bhūtapūrvaṃ bhikṣavo'tīte'dhvani bhāgīratho nāma samyaksaṃbuddho loka udapādi a.śa.35ka/31.51({mdzod}) {sngon gyi byung ba dang 'dra/}55{sngar byung zin pa'i rnam thar lo rgyus sogs/} {mkhas pa mang pos bsgrigs pa'i sngon byung gi lo rgyus rnam thar/}
+9past/ previous plans
+23itihāsakam23bhūtapūrvam421) itihāsaka 2) pūrvayoga 3) bhūtapūrva43= {sngon byung /}45Sanskrit: itihāsaka <Word/Term/Phrase>\n\n\nTibetan renderings of itihāsaka: {sngon byung ba/}, {slar byung/}\n\nOne of the eighteen fields of knowledge (vidyāsthāna: rig pa’i gnas).\nnt. (! = Skt. itihāsa, m.), history, story, legend: Mvy 4971 °kam, n. sg. (follows purāṇaṃ; gender influenced by this?)\n\nSee the full entry at:https://www.itlr.net/hwid:3884652it happened anciently (mythology)52(Skt. itihāsakam/bhūta-pūrvam) history
+43bhūtapūrvatvam — kiṃ te tasya tasya karmaṇo bhūtapūrvatvaṃ necchanti sma abhi.bhā.241kha/812; bhūtapūrvatā — tasmāt bhūtapūrvasya ca hetorbhāvinaśca phalasya bhūtapūrvatāṃ bhāvitāṃ ca jñāpayitum abhi.bhā.241ka/811.
+81 of rig gnas bco brgyad
+2history of past events
+43= {sngon byung ma yin pa/}
+43vi. apūrvaḥ, pūrvotpannādanyaḥ — apūrvaḥ saṃskṛtasyaiva saṃskṛto'dhipateḥ phalam abhi.ko.2.58.
+43prāktanavṛttāntaḥ — kathite vṛttānte prāktane a.ka.50.23.
+43= {sngon byung ba nyid/}
+8previous existence9previous existence
+9precautionary strategy/ policy42bhāgya, vidhi
+9took precautions
+9take precautions
+8as formerly9as before26{snga ma nang ltar/ yul thang sngon bzhin du gnas pa/ 'gro lugs sngon bzhin/}42pūrvavat55{snga ma nang ltar/} {yul thang sngon bzhin du gnas pa/} {'gro lugs sngon bzhin/}
+2in former times; in the past; past, formerly, before, in former years; previously, hitherto, until now, up to this point, earlier, before now2previously, up to now5(PH) in the past8before, formerly, in former years, in the past, past, in former times, heretofore, hitherto, till now, up to this time, heretofore, formerly, in the past9formerly, before, hitherto, until now, in the past, previously11previously/ formerly16[C]alabdha-pūrva; [MSA]pūrva22[C]in the past(?)26{da lta phan chad/ sngon chad byas pa'i bya bar da lta phyi bltas byed pa/}421) pūrva 2) paurvika 3)43= {sngan chad} vi. 1. pūrvam — {sngon chad ma mthong ba} adṛṣṭapūrvam vā.ṭī.84ka/40; purā — asatyāstimirajñānagamyāḥ keśādayaḥ purā \n evamevopalabdhatvāt pra.a.175kha/190 2. pūrvam, janmāntare — mayāpi pūrvaṃ sattvānāmīdṛśyeva vyathā kṛtā bo.pa. 6.42; yattu pāpaṃ kṛtaṃ pūrvaṃ mayā kalpaśateṣu su.pra. 8kha/15; purā — {sngon chad byung ba} purāvṛttam la.a.188kha/159.44Also abbreviated as {sngond}. (Source: Dzongkha abbreviations, Bacot écriture cursive Tibétaine)55{da lta phan chad/} {sngon chad byas pa'i bya bar da lta phyi bltas byed pa/}
+43purāvṛttam — evaṃ mayā śrutādibhyaḥ śākyasiṃhasya deśanā \n itihāsaṃ purāvṛttaṃ vyāsasyaitad bhaviṣyati la.a.188kha/159.
+8unprecedented
+16[C]apūrva-labha22[C]which he had not had before
+43= {sngon chad ma 'dris pa/}
+43vi. asaṃstutaḥ — asmannistāraṇāpekṣī sa hyasaṃstutabāndhavaḥ jā.mā.367/215.
+43= {sngon chad ma btsas pa/}
+43vi. aprasūtā — dvātriṃśatā mārṣā guṇākāraiḥ samanvāgatā sā strī bhavati yasyāḥ striyāścaramabhaviko bodhisattvaḥ kukṣāvavakrāmati… yaduta abhijñātāyāḥ… aprasūtāyāḥ la.vi.16ka/17.
+43= {sngon chad ma byung ba/}
+43vi. adṛṣṭapūrvam — abhiprathante hyabhilakṣitātmanāmadṛṣṭapūrvāścariteṣvatikramāḥ jā.mā.337/196; dra. {sngon chad ma mthong ba/}
+42na hi kiṃcidapūrvamatra vācyam
+43= {sngon chad ma mthong ba/}
+43vi. adṛṣṭapūrvam — etat sāṅkhyapaśoḥ ko'nyaḥ salajjo vaktumīhate \n adṛṣṭapūrvamastīti tṛṇāgre kariṇāṃ śatam vā.ṭī.84ka/40; dra. {sngon chad ma byung ba/}
+8unprecedented9unprecedented
+2unprecedented
+42pūrvānubhūta
+8as before, all the same, likewise
+16paricārikā(ya)22[C]when in the past he served
+16paricārikā(yā)21{spyad/ spyod/ spyad/ spyod/}22[C]when in the past he served
+7Could combine these last three entries. (T)16paricārikā(yā)21{spyad/ spyod/ spyad/ spyod/}22[C]when in the past he served
+9'khor ba [samsara?]26{(mngon) 'khor ba/}53（{mngon }）{'khor ba'i ming gzhan zhig tshig 'di gsar du bcos pa yin/}55〔{mngon}〕{'khor ba/}
+2preparatory ritual [in sadhana practice]9preparatory ritual. bsnyen par rdzogs pa la tshegs chung ngus rdzogs pa sngon gyi cho ga zhes sangs rgyas zhal bzhugs dus mkhan po 'phags pa yin pa dang, gdul bya blo dag pa ste las nyon rnam smin gyi sgrib pa shas chung zhing, shes srab dang, rgyud dang, dbang po gsum smin pa'i gang zag kho na la sdom pa 'bog pa'i cho ga zhig26{bsnyen par rdzogs pa la tshegs chung ngus rdzogs pa sngon gyi cho ga zhes sangs rgyas zhal bzhugs dus mkhan po 'phags pa yin pa dang/ gdul bya blo dag pa ste las nyon rnam smin gyi sgrib pa shas chung zhing/ shes srab dang/ rgyud dang/ dbang po gsum smin pa'i gang zag kho na la sdom pa 'bog pa'i cho ga zhig}47{bsnyen par rdzogs pa la tshegs chung ngus rdzogs pa sngon gyi cho ga zhes sangs rgyas zhal bzhugs dus mkhan po 'phags pa yin pa dang / gdul bya blo dag pa ste las nyon rnam smin gyi sgrib pa shas chung zhing / shes rab dang / rgyud dang / dbang po gsum smin pa'i gang zag kho na la sdom pa 'bog pa'i cho ga zhig}51({'dul ba}) {yul gang zag gcig gi rgyud la rab byung dang bsnyen rdzogs dus gcig tu 'thob byed kyi thabs khyad par can gyi bdag nyid du gtogs pa de/ sngon chog gi mtshan nyid/} ({sngon chog ji ltar byung ba'i tshul}) {ni/ bdag cag gi ston pa sangs rgyas nas ring por ma lon pa na 'khor lnga sde bzang po la sogs pa rnams tshur shog gi sgo nas bsnyen par rdzogs par mdzad la/ de'i tshe rab tu 'byung bar 'dod pa zhig bcom ldan 'das kyi drung du 'ongs pa na spyan sngar ma slebs pa'i gong rol du bar ma dor shi ba na/ bcom ldan 'das kyis nga yi nyan thos rnams thag ring po nas 'ongs pas ngal bar gyur to snyam du dgongs nas/ deng phyin chad nga nyid las rab tu 'byung mi dgos par khyed cag dge 'dun gyis rab tu 'byung ba dang bsnyen par rdzogs par bya'o zhes sngog chog gnang ngo / /'di'i khungs ni/ lung gzhi (} {ka pa} {)47na7na gsal zhing / sngon chog gi sgo nas bsnyen par rdzogs tshul lam de'i cho ga ni/ shog grangs 47ba5na gsal lo/ /mdo rtsa ba las ni/ nges par 'byung ba'i tshul khrims kyi dbang du byas te/ dge 'dun thams cad 'dus pa na cha lugs 'di bzhin byas/ rgan rims la phyag 'tshal te thal mo sbyar/ tsog tsog por 'dug cing gsol ba btab par gyur pa gsum dang / gsol ba dang bzhi'i las kyis cig car rab tu dbyung ba dang/ bsnyen par rdzogs pa nye bar bsgrubs par gyur pa lta bu ni sngon gyi cho ga'o/} {/zhes gsungs pa 'di'o/ /sngon chog gi skabs su mkhan slob med par dge 'dun tsam gyis rab byung bsnyen rdzogs sgrub par byed do/ /} ({sngon chog gi dgos pa}) {ni/ tshegs chung dus rab byung dang bsnyen rdzogs thob pa'o/} {/} ({sngon chog gnang ba'i rten gyi gang zag}) {bzhag tu yod de/ smin pa gsum shas che zhing sgrib pa gsum shas chung ba'i gang zag cig la gnang ba'i phyir/ smin pa gsum ni rgyud smin pa/ shes rab smin pa/ dbang po smin pa dang gsum la byed/ rgyud smin pa ni skye ba snga ma rnams su lam la legs par sbyangs pa/ shes rab smin pa ni de'i stobs kyis skyes stobs kyi shes rab che ba/ dbang po smin pa ni de'i dbang gis dad sogs kyi dbang po rno ba la byed do/} {/sgrib pa gsum ni/ rnam smin gyi sgrib pa/ las kyi sgrib pa/ nyon mongs pa'i sgrib pa gsum la byed/ dang po ni/ ngan song ba'i rgyud kyi phung khams skye mched lta bu/ gnyis pa ni/ mtshams med lnga/ pham pa bzhi dang / chos spong gi las lta bu/ gsum pa skabs 'di'i nyon mongs pa'i sgrib pa shas che ba ni/ nyon mongs pa rgyun ring zhing gnyen po skye dka' ba la byed kyi nyon mongs pa rno ba tsam la mi byed de/ 'char ka sogs srid pa tha ma pa'i gang zag 'ga' zhig la yang nyon mongs pa rno ba tsam yod pa'i phyir ro/ /} ({sngon chog gi dbye ba}) {ni/ brgyad de/ 'dren pa rang rgyal rang byung tshul gcig cing /} {/ye shes khong chud tshur shog skyabs 'gro dang /} {/ston pa khas blangs dri mnyes lci chos spong /} {/gsol bzhi'i las kyi sngon gyi cho ga 'o/} {/zhes gsungs pa ltar ro/ /} ({sngon chog gi bsdu ba}) {ni/ yul gyi cha nas bsdu na gsum du 'dus te/ lci chos brgyad spong ba'i sgo nas bsnyen par rdzogs pa bud med kho na la gnang ba dang / tshur shog skyes pa dang bud med thun mong du gnang ba dang / de gnyis las gzhan pa'i sngon chog ni skyes pa kho na la gnang ba yin no/ /sgrub byed kyi cha nas bsdu na/ sgrub byed dge 'dun la brten pa dang/ mi brten pa gnyis su 'dus te/ gsol bzhi'i sngon chog dang sngon chog gzhan rnams so/} {/cho ga'i cha nas bsdu na/ cho ga'i las la brten pa dang / las la mi brten pa gnyis su 'dus te/ gsol bzhi'i sngon chog dang sngon chog gzhan rnams so/} {/} ({gang zag gang la gnang ba}) {ni/ mthong lam skye rung la gnang ba/ mthong lam skyes zin la gnang ba/ srid pa tha ma pa kho na la gnang ba dang gsum yod de/ nya pa lnga brgya tshur shog gi sgo nas bsnyen par rdzogs pa mthong lam skye rung la gnang ba dang / ston pa'i mchog zung gcig tshur shog gi sgo nas bsnyen par rdzogs pa mthong lam skyes zin la gnang ba/ tshur shog dang rang byung dang ye shes khong chud dang ston par khas blangs dang lci ba'i chos brgyad spong bar khas blangs pas bsnyen par rdzogs pa ni srid pa tha ma pa kho na la gnang ba dang gsum mo/ /} ({sngon chog dus nam gyi tshe gnang ba}) {ni/ ston pa sangs rgyas nas lo drug yan chad du ni rab tu byung ba thams cad la sngon gyi cho ga mdzad la/ lo drug nas da ltar gyi cho ga gnang ngo /} {/sngon chog 'ga' zhig ni da ltar gyi cho ga gnang ba'i phyi nas mdzad pa'ang yod de sangs rgyas mya ngan las 'das pa'i tshe rab bzang tshur shog gis bsnyen par rdzogs par mdzad pa'i phyir dang / kun dga' bo da ltar gyi cho gas bsnyen par rdzogs pa'i rjes su kun dga' bos zhus nas skye rgu'i bdag mo lci ba'i chos brgyad spong bar khas blangs pas bsnyen par rdzogs par mdzad pa'i phyir ro/ /} ({sngon chog sgra bshad}) {ni/ da ltar gyi cho ga'i snga rol du byung bas na sngon chog ces bya'o/ /} ({sngon chog dang da chog gi khyad par}) {ni/} ({'di'i sngon chog dang da chog gi khyad par zhes pa/ gsol bzhi'i sngon chog dang da chog gi khyad par bshad pa yin gyi sngon chog spyi'i dbang du byas pa ni min no}) {gang las nod pa yul gyi khyad par/ gang gis nod pa rten gyi khyad par/ ji ltar nod pa cho ga'i khyad par/ yongs su rdzogs pa 'bras bu'i khyad par yod/ dang po sdom pa blang sa'i dge 'dun gyi grangs la khyad par yod de/ mtshams nang de na yod pa'i dge 'dun thams cad 'dus dgos pa dang mi dgos pa'i khyad par ro/ /gnyis pa sdom pa len mkhan gyi gang zag gi khyad par ni/ cha lugs kyi khyad par/ lus 'dud pa'i khyad par/ spyod lam gyi khyad par/ gsol ba 'debs tshul gyi khyad par rnams su yod pa'i phyir/ dang po rten gyi gang zag de cha lugs ci ji 'dra zhig yin zhe na/} ({cha lugs kyi khyad par 'di mtsho TIka las gsal bshad legs po gnang thub mi 'dug cing / 'dir bshad pa ni se ra rje btsun chos kyi rgyal mtshan gyi 'dul ba ltar ro}) {da ltar gyi cho ga la chos gos gsum mkhan pos byin gyi brlabs te skon pa yin la/ sngon chog la de mi dgos par bsgrub bya rang nyid kyis gyon pa nyan thos kyi cha lugs bzhin du byas pas chog pa'i phyir te/ cha lugs 'di bzhin byas/ zhes gsungs pa'i phyir/ gnyis pa lus 'dud pa'i khyad par yod de/ da ltar gyi cho ga la phyag tshan lan bcu gcig dgos la/ sngon chog la de mi dgos par rgan rims la yan lag lnga sa la phab pa'i phyag tshan tshar gcig gis chog pa'i phyir te/ rgan rims la phyag 'tshal/ zhes gsungs pa'i phyir/ gsum pa spyod lam gyi khyad par yod de/ da ltar gyi cho ga la pha gu'i steng du rtswa bting ba la rting pa gzar te 'dug pa sogs dgos la/ sngon chog la stan med par thal mo sbyar tsog tsog por 'dug pas chog pa'i phyir te/ thal mo sbyar tsog tsog por 'dug cig zhes gsungs pa'i phyir/ bzhi pa gsol ba 'debs tshul gyi khyad par yod de/ da ltar gyi cho ga la mkhan pos ngo chen mdzad de/ las slob kyis brda sprad nas gsol ba 'debs pa yin la/ sngon chog la bsgrub bya rang nyid kyis gsol ba lan gsum btab pas chog pa'i phyir te/ gsol ba btab par gyur pa gsum dang / zhes gsungs pa'i phyir/ rtsa ba'i sa bcad gsum pa ji ltar nod pa cho ga'i khyad par ni/ da ltar gyi chog la 'gal rkyen dang bral ba dang / mthun rkyen tshang ba sogs brjod dgos la/ sngon chog la de ltar mi dgos pa'i phyir/ bzhi pa yongs su rdzogs pa 'bras bu'i khyad par yod/ da ltar gyi cho ga la rab byung dang bsnyen rdzogs rim gyis sgrub la/ sngon chog la de cig car du sgrub par byed pa'i phyir te/ gsol ba dang bzhi'i las kyis cig car rab tu 'byung ba dang / bsnyen par rdzogs pa nye bar bsgrub par gyur pa lta bu ni sngon gyi cho ga'o/} {/zhes gsungs pa'i phyir/ lnga pa da ltar gyi dus su sngon chog la brten rung mi rung la dpyad pa ni/ da ltar gyi dus su gsol bzhi'i las kyi sngon chog la brten nas bsnyen par rdzogs par byar mi rung la/ gal te byas na bsnyen rdzogs kyi sdom pa skye ba yod de/ da ltar gyi dus su mkhan po med pa dang bar chad ma dris par bsnyen rdzogs kyi sdom pa skye ba yod pa'i phyir ro/ /}55{bsnyen par rdzogs pa la tshegs chung ngus rdzogs pa sngon gyi cho ga zhes sangs rgyas zhal bzhugs dus mkhan po 'phags pa yin pa dang /} {gdul bya blo dag pa ste las nyon rnam smin gyi sgrib pa shas chung zhing /} {shes rab dang /} {rgyud dang /} {dbang po gsum smin pa'i gang zag kho na la sdom pa 'bog pa'i cho ga zhig}
+2ten steps of preparatory ritual9the 10 preparatory cho ga [before the buddha was enlightened sangs rgyas mya ngan las ma 'das gong gi bsnyen par rdzogs pa'i sngon gyi cho ga bcu ste, rdzogs pa'i sangs rgyas dang rang sangs rgyas gnyis zad mi skye shes nas byang chub brnyes pa'i rang byung gis bsnyen par rdzogs pa gnyis dang, lnga sde bzang po mthong lam skyes tshe ye shes khong chud kyis dang, sh' ri'i bu sogs tshur shog gis dang, 'od srung chen po ston par khas blangs pas dang, bzang sde tshogs drug cus skyabs gsum khas blangs pas dang, skye dgu'i bdag mo sogs lci chos brgyad bslab par khas blangs pas dang, legs byin dris pa'i lan la dgyes pas dang, mchod sbyin ma pha ma'i dbang du song ba la dge slong ma autapa las pho nya byas te dge 'dun gyis phrin chog la brten nas dang, dge 'dun gyi grangs yul dbus su bcu tshogs dang, mtha' 'khob tu lnga tshogs so sos gsol bzhi'i las kyi rab byung bsnyen rdzogs cig char du byed pa rnams so]26{sangs rgyas mya ngan las ma 'das gong gi bsnyen par rdzogs pa'i sngon gyi cho ga bcu ste/ rdzogs pa'i sangs rgyas dang rang sangs rgyas gnyis zad mi skye shes nas byang chub brnyes pa'i rang byung gis bsnyen par rdzogs pa gnyis dang/ lnga sde bzang po mthong lam skyes tshe ye shes khong chud kyis dang/ shA ri'i bu sogs tshur shog gis dang/ 'od srung chen po ston par khas blangs pas dang/ bzang sde tshogs drug cus skyabs gsum khas blangs pas dang/ skye dgu'i bdag mo sogs lci chos brgyad bslab par khas blangs pas dang/ legs byin dris pa'i lan la dgyes pas dang/ mchod sbyin ma pha ma'i dbang du song ba la dge slong ma utapa las pho nya byas te dge 'dun gyis phrin chog la brten nas dang/ dge 'dun gyi grangs yul dbus su bcu tshogs dang/ mtha' 'khob tu lnga tshogs so sos gsol bzhi'i las kyi rab byung bsnyen rdzogs cig char du byed pa rnams so/}47{sangs rgyas mya ngan las ma 'das gong gi bsnyen par rdzogs pa'i sngon gyi cho ga bcu ste/ rdzogs pa'i sangs rgyas dang rang sangs rgyas gnyis zad mi skye shes nas byang chub brnyes pa'i rang byung gis bsnyen par rdzogs pa gnyis dang / lnga sde bzang po mthong lam skyes tshe yi shes khong chud kyis dang / shA ri'i bu sogs tshur shog gis dang / 'od srung chen po ston par khas blangs pas dang / bzang sde tshogs drug cus skyabs gsum khas blangs pas dang / skye dgu'i bdag mo sogs lci chos brgyad bslab par khas blangs pas dang / legs byin dris pa'i lan la dgyes pas dang / mchod sbyin ma pha ma'i dbang du song ba la dge slong ma ut+pa las pho nya byas te dge 'dun gyis phrin chog la brten nas dang / dge 'dun gyi grangs yul dbus su bcu tshogs dang / mtha' 'khob tu lnga tshogs so sos gsol bzhi'i las kyis rab byung bsnyen rdzogs cig char du byed pa rnams so//}55{sangs rgyas mya ngan las ma 'das gong gi bsnyen par rdzogs pa'i sngon gyi cho ga bcu ste/} {rdzogs pa'i sangs rgyas dang rang sangs rgyas gnyis zad mi skye shes nas byang chub brnyes pa'i rang byung gis bsnyen par rdzogs pa gnyis dang /} {lnga sde bzang po mthong lam skyes tshe ye shes khong chud kyis dang /} {shA ri'i bu sogs tshur shog gis dang /} {'od srung chen po ston par khas blangs pas dang /} {bzang sde tshogs drug cus blangs pas dang /} {skye dgu'i bdag mo sogs lci chos brgyad bslab par khas blangs pas dang /} {legs byin dris pa'i lan la dgyes pas dang /} {mchod sbyin ma pha ma'i dbang du song ba la dge slong ma ut+pa las pho nya byas te dge 'dun gyis phrin chog la brten nas dang /} {dge 'dun gyi grangs yul dbus su bcu tshogs dang /} {mtha' 'khob tu lnga tshogs so sos gsol bzhi'i las kyis rab byung bsnyen rdzogs cig char du byed pa rnams so/ /}
+9CHN10rab byung gis bsnyen par rdzogs pa / nges par 'jug pas bsnyen par rdzogs pa / tshur shog gis bsnyen par rdzogs pa / ston par khas blangs pas bsnyen par rdzogs pa / dri bas mnyes pas bsnyen par rdzogs pa / lci chos khas blangs pas bsnyen par rdzogs pa / 'phrin chog gi sgo nas bsnyen par rdzogs pa / lnga tshogs kyis bsnyen par rdzogs pa / bcu tshogs kyis bsnyen par rdzogs pa / skyabs su 'gro bas bsnyen par rdzogs pa rnams so. 600 141-142.29{dge tshul gyi skabs su sngon gyi cho ga'i dbye ba bcu ste bsnyen par rdzogs tshul bcu ni/1 rang byung gis bsnyes par rdzogs tshul/2 nges par 'jug pas bsnyen par rdzogs tshul/3 tshur shog gis bsnyen par rdzogs tshul/4 ston par khas blangs pa'i bsnyen par rdzogs tshul/5 dri bas mnyes pa'i bsnyen par rdzogs tshul/6 lce chos khas blangs pa'i bsnyen par rdzogs tshul/7 'phrin chog gi sgo nas bsnyen par rdzogs tshul/8 mtha' 'khob tu lnga tshogs kyis bsnyen par rdzogs tshul/9 dbus su bcu tshogs kyis bsnyen par rdzogs tshul/10 skyabs su 'gro bas bsnyen par rdzogs tshul rnams so/_}49{de yang / dge tshul gyi skabs su sngon gyi cho ga'i dbye ba bsnyen par rdzogs tshul te/} (Source: 《{dung dkar tshig mdzod chen mo }》{sha }775.25{las btus/}).53{dge tshul gyi skabs su sngon gyi cho ga'i dbye ba bcu ste bsnyen par rdzogs tshul bcu ni/ rang byung gis bsnyen par rdzogs tshul dang / nges par 'jug pas bsnyen par rdzogs tshul/ tshul shog gis bsnyen par rdzogs tshul/ ston par khas blangs pa'i bsnyen par rdzogs tshul/ dri bas mnyes pa'i bsnyen par rdzogs tshul/ lce chos khas blangs pa'i bsnyen par rdzogs tshul/ 'phrin chog gi sgo nas bsnyen par rdzogs tshul/ mtha' 'khor tu lnga tshogs kyis bsnyen par rdzogs tshul/ dbus su bcu tshogs kyis bsnyen par rdzogs tshul/ skyabs su 'gro bas bsnyen par rdzogs tshul rnams so/}
+43vi. dharmānusāripūrvī — yastīkṣṇendriyo dharmānusāripūrvī sa dṛṣṭiprāpta ityucyate abhi.bhā.19ka/935.
+43vi. śraddhānusāripūrvī — tasmin kāle yo mṛdvindriyaḥ śraddhānusāripūrvī sa śraddhādhimukta ityucyate abhi.bhā.19ka/935.
+43• vi. pūrvāparam — kāritrādavyatiriktatvād dharmo'pi pūrvāparakoṭiśūnyasattāyogī prāpnoti kāritravat ta.pa.83kha/619; pṛṣṭhāgram — {sngon dang phyi mar} pṛṣṭhāgrataḥ vi.pra.115ka/21; \n\n• saṃ. paurvāparyam — paurvāparye pratyakṣasyāvṛtteḥ pra.a.11ka/12.
+43pṛṣṭhāgrataḥ — mañjuśrīlokeśvarapṛṣṭhāgrato deśakasvabhāvatayā'vasthitaḥ vi.pra.115ka/21.
+2past and future
+2who hasn't created virtue in the past
+24pūrva-kuśala-mūl^abhyāsa
+2without former merit
+8blue and red, purple, epithet of shiva42nīlalohita43= {lha chen} nīlalohitaḥ, śivaḥ — śambhurīśaḥ paśupatiḥ śivaḥ śūlī maheśvaraḥ… nīlalohitaḥ a.ko.1.1.34.53（{mngon }）{dbang phyug chen po/ tshig 'di gsar du bcos pa yin/}
+2the preliminary and main practice, preparation and main part. abbr. of {sngon 'gro dang dngos gzhi}9the preliminary and main practice, preparation and main part
+9the past
+9recollect[ion], recall, reflect[ion]
+8recollection9recollect[ion], recall, reflect[ion]
+9estimation, prognosis, speculation, anticipation, foresight41(adm,com,econ) anticipation {rgyu mtshan sogs la brten pa'i sngan tshud kyi tshod dpag}
+41(com,acc) anticipated expenditure {rab rtsis tshod dpag gi 'gro song /}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }prediction coding {zer/}
+31prediction coding
+9estimate, prognosticate, speculate, anticipate, predict, foretell
+41(com,acc) anticipated saving {rob rtsis tshod dpag gi gsog 'jag}
+41(com,acc) anticipated profit {rab rtsis tshod dpag gi khe bzang /}
+31intended recipient55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }intended recipient {zer/}
+41(com,acc) anticipated income {rob rtsis tshod dpag gi yong sgo/}
+8recollecting the events of former times9perceive a later situation [a little] beforehand26{rjes su yong rgyu'i gnas tshul sngon tshud nas dran pa/ phan gnod ji yong sngon dran gyi sgo nas blang dor 'dzol med byed pa/}55{rjes su yong rgyu'i gnas tshul sngon tshud nas dran pa/} {phan gnod ji yong sngon dran gyi sgo nas blang dor 'dzol med byed pa/}
+42pūrvika
+2previous to, earlier, before, prior to8before, first, formerly, front, ahead, from the very beginning, at the head, in advance, in front of, direct, formerly, in the past9previous to, earlier, before, prior to; above, previous to, earlier, before, prior to, formerly24pūrvikā421) pūrva 2) pūrvagamam 3)43pūrvam — saṅketagrahaṇāt pūrvam ta.sa.96kha/860; puraḥ — {sdod na sngon du sdod par byed} purastiṣṭhanti tiṣṭhataḥ a.ka.50.31; purā — yadi nāma gṛhītaṃ no nāmnā tenaiva tat purā ta.sa.57ka/549; purataḥ — rephena sūryaṃ purato vibhāvya he.ta.4kha/12; pratimukhī — {dran pa sngon du byas nas} kṛtvā pratimukhī smṛtim a.ka.41.58; ādiḥ — ādiprayogata eva kāruṇyaṃ sattveṣu sū.a.137kha/12.44Also abbreviated as {sngonu}. (Source: Dzongkha abbreviations)
+23puraḥsaraḥ42purasmara43puraḥsaraḥ ma.vyu.7501.52(Skt. puraḥ-saraḥ) to invite in advance
+42pūrvaṅgamakathapuruṣa
+8preparation, SA sta gon
+0precede42pūrvagama43= {sngon 'gro/}
+0preliminary; prerequisite0[before-go]; preliminary practices; preliminary; preparation; prerequisite2preceded by2Syn {sngon 'gro}; introduction8SA sngon 'gro, precede91) preparations/ arrangements that must be made beforehand; 2) preliminaries, ngondro16[LCh]pūrvaka; [LCh]pūrvagama;[C]pūrvaṅ gama; [C]pūrvaṃgamatā16[LCh]pūrvaka; [LCh]pūrvagama; pūrvaṃgama22[C]preceeded; controller; directs; controls; controlled by; controlled23pūrvaṃgamaḥ24pūrvaka; pūrvaṃ-gamaḥ. pūrvaṃ-gama. pūrvaṃ-gamāya. pūrvaṅ-gamatā. pūrvaṅ-gama261) {sngon la byed dgos pa'i gra sgrig} 2) {mdun du rgyug 'gro ba/}36<person> Pūrvaka37<person> Pūrvaka (Skt: pūrvaka): A great bodhisattva. (Original glossary entry: https://84000.co/glossary/entity-13849.html)39<person> pūrvaka42pūrvagamatā421) puraskṛta 2) pūrvaka 3) pūrvagamatā 5) pūrvaprahīṇa43= {sngon 'gro/}55(1) {sngon la byed dgos pa'i gra sgrig} (2) {mdun du rgyug 'gro ba/}
+42° pūrvaka43= {sngon 'gro can/}
+42pūrvagama43pūrvaṃgamaḥ ma.vyu.6270.52(Skt. pūrvaṃgamaḥ) those who are going before
+43vi. agragāminī — yathāyaṃ kāśyapasyāgre sukṛtī parinirvṛtaḥ \n tathāhamapi bhūyāsaṃ guroragre'gragāminī a.ka.80.71.
+49{de yang / rdo rje sa gsum du rgyu ba zhes bya ba'i rtog pa'i rgyal po las byung ba ste/} (Source: 《{rgyud ta pa }》{sha }358{na }6{las btus/}).
+24pūrvaṃ-gamā dharmāḥ
+49{de yang / ting nge 'dzin tshogs kyi le'u las byung ba mi'i lus thob pa don yod par 'dod pa'i gang zag gis thog mar las/} (Source: 《{bstan 'gyur dbu ma ki pa }》{sha }91{na }7{las btus/}).
+16[C]pūrvaṅgamena bhavitu-kāma22[C]wants to win precedence over
+0preliminary exalted wisdom; previous exalted wisdom16[MSA]jñāna-pūrvaṃgama
+42pūrvagama
+24abhikramaḥ pratikramaḥ
+0prior approximation2preparatory recitation36<term> preliminary practice37<term> preliminary practice (Skt: pūrvasevā): \n1) A period of formal practice, usually lasting six months, before the practitioner can employ the mantra for specific purposes.\n2) “Preliminary practice,” pūrvasevā, is a six-month period of formal practice to be performed before one can start employing the mantra for specific purposes.\n\n(Original glossary entry: https://84000.co/glossary/entity-2133.html)39<term> pūrvasevā43= {sngon bsnyen/}
+0prior approximation2to perform the preparatory recitation [before an empowerment]; prior approximation9prior approximation
+43= {sngon du btang ba/} {sngon du btang ste} puraskṛtya — sthūlaṃ dattato tāmasamādhānena \n dharmopādhiṃ puraskṛtya śabdena vi.sū.21ka/25.
+2prepare42pūrvaka43puraḥsaram — bodhicittaṃ niśritya karuṇāpuraḥsareṇa cetasā sarvāstiparityāge abhi.sa.bhā.74ka/103; pūrvīkṛtya — tadupādāyeti pūrvīkṛtya \n tatpuraskṛtyetyarthaḥ abhi.sphu.241ka/1040.
+24pūrva-gamaṃ kṛtvā42° pūrvaka
+24saṃpuraṣkṛtya42puraskṛta
+43= {sngon du bya ba byas pa/}
+43vi. kṛtapuraścaraṇaḥ — ādau tāvad dṛṣṭasamayaḥ kṛtapuraścaraṇaḥ labdhābhiṣekaḥ… mantraṃ gṛhītvā… triṃśallakṣāṇi japet ma.mū.143kha/55.
+49{de yang / rdo rje sa gsum du rgyu ba zhes bya ba'i rtog pa'i rgyal po las byung ba ste/} (Source: 《{rgyud ta pa }》{sha }358{na }4{ las btus/}).
+42puraskṛta, sākṣātkṛta
+42sākṣān kṛtvā
+43= {sngon byas/}
+43āmukhīkaraṇam — cittaśuddhikālabhāvitānāṃ vyavasāyādīnāṃ prayogārambhe punarāmukhīkaraṇena dṛḍhatāpādanārthaḥ ślokaḥ śi.sa.152ka/147.
+43= {sngon byung /}
+43= {sngon byung /}
+2placed before one
+53（{mngon }）{tshangs pa'i ming / tshig 'di gsar du bcos pa yin/}
+43pūrvābhilāpitā — sadā smitamukhatā, bhṛkuṭivigatatā, pūrvābhilāpitā, akuhanatā śi.sa.103ka/102.
+42pūrvagama
+43= {sngon du gtong ba/}
+24pūrvaṅ-gama43vi. pūrvakam — tathā laukikalokottareṣvartheṣu dharmadeśanāpūrvaka upāyopadeśapūrvakaśca nyāyopadeśaḥ bo.bhū.75kha/97; puraḥsaraḥ — anabhyupagate śāstre yadi tasya viniścayaḥ \n pramāṇatastadā śāstraṃ kvopayogi puraḥsaram pra.a.233.1/505.
+43bhū.kā.kṛ. pratyudgataḥ — sa kadācinmahīpatim \n draṣṭuṃ yayau samādāya muktāhāramupāyanam \n pratyudgatena praṇayānmānitaḥ sa mahībhujā a.ka.107.6.
+43= {sngon du langs byas/}
+43vi. pūrvotthāyinī — daśa cāsya strīkoṭīparivāramadrākṣīt abhirūpāṇāṃ darśanīyānāṃ … pūrvotthāyinīnāṃ paścānnipātinīnām ga.vyū.26ka/122.
+43= {sngon ma byung ba/}
+43= {sngon ma mthong ba/}
+43= {sngon du ma song ba/}
+43vi. apuraḥsaram — satiraskāraṃ namaskārāpuraḥsaram bo.pa.17; apūrvakam — {blo ni sngon du ma song ba} abuddhipūrvakaḥ ta.sa.84kha/779.
+0without being preceded by...21{song/ song/ song/ song/}
+43= {sngon ma thob pa/}
+43= {sngon ma thos pa/}
+43= {sngon med/}
+2to go ahead
+43= {sngon du rgyu ba/}
+43vi. puraḥsaraḥ — purogāgresarapraṣṭhāgrataḥsarapuraḥsarāḥ purogamaḥ purogāmī a.ko. 2.8.72.
+2formerly trained
+43= {sngon sbyor/}
+2to go on ahead43= {sngon du song ba/}
+2prior, previous, past, anterior, antecedent, foregoing, former, precedent, preceding421) pūrva 2) ° pūrvaka43• vi. pūrvam — tacca pūrvamātram \n na tu sākṣātkāraṇam \n samyagjñāne hi sati pūrvadṛṣṭasmaraṇam nyā.ṭī.38kha/28; pūrvakam — tatpūrvakaśca sarvaḥ puruṣārthaḥ vā.ṭī.51kha/4; puraḥsaram — pūrvakamanaskārapuraḥsarameva yataḥ prabhṛti saṃvaragrahaṇapūrvakaṃ saṃbhāreṣu pravartate bo.pa.11; āmukham — yatprāpya na nivartante mṛtyormukhamivāmukham jā.mā.167/96; \n\n• saṃ. = {sngon du song ba nyid} pūrvatvam — ihatyābhyāsapūrvatve sādhye dṛṣṭeṣṭabādhanam ta.sa.71kha/669.
+43= {sngon song nyid} pūrvatvam — {shes pa sngon song nyid} jñānapūrvatvam ta.sa.117kha/1014.
+43vi. pūrvakālabhavākṛtiḥ — ekākṣepādasāvaiṣyatpūrvakālabhavākṛtiḥ abhi.ko.3.13; yāṃ gatiṃ gantā bhavati, tasyāṃ gatau ya āgamiṣyatpūrvakālabhavastasyaivāsyākṛtirbhavati abhi.bhā./420.
+42pūrvayoga
+2long ago
+2the past; erstwhile, former, once, ancient8formerly, of old, anciently, ancient time, olden times9the past, former time10prior stage, prior state, pre-reflection [of what one will become]. This is an Abhidharma concept, and rather tricky to translate. Jinpa.26{snga ma'i dus tshod/}42purā43= {sngon gyi dus/}55{snga ma'i dus tshod/}
+0prior state [from the second moment until death; usually the longest of the four states]2preceding existence {skye srid dang de nas 'chi ba ma byung gi bar} which is what follows [birth and lasts] until the arrival of death. one of {gnas skabs bzhi}2the existence between birth and death, Def. {skyes nas 'chi ba ma byung gi bar} this lifetime before dying3predeath existence4The period of time in the mental continuum of an individual limited being starting from the moment immediately after conception until the moment immediately before death.9the existence between birth and death, * this lifetime before dying11life between birth and death as a phase of conditioned existence28[pūrvanivāsa]/ The prior existence. The period of existence between the second moment of connecting to one's new life in the womb and death.34live state47{sngon gyi srid pa dang don gcig}51({mdzod}) {srid pa bzhi'i nang gses shig ste/ skye ba blangs pa'i skad cig ma gnyis pa nas 'chi srid skad cig ma tha ma'i sngon rol gyi srid pa la zer/ sgra bshad ni/ 'chi srid la ltos nas sngon du byung ba'i srid pa yin pas na de skad ces bya'o/ /}55{sngon gyi srid pa dang don gcig}
+26{sngon gyi srid pa dang don gcig}
+8in the past, before
+8seen before
+9pre-requisite, necessary condition
+2because of the merit you accumulated previously
+2[TRS 22:5]
+9preface, introduction41(lit) preamble {khrims lugs shig gam/rtsa khrims shig gi dgos dmigs 'grel bshad byed pa'i gleng gzhi zhig}
+0previous situations2previous / former lives / states43= {sngon gyi gnas/}
+9recollection of former lives
+2the superknowledge that recollects former lives3advanced awareness of recollection of past situations4Cognition of past lives. One of the six types of advanced awareness gained as a byproduct of the attainment of an actual state of the first level of mental constancy (the first dhyana).5(PH) superknowledge of recollecting former lives9the higher perception of remembering former lives26{mngon shes kyi bye brag cig ste/ sngon rang dang gzhan gyi skye yul dang/ ming/ pha ma/ las/ tshe/ longs spyod sogs de dang de lta bu'o zhes ji lta ba bzhin du shes pa/}34memory of former lives34knowledge of recollecting past lives35{mngon shes drug gi nang tshan gang zhig/rang gzhan gyi tshe rabs snga ma du ma rjes su dran pa de} - Source: Jetsunpa {skabs dang po'i mtha' dpyod/} (ACIP: S6815-1)47{mngon shes kyi bye brag cig ste/ sngon rang dang gzhan gyi skye yul dang / ming / pha ma/ las/ tshe/ longs spyod sogs de dang de lta bu'o zhes ji lta ba bzhin du shes pa/}51({phar phyin}) {mngon shes drug gi bzhi pa ni/ mngon shes drug gi nang tshan gang zhig rang gzhan gyi tshe rabs snga ma du ma rjes su dran pa'i rigs su gnas pa/ sngon gnas rjes dran gyi mngon shes kyi mtshan nyid/ rigs gnas smos pa la dgos pa yod de/ sngar bzhin/ sngon gnas rjes dran tsam la dbye na sngar bzhin gsum las/ dang po ni/ lha 'dre phal cher lta bu/ gnyis pa ni dmyal ba pa lta bu// gsum pa ni/ skabs 'dir bstan gyi mngon shes lta bu/}55{mngon shes kyi bye brag cig ste/} {sngon rang dang gzhan gyi skye yul dang /} {ming /} {pha ma/} {las/} {tshe/} {longs spyod sogs de dang de lta bu'o zhes ji lta ba bzhin du shes pa/}
+2knowledge of former places of rebirth5(PH) knowledge of former lives9knowledge of former lives
+9the power of recollecting former lives26{stobs bcu'i nang gses/ 'das pa'i dus su bdag dang gzhan sems can ji snyed pa de snyed kyi yul phyogs dang/ rgyu dang rnam pa bcas pa dran pa'i yul de rnams la chags thogs med par 'jug pa'i mkhyen pa/}47{stobs bcu'i nang gses/ 'das pa'i dus su bdag dang gzhan sems can ji snyed pa de snyed kyi yul phyogs dang / rgyu dang rnam pa bcas pa dran pa'i yul de rnams la chags thogs med par 'jug pa'i mkhyen pa/}53{'das pa'i dus su bdag dang gzhan sems can ji snyed pa de snyed kyi yul phyogs dang / rgyu dang rnam pa bcas pa dran pa'i yul de rnams la chags thogs med par 'jug pa'i mkhyen pa/ stobs bcu'i nang gses shig}55{stobs bcu'i nang gses/} {'das pa'i dus su bdag dang gzhan sems can ji snyed pa de snyed kyi yul phyogs dang /} {rgyu dang rnam pa bcas pa dran pa'i yul de rnams la chags thogs med par 'jug pa'i mkhyen pa/}
+9higher perception of remembering former lives
+81 of mngon shes lnga
+2recollecting / remembering of former lives
+8clairvoyance of previous lives
+2former training / habit / practice8learned through previous experiences9former training/ habit/ practice43= {sngon goms pa/}
+29{skye ba sngon mar goms 'dris byas pa'i bag chags bzang po tshe 'dir dran pa}55{skye ba sngon mar goms 'gris byas pa'i bag chags bzang po tshe 'dir dran pa/}
+2[informal] negative tendencies; deeply ingrown
+2negative habits formed over so long
+24pūrv^abhyāsa43vi. pūrvāhitam — {sngon goms pa'i 'du byed} pūrvāhitasaṃskāraḥ ta.pa.2kha/450.
+24pūrv^abhyāsa-samutthitaṃ bījam
+43pūrvāhitasaṃskāraḥ — itikarttavyatā loke sarvā śabdavyapāśrayā \n yāṃ pūrvāhitasaṃskāro bālo'pi pratipadyate ta.pa.2kha/450.
+24pūrv^abhyāsa-vaśa
+2due to the causes of former habituation
+0cultivated previously (T)16[MV]pūrvābhyāsa24pūrv^abhyasta
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }preset {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }anticipatory paging {zer/}
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }preset parameter {zer/}
+9front line/ row
+41(com) standard cost {spyir btang gi gnas stangs 'og bza grwa sogs su ca dngas gang zhig gi than skyed mkha skrun nam zhabs zhu/yang na bya gzhag gi las rim mtha' dag gi 'gra gran rnams sngan tshud nas thag bcad pa'i rin 'bab bam 'gro gron/}
+9pre-condition, pre-requisite
+9those who have gone/died before, martyr
+9the warriors who have gone/died before26{drang bden gyi don du shi ba'i dpa' bo grags can/}55{drang bden gyi don du shi ba'i dpa' bo grags can/}
+31to prestore55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }to prestore {zer/}
+43= {sngon du gtong ba/}
+2preliminary torma [offering] ritual9preliminary torma [offering]
+2ancient2of old, of the past2previously2previously, formerly, first; previous, former, preceding8anterior, fore, former, previous9previously; previously, formerly, 1st16[C]purā22[C]who preceeded me43vi. prāktanaḥ — {sngon gyi las} prāktanakarma a.ka.66.72; purātanaḥ — yathā gṛhītaṃ sugatairbodhicittaṃ purātanaiḥ bo.a.3.22; purāṇaḥ — {sngon gyi blon po gnyis} purāṇau sacivau a.ka.40.112; paurāṇaḥ — paurāṇā maharṣayaḥ ta.pa.145kha/18; paurāṇaṃ karma abhi.bhā.135-2/97; paurvakaḥ — paurvakāṇāṃ hi bhagavaṃstathāgatānām a.sā.30ka/17; paurvikaḥ — paurvikāṇāṃ ca bodhisattvānām la.vi.91ka/130.44Also abbreviated as {sngon+yi}. (Source: Dzongkha abbreviations)44Also abbreviated as {sngo+in+ya}. (Source: Bacot écriture cursive Tibétaine)
+2resulting from the past; effect of past actions
+24pūrvakaṃ saṃskāram
+24pūrv^avedha
+29{sangs rgyas chos lugs kyi bshad srol la/_/las dge ba dang mi dge ba gang byas kyang las gsog pa po'i sems kyi steng du bag chags gting zab po zhig 'jog thub pa dper na/byis pa 'ga' zhig chu dus nas sems can 'bu srin sogs gsod pa dang/dngos po rku ba/rdzun shod pa bcas bslab mi dgos par rang bzhin gyis shes pa dang/yang byis pa 'ga' zhig chung dus nas snying rje che ba dang/yon tan slob sbyong la dga' ba/khong khro med pa/rdzun mi shod pa bcas rang bzhin gyis 'byung ba ni skye ba sngon ma'i bag chags bzang ngan la brten nas byung ba yin zhes bshad srol yod}55{las dge ba dang mi dge ba gang byas kyang las gsog pa po'i sems kyi steng du bag chags gting zab po zhig 'jogs thub pa dper na/} {byis pa 'ga' zhig chung dus nas sems can 'bu srin sogs gsod pa dang /} {dngos po rku ba/} {rdzun shod pa bcas bslab mi dgos par rang bzhin gyis shes pa dang /} {yang byis pa 'ga' zhig chung dus nas snying rje che ba dang /} {yon tan slob sbyong la dga'/} {khong khro  med pa/} {rdzun mi shod pa bcas rang bzhin gyis 'byung ba ni skye ba sngon ma'i bag chags bzang ngan la la brten nas byung ba yi bshad srol yod/}
+2as a result of karmic propensities established in the past
+2awakened previous propensities
+2due to karma accumulated in the past
+43purākālaḥ — śrūyate hi purākāle piṣṭamayaḥ paśuryenāyajanta yajvāna iti ta.pa.249kha/973.
+43pūrvapuṇyam — pūrvapuṇyajñānasambhārasamudāgamataḥ abhi.bhā.57kha/1096.
+2because of his previous merit
+2his previous merit followed him
+2born from previous merit
+511. {sngon gyi lo rgyus/ sngon byung ba'i lo rgyus/ sngon gyi byung ba rnams don gcig}512. {sngon la byung ba/ sngon rol du byung ba/}
+23purākalpaḥ36<term> Early Rite37<term> Early Rite (Skt: purākalpa): The early ordination rite, later adapted to include stricter criteria for admission and introduce the intermediate step, between joining the order and ordination, of induction into the novitiate. (Original glossary entry: https://84000.co/glossary/entity-4008.html)39<term> purākalpa42purākalpa43purākalpaḥ — sarvasmin sannipatite saṅghe… pravrajyopasampadāvupanayeyuriti purākalpaḥ vi.sū.1ka/1.52(Skt. purākalpaḥ) ancient rites or ceremonies
+29{sangs rgyas mya ngan las ma 'das gong gi bsnyen par rdzogs pa'i sngon gyi cho ga bcu ste/rdzogs pa'i sangs rgyas dang rang sangs rgyas gnyis zad mi skye shes nas byang chub brnyes pa'i rang byung gis bsnyen par rdzogs pa gnyis dang/lnga sde bzang po mthong lam skyes tshe ye shes khong chud kyis dang/shwa ri'i bu sogs tshur shog gis dang/'od srung chen po ston par khas blangs pas dang/bzang sde tshogs drug cus skyabs gsum khas blangs pas dang/skyed gu'i bdag mo sogs lci chos brgyad bslabs par khas blangs pas dang/legs byin dris pa'i lan la dgyes pas dang/mchod sbyin ma pha ma'i dbang du song ba la dge slong ma ut+pal nas pho nya byas te dge 'dun gyis phrin chog la brten nas dang/dge 'dun gyi grangs yul dbus su bcu tshogs dang/mtha' 'khob tu lnga tshogs so sor gsol bzhi'i las kyis rab byung bsnyen rdzogs cig char du byed pa rnams so/_/bsnyen par rdzogs pa'i tshul bcu la gzigs}55{sangs rgyas mya ngan las ma 'das gong gi bsnyen par rdzogs pa'i sngon gyi cho ga bcu ste/} {rdzogs pa'i sangs rgyas dang rang sangs rgyas gnyis zad mi skye shes nas byang chub brnyes pa'i rang byung gis bsnyen par rdzogs pa gnyis dang /} {lnga sde bzang po mthong lam skyes tshe ye shes khong chud kyis dang /} {shwa ri'i bu sogs tshur shog gis dang /} {'od srung chen po ston par khas blangs pas dang /} {bzang sde tshogs drug cus skyabs gsum khas blangs pas dang /} {skye dgu'i bdag mo sogs lci chos brgyad bslabs par khas blangs pas dang /} {legs byin dris pa'i lan la dgyes pas dang /} {mchod sbyin ma pha ma'i dbang du song ba la dge slong ma ut+pal nas pho nya byas te dge 'dun gyis phrin chog la brten nas dang /} {dge 'dun gyi grangs yul dbus su bcu tshogs dang /} {mtha' 'khob tu lnga tshogs so sos gsog bzhi'i las kyis rab byung bsnyen rdzogs cig char du byed pa rnams so/} {/bsnyen par rdzogs pa'i tshul bcu la gzigs/}
+49{de yang / sangs rgyas mya ngan las ma 'das gong bsnyen par rdzogs pa'i sngon gyi cho ga bcu'am bsnyen rdzogs bcu ste/} (Source: 《{dung dkar tshig mdzod chen mo }》{sha }775.15{las btus/}).
+42pūrvadharmatśititā
+43pūrvadharmasthititā — pūrvadharmasthititāṃ sandhāya… tathāgato na vitarkya na vicārya dharmaṃ deśayati la.a.151kha/98.
+43= {sngon gyi chos kyi lugs/}
+29{shAkya mu nes dus 'khor rtsa rgyud thog mar gsung skabs/zhu ba po sham b+ha la'i rgyal po zla ba bang po yin la/des dus 'khor rtsa brgyud kyi 'grel pa sho lo ka stong phrag bcu gnyis pa mdzad/rtsa rgyud gsungs pa'i lo rjes ma der rgyal po rang nyid kyi pho brang de'i lho phyogs ma la ya'i skyed mos tshal chen po'i dbus dus 'khor gyi blos bslangs bzhengs nas 'das/de'i rjes su/1 rgyal po zla ba dang/2 lha dbang/3 gzi brjid can/4 zla bas byin/5 lha'i dbang phyug /6 sna tshogs gzugs/7 lha'i dbang ldan rnams kyis chos bstan nas rgyal po mdzad}49{de yang / sham b+ha la'i sngon gyi chos rgyal te/} (Source: 《{dung dkar tshig mdzod chen mo }》{sha }775.1{las btus/}).53{shAkya mu nes dus 'khor rtsa rgyud thog mar gsung skabs/ zhu ba po sham b+ha la'i rgyal po zla ba bzang po yin la/ des dus 'khor rtsa rgyud kyi 'grel ba sho lo ka stong phrag bcu gnyis pa mdzad/ rtsa rgyud gsungs pa'i lo rjes ma der rgyal po rang nyid kyi pho brang de'i lho phyogs ma la ya'i skyed mos tshal chen po'i dbus dus 'khor gyi blos bslangs bzhengs nas 'das/ de'i rjes su/ rgyal po zla ba dang / lha dbang / gzi brjid can/ zla bas byin/ lha'i dbang phyug/ sna tshogs gzugs/ lha'i dbang ldan rnams kyis chos bstan nas rgyal po mdzad do/}55{shAkya mu nes dus 'khor rtsa rgyud thog mar gsung skabs/} {zhu ba po sham b+ha la'i rgyal po zla ba bzang po yin la/} {des dus 'khor rtsa rgyud kyi 'grel pa sho lo ka stong phrag bcu gnyis pa mdzad/} {rtsa rgyud gsungs pa'i lo rjes ma der rgyal po rang nyid kyi pho brang de'i lho phyogs ma la ya'i skyed mos tshal chen po'i dbus dus 'khor gyi blos bslangs bzhengs nas 'das/} {de'i rjes su/} {1} {rgyal po zla ba dang/} {2} {lha dbang /} {3} {gzi brjid can/} {4} {zla bas byin/} {5} {lha'i dbang phyug} {6} {sna tshogs gzugs/} {7} {lha'i dbang ldan rnams kyis chos bstan nas rgyal po mdzad/}
+23purāṇadvitīyā (pūrānadhitīyā)42purāṇadvitīyā43purāṇadvitīyā ma.vyu.9262.52(Skt. purāṇadhitīyā (pūrānadvitīyā)) formerly the wife (of a now religious person)
+8earlier now-obsolete orthography
+49{de yang / 'phags pa thar pa chen po phyogs su rgyas pa 'gyod tshangs kyis sdig sbyangs te sangs rgyas su grub par rnam par bkod pa'i mdo las byung ba ste/} (Source: 《{mdo zha pa }》{sha }462{na }4{las btus/}).
+2virtuous deeds we have performed in the past
+9urged by former roots of virtue42pūrvakuśalamūla
+8precedent
+42pūrva kṛṣi
+36<place> Power of Past Smoke37<place> Power of Past Smoke: A river on Saṅkāśa. (Original glossary entry: https://84000.co/glossary/entity-30617.html)
+0former age; earlier time16[L]pūrvakāla24pūrva-kāla42pūrvakāla43= {sngon dus} pūrvakālaḥ — ekākṣepādasāvaiṣyatpūrvakālabhavākṛtiḥ abhi.ko.3.13; mi.ko. 134ka \n
+24pūrva-kāla-bhava
+23pūrvakālaḥ42purā, pūrvakāla52(Skt. pūrva-kālaḥ) ancient time, former time
+24pūrva-kāla-karaṇīyāṃ kathām
+24pūrva-kāla-karaṇīya
+42pūrvagaṃgā = sindhu43pūrvagaṅgā, narmadānadī cho.ko.223/rā.ko.3.222.
+8past lives24pūrve-nivāsa42pūrvanivāsa43= {sngon gnas} pūrvanivāsaḥ — {sngon gyi gnas rjes su dran pa} pūrvanivāsānusmṛtiḥ abhi.bhā.56ka/1087; prāṅnivāsaḥ — prāṅnivāsacyutotpādabaladhyāneṣu abhi.ko.7.30.51{sngon gang du skyes pa'i gnas sam/ skye ba snga ma/}
+9recollection of former lives
+24pūrve-nivāsa-jñāna
+2superknowledge of former places [of existence]43pā. pūrvanivāsābhijñā, pūrvanivāsānusmṛtijñānābhijñā — \npūrvaśubhāśubhādhānejñānaṃ pūrvanivāsābhijñā sū.a.147ka/27.
+2knowing former lives9prajna realizing former lives of 1self or others26{sngon dus rang ngam gzhan gang la skyes pa'i gnas mngon sum du rtogs pa'i shes rab ste/ rigs pa gsum gyi gras shig}34insight into the mortal conditions of self & others in previous lives47{sngon dus rang ngam gzhan gang la skyes pa'i gnas mngon sum du rtogs pa'i shes rab ste/ rig pa gsum gyi gras shig}53{sngon dus rang ngam gzhan gang la skyes pa'i gnas mngon sum du rtogs pa'i shes rab/ rig pa gsum gyi gras shig}55{sngon dus rang ngam gzhan gang la skyes pa'i gnas mngon sum du rtogs pa'i shes rab ste/} {rig pa gsum gyi gras shig}
+8clairvoyance, memory of former lifetimes
+2superknowledge that recollects former lives42pūrvanivāsānusmṛtijñāna
+2recollecting previous lives {btags don}9recollecting previous lives
+43= {sngon gyi gnas rjes su dran pa/}
+2the power of recollecting past abodes9the power of recollecting past abodes; the power of recollecting past abodes [gd]24pūrva-nivās^anusmṛti. pūrve-nivās^anusmṛti33remembering former lives\nSanskrit: pūrva-nivāsa-anusmṛtiḥ\nPali: pubbe nivāsa-anussati43• 1. kri. pūrvanivāsam anusmarati — so'nekavidhaṃ pūrvanivāsamanusmarati da.bhū.199kha/21; 2.\n\n• pā. pūrvanivāsānusmṛtiḥ, abhijñābhedaḥ — ṛddhiviṣayā jñānasākṣātkriyā abhijñā \n divyaśrotracetaḥparyāyapūrvanivāsānusmṛticyutyupapādāsravakṣayajñānasākṣātkriyābhijñāḥ abhi.bhā.61ka/1107.52(Skt. pūrvanivāsamanusmaratisma) recollects his former abodes
+24pūrve-nivās^anusmṛti-jñāna43pā. pūrvanivāsānusmṛtijñānam — {sngon gyi gnas rjes su dran pa mkhyen pa'i stobs} pūrvanivāsānusmṛtijñānabalam bo.bhū.197kha/265; = {sngon gyi gnas rjes su dran pa'i shes pa/}
+2power knowing the recollection of previous lives2the strength of knowing previous lives. One of the {de bzhin gshegs pa'i stobs bcu} the ten strengths of the buddha; the power of knowledge of the recollection of previous lives9the power of knowledge of the recollection of previous lives23pūrvanivāsānusmṛtijñānabalam24pūrve-nivās^anusmṛti-jñāna-bala34knowledge remembering earlier lives42pūrvanivāsānusmṛtijñānabala43pā. pūrvanivāsānusmṛtijñānabalam, balabhedaḥ — daśa tathāgatabalāni… sthānāsthānajñānabalam, karmasvakajñānabalam, dhyānavimokṣasamādhisamāpattijñānabalam, indriyaparāparajñānabalam, nānādhātujñānabalam, nānādhimuktijñānabalam, sarvatragāminīpratipajjñānabalam, pūrvanivāsānusmṛtijñānabalam, cyutyupapattijñānabalam, āsravakṣayajñānabalaṃ ca bo.bhū.197kha/265; pūrvanivāsānusmṛtijñānabalaṃ cyutyupapattijñānabalaṃ ca saṃvṛtijñānam abhi.bhā.61ka/1107.52(Skt. pūrva-nivāsānusmṛti-jñānabalam) the power of recollecting former abodes
+9power knowing the recollection of previous lives
+36<term> extrasensory power through which the recollection of past lives is realized37<term> extrasensory power through which the recollection of past lives is realized (Skt: pūrvanivāsānusmṛtisākṣātkriyā[jñāna-] abhijñā): Fourth of the six extrasensory powers. See. (Original glossary entry: https://84000.co/glossary/entity-41024.html)39<term> pūrvanivāsānusmṛtisākṣātkriyā[jñāna-]abhijñā
+43trividhā pūrvanivāsānusmṛtiḥ — 1 bhāvanāphalam 2 upapattipratilabdhā 3 karmajā abhi.bhā.65ka/1124.
+2Remembrance of past lives. One of the {mngon par shes pa drug} 6 super-knowledge5(PH) superknowledge of recollecting former lives8recollection of past lives9Remembrance of past lives23pūrvanivāsānusmṛtijñānam42pūrvanivasānusmṛtijñāna43= {sngon gyi gnas rjes su dran pa'i shes pa/}52(Skt. pūrva-nivāsānusmṛti-jñā-nam) knowledge of past lives
+43= {sngon gyi gnas rjes su dran pa mkhyen pa'i stobs/}
+49{de yang / dkon brtsegs 'phags pa gtsug na rin po ches zhus pa'i mdo las byung ba ste/} (Source: 《{dkon brtsegs cha pa }》{sha }397{ba }4{las btus/}).
+2clairvoyance of memory of former lifetimes, superknowledge of recollecting previous lives; the superknowledge of recollecting former lives5(PH) superknowledge of recollects former lives9clairvoyance of memory of former lifetimes, super-knowledge of recollecting previous lives
+36<term> knowledge that recollects previous states of existence, remembrance of former lives37<term> knowledge that recollects previous states of existence, remembrance of former lives (Skt: pūrvanivāsānusmṛti, pūrvanivāsānusmṛtijñāna): One of the five supernormal knowledges. (Original glossary entry: https://84000.co/glossary/entity-37547.html)39<term> pūrvanivāsānusmṛti, pūrvanivāsānusmṛtijñāna43pā. pūrvanivāsānusmṛtijñānam, abhijñābhedaḥ — tena ca samayena pañcābhijñā ṛṣayo bhaveyurdivyacakṣurdivyaśrotraparacittajñānapūrvanivāsānusmṛtijñānarddhivimokṣakriyākuśalāḥ sa.pu.51kha/92.
+43vi. anekavidhapūrvanivāsānusmṛtyasaṅgajñānabalopetaḥ, buddhasya — evaṃrūpaṃ maitreya tathāgatena dharmacakraṃ pravartitam, yasya pravartanāt tathāgata ityucyate… anekavidhapūrvanivāsānusmṛtyā(ya)saṅgajñānabalopetatvādanekavidhapūrvanivāsānusmṛtyā(ya)saṅgajñānabalopeta ityucyate la.vi.210kha/312.
+2knowledge of past lives, one of the {rig pa gsum} three knowledge9knowledge of past lives
+24pūrve-nivāsa-saṃgṛhītaḥ prabhāvaḥ
+9Dzambhala god of wealth26{(mngon) dzambha la/}43= {dzam byahUM la} pūrvayakṣaḥ, jambhalaḥ cho.ko.223/rā.ko.3.223.47{dzam+b+ha la/}53（{mngon }）{dzam+b+ha la'i ming gzhan zhig tshig 'di gsar du bcos pa yin/}55〔{mngon}〕{dzam+b+ha la/}
+0former action (T)2former karma9former karma; former karma, karma from former lives16[MSA]pūrva-karman24pūrva-karman26{tshe rabs snga mar bsags pa'i las/}42pūrvakarma431. pūrvakarma, pūrvakṛtakarma — pūrvakleśā daśā'vidyā saṃskārāḥ pūrvakarmaṇaḥ abhi.ko. 3.21; {sngon gyi las kyi nongs pas chab kyang mi rnyed lags} pūrvakarmāpabādhena pānīyaṃ nāsādayāmaḥ vi.va.153ka/1.41 2. = {skal ba} vidhiḥ, bhāgyam — daivaṃ diṣṭaṃ bhāgadheyaṃ bhāgyaṃ strī niyatirvidhiḥ a.ko.1.4.28; daivam — daivaṃ vipadityanayāḥ a.ko.3.3.149.47{tshe rabs snga mar bsags pa'i las/}53{tshe snga mar bsags pa'i las/}
+2asked the Buddha what previous karma had brought about these events
+2by the power of our previous karma and pure prayers
+24pūrva-karma-phala
+8portion or lot on account of one's former acts
+24pūrva-karma-vaśa
+24pūrva-karma-doṣa
+24pūrva-karma-pratyaya
+24pūrva-karm^akṣepatā
+43pūrvakarmakṛtam — {sngon gyi las kyis byas par smra ba} pūrvakarmakṛtavādī jā.mā.270/157.
+43pūrvakarmakṛtavādī — taṃ pūrvakarmakṛtavādinamāmantraṇāsauṣṭhavenābhimukhīkṛtyovāca jā.mā.270/157.
+2past actions have been only evil
+24pūrva-karma-kleśa-viddha
+2the previous karma is coming to pass
+8earlier gods, name for lha ma yin9asura26{(mngon) lha min/}43= {lha ma yin} pūrvadevaḥ, asuraḥ — yasyā doṣātpūrvadevāḥ pramattā lakṣmīmoṣaṃ devarājādavāpya jā.mā.186/107.47{lha min/}51({mngon brjod}) {lha ma yin gyi ming gi rnam grangs shig 'dod 'jo ba mo 255na1las/ sngon gyi lha zhes pa khyad par gyi bsdu ba ste/ sngon lha'i gnas lha ma yin gyi yin pa la de lha rnams kyis phrogs nas lha ma yin rnams ri rab kyi sgang nas mar bskrad do zhes grag go/ zhes gsungs pa ltar ro/ /}53（{mngon }）{lha min gyi mtshan/ tshig 'di gsar du bcos pa yin/}55〔{mngon}〕{lha min/}
+42paurāṇa43paurāṇasthitiḥ — {sngon gyi lugs kyi chos nyid} paurāṇasthitidharmatā la.a.112ka/58.
+421) dharmavartman 2) paurāṇasthitidharmatā43pā. paurāṇasthitidharmatā — paurāṇasthitidharmatā katamā ? yaduta paurāṇamidaṃ mahāmate dharmatāvanme hiraṇyarajatamuktākaravanmahāmate dharmadhātusthititā utpādādvā tathāgatānāmanutpādādvā tathāgatānāṃ sthitai(re)vaiṣāṃ dharmāṇāṃ dharmatā dharmasthititā dharmaniyāmatā la.a.112ka/58.
+2being habituated to nonvirtue in the past
+43pūrvopādhyāyaḥ ma.vyu.3473.
+23pūrvaupadhyāyanāmāni42pūrvopādhyāyanāmāni52(Skt. pūrva-upadhyāya-nāmāni) names of ancient learned men
+8learned men of former times
+2past limit, the past9past limit, the beginning of the animate and inanimate world etc.16[C]pūrvāntatas22[C]in the past; from where it begins; at/in the beginning24pūrv^anta26{snod bcud 'jig rten sogs thog mar 'byung dus kyi ya mtha'/}421) pūrvakoṭi 2) pūrvānti 3) pairvāntikī43pā. pūrvāntaḥ, = {skye ba gcig nas gcig tu brgyud pa'i cha snga ma} pūrvo hi janmaparamparāṃśaḥ pra.pa.88-1/249; etā hi pūrvāparāntamadhyasammohaṃ vyāvartayanti yathākramam abhi.sphu.280kha/1113; pūrvakoṭiḥ mi.ko.134ka \n47{snod bcud 'jig rten sogs thog mar 'byung dus kyi ya mtha'/}51{'das pa'i dus/ skye ba sngon ma/ sngon gang du skyes pa'i gnas/ brgyad stong pa'i dka' 'grel snying po mchog la gzhi byas/ rje'i 'jam dbyangs bstod sprin rgya mtsho las/ thog med 'khor bar yongs su 'dris bgyis pa'i/ /rang gzhan tshe rabs dan rtags dang bcas par/ /skad cig tsam gyis khong du chud pas na/ /khyod ni sngon gyi mtha' la mkhas pa lags/ /zhes gsungs pa ltar ro/ /}53{snod bcud 'jig rten sogs thog mar 'byung dus kyi ya mtha'i don/ tshig 'di gsar du bcos pa yin/}55{snod bcud 'jig rten sogs thog mar 'byung dus kyi ya mtha'/}
+23pūrvāntaḥ23pūrvakoṭiḥ52ancient or prior limit, first beginning52(Skt. pūrvāntaḥ/pūrva-koṭiḥ) ancient or prior limit, first beginning
+24pūrv^anta-sahagata
+24pūrv^anta-sahagato pramādaḥ
+24pūrv^apar^anta43pūrvāntāparāntam — pūrvāntāparāntasuvicitajñānaḥ da.bhū.247ka/47.
+24pūrv^apar^ante 'jñānam
+43pā. pūrvāntāparāntāśayatā, jñānaparipācakadharmabhedaḥ — daśabhirjñānaparipācakairdharmaiḥ… yaduta apratyudāvartyāśayatayā ca… pūrvāntāparāntāśayatayā ca da.bhū.204kha/24.
+43vi. pūrvāntāparāntasuvicitajñānaḥ — sa evaṃ jñānabhūmyanugato mahāyānamaṇḍalānupraviṣṭaḥ… pūrvāntāparāntasuvicitajñānaḥ da.bhū.247ka/47.
+43pūrvāntāparāntasaṃbhedāsaṃbhedatā — sa indriyāṇāṃ mṛdumadhyādhimātratāṃ ca… pūrvāntāparāntasaṃbhedāsaṃbhedatāṃ ca… prajānāti da.bhū.252kha/50.
+43pūrvāntāsambhavatā — bodhisattvastṛtīyāyāṃ bodhisattvabhūmau sthitau'nityatāṃ ca sarvasaṃskāragatasya yathābhūtaṃ pratyavekṣate… pūrvāntāsambhavatāṃ ca da.bhū.195kha/19.
+49{de yang / mdo rgyud rin po che'i mdzod deb gzugs glegs bam dang po mdo rgyud rin po che'i mdzod kyi 'bru 'grel skabs bcu gsum pa theg pa'i rnam grangs rgya cher bshad pa las byung ba mu stegs pa ste/} (Source: 《{mdo rgyud mdzod ga pa }》{sha }275.25{las btus/}).49{de yang / mdo rgyud rin po che'i mdzod deb gzugs glegs bam gnyis pa mdo rgyud rin po che'i mdzod kyi rgyas 'grel skabs bcu gsum 'jig rten pa'i theg pa las byung ba ste/} (Source: 《{mdo rgyud mdzod ki pa }》{sha }693.8{las btus/ /}).
+51{rang gzhan gyi sngon gyi tshe rabs du ma skad cig tsam gyis khong du chud nus pa la zer/ rje'i 'jam dbyangs bstod sprin rgya mtsho las/ thog med 'khor bar yongs su 'dris bgyis pa'i/ /rang gzhan tshe rabs dan rtags dang bcas par/ /skad cig tsam gyis khong du chud pas na/ /khyod ni sngon gyi mtha' la mkhas pa lags/ /zhes gsungs pa ltar ro/ /dpe 'gar dran rtags zhes 'byung yang / dan rtags dag par gsungs so/ /dan rtags zhes pa'i thad du gzigs/}
+24pūrv^anta-kalpaka
+24pūrv^ante'jñānam
+49{de yang / rten cing 'brel par 'byung ba dang po'i rnam par dbye ba bshad pa las byung ba ste/ /} (Source: 《{bstan 'gyur mdo sde chi pa }》{sha }10{na }3{las btus/}).
+43vi. paurvāntikaḥ — {rten 'brel yan lag bdun ni sngon gyi mtha' pa'o} saptāṅgāni paurvāntikaḥ abhi.bhā.174-1/436.
+24pūrv^antam anusmaran
+42pūrvāntaśūnyatā
+43pūrvāntacaryā — so'bhiśraddadhāti tathāgatānāmarhatāṃ samyaksaṃbuddhānāṃ pūrvāntacaryābhinirhārapraveśam da.bhū.180ka/11.
+43pūrvapretaḥ — idamasmākaṃ bhadanta na mātrā kṛtam, na pitrā, na rājñā, na devatābhiḥ, neṣṭena svajanabandhuvargeṇa, na pūrvapretaiḥ, na śramaṇabrāhmaṇaiḥ, yadbhagavatāsmākaṃ kṛtam a.śa.140ka/129.
+421) pūrvakoṭi 2) pūrvānti43pā. = {sngon gyi mtha'} pūrvakoṭiḥ, pūrvāntaḥ ma.vyu.8306; mi.ko.134ka; pūrvāntaḥ ma.vyu.8305; mi.ko.134ka\n
+2has been your parent in previous lives
+42pūrvapretāḥ
+2{snga rabs} former generations9former generations23purāṇam42purāṇa43• 1.pā. purāṇam, aṣṭādaśavidyāsthāneṣu ekam ma.vyu.4970; śāstre nītipurāṇaṃ ca vedavyākaraṇaṃ tathā \n chandaṃ ca jyotiṣaścaiva gaṇitaṃ kalpasammatam ma.mū.195ka/206; evaṃ laṅghite prāgvallipimudrāgaṇanāsaṃkhyasālambhadhanurvede… nigame purāṇe itihāse … gandhayuktau \n ityevamādyāsu sarvakarmakalāsu la.vi.80kha/108 2. = {sngon du byung ba} itihāsaḥ, purāvṛttam — itihāsaḥ purāvṛttam a.ko. 1.6.4.45Sanskrit: purāṇa <Word/Term/Phrase>\n\n\nTibetan renderings of purāṇa: {sngon gyi rabs/}, {gna'i rabs/}\n\nIn the Buddhist context, one of the eighteen fields of knowledge (vidyāsthāna: rig pa’i gnas).\nN. of a class of sacred works (supposed to have been compiled by the poet Vyāsa and to treat of 5 topics [cf. pañca-lakṣaṇa]; the chief purāṇas are 18, grouped in 3 divisions: viz. 1. rājasa exalting brahmā [e.g. the brahma, brahmāṇḍa, brahmavaivarta, mārkaṇḍeya, bhaviṣya, vāmana]; 2. sāttvika exalting viṣṇu [e.g. the viṣṇu, bhāgavata, nāradīya, garuḍa, padma, varāha]; 3. tāmasa exalting śiva [e.g. the śiva, liṅga, skanda, agni or in place of it the vāyu, matsya, kūrma]; by some the padma are divided into 4, and by others into 6 groups\n\nSee the full entry at:https://www.itlr.net/hwid:3884252(Skt. purāṇam) ancient history
+2past conquerors / buddhas91) buddhas of the past; 2) 'Jam dbyangs Manjushri261) {'das pa'i sangs rgyas/} 2) {'jam dbyangs kyi mtshan/}42pūrvajina43pūrvajinaḥ 1. pūrvabuddhaḥ — pūrvajinakṛtādhikārāṇāmavaropitakuśalamūlānāṃ… bodhisattvānām la.a.155ka/102 2. = {'jam pa'i dbyangs} mañjuśrīḥ cho.ko.223/rā.ko.3.222.47{'das pa'i sangs rgyas/}53（{mngon } ）{'jam dbyangs kyi mtshan/ tshig 'di gsar du bcos pa yin/}53（{mngon }）{'das pa'i sangs rgyas/ tshig 'di gsar du bcos pa yin/}55(1) {'das pa'i sangs rgyas/} (2) {'jam dbyangs kyi mtshan/}
+52(Skt. pūrva-jinādhyuṣitam) the residence of ancient kings [or Jinas]
+23pūrvajinādhyuṣitam
+16[C]pūrva-jina-kṛta-adhikāra22[C]one who has fulfilled/performed/done his duties under the former Jinas
+42pūrvajinakṛtādhikāra
+16[C]pūrva-jina-kṛta-adhikāra22[C]one who has fulfilled/performed/done his duties under the former Jinas
+2the buddhas and bodhisattvas of the past
+42pūrvajinādhyāsita
+42pūrvajinādhyuṣita43pūrvajinādhyuṣitam ma.vyu.5497.
+2five former kings #91st five kings of India [mang bkur dang, 'od mdzes, dge ba, dge mchog gso sbyong 'phags te lnga]26{rgya gar gyi thog ma'i rgyal po mang bkur dang/ 'od mdzes/ dge ba/ dge mchog gso sbyong 'phags te lnga/}29{rgya gar na thog mar mang bkur/'od mdzes/dge ba/dge mchog /gso sbyong 'phags te lnga'o/_}55{rgya gar gyi thog ma'i rgyal po mang bkur dang /} {'od mdzes/} {dge ba/} {dge mchog} {gso sbyong 'phags te lnga/}
+24pūrvako hetuḥ. pūrva-hetu
+24pūrva-hetu-samutpanna
+24pūrva-hetu-saṃpad43pā. pūrvahetusampattiḥ, sampattibhedaḥ — bodhisattvastisṛbhiḥ sampattibhiḥ samanvāgataḥ sukhaṃ sparśaṃ viharati prayogasampattyā, āśayasampattyā, pūrvahetusampattyā ca bo.bhū.98kha/125; pūrvahetusampat — pūrvahetusampat katamā bo.bhū.98kha/126.
+24pūrva-hetu-bala
+24pūrva-hetu-bal^adhāna
+24pūrvakeṇ^aiva hetu-bal^adhānena
+55{rang gzhan gyi tshe rabs snga ma rjes su dran pa'i ting nge 'dzin mtshungs ldan dang bcas pa/}
+9catch up w the advanced, help the backward
+24pūrv^anusāra
+51{thogs med sku mched kyi gong gi sems tsam pa rnams la zer/ dper na btsun pa dga' bo dang / btsun pa dam pa'i sde dang / btsun pa yang dag bden pa la sogs pa rnams lta bu'o/ /tA ra nA tha'i rgya gar chos 'byung deb gzugs 76sogs su gsal lo/ /}
+42pūrvabuddha
+43pūrvaprayogaḥ — āsāṃ ca kila pratisaṃvidāṃ gaṇitaṃ buddhavacanaṃ śabdavidyā hetuvidyā ca pūrvaprayogo yathākramam abhi.bhā.60ka/1105; pūrvayogaḥ — {sngon gyi sbyor ba'i spyod pa} pūrvayogacaryā sa.pu.75kha/128; {sngon gyi sbyor ba'i le'u} pūrvayogaparivartaḥ sa.pu.75ka/127.
+24pūrva-yoga-pratisaṃyukta
+43pūrvayogaparivartaḥ — ityāryasaddharmapuṇḍarīke dharmaparyāye pūrvayogaparivarto nāma saptamaḥ sa.pu.75ka/127.
+43pā. pūrvayogacaryā — tathāgata evāsmākaṃ jānīte āśayaṃ pūrvayogacaryāṃ ca sa.pu.75kha/128.
+9former residence/ address
+43pūrvajanma — vaṇigutkariko nāma so'bhavat pūrvajanmani a.ka.4.114.
+16[C]parāpuruṣottamena22[C]from Him who went before me
+43= {khyab 'jug} purāṇapuruṣaḥ, viṣṇuḥ cho.ko.223/rā.ko.3.190.
+2previous lives
+2past teachers9former masters/ teachers26{sngar byung ba'i mkhas pa'am ston pa/}43pūrvācāryaḥ — yathā'nyena tathā saṃvṛtisatyamiti pūrvācāryāḥ abhi.bhā.7kha/890.55{sngar byung ba'i mkhas pa'am ston pa/}
+49{de yang / dbu ma'i man ngag rin po che'i za ma tog kha phye ba las byung ba ste/} (Source: 《{bstan 'gyur dbu ma ki pa }》{sha }112{ba }3{las btus/}).
+0former prayer wishes (T)2former aspirations9former aspirations; former aspirations, aspirations in former lives16[MSA]pūrva-praṇidhāna26{tshe rabs sngon ma'i smon lam/}421) pūrvapraṇidhāna 2) pūrvapraṇihita43pā. pūrvapraṇidhānam — bodhisattvāḥ punarmahāmate nirodhasamādhisukhamukhaṃ dṛṣṭvā pūrvapraṇidhānakṛpākaruṇopetā niṣṭhapadagativibhāgajñā na parinirvānti la.a.140ka/87; pūrvapraṇidhiḥ — tasyānantaraṃ pūrvapraṇidhinirmāṇacandro nāma tathāgata ārāgitaḥ ga.vyū.250kha/331.47{tshe rabs sngon ma'i smon lam/}53{tshe rabs sngon ma'i smon lam/}55{tshe rabs sngon mar bsags pa'i las/}
+36<person> Pūrvapraṇidhinirmāṇacandra37<person> Pūrvapraṇidhinirmāṇacandra (Skt: pūrvapraṇidhinirmāṇacandra): A buddha in the distant past. (Original glossary entry: https://84000.co/glossary/entity-15651.html)39<person> pūrvapraṇidhinirmāṇacandra43nā. pūrvapraṇidhinirmāṇacandraḥ, tathāgataḥ — tasyānantaraṃ pūrvapraṇidhinirmāṇacandro nāma tathāgata ārāgitaḥ ga.vyū.250kha/331.
+2through the force of past aspirations
+36<person> Roar Invoked by Previous Aspirations37<person> Roar Invoked by Previous Aspirations: A bodhisattva. (Original glossary entry: https://84000.co/glossary/entity-31075.html)
+2for whom the prayers had been made
+43pūrvapraṇidhānābhinirhāropastabdhatā — tacca sarvasattvasāpekṣatayā ca pūrvapraṇidhānābhinirhāropastabdhatayā ca mahākaruṇāpūrvaṃgamatayā ca da.bhū.209ka/24.
+2because of prayers that were made in the past
+36<person> Pūrvapraṇidhānasaṃcodanasvara37<person> Pūrvapraṇidhānasaṃcodanasvara (Skt: pūrvapraṇidhānasaṃcodanasvara): A bodhisattva present in Śrāvastī. (Original glossary entry: https://84000.co/glossary/entity-15650.html)39<person> pūrvapraṇidhānasaṃcodanasvara43nā. pūrvapraṇidhānasaṃcodanasvaraḥ, bodhisattvaḥ — bhagavān … sārdhaṃ pañcamātrairbodhisattvasahasraiḥ samantabhadramañjuśrībodhisattvapūrvaṃgamaiḥ \n yaduta jñānottarajñāninā ca… pūrvapraṇidhānasaṃcodanasvareṇa ca ga.vyū.276kha/3.45Sanskrit: Pūrvapraṇidhānasaṃcodanasvara <Personal Name>\n\n\nTibetan renderings of Pūrvapraṇidhānasaṃcodanasvara: {sngon gyi smon lam yongs su bskul ba'i sgra/}\n\nn. of a Bodhisattva: Gv\n 4.11.\n\nSee the full entry at:https://www.itlr.net/hwid:745389
+24pūrva-ceṣṭita
+2past life; see also {sngon dus kyi srid pa}9existence between birth and death, this lifetime before dying11{sngon dus kyi srid pa} life between birth and death as a phase of conditioned existence26{srid pa bzhi'i gras shig ste/ phyi ma'i nying mtshams sbyar ba'i skad cig gnyis pa nas lus rten de ma bor bar gyi srid pa/}47{srid pa bzhi'i gras shig ste/ phyi ma'i nying mtshams sbyar ba'i skad cig gnyis pa nas lus rten de ma bor bar gyi srid pa/}53{phyi ma nying mtshams sbyar ba'i skad cig gnyis pa nas lus rten de ma bor bar gyi srid pa la zer/}55{srid pa bzhi'i gras shig ste/} {phyi ma'i nying mtshams sbyar ba'i skad cig gnyis pa nas lus rten de ma bor bar gyi srid pa/}
+5(PH) ancient tradition
+421) pūrvakāla 2) pū+ṛvajama43= {sngon tshe/}
+24pūrva-janman43pūrvajanma — siṃhasaṃvāsānvayāt kalmāṣapādaprabhṛtayo nṛpaputrāḥ pūrvajanmamāṃsādadoṣavāsanatayā manuṣyendrabhūtā api santo māṃsādā abhūvan la.a.155kha/102.
+24pūrva-janma-suhṛt-saṃjñā
+24pūrvako saṃbhāraḥ
+36<term> past-life story37<term> past-life story (Skt: pūrvayoga): A type of Buddhist past-life story, often used synonymously with avadāna and jātaka. (Original glossary entry: https://84000.co/glossary/entity-44478.html)39<term> pūrvayoga
+24pūrva-yoga-pratisaṃyukta
+36<term> perfected through previous practice39<term> pūrvayogasampanna
+43nā. nīlabhūtiḥ, brāhmaṇaḥ — mathurāyāṃ nīlabhūtirnāma brāhmaṇo vedavedāṅgapāragaḥ svavādoddyotakaḥ paravādanigrahasamarthaḥ vi.va.125ka/1.13.
+2Long ago,
+9estimation, prognosis, speculation, anticipation, foresight [h]
+9estimate, prognosticate, speculate, anticipate, predict, foretell [h]
+59vaccine, vaccination
+2guidance manual for the preliminaries; sngon 'gro khrid rim - sngon 'gro'i khrid yig2introduction to the fundamentals
+31pre-read head55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }pre-read head {zer/}
+2past limit, the past9[limit of] the past, the [absolute] beginning24pūrvā koṭī
+36<person> Knower of the Origin as Related to Knowledge of the Past37<person> Knower of the Origin as Related to Knowledge of the Past: A king; a former incarnation of the Buddha. (Original glossary entry: https://84000.co/glossary/entity-6522.html)
+36<person> Knower of the Past37<person> Knower of the Past: A king; a former incarnation of the Buddha. (Original glossary entry: https://84000.co/glossary/entity-6523.html)
+8ancient history, legends, former generation
+2ahead2before, previously; first8before, at the head, in advance, in front of9before, previously43agre — {bzang po sngon la khyed song} bhadra tvamagre vraja a.ka.108.133.56[sound:1-463a.mp3]\n{sngon la} Before (Other meanings: First. In the beginning. ()\nSyllables: {sngon/} as in: {sngon 'gro/} = preliminary practices.\n-----\nExample: [sound:1-463c.mp3]\n {sngon la zas tho la gcig blta gi yin pas/}  First will you take a look at the menu?
+8advance
+55{brtag dpyad 'dri gcod kyi gong la bkag nyar bya ba/}
+42pūrvapakṣā
+8previously stated, explained before, said before
+42purāvyakta
+55{bya spyod ci rigs thog la sngon la 'jug pa'i dbang cha/}
+9struggle, get to be 1st, do all 1 can to advance/ progress
+55{sngon la nyo dbang yod pa/}
+9went ahead
+43= {sngon lam btang ba/}
+43pā. = {lam snga ma btang ba} pūrvamārgatyāgaḥ, prahāṇamārgāvasthāyāṃ kāraṇabhedaḥ — prahāṇamārgāvasthāyāṃ pañca kāraṇāni sambhavanti…pūrvamārgatyāgaḥ, apūrvamārgāptiḥ… ṣoḍaśākārabhāvanā abhi.bhā.29kha/980.
+8former actions, an accident, from before, an event over which one has no control9former karma24pūrveṇa26{tshe rabs sngon mar bsags pa'i las/ sngon las kyi 'phags pa/}42daiva, niyati, nidhi, samaya43= {sngon gyi las/}47{tshe rabs sngon mar bsags pa'i las/}53{tshe rabs sngon mar bsags pa'i las/}55{tshe rabs sngon mar bsags pa'i las/} {sngon las kyis 'phangs pa/}
+9former karma and temporary condition
+11previous karma or immediate circumstances
+2propelled by past karma9impelled by former karma
+2the body of ripened [karma] which is created by past actions
+43= {sngon du ldang ba/}
+9earlier, preceding26{snga rol/ 'thab 'dzing bya rgyu'i sngon logs nas dmag sa btsan po 'tshol ba/}55{snga rol/} {'thab 'dzing bya rgyu'i sngon logs nas dmag sa btsan po 'tshol ba/}
+23pūrvakālabhavaḥ42pūrvakālabhava43pūrvakālabhavaḥ ma.vyu.7682.52(Skt. pūrva-kāla-bhavaḥ) past existence, earlier realm, Anterior realm
+31preview55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }preview {zer/}
+31previewer
+55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }previewer {zer/}
+31generate preview55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }generate previer {zer/}
+0former2past, in the past, formerly; former, previous, past, in the past, formerly8before, past, in the past, formerly, the former, beginning, formerly, in the past, previously9former; 1) previous ones; 2) former[ly], previous, [in the] past261. {snga mo'i dus/ ru sgrig gi sngon ma rnams dmag gi gdong len dpa' bo sha ltag red/ nyi zla'i 'od zer sngon ma nag bzhin gsal ba/ deng sang rang re'i mes po'i rgyal khab nang sngon gyi dus la lhag pa'i skal bzang dga' ston shar ba/ sngon mar bshad pa de tsho sems la bcang dgos/ da lta las sla por shes pa tshang ma sngon mar goms pa sha ltag red/ }2. {sngon rjes kyi lnga ma/ dus rabs sngon ma/ mi rabs sngon ma/}42prācīna43praṣṭhaḥ mi.ko.50ka \n55(1){snga mo'i dus/} {ru sgrig gi sngon ma rnams dmag gi gdong len dpa' bo sha stag red/} {nyi zla'i 'od zer sngon ma nang bzhin gsal ba/} {deng sang rang re'i mes po'i rgyal khab nang sngon gyi dus las lhag pa'i skal bzang dga' ston shar ba/} {sngon mar bshad pa de tsho sems la bcang dgos/} {da lta las sla por shes pa tshang ma sngon mar goms pa sha stag red/}(2){sngon rjes kyi snga ma/} {dus rabs sngon ma/} {mi rabs sngon ma/}56[sound:1-208a.mp3]\n{sngon ma} Previous (Other meanings: Past. Earlier. Previously.)\nSyllables: {sngon/} as in: {sngon 'gro/} = preliminary practices.\n-----\nExample: [sound:1-208c.mp3]\n {sngon ma nga bod skad shes kyi med/}  In the past, I did not know Tibetan.56[sound:1-324a.mp3]\n{sngon ma} Previous (Other meanings: Past. Earlier. Previously.)\nSyllables: {sngon/} as in: {sngon 'gro/} = preliminary practices.\n-----\nExample: [sound:1-324c.mp3]\n {sngon ma nga'i lung pa la pha ma mnyam du bsdad pa yin/}  In the past, in my country, I lived with my parents.56[sound:1-612a.mp3]\n{sngon ma} Previous (Other meanings: Past. Earlier. Previously.)\nSyllables: {sngon/} as in: {sngon 'gro/} = preliminary practices.\n-----\nExample: [sound:1-612c.mp3]\n {lo sngon mar dbyar ka'i skabs la nga tsho tshang ma gling ga gtang gar phyin pa yin/}  Last year, in the summer we all went on a picnic.
+43= {sngon ma byung ba/}
+43vi. apūrvam — apūrvaiṣā vācoyuktiḥ abhi.sphu.116ka/810; abhūtapūrvam — abhūtapūrvamudbhūtaṃ bhūtaṃ kimidamadbhutam \n uditaṃ mūrdhni caṇḍāṃśuyugalaṃ yatra dṛśyate a.ka.89.13.
+24a-bhūtvā bhavanti
+24a-pūrvaś-utpannno bhavati
+8as before, SA gong ma bzhin42pūrvavat
+24pūrvako'nabhyāsaḥ
+49{de yang / mngon par 'byung ba'i mdo las byung ba ste/} (Source: 《{mdo la pa }》{sha }64{na }2{las btus/}).
+43vi. mahiṣapūrvī — bhagavān mahiṣapūrviṇo devaputrasyāśayānuśayaṃ dhātuṃ prakṛtiṃ ca jñātvā a.śa.160ka/148; mahiṣapūrvakaḥ — kāni bhadanta mahiṣapūrvakeṇa devaputreṇa karmāṇi kṛtāni yena mahiṣeṣūpapannaḥ a.śa.161ka/149.
+43= {sngon ma mthong ba/}
+421) adṛṣṭapūrva 2) adṛṣṭāśrutapūrva43vi. adṛṣṭapūrvam — yadadṛṣṭapūrvaṃ śrāvakapratyekabuddhatīrthyabrahmendropendrādibhistaṃ prāpsyati la.a.61kha/7.
+43adṛṣṭapūrvasambandhaḥ — adṛṣṭapūrvasambandhaḥ sampratyajñānahetukaḥ ta.sa.76ka/715; adṛṣṭapūrveṇa kartrā sambandho janyajanakabhāvalakṣaṇaḥ ta.pa./715.
+8still, yet
+24a-vijñāta-pūrva
+42ajārapūrva
+43= {sngon du ma song ba/}
+43= {sngon ma spyad pa/}
+43vi. apracaritapūrvam — chinnabhinnakhaṇḍadagdhāpracaritapūrvānāhatilakṣaṇapratirūpakam etat vi.sū.26kha/33.
+43= {sngon ma thob pa/}
+24a-pratilabdha-pūrva42prāptapūrva43vi. apratilabdhapūrvam — sa hi tasmād vyutthāyāpratilabdhapūrvāṃ savijñānakāṃ kāyaśāntiṃ pratilabhate abhi.bhā.25kha/962.
+43= {sngon ma thos pa/}
+24a-pūrva42aśrutapūrva43vi. aśrutapūrvam — {sngon ma thos pa'i ming thos nas} aśrutapūrvaṃ nāma śrutvā a.śa.167kha/155.
+43= {sngon min/}
+43= {shar gyi ri} pūrvaparvataḥ, udayagiriḥ — udayaḥ pūrvaparvataḥ a.ko.2.3.2.
+8prior29{ston mar}55{stod mar/}
+2matchless2new; sems la + - never known before2unprecedented9not existing before42apūrva43• saṃ. prāgabhāvaḥ — prāgabhāvādirūpasya hetutvamiha vastunaḥ \n bhāvābhāvasvarūpasya kāryasyotpādanamprati kā.ā.2.249; \n\n• vi. apūrvam — vaktuṃ vastu na mādṛśā jaḍadhiyo'pūrvaṃ kadācitkṣamāḥ ta.pa.133kha/1; pratikṣaṇamapūrvasya pūrvaḥ pūrvaḥ kṣaṇo bhavet pra.vā.1.46.
+9bsdus brjod kyi rgyan gyi nang gses shig ste, sdud byed dpe la sngon med pa'i khyad chos dang ldan pa'i khyad gzhi bkod pa des, de dang chos mtshungs pa'i bsdu bya dpe can sngon med cig bsdus te brjod pa'i rgyan zhig26{bsdus brjod kyi rgyan gyi nang gses shig ste/ sdud byed dpe la sngon med pa'i khyad chos dang ldan pa'i khyad gzhi bkod pa des/ de dang chos mtshungs pa'i bsdu bya dpe can sngon med cig bsdus te brjod pa'i rgyan zhig}55{bsdus brjod kyi rgyan gyi nang gses shig ste/} {sdud byed dpe la sngon med pa'i khyad chos dang ldan pa'i khyad gzhi bkod pa des/} {de dang chos mtshungs pa'i bsdu bya dpe can sngon med cig bsdus te brjod pa'i rgyan zhig}
+45Sanskrit: apūrvasamāsokti <Word/Term/Phrase>\n\n\nTibetan renderings of apūrvasamāsokti: {sngon med bsdus par brjod/}, {sngon med bsdus par brjod pa/}\n\nEnglish: Novel Inclusive-Assertion\na type of samāsôkti in which the qualifications will cease to apply to either subject at some future time.\n\nSee the full entry at:https://www.itlr.net/hwid:727014
+42apūrvasamāsokti45Sanskrit: apūrvasamāsokti <Word/Term/Phrase>\n\n\nTibetan renderings of apūrvasamāsokti: {sngon med bsdus par brjod/}, {sngon med bsdus par brjod pa/}\n\nEnglish: Novel Inclusive-Assertion\na type of samāsôkti in which the qualifications will cease to apply to either subject at some future time.\n\nSee the full entry at:https://www.itlr.net/hwid:727014
+43= {sngon med pa las byung ba/}
+9new creation/ invention. invent, originate
+43= {sngon med pa'i lam thob pa/}
+43vi. apūrvarūpam — sarvathāpūrvarūpasya rucakasya tadātmanaḥ \n janmanyutpadyate prītiḥ, nāvasthānaṃ tu kasyacit ta.sa.65ka/612.
+0unprecedented(N)9not existing before16apūrva43= {sngon med/}
+43apūrvaprādurbhāvaḥ — na sa evamutpadyate yathā skandhāḥ, apūrvaprādurbhāvāt abhi.bhā.88ka/1207.
+43apūrvotpattiḥ — kaṃ… dṛṣṭāntaṃ karoti? pudgalaṃ yadi \n so'siddhaḥ \n atha cittacaittāḥ ? na, teṣāṃ pratikṣaṇamapūrvotpattireva abhi.bhā.88kha/1208; tatsāmarthyasya tatsvabhāvatve'pūrvotpattireva sā he.bi.139-5/59.
+43apūrvotpādaḥ — yadi ca skandhānāmapūrvotpādo na pudgalasyeṣyate so'nyaśca tebhyo nityaśca sphuṭaṃ dīpito bhavati abhi.bhā.88kha/1209.
+0not previously arisen16[MSA]apūrvotpatti
+24a-pūrva-prādurbhāva
+43pā. apūrvamārgāptiḥ, prahāṇamārgāvasthāyāṃ kāraṇabhedaḥ — prahāṇamārgāvasthāyāṃ pañca kāraṇāni sambhavanti… pūrvamārgatyāgaḥ, apūrvamārgāptiḥ… ṣoḍaśākārabhāvanā abhi.bhā.29kha/980; apūrvamārgalābhaḥ — anyatrāpūrvamārgalābhe saṃvṛtijñānamevānāgataṃ bhāvyate abhi.bhā.54kha/1078.
+43= {sngon med pa las skye ba/}
+42apracaritapūrva
+43vi. apūrvaḥ — vyakteranyā'thavā'nanyā yeṣāṃ jātistu vidyate \n teṣāṃ vyaktiṣvapūrvāsu kathaṃ sāmānyabuddhayaḥ pra.vṛ.184-2/48.
+43= {sngon min/}
+9order[ing] in advance41(adm) booking {zlas gar khang dang /'grul skyad sags kyi ched sngan tshud nas 'dzin shag mngags nya byed pa/}
+9ordered merchandise
+9order[ing] in advance
+42pūrvābhisaṃskāravaśāt
+8blue, stale, old, the first, a vegetable9in general sky blue and bye brag mo rigs la sbyor ba'i particular color26{spyir nam mkha'i mdog sngon po dang mtshungs shing bye brag mo rigs la sbyor ba'i kha dog gi khyad par zhig gnam sngon mo/ chu sngon mo/ spang sngon mo/ rta rgod ma sngon mo/ mo drel sngon mo/}36<person> Nīlā37<person> Nīlā (Skt: nīlā): A great rākṣasī. (Original glossary entry: https://84000.co/glossary/entity-43365.html)39<person> nīlā421) agra 2) nīla43nīlā — {sngon mo'i shing rta} nīlārathaḥ vi.pra.44ka/4.41.55{spyir nam mkha'i mdog sngon po dang mtshungs shing bye brag mo rigs la sbyor ba'i kha dog gi khyad par zhig} {gnam sngon mo/} {chu sngon mo/} {spang sngon mo/} {rta rgod ma sngon mo/} {mo drel sngon mo/}
+8a medicinal plant for dropsy
+26{sngo spyi bzhur gyi ming gi rnam grangs shig}55{sngo spyi bzhur gyi ming gi rnam grangs shig}
+55{byed las kyi sgo nas btags pa'i sngo ga bur ti lo'i ming gi rnam grangs shig ste/} {'khrungs dpe las/} {gnyan tshad rims tshad gzhil ba'i phyir/} {de ming ga bur ti lo zer/} {cham pa ldog cing 'dren pa'i phyir/} {de ming sngon mo cham 'dren zer/} {zhes dang /} {de'u dmar dge bshes bstan 'dzin phun tshogs kyis mdzad pa'i lag len gces bsdus las/} {sngon mo chab 'dren dmu chu'i gsang sman dang /} {sngon mo cham 'dren cham pa'i lam ldog gnyis/} {ma dag yi ge bcos pas nor ba mang /}
+55{byed las la bltos nas btags pa'i srad smug gi ming gi rnam grangs shig ste/} {de'u dmar dge bshes bstan 'dzin phun tshogs kyis mdzad pa'i gso rig skor gyi ming tshig nyer mkho'i don gsal las/} {sngon mo chu 'dren gzi mdangs med/} {smug mo rtag ngu khal sral smug gsang ba sman rgyal khab sral bre/} {dmu chu'i gsang ldum srad smug ming /}
+29{stod nags tshang gi sa cha zhig gi ming}55{stod nags tshang gi sa cha zhig gi ming /}
+8metal-blue horse, special term used to denote the color of certain horses - gray tending to blue
+9{sngon mo lhog zan} med herb26{sngo sman gyi rigs shig nus pas lhog pa la phan/}55{sngo sman gyi rigs shig} {nus pas lhog pa la phan/}
+2fresh barley
+43nīlārathaḥ — vajrākṣyā aṣṭapādaḥ pātālarathagataḥ \n vyomni nīlārathasya vi.pra.44ka/4.41.
+2the past9the past; extreme of the beginning [limit] of samsara, the past26{'khor bar skyes pa'i thog ma'i mtha'/ sngon mtha' mi mngon pa/ sngon mtha' stong pa nyid/ sngon mtha' med pa/}42pūrvakakoṭi43= {sngon gyi mtha'/}47{'khor bar skyes pa'i thog ma'i mtha'/}53{'khor bar skyes pa'i thog ma'i mtha'/}55{'khor bar skyes pa'i thog ma'i mtha'/} {sngon mtha' mi mngon pa/} {sngon mtha' stong pa nyid/} {sngon mtha' med pa/}
+9the four views depending on a past limit/ beginning of samsara [sangs rgyas kyis lan gsungs yul du ma gyur pa'i lta log gi dri ba rnams sde tshan bzhir dbye ba'i nang gses, bdag dang 'jig rten rtag mi rtag gnyis yin gnyis min du lta ba]26{sangs rgyas kyis lan gsungs yul du ma gyur pa'i lta log gi dri ba rnams sde tshan bzhir dbye ba'i nang gses/ bdag dang 'jig rten rtag mi rtag gnyis yin gnyis min du lta ba/}47{sangs rgyas kyis lan gsung yul du ma gyur pa'i lta log gi dri ba rnams sde tshan bzhir dbye ba'i nang gses/ bdag dang 'jig rten rtag mi rtag gnyis yin gnyis min du lta ba/}53{sangs rgyas kyis lan gsung yul du ma gyur pa'i lta log gi dri ba rnams sde tshan bzhir dbye ba'i nang gses/ bdag dang 'jig rten rtag mi rtag gnyis yin gnyis min du lta ba/}55{sangs rgyas kyis lan gsung yul du ma gyur pa'i lta log gi dri ba rnams sde tshan bzhir dbye ba'i nang gses/} {bdag dang 'jig rten rtag mi rtag gnyis yin gnyis min du lta ba/}
+9foresight, foreknowledge
+42pūrvadṛṣṭa43pūrvadṛṣṭam lo.ko.648.
+42pūrvadṛṣṭatva
+24tīrthika-pūrvin
+8in the past
+421) pūrvānubhūta 2) sakṛtpūrvakṛta
+9not existing before
+9not existing before
+5(PH) previously; prior8from a former time9from before/ long ago41(adm) in advance {gtan 'bebs dus tshes ma zin pa'i sngan du/}
+2mgron po sngon nas bsus - invite visitors in
+8preconceive
+8foresee
+8anticipate
+29{thog mar chos byed pa nas theg chen gyi lam la mos pa brtan po yod pa'i theg chen pa ste/de ni sangs ma rgyas bar du nyan rang gi lam la lhung mi srid pa}55{thog mar chos byed pa nas theg chen gyi lam la mos brtan po yod pa'i theg chen pa ste/} {de ni sangs ma rgyas bar du nyan rang gi lam la lhung mi srid pa/}
+9estimation, prognosis, speculation, anticipation, foresight
+9estimate, prognosticate, speculate, anticipate, predict, foretell
+9estimation, prognosis, speculation, anticipation, foresight [h]
+9estimate, prognosticate, speculate, anticipate, predict, foretell [h]
+9have forebodings, sense beforehand
+43vi. śukapūrvī — atha śukaṃpūrvī devaputraścalavimalakuṇḍaladharaḥ… bhagavataḥ purastānniṣaṇṇo dharmaśravaṇāya a.śa.154ka/143; śukapūrvakaḥ — kāni bhadanta śukapūrvakeṇa devaputreṇa karmāṇi kṛtāni yena śukeṣūpapannaḥ a.śa.155ka/144.
+43vi. haṃsapūrvī — atha bhagavān haṃsapūrviṇāṃ devaputrāṇāmāśayānuśayaṃ dhātuṃ prakṛtiṃ ca jñātvā a.śa.164kha/153.
+24pūrv^anubhūta43vi. anubhūtapūrvam — anubhūtapūrvasyaiva smaraṇam abhi.bhā.61kha/1110.
+21) livid, bluish [corpse]. 2) before91) livid, bluish [corpse]; 2) before
+9in the past
+42abhavyo haritvāya
+9previous failures/ defeats
+9learn from previous failures/ defeats
+43vi. dūtapūrvī — atha dūtapūrvī devaputraścalavimalakuṇḍaladharo… bhagavataḥ purastāt niṣaṇṇo dharmaśravaṇāya a.śa.157ka/146.
+31anticipatory paging
+31across; then down55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }across， then down {zer/}
+8rich from the beginning, rich at first, formerly rich
+8in front of
+0blue21) blue. 2) [with plants] green7one of the four primary colors (rtsa ba'i kha dog); the other four are: white (dkar po); yellow (ser po); red (dmar po)8blue; blue, sky, green (polishing a certain stone to make it less grainy turns green to blue), stale, old, grayish-green9blue; 1) blue; 2) [with plants] [grayish-]green16[LCh,C,MSA] nīla22[C]black-blue23nīlam24nīla26{nam mkha'i mdog rtswa sngon po/ ras sngon po/}31blue32{gnam mdog lta bu/ ming mtha' bsdus na sngon zhes 'bri chog ste/ ljang sngon/ gnam sngon/ mtsho sngon zhes pa lta bu/}36<person> Hārīta, Hārīti36<place> Blue37<person> Hārīta (Skt: hārīta): Name of ayakṣa. (Original glossary entry: https://84000.co/glossary/entity-11441.html)39<person> hārīta, hārīti421) nīla 2) harita 3) haritva 4) hatitatva 5)43• saṃ. 1. pā. nīlaḥ, varṇarūpabhedaḥ — asti rūpāyatanam, varṇato vidyate na saṃsthānataḥ, nīlapītalohitāvadātacchāyātapālokāndhakārākhyam abhi.bhā.128-5/32; \n\n•2. nā. nīlaḥ, parvataḥ — gaṅgādvāre kuśāvartte bilvake nīlaparvate \n snātvā kaṇakhale tīrthe pra.a.242-2/527; 3.\n\n• nā. nīlaḥ, yakṣaḥ — nīlo nāma samabhyetya yakṣaḥ prāha… pūrveṇa yojanaṃ gatvā a.ka.6.131; \n\n•4. nā. nīlā, nadī — nīlanadyuttare ruhmaviṣayabhāṣayā vi.pra.142kha/1, pṛ. 41 5. nīlaḥ, nidhibhedaḥ a.ṭī.1.1.73 6. = {sngon po nyid} śyāmatā — śyāmatādi rūpaṃ hi varṇādikamavabhāsate pra.a.10-2/19; \n\n• vi. nīlaḥ — vārāṇaseyaṃ vā vastraṃ nīlaṃ nīlavarṇaṃ nīlanidarśanaṃ nīlanirbhāsam abhi.sphu.308kha/1180; kālaḥ — kaṇṭhe kālaḥ karasthena kapālenenduśekharaḥ \n jaṭābhiḥ snigdhatāmrābhirāvirāsīd vṛṣadhvajaḥ kā.ā.2.12; śyāmaḥ — {sngon por byas pa} śyāmīkṛtam a.ka.24. 98; haritaḥ — {rtswa sngon po} haritatṛṇam jā.mā.78/46; harite tṛṇe vi.sū.54kha/70; nīlikā — nīlikā vātyā, maṇḍalikā vātyā abhi.bhā.129-5/43.44Also abbreviated as {sngaun}. (Source: Dzongkha abbreviations)44Also abbreviated as {sngono}. (Source: Dzongkha abbreviations)44Also abbreviated as {snaun}. (Source: Bacot écriture cursive Tibétaine)45Sanskrit: nīla <Word/Term/Phrase>\n\n\nTibetan renderings of nīla: {sngon po/}\n\none of the 9 Nidhis or divine treasures of Kubera, L.\na store, hoard, treasure, RV.  &c. &c. (in later language esp. the divine treasures belonging to Kubera, nine of which are enumerated, viz. Padma, Mahāpadma, Śaṅkha, Makara, Kacchapa, Mukunda, Nanda, Nīla and Kharva, they are also personified as attendants either of Kubera or of Lakṣmī; cf. nidhi-datta and -pālita below).\n\nSee the full entry at:https://www.itlr.net/hwid:94229452(Skt. nīlam) blue55{nam mkha'i mdog} {rtswa sngon po/} {ras sngon po/}56[sound:1-128a.mp3]\n{sngon po} Blue\n-----\nExample: [sound:1-128c.mp3]\n {nga sngon po la dga' po yod/}  I like/love blue.
+55{stong ri zil pa'i ming gi rnam grangs shig ste/} {mkhas pa bdun gyis mdzad pa'i tshad pa spyi 'joms stong zil gyi sbyor ba las/} {sngon po bya khyung chu ldum og dkar dang /} {khra bo stag ris blon po chu chod can/} {khyi dug sman gcig ldum bu ra thar ba/} {ldum bu rma bya spor chung wa ri rnams/} {tshad pa 'joms byed stong ri zil pa'i ming /}
+8blue sky
+55{paR+pa ta'i ming gi rnam grangs shig ste/} {de'u dmar dge bshes bstan 'dzin phun tshogs kyis mdzad pa'i gso rig skor gyi ming tshig nyer mkho'i don gsal las/} {skra bzang zil pa rims 'joms dang /} {sngon po chig thub 'khri shing ral/} {mi rgan ral pa can rnams ni/} {paR+pa ta yi ming yin no/ /}
+10See bod lcam.
+43= {ut+pal sngon po} nīlāmbujanma, nīlotpalam — nīlāmbujanma ca \n indīvaraṃ ca nīle'smin site kumudakairave a.ko.1.12.37.
+24nīlā pītā
+24nīlaṃ pītaṃ lohitam avadātam. nīlā pītā lohit^avadātā
+42nīlaraktaprakāra
+49{de yang / chos mngon pa kun las btus pa'i bshad pa las byung ba ste/} (Source: 《{bstan 'gyur sems tsam li pa }》{sha }122{na }3{las btus/}).
+43vi. nīlanidarśanam — tāsu ca puṣkariṇīṣu santi padmāni jātāni nīlāni nīlavarṇāni nīlanirbhāsāni nīlanidarśanāni su.vyū.196kha/254.
+43= {sngon po lta bur ston pa/}
+42anīla43vi. anīlaḥ lo.ko.649.
+36<term> blue jaybird37<term> blue jaybird: More commonly known as the Indian roller (Coracias benghalensis). YJ has “deep blue color” instead of “blue jay.” (Original glossary entry: https://84000.co/glossary/entity-43727.html)\n\nSynonyms: {tsA sha}, {tsa sha}38Synonym: {tsA sha}
+10See dbyi mong.
+2completely and totally blue
+43vi. nīlavarṇakaḥ — caturtho jñānaketuśca sarvāśāparipūrakaḥ \n nīlavarṇakasaṃkāśaścintāmaṇidhvajadharaḥ sa.du.169/168.
+43pā. nīlakāyikāḥ — imāni khalu punarmāṣāścatvāri śailapātrāṇi nīlakāyikairdevaputraiḥ asmabhyaṃ dattāni la.vi.183ka/277.
+0blue that is the referent of the convention “blue”
+9green vegetables
+8become old and useless, go out of use
+43vi. abhavyo harittvāya ma.vyu.9135; dra. {sngon por 'gyur du mi rung ba/}
+43vi. abhavyo harittvāya ma.vyu.9135; dra. {sngon por 'gyur du mi btub pa/}
+23abhavyo haritvāya42abhavyo haritvāya52(Skt. abhavyo haritvāya)
+42nīlarakta
+43= {sngon por byas pa/}
+43bhū.kā.kṛ. śyāmīkṛtam — sa dadarśa viṣaśvāsairiva śyāmīkṛtodakam a.ka.56. 9; rathaghoṣonmukhaśikhiśyāmīkṛtadigantaraḥ svedavārikaṇākīrṇaḥ prabhāsnigdhavanasthalīm a.ka.24.98.
+43anīlabodhaḥ — anīlabodhavyāvṛttyā ca nīlabodharūpatvaṃ vyavasthāpyam nyā.ṭī.46ka/83.
+43= {sngon por rtogs pa/}
+43nīlabodhaḥ — anīlabodhavyāvṛttyā ca nīlabodharūpatvaṃ vyavasthāpyam nyā.ṭī.46ka/83.
+36<place> Blue Light36<term> blue reflection37<place> Blue Light: A buddha field in the future where the bodhisattva Saffron Color attains buddhahood as Precious Light. (Original glossary entry: https://84000.co/glossary/entity-33300.html)39<term> nīlanirbhāsa
+2become green
+43= {sngon pos khyab pa/}
+43pā. nīlakṛtsnam, samādhiviśeṣaḥ — pṛthivīkṛtsnaṃ samādhiṃ samāpadyeta, apkṛtsnaṃ vā … nīlakṛtsnaṃ vā ga.vyū.295ka/16.
+2ancient2early generations, fore fathers8ancient; ancient history, former generation, previous lineage holders, 1 of rig gnas bco brgyad9ancient; early/former generations, fore fathers, previous lineage holders, antiquity, ancient history26{sngar gyi byung rabs/}42pūraṇa43= {sngon gyi rabs/}45Sanskrit: vārttā <Word/Term/Phrase>\n\n\nTibetan renderings of vārttā: {gtam/}, {sgrung/}, {sngon rabs/}\n\n(sometimes plural) an account of anything that has happened, tidings, report, rumour, news, intelligence, story of or about (genitive or compound), (… vārttāṁ-√kīrt with genitive, ‘to give an account of, talk about’; kā vārttā, ‘what is the news?’)\n\nSee the full entry at:https://www.itlr.net/hwid:11069455{sngar gyi byung rabs/}
+43nā. purāṇadharmaḥ, granthaḥ — ādiśabdena vālmīka(ki)kāvyaṃ rāmāyaṇam, mārkaṇḍeyakāvyaṃ purāṇadharmādayaḥ saṃgṛhītāḥ vi.pra.272ka/2.96; pūrvakāle vedagītāsiddhāntapurāṇadharmā na pustake likhitāḥ santi vi.pra.141ka/1, pṛ.40.
+9those of early/former generations, fore fathers, previous lineage holders, precursors, ancestors
+2{'di lta bu 'byung ba sngon rgyu ci lags} what acts from long ago caused such ... as this
+9cause and effect, antecedent and consequent
+8before and after, preceding and following, earlier & later occasions91) before and after, 1st and afterward, former and later, prefix and suffix; 2) in order, 1 after another; 3) sooner or later, eventually; 4) many times, on different occasions261) {sngon ma dang rjes ma/} 2) {sngon 'jug dang rjes 'jug}43= {rim pa} ānupūrvī, anukramaḥ — ānupūrvī striyāṃ vāvṛt paripāṭī anukramaḥ a.ko.2.7.36.55(1) {sngon ma dang rjes ma/} (2) {sngon 'jug dang rjes 'jug}
+2neither in front, behind nor on the right
+9prefix, suffix and word26{sngon 'jug dang/ rjes 'jug ming gzhi gsum/}55{sngon 'jug dang /} {rjes 'jug} {ming gzhi gsum/}
+91) before and after, 1st and afterward; 2) in order, 1 after another; 3) sooner or later, eventually; 4) many times, on different occasions
+42prāgivajñāna
+43= {sngon rnyed zin pa/}
+43vi. labdhapūrvam — labdhapūrvaṃ na bhāvyate abhi.ko.7.26; yadvihīnaṃ punarlabhyate na tad bhāvyate, bhāvitotsṛṣṭatvāt abhi.bhā./1080.
+0prior; previous2the past8by-gone time, bygone period9the past; earlier, preceding, [in] the past16[MSA]ādi; [MSA]prāñc26{snga rol lam sngon du/ sngon rol nas grabs gshom byed pa/}43• 1. avya. pūrvam — laghuṃ kuryāttathātmānamapramādakathāṃ smaran \n karmāgamādyathā pūrvaṃ sajjaḥ sarvatra vartate bo.a.7.74; prāk — yadā hi kāyaḥ kāraṇaṃ svabhāvo rāgādīnāṃ tadā dehavikārāt prāk tulyarūpameva mano bhavet pra.a.119ka/127; puraḥ — prāptikāle ca yo bādhaḥ tasyābhāvaḥ puraḥ kutaḥ pra.a. 21kha/24; 2.\n\n• vi. ādiḥ — ādiprayogata eva kāruṇyaṃ sattveṣu sū.a.137kha/12; ādyaḥ — ādyā hi yā garbhagatasya buddhiḥ jā.mā.346/201.55{snga rol lam sngon du/} {sngon rol nas grabs gshom byed pa/}
+2before8formerly, of old, anciently9in the past, formerly43=(avya.) pūrvam — pramāṇaṃ grahaṇāt pūrvaṃ svarūpeṇa pratiṣṭhitam ta.sa.106ka/929; prāk — nanu ca prakaraṇaśravaṇāt prāg uktānyapi abhidheyādīni pramāṇābhāvāt prekṣāvadbhirna gṛhyante nyā.ṭī.37ka/13.
+8previously, before42pūrvam
+2in bygone times42prāk
+9foreknowledge, foresight, providence
+8estimation9* budget, preliminary estimate26{sngon tshud nas brgyab pa'i gdeng tshod dam/ bting ba'i rtsis gzhi/}41(adm,acc) budget {las don bye brag pa zhig gi ched du gtang rgyu'i dngul 'bab/}55{sngon tshud nas brgyab pa'i gdeng tshod dam/} {bting ba'i rtsis gzhi/}
+41(adm,acc) budget allocation {las don che ge ma'i ched 'char dngul bag 'grems rgyas bcad/}
+41(adm,acc) appropriation {khrims bza lhan tshogs shig gis gzhung gi 'gro gron mkha sprad kyi bka' 'khral/}
+9* budget commission/ committee
+42ādibuddha
+43vi. āśīviṣapūrvakaḥ — āśīviṣapūrvako devaputraścalavimalakuṇḍaladharaḥ … bhagavataḥ purastānniṣaṇṇo dharmaśravaṇāya a.śa. 140ka/129.
+2former training, previous practice; practice from a previous life8culture of a former birth, early development91) preliminary purification/ training, rehearsal; 2) virtues of previous familiarity and practice261) {sngon su ma byas gong du byed stangs sbyangs pa/ tsha kha sngon byangs/ ltad mo sngon sbyangs/} 2) {snga ma nas byang goms thon pa'i yon tan/ skyes bu dam pa'i sngon sbyangs kyi yon tan/}55(1) {dngos su ma byas gong du byed stangs sbyangs pa/} {tsha kha sngon sbyangs/} {ltad mo sngon sbyangs/} (2) {snga ma nas byang goms thon pa'i yon tan/} {skyes bu dam pa'i sngon sbyangs kyi yon tan/}
+2Karmic continuity of former practice. The continuity of Dharma practice from the previous life
+2the habitual tendency of having formerly trained in transcendent generosity / the perfection of giving9the habitual tendency of having formerly trained in transcendent generosity/ the perfection of giving
+9advance preparation/ study, rehearsal
+31prefix43abhiyogaḥ — vakrā paraṃ krūratarakriyāsu pravartanāyaiva dṛḍhābhiyogā a.ka.50.49.55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }prefix {zer/}
+55{dge bshes bsod nams rgya mtshos rab byung bcu gcig pa'i nang tsam na gser kha dgon las kha gyes te zur du dgon pa btabs par bshad/} {grub mtha' dge lugs pa yin/} {da lta dkar mdzes bod rigs rang skyong khul rta'u rdzong khongs su yod/} {nye char dgon pa 'di jon sde dgon dang tes ro dgon/} {lo gos dgon gsum gcig tu bsdoms par grags/}
+31bring to front; preset; default55{glog klad 'phrul 'khor nang gi dngos po dang bya ba ston pa'i ched spyod tha snyad cig ste/} {dbyin skad du }bringto front {zer/}
+31preset parameter
+8intuition9premonition, foreboding, foreknowledge26{rjes su yong rgyu'i gnas tshul sngon nas shes pa/ khe gyong gang yong sngon shes kyi sgo nas nyo tshong byed thub na tshong pa tshang ma phyug po chags yong/}55{rjes su yong rgyu'i gnas tshul sngon nas shes pa/} {khe gyong gang yong sngon shes kyi sgo nas nyo tshong byed thub na tshong pa tshang ma phyug po chags yong /}
+8first born, born before, elder brother9previously born26{(mngon)} 1) {ske tshe/} 2) {gcen po/} 3) {bram ze/} 4) {tshangs pa/}42agraja, pūrvaja, brāhmaṇa43• vi. 1. = {phu bo} pūrvajaḥ, agrajaḥ — pūrvajastvagriyo'grajaḥ a.ko.2.6.43 2. = {snying pa/} {dang po pa} pratanam — purāṇe pratanapratnapurātanaciraṃtanāḥ a.ko.3.1.5; \n\n• saṃ. 1. = {bram ze} agrajanmā, brāhmaṇaḥ — dvijātyagrajanmabhūdevavāḍavāḥ \n vipraśca brāhmaṇaḥ a.ko.2.7.4 2. = {tshangs pa} agrajanmā, brahmā cho.ko.223/rā.ko.1.11.53（{mngon }）{tshangs pa'i ming / tshig 'di gsar du bcos pa yin/}55〔{mngon}〕 (1) {ske tshe/} (2) {gcen po/} (3) {bram ze/} (4) {tshangs pa/}
+8elder brother42agraja43= {sngon skyes/}45Sanskrit: agraja <Word/Term/Phrase>\n\n\nTibetan renderings of agraja: {jo jo/}, {gcen/}, {sngon skyes pa/}, {sngar skye ba/}, {sngar skyes pa/}\n\nthe first-born, an elder brother\n\nSee the full entry at:https://www.itlr.net/hwid:106751
+9advanced, progressive, forward
+9advance, progress, go forward
+2past wishes / aspirations
+36<person> Pratisarāpūrvin37<person> Pratisarāpūrvin (Skt: pratisarāpūrvin): “He Who Previously Had an Amulet.” The name of a god who had previously been a monk saved from the fruit of his negative deeds by wearing the great amulet. (Original glossary entry: https://84000.co/glossary/entity-43637.html)39<person> pratisarāpūrvin
+0preceding2from the past; x {sngon song bag chags kyi rjes dpyod pa} to follow tendencies from the past8previous lives9already, previously, former, previous21{song/ song/ song/ song/}43= {sngon du song ba/}
+43= {sngon du song ba/}
+2past / former tendencies, tendencies9past/ former tendencies, tendencies
+2preceded, went before
+43= {sngon du song ba nyid/}
+8the (grammatical article)
+9previously experienced
+2your past joys and sorrows are like drawings on water
+24pūrv^anubhūta-carit^anukram^anusmṛti-saṃjñā
+31operator precedence
+31priority
+16[C]paricārikāyām21{spyad/ spyod/ spyad/ spyod/}22[C]having served them in the past
+9take the lead, reach an advanced state
+9combine harvester
+11in the immediacy of what has always been the case
+8advanced9advanced; quickly spreading &, chu tshad mtho tsam yod pas mig dper 'os pa'i rigs, advanced progressive, outstanding, foremost26{yar rgyas mgyogs tsam yod pa dang/ chu tshad mtho tsam yod pas mig dper 'os pa'i rigs/ sngon thon pa/ sngon thon nyams myong/}55{yar rgyas mgyogs tsam yod pa dang /} {chu tshad mtho tsam yod pas mig dper 'os pa'i rigs/} {sngon thon pa/} {sngon thon nyams myong /}
+9outstanding worker
+9outstanding, advanced, 1st class
+9compete w the advanced
+9advanced/ progressive quota/ norm
+9learn from the example of the advanced
+9advanced techniques

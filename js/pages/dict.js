@@ -1,5 +1,5 @@
-/* “词典”栏目：满汉、蒙汉、满汉蒙、清文鉴四部词典。
-   网址：#dict（上次看的那部）、#dict-manhan、#dict-menghan、#dict-manhanmeng、#dict-qingwenjian。
+/* “词典”栏目：满汉、蒙汉、满汉蒙、清文鉴、藏文五部词典。
+   网址：#dict（上次看的那部）、#dict-manhan、#dict-menghan、#dict-manhanmeng、#dict-qingwenjian、#dict-tibetan。
    各词典的设置在 js/dict/dictionaries.js，查询程序在 js/dict/core.js。
    词库只在第一次用到时读入，之后留在内存里，切换栏目、切换词典都不再重读。 */
 (function () {

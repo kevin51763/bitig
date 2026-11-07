@@ -1,8 +1,10 @@
-/* “词典”栏目的查询程序，满汉、蒙汉、满汉蒙、清文鉴四部词典共用。各词典的设置在 js/dict/dictionaries.js。
+/* “词典”栏目的查询程序，各部词典共用。各词典的设置在 js/dict/dictionaries.js。
    一般不需要改动这个文件。
 
    载入顺序：先读较小的检索文件（*.idx.txt），读完即可查询；释义文件（*.def.txt）随后在后台读入，
-   读完后结果自动补上释义。读过的词库留在内存里，切换栏目、切换词典都不必重读。 */
+   读完后结果自动补上释义。读过的词库留在内存里，切换栏目、切换词典都不必重读。
+   特别大的词典（藏文）设 shard：释义分成许多小份，只读当前这一页结果用得到的几份；
+   设 reverse 时，“释义反查”改查另备的反查索引（如英文 → 藏文）。 */
 (function () {
   'use strict';
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
@@ -84,9 +86,12 @@
           '<button type="button" class="dx-clear" aria-label="清空输入" title="清空输入" hidden>' +
           '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></span>' +
           '<select class="dx-mode" aria-label="查询方式"><option value="smart">综合</option><option value="prefix">词首</option>' +
-          '<option value="contain">包含</option><option value="fuzzy">近似拼写</option><option value="def">释义反查</option></select></form>' +
-        '<div class="dx-source">数据来源<b>栗林均词典</b></div>' +
+          '<option value="contain">包含</option><option value="fuzzy">近似拼写</option><option value="def">' + esc(C.defLabel || '释义反查') + '</option></select></form>' +
+        '<div class="dx-source">数据来源' + (C.sourceUrl
+          ? '<a href="' + esc(C.sourceUrl) + '" target="_blank" rel="noopener"><b>' + esc(C.source) + '</b></a>'
+          : '<b>' + esc(C.source || '栗林均词典') + '</b>') + '</div>' +
         '<div class="dx-filters"></div>' +
+        '<div class="dx-dictpanel" hidden></div>' +
         '<div class="dx-legend">' + C.legend + '</div>' +
       '</div>' +
       '<div class="dx-main' + (C.twoPanes ? ' two' : '') + '"><aside class="dx-spine" aria-label="原文"></aside>' +
@@ -122,8 +127,15 @@
         var lines = text.split('\n'), counts = C.dicts.map(function () { return 0; });
         for (var i = 0; i < lines.length; i++) {
           var f = lines[i].split('\t');
-          var e = { i: E.length, key: f[0] || '', script: f[1] || '', mask: +f[2] || 0, alt: f[3] || '' };
-          for (var d = 0; d < C.dicts.length; d++) if (e.mask & (1 << d)) counts[d]++;
+          var e = { i: E.length, key: f[0] || '', script: f[1] || '', mask: 0, alt: f[3] || '' };
+          if (C.listDicts) {
+            // 第三栏是收此词的词典序号，逗号分隔
+            e.dl = f[2] ? f[2].split(',').map(Number) : [];
+            for (var k = 0; k < e.dl.length; k++) counts[e.dl[k]]++;
+          } else {
+            e.mask = +f[2] || 0;
+            for (var d = 0; d < C.dicts.length; d++) if (e.mask & (1 << d)) counts[d]++;
+          }
           E.push(e);
         }
         state = 'index';
@@ -135,6 +147,7 @@
       return loadingIdx;
     }
     function loadDefs() {
+      if (C.shard) return loadIndex();   // 分份的释义按需读取，见 ensureRaw
       if (loadingDef) return loadingDef;
       loadingDef = loadIndex().then(function () { return fetchText(C.data + '.def.txt' + C.ver); }).then(function (text) {
         var lines = text.split('\n'), n = Math.min(lines.length, E.length);
@@ -144,6 +157,50 @@
         pendingDef = false;
       }, function (err) { loadingDef = null; failed(err); });
       return loadingDef;
+    }
+
+    // 分份的释义：读入一批词条所在的那几份，读完后调用 done
+    var SHARDS = {};
+    function ensureRaw(list, done) {
+      var need = {};
+      list.forEach(function (e) { if (e.raw == null) need[Math.floor(e.i / C.shard)] = 1; });
+      var ns = Object.keys(need);
+      if (!ns.length) return false;
+      Promise.all(ns.map(function (n) {
+        if (!SHARDS[n]) SHARDS[n] = fetchText(C.data + '/' + ('000' + n).slice(-4) + '.txt' + C.ver).then(function (text) {
+          var lines = text.split('\n'), base = n * C.shard;
+          for (var j = 0; j < lines.length && base + j < E.length; j++) E[base + j].raw = lines[j];
+        }, function (err) { delete SHARDS[n]; throw err; });
+        return SHARDS[n];
+      })).then(done, function (err) { failed(err); });
+      return true;
+    }
+
+    // 反查索引（如英文 → 藏文词头）：第一次反查时读入
+    var REV = null, loadingRev = null;
+    function loadRev() {
+      if (loadingRev) return loadingRev;
+      loadingRev = fetchText(C.reverse + C.ver).then(function (text) {
+        REV = text.split('\n').map(function (l) { var t = l.indexOf('\t'); return [l.slice(0, t), l.slice(t + 1)]; });
+        run(true);
+      }, function (err) { loadingRev = null; failed(err); });
+      return loadingRev;
+    }
+    function searchRev(q) {
+      var fq = q.toLowerCase().replace(/\s+/g, ' ').trim(), best = {}, out = [];
+      if (!fq) return out;
+      for (var r = 0; r < REV.length; r++) {
+        var t = REV[r][0], sc;
+        if (t === fq) sc = 0;
+        else if (t.indexOf(fq) === 0) sc = 1;
+        else if (t.indexOf(' ' + fq) >= 0) sc = 2;
+        else if (fq.length >= 3 && t.indexOf(fq) >= 0) sc = 3;
+        else continue;
+        sc = sc * 1000 + Math.min(t.length, 999);
+        REV[r][1].split(',').forEach(function (id) { if (!(id in best) || sc < best[id]) best[id] = sc; });
+      }
+      for (var id in best) if (on(E[id], maskOn())) out.push({ i: +id, score: best[id] });
+      return sortOut(out);
     }
 
     // 归并转写：词库读入后趁空闲分批算好，免得第一次查询时卡一下
@@ -174,12 +231,18 @@
 
     // ---------- 匹配 ----------
     function maskOn() { var m = 0; enabled.forEach(function (on, i) { if (on) m |= 1 << i; }); return m; }
+    // 这个词头是否收在已勾选的词典里
+    function on(e, mask) {
+      if (!e.dl) return e.mask & mask;
+      for (var k = 0; k < e.dl.length; k++) if (enabled[e.dl[k]]) return true;
+      return false;
+    }
 
     function searchDefs(q) {
       var out = [], mask = maskOn(), terms = q.split(/\s+/).filter(Boolean);
       for (var i = 0; i < E.length; i++) {
         var e = E[i];
-        if (!(e.mask & mask) || e.raw == null) continue;
+        if (!on(e, mask) || e.raw == null) continue;
         var ok = true;
         for (var t = 0; t < terms.length; t++) if (e.raw.indexOf(terms[t]) < 0) { ok = false; break; }
         if (!ok) continue;
@@ -202,7 +265,7 @@
     }
 
     function search(q, mode) {
-      if (mode === 'def' || CJK.test(q)) return sortOut(searchDefs(q));
+      if (mode === 'def' || CJK.test(q)) return C.reverse ? searchRev(q) : sortOut(searchDefs(q));
       var lang = input().lang, nq = lang.normInput ? lang.normInput(q) : q;
       var fq = foldWith(lang, nq), out = [], mask = maskOn();
       if (!fq) return out;
@@ -217,7 +280,7 @@
       }
       var maxD = fq.length <= 2 ? 0 : fq.length <= 4 ? 1 : 2;
       for (var i = 0; i < E.length; i++) {
-        if (!(E[i].mask & mask)) continue;
+        if (!on(E[i], mask)) continue;
         var items = LL[i], best = Infinity;
         for (var k = 0; k < items.length; k++) {
           var it = items[k];
@@ -284,12 +347,12 @@
           });
         }).join('');
       },
-      seal: function (d) { return '<span class="dx-seal d' + d + '" title="' + esc(C.dicts[d].name) + '">' + esc(C.dicts[d].seal) + '</span>'; },
+      seal: function (d) { return '<span class="dx-seal d' + sealColor(d) + '" title="' + esc(C.dicts[d].name) + '">' + esc(C.dicts[d].seal) + '</span>'; },
       // 左栏的一栏：标题、竖排原文、底部转写与复制按钮
       pane: function (o) {
         var h = '<div class="dx-pane">' + (o.lbl ? '<div class="dx-lbl">' + esc(o.lbl) + '</div>' : '') + '<div class="dx-script">';
         if (!o.script) return h + '<span class="dx-empty">' + esc(o.empty || '原文随输入显示') + '</span></div></div>';
-        return h + '<div class="dx-v" lang="' + (o.lang || '') + '">' + esc(o.script) + '</div></div>' +
+        return h + '<div class="dx-v' + (o.horizontal ? ' h' : '') + '" lang="' + (o.lang || '') + '">' + esc(o.script) + '</div></div>' +
           '<div class="dx-foot"><div class="dx-tl">' + esc(o.tl || '') + '</div>' + (o.from ? '<div class="dx-from">' + esc(o.from) + '</div>' : '') +
           '<button type="button" class="dx-copy" data-copy="' + esc(o.script) + '" data-label="复制' + esc(o.lbl || '原文') + '">复制' + esc(o.lbl || '原文') + '</button></div></div>';
       },
@@ -298,6 +361,7 @@
       alts: alts,
       full: function () { return state === 'full'; }
     };
+    function sealColor(d) { return C.dicts[d].color != null ? C.dicts[d].color : d; }
     function ctx(extra) {
       var o = { q: lastQ, inputId: inputId, input: input(), defMode: defMode, H: H };
       for (var k in extra) o[k] = extra[k];
@@ -310,10 +374,10 @@
       for (var r = from; r < to; r++) {
         var e = E[lastHits[r].i], c = ctx({ e: e });
         var ss = senses(e).filter(function (s) { return enabled[s.d]; });
-        html += '<article class="dx-entry' + (e.i === selected ? ' sel' : '') + '" data-i="' + e.i + '">' +
-          '<div class="dx-col" lang="' + C.colLang + '">' + esc(C.col(e)) + '</div><div class="dx-body">' +
+        html += '<article class="dx-entry' + (C.noCol ? ' nocol' : '') + (e.i === selected ? ' sel' : '') + '" data-i="' + e.i + '">' +
+          (C.noCol ? '' : '<div class="dx-col" lang="' + C.colLang + '">' + esc(C.col(e)) + '</div>') + '<div class="dx-body">' +
           '<div class="dx-headline">' + C.head(e, c) + '</div>' +
-          (state === 'full'
+          (e.raw != null
             ? ss.map(function (s) { return '<div class="dx-sense">' + H.seal(s.d) + '<div>' + C.senseHtml(s, c) + '</div></div>'; }).join('')
             : '<div class="dx-wait">释义载入中…</div>') +
           '</div></article>';
@@ -337,7 +401,7 @@
     }
     function drawStatus() {
       var n = pages(), fuzzyOnly = lastHits.length && lastHits[0].score >= 50000 && !defMode;
-      statusEl.innerHTML = '<span>' + (defMode ? '释义中含“' + esc(lastQ) + '”的词头 ' : '') +
+      statusEl.innerHTML = '<span>' + (defMode ? (C.defPrefix || '释义中含') + '“' + esc(lastQ) + '”的词头 ' : '') +
         '<b>' + lastHits.length.toLocaleString() + '</b> 条结果' +
         (fuzzyOnly ? '，未见完全相符者，以下为拼写相近的词' : '') +
         ' <span class="dx-ms">（' + lastMs + ' 毫秒）</span></span>' +
@@ -348,6 +412,13 @@
     function drawList() {
       var from = page * PAGE, to = Math.min(from + PAGE, lastHits.length);
       listEl.innerHTML = renderEntries(from, to) + pager();
+      if (C.shard) {
+        // 这一页还缺释义的，读入所在的几份后重画（期间若已换页、换词就不管了）
+        var hits = lastHits, pg = page;
+        ensureRaw(hits.slice(from, to).map(function (h) { return E[h.i]; }), function () {
+          if (hits === lastHits && pg === page) { var st = resultsEl.scrollTop; drawList(); resultsEl.scrollTop = st; }
+        });
+      }
     }
     function goPage(n) {
       n = Math.max(0, Math.min(pages() - 1, n));
@@ -370,7 +441,7 @@
       if (!keepScroll) selected = -1;
       if (!q) {
         lastHits = []; lastQ = '';
-        statusEl.innerHTML = state !== 'none' ? '词库共 <b>' + E.length.toLocaleString() + '</b> 个词头' : '正在载入词库…';
+        statusEl.innerHTML = '<span>' + (state !== 'none' ? '词库共 <b>' + E.length.toLocaleString() + '</b> 个词头' : '正在载入词库…' + (C.loadingNote ? '（' + esc(C.loadingNote) + '）' : '')) + '</span>';
         listEl.innerHTML = '<div class="dx-note">' + C.intro + '</div>';
         drawSpine(); return;
       }
@@ -378,7 +449,12 @@
       defMode = mode === 'def' || CJK.test(q);
       if (state === 'none') { drawSpine(); return; }
       if (!enabled.some(Boolean)) { statusEl.textContent = '未选择词典。请在上方至少勾选一部。'; listEl.innerHTML = ''; drawSpine(); return; }
-      if (defMode && state !== 'full') {
+      if (defMode && C.reverse && !REV) {
+        lastHits = []; lastQ = q; loadRev();
+        statusEl.textContent = '正在载入反查索引…';
+        listEl.innerHTML = ''; drawSpine(); return;
+      }
+      if (defMode && !C.reverse && state !== 'full') {
         pendingDef = true; lastHits = []; lastQ = q;
         statusEl.textContent = '释义还在载入，载入后自动显示反查结果…';
         listEl.innerHTML = ''; drawSpine(); return;
@@ -430,6 +506,8 @@
       if (pg) { if (!pg.disabled) goPage(+pg.getAttribute('data-pg')); return; }
       if (ev.target.closest('.dx-clear')) { qEl.value = ''; run(); qEl.focus(); return; }
       if (ev.target.closest('.dx-spine-btn')) { setSpine(!spineHidden()); return; }
+      var pk = ev.target.closest('.dx-pick');
+      if (pk) { panelEl.hidden = !panelEl.hidden; pk.setAttribute('aria-expanded', !panelEl.hidden); return; }
       if (ev.target.closest('.dx-legend-btn')) {
         var open = q$('.dx-legend').classList.toggle('open'); ev.target.setAttribute('aria-expanded', open); return;
       }
@@ -466,10 +544,12 @@
           return '<button type="button" class="dx-segbtn" data-input="' + x.id + '" aria-pressed="' + (x.id === inputId) + '">' + esc(x.label) + '</button>';
         }).join('') + '</span>';
       }
-      if (C.dicts.length > 1) {
+      if (C.groups) {
+        html += '<span class="dx-grp"><span>词典来源</span><button type="button" class="dx-pick" aria-expanded="' + !panelEl.hidden + '">' + pickLabel() + '</button></span>';
+      } else if (C.dicts.length > 1) {
         html += '<span class="dx-grp"><span>词典来源</span>' + C.dicts.map(function (d, i) {
           return '<label class="dx-toggle"><input type="checkbox" data-d="' + i + '"' + (enabled[i] ? ' checked' : '') + '>' +
-            '<span class="dx-seal d' + i + '">' + esc(d.seal) + '</span><span class="dx-name">' + esc(d.name) + '</span>' +
+            '<span class="dx-seal d' + sealColor(i) + '">' + esc(d.seal) + '</span><span class="dx-name">' + esc(d.name) + '</span>' +
             (counts ? '<span class="dx-n">' + counts[i].toLocaleString() + '</span>' : '') + '</label>';
         }).join('') + '</span>';
       } else {
@@ -483,7 +563,42 @@
       f.querySelectorAll('input[data-d]').forEach(function (cb) {
         cb.addEventListener('change', function () { enabled[+cb.getAttribute('data-d')] = cb.checked; store.set('dicts', enabled); run(); });
       });
+      if (C.groups) buildPanel(counts);
     }
+    // 词典很多（藏文）时，来源放在可展开的面板里，按语种分组，每组可全选、全不选
+    var panelEl = q$('.dx-dictpanel'), lastCounts = null;
+    function pickLabel() { return '已选 ' + enabled.filter(Boolean).length + ' / ' + C.dicts.length + ' 部'; }
+    function buildPanel(counts) {
+      lastCounts = counts || lastCounts;
+      panelEl.innerHTML = C.groups.map(function (g) {
+        var ids = C.dicts.map(function (d, i) { return d.group === g.id ? i : -1; }).filter(function (i) { return i >= 0; });
+        return '<section class="dx-pgroup"><h4>' + esc(g.label) + '<button type="button" data-all="' + g.id + '">全选</button>' +
+          '<button type="button" data-none="' + g.id + '">全不选</button></h4><div class="dx-pgrid">' +
+          ids.map(function (i) {
+            var d = C.dicts[i];
+            return '<label class="dx-toggle" title="' + esc((d.about || []).join('\n')) + '"><input type="checkbox" data-pd="' + i + '"' + (enabled[i] ? ' checked' : '') + '>' +
+              '<span class="dx-seal d' + sealColor(i) + '">' + esc(d.seal) + '</span><span class="dx-name">' + esc(d.name) +
+              (d.about && d.about[0] && d.about[0] !== d.name ? '<small>' + esc(d.about[0]) + '</small>' : '') + '</span>' +
+              (lastCounts ? '<span class="dx-n">' + lastCounts[i].toLocaleString() + '</span>' : '') + '</label>';
+          }).join('') + '</div></section>';
+      }).join('') + (C.panelNote ? '<p class="dx-pnote">' + C.panelNote + '</p>' : '');
+    }
+    function setEnabled(ids, v) {
+      ids.forEach(function (i) { enabled[i] = v; });
+      store.set('dicts', enabled);
+      buildPanel(); var b = q$('.dx-pick'); if (b) b.textContent = pickLabel();
+      run(true);
+    }
+    panelEl.addEventListener('change', function (ev) {
+      var cb = ev.target.closest('[data-pd]');
+      if (cb) setEnabled([+cb.getAttribute('data-pd')], cb.checked);
+    });
+    panelEl.addEventListener('click', function (ev) {
+      var a = ev.target.closest('[data-all],[data-none]');
+      if (!a) return;
+      var g = a.getAttribute('data-all') || a.getAttribute('data-none');
+      setEnabled(C.dicts.map(function (d, i) { return d.group === g ? i : -1; }).filter(function (i) { return i >= 0; }), a.hasAttribute('data-all'));
+    });
 
     modeEl.value = store.get('mode', 'smart');
     qEl.value = store.get('q', '') || '';
