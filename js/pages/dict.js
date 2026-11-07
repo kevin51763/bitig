@@ -44,37 +44,51 @@
     else window.addEventListener('resize', headH);
     watchScroll();
   }
-  /* 手机上：结果往下滑时收起页头、词典顶栏和左栏，只留结果；往上滑或回到顶部时再显示。电脑端不收。
-     收起时页头高度为 0，ResizeObserver 会把 --head-h 改成 0，词典随之占满整屏。 */
+  /* 手机上：整页滚动。往下滑时页头、词典顶栏和原文栏一起滑出屏幕，只留结果数一行；往上滑时滑回。
+     电脑端不收。具体的位置和动画在 css/dict.css 末尾。 */
   const narrow = window.matchMedia('(max-width: 760px)');
-  let lock = 0;
+  let collapsed = false, lastY = 0, acc = 0;
   function setCollapsed(on) {
-    if (document.body.classList.contains('dx-collapsed') === on) return;
+    if (collapsed === on) return;
+    collapsed = on;
     document.body.classList.toggle('dx-collapsed', on);
-    lock = Date.now() + 350;   // 收放会改变列表高度、引起一次滚动，这段时间里不再判断，免得来回跳
   }
+  // 量出页头、当前词典顶栏、原文栏的高度，供吸顶和滑出的位置用
+  function measure() {
+    const root = document.documentElement.style, panel = document.querySelector('.dx-panel:not([hidden])');
+    const h = sel => { const el = panel && panel.querySelector(sel); return el ? el.offsetHeight : 0; };
+    root.setProperty('--sh', document.querySelector('.site-head').offsetHeight + 'px');
+    root.setProperty('--dh', h('.dx-head') + 'px');
+    root.setProperty('--sp', h('.dx-spine') + 'px');
+    return document.querySelector('.site-head').offsetHeight + h('.dx-head') + h('.dx-spine');
+  }
+  let ro = null;
   function watchScroll() {
-    const last = new WeakMap(), acc = new WeakMap();
-    $('v-dict').addEventListener('scroll', e => {
-      const t = e.target;
-      if (!t.classList || !t.classList.contains('dx-results')) return;
-      const y = t.scrollTop, d = y - (last.get(t) || 0);
-      last.set(t, y);
+    if (window.ResizeObserver) ro = new ResizeObserver(() => measure());
+    window.addEventListener('scroll', () => {
+      if (!document.body.classList.contains('in-dict')) return;
+      const y = window.scrollY, d = y - lastY;
+      lastY = y;
       if (!narrow.matches) return setCollapsed(false);
-      if (Date.now() < lock) return;
-      if (y < 30) { acc.set(t, 0); return setCollapsed(false); }
-      // 同一方向累计滑过 40 像素才收放，轻微抖动不算
-      const a = acc.get(t) || 0, n = (a > 0) === (d > 0) ? a + d : d;
-      acc.set(t, n);
-      if (n > 40) setCollapsed(true);
-      else if (n < -40) setCollapsed(false);
-    }, true);
-    narrow.addEventListener('change', () => setCollapsed(false));
+      // 上方内容还没整个滚过去时不收，否则会把结果数一行也推出屏幕
+      if (y < measure() + 10) { acc = 0; return setCollapsed(false); }
+      // 同一方向累计滑过 30 像素才收放，轻微抖动不算
+      acc = (acc > 0) === (d > 0) ? acc + d : d;
+      if (acc > 30) setCollapsed(true);
+      else if (acc < -30) setCollapsed(false);
+    }, { passive: true });
+    narrow.addEventListener('change', () => { setCollapsed(false); measure(); });
+  }
+  function observe(id) {
+    if (!ro) return;
+    const p = $('dx-' + id);
+    ro.observe(document.querySelector('.site-head'));
+    ['.dx-head', '.dx-spine'].forEach(sel => { const el = p.querySelector(sel); if (el) ro.observe(el); });
   }
 
   function app(id) {
     build();
-    if (!apps[id]) apps[id] = SIYI.DictApp(cfgOf(id), $('dx-' + id), tabs(id));
+    if (!apps[id]) { apps[id] = SIYI.DictApp(cfgOf(id), $('dx-' + id), tabs(id)); observe(id); }
     return apps[id];
   }
   function lastId() {
@@ -90,7 +104,7 @@
       SIYI.dictConfigs.forEach(c => { $('dx-' + c.id).hidden = c.id !== id; });
       $('dict-h1').textContent = cfgOf(id).title;
       setCollapsed(false);
-      headH();
+      headH(); measure();
       apps[id].show();
       // 稍后趁空闲预读另外两部的检索文件，切换过去时不用等
       setTimeout(() => idle(() => SIYI.dictConfigs.forEach(c => app(c.id).prefetch())), 3000);

@@ -381,6 +381,13 @@
       }
       return html;
     }
+    // 回到结果列表顶部：电脑上结果区自己滚动；手机上是整页滚动，回到结果数一行
+    function toTop() {
+      if (getComputedStyle(resultsEl).overflowY !== 'visible') { resultsEl.scrollTop = 0; return; }
+      var y = resultsEl.getBoundingClientRect().top + window.scrollY - (parseFloat(getComputedStyle(statusEl).top) || 0);
+      if (window.scrollY > y) window.scrollTo(0, Math.max(0, y));
+    }
+
     // ---------- 翻页 ----------
     function pages() { return Math.max(1, Math.ceil(lastHits.length / PAGE)); }
     // 页码：首页、末页、当前页前后两页，其余用省略号
@@ -422,7 +429,7 @@
       if (n === page) return;
       page = n; selected = -1;
       drawStatus(); drawList(); drawSpine();
-      resultsEl.scrollTop = 0;
+      toTop();
     }
 
     function drawSpine() {
@@ -471,7 +478,7 @@
         return;
       }
       drawList();
-      if (!keepScroll) resultsEl.scrollTop = 0;
+      if (!keepScroll) toTop();
     }
 
     var timer = 0;

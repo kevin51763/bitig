@@ -55,6 +55,9 @@ var SIYI = globalThis.SIYI = {
     if (document.body) show(); else document.addEventListener('DOMContentLoaded', show);
   };
   if (typeof window !== 'undefined') window.addEventListener('error', e => {
+    // 浏览器自身的提示（如 ResizeObserver loop…）、浏览器插件或页面以外脚本的报错，都与本站文件无关，不报
+    if (/ResizeObserver loop/.test(e.message || '')) return;
+    if (!e.lineno && e.filename && !/\.js(\?|$)/.test(e.filename)) return;
     const cur = document.currentScript && document.currentScript.getAttribute('src');
     const f = (e.filename || '').replace(location.href.replace(/[#?].*$/, '').replace(/[^/]*$/, ''), '') || cur || '某个文件';
     if (!e.lineno || /^Script error/.test(e.message)) SIYI.problem(`${f} 有写法错误（常见的是漏了逗号、引号或括号）。双击打开时看不到具体行号，用 README 里的“本地预览”方法打开即可看到。`);
