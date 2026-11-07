@@ -65,26 +65,23 @@
 .say-src { margin: 0; font-size: .78rem; color: var(--scroll-soft); }
 .say-src::before { content: "—— "; }
 
-/* ---------- 查词框 ---------- */
-.dict-card { border: 1px solid var(--seal); border-left-width: 4px; background: var(--sheet); border-radius: 6px; padding: .9rem 1.1rem; display: flex; flex-direction: column; gap: .7rem; align-items: stretch; }
-.dict-card h2 { margin: 0; font-size: 1.05rem; }
-.dict-card p { margin: .2rem 0 0; font-size: .85rem; color: var(--ink-soft); text-align: justify; }
-.dict-card .links { display: flex; flex-wrap: wrap; gap: .5rem; }
-.dict-card .links a { font-size: .9rem; color: var(--seal); border: 1px solid var(--seal); border-radius: 5px; padding: .35rem .8rem; text-decoration: none; font-weight: 600; }
-.dict-card .links a:hover { background: var(--seal); color: var(--sheet); }
-
-/* ---------- 编辑器入口卡片 ---------- */
-/* 卡片一样高：示例字放在固定大小的格子里，右边只写语言名 */
+/* ---------- 首页卡片：查词、对照转写 ---------- */
+/* 卡片一样高：左边是固定大小的格子（示例字或书本图标），右边只写名字 */
 .tool-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .75rem; margin-top: .75rem; }
 .tool-card { display: flex; gap: 1rem; align-items: center; height: 6rem; padding: 0 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; color: var(--ink); text-decoration: none; min-width: 0; overflow: hidden; }
 .tool-card:hover { border-color: var(--lapis); }
 .tool-card .glyph { flex: none; width: 4rem; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; line-height: 1.2; color: var(--lapis); white-space: nowrap; }
 .tool-card .glyph.v { writing-mode: vertical-lr; font-size: 1.4rem; }
 .tool-card .glyph.rot { writing-mode: vertical-rl; text-orientation: sideways; transform: rotate(180deg); font-size: 1.5rem; }
-.tool-card b { font-size: 1rem; white-space: nowrap; }
+.tool-card b { font-size: 1rem; line-height: 1.35; min-width: 0; }
 #home-texts { margin-top: .6rem; }
 
 @media (max-width: 560px) {
   .wordmark { font-size: 3.4rem; }
   .saying { padding-right: 0; padding-top: 1.4rem; }
+  /* 手机上转写卡片两列，左边格子收窄（察合台文较宽，可以撑开）；词典名长，排成一列 */
+  .tool-card { gap: .7rem; padding: 0 .8rem; }
+  .tool-card .glyph { width: auto; min-width: 2.75rem; }
+  #home-dict-links { grid-template-columns: 1fr; }
+  #home-dict-links .tool-card { height: 3.75rem; }
 }

@@ -2,6 +2,7 @@
 (function () {
   const $ = SIYI.$, esc = SIYI.esc;
   let built = false;
+  const BOOK = '<svg viewBox="0 0 16 16" width="30" height="30" aria-hidden="true"><path d="M2.5 3.2c1.9-.6 3.8-.4 5.5.8 1.7-1.2 3.6-1.4 5.5-.8v9.3c-1.9-.6-3.8-.4-5.5.8-1.7-1.2-3.6-1.4-5.5-.8zM8 4v9.3" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/></svg>';
 
   function build() {
     const site = SIYI.config.site, D = SIYI.dictionaries;
@@ -17,7 +18,12 @@
     $('home-dicts').hidden = !list.length && !D.intro;
     $('home-dict-intro').textContent = D.intro || '';
     $('home-dict-intro').hidden = !D.intro;
-    $('home-dict-links').innerHTML = list.map(SIYI.dictLink).join('');
+    // 词典卡片和下面“对照转写”的卡片同一个样子，左边是书本图标
+    $('home-dict-links').innerHTML = list.map(d => {
+      const out = /^https?:/.test(d.url || '');
+      return `<a class="tool-card" href="${esc(d.url)}"${out ? ' target="_blank" rel="noopener"' : ''}>
+        <span class="glyph">${BOOK}</span><b>${esc(d.name)}${out ? ' ↗' : ''}</b></a>`;
+    }).join('');
 
     const tools = SIYI.languages.filter(l => l.editor && !l.hidden);
     $('home-tools-sec').hidden = !tools.length;
