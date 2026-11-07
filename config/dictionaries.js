@@ -11,7 +11,7 @@ SIYI.dictionaries = {
     { name: '栗林均满汉词典', url: '#dict-manhan', langs: ['mnc'] },
     { name: '栗林均蒙汉词典', url: '#dict-menghan', langs: ['mn'] },
     { name: '栗林均满汉蒙词典', url: '#dict-manhanmeng', langs: ['mnc', 'mn'] },
-    { name: '栗林均清文鑑', url: '#dict-qingwenjian', langs: ['mnc', 'mn'] },
+    { name: '栗林均清文鉴词典', url: '#dict-qingwenjian', langs: ['mnc', 'mn'] },
     { name: 'Steinert 藏英词典', url: 'https://dictionary.christian-steinert.de/', langs: ['bo'] },
 
     // 例：再加一部词典，照上面的格式写一行

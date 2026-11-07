@@ -1,7 +1,7 @@
 """把栗林均词典的 CSV 整理成网页用的词库文件（dict/data/*.txt），网站“词典”栏目读取这些文件。
 
 用法（在仓库根目录运行，三个参数分别是三份 CSV，不需要的可以不给）：
-    python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv --qingwenjian 清文鑑.csv
+    python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv --qingwenjian 清文鉴.csv
 
 每部词典生成检索文件和释义文件两个，格式见 write() 的说明。网页先载入较小的检索文件，释义随后在后台载入。
 """
@@ -211,8 +211,9 @@ def manhanmeng(path):
     write('manhanmeng', out, lambda k, g: same_or(g['script'], to_mongolian(k, True)), alt)
 
 
-# ---------- 清文鑑 ----------
+# ---------- 清文鉴 ----------
 def qingwenjian(path):
+    # 书名须与 CSV“词典”栏的写法一致，所以这里用“鑑”；网页上显示的书名在 js/dict/dictionaries.js，用“鉴”
     dicts = ['増訂清文鑑', '満蒙清文鑑', '五体清文鑑', '三合切音清文鑑', '大清全書']
     note = re.compile(r'\s*\[[^\]]*\]')
     groups = collections.OrderedDict()

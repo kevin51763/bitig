@@ -173,9 +173,9 @@
     };
   })();
 
-  /* ---------- 清文鑑 ---------- */
+  /* ---------- 清文鉴 ---------- */
   var qingwenjian = (function () {
-    var NAMES = ['増訂清文鑑', '満蒙清文鑑', '五体清文鑑', '三合切音清文鑑', '大清全書'], SEALS = ['增', '蒙', '五', '三', '全'];
+    var NAMES = ['増訂清文鉴', '満蒙清文鉴', '五体清文鉴', '三合切音清文鉴', '大清全書'], SEALS = ['增', '蒙', '五', '三', '全'];
     var D = MNC.display;
     var clean = function (s) { return s.replace(/\[[^\]]*\]/g, '').replace(/\s*\/\s*\d+\s*$/, '').trim(); };
     var foldMn = function (s) { var o = ''; for (var i = 0; i < s.length; i++) o += MN.foldChar(s[i]); return o.replace(/\s+/g, ' ').trim(); };
@@ -201,7 +201,7 @@
       }).join('');
     }
     return {
-      id: 'qingwenjian', tab: '清文鑑', title: '清文鑑', data: 'dict/data/qingwenjian', ver: VER, colLang: 'mnc', twoPanes: true,
+      id: 'qingwenjian', tab: '清文鉴', title: '清文鉴词典', data: 'dict/data/qingwenjian', ver: VER, colLang: 'mnc', twoPanes: true,
       dicts: NAMES.map(function (n, i) { return { name: n, seal: SEALS[i] }; }),
       inputs: [
         { id: 'mnc', label: '满文转写', lang: MNC, placeholder: '输入满文转写，如 abka、bithe；也可输入汉字反查' },
@@ -237,7 +237,7 @@
         return c.H.pane(mnc) + c.H.pane(mn);
       },
       intro: '<h2>输入满文或蒙古文转写开始查询</h2>' +
-        '<p>收増訂清文鑑、満蒙清文鑑、五体清文鑑、三合切音清文鑑、大清全書五部，可分别勾选。増訂、満蒙两部以满文释满文，五体附日文译释，大清全書附汉文释义；释义里的满文词点一下即可查询。左栏并列满文和蒙古文，蒙古文原文由转写生成。</p>' +
+        '<p>收増訂清文鉴、満蒙清文鉴、五体清文鉴、三合切音清文鉴、大清全書五部，可分别勾选。増訂、満蒙两部以满文释满文，五体附日文译释，大清全書附汉文释义；释义里的满文词点一下即可查询。左栏并列满文和蒙古文，蒙古文原文由转写生成。</p>' +
         '<p>' + eg(['abka', 'bithe', 'morin', 'aššafi'], 'mnc') + eg(['tngri', 'bičig'], 'mn') + eg(['天', '書']) + '</p>'
     };
   })();

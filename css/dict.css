@@ -122,7 +122,7 @@ body.in-dict .site-foot { display: none; }
 .dx-src { font-size: 12px; color: var(--ink-soft); margin-right: 8px; white-space: nowrap; }
 .dx-src i { font-family: var(--latin); font-style: normal; }
 .dx-alt { font-family: var(--latin); font-size: 15px; color: var(--ink-soft); margin-right: 8px; }
-/* 清文鑑的释义（满文、日文或汉文）另起一行 */
+/* 清文鉴的释义（满文、日文或汉文）另起一行 */
 .dx-ex { display: block; margin-top: 2px; }
 .dx-eq { display: block; margin-top: 2px; font-size: 14px; color: var(--ink-soft); }
 .dx-k { margin-right: 6px; }

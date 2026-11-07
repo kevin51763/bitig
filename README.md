@@ -123,7 +123,7 @@ python3 -m http.server 8000
 
 ### 词典栏目
 
-页头的“词典”栏目里有满汉、蒙汉、满汉蒙、清文鑑四部词典，数据来自栗林均词典。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`。
+页头的“词典”栏目里有满汉、蒙汉、满汉蒙、清文鉴四部词典，数据来自栗林均词典。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`。
 
 ```
 js/dict/dictionaries.js   各部词典的设置（显示什么、怎样排）
@@ -141,7 +141,7 @@ dict/tools/build_data.py  从 CSV 生成词库的脚本
 拿到新版 CSV 后，在仓库最外层运行（不需要的一份可以不给）：
 
 ```
-python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv --qingwenjian 清文鑑.csv
+python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv --qingwenjian 清文鉴.csv
 ```
 
 然后把 `js/dict/dictionaries.js` 开头 `VER` 的日期改新再上传。词库要通过网址读取，双击打开 `index.html` 时词典会提示载入失败，请用“本地预览”的方法打开。
