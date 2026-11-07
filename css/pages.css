@@ -15,7 +15,6 @@
 .reader-head { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; align-items: flex-start; justify-content: space-between; }
 .reader-head h1 { margin: 0; font-family: var(--f-zh); font-size: 2.1rem; font-weight: 600; letter-spacing: .08em; text-wrap: balance; }
 .reader-head .sub { margin: .25rem 0 0; color: var(--ink-soft); }
-#v-text { max-width: 84rem; }
 iframe.tframe { display: block; width: 100%; height: 80vh; border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); }
 
 /* ---------- 资料 ---------- */

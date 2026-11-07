@@ -11,8 +11,8 @@
 body.in-dict .site-foot { display: none; }
 .dx-panel {
   height: 100%; display: grid; grid-template-rows: auto 1fr; min-height: 0;
-  /* 与首页版心（.wrap）同宽 */
-  max-width: 64rem; margin: 0 auto;
+  /* 与各栏目版心（.wrap）同宽 */
+  max-width: 92rem; margin: 0 auto;
   padding: 14px max(16px, env(safe-area-inset-right, 0px)) 16px max(16px, env(safe-area-inset-left, 0px));
 }
 
@@ -151,16 +151,19 @@ body.in-dict .site-foot { display: none; }
   .dx-search { grid-column: 1 / -1; grid-row: 2; }
   .dx-filters, .dx-legend { grid-column: 1 / -1; grid-row: auto; }
   .dx-q { font-size: 19px; }
-  .dx-main, .dx-main.two { grid-template-columns: 1fr; grid-template-rows: 140px 1fr; }
-  .dx-pane { flex-direction: row; }
+  /* 手机上原文栏压成一行：原文横排，右边一个复制按钮，把屏幕留给查询结果 */
+  .dx-main, .dx-main.two { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .dx-pane { flex-direction: row; align-items: center; min-width: 0; }
   .dx-lbl { display: none; }
-  .dx-script { padding: 10px 12px; justify-content: flex-start; }
-  .dx-v, .dx-main.two .dx-v { font-size: 32px; }
-  .dx-foot { border-top: 0; border-left: 1px solid var(--scroll-rule); width: 46%; padding: 10px 12px; }
-  .dx-main.two .dx-pane { flex-direction: column; }
-  .dx-main.two .dx-foot { width: auto; border-left: 0; border-top: 1px solid var(--scroll-rule); padding: 4px 10px; }
-  .dx-main.two .dx-copy, .dx-main.two .dx-from { display: none; }
-  .dx-main.two .dx-script { padding: 6px 10px; }
+  .dx-script { padding: 6px 12px; justify-content: flex-start; align-items: center; overflow-x: auto; scrollbar-width: none; }
+  .dx-script::-webkit-scrollbar { display: none; }
+  .dx-v, .dx-main.two .dx-v, .dx-empty { writing-mode: horizontal-tb; white-space: nowrap; max-height: none; }
+  .dx-v, .dx-main.two .dx-v { font-size: 24px; line-height: 40px; }
+  .dx-empty { font-size: 13px; letter-spacing: .1em; line-height: 40px; }
+  .dx-foot { flex: none; border-top: 0; padding: 0 12px 0 0; }
+  .dx-foot .dx-tl, .dx-from { display: none; }
+  .dx-copy { margin-top: 0; }
+  .dx-main.two .dx-copy { display: none; }
   .dx-status { padding: 8px 14px; }
   .dx-list { padding: 0 14px 0 17px; }
   .dx-entry { grid-template-columns: 34px 1fr; column-gap: 12px; }

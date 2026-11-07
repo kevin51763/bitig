@@ -17,7 +17,25 @@
   $('foot-name').textContent = site.title;
   $('foot-meta').textContent = site.footer || '';
 
-  const VIEWS = ['v-home', 'v-texts', 'v-mats', 'v-tri', 'v-mm', 'v-text', 'v-says', 'v-dict'];
+  /* 页头只占一行。放不下时可以左右滑动：右边缘淡出作提示，当前栏目自动滑到看得见的地方 */
+  const head = document.querySelector('.site-head'), bar = head.querySelector('.in');
+  function edge() {
+    head.classList.toggle('scrolls', bar.scrollWidth > bar.clientWidth + 1);
+    head.classList.toggle('at-end', bar.scrollLeft + bar.clientWidth >= bar.scrollWidth - 2);
+  }
+  function revealNav() {
+    const a = bar.querySelector('a[aria-current="page"][data-nav]');
+    if (a && bar.scrollWidth > bar.clientWidth) {
+      const r = a.getBoundingClientRect(), b = bar.getBoundingClientRect(), brand = $('brand').getBoundingClientRect();
+      const left = r.left - brand.right - 8, right = r.right - b.right + 32;
+      if (left < 0) bar.scrollLeft += left; else if (right > 0) bar.scrollLeft += right;
+    } else if (!a) bar.scrollLeft = 0;
+    edge();
+  }
+  bar.addEventListener('scroll', edge, { passive: true });
+  window.addEventListener('resize', edge);
+
+  const VIEWS =['v-home', 'v-texts', 'v-mats', 'v-tri', 'v-mm', 'v-text', 'v-says', 'v-dict'];
   function route() {
     const h = (location.hash || '#home').slice(1);
     let view = 'v-home', nav = 'home';
@@ -33,6 +51,7 @@
     VIEWS.forEach(id => { $(id).hidden = id !== view; });
     document.body.classList.toggle('in-dict', view === 'v-dict');
     document.querySelectorAll('[data-nav]').forEach(a => { if (a.dataset.nav === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+    revealNav();
 
     if (view === 'v-tri') {
       $('tri-h1').textContent = tool.name + '对照转写';
@@ -59,4 +78,5 @@
 
   window.addEventListener('hashchange', route);
   route();
+  if (document.fonts) document.fonts.ready.then(revealNav);   // 字体载入后导航宽度会变
 })();

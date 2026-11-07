@@ -3,20 +3,35 @@
 /* ---------- 页头 ---------- */
 .site-head { position: sticky; top: 0; z-index: 10; background: var(--sheet); border-bottom: 1px solid var(--rule); padding-top: env(safe-area-inset-top, 0px); }
 .site-head .in {
-  max-width: 76rem; margin: 0 auto; padding-block: .7rem;
+  max-width: 92rem; margin: 0 auto; padding-block: .7rem;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
-  display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.25rem;
+  display: flex; flex-wrap: nowrap; align-items: center; gap: 1.25rem;
+  /* 始终只占一行：屏幕放不下时，导航可以左右滑动，网站名固定在左边 */
+  overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
 }
-.brand { font-family: var(--f-lat); font-style: italic; font-weight: 400; font-size: 1.7rem; letter-spacing: .02em; line-height: 1; color: var(--ink); text-decoration: none; white-space: nowrap; }
-.nav { display: flex; flex-wrap: wrap; gap: .15rem; }
+.site-head .in::-webkit-scrollbar { display: none; }
+/* 网站名固定在左边，导航从它下面滑过；阴影盖住左边的留白和右侧一小段 */
+.brand { position: sticky; left: 0; z-index: 1; flex: none; background: var(--sheet);
+  padding: .25rem .5rem .25rem 0; margin-right: -.5rem;
+  box-shadow: calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 0 0 0 var(--sheet);
+  font-family: var(--f-lat); font-style: italic; font-weight: 400; font-size: 1.7rem; letter-spacing: .02em; line-height: 1; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.nav { display: flex; flex: none; gap: .15rem; }
 .nav:first-of-type { margin-right: auto; }
-.nav a { color: var(--ink-soft); text-decoration: none; font-size: .9rem; padding: .3rem .6rem; border-radius: 5px; }
+.nav a { color: var(--ink-soft); text-decoration: none; font-size: .9rem; padding: .3rem .6rem; border-radius: 5px; white-space: nowrap; }
 .nav a:hover { color: var(--ink); background: var(--paper); }
 .nav a[aria-current="page"] { color: var(--sheet); background: var(--lapis); }
+/* 导航放不下时（由 js/router.js 判断），右边缘淡出，提示还能往左滑 */
+.site-head.scrolls::after { content: ""; position: absolute; top: env(safe-area-inset-top, 0px); right: 0; bottom: 0; width: 2.5rem; pointer-events: none;
+  background: linear-gradient(to right, transparent, var(--sheet)); }
+.site-head.scrolls.at-end::after { display: none; }
+@media (max-width: 560px) {
+  .site-head .in { gap: .75rem; padding-block: .55rem; }
+  .brand { font-size: 1.5rem; }
+}
 
 /* ---------- 页脚 ---------- */
 .site-foot { border-top: 1px solid var(--rule); background: var(--sheet); margin-top: auto; }
-.site-foot .in { max-width: 76rem; margin: 0 auto; padding-block: .9rem calc(.9rem + env(safe-area-inset-bottom, 0px));
+.site-foot .in { max-width: 92rem; margin: 0 auto; padding-block: .9rem calc(.9rem + env(safe-area-inset-bottom, 0px));
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; font-size: .82rem; color: var(--ink-soft); }
 .foot-name { font-family: var(--f-lat); font-style: italic; font-size: 1.15rem; color: var(--seal); }
@@ -59,14 +74,14 @@
 .dict-card .links a:hover { background: var(--seal); color: var(--sheet); }
 
 /* ---------- 编辑器入口卡片 ---------- */
-.tool-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: .75rem; margin-top: .75rem; }
-.tool-card { display: flex; gap: .9rem; align-items: center; padding: .85rem 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; color: var(--ink); text-decoration: none; min-width: 0; }
+/* 卡片一样高：示例字放在固定大小的格子里，右边只写语言名 */
+.tool-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .75rem; margin-top: .75rem; }
+.tool-card { display: flex; gap: 1rem; align-items: center; height: 6rem; padding: 0 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; color: var(--ink); text-decoration: none; min-width: 0; overflow: hidden; }
 .tool-card:hover { border-color: var(--lapis); }
-.tool-card .glyph { font-size: 1.6rem; line-height: 1.2; min-width: 2.4rem; text-align: center; color: var(--lapis); }
-.tool-card .glyph.v { writing-mode: vertical-lr; font-size: 1.5rem; }
+.tool-card .glyph { flex: none; width: 4rem; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; line-height: 1.2; color: var(--lapis); white-space: nowrap; }
+.tool-card .glyph.v { writing-mode: vertical-lr; font-size: 1.4rem; }
 .tool-card .glyph.rot { writing-mode: vertical-rl; text-orientation: sideways; transform: rotate(180deg); font-size: 1.5rem; }
-.tool-card b { display: block; font-size: 1rem; }
-.tool-card span.d { display: block; font-size: .8rem; color: var(--ink-soft); }
+.tool-card b { font-size: 1rem; white-space: nowrap; }
 #home-texts { margin-top: .6rem; }
 
 @media (max-width: 560px) {

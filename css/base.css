@@ -10,7 +10,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 
 /* 版心：每个栏目的外框 */
 .wrap {
-  max-width: 64rem; margin: 0 auto;
+  max-width: 92rem; margin: 0 auto;
   padding-block: 1.75rem 3rem;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));

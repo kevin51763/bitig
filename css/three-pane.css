@@ -79,7 +79,6 @@ details.box .inner { padding: 0 1rem 1rem; display: flex; flex-direction: column
 }
 
 /* ---------- 三栏并排：宽屏时原文、换写、转写左右排开，一屏看全 ---------- */
-#v-tri.wrap { max-width: 92rem; }
 .tri-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
 .tri-grid .pane { display: flex; flex-direction: column; min-width: 0; }
 .tri-grid .pane-head > div:first-child { flex: 1 1 auto; }

@@ -4,18 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>bitig</title>
+<!-- 搜索结果里的摘要，以及分享链接时的标题、摘要和预览图（og.png）。
+     og:url、og:image 要写完整网址；以后换了网址（如绑定自己的域名），这三处一起改。 -->
+<meta name="description" content="bitig：回鹘文、满文、蒙古文、藏文、察合台文的原文与拉丁转写对照，附满汉、蒙汉、满汉蒙词典，以及范文、资料和名句。">
+<meta name="theme-color" content="#fbfbf8">
+<link rel="canonical" href="https://kevin51763.github.io/bitig/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="bitig">
+<meta property="og:title" content="bitig · 原文与拉丁转写对照">
+<meta property="og:description" content="回鹘文、满文、蒙古文、藏文、察合台文的原文与拉丁转写对照，附满汉、蒙汉、满汉蒙词典，以及范文、资料和名句。">
+<meta property="og:url" content="https://kevin51763.github.io/bitig/">
+<meta property="og:image" content="https://kevin51763.github.io/bitig/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%239B2B20'/%3E%3Ctext x='33' y='47' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='44' fill='%23fbfbf8'%3Eb%3C/text%3E%3C/svg%3E">
 <!-- 这个文件只是页面的骨架。要改文字和内容，请看 config/ 和 content/ 两个文件夹；详见 README.md
      下面每个文件名后的 ?v=日期 是版本号：改过任何文件后，把所有 ?v= 后面的数字一起改成新日期，
      读者的浏览器就会重新下载，而不是沿用旧文件。 -->
-<link rel="stylesheet" href="css/fonts.css?v=2026110606">
-<link rel="stylesheet" href="css/theme.css?v=2026110606">
-<link rel="stylesheet" href="css/base.css?v=2026110606">
-<link rel="stylesheet" href="css/layout.css?v=2026110606">
-<link rel="stylesheet" href="css/pages.css?v=2026110606">
-<link rel="stylesheet" href="css/three-pane.css?v=2026110606">
-<link rel="stylesheet" href="css/two-pane.css?v=2026110606">
-<link rel="stylesheet" href="css/dict.css?v=2026110606">
+<link rel="stylesheet" href="css/fonts.css?v=2026110701">
+<link rel="stylesheet" href="css/theme.css?v=2026110701">
+<link rel="stylesheet" href="css/base.css?v=2026110701">
+<link rel="stylesheet" href="css/layout.css?v=2026110701">
+<link rel="stylesheet" href="css/pages.css?v=2026110701">
+<link rel="stylesheet" href="css/three-pane.css?v=2026110701">
+<link rel="stylesheet" href="css/two-pane.css?v=2026110701">
+<link rel="stylesheet" href="css/dict.css?v=2026110701">
 </head>
 <body>
 
@@ -86,40 +101,40 @@
 <div class="toast" id="toast" hidden></div>
 
 <!-- 载入顺序不能乱：先命名空间，再配置和内容，再转换规则和编辑器，最后是各栏目和路由 -->
-<script src="js/siyi.js?v=2026110606"></script>
+<script src="js/siyi.js?v=2026110701"></script>
 
-<script src="config/site.js?v=2026110606"></script>
-<script src="config/languages.js?v=2026110606"></script>
-<script src="config/dictionaries.js?v=2026110606"></script>
+<script src="config/site.js?v=2026110701"></script>
+<script src="config/languages.js?v=2026110701"></script>
+<script src="config/dictionaries.js?v=2026110701"></script>
 
-<script src="content/texts.js?v=2026110606"></script>
-<script src="content/materials.js?v=2026110606"></script>
-<script src="content/sayings.js?v=2026110606"></script>
+<script src="content/texts.js?v=2026110701"></script>
+<script src="content/materials.js?v=2026110701"></script>
+<script src="content/sayings.js?v=2026110701"></script>
 
-<script src="js/data/turkic-corpus.js?v=2026110606"></script>
-<script src="js/converters/turkic-common.js?v=2026110606"></script>
-<script src="js/converters/old-uyghur.js?v=2026110606"></script>
-<script src="js/converters/old-turkic.js?v=2026110606"></script>
-<script src="js/converters/manchu.js?v=2026110606"></script>
-<script src="js/converters/mongolian.js?v=2026110606"></script>
-<script src="js/converters/tibetan.js?v=2026110606"></script>
-<script src="js/converters/chagatai.js?v=2026110606"></script>
-<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026110606"></script> -->
+<script src="js/data/turkic-corpus.js?v=2026110701"></script>
+<script src="js/converters/turkic-common.js?v=2026110701"></script>
+<script src="js/converters/old-uyghur.js?v=2026110701"></script>
+<script src="js/converters/old-turkic.js?v=2026110701"></script>
+<script src="js/converters/manchu.js?v=2026110701"></script>
+<script src="js/converters/mongolian.js?v=2026110701"></script>
+<script src="js/converters/tibetan.js?v=2026110701"></script>
+<script src="js/converters/chagatai.js?v=2026110701"></script>
+<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026110701"></script> -->
 
-<script src="js/dict/translit-mnc.js?v=2026110606"></script>
-<script src="js/dict/translit-mn.js?v=2026110606"></script>
-<script src="js/dict/core.js?v=2026110606"></script>
-<script src="js/dict/dictionaries.js?v=2026110606"></script>
+<script src="js/dict/translit-mnc.js?v=2026110701"></script>
+<script src="js/dict/translit-mn.js?v=2026110701"></script>
+<script src="js/dict/core.js?v=2026110701"></script>
+<script src="js/dict/dictionaries.js?v=2026110701"></script>
 
-<script src="js/editors/three-pane.js?v=2026110606"></script>
-<script src="js/editors/two-pane.js?v=2026110606"></script>
+<script src="js/editors/three-pane.js?v=2026110701"></script>
+<script src="js/editors/two-pane.js?v=2026110701"></script>
 
-<script src="js/pages/shared.js?v=2026110606"></script>
-<script src="js/pages/sayings.js?v=2026110606"></script>
-<script src="js/pages/texts.js?v=2026110606"></script>
-<script src="js/pages/materials.js?v=2026110606"></script>
-<script src="js/pages/home.js?v=2026110606"></script>
-<script src="js/pages/dict.js?v=2026110606"></script>
-<script src="js/router.js?v=2026110606"></script>
+<script src="js/pages/shared.js?v=2026110701"></script>
+<script src="js/pages/sayings.js?v=2026110701"></script>
+<script src="js/pages/texts.js?v=2026110701"></script>
+<script src="js/pages/materials.js?v=2026110701"></script>
+<script src="js/pages/home.js?v=2026110701"></script>
+<script src="js/pages/dict.js?v=2026110701"></script>
+<script src="js/router.js?v=2026110701"></script>
 </body>
 </html>
