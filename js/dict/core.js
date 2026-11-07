@@ -8,7 +8,7 @@
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var CJK = /[぀-ヿ㐀-鿿豈-﫿]/;
   var SEG = /[①-⑳；;，,。．：:、！!？?\s\[\]〔〕<>〈〉（）()［］《》・\/]+/;
-  var PAGE = 30;
+  var PAGE = 50;   // 每页条数
   var idle = window.requestIdleCallback || function (f) { return setTimeout(function () { f({ timeRemaining: function () { return 8; } }); }, 1); };
 
   // 逐字归并；每个字母的归并结果记在表里，免得反复计算
@@ -140,7 +140,7 @@
         var lines = text.split('\n'), n = Math.min(lines.length, E.length);
         for (var i = 0; i < n; i++) E[i].raw = lines[i];
         state = 'full';
-        if (pendingDef || lastHits.length) { var keep = shown; run(true); if (!defMode) more(keep); }
+        if (pendingDef || lastHits.length) run(true);   // 停在当前页，补上释义
         pendingDef = false;
       }, function (err) { loadingDef = null; failed(err); });
       return loadingDef;
@@ -250,7 +250,7 @@
     function sortOut(out) { return out.sort(function (a, b) { return a.score - b.score || a.i - b.i; }); }
 
     // ---------- 显示用的小工具（交给各词典的设置使用） ----------
-    var lastHits = [], shown = 0, lastQ = '', lastTerms = [], defMode = false, selected = -1;
+    var lastHits = [], page = 0, lastQ = '', lastTerms = [], defMode = false, selected = -1, lastMs = 0;
     var H = {
       esc: esc,
       // 在显示用的转写里标出与查询相符的部分
@@ -320,15 +320,41 @@
       }
       return html;
     }
-    function moreBtn() {
-      return shown < lastHits.length ? '<button type="button" class="dx-more">再显示 ' + Math.min(PAGE, lastHits.length - shown) +
-        ' 条（尚余 ' + (lastHits.length - shown).toLocaleString() + '）</button>' : '';
+    // ---------- 翻页 ----------
+    function pages() { return Math.max(1, Math.ceil(lastHits.length / PAGE)); }
+    // 页码：首页、末页、当前页前后两页，其余用省略号
+    function pager() {
+      var n = pages();
+      if (n < 2) return '';
+      var nums = [], h = '<nav class="dx-pager" aria-label="翻页">' +
+        '<button type="button" data-pg="' + (page - 1) + '"' + (page === 0 ? ' disabled' : '') + '>上一页</button>';
+      for (var i = 0; i < n; i++) if (i === 0 || i === n - 1 || Math.abs(i - page) <= 2) nums.push(i);
+      nums.forEach(function (i, k) {
+        if (k && i - nums[k - 1] > 1) h += '<span class="dx-gap">…</span>';
+        h += '<button type="button" class="dx-num" data-pg="' + i + '"' + (i === page ? ' aria-current="page"' : '') + '>' + (i + 1) + '</button>';
+      });
+      return h + '<button type="button" data-pg="' + (page + 1) + '"' + (page >= n - 1 ? ' disabled' : '') + '>下一页</button></nav>';
     }
-    function more(upto) {
-      var from = shown; shown = Math.min(upto || shown + PAGE, lastHits.length);
-      if (shown <= from) return;
-      var b = q$('.dx-more'); if (b) b.remove();
-      listEl.insertAdjacentHTML('beforeend', renderEntries(from, shown) + moreBtn());
+    function drawStatus() {
+      var n = pages(), fuzzyOnly = lastHits.length && lastHits[0].score >= 50000 && !defMode;
+      statusEl.innerHTML = '<span>' + (defMode ? '释义中含“' + esc(lastQ) + '”的词头 ' : '') +
+        '<b>' + lastHits.length.toLocaleString() + '</b> 条结果' +
+        (fuzzyOnly ? '，未见完全相符者，以下为拼写相近的词' : '') +
+        ' <span class="dx-ms">（' + lastMs + ' 毫秒）</span></span>' +
+        (n > 1 ? '<span class="dx-pg-mini"><button type="button" data-pg="' + (page - 1) + '" aria-label="上一页"' + (page === 0 ? ' disabled' : '') + '>‹</button>' +
+          '<span>第 ' + (page + 1) + ' / ' + n + ' 页</span>' +
+          '<button type="button" data-pg="' + (page + 1) + '" aria-label="下一页"' + (page >= n - 1 ? ' disabled' : '') + '>›</button></span>' : '');
+    }
+    function drawList() {
+      var from = page * PAGE, to = Math.min(from + PAGE, lastHits.length);
+      listEl.innerHTML = renderEntries(from, to) + pager();
+    }
+    function goPage(n) {
+      n = Math.max(0, Math.min(pages() - 1, n));
+      if (n === page) return;
+      page = n; selected = -1;
+      drawStatus(); drawList(); drawSpine();
+      resultsEl.scrollTop = 0;
     }
 
     function drawSpine() {
@@ -360,13 +386,10 @@
       var t0 = performance.now();
       lastHits = search(q, mode); lastQ = q;
       lastTerms = q.split(/\s+/).filter(Boolean);
-      var ms = Math.round(performance.now() - t0);
-      var fuzzyOnly = lastHits.length && lastHits[0].score >= 50000 && !defMode;
-      statusEl.innerHTML = (defMode ? '释义中含“' + esc(q) + '”的词头 ' : '') +
-        '<b>' + lastHits.length.toLocaleString() + '</b> 条结果' +
-        (fuzzyOnly ? '，未见完全相符者，以下为拼写相近的词' : '') +
-        ' <span class="dx-ms">（' + ms + ' 毫秒）</span>';
-      shown = Math.min(PAGE, lastHits.length);
+      lastMs = Math.round(performance.now() - t0);
+      // 新的查询回到第一页；补释义等重画时停在原页
+      page = keepScroll ? Math.min(page, pages() - 1) : 0;
+      drawStatus();
       drawSpine();
       if (!lastHits.length) {
         listEl.innerHTML = '<div class="dx-note"><h2>没有找到“' + esc(q) + '”</h2><p>' +
@@ -374,7 +397,7 @@
             '可以改用“近似拼写”，或用 * 代替不确定的部分，例如 ' + esc(q.slice(0, 3)) + '*。也请检查输入方式、所选词典与转写规则。') + '</p></div>';
         return;
       }
-      listEl.innerHTML = renderEntries(0, shown) + moreBtn();
+      drawList();
       if (!keepScroll) resultsEl.scrollTop = 0;
     }
 
@@ -403,7 +426,8 @@
       if (t) { setQuery(t.getAttribute('data-q'), t.getAttribute('data-in')); return; }
       var b = ev.target.closest('[data-input]');
       if (b) { setInput(b.getAttribute('data-input')); run(); qEl.focus(); return; }
-      if (ev.target.closest('.dx-more')) { more(); return; }
+      var pg = ev.target.closest('[data-pg]');
+      if (pg) { if (!pg.disabled) goPage(+pg.getAttribute('data-pg')); return; }
       if (ev.target.closest('.dx-clear')) { qEl.value = ''; run(); qEl.focus(); return; }
       if (ev.target.closest('.dx-spine-btn')) { setSpine(!spineHidden()); return; }
       if (ev.target.closest('.dx-legend-btn')) {

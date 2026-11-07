@@ -131,8 +131,26 @@ body.in-dict .site-foot { display: none; }
 .dx-mn:not(.plain):hover { color: var(--seal); }
 #v-dict mark { background: color-mix(in srgb, var(--seal) 18%, transparent); color: inherit; padding: 0 1px; }
 
-.dx-more { display: block; margin: 26px 0 0; padding: 8px 22px; font: inherit; font-size: 14px; background: var(--sheet); border: 1px solid var(--rule); color: var(--lapis); cursor: pointer; border-radius: 2px; }
-.dx-more:hover { border-color: var(--lapis); }
+/* 翻页 */
+.dx-status { display: flex; align-items: center; justify-content: space-between; gap: 8px 16px; flex-wrap: wrap; }
+.dx-pg-mini { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.dx-pg-mini button {
+  width: 28px; height: 26px; padding: 0; font: inherit; font-size: 17px; line-height: 1; cursor: pointer;
+  background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); border-radius: 2px;
+}
+.dx-pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px; margin: 26px 0 4px; font-variant-numeric: tabular-nums; }
+.dx-pager button {
+  min-width: 36px; height: 34px; padding: 0 10px; font: inherit; font-size: 14px; cursor: pointer;
+  background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); border-radius: 2px;
+}
+.dx-pager button:hover:not([disabled]), .dx-pg-mini button:hover:not([disabled]) { border-color: var(--lapis); }
+.dx-pager button[aria-current="page"] { background: var(--lapis); border-color: var(--lapis); color: var(--sheet); cursor: default; }
+.dx-pager button[disabled], .dx-pg-mini button[disabled] { opacity: .35; cursor: default; }
+.dx-gap { color: var(--ink-soft); padding: 0 2px; }
+@media (max-width: 760px) {
+  .dx-pager { gap: 4px; }
+  .dx-pager button { min-width: 32px; height: 32px; padding: 0 8px; }
+}
 .dx-note { padding: 36px 0; color: var(--ink-soft); max-width: 36em; }
 .dx-note h2 { font-size: 18px; color: var(--ink); margin: 0 0 8px; font-weight: 600; }
 .dx-note p { margin: 0 0 10px; }
