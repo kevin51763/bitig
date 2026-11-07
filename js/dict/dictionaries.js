@@ -259,7 +259,8 @@
     };
     var GROUP = { en: { seal: '英', color: 0 }, tib: { seal: '藏', color: 1 }, skt: { seal: '梵', color: 2 } };
     var DICTS = (SIYI.tibetanDicts || []).map(function (d) {
-      return { name: d.name, group: d.group, about: d.about, seal: GROUP[d.group].seal, color: GROUP[d.group].color };
+      return { name: d.name, group: d.group, about: d.about, seal: GROUP[d.group].seal, color: GROUP[d.group].color,
+        abbr: d.abbr, sub: d.sub, zh: d.zh, rank: d.rank };
     });
     // 释义里 {威利} 是藏文：写成藏文字，短的可点击查询；\n 换行
     function defHtml(def, H) {
@@ -276,6 +277,7 @@
     return {
       id: 'tibetan', tab: '藏文', title: 'Steinert 藏文词典', data: 'dict/data/tibetan', ver: VER,
       shard: 600, listDicts: true, noCol: true, reverse: 'dict/data/tibetan.en.txt',
+      groupSenses: true, fold: 5,   // 义项按语种分段；释义超过 5 行先折叠
       defLabel: '英文反查', defPrefix: '英文对应', loadingNote: '词头较多，第一次打开稍慢',
       source: 'Steinert 词典', sourceUrl: 'https://dictionary.christian-steinert.de',
       dicts: DICTS,
@@ -298,7 +300,10 @@
           '<button type="button" class="dx-tl" data-q="' + c.H.esc(e.key) + '" data-in="bo">' + c.H.markDisplay(BO, e.key, c.q) + '</button>';
       },
       senseHtml: function (s, c) {
-        return '<span class="dx-src">' + c.H.esc(DICTS[s.d].name) + '</span><span class="dx-def">' + defHtml(s.def, c.H) + '</span>';
+        // 词典全名平时不显示，点左边的简称章才出现
+        var D = DICTS[s.d];
+        return '<span class="dx-fn">' + c.H.esc(D.name) + (D.zh ? '　' + c.H.esc(D.zh) : '') + '</span>' +
+          '<div class="dx-defbox"><span class="dx-def">' + defHtml(s.def, c.H) + '</span></div>';
       },
       col: function () { return ''; },
       spine: function (c) {

@@ -344,7 +344,13 @@
           });
         }).join('');
       },
-      seal: function (d) { return '<span class="dx-seal d' + sealColor(d) + '" title="' + esc(C.dicts[d].name) + '">' + esc(C.dicts[d].seal) + '</span>'; },
+      seal: function (d) {
+        var D = C.dicts[d];
+        // 有简称（藏文词典）时印简称章，章下可带一行小字；点章可显示全名
+        if (D.abbr) return '<button type="button" class="dx-seal dx-tag d' + sealColor(d) + '" title="' + esc(D.name + (D.zh ? '：' + D.zh : '')) + '">' +
+          '<b>' + esc(D.abbr) + '</b>' + (D.sub ? '<small>' + esc(D.sub) + '</small>' : '') + '</button>';
+        return '<span class="dx-seal d' + sealColor(d) + '" title="' + esc(D.name) + '">' + esc(D.seal) + '</span>';
+      },
       // 左栏的一栏：标题、竖排原文、底部转写与复制按钮
       pane: function (o) {
         var h = '<div class="dx-pane">' + (o.lbl ? '<div class="dx-lbl">' + esc(o.lbl) + '</div>' : '') + '<div class="dx-script">';
@@ -358,6 +364,19 @@
       alts: alts,
       full: function () { return state === 'full'; }
     };
+    // 一个词条里的义项按语种分段（C.groups 的次序），段内按各词典的 rank（常用的在前），每段前加一行段名
+    function groupSenses(ss) {
+      var out = [];
+      C.groups.forEach(function (g) {
+        var part = ss.filter(function (s) { return C.dicts[s.d].group === g.id; });
+        if (!part.length) return;
+        part.sort(function (a, b) { return (C.dicts[a.d].rank || 0) - (C.dicts[b.d].rank || 0); });
+        var n = {}; part.forEach(function (s) { n[s.d] = 1; });
+        out.push({ heading: g.label, count: Object.keys(n).length });
+        out.push.apply(out, part);
+      });
+      return out;
+    }
     function sealColor(d) { return C.dicts[d].color != null ? C.dicts[d].color : d; }
     function ctx(extra) {
       var o = { q: lastQ, inputId: inputId, input: input(), defMode: defMode, H: H };
@@ -371,11 +390,15 @@
       for (var r = from; r < to; r++) {
         var e = E[lastHits[r].i], c = ctx({ e: e });
         var ss = senses(e).filter(function (s) { return enabled[s.d]; });
+        if (C.groupSenses) ss = groupSenses(ss);
         html += '<article class="dx-entry' + (C.noCol ? ' nocol' : '') + (e.i === selected ? ' sel' : '') + '" data-i="' + e.i + '">' +
           (C.noCol ? '' : '<div class="dx-col" lang="' + C.colLang + '">' + esc(C.col(e)) + '</div>') + '<div class="dx-body">' +
           '<div class="dx-headline">' + C.head(e, c) + '</div>' +
           (e.raw != null
-            ? ss.map(function (s) { return '<div class="dx-sense">' + H.seal(s.d) + '<div>' + C.senseHtml(s, c) + '</div></div>'; }).join('')
+            ? ss.map(function (s) {
+                if (s.heading) return '<div class="dx-sgroup">' + esc(s.heading) + '<span>' + s.count + ' 部</span></div>';
+                return '<div class="dx-sense' + (C.dicts[s.d].abbr ? ' tagged' : '') + '">' + H.seal(s.d) + '<div>' + C.senseHtml(s, c) + '</div></div>';
+              }).join('')
             : '<div class="dx-wait">释义载入中…</div>') +
           '</div></article>';
       }
@@ -413,9 +436,23 @@
           '<span>第 ' + (page + 1) + ' / ' + n + ' 页</span>' +
           '<button type="button" data-pg="' + (page + 1) + '" aria-label="下一页"' + (page >= n - 1 ? ' disabled' : '') + '>›</button></span>' : '');
     }
+    // 长释义折叠：.dx-defbox 超过 C.fold 行的，先只显示这么多行，下面加“展开”
+    function foldLong() {
+      if (!C.fold) return;
+      listEl.querySelectorAll('.dx-defbox:not(.checked)').forEach(function (box) {
+        box.classList.add('checked');
+        var lh = parseFloat(getComputedStyle(box).lineHeight) || 26;
+        if (box.scrollHeight > lh * (C.fold + 1.5)) {
+          box.classList.add('folded');
+          box.style.setProperty('--fold-h', Math.round(lh * C.fold) + 'px');
+          box.insertAdjacentHTML('afterend', '<button type="button" class="dx-fold">展开</button>');
+        }
+      });
+    }
     function drawList() {
       var from = page * PAGE, to = Math.min(from + PAGE, lastHits.length);
       listEl.innerHTML = renderEntries(from, to) + pager();
+      foldLong();
       if (C.shard) {
         // 这一页还缺释义的，读入所在的几份后重画（期间若已换页、换词就不管了）
         var hits = lastHits, pg = page;
@@ -506,6 +543,14 @@
       if (t) { setQuery(t.getAttribute('data-q'), t.getAttribute('data-in')); return; }
       var b = ev.target.closest('[data-input]');
       if (b) { setInput(b.getAttribute('data-input')); run(); qEl.focus(); return; }
+      var tag = ev.target.closest('.dx-tag');
+      if (tag) { tag.closest('.dx-sense').classList.toggle('showfn'); return; }
+      var fold = ev.target.closest('.dx-fold');
+      if (fold) {
+        var box = fold.previousElementSibling, open = box.classList.toggle('folded') === false;
+        fold.textContent = open ? '收起' : '展开';
+        return;
+      }
       var pg = ev.target.closest('[data-pg]');
       if (pg) { if (!pg.disabled) goPage(+pg.getAttribute('data-pg')); return; }
       if (ev.target.closest('.dx-clear')) { qEl.value = ''; run(); qEl.focus(); return; }
@@ -576,13 +621,15 @@
       lastCounts = counts || lastCounts;
       panelEl.innerHTML = C.groups.map(function (g) {
         var ids = C.dicts.map(function (d, i) { return d.group === g.id ? i : -1; }).filter(function (i) { return i >= 0; });
+        ids.sort(function (a, b) { return (C.dicts[a].rank || 0) - (C.dicts[b].rank || 0); });   // 与词条里的次序一致
         return '<section class="dx-pgroup"><h4>' + esc(g.label) + '<button type="button" data-all="' + g.id + '">全选</button>' +
           '<button type="button" data-none="' + g.id + '">全不选</button></h4><div class="dx-pgrid">' +
           ids.map(function (i) {
             var d = C.dicts[i];
             return '<label class="dx-toggle" title="' + esc((d.about || []).join('\n')) + '"><input type="checkbox" data-pd="' + i + '"' + (enabled[i] ? ' checked' : '') + '>' +
-              '<span class="dx-seal d' + sealColor(i) + '">' + esc(d.seal) + '</span><span class="dx-name">' + esc(d.name) +
-              (d.about && d.about[0] && d.about[0] !== d.name ? '<small>' + esc(d.about[0]) + '</small>' : '') + '</span>' +
+              (d.abbr ? H.seal(i).replace('<button type="button"', '<span').replace('</button>', '</span>') : '<span class="dx-seal d' + sealColor(i) + '">' + esc(d.seal) + '</span>') +
+              '<span class="dx-name">' + esc(d.name) +
+              (d.zh ? '<small>' + esc(d.zh) + '</small>' : d.about && d.about[0] && d.about[0] !== d.name ? '<small>' + esc(d.about[0]) + '</small>' : '') + '</span>' +
               (lastCounts ? '<span class="dx-n">' + lastCounts[i].toLocaleString() + '</span>' : '') + '</label>';
           }).join('') + '</div></section>';
       }).join('') + (C.panelNote ? '<p class="dx-pnote">' + C.panelNote + '</p>' : '');

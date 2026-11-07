@@ -281,3 +281,26 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
 .dx-sense > div, .dx-body, .dx-headline { min-width: 0; }
 .dx-sense > div { overflow-wrap: anywhere; }
 .dx-src { white-space: normal; }
+
+/* ---------- 藏文词典：简称章、语种分段、长释义折叠 ---------- */
+.dx-sense.tagged { grid-template-columns: 4.6em minmax(0, 1fr); }
+.dx-tag {
+  width: 100%; height: auto; min-height: 22px; padding: 2px 3px; border: 0; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0;
+  font-family: var(--f-ui); line-height: 1.15; text-align: center; overflow-wrap: anywhere;
+}
+.dx-sense.tagged .dx-tag { align-self: start; margin-top: 3px; }
+.dx-tag b { font-size: 12px; font-weight: 600; letter-spacing: .02em; }
+.dx-tag small { font-size: 10px; font-weight: 400; opacity: .9; }
+.dx-pgrid .dx-tag { width: 4.6em; flex: none; cursor: auto; }
+.dx-sgroup { margin: 12px 0 2px; font-family: var(--f-ui); font-size: 12px; color: var(--ink-soft); letter-spacing: .1em; }
+.dx-sgroup span { margin-left: 6px; letter-spacing: 0; }
+.dx-sgroup + .dx-sense { border-top: 0; }
+.dx-fn { display: none; font-family: var(--f-ui); font-size: 12px; color: var(--ink-soft); }
+.dx-sense.showfn .dx-fn { display: block; margin-bottom: 2px; }
+.dx-defbox.folded { max-height: var(--fold-h, 8em); overflow: hidden; }
+.dx-fold { background: none; border: 0; padding: 0; margin-top: 2px; font: inherit; font-family: var(--f-ui); font-size: 13px; color: var(--lapis); cursor: pointer; }
+.dx-fold:hover { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 760px) {
+  .dx-sense.tagged { grid-template-columns: 4.2em minmax(0, 1fr); column-gap: 10px; }
+}
