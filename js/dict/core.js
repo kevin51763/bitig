@@ -74,7 +74,7 @@
     };
     var enabled = store.get('dicts', null);
     if (!Array.isArray(enabled) || enabled.length !== C.dicts.length) enabled = C.dicts.map(function () { return true; });
-    var inputId = store.get('input', C.inputs[0].id);
+    var inputId = store.get('input', C.defaultInput || C.inputs[0].id);
     if (!C.inputs.some(function (x) { return x.id === inputId; })) inputId = C.inputs[0].id;
     var input = function () { return C.inputs.filter(function (x) { return x.id === inputId; })[0]; };
 
@@ -602,7 +602,7 @@
             (counts ? '<span class="dx-n">' + counts[i].toLocaleString() + '</span>' : '') + '</label>';
         }).join('') + '</span>';
       } else {
-        html += '<span class="dx-grp"><span>词典</span><span class="dx-one">' + H.seal(0) + '<span class="dx-name">' + esc(C.dicts[0].name) + '</span>' +
+        html += '<span class="dx-grp"><span>词典来源</span><span class="dx-one">' + H.seal(0) + '<span class="dx-name">' + esc(C.dicts[0].name) + '</span>' +
           (counts ? '<span class="dx-n">' + E.length.toLocaleString() + ' 个词头</span>' : '') + '</span></span>';
       }
       html += '<span class="dx-tools"><button type="button" class="dx-spine-btn" aria-pressed="' + spineHidden() + '">' + (spineHidden() ? '显示原文' : '收起原文') + '</button>' +

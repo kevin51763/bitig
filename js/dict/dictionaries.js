@@ -140,10 +140,12 @@
     return {
       id: 'manhanmeng', tab: '满汉蒙', title: '满汉蒙词典', data: 'dict/data/manhanmeng', ver: VER, source: '栗林均词典', sourceUrl: KURI, colLang: 'mn', twoPanes: true,
       dicts: NAMES.map(function (n, i) { return { name: n, seal: SEALS[i] }; }),
+      // 按钮次序与清文鉴一致：满文在左、蒙文在右；本词典按蒙古文立词头，第一次打开默认蒙文
       inputs: [
-        { id: 'mn', label: '蒙文转写', lang: MN, placeholder: '输入蒙古文转写，如 ayimaγ、bičig；也可输入汉字反查' },
-        { id: 'mnc', label: '满文转写', lang: MNC, placeholder: '输入满文转写，如 aiman、bithe；也可输入汉字反查' }
+        { id: 'mnc', label: '满文转写', lang: MNC, placeholder: '输入满文转写，如 aiman、bithe；也可输入汉字反查' },
+        { id: 'mn', label: '蒙文转写', lang: MN, placeholder: '输入蒙古文转写，如 ayimaγ、bičig；也可输入汉字反查' }
       ],
+      defaultInput: 'mn',
       legend: LEGEND_MN + LEGEND_MNC + LEGEND_TAIL,
       sense: function (f) { return { d: f[0], hom: f[1], raw: f[2], zh: f[3], mnc: f[4], page: f[5] }; },
       looseOf: function (e, id, alts) { return id === 'mn' ? [{ r: e.key }] : alts(e); },
