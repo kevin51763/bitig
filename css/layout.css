@@ -74,6 +74,16 @@
 .tool-card .glyph.v { writing-mode: vertical-lr; font-size: 1.4rem; }
 .tool-card .glyph.rot { writing-mode: vertical-rl; text-orientation: sideways; transform: rotate(180deg); font-size: 1.5rem; }
 .tool-card b { font-size: 1rem; line-height: 1.35; min-width: 0; }
+/* 首页词典卡片的示例字：每种文字一段，竖排的竖写；两种文字并排时略小 */
+.tool-card .dglyph { gap: .35rem; }
+.tool-card .dglyph .g.v { writing-mode: vertical-lr; font-size: 1.4rem; }
+.tool-card .dglyph .g.rot { writing-mode: vertical-rl; text-orientation: sideways; transform: rotate(180deg); }
+.tool-card .dglyph .g:not(.v):not(.rot) { font-size: 1.15rem; white-space: nowrap; }
+.tool-card .dglyph.pair .g.v { font-size: 1.2rem; }
+@media (max-width: 640px) {
+  /* 手机上卡片较矮，竖写的示例字缩小，免得上下被裁掉 */
+  .tool-card .dglyph .g.v, .tool-card .dglyph.pair .g.v { font-size: 1rem; }
+}
 #home-texts { margin-top: .6rem; }
 
 @media (max-width: 560px) {
