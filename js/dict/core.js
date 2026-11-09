@@ -89,8 +89,8 @@
           '<option value="contain">包含</option><option value="fuzzy">近似拼写</option><option value="def">' + esc(C.defLabel || '释义反查') + '</option></select></form>' +
         '<div class="dx-filters"></div>' +
         '<div class="dx-dictpanel" hidden></div>' +
-        // 转写规则：点“转写规则”后浮在结果区上方，不挤动页面；点框外、按 Esc 或点 × 关上
-        '<div class="dx-legend" role="dialog" aria-label="转写规则"><button type="button" class="dx-legend-x" aria-label="关闭" title="关闭">×</button>' + C.legend + '</div>' +
+        // 转写规则：点“转写规则”后浮在结果区上方，不挤动页面；再点按钮、点框外或按 Esc 关上
+        '<div class="dx-legend" role="dialog" aria-label="转写规则">' + C.legend + '</div>' +
       '</div>' +
       '<div class="dx-main' + (C.twoPanes ? ' two' : '') + '"><aside class="dx-spine" aria-label="原文"></aside>' +
         '<section class="dx-results" aria-live="polite"><div class="dx-status">正在载入词库…</div><div class="dx-list"></div></section></div>';
@@ -641,7 +641,6 @@
       var pk = ev.target.closest('.dx-pick');
       if (pk) { panelEl.hidden = !panelEl.hidden; pk.setAttribute('aria-expanded', !panelEl.hidden); return; }
       if (ev.target.closest('.dx-legend-btn')) { setLegend(!q$('.dx-legend').classList.contains('open')); return; }
-      if (ev.target.closest('.dx-legend-x')) { setLegend(false); return; }
       if (ev.target.closest('.dx-legend')) return;
       var cp = ev.target.closest('.dx-copy');
       if (cp) {
