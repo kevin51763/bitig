@@ -128,6 +128,10 @@
   SIYI.pages.dict = {
     show(id) {
       if (away) { Object.keys(apps).forEach(k => apps[k].reset()); away = false; }
+      // #dict-manhan?q=bithe：打开这部词典并查 bithe（编辑器逐词释义里的“词典”链接）
+      let q = null;
+      const m = /^([^?]*)\?q=(.*)$/.exec(id || '');
+      if (m) { id = m[1]; try { q = decodeURIComponent(m[2]); } catch (e) { q = m[2]; } }
       if (!cfgOf(id)) id = lastId();
       SIYI.store.set('dict-last', id);
       app(id);
@@ -136,6 +140,7 @@
       setCollapsed(false);
       headH(); measure();
       apps[id].show();
+      if (q) apps[id].query(q);
       // 稍后趁空闲预读另外两部的检索文件，切换过去时不用等
       setTimeout(() => idle(() => SIYI.dictConfigs.forEach(c => app(c.id).prefetch())), 3000);
     }

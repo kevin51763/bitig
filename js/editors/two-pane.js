@@ -23,9 +23,12 @@
       <div class="mm-col-head"><h2 id="mm-hm">原文</h2><span class="sub">可直接输入或粘贴</span><button class="btn" type="button" data-mmcopy="m">复制</button></div>
       <div class="mm-pane m vert" id="mm-paneM"><div class="mm-bd"><div class="mm-bd-in"></div></div><textarea id="mm-taM" spellcheck="false" aria-label="原文"></textarea></div>
     </div>
-    <div class="mm-col">
+    <div class="mm-col" id="mm-colL">
       <div class="mm-col-head"><h2>拉丁转写</h2><span class="sub" id="mm-latsub"></span><button class="btn" type="button" data-mmcopy="l">复制</button></div>
       <div class="mm-pane l" id="mm-paneL"><div class="mm-bd"><div class="mm-bd-in"></div></div><textarea id="mm-taL" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="拉丁转写"></textarea></div>
+      <!-- 逐词释义：config/languages.js 里写了 gloss 的语言才显示，程序在 js/editors/gloss.js -->
+      <div class="mm-col-head gl-head" id="gl-head" hidden><h2>逐词释义</h2><span class="sub">取自<span id="gl-src"></span>；词尾按规则切分，仅供参考。点方块可在两栏中标出该词</span></div>
+      <div class="gl-box" id="gl-box" hidden aria-live="polite"></div>
     </div>
   </div>
   <div class="mm-bar" aria-live="polite"><span id="mm-msg"></span></div>
@@ -39,7 +42,7 @@
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   };
-  let NAME = '', L = null, langKey = null, ta, pane, scheme = 'sch', align = [], active = null, started = false;
+  let NAME = '', L = null, langKey = null, ta, pane, scheme = 'sch', align = [], active = null, started = false, gloss = null;
   const other = s => s === 'm' ? 'l' : 'm';
 
   function segment(text, side) {
@@ -62,6 +65,7 @@
     const t = ta[to], sl = t.scrollLeft, st = t.scrollTop;
     t.value = out; t.scrollLeft = sl; t.scrollTop = st;
     saveDraft();
+    if (gloss) gloss.update(ta.l.value);
   }
   let draftT = null;
   function saveDraft() { clearTimeout(draftT); const k = langKey, v = ta.l.value; draftT = setTimeout(() => store.set('mm-draft-' + k, v), 400); }
@@ -89,6 +93,20 @@
     paintSide(side, idx, 'src'); paintSide(other(side), idx, 'dst');
     syncScroll('m'); syncScroll('l');
     if (idx.length) reveal(other(side));
+    if (gloss) {
+      if (side === 'l') gloss.mark(t.selectionStart, t.selectionEnd);
+      else if (idx.length) gloss.mark(Math.min(...idx.map(i => align[i].l[0])), Math.max(...idx.map(i => align[i].l[1])));
+      else gloss.mark(-1, -1);
+    }
+  }
+  // 点了逐词释义里的方块：在两栏里标出拉丁转写 s..e 这一段
+  function pickLatin(s, e) {
+    const idx = wordsIn('l', s, e);
+    active = { side: 'l', idx };
+    paintSide('l', idx, 'src'); paintSide('m', idx, 'dst');
+    syncScroll('m'); syncScroll('l');
+    reveal('l'); reveal('m');
+    gloss.mark(s, e);
   }
   function repaint() {
     if (active) { paintSide(active.side, active.idx, 'src'); paintSide(other(active.side), active.idx, 'dst'); }
@@ -119,6 +137,7 @@
 
   function init() {
     ta = { m: $('mm-taM'), l: $('mm-taL') };
+    gloss = SIYI.Gloss ? SIYI.Gloss($('gl-box'), { pick: pickLatin }) : null;
     pane = { m: $('mm-paneM'), l: $('mm-paneL') };
     const ro = new ResizeObserver(() => { if (!L) return; fit('m'); fit('l'); syncScroll('m'); syncScroll('l'); });
     ro.observe(ta.m); ro.observe(ta.l);
@@ -146,7 +165,7 @@
       fit('m'); fit('l'); repaint();
     });
     $('mm-sample').addEventListener('click', () => L.UI.sampleScript ? loadScript(L.UI.sampleScript) : loadText(L.UI.sample));
-    $('mm-clear').addEventListener('click', () => { ta.m.value = ''; ta.l.value = ''; align = []; active = null; repaint(); saveDraft(); ta.m.focus(); });
+    $('mm-clear').addEventListener('click', () => { ta.m.value = ''; ta.l.value = ''; align = []; active = null; repaint(); saveDraft(); if (gloss) gloss.update(''); ta.m.focus(); });
     const msg = $('mm-msg');
     document.querySelectorAll('[data-mmcopy]').forEach(b => b.addEventListener('click', async () => {
       const t = ta[b.dataset.mmcopy].value; if (!t.trim()) { msg.textContent = '这一栏还是空的。'; return; }
@@ -172,6 +191,14 @@
     $('mm-latsub').textContent = u.latinSub || '';
     SIYI.dictLine($('mm-dicts'), key);
     SIYI.wipLine($('mm-wip'), key);
+    // 逐词释义：右栏分成上下两半（config/languages.js 的 gloss）
+    const g = gloss && lg.gloss ? (SIYI.dictConfigs || []).find(c => c.id === lg.gloss) : null;
+    const has = !!g && gloss.setLang(key, lg.gloss, L.WORD.l);
+    if (gloss && !has) gloss.setLang(null, null, null);
+    if (lg.gloss && !g) SIYI.problem('config/languages.js 里' + NAME + '的 gloss 写的是“' + lg.gloss + '”，没有这部词典。可用的有：' + (SIYI.dictConfigs || []).map(c => c.id).join('、') + '。');
+    $('gl-head').hidden = $('gl-box').hidden = !has;
+    $('mm-colL').classList.toggle('split', has);
+    if (has) $('gl-src').textContent = g.title;
     if (u.schemes) document.querySelectorAll('#mm-scheme button').forEach((b, i) => { b.textContent = u.schemes[i]; });
     ta.m.setAttribute('lang', u.lang || key); ta.m.setAttribute('aria-label', NAME);
     scheme = 'sch'; pressSeg('mm-scheme', 'sch');
