@@ -16,6 +16,9 @@ SIYI.config.site = {
   // 页脚：网站名下面显示的联系邮箱（不需要就留空）
   email: '231810083@smail.nju.edu.cn',
 
+  // 开发中的编辑器（config/languages.js 里写了 wip: true 的）页面顶上的提醒
+  wipNote: '这一功能仍在开发中，转换规则还不完整，结果可能有误，请对照原文核实。',
+
   // 首页“新近范文”显示几篇
   recentTexts: 6
 };

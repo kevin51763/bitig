@@ -12,6 +12,7 @@
       <button class="btn" id="btn-clear" type="button">清空</button>
     </div>
   </header>
+  <p class="wip-note" id="tri-wip" role="note" hidden></p>
 
   <div class="mm-ctl tri-ctl">
     <span class="g" id="tri-orient-g"><span id="tri-orient-lab">回鹘文</span>
