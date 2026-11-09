@@ -764,6 +764,8 @@
       },
       // 预先读入检索文件，切换过来时不用等
       prefetch: function () { loadIndex().catch(function () {}); },
+      // 从网址直达查词（#dict-manhan?q=…）：填入输入框并查询
+      query: function (v) { setQuery(v, C.inputs[0].id); },
       // 从别的栏目回到词典时调用：清空输入框，结果区回到说明和查询历史
       reset: function () {
         clearTimeout(histTimer); histEditing = false;
