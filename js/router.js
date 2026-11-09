@@ -1,6 +1,6 @@
 /* 最后载入：生成页头导航和页脚，按网址里 # 后面的部分切换栏目。
      #home 首页   #texts 范文   #text-简写 单篇范文   #materials 资料   #sayings 全部名句
-     #dict 词典（#dict-manhan、#dict-menghan、#dict-manhanmeng；#dict-manhan?q=bithe 直接查 bithe）
+     #dict 词典（#dict-manhan、#dict-menghan、#dict-manhanmeng）
      #tool-语言简写 该语言的编辑器 */
 (function () {
   const $ = SIYI.$, esc = SIYI.esc;
