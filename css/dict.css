@@ -61,12 +61,10 @@ body.in-dict .site-foot { display: none; }
 .dx-legend-btn, .dx-spine-btn { font: inherit; font-size: 13px; padding: 1px 12px; cursor: pointer; border-radius: 2px; background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); }
 .dx-legend-btn:hover, .dx-spine-btn:hover { border-color: var(--lapis); }
 .dx-legend-btn[aria-expanded="true"] { background: var(--lapis); border-color: var(--lapis); color: var(--sheet); }
-.dx-legend { position: absolute; top: calc(100% + 6px); right: 18px; width: min(940px, calc(100% - 36px));
+.dx-legend { position: absolute; grid-column: 2 / 3; left: 0; right: 0; top: calc(100% + 6px);
+  /* 放在顶栏网格的第二列：左右边与上面的输入框、查询方式对齐；上下以整个顶栏为准，从顶栏下方展开 */
   font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 16px 14px; display: none;
   max-height: min(70vh, 640px); overflow-y: auto; box-shadow: 0 12px 32px rgba(0, 0, 0, .18); }
-.dx-legend-x { position: sticky; top: 0; float: right; margin: -4px -6px 0 8px; width: 30px; height: 30px; padding: 0; border: 1px solid var(--rule); border-radius: 50%;
-  background: var(--sheet); color: var(--ink-soft); font-size: 18px; line-height: 1; cursor: pointer; z-index: 1; }
-.dx-legend-x:hover { color: var(--ink); border-color: var(--lapis); }
 .dx-legend.open { display: block; }
 .dx-legend h3 { margin: 0 0 4px; font-size: 15px; }
 .dx-legend h3 ~ h3 { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--rule); }
@@ -202,7 +200,7 @@ body.in-dict .site-foot { display: none; }
   .dx-tools { flex-wrap: wrap; }
   .dx-search { grid-column: 1 / -1; grid-row: 2; }
   .dx-filters { grid-column: 1 / -1; grid-row: auto; }
-  .dx-legend { right: 8px; width: calc(100% - 16px); max-height: 70vh; }
+  .dx-legend { grid-column: 1 / -1; max-height: 70vh; }
   .dx-q { font-size: 19px; }
   /* 手机上原文栏压成一行：原文横排，右边一个复制按钮，把屏幕留给查询结果 */
   .dx-main, .dx-main.two { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
