@@ -55,11 +55,26 @@ body.in-dict .site-foot { display: none; }
 }
 .dx-clear:hover { background: var(--paper); color: var(--ink); }
 .dx-clear[hidden] { display: none; }
-.dx-tools { margin-left: auto; order: 1; display: inline-flex; gap: 16px; white-space: nowrap; }
-.dx-legend-btn, .dx-spine-btn { background: none; border: 0; padding: 0; font: inherit; font-size: 14px; color: var(--lapis); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
-.dx-legend { grid-column: 2; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); padding: 10px 14px; display: none; }
+.dx-tools { margin-left: auto; order: 1; display: inline-flex; gap: 8px; white-space: nowrap; }
+/* “收起原文”“转写规则”两个按钮：与输入方式按钮同样的方框 */
+.dx-legend-btn, .dx-spine-btn { font: inherit; font-size: 13px; padding: 1px 12px; cursor: pointer; border-radius: 2px; background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); }
+.dx-legend-btn:hover, .dx-spine-btn:hover { border-color: var(--lapis); }
+.dx-legend-btn[aria-expanded="true"] { background: var(--lapis); border-color: var(--lapis); color: var(--sheet); }
+.dx-legend { grid-column: 2; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 4px; padding: 10px 14px; display: none;
+  max-height: min(60vh, 560px); overflow-y: auto; }
 .dx-legend.open { display: block; }
-.dx-legend h3 { margin: 0 0 4px; font-size: 14px; }
+.dx-legend h3 { margin: 0 0 4px; font-size: 15px; }
+.dx-legend h3 ~ h3 { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--rule); }
+.dx-legend h4 { margin: 8px 0 6px; font-size: 13px; font-weight: 400; color: var(--ink-soft); }
+/* 字母表：每格上为原文字母，中为转写，下为说明 */
+.dx-lgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 6px; }
+.dx-lk { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 4px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 4px; text-align: center; }
+.dx-lg { height: 44px; display: flex; align-items: center; justify-content: center; color: var(--lapis); }
+.dx-lg.mong { font-family: var(--f-mong); font-size: 26px; line-height: 1; }
+.dx-lg.mong > span { writing-mode: vertical-lr; }
+.dx-lg.bo { font-family: var(--f-bo); font-size: 26px; line-height: 1; }
+.dx-lk b { font-family: var(--latin); font-size: 17px; font-weight: 400; }
+.dx-lk small { font-size: 11px; line-height: 1.3; color: var(--ink-soft); }
 .dx-legend dl { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 2px 16px; margin: 0 0 6px; }
 .dx-legend dt { display: inline; font-family: var(--latin); font-size: 16px; }
 .dx-legend dd { display: inline; margin: 0 0 0 6px; color: var(--ink-soft); }
@@ -152,6 +167,25 @@ body.in-dict .site-foot { display: none; }
 .dx-eg { font-family: var(--latin); font-size: 17px; color: var(--lapis); cursor: pointer; margin-right: 14px; }
 .dx-eg.zh { font-family: var(--f-zh); }
 .dx-eg:hover { color: var(--seal); }
+
+/* ---------- 查询历史（输入框空着时显示在说明下面，js/dict/core.js 的“查询历史”一段） ---------- */
+.dx-hist { max-width: 46rem; margin: -12px 0 32px; padding: 12px 16px 14px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; }
+.dx-hhead { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.dx-hhead h3 { margin: 0; font-size: 15px; font-weight: 600; color: var(--ink); }
+.dx-hn { font-size: 12px; color: var(--ink-soft); margin-right: auto; }
+.dx-hhead h3:last-child { margin-right: auto; }
+.dx-hbtn { font: inherit; font-size: 13px; padding: 1px 12px; cursor: pointer; border-radius: 2px; background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); }
+.dx-hbtn:hover { border-color: var(--lapis); }
+.dx-hbtn.on { background: var(--lapis); border-color: var(--lapis); color: var(--sheet); }
+.dx-hlist { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.dx-hq { display: inline-flex; align-items: center; gap: 6px; font-family: var(--latin); font-size: 16px; padding: 3px 10px; cursor: pointer;
+  background: var(--paper); color: var(--lapis); border: 1px solid var(--rule); border-radius: 4px; }
+.dx-hq:hover { border-color: var(--lapis); }
+.dx-hq small { font-family: var(--f-ui); font-size: 11px; color: var(--ink-soft); }
+.dx-hq i { font-style: normal; font-family: var(--f-ui); font-size: 15px; line-height: 1; color: var(--seal); }
+.dx-hist.editing .dx-hq { color: var(--ink); }
+.dx-hist.editing .dx-hq:hover { border-color: var(--seal); background: var(--sheet); }
+.dx-hempty { margin: 0; font-size: 14px; color: var(--ink-soft); }
 #v-dict :focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
 
 @media (max-width: 760px) {

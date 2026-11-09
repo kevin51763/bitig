@@ -121,8 +121,13 @@
     return cfgOf(v) ? v : SIYI.dictConfigs[0].id;
   }
 
+  /* 离开词典栏目（去了首页、编辑器等）后再回来，各部词典的输入框都清空；在词典之间切换则不清 */
+  let away = true;
+  window.addEventListener('hashchange', () => { if (!/^#dict(-|$)/.test(location.hash)) away = true; });
+
   SIYI.pages.dict = {
     show(id) {
+      if (away) { Object.keys(apps).forEach(k => apps[k].reset()); away = false; }
       if (!cfgOf(id)) id = lastId();
       SIYI.store.set('dict-last', id);
       app(id);

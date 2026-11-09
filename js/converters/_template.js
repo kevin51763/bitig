@@ -22,7 +22,7 @@
       }
       return out;
     },
-    /* 原文 → 拉丁转写。scheme 是上方“拉丁写法”的选择：'sch' 或 'simple'（没有设 schemes 时总是 'sch'） */
+    /* 原文 → 拉丁转写。scheme 是上方“拉丁转写”的选择：'sch' 或 'simple'（没有设 schemes 时总是 'sch'） */
     toLatin(script, scheme) {
       return Array.from(script).map(c => S2L.get(c) ?? c).join('');
     },

@@ -11,7 +11,7 @@
     </div>
   </header>
   <div class="mm-ctl">
-    <span class="g" id="mm-scheme-g">拉丁写法
+    <span class="g" id="mm-scheme-g">拉丁转写
       <span class="seg" id="mm-scheme"><button type="button" data-v="sch" aria-pressed="true">穆麟德夫</button><button type="button" data-v="simple" aria-pressed="false">简便</button></span></span>
     <span class="g" id="mm-orient-g"><span id="mm-orient-lab">原文</span>
       <span class="seg" id="mm-orient"><button type="button" data-v="vert" aria-pressed="true">竖排</button><button type="button" data-v="horiz" aria-pressed="false">横排</button></span></span>

@@ -478,12 +478,11 @@
     function run(keepScroll) {
       var q = qEl.value.trim();
       clearBtn.hidden = !qEl.value;
-      store.set('q', qEl.value);
       if (!keepScroll) selected = -1;
       if (!q) {
         lastHits = []; lastQ = '';
         statusEl.innerHTML = '<span>' + (state !== 'none' ? '词库共 <b>' + E.length.toLocaleString() + '</b> 个词头' : '正在载入词库…' + (C.loadingNote ? '（' + esc(C.loadingNote) + '）' : '')) + '</span>';
-        listEl.innerHTML = '<div class="dx-note">' + C.intro + '</div>';
+        listEl.innerHTML = '<div class="dx-note">' + C.intro + '</div>' + histHtml();
         drawSpine(); return;
       }
       var mode = modeEl.value;
@@ -532,13 +531,96 @@
       qEl.value = v;
       if (modeEl.value === 'def' && !CJK.test(v)) modeEl.value = 'smart';
       run(); qEl.focus();
+      remember(false);
     }
 
-    qEl.addEventListener('input', function () { clearBtn.hidden = !qEl.value; selected = -1; drawSpine(); schedule(); });
+    // ---------- 查询历史 ----------
+    // 查过的词记在浏览器里，每部词典各记各的，新的在前，最多 HISTORY_MAX 条。输入框空着时显示在结果区。
+    // 何时记下：按回车、点示例词或释义里的词、点历史里的词，或者打完字停下 1.5 秒且有结果。
+    var HISTORY_MAX = 30;
+    var hist = store.get('history', []), histEditing = false, histTimer = 0, histAutoAt = 0;
+    if (!Array.isArray(hist)) hist = [];
+    function remember(auto) {
+      clearTimeout(histTimer);
+      var q = qEl.value.trim();
+      if (!q) return;
+      var item = { q: q, in: inputId }, first = hist[0], now = Date.now();
+      if (modeEl.value === 'def' && !CJK.test(q)) item.m = 'def';
+      // 边打边停时会先记下半截的词；半分钟内接着打成完整的词，就用完整的替换那半截
+      if (first && histAutoAt && now - histAutoAt < 30000 && first.in === item.in && q.indexOf(first.q) === 0) hist.shift();
+      hist = hist.filter(function (h) { return !(h.q === item.q && h.in === item.in); });
+      hist.unshift(item);
+      if (hist.length > HISTORY_MAX) hist.length = HISTORY_MAX;
+      histAutoAt = auto ? now : 0;
+      store.set('history', hist);
+    }
+    function histHtml() {
+      var tag = function (h) {
+        if (h.m === 'def') return '<small>反查</small>';
+        if (C.inputs.length > 1 && !CJK.test(h.q)) {
+          var x = C.inputs.filter(function (i) { return i.id === h.in; })[0];
+          return x ? '<small>' + esc(x.label.charAt(0)) + '</small>' : '';
+        }
+        return '';
+      };
+      return '<section class="dx-hist' + (histEditing ? ' editing' : '') + '" aria-label="查询历史"><div class="dx-hhead"><h3>查询历史</h3>' +
+        (hist.length ? '<span class="dx-hn">' + hist.length + ' 条</span>' : '') +
+        (!hist.length ? '' : histEditing
+          ? '<button type="button" class="dx-hbtn" data-hist="clear">全部删除</button><button type="button" class="dx-hbtn on" data-hist="done">完成</button>'
+          : '<button type="button" class="dx-hbtn" data-hist="edit">删除</button>') + '</div>' +
+        (hist.length
+          ? '<ul class="dx-hlist">' + hist.map(function (h, k) {
+              return '<li><button type="button" class="dx-hq" data-hi="' + k + '"' + (histEditing ? ' title="删除这一条" aria-label="删除 ' + esc(h.q) + '"' : '') + '>' +
+                '<span>' + esc(h.q) + '</span>' + tag(h) + (histEditing ? '<i aria-hidden="true">×</i>' : '') + '</button></li>';
+            }).join('') + '</ul>'
+          : '<p class="dx-hempty">查过的词会记在这里，最多保留 ' + HISTORY_MAX + ' 条。</p>') + '</section>';
+    }
+    function drawHist() {
+      var box = listEl.querySelector('.dx-hist');
+      if (box) box.outerHTML = histHtml();
+    }
+    // 点历史区里的按钮或词；处理了就返回 true
+    function histClick(ev) {
+      var b = ev.target.closest('[data-hist]');
+      if (b) {
+        var act = b.getAttribute('data-hist');
+        if (act === 'edit') histEditing = true;
+        else if (act === 'done') histEditing = false;
+        else if (act === 'clear') { hist = []; histEditing = false; store.set('history', hist); }
+        drawHist();
+        var f = listEl.querySelector('[data-hist]'); if (f) f.focus();
+        return true;
+      }
+      var it = ev.target.closest('[data-hi]');
+      if (!it) return false;
+      var h = hist[+it.getAttribute('data-hi')];
+      if (!h) return true;
+      if (histEditing) {
+        hist.splice(+it.getAttribute('data-hi'), 1);
+        if (!hist.length) histEditing = false;
+        store.set('history', hist); drawHist();
+        return true;
+      }
+      setInput(h.in);
+      qEl.value = h.q;
+      if (h.m === 'def') modeEl.value = 'def';
+      else if (modeEl.value === 'def') modeEl.value = 'smart';
+      store.set('mode', modeEl.value);
+      run(); qEl.focus();
+      remember(false);
+      return true;
+    }
+
+    qEl.addEventListener('input', function () {
+      clearBtn.hidden = !qEl.value; selected = -1; drawSpine(); schedule();
+      clearTimeout(histTimer);
+      histTimer = setTimeout(function () { if (qEl.value.trim() && lastHits.length) remember(true); }, 1500);
+    });
     modeEl.addEventListener('change', function () { store.set('mode', modeEl.value); run(); });
-    q$('.dx-search').addEventListener('submit', function (e) { e.preventDefault(); run(); });
+    q$('.dx-search').addEventListener('submit', function (e) { e.preventDefault(); run(); remember(false); });
 
     root.addEventListener('click', function (ev) {
+      if (histClick(ev)) return;
       var t = ev.target.closest('[data-q]');
       if (t) { setQuery(t.getAttribute('data-q'), t.getAttribute('data-in')); return; }
       var b = ev.target.closest('[data-input]');
@@ -652,8 +734,9 @@
     });
 
     modeEl.value = store.get('mode', 'smart');
-    qEl.value = store.get('q', '') || '';
-    clearBtn.hidden = !qEl.value;
+    // 输入框每次打开网站都是空的；以前的版本把输入的词记在浏览器里，这里顺手删掉
+    try { localStorage.removeItem('dict-' + C.id + '-q'); } catch (e) {}
+    clearBtn.hidden = true;
     qEl.placeholder = input().placeholder;
     buildFilters(null);
     run();
@@ -665,7 +748,12 @@
         if (!window.matchMedia || !window.matchMedia('(pointer: coarse)').matches) qEl.focus();
       },
       // 预先读入检索文件，切换过来时不用等
-      prefetch: function () { loadIndex().catch(function () {}); }
+      prefetch: function () { loadIndex().catch(function () {}); },
+      // 从别的栏目回到词典时调用：清空输入框，结果区回到说明和查询历史
+      reset: function () {
+        clearTimeout(histTimer); histEditing = false;
+        qEl.value = ''; selected = -1; run();
+      }
     };
   }
 

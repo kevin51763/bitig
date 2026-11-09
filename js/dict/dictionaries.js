@@ -8,19 +8,38 @@
   var KURI = 'http://hkuri.cneas.tohoku.ac.jp/';
   var MNC = window.MNC, MN = window.MN;
 
+  /* ---------- 转写规则表（词典顶栏“转写规则”按钮打开） ----------
+     每格上面是原文字母，中间是转写，下面是说明（如可代用的打法）。
+     每一行写成 ['转写', '打出这个字母用的写法（与转写相同就不写）', '说明（可不写）']；
+     只有转写时可以只写一个字符串，如 'a'。 */
+  var escL = function (s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); };
+  function letters(title, rows, toScript, cls) {
+    return '<h4>' + title + '</h4><div class="dx-lgrid">' + rows.map(function (r) {
+      if (typeof r === 'string') r = [r];
+      return '<div class="dx-lk"><span class="dx-lg ' + cls + '"><span>' + escL(toScript(r[1] || r[0])) + '</span></span>' +
+        '<b>' + escL(r[0]) + '</b>' + (r[2] ? '<small>' + escL(r[2]) + '</small>' : '') + '</div>';
+    }).join('') + '</div>';
+  }
+  // 不对应单个字母的记号：左边是写法，右边是说明
+  function marks(rows) {
+    return '<dl>' + rows.map(function (r) { return '<div><dt>' + escL(r[0]) + '</dt><dd>' + escL(r[1]) + '</dd></div>'; }).join('') + '</dl>';
+  }
+
   var LEGEND_MNC =
-    '<h3>满文转写（穆麟德夫式）</h3><dl>' +
-    '<div><dt>ū</dt><dd>也可打 v 或 @</dd></div><div><dt>š</dt><dd>也可打 S 或 x</dd></div>' +
-    '<div><dt>ž</dt><dd>也可打 R</dd></div><div><dt>k\'</dt><dd>也可打 K</dd></div>' +
-    '<div><dt>ts\'</dt><dd>也可打 ts</dd></div><div><dt>c\'y</dt><dd>也可打 cy</dd></div>' +
-    '<div><dt>zy</dt><dd>也可打 jy</dd></div><div><dt>ng、dz</dt><dd>各算一个字母</dd></div></dl>';
+    '<h3>满文转写（穆麟德夫式）</h3>' +
+    letters('元音', ['a', 'e', 'i', 'o', 'u', ['ū', 'v', '也可打 v 或 @']], MNC.toScript, 'mong') +
+    letters('辅音', ['n', ['ng', 'ng', '算一个字母'], 'k', 'g', 'h', 'b', 'p', 's', ['š', 'S', '也可打 S 或 x'],
+      't', 'd', 'l', 'm', 'c', 'j', 'y', 'r', 'f', 'w'], MNC.toScript, 'mong') +
+    letters('拼写汉语、藏语、梵语借词的字母', [["k'", 'K', '也可打 K'], ["g'"], ["h'"], ["ts'", 'ts', '也可打 ts'],
+      ['dz', 'dz', '算一个字母'], ['ž', 'R', '也可打 R'], ["c'y", 'cy', '也可打 cy'], ['zy', 'jy', '也可打 jy']], MNC.toScript, 'mong');
   var LEGEND_MN =
-    '<h3>蒙古文转写（学术转写）</h3><dl>' +
-    '<div><dt>γ</dt><dd>也可打 G 或 gh</dd></div><div><dt>č</dt><dd>也可打 c 或 ch</dd></div>' +
-    '<div><dt>ǰ</dt><dd>也可打 j</dd></div><div><dt>š</dt><dd>也可打 S 或 sh</dd></div>' +
-    '<div><dt>ö</dt><dd>也可打 O</dd></div><div><dt>ü</dt><dd>也可打 U</dd></div>' +
-    '<div><dt>ē</dt><dd>也可打 E</dd></div><div><dt>-a、-e</dt><dd>词末分写的 a、e</dd></div>' +
-    '<div><dt>-un 等</dt><dd>附加成分前的分隔</dd></div></dl>';
+    '<h3>蒙古文转写（学术转写）</h3>' +
+    letters('元音', ['a', 'e', 'i', 'o', 'u', ['ö', 'O', '也可打 O'], ['ü', 'U', '也可打 U 或 v'], ['ē', 'E', '也可打 E']], MN.toScript, 'mong') +
+    letters('辅音', ['n', ['ng', 'ng', '算一个字母'], 'b', 'p', ['q', 'q', '阳性词中'], ['k', 'k', '阴性词中，与 q 同字'],
+      ['γ', 'G', '阳性词中；也可打 G 或 gh'], ['g', 'g', '阴性词中，与 γ 同字'], 'm', 'l', 's', ['š', 'S', '也可打 S 或 sh'],
+      't', 'd', ['č', 'c', '也可打 c 或 ch'], ['ǰ', 'j', '也可打 j'], 'y', 'r', 'w'], MN.toScript, 'mong') +
+    letters('拼写借词的字母', ['f', ['k', 'K', '打 K'], ['kh', 'x', '打 x'], ['ts', 'C', '打 C'], 'z', 'h', ['ch', 'Q', '打 Q']], MN.toScript, 'mong') +
+    marks([['-a、-e', '词末与词干分写的 a、e'], ['-un 等', '附加成分前的分隔（窄空格）'], ['\'', '变体选择符，取字母的另一种写法']]);
   var LEGEND_TAIL =
     '<p>结果中的转写一律用正式写法。查询时不分 q 与 k、γ 与 g，ö 与 o、ü 与 u、š 与 s 也可互通；' +
     '用 * 代替任意多个字母，? 代替一个字母。输入汉字则在释义中反查。点击词条空白处，左栏改显示该词条的原文。</p>';
@@ -288,12 +307,23 @@
         '<a href="https://github.com/christiansteinert/tibetan-dictionary" target="_blank" rel="noopener">christiansteinert/tibetan-dictionary</a>；' +
         '只有页码、没有文字的扫描本词典不收。',
       inputs: [{ id: 'bo', label: '威利转写', lang: BO, placeholder: '输入威利转写，如 bkra shis、sangs rgyas；也可粘贴藏文' }],
-      legend: '<h3>威利转写（扩展威利 EWTS）</h3><dl>' +
-        '<div><dt>ng ny zh sh</dt><dd>ང ཉ ཞ ཤ</dd></div><div><dt>ts tsh dz</dt><dd>ཙ ཚ ཛ</dd></div>' +
-        '<div><dt>\'</dt><dd>འ（小阿）</dd></div><div><dt>a</dt><dd>ཨ</dd></div>' +
-        '<div><dt>空格</dt><dd>音节之间的 ་</dd></div><div><dt>.</dt><dd>分开容易误读的字母，如 g.yag</dd></div>' +
-        '<div><dt>T Th D N Sh</dt><dd>梵文卷舌音</dd></div><div><dt>A I U M H</dt><dd>梵文长元音、随韵、止声</dd></div></dl>' +
-        '<p>查询时不分大小写；也可以直接粘贴藏文，会自动转成威利转写。“英文反查”按英文词找藏文词头，只收有英藏对照表的几部词典。点击词条空白处，左栏改显示该词条的藏文。</p>',
+      legend: (function () {
+        var bo = function (w) { return BOC.toScript(w); };
+        // 辅音字母本身带 a 音，表里写成 ka、kha，上面的藏文也是带 a 的字
+        var C30 = ['k', 'kh', 'g', 'ng', 'c', 'ch', 'j', 'ny', 't', 'th', 'd', 'n', 'p', 'ph', 'b', 'm',
+          'ts', 'tsh', 'dz', 'w', 'zh', 'z', "'", 'y', 'r', 'l', 'sh', 's', 'h'];
+        return '<h3>威利转写（扩展威利 EWTS）</h3>' +
+          letters('辅音', C30.map(function (c) { return [c, c + 'a', c === "'" ? '小阿' : '']; }).concat([['a', 'a', '大阿']]), bo, 'bo') +
+          letters('元音', ['i', 'u', 'e', 'o'], bo, 'bo') +
+          letters('上加字、下加字（自动叠写）', [['rka', 'rka', '上加 r'], ['lka', 'lka', '上加 l'], ['ska', 'ska', '上加 s'],
+            ['kya', 'kya', '下加 y'], ['kra', 'kra', '下加 r'], ['kla', 'kla', '下加 l'], ['kwa', 'kwa', '下加 w']], bo, 'bo') +
+          letters('梵文字母和符号', [['Ta', 'Ta', '卷舌'], ['Tha'], ['Da'], ['Na'], ['Sha'], ['gha', 'gha', '送气'], ['dha'], ['bha'], ['dzha'],
+            ['kSha'], ['A', 'A', '长元音'], ['I'], ['U'], ['ai'], ['au'], ['-i', '-i', '反写元音'], ['-I'],
+            ['M', 'aM', '随韵'], ['H', 'aH', '止声']], bo, 'bo') +
+          marks([['空格', '音节之间的点（tsheg）'], ['/', '单垂符 །；// 为双垂符'], ['.', '分开容易误读的字母，如 g.yag 写作 གཡག，不写作 གྱག'],
+            ['+', '强制叠写，如 k+Sha'], ['0–9', '藏文数字 ༠–༩']]) +
+          '<p>查询时不分大小写；也可以直接粘贴藏文，会自动转成威利转写。“英文反查”按英文词找藏文词头，只收有英藏对照表的几部词典。点击词条空白处，左栏改显示该词条的藏文。</p>';
+      })(),
       sense: function (f) { return { d: f[0], def: f[1] }; },
       looseOf: function (e) { return [{ r: e.key }]; },
       senseText: function (s) { return s.def; },

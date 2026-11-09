@@ -30,13 +30,12 @@ var SIYI = globalThis.SIYI = {
     : `<a href="${SIYI.esc(d.url)}">${SIYI.esc(d.name)}</a>`;
 
   /* 某种语言的词典入口，显示在编辑器标题下面，每部词典一个按钮（样式在 three-pane.css 的 .tool-dicts） */
-  const BOOK = '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2.5 3.2c1.9-.6 3.8-.4 5.5.8 1.7-1.2 3.6-1.4 5.5-.8v9.3c-1.9-.6-3.8-.4-5.5.8-1.7-1.2-3.6-1.4-5.5-.8zM8 4v9.3" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>';
   SIYI.dictLine = (el, langId) => {
     if (!el) return;
     const list = (SIYI.dictionaries.list || []).filter(d => (d.langs || []).includes(langId));
     el.hidden = !list.length;
     el.innerHTML = list.length ? '<span class="lbl">查词</span>' +
-      list.map(d => SIYI.dictLink(d).replace('>', '>' + BOOK)).join('') : '';
+      list.map(d => SIYI.dictLink(d)).join('') : '';
   };
 
   /* 配置或内容文件写错时，在页面顶上直接说明是哪个文件、第几行，免得整页空白却不知原因 */
