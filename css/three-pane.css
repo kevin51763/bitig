@@ -13,7 +13,6 @@
   border: 1px solid var(--rule); border-radius: 5px; background: var(--sheet);
   color: var(--ink); text-decoration: none;
 }
-.tool-dicts a svg { flex: none; color: var(--seal); }
 .tool-dicts a:hover { border-color: var(--lapis); color: var(--lapis); }
 .note { margin: 0; font-size: .85rem; color: var(--ink-soft); }
 
