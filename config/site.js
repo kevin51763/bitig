@@ -13,8 +13,8 @@ SIYI.config.site = {
   // 介绍下面那行小字
   origin: '', // 不需要就留空
 
-  // 页脚
-  footer: '原文与拉丁字母对照 · 范文 · 资料',
+  // 页脚：网站名下面显示的联系邮箱（不需要就留空）
+  email: '231810083@smail.nju.edu.cn',
 
   // 首页“新近范文”显示几篇
   recentTexts: 6

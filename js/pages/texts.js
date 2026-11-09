@@ -31,12 +31,8 @@
     const d = SIYI.texts.find(t => t.id === id);
     if (!d) { v.innerHTML = '<a class="backlink" href="#texts">← 全部范文</a><div class="empty-box">找不到这篇范文。</div>'; return; }
     document.title = d.title + ' · ' + SIYI.config.site.title;
+    // 标题、副标题已写在范文 HTML 里，这里不再重复
     v.innerHTML = `<a class="backlink" href="#texts">← 全部范文</a>
-      <header class="reader-head"><div>
-        <h1>${esc(d.title || '未命名')}</h1>
-        ${d.subtitle ? `<p class="sub">${esc(d.subtitle)}</p>` : ''}
-        <p class="sub">${SIYI.chips(d)}</p>
-      </div><a class="btn" href="${esc(d.file)}" target="_blank" rel="noopener">单独打开 ↗</a></header>
       <div id="reader-frame"></div>`;
     const f = document.createElement('iframe');
     f.className = 'tframe';

@@ -15,7 +15,7 @@
   $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
   $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '范文'], ['materials', '资料库']]);
   $('foot-name').textContent = site.title;
-  $('foot-meta').textContent = site.footer || '';
+  $('foot-meta').innerHTML = site.email ? `联系邮箱：<a href="mailto:${esc(site.email)}">${esc(site.email)}</a>` : '';
 
   /* 页头只占一行。放不下时可以左右滑动：右边缘淡出作提示，当前栏目自动滑到看得见的地方 */
   const head = document.querySelector('.site-head'), bar = head.querySelector('.in');
