@@ -30,9 +30,49 @@ SIYI.materials = [
   {
     title: 'A Grammar of Orkhon Turkic',
     note: 'Talat Tekin 著。Bloomington: Indiana University; The Hague: Mouton, 1968（Uralic and Altaic Series 69）。',
-    langs: ['rn'],
+    langs: ['ug'],   // 讲的是突厥如尼文，学回鹘文时也用，归入回鹘文
     url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/A%20grammar%20of%20orkhon%20turkic%20(Talat%20Tekin)%20(z-library.sk%2C%201lib.sk%2C%20z-lib.sk).pdf',
     added: '2026-10-21',
+  },
+
+  {
+    title: 'A Grammar of Old Turkic',
+    note: 'Marcel Erdal 著。Leiden; Boston: Brill, 2004（Handbook of Oriental Studies, Section 8: Central Asia, Vol. 3）。',
+    langs: ['ug'],
+    url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/Erdal_A_Grammar_of_Old_Turkic.pdf',
+    added: '2026-11-08',
+  },
+
+  {
+    title: 'Handwörterbuch des Altuigurischen: Altuigurisch – Deutsch – Türkisch',
+    note: 'Jens Wilkens 著。Göttingen: Universitätsverlag Göttingen, 2021。',
+    langs: ['ug'],
+    url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/Wilkens_handwoerterbuch.pdf',
+    added: '2026-11-08',
+  },
+
+  {
+    title: 'An Etymological Dictionary of Pre-Thirteenth-Century Turkish',
+    note: 'Gerard Clauson 著。Oxford: Clarendon Press, 1972。',
+    langs: ['ug'],
+    url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/Clauson_An_Etymological_Dictionary_of_Pre_thirteenth_Century_Turkish.pdf',
+    added: '2026-11-08',
+  },
+
+  {
+    title: '高昌回鹘文献语言研究',
+    note: '李经纬、靳尚怡、颜秀萍著。乌鲁木齐：新疆大学出版社，2003 年（边疆民族研究丛书）。',
+    langs: ['ug'],
+    url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/%E9%AB%98%E6%98%8C%E5%9B%9E%E9%B9%98%E6%96%87%E7%8C%AE%E8%AF%AD%E8%A8%80%E7%A0%94%E7%A9%B6%EF%BC%8C%E6%9D%8E%E7%BB%8F%E7%BA%AC%E7%AD%89%E8%91%97%EF%BC%8C%E6%96%B0%E7%96%86%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE%EF%BC%8C2003.pdf',
+    added: '2026-11-08',
+  },
+
+  {
+    title: '回鹘文献语言的结构与特点',
+    note: '张铁山著。北京：中央民族大学出版社，2005 年。',
+    langs: ['ug'],
+    url: 'https://box.nju.edu.cn/lib/061249cb-cfac-433e-99b7-9af4048abafe/file/%E5%9B%9E%E9%B9%98%E6%96%87%E7%8C%AE%E8%AF%AD%E8%A8%80%E7%9A%84%E7%BB%93%E6%9E%84%E4%B8%8E%E7%89%B9%E7%82%B9%20(%E5%BC%A0%E9%93%81%E5%B1%B1)%20(Z-Library)_%E5%8F%AF%E6%90%9C%E7%B4%A2.pdf',
+    added: '2026-11-08',
   },
 
   {
