@@ -6,7 +6,7 @@
   const $ = SIYI.$, esc = SIYI.esc;
   const site = SIYI.config.site, D = SIYI.dictionaries;
   const tools = SIYI.languages.filter(l => l.editor);
-  const shown = tools.filter(l => !l.hidden);
+  const shown = tools.filter(l => !l.hidden && !l.wip);   // 开发中的（wip）只在首页最底下列出
 
   /* 页头与页脚 */
   document.title = site.title;
@@ -56,6 +56,7 @@
     if (view === 'v-tri') {
       $('tri-h1').textContent = tool.name + '对照转写';
       SIYI.dictLine($('tri-dicts'), tool.id);
+      SIYI.wipLine($('tri-wip'), tool.id);
       SIYI.threePane.show(tool.id);
     } else if (view === 'v-mm') SIYI.twoPane.show(tool.id);
     else if (view === 'v-texts') SIYI.pages.texts.renderList();

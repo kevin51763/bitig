@@ -7,6 +7,11 @@
 /* 标题下的查词入口：一排按钮，样式同 .btn */
 .tool-dicts { margin: .55rem 0 0; font-size: .85rem; color: var(--ink-soft); display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .5rem; }
 .tool-dicts .lbl { margin-right: .15rem; }
+/* 开发中的编辑器标题下面的提醒（config/languages.js 的 wip） */
+.wip-note { display: flex; align-items: baseline; gap: .7rem; margin: .9rem 0 0; padding: .65rem 1rem; font-size: .95rem; line-height: 1.6;
+  color: var(--ink); background: color-mix(in srgb, var(--seal) 9%, var(--sheet)); border: 1px solid color-mix(in srgb, var(--seal) 45%, var(--rule)); border-left: 4px solid var(--seal); border-radius: 6px; }
+.wip-note[hidden] { display: none; }
+.wip-note b { flex: none; font-size: .8rem; font-weight: 600; letter-spacing: .08em; padding: .05rem .5rem; color: var(--sheet); background: var(--seal); border-radius: 3px; }
 .tool-dicts a {
   display: inline-flex; align-items: center; gap: .35rem;
   font-size: .85rem; line-height: 1.3; padding: .36rem .7rem;

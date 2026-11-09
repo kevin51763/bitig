@@ -19,11 +19,15 @@
      scale      原文字号的比例，1 是标准大小
      card       首页卡片：glyph 是卡片上的示例字
      hidden     写 hidden: true 就暂时不在页头和首页显示这个编辑器（网址仍可打开，名句照常显示）
+     wip        写 wip: true 表示编辑器还在开发中：不进页头导航和首页的“对照转写”，
+                改列在首页最底下的“开发中”一栏；编辑器页面顶上显示一条提醒，
+                文字见 config/site.js 的 wipNote。也可以写 wip: '……' 给这种语言单独写提醒。
+                开发完成后删掉这一项即可
 
    加一种只作分类的语言，最少只要写 { id: 'xx', name: '某某文' }。 */
 SIYI.languages = [
   {
-    id: 'ug', name: '回鹘文', editor: 'three-pane',
+    id: 'ug', name: '回鹘文', editor: 'three-pane', wip: true,
     font: 'var(--f-ug)', dir: 'rtl', vertical: 'rotated', scale: 1,
     card: { glyph: '𐽳𐽶𐽲𐽳𐽾' }
   },
@@ -53,7 +57,7 @@ SIYI.languages = [
   },
 
   {
-    id: 'chg', name: '察合台文', editor: 'two-pane',
+    id: 'chg', name: '察合台文', editor: 'two-pane', wip: true,
     font: 'var(--f-chg)', dir: 'rtl', vertical: false, scale: 0.9, lineHeight: 2,
     card: { glyph: 'تورکی' }
   },

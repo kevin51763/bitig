@@ -38,6 +38,15 @@ var SIYI = globalThis.SIYI = {
       list.map(d => SIYI.dictLink(d)).join('') : '';
   };
 
+  /* 开发中的编辑器在标题下面显示一条提醒（config/languages.js 的 wip，文字见 config/site.js 的 wipNote；样式在 three-pane.css 的 .wip-note） */
+  SIYI.wipLine = (el, langId) => {
+    if (!el) return;
+    const l = SIYI.lang(langId) || {};
+    el.hidden = !l.wip;
+    const text = typeof l.wip === 'string' ? l.wip : (SIYI.config.site.wipNote || '这一功能仍在开发中，结果可能有误。');
+    el.innerHTML = l.wip ? `<b>开发中</b><span>${SIYI.esc(text)}</span>` : '';
+  };
+
   /* 配置或内容文件写错时，在页面顶上直接说明是哪个文件、第几行，免得整页空白却不知原因 */
   const problems = [];
   SIYI.problem = msg => {

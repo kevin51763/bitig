@@ -10,6 +10,7 @@
       <button class="btn" id="mm-clear" type="button">全部清空</button>
     </div>
   </header>
+  <p class="wip-note" id="mm-wip" role="note" hidden></p>
   <div class="mm-ctl">
     <span class="g" id="mm-scheme-g">拉丁转写
       <span class="seg" id="mm-scheme"><button type="button" data-v="sch" aria-pressed="true">穆麟德夫</button><button type="button" data-v="simple" aria-pressed="false">简便</button></span></span>
@@ -170,6 +171,7 @@
     $('mm-orient-lab').textContent = NAME;
     $('mm-latsub').textContent = u.latinSub || '';
     SIYI.dictLine($('mm-dicts'), key);
+    SIYI.wipLine($('mm-wip'), key);
     if (u.schemes) document.querySelectorAll('#mm-scheme button').forEach((b, i) => { b.textContent = u.schemes[i]; });
     ta.m.setAttribute('lang', u.lang || key); ta.m.setAttribute('aria-label', NAME);
     scheme = 'sch'; pressSeg('mm-scheme', 'sch');

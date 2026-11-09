@@ -1,4 +1,4 @@
-/* 首页：大标题、名句条、查词、各语言的编辑器入口、新近范文。文字来自 config/ 和 content/。 */
+/* 首页：大标题、名句条、查词、各语言的编辑器入口、新近范文，最底下是开发中的编辑器。文字来自 config/ 和 content/。 */
 (function () {
   const $ = SIYI.$, esc = SIYI.esc;
   let built = false;
@@ -30,14 +30,19 @@
         <span class="glyph dglyph${d.glyph && d.glyph.length > 1 ? ' pair' : ''}">${glyphHtml(d)}</span><b>${esc(d.name)}${out ? ' ↗' : ''}</b></a>`;
     }).join('');
 
-    const tools = SIYI.languages.filter(l => l.editor && !l.hidden);
-    $('home-tools-sec').hidden = !tools.length;
-    $('home-tools').innerHTML = tools.map(l => {
+    const card = l => {
       const c = l.card || {};
       return `<a class="tool-card" href="#tool-${esc(l.id)}">
         <span class="glyph${l.vertical === 'rotated' ? ' rot' : l.vertical ? ' v' : ''}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(c.glyph || '')}</span>
         <b>${esc(l.name)}</b></a>`;
-    }).join('');
+    };
+    const tools = SIYI.languages.filter(l => l.editor && !l.hidden);
+    const ready = tools.filter(l => !l.wip), wip = tools.filter(l => l.wip);
+    $('home-tools-sec').hidden = !ready.length;
+    $('home-tools').innerHTML = ready.map(card).join('');
+    // 最底下的“开发中”：config/languages.js 里写了 wip 的编辑器
+    $('home-wip-sec').hidden = !wip.length;
+    $('home-wip').innerHTML = wip.map(card).join('');
 
     $('say-next').addEventListener('click', SIYI.pages.sayings.next);
     SIYI.pages.sayings.next();
