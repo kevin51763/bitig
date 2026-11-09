@@ -89,7 +89,8 @@
           '<option value="contain">包含</option><option value="fuzzy">近似拼写</option><option value="def">' + esc(C.defLabel || '释义反查') + '</option></select></form>' +
         '<div class="dx-filters"></div>' +
         '<div class="dx-dictpanel" hidden></div>' +
-        '<div class="dx-legend">' + C.legend + '</div>' +
+        // 转写规则：点“转写规则”后浮在结果区上方，不挤动页面；点框外、按 Esc 或点 × 关上
+        '<div class="dx-legend" role="dialog" aria-label="转写规则"><button type="button" class="dx-legend-x" aria-label="关闭" title="关闭">×</button>' + C.legend + '</div>' +
       '</div>' +
       '<div class="dx-main' + (C.twoPanes ? ' two' : '') + '"><aside class="dx-spine" aria-label="原文"></aside>' +
         '<section class="dx-results" aria-live="polite"><div class="dx-status">正在载入词库…</div><div class="dx-list"></div></section></div>';
@@ -639,9 +640,9 @@
       if (ev.target.closest('.dx-spine-btn')) { setSpine(!spineHidden()); return; }
       var pk = ev.target.closest('.dx-pick');
       if (pk) { panelEl.hidden = !panelEl.hidden; pk.setAttribute('aria-expanded', !panelEl.hidden); return; }
-      if (ev.target.closest('.dx-legend-btn')) {
-        var open = q$('.dx-legend').classList.toggle('open'); ev.target.setAttribute('aria-expanded', open); return;
-      }
+      if (ev.target.closest('.dx-legend-btn')) { setLegend(!q$('.dx-legend').classList.contains('open')); return; }
+      if (ev.target.closest('.dx-legend-x')) { setLegend(false); return; }
+      if (ev.target.closest('.dx-legend')) return;
       var cp = ev.target.closest('.dx-copy');
       if (cp) {
         navigator.clipboard.writeText(cp.getAttribute('data-copy')).then(function () { cp.textContent = '已复制'; }, function () { cp.textContent = '无法复制'; });
@@ -659,6 +660,21 @@
     });
 
     // ---------- 顶栏 ----------
+    function setLegend(open) {
+      var box = q$('.dx-legend'), b = q$('.dx-legend-btn');
+      if (!box) return;
+      box.classList.toggle('open', open);
+      if (b) b.setAttribute('aria-expanded', open);
+    }
+    // 转写规则开着时，点它以外的地方或按 Esc 就关上
+    document.addEventListener('click', function (ev) {
+      if (!q$('.dx-legend.open')) return;
+      if (ev.target.closest && (ev.target.closest('.dx-legend') || ev.target.closest('.dx-legend-btn'))) return;
+      setLegend(false);
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && q$('.dx-legend.open')) { setLegend(false); var b = q$('.dx-legend-btn'); if (b) b.focus(); }
+    });
     // 左栏（原文与复制按钮）可以收起，各部词典共用这一设置，记在浏览器里
     function spineHidden() { return document.documentElement.classList.contains('dx-nospine'); }
     function setSpine(hide) {
