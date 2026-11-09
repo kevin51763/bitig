@@ -12,9 +12,6 @@
 .tlist a:hover { background: var(--sheet); }
 .tlist .t { font-family: var(--f-zh); font-size: 1.05rem; font-weight: 600; }
 .tlist .s { font-size: .85rem; color: var(--ink-soft); flex: 1 1 12rem; min-width: 0; }
-.reader-head { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; align-items: flex-start; justify-content: space-between; }
-.reader-head h1 { margin: 0; font-family: var(--f-zh); font-size: 2.1rem; font-weight: 600; letter-spacing: .08em; text-wrap: balance; }
-.reader-head .sub { margin: .25rem 0 0; color: var(--ink-soft); }
 iframe.tframe { display: block; width: 100%; height: 80vh; border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); }
 
 /* ---------- 资料 ---------- */

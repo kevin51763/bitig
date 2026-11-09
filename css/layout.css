@@ -33,8 +33,10 @@
 .site-foot { border-top: 1px solid var(--rule); background: var(--sheet); margin-top: auto; }
 .site-foot .in { max-width: 92rem; margin: 0 auto; padding-block: .9rem calc(.9rem + env(safe-area-inset-bottom, 0px));
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
-  display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; font-size: .82rem; color: var(--ink-soft); }
+  display: flex; flex-direction: column; gap: .3rem; align-items: center; text-align: center; font-size: .82rem; color: var(--ink-soft); }
 .foot-name { font-family: var(--f-lat); font-style: italic; font-size: 1.15rem; color: var(--seal); }
+.foot-meta:empty { display: none; }
+.foot-meta a { color: inherit; }
 
 /* ---------- 首页大标题 ---------- */
 .hero .lead { margin: .35rem 0 0; color: var(--ink-soft); max-width: 44rem; }

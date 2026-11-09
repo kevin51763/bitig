@@ -14,7 +14,7 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 index.html            页面骨架。平时不用动，只有加新的转换规则时要加一行
 og.png                分享链接时显示的预览图（1200×630）
 config/               网站的设置
-  site.js               网站名、首页介绍、页脚
+  site.js               网站名、首页介绍、页脚邮箱
   languages.js          语言清单：名字、导航顺序、用哪种编辑器、字体、书写方向
   dictionaries.js       词典链接
 content/              网站的内容
