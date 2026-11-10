@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 给搜索引擎看的网址清单。网站各栏目靠网址里 # 后面的部分切换，搜索引擎只认 # 前面的部分，
+     所以这里只有首页一条。以后有了不带 # 的独立页面，再照样加 <url> 一段。 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://bitig.ink/</loc>
+  </url>
+</urlset>
