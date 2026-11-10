@@ -31,17 +31,15 @@
   <div class="mm-bar" aria-live="polite"><span id="mm-msg"></span></div>
 
 `;
-  document.getElementById('v-mm').innerHTML = MARKUP;
+  const $ = SIYI.$, esc = SIYI.esc, store = SIYI.store;
+  $('v-mm').innerHTML = MARKUP;
   const CONV = SIYI.converters;
-  const $ = id => document.getElementById(id);
-  const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const store = {
-    get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
-    set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
-  };
+  /* m 指原文一栏，l 指拉丁转写一栏。
+     L 是当前语言的转换规则，align 记着两栏里每个词的位置，用来点词对应高亮 */
   let NAME = '', L = null, langKey = null, ta, pane, scheme = 'sch', align = [], active = null, started = false;
   const other = s => s === 'm' ? 'l' : 'm';
 
+  /* 把文字切成“词”和“词之间的空白标点”两种片段 */
   function segment(text, side) {
     const re = L.WORD[side], segs = []; let i = 0;
     while (i < text.length) {
@@ -51,6 +49,7 @@
     }
     return segs;
   }
+  /* 一栏改了，重新生成另一栏 */
   function sync(from) {
     const to = other(from), segs = segment(ta[from].value, from);
     let out = ''; align = [];
@@ -66,6 +65,7 @@
   let draftT = null;
   function saveDraft() { clearTimeout(draftT); const k = langKey, v = ta.l.value; draftT = setTimeout(() => store.set('mm-draft-' + k, v), 400); }
 
+  /* 高亮画在输入框后面一层同样排版的文字上（.mm-bd），字本身透明，只露出底色 */
   function paintSide(side, idx, cls) {
     const text = ta[side].value, bd = pane[side].querySelector('.mm-bd-in');
     const ranges = idx.map(i => align[i] && align[i][side]).filter(r => r && r[1] > r[0]).sort((a, b) => a[0] - b[0]);
@@ -113,9 +113,11 @@
   }
   function syncScroll(side) { const bd = pane[side].querySelector('.mm-bd'); bd.scrollLeft = ta[side].scrollLeft; bd.scrollTop = ta[side].scrollTop; }
   function pressSeg(id, v) { document.querySelectorAll(`#${id} button`).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === v))); }
-  function loadText(latin) {
-    ta.l.value = latin; sync('l'); ta.m.scrollLeft = 0; ta.l.scrollTop = 0; active = null; fit('m'); fit('l'); repaint();
+  /* 把一段文字放进某一栏（'l' 拉丁转写，'m' 原文），另一栏随之生成 */
+  function load(side, text) {
+    ta[side].value = text; sync(side); ta.m.scrollLeft = 0; ta.l.scrollTop = 0; active = null; fit('m'); fit('l'); repaint();
   }
+  const loadSample = () => L.UI.sampleScript ? load('m', L.UI.sampleScript) : load('l', L.UI.sample || '');
 
   function init() {
     ta = { m: $('mm-taM'), l: $('mm-taL') };
@@ -145,7 +147,7 @@
       document.documentElement.style.setProperty('--mm-ls', (21 * z) + 'px');
       fit('m'); fit('l'); repaint();
     });
-    $('mm-sample').addEventListener('click', () => L.UI.sampleScript ? loadScript(L.UI.sampleScript) : loadText(L.UI.sample));
+    $('mm-sample').addEventListener('click', loadSample);
     $('mm-clear').addEventListener('click', () => { ta.m.value = ''; ta.l.value = ''; align = []; active = null; repaint(); saveDraft(); ta.m.focus(); });
     const msg = $('mm-msg');
     document.querySelectorAll('[data-mmcopy]').forEach(b => b.addEventListener('click', async () => {
@@ -159,6 +161,7 @@
     if (document.fonts) document.fonts.ready.then(() => { if (L) { fit('m'); fit('l'); repaint(); } });
   }
 
+  /* 入口：由 js/router.js 调用，key 是语言简写。换语言时先存下草稿，再按新语言的设置换界面 */
   function show(key) {
     if (!started) { started = true; init(); }
     if (key === langKey) { requestAnimationFrame(() => { fit('m'); fit('l'); repaint(); }); return; }
@@ -186,15 +189,10 @@
     ta.m.scrollLeft = 0; ta.m.scrollTop = 0;
     const draft = store.get('mm-draft-' + key);
     requestAnimationFrame(() => {
-      if (draft !== null && draft.trim()) loadText(draft);
-      else if (u.sampleScript) loadScript(u.sampleScript);
-      else loadText(u.sample || '');
+      if (draft !== null && draft.trim()) load('l', draft);
+      else loadSample();
     });
   }
-  function loadScript(s) {
-    ta.m.value = s; sync('m'); ta.m.scrollLeft = 0; ta.l.scrollTop = 0; active = null; fit('m'); fit('l'); repaint();
-  }
-
 
   SIYI.twoPane = { show };
 })();

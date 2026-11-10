@@ -136,20 +136,16 @@
       setCollapsed(false);
       headH(); measure();
       apps[id].show();
-      // 稍后趁空闲预读另外两部的检索文件，切换过去时不用等
+      // 稍后趁空闲预读其余几部的检索文件，切换过去时不用等
       setTimeout(() => idle(() => SIYI.dictConfigs.forEach(c => app(c.id).prefetch())), 3000);
     }
   };
 
   /* 还没打开词典时：鼠标移到“词典”或查词链接上，就先读检索文件；首页闲下来也预读上次用的那部 */
   const warm = id => { if (SIYI.dictConfigs && cfgOf(id)) app(id).prefetch(); };
-  document.addEventListener('pointerover', e => {
+  ['pointerover', 'focusin'].forEach(type => document.addEventListener(type, e => {
     const a = e.target.closest && e.target.closest('a[href^="#dict"]');
     if (a) warm(a.getAttribute('href').slice(6) || lastId());
-  });
-  document.addEventListener('focusin', e => {
-    const a = e.target.closest && e.target.closest('a[href^="#dict"]');
-    if (a) warm(a.getAttribute('href').slice(6) || lastId());
-  });
+  }));
   window.addEventListener('load', () => setTimeout(() => idle(() => warm(lastId())), 2500));
 })();

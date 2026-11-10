@@ -2,19 +2,31 @@
 
 bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 
-回鹘文、突厥如尼文、满文、蒙古文、藏文、察合台文的对照转写，以及范文、资料和名句。
+网站 [bitig.ink](https://bitig.ink/) 收回鹘文、突厥如尼文、满文、蒙古文、藏文、察合台文的原文与拉丁转写对照，另有词典、范文、资料和名句。
 
-这是一个纯静态网站：没有数据库，也不需要编译。所有内容都是文件夹里的文件，改了文件、传到 GitHub，网站就更新了。
+网站是一批静态文件：没有数据库，不需要编译，也不依赖任何外部网站。改了文件，传到 GitHub，再让服务器取一次，网站就更新了。唯一要服务器配合的是页脚的访问计数。
+
+这份说明分八节：
+
+1. [文件夹里有什么](#一文件夹里有什么)
+2. [在自己电脑上预览](#二在自己电脑上预览)
+3. [日常维护](#三日常维护)：加范文、资料、名句、词典链接、语言，改配色
+4. [写错了怎么办](#四写错了怎么办)
+5. [发布](#五发布)：版本号、提交、让 bitig.ink 更新
+6. [访问计数](#六访问计数)
+7. [改程序时的约定](#七改程序时的约定)
+8. [其他说明](#八其他说明)
 
 ---
 
 ## 一、文件夹里有什么
 
 ```
-index.html            页面骨架。平时不用动，只有加新的转换规则时要加一行
+index.html            页面骨架，载入全部样式和程序。平时不用动
 og.png                分享链接时显示的预览图（1200×630）
+
 config/               网站的设置
-  site.js               网站名、首页介绍、页脚邮箱
+  site.js               网站名、首页介绍、联系邮箱、访问计数的开关
   languages.js          语言清单：名字、导航顺序、用哪种编辑器、字体、书写方向
   dictionaries.js       词典链接
 content/              网站的内容
@@ -23,35 +35,50 @@ content/              网站的内容
   materials.js          资料目录
   materials/            资料文件（PDF、图片等）
   sayings.js            首页轮换的名句
+
 css/                  样式
   theme.css             配色和各种文字的字体（想改颜色就改这里）
   fonts.css             字体文件的登记
-  其余                  各部分的版式，一般不用动
-fonts/                字体文件，随网站发布，国内也能正常显示
+  其余                  各部分的版式：base 通用，layout 页头页脚和首页，pages 范文资料名句，
+                        two-pane、three-pane 两种编辑器，dict 词典
+fonts/                字体文件，随网站发布
+
 js/                   程序
-  converters/           各文字的转换规则，一种文字一个文件
+  siyi.js               最先载入：公共工具，以及写错文件时页面顶上的黄色提示
+  router.js             按网址里 # 后面的部分切换栏目，生成页头和页脚
+  counter.js            页脚的访问计数
+  pages/                首页、范文、资料、名句、词典各栏目
   editors/              三栏、两栏两种编辑器
-  pages/                首页、范文、资料、名句各栏目
+  converters/           各文字的转换规则，一种文字一个文件
   data/                 碑文词形表
+  dict/                 词典的查询程序和各部词典的设置
+dict/
+  data/                 词库，由脚本生成，不要手改
+  tools/                生成词库的 Python 脚本
+  *.html                旧网址的跳转页，不必改动
+server/
+  counter.js            访问计数的服务器部分，只在 bitig.ink 的服务器上运行
 ```
 
 平时要改的只有 `config/` 和 `content/` 两个文件夹。
 
-这些文件可以用任何文本编辑器打开，比如 VS Code、记事本，也可以直接在 GitHub 网页上改。文件里每一段前面都有中文说明。
+这些文件可以用任何文本编辑器打开，比如 VS Code、记事本，也可以直接在 GitHub 网页上改。每个文件开头都有中文说明，写着它管什么、怎么改。
 
 ---
 
 ## 二、在自己电脑上预览
 
-**最简单**：双击 `index.html`，用浏览器打开就能看。
-
-**更完整**：双击打开时，有两处会打折扣：范文框的高度不会随正文自动调整，写错文件时提示里也看不到具体行号。要和网上完全一样，在这个文件夹里打开终端，运行：
+在这个文件夹里打开终端，运行：
 
 ```
 python3 -m http.server 8000
 ```
 
 然后在浏览器里打开 http://localhost:8000 。Windows 上把 `python3` 换成 `python`。
+
+双击 `index.html` 也能看个大概，但有几处不一样：词典读不到词库，范文框的高度不随正文调整，写错文件时提示里看不到行号。
+
+两种办法下页脚都没有访问计数，因为计数在服务器上。这是正常的。
 
 ---
 
@@ -144,7 +171,7 @@ dict/tools/build_data.py  从 CSV 生成词库的脚本
 python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv --qingwenjian 清文鉴.csv
 ```
 
-然后把 `js/dict/dictionaries.js` 开头 `VER` 的日期改新再上传。词库要通过网址读取，双击打开 `index.html` 时词典会提示载入失败，请用“本地预览”的方法打开。
+然后把 `js/dict/dictionaries.js` 开头 `VER` 的日期改新再上传。
 
 藏文词典另有一个脚本。它收词约三十五万，释义分成数百份小文件（`dict/data/tibetan/`），网页只读当前一页结果用得到的几份；“英文反查”用 `dict/data/tibetan.en.txt`。更新时先把 Steinert 的仓库下载下来，再运行（需要装有 node）：
 
@@ -157,9 +184,9 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 
 `dict/` 里的三个 HTML 只是把旧链接转到词典栏目，不必改动。
 
-### 改网站名、首页文字
+### 改网站名、首页文字、联系邮箱
 
-都在 `config/site.js`。
+都在 `config/site.js`。邮箱只写这一处，页脚和资料库顶上都用它。
 
 ### 加一种语言
 
@@ -172,7 +199,7 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 **要它有自己的两栏编辑器**：
 
 1. 照 `js/converters/_template.js` 写一个转换规则文件，放进 `js/converters/`。
-2. 在 `index.html` 里“新加的转换规则放在这一行上面”那一行之上，加一行 `<script src="js/converters/文件名.js"></script>`。
+2. 在 `index.html` 里“新加的转换规则放在这一行上面”那一行之上，加一行 `<script src="js/converters/文件名.js?v=版本号"></script>`，版本号和其他行一样。
 3. 在 `config/languages.js` 里给这种语言写上 `editor: 'two-pane'`，以及 `font`、`dir` 等。
 4. 如果需要新字体：把 `.woff2` 文件放进 `fonts/`，在 `css/fonts.css` 里照样登记。
 
@@ -184,7 +211,7 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 
 ### 改配色和字体
 
-颜色和字体都集中在 `css/theme.css`。每个颜色后面都注明了用在哪里。深色模式的颜色在同一个文件的下半部分。
+颜色和字体都集中在 `css/theme.css`。每个颜色后面都注明了用在哪里。深色模式（读者的系统设为深色时）的颜色在同一个文件的下半部分，只有一份。
 
 ---
 
@@ -202,35 +229,130 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 
 ---
 
-## 五、发布到 GitHub Pages
+## 五、发布
 
-### 第一次发布
+网站有两个地址：
 
-1. 登录 GitHub，点右上角 **+** → **New repository**。仓库名可以叫 `bitig`；选 **Public**（免费账号的 GitHub Pages 只支持公开仓库）。
-2. 进入新仓库，点 **uploading an existing file**，把这个文件夹里的**全部内容**拖进去。要拖的是文件夹里面的东西，不是文件夹本身：`index.html` 要位于仓库的最外层。然后点 **Commit changes**。
-3. 进入仓库的 **Settings** → 左侧 **Pages**。在 **Build and deployment** 下：Source 选 **Deploy from a branch**，Branch 选 **main**，文件夹选 **/(root)**，点 **Save**。
-4. 等一两分钟，刷新这一页，上方会显示网址，形如 `https://你的用户名.github.io/bitig/` 。
+- **bitig.ink**：正式网站，在阿里云香港的服务器上。
+- **kevin51763.github.io/bitig/**：GitHub Pages 上的副本，仓库的 main 分支一有改动就自动更新。它没有访问计数。
 
-文件夹里有一个空文件 `.nojekyll`，作用是让 GitHub 原样发布全部文件，请一并上传。电脑默认会隐藏以点开头的文件，看不到时可以在 GitHub 网页上新建一个同名空文件。
+### 第一步：改版本号
 
-### 以后更新
+`index.html` 里载入的每个文件后面都带 `?v=2026111012` 这样的版本号（年月日时）。读者的浏览器靠它判断文件有没有变。
+
+**凡是改了 .js 或 .css 文件（包括 `config/`、`content/` 里的），都要把 `index.html` 里所有的 `?v=` 改成同一个新值。** 用编辑器的“全部替换”，把旧的数字换成当前的日期和小时。只改一部分，读者的浏览器会新旧文件混用，页面顶上出现黄色报错。
+
+只改 HTML（比如范文正文）或只加资料文件，不用改版本号。重新生成词库后要改的是 `js/dict/dictionaries.js` 开头的 `VER`，见上面的“词典栏目”。
+
+### 第二步：传到 GitHub
 
 - **改一个文件**：在 GitHub 网页上打开它，点右上角的铅笔图标，改完点 **Commit changes**。
 - **加文件**（新的范文、资料）：进入对应的文件夹，比如 `content/texts`，点 **Add file** → **Upload files**。
 - **改得多时**：用 [GitHub Desktop](https://desktop.github.com/) 把仓库同步到电脑上，在本地改好、预览，再一次推送。
+- **让 Claude 改**：在 Claude 里连上这个仓库，直接说“加一篇范文，文件在这里”或者“给藏文加一个词典链接”。它会新建分支、开一个合并请求（PR），你看过之后点 **Merge** 合并。
 
-每次提交后一两分钟，网站自动更新。浏览器如果还显示旧内容，按 Ctrl+F5（Mac 上是 ⌘+Shift+R）强制刷新。
+### 第三步：让 bitig.ink 更新
 
-改了 `js/`、`css/`、`config/`、`content/` 里的 .js 或 .css 文件后，还要把 `index.html` 里所有 `?v=` 后面的日期一起改新（用编辑器的“全部替换”）。否则读者的浏览器可能沿用旧文件，和新页面对不上，页面顶上会出现黄色的报错。
+合并到 main 之后，GitHub Pages 上的副本一两分钟内自动更新，**bitig.ink 不会**。登录服务器，取一次最新的文件：
 
-### 让 Claude 直接改
+```
+cd /var/www/bitig/public
+git pull
+```
 
-在 Claude 里把这个仓库连上之后，可以直接说“加一篇范文，文件在这里”或者“给藏文加一个词典链接”，由它修改并推送。
+取完立即生效，不用重启。只有 `server/` 里的文件变了才要重启，见下一节。
+
+浏览器如果还显示旧内容，按 Ctrl+F5（Mac 上是 ⌘+Shift+R）强制刷新。
 
 ---
 
-## 六、其他说明
+## 六、访问计数
+
+页脚的“总访问 · 今日”由 bitig.ink 的服务器记录。
+
+**怎么算**
+
+- 读者每次打开网站记一次。同一个标签页里刷新、切换栏目不重复记；关掉再打开算新的一次。
+- 同一个网络地址 10 秒内最多记一次，防止有人连续刷数字。
+- “今日”按北京时间，每天零点归零。
+- 记的只是次数。不记录读者是谁、看了什么，也不用任何外部统计服务。
+
+**各部分在哪**
+
+| 位置 | 作用 |
+| --- | --- |
+| `js/counter.js` | 网页部分：打开网站时向服务器报一次，把数字写进页脚 |
+| `server/counter.js` | 服务器部分：接口 `/api/visit`，记数、存盘 |
+| 服务器上的 `/var/www/bitig/data/visits.json` | 数字本身。不在仓库里，别人下载不到 |
+| `config/site.js` 的 `counter` | 开关。改成 `false`，页脚不显示，也不再计数 |
+| `css/layout.css` 的 `.foot-stats` | 样式 |
+
+**安装（只做一次）**
+
+服务器上的 `/var/www/bitig/server.js` 不在仓库里，要手工加一行。先照第五节取到最新文件，然后打开 `server.js`，在 `const app = express()` 之后、`express.static` 那一行之前加上：
+
+```js
+require('./public/server/counter')(app, require('path').join(__dirname, 'data'));
+```
+
+保存后重启：
+
+```
+systemctl restart bitig
+```
+
+打开 bitig.ink，页脚出现“总访问 1 · 今日 1”就装好了。没出现的话，运行 `journalctl -u bitig -n 20` 看报错。
+
+以后 `server/counter.js` 有改动，`git pull` 之后同样要运行一次 `systemctl restart bitig`。
+
+**看历史、改数字**
+
+`visits.json` 形如 `{ "total": 1234, "days": { "2026-11-10": 56 } }`，`days` 里留着每天的访问数。要清零或改数，先 `systemctl stop bitig`，改完文件再 `systemctl start bitig`；不停服务直接改，会被内存里的旧数字盖掉。
+
+**没有服务器的地方**
+
+GitHub Pages 上的副本和本地预览没有这个接口。那里页脚不显示计数，其余一切照常。
+
+---
+
+## 七、改程序时的约定
+
+给以后改 `js/`、`css/` 的人（或 AI）看。日常加内容用不到这一节。
+
+1. **不用框架，不用打包。** 没有 npm 依赖，没有编译步骤。浏览器直接读仓库里的文件。
+2. **不引用外部资源。** 读者大多在中国大陆，外部的字体、脚本、统计服务可能很慢或打不开。字体放 `fonts/`，脚本和样式都放在仓库里。
+3. **每个 .js 文件包在一个立即执行函数里**，对外的东西挂到全局对象 `SIYI` 上。`SIYI` 的结构见 `js/siyi.js` 开头。`index.html` 里的载入顺序不能乱。
+4. **公共工具只写一份，都在 `js/siyi.js`：**
+
+   | 名字 | 作用 |
+   | --- | --- |
+   | `SIYI.$(id)` | 按 id 取页面元素 |
+   | `SIYI.esc(s)` | 把文字放进 HTML 之前转义 |
+   | `SIYI.store.get / set` | 在读者浏览器里存取小段文字（草稿、上次的选择） |
+   | `SIYI.lang(id)`、`SIYI.langName(id)` | 按简写查语言、查语言名 |
+   | `SIYI.isExternal(url)` | 是不是站外链接 |
+   | `SIYI.vertClass(lang, …)` | 这种文字竖写还是横写 |
+   | `SIYI.toast(msg)` | 页面底部弹一句短提示 |
+   | `SIYI.problem(msg)` | 页面顶上的黄色提示，用来报告配置写错 |
+
+   按语言分组、语言小标签、检查目录漏项在 `js/pages/shared.js`。词典（`js/dict/`）原是独立的程序，自带一套同样的小工具，没有并过来。
+5. **加栏目**：在 `index.html` 里加一块 `<main class="view" id="v-xxx" hidden>`，然后在 `js/router.js` 的 `VIEWS` 和 `resolve` 里各加一行。
+6. **网址不能随便变。** `#texts`、`#text-<id>`、`#dict-<词典名>`、`#tool-<语言简写>` 公开后就是别人收藏的链接。页面里的路径一律用相对路径（`css/base.css`，不以 `/` 开头），这样在 bitig.ink 和 GitHub Pages 的 `/bitig/` 下都能用。接口是例外，写 `/api/…`。
+7. **配置写错要在页面上说清楚。** 用 `SIYI.problem('哪个文件、怎么改')`，不要只写进控制台。
+8. **读者浏览器里存的名字不要改**（如 `mm-draft-mnc`、`ougr-draft-v1`、`dict-last`）。改了，读者以前存的草稿和设置就读不到了。
+9. **颜色只在 `css/theme.css` 里定义**，其他样式文件引用变量名。深色模式的颜色在同一个文件里。
+10. **生成的文件不手改**：`dict/data/` 和 `js/dict/tibetan-dicts.js` 由 `dict/tools/` 的脚本生成。
+11. **新代码写中文注释**，说明它管什么、怎么改。改了维护流程，同步改这份说明。
+12. **改完检查**：
+    - 对改过的每个 .js 运行 `node --check 文件名`；
+    - `grep -o '?v=[0-9]*' index.html | sort | uniq -c` 的结果只有一种值；
+    - 本地预览，页面顶上没有黄色提示，各栏目都能切换；动过词典的，查一个词。
+
+---
+
+## 八、其他说明
 
 - 编辑器里打的字、改过的读法，存在读者自己的浏览器里，不会上传，也不会互相看见。
-- 网站不连接任何外部服务，字体也都在 `fonts/` 里，所以国内外访问的差别只取决于 GitHub Pages 本身的速度。
+- 网站不连接任何外部服务。字体都在 `fonts/` 里，访问计数记在自己的服务器上。
 - 字体来源：Noto 系列与 Gentium Book Plus 均为 SIL Open Font License 开源字体。
+- 词典数据：满汉、蒙汉、满汉蒙、清文鉴来自栗林均词典，藏文来自 Christian Steinert 藏文词典。各词典版权属于原作者。

@@ -37,6 +37,9 @@
 .foot-name { font-family: var(--f-lat); font-style: italic; font-size: 1.15rem; color: var(--seal); }
 .foot-meta:empty { display: none; }
 .foot-meta a { color: inherit; }
+/* 访问计数（js/counter.js）：数字等宽，变动时不左右跳 */
+.foot-stats { font-size: .78rem; font-variant-numeric: tabular-nums; }
+.foot-stats b { font-weight: 600; color: var(--ink); }
 
 /* ---------- 首页大标题 ---------- */
 .hero .lead { margin: .35rem 0 0; color: var(--ink-soft); max-width: 44rem; }

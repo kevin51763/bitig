@@ -21,11 +21,11 @@
     // 词典卡片和下面“对照转写”的卡片同一个样子：左边是该词典所收文字的示例字（config/dictionaries.js 的 glyph），
     // 字体、竖排照那种语言的设置；没写 glyph 的用书本图标
     const glyphHtml = d => !(d.glyph && d.glyph.length) ? BOOK : d.glyph.map(([text, id]) => {
-      const l = SIYI.languages.find(x => x.id === id) || {};
-      return `<span class="g${l.vertical === 'rotated' ? ' rot' : l.vertical ? ' v' : ''}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(text)}</span>`;
+      const l = SIYI.lang(id) || {};
+      return `<span class="g${SIYI.vertClass(l, 'v')}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(text)}</span>`;
     }).join('');
     $('home-dict-links').innerHTML = list.map(d => {
-      const out = /^https?:/.test(d.url || '');
+      const out = SIYI.isExternal(d.url);
       return `<a class="tool-card" href="${esc(d.url)}"${out ? ' target="_blank" rel="noopener"' : ''}>
         <span class="glyph dglyph${d.glyph && d.glyph.length > 1 ? ' pair' : ''}">${glyphHtml(d)}</span><b>${esc(d.name)}${out ? ' ↗' : ''}</b></a>`;
     }).join('');
@@ -33,7 +33,7 @@
     const card = l => {
       const c = l.card || {};
       return `<a class="tool-card" href="#tool-${esc(l.id)}">
-        <span class="glyph${l.vertical === 'rotated' ? ' rot' : l.vertical ? ' v' : ''}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(c.glyph || '')}</span>
+        <span class="glyph${SIYI.vertClass(l, 'v')}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(c.glyph || '')}</span>
         <b>${esc(l.name)}</b></a>`;
     };
     const tools = SIYI.languages.filter(l => l.editor && !l.hidden);

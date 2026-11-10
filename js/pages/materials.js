@@ -19,6 +19,10 @@
   /* 顶上一排语言按钮筛选；“全部”时每份资料只列一次，按加入先后，新的在前 */
   let filter = SIYI.store.get('siyi-mat-filter') || 'all';
   function renderList() {
+    // 顶上的联系邮箱用 config/site.js 里的 email；没写就不显示这一行
+    const email = SIYI.config.site.email;
+    $('mats-contact').hidden = !email;
+    $('mats-contact').innerHTML = email ? `添加资料，请联系 <a href="mailto:${esc(email)}">${esc(email)}</a>` : '';
     const all = SIYI.materials.slice().reverse();
     $('mats-count').textContent = all.length ? `共 ${all.length} 份` : '';
     if (!all.length) {

@@ -79,29 +79,28 @@
   </details>
 
 `;
-  document.getElementById('v-tri').innerHTML = MARKUP;
+  SIYI.$('v-tri').innerHTML = MARKUP;
 })();
 
 (function () {
   const O = SIYI.turkic;
-  const $ = id => document.getElementById(id);
+  const $ = SIYI.$, esc = SIYI.esc, store = SIYI.store, say = SIYI.toast;
   const TA = { sc: $('ta-sc'), tl: $('ta-tl'), tr: $('ta-tr') };
   const BD = { sc: $('bd-sc'), tl: $('bd-tl'), tr: $('bd-tr') };
   const fieldSc = $('field-sc');
   const PANES = ['sc', 'tl', 'tr'];
 
-  const store = {
-    get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
-    set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
-  };
+  /* 草稿存在读者浏览器里用的名字。改了名字，读者以前存的草稿就读不到了，不要改 */
   const KEYS = {
     ug: { draft: 'ougr-draft-v1' },
     rn: { draft: 'ougr-draft-rn-v1' }
   };
+  /* “载入示例”给出的换写 */
   const SAMPLES = {
     ug: { text: 'wyγwr tnkry kwnkwl yrlγ\npylyk kʾlmʾδwk\npyr ʾyky ʾwyc twyrt' },
     rn: { text: 't¹b¹γč : b¹ud¹n¹ : s¹b¹i : s¹üčig : γis¹i : y²imšq : r²ms²\nt²ŋr²id²a : b¹ul¹mš : t²ür²kͦ : b²il²ga : qγn¹' }
   };
+  /* 两种文字各自的界面文字：栏名、字母键的说明、换写和转写栏下面的补充字母 */
   const UI = {
     ug: { title: '回鹘文', lang: 'und-Ougr', aria: '回鹘文',
       kbLabel: '在回鹘文栏里，拉丁键直接打出回鹘文字母（a→ʾ，S→š，数字 1–4 打附加点）',
@@ -124,9 +123,7 @@
   let kbOn = true;
   const RE = () => ({ sc: M.WORD, tl: O.LAT_WORD, tr: O.LAT_WORD });
 
-  const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-
-  // Latin keys typed into the script box
+  // 在原文栏里按拉丁键，直接打出对应的原文字母
   const KEYMAP = { ug: {}, rn: {} };
   (() => {
     const L = id => O.BYID[id].ch, Mk = id => O.MARKS.find(m => m.id === id).ch;
@@ -196,7 +193,7 @@
     draftTimer = setTimeout(() => store.set(KEYS[m].draft, v), 400);
   }
 
-  // ---------- highlighting ----------
+  // ---------- 点词高亮：三栏里对应的词一起亮 ----------
   function indicesAt(text, re, s, e) {
     const out = new Set(); let k = 0;
     for (const t of O.tokenize(text, re)) {
@@ -243,7 +240,7 @@
     PANES.forEach(p => { if (p !== src) reveal(p); });
   }
 
-  // ---------- unknown characters ----------
+  // ---------- 换写栏里认不出的字符 ----------
   const footTl = $('foot-tl');
   function updateUnknown() {
     const unk = new Set(); scText(TA.tl.value, unk);
@@ -253,7 +250,7 @@
     footTl.hidden = !unk.size;
   }
 
-  // ---------- keyboard & palettes ----------
+  // ---------- 字母键和补充字母 ----------
   function insertInto(p, str) {
     const t = TA[p];
     if (document.activeElement !== t && t.dataset.touched !== '1') t.setSelectionRange(t.value.length, t.value.length);
@@ -300,7 +297,7 @@
   });
   $('kb-map').addEventListener('change', e => { kbOn = e.target.checked; });
 
-  // ---------- orientation (Old Uyghur only; vertical by default) and font size ----------
+  // ---------- 竖排横排（只有回鹘文，默认竖排）和字号 ----------
   const canVert = !!(window.CSS && CSS.supports('writing-mode', 'sideways-lr'));
   function setVert(on) {
     fieldSc.classList.toggle('vertical', on);
@@ -316,7 +313,7 @@
     PANES.forEach(renderPane);
   });
 
-  // ---------- events ----------
+  // ---------- 输入、滚动、选中 ----------
   let composing = false;
   PANES.forEach(p => {
     const t = TA[p];
@@ -338,24 +335,22 @@
   });
   new ResizeObserver(() => PANES.forEach(follow)).observe(document.body);
 
-  // ---------- copy / toolbar ----------
-  const toast = $('toast'); let toastT = null;
-  function say(msg) { toast.textContent = msg; toast.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { toast.hidden = true; }, 1600); }
+  // ---------- 复制、载入示例、清空 ----------
   document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', () => {
     const t = TA[b.dataset.copy];
     const fallback = () => { t.focus(); t.select(); say('已选中全部文字，请按 Ctrl+C 或 ⌘C 复制'); };
     try { navigator.clipboard.writeText(t.value).then(() => say('已复制'), fallback); } catch (e) { fallback(); }
   }));
-  function load(text, isSample) {
+  function load(text) {
     TA.tl.value = text; active = new Set(); activeFrom = null;
     TA.tl.setSelectionRange(0, 0);
     sync('tl');
     active = new Set(); renderAll(null);
   }
-  $('btn-sample').addEventListener('click', () => load(SAMPLES[mode].text, true));
-  $('btn-clear').addEventListener('click', () => { load('', false); TA.sc.focus(); });
+  $('btn-sample').addEventListener('click', () => load(SAMPLES[mode].text));
+  $('btn-clear').addEventListener('click', () => { load(''); TA.sc.focus(); });
 
-  // ---------- mode ----------
+  // ---------- 在回鹘文和如尼文之间切换 ----------
   function applyMode(m, first) {
     if (!first) { clearTimeout(draftTimer); store.set(KEYS[mode].draft, TA.tl.value); }
     mode = m; M = O.MODES[m]; store.set('ougr-mode', m);
@@ -369,9 +364,9 @@
     buildKeys();
     TA.sc.dataset.touched = ''; TA.tl.dataset.touched = ''; TA.tr.dataset.touched = '';
     const draft = store.get(KEYS[m].draft);
-    if (draft !== null && draft.trim() !== '') load(draft, false); else load(SAMPLES[m].text, true);
+    load(draft !== null && draft.trim() !== '' ? draft : SAMPLES[m].text);
   }
-  // ---------- start (driven by the site router) ----------
+  // ---------- 入口：由 js/router.js 调用 ----------
   let started = false;
   SIYI.threePane = {
     show(m) {
