@@ -42,67 +42,23 @@
     headH();
     if (window.ResizeObserver) new ResizeObserver(headH).observe(document.querySelector('.site-head'));
     else window.addEventListener('resize', headH);
-    watchScroll();
+    watchSize();
   }
-  /* 手机上：整页滚动，上方内容（页头、词典顶栏、原文栏）随滑动收放。电脑端不收。
-     往下滑：同一方向滑过 30 像素就一次收完；滑得越快，收起的动画越短（120～280 毫秒）。
-     往上滑：慢慢滑时保持收起，方便来回看词条；快速往上一划（超过 FAST）才平滑滑回。
-     回到页首附近时总是完整显示。位置和动画在 css/dict.css 末尾。 */
-  const narrow = window.matchMedia('(max-width: 760px)');
-  const FAST = 0.8;          // 往上滑的速度超过每毫秒 0.8 像素（约每秒 800 像素）才算快
-  let hide = 0, top = 0, lastY = 0, down = 0, trail = [], animTimer = 0, frame = 0;
+  /* 手机上：整页滚动，页头、词典顶栏、原文栏、结果数一行依次固定在上面，一直显示，不随滑动收起。
+     要固定得一个接一个，得知道前面几块有多高，这里量出来交给 css/dict.css 末尾的样式。 */
   const rootStyle = document.documentElement.style;
-  function apply() { frame = 0; rootStyle.setProperty('--hide', hide + 'px'); }
-  // ms：动画时长（毫秒），不给就用 300
-  function setHide(px, animate, ms) {
-    px = Math.max(0, Math.min(px, top));
-    if (px === hide) return;
-    hide = px;
-    clearTimeout(animTimer);
-    rootStyle.setProperty('--hide-ms', (ms || 300) + 'ms');
-    document.body.classList.toggle('dx-anim', !!animate);
-    if (animate) animTimer = setTimeout(() => document.body.classList.remove('dx-anim'), (ms || 300) + 20);
-    if (!frame) frame = requestAnimationFrame(apply);
-  }
-  function setCollapsed(on) { setHide(on ? top : 0, true); }
-  // 量出页头、当前词典顶栏、原文栏的高度，供吸顶和收起的位置用
   function measure() {
     const panel = document.querySelector('.dx-panel:not([hidden])');
     const h = sel => { const el = panel && panel.querySelector(sel); return el ? el.offsetHeight : 0; };
-    const sh = document.querySelector('.site-head').offsetHeight, dh = h('.dx-head'), sp = h('.dx-spine');
-    rootStyle.setProperty('--sh', sh + 'px');
-    rootStyle.setProperty('--dh', dh + 'px');
-    rootStyle.setProperty('--sp', sp + 'px');
-    top = sh + dh + sp;
-    if (hide > top) setHide(top);
+    rootStyle.setProperty('--sh', document.querySelector('.site-head').offsetHeight + 'px');
+    rootStyle.setProperty('--dh', h('.dx-head') + 'px');
+    rootStyle.setProperty('--sp', h('.dx-spine') + 'px');
   }
+  // 这几块的高度一变（展开词典来源、转动屏幕），就重新量
   let ro = null;
-  function watchScroll() {
+  function watchSize() {
     if (window.ResizeObserver) ro = new ResizeObserver(() => measure());
-    window.addEventListener('scroll', () => {
-      if (!document.body.classList.contains('in-dict')) return;
-      if (!narrow.matches) return setHide(0);
-      const y = Math.max(0, window.scrollY), now = performance.now(), d = y - lastY;
-      lastY = y;
-      // 记下最近的位置，用来算速度（每毫秒多少像素，往下为正）
-      trail.push([now, y]);
-      while (trail.length && now - trail[0][0] > 150) trail.shift();
-      // 速度只按最近 150 毫秒内的位置算；刚开始滑、只有一个点时还不知道速度（null）
-      const v = trail.length >= 2 ? (y - trail[0][1]) / Math.max(1, now - trail[0][0]) : null;
-      if (d > 0) {
-        down += d;
-        // 往下：上方内容已整个滚过去、且同一方向滑过 30 像素，一次收完；滑得越快动画越短。
-        // 还不知道速度时先等下一帧（约 16 毫秒），除非一下就滑了很远
-        if (hide === 0 && y >= top && down > 30 && (v !== null || down > 80))
-          setHide(top, true, v === null ? 200 : Math.round(Math.max(120, Math.min(280, 300 - 90 * v))));
-      } else if (d < 0) {
-        down = 0;
-        if (hide > 0 && v !== null && v < -FAST) setHide(0, true);   // 快速往上：滑回
-      }
-      // 回到页首附近时完整显示，否则结果上面会空出一块
-      if (hide > 0 && y < top) setHide(0, true);
-    }, { passive: true });
-    narrow.addEventListener('change', () => { setHide(0); measure(); });
+    else window.addEventListener('resize', measure);
   }
   function observe(id) {
     if (!ro) return;
@@ -133,7 +89,6 @@
       app(id);
       SIYI.dictConfigs.forEach(c => { $('dx-' + c.id).hidden = c.id !== id; });
       $('dict-h1').textContent = cfgOf(id).title;
-      setCollapsed(false);
       headH(); measure();
       apps[id].show();
       // 稍后趁空闲预读其余几部的检索文件，切换过去时不用等

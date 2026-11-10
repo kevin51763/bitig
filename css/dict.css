@@ -294,11 +294,9 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
   .dx-search { grid-row: 2; }
 }
 
-/* ---------- 手机：整页滚动，上方内容随滑动收放 ----------
-   页头、词典顶栏、原文栏、结果数一行依次吸顶，四者一起上移 --hide 像素：
-   往下滑时 --hide 一次设为前三者的总高，结果数一行移到最上；快速往上滑时 --hide 回到 0。
-   加 dx-anim 时有动画，时长 --hide-ms 随滑动快慢而定。--hide 由 js/pages/dict.js 设定。
-   --sh、--dh、--sp 分别是页头、词典顶栏、原文栏的高度，也由 dict.js 量出。 */
+/* ---------- 手机：整页滚动，上方内容固定 ----------
+   页头、词典顶栏、原文栏、结果数一行依次固定在上面，一直显示。
+   --sh、--dh、--sp 分别是页头、词典顶栏、原文栏的高度，由 js/pages/dict.js 量出。 */
 @media (max-width: 760px) {
   #v-dict { height: auto; }
   .dx-panel { height: auto; display: block; }
@@ -307,12 +305,6 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
   .dx-head { position: sticky; top: var(--sh, 0px); z-index: 7; }
   .dx-spine { position: sticky; top: calc(var(--sh, 0px) + var(--dh, 0px)); z-index: 6; }
   .dx-status { top: calc(var(--sh, 0px) + var(--dh, 0px) + var(--sp, 0px)); z-index: 5; }
-  body.in-dict .site-head, body.in-dict .dx-head, body.in-dict .dx-spine, body.in-dict .dx-status {
-    transform: translateY(calc(-1 * var(--hide, 0px)));
-  }
-  body.in-dict.dx-anim .site-head, body.in-dict.dx-anim .dx-head, body.in-dict.dx-anim .dx-spine, body.in-dict.dx-anim .dx-status {
-    transition: transform var(--hide-ms, 300ms) ease-out;
-  }
 }
 
 /* 释义一栏不许撑宽页面：长书名可换行，过长的词（梵文长词、成串的藏文）在必要时断开。
