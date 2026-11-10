@@ -4,7 +4,7 @@
      1. 复制本文件，改名为该文字的英文名，如 js/converters/sogdian.js
      2. 把下面的 xx 换成 config/languages.js 里的简写，写好 toScript 和 toLatin
      3. 在 index.html 里“新加的转换规则放在这一行上面”那一行之上，加一行
-          <script src="js/converters/sogdian.js"></script>
+          <script src="js/converters/sogdian.js?v=版本号"></script>（版本号和其他行一样）
      4. 在 config/languages.js 里给这种语言写 editor: 'two-pane'，并设好 font、dir
    现成的例子可以看 chagatai.js（最简单，逐字母对照）和 manchu.js。 */
 (function () {

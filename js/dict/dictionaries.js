@@ -1,4 +1,4 @@
-/* “词典”栏目里三部词典各自的设置：读哪个词库、释义怎么排、左栏显示什么。
+/* “词典”栏目里各部词典各自的设置：读哪个词库、释义怎么排、左栏显示什么。
    查询程序在 js/dict/core.js，转写规则在 js/dict/translit-mnc.js 和 translit-mn.js。
    词库在 dict/data/，由 dict/tools/build_data.py 从栗林均词典的 CSV 生成；
    重新生成词库后，把下面 VER 的日期改新，读者的浏览器才会重新下载。 */

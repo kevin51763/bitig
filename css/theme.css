@@ -1,5 +1,5 @@
 /* 颜色与字体。网站的配色、各种文字用的字体都在这里集中定义，其他样式文件只引用这些名字。
-   浅色在 :root 里；深色（读者的系统设为深色模式时）在下面两段里，两段内容保持一致。 */
+   浅色在 :root 里；深色（读者的系统设为深色模式时）在下面那一段里。 */
 :root {
   /* 底色与文字 */
   --paper: #eceee9;      /* 页面底色 */
@@ -27,16 +27,10 @@
   --f-chg: "Noto Naskh Arabic", "Scheherazade New", "Amiri", serif;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  :root {
     --paper: #111418; --sheet: #181c21; --ink: #e3e6e9; --ink-soft: #9aa3ab; --rule: #2c3339;
     --lapis: #9fb5ea; --seal: #E27462; --warn: #e48b74; --hl: #2a3a62; --hl-self: #222c45;
     --scroll: #142036; --scroll-ink: #ece4cf; --scroll-soft: #9eabc2; --scroll-rule: #2c3d5c;
     color-scheme: dark;
   }
-}
-:root[data-theme="dark"] {
-  --paper: #111418; --sheet: #181c21; --ink: #e3e6e9; --ink-soft: #9aa3ab; --rule: #2c3339;
-  --lapis: #9fb5ea; --seal: #E27462; --warn: #e48b74; --hl: #2a3a62; --hl-self: #222c45;
-  --scroll: #142036; --scroll-ink: #ece4cf; --scroll-soft: #9eabc2; --scroll-rule: #2c3d5c;
-  color-scheme: dark;
 }

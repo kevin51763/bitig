@@ -22,7 +22,7 @@
   function block(q) {
     const f = forms(q), lg = SIYI.lang(q.lang) || {};
     const style = `font-family:${lg.font || 'inherit'};--s:${lg.scale || 1}`;
-    return `<div class="say-sc${lg.vertical === 'rotated' ? ' rot' : lg.vertical ? ' vert' : ''}" dir="${lg.dir || 'ltr'}" lang="${esc(q.lang)}" style="${esc(style)}">${esc(f.sc)}</div>
+    return `<div class="say-sc${SIYI.vertClass(lg, 'vert')}" dir="${lg.dir || 'ltr'}" lang="${esc(q.lang)}" style="${esc(style)}">${esc(f.sc)}</div>
       <div class="say-text">
         <span class="say-lang">${esc(SIYI.langName(q.lang))}</span>
         <p class="say-lat">${esc(f.lat)}</p>
@@ -78,6 +78,5 @@
   }
 
   SIYI.checkList(SIYI.sayings, 'content/sayings.js', ['lang', ['tr', 'tl', 'sc'], 'zh']);
-  SIYI.pages = SIYI.pages || {};
   SIYI.pages.sayings = { next, renderPage, forms };
 })();

@@ -9,7 +9,7 @@ var SIYI = globalThis.SIYI = {
   sayings: [],         // content/sayings.js
   converters: {},      // js/converters/*.js，两栏编辑器用
   notes: {},           // 编辑器下方的说明文字
-  data: {},           // 大块数据，如碑文词形表
+  data: {},            // 大块数据，如碑文词形表
   pages: {}            // js/pages/*.js，各栏目
 };
 
@@ -24,8 +24,25 @@ var SIYI = globalThis.SIYI = {
   /* 一个语言标记（如 'mnc'，或直接写的 '汉文'）对应的显示名 */
   SIYI.langName = id => (SIYI.lang(id) || {}).name || id;
 
+  /* 网址是不是站外的（以 http 开头）。站外链接在新标签页打开 */
+  SIYI.isExternal = url => /^https?:/.test(url || '');
+
+  /* 某种语言的原文该怎样排：竖写、转 90° 竖写，还是横写（config/languages.js 的 vertical）。
+     返回要加的 class；竖写的 class 名各处不同，由调用的地方给出 */
+  SIYI.vertClass = (lang, vert, rotated = 'rot') =>
+    !lang ? '' : lang.vertical === 'rotated' ? ' ' + rotated : lang.vertical ? ' ' + vert : '';
+
+  /* 页面底部弹出一句短提示，过一会儿自动消失（如“已复制”） */
+  let toastTimer = null;
+  SIYI.toast = msg => {
+    const el = SIYI.$('toast');
+    el.textContent = msg; el.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { el.hidden = true; }, 1600);
+  };
+
   /* 一条词典链接：站外的在新标签页打开并加 ↗，站内的（如 dict/ 里的词典）直接打开 */
-  SIYI.dictLink = d => /^https?:/.test(d.url || '')
+  SIYI.dictLink = d => SIYI.isExternal(d.url)
     ? `<a href="${SIYI.esc(d.url)}" target="_blank" rel="noopener">${SIYI.esc(d.name)} ↗</a>`
     : `<a href="${SIYI.esc(d.url)}">${SIYI.esc(d.name)}</a>`;
 
