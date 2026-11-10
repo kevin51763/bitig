@@ -26,20 +26,21 @@
 <!-- 这个文件只是页面的骨架。要改文字和内容，请看 config/ 和 content/ 两个文件夹；详见 README.md
      下面每个文件名后的 ?v=日期 是版本号：改过任何文件后，把所有 ?v= 后面的数字一起改成新日期，
      读者的浏览器就会重新下载，而不是沿用旧文件。 -->
-<link rel="stylesheet" href="css/fonts.css?v=2026111022">
-<link rel="stylesheet" href="css/theme.css?v=2026111022">
-<link rel="stylesheet" href="css/base.css?v=2026111022">
-<link rel="stylesheet" href="css/layout.css?v=2026111022">
-<link rel="stylesheet" href="css/pages.css?v=2026111022">
-<link rel="stylesheet" href="css/three-pane.css?v=2026111022">
-<link rel="stylesheet" href="css/two-pane.css?v=2026111022">
-<link rel="stylesheet" href="css/dict.css?v=2026111022">
+<link rel="stylesheet" href="css/fonts.css?v=2026111023">
+<link rel="stylesheet" href="css/theme.css?v=2026111023">
+<link rel="stylesheet" href="css/base.css?v=2026111023">
+<link rel="stylesheet" href="css/layout.css?v=2026111023">
+<link rel="stylesheet" href="css/pages.css?v=2026111023">
+<link rel="stylesheet" href="css/three-pane.css?v=2026111023">
+<link rel="stylesheet" href="css/two-pane.css?v=2026111023">
+<link rel="stylesheet" href="css/dict.css?v=2026111023">
 </head>
 <body>
 
 <header class="site-head">
   <div class="in">
-    <a class="brand" id="brand" href="#home"></a>
+    <!-- 网站名和它旁边的小印章（config/site.js 的 title、seal）。印章在手机上不显示 -->
+    <a class="brand" id="brand" href="#home"><span id="brand-name"></span><span class="seal" aria-hidden="true" hidden><span id="brand-seal" dir="rtl" lang="und-Ougr"></span></span></a>
     <nav class="nav" id="nav" aria-label="对照转写"></nav>
     <nav class="nav nav-right" id="nav-right" aria-label="栏目"></nav>
   </div>
@@ -47,8 +48,8 @@
 
 <!-- 首页 -->
 <main class="view wrap home" id="v-home">
-  <div class="hero">
-    <h1 class="wordmark"><span id="home-title"></span><span class="seal" aria-hidden="true"><span id="home-seal" dir="rtl" lang="und-Ougr"></span></span></h1>
+  <!-- 首页最上面的介绍（config/site.js 的 lead、origin）；两项都空着时这一块不显示 -->
+  <div class="hero" id="home-hero">
     <p class="lead" id="home-lead"></p>
     <p class="origin" id="home-origin"></p>
   </div>
@@ -111,42 +112,42 @@
 <div class="toast" id="toast" hidden></div>
 
 <!-- 载入顺序不能乱：先命名空间，再配置和内容，再转换规则和编辑器，然后是各栏目和路由，最后是访问计数 -->
-<script src="js/siyi.js?v=2026111022"></script>
+<script src="js/siyi.js?v=2026111023"></script>
 
-<script src="config/site.js?v=2026111022"></script>
-<script src="config/languages.js?v=2026111022"></script>
-<script src="config/dictionaries.js?v=2026111022"></script>
+<script src="config/site.js?v=2026111023"></script>
+<script src="config/languages.js?v=2026111023"></script>
+<script src="config/dictionaries.js?v=2026111023"></script>
 
-<script src="content/texts.js?v=2026111022"></script>
-<script src="content/materials.js?v=2026111022"></script>
-<script src="content/sayings.js?v=2026111022"></script>
+<script src="content/texts.js?v=2026111023"></script>
+<script src="content/materials.js?v=2026111023"></script>
+<script src="content/sayings.js?v=2026111023"></script>
 
-<script src="js/data/turkic-corpus.js?v=2026111022"></script>
-<script src="js/converters/turkic-common.js?v=2026111022"></script>
-<script src="js/converters/old-uyghur.js?v=2026111022"></script>
-<script src="js/converters/old-turkic.js?v=2026111022"></script>
-<script src="js/converters/manchu.js?v=2026111022"></script>
-<script src="js/converters/mongolian.js?v=2026111022"></script>
-<script src="js/converters/tibetan.js?v=2026111022"></script>
-<script src="js/converters/chagatai.js?v=2026111022"></script>
-<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026111022"></script> -->
+<script src="js/data/turkic-corpus.js?v=2026111023"></script>
+<script src="js/converters/turkic-common.js?v=2026111023"></script>
+<script src="js/converters/old-uyghur.js?v=2026111023"></script>
+<script src="js/converters/old-turkic.js?v=2026111023"></script>
+<script src="js/converters/manchu.js?v=2026111023"></script>
+<script src="js/converters/mongolian.js?v=2026111023"></script>
+<script src="js/converters/tibetan.js?v=2026111023"></script>
+<script src="js/converters/chagatai.js?v=2026111023"></script>
+<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026111023"></script> -->
 
-<script src="js/dict/translit-mnc.js?v=2026111022"></script>
-<script src="js/dict/translit-mn.js?v=2026111022"></script>
-<script src="js/dict/core.js?v=2026111022"></script>
-<script src="js/dict/tibetan-dicts.js?v=2026111022"></script>
-<script src="js/dict/dictionaries.js?v=2026111022"></script>
+<script src="js/dict/translit-mnc.js?v=2026111023"></script>
+<script src="js/dict/translit-mn.js?v=2026111023"></script>
+<script src="js/dict/core.js?v=2026111023"></script>
+<script src="js/dict/tibetan-dicts.js?v=2026111023"></script>
+<script src="js/dict/dictionaries.js?v=2026111023"></script>
 
-<script src="js/editors/three-pane.js?v=2026111022"></script>
-<script src="js/editors/two-pane.js?v=2026111022"></script>
+<script src="js/editors/three-pane.js?v=2026111023"></script>
+<script src="js/editors/two-pane.js?v=2026111023"></script>
 
-<script src="js/pages/shared.js?v=2026111022"></script>
-<script src="js/pages/sayings.js?v=2026111022"></script>
-<script src="js/pages/texts.js?v=2026111022"></script>
-<script src="js/pages/materials.js?v=2026111022"></script>
-<script src="js/pages/home.js?v=2026111022"></script>
-<script src="js/pages/dict.js?v=2026111022"></script>
-<script src="js/router.js?v=2026111022"></script>
-<script src="js/counter.js?v=2026111022"></script>
+<script src="js/pages/shared.js?v=2026111023"></script>
+<script src="js/pages/sayings.js?v=2026111023"></script>
+<script src="js/pages/texts.js?v=2026111023"></script>
+<script src="js/pages/materials.js?v=2026111023"></script>
+<script src="js/pages/home.js?v=2026111023"></script>
+<script src="js/pages/dict.js?v=2026111023"></script>
+<script src="js/router.js?v=2026111023"></script>
+<script src="js/counter.js?v=2026111023"></script>
 </body>
 </html>
