@@ -130,7 +130,7 @@
     };
   })();
 
-  /* ---------- 满汉蒙词典 ---------- */
+  /* ---------- 蒙汉满词典（网址里的名字仍是 manhanmeng，不要改） ---------- */
   var manhanmeng = (function () {
     var NAMES = ['钦定蒙文汇书', '蒙文总汇', '蒙文倒纲', '蒙汉字典'], SEALS = ['汇', '总', '倒', '字'];
     var clean = function (s) { return s.replace(/\[[^\]]*\]/g, '').replace(/\([^)]*\)/g, '').replace(/\{[^}]*\}/g, '').trim(); };
@@ -157,7 +157,7 @@
       }).join('');
     }
     return {
-      id: 'manhanmeng', tab: '满汉蒙', title: '满汉蒙词典', data: 'dict/data/manhanmeng', ver: VER, source: '栗林均词典', sourceUrl: KURI, colLang: 'mn', twoPanes: true,
+      id: 'manhanmeng', tab: '蒙汉满', title: '蒙汉满词典', data: 'dict/data/manhanmeng', ver: VER, source: '栗林均词典', sourceUrl: KURI, colLang: 'mn', twoPanes: true,
       dicts: NAMES.map(function (n, i) { return { name: n, seal: SEALS[i] }; }),
       // 按钮次序与清文鉴一致：满文在左、蒙文在右；本词典按蒙古文立词头，第一次打开默认蒙文
       inputs: [

@@ -151,7 +151,7 @@ python3 -m http.server 8000
 
 ### 词典栏目
 
-页头的“词典”栏目里有满汉、蒙汉、满汉蒙、清文鉴、藏文五部词典。前四部数据来自栗林均词典，藏文词典数据来自 [Christian Steinert 藏文词典](https://github.com/christiansteinert/tibetan-dictionary)（各词典版权属于原作者）。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`、`#dict-tibetan`。
+页头的“词典”栏目里有满汉、蒙汉、蒙汉满、清文鉴、藏文五部词典。前四部数据来自栗林均词典，藏文词典数据来自 [Christian Steinert 藏文词典](https://github.com/christiansteinert/tibetan-dictionary)（各词典版权属于原作者）。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`、`#dict-tibetan`。
 
 ```
 js/dict/dictionaries.js   各部词典的设置（显示什么、怎样排）
@@ -340,7 +340,7 @@ GitHub Pages 上的副本和本地预览没有这个接口。那里页脚不显�
 5. **加栏目**：在 `index.html` 里加一块 `<main class="view" id="v-xxx" hidden>`，然后在 `js/router.js` 的 `VIEWS` 和 `resolve` 里各加一行。
 6. **网址不能随便变。** `#texts`、`#text-<id>`、`#dict-<词典名>`、`#tool-<语言简写>` 公开后就是别人收藏的链接。页面里的路径一律用相对路径（`css/base.css`，不以 `/` 开头），这样在 bitig.ink 和 GitHub Pages 的 `/bitig/` 下都能用。接口是例外，写 `/api/…`。
 7. **配置写错要在页面上说清楚。** 用 `SIYI.problem('哪个文件、怎么改')`，不要只写进控制台。
-8. **读者浏览器里存的名字不要改**（如 `mm-draft-mnc`、`ougr-draft-v1`、`dict-last`）。改了，读者以前存的草稿和设置就读不到了。
+8. **读者浏览器里存的名字不要改**（如 `mm-draft-mnc`、`ougr-draft-v1`、`dict-last`、`dict-spine`、`dict-col`）。改了，读者以前存的草稿和设置就读不到了。
 9. **颜色只在 `css/theme.css` 里定义**，其他样式文件引用变量名。深色模式的颜色在同一个文件里。
 10. **生成的文件不手改**：`dict/data/` 和 `js/dict/tibetan-dicts.js` 由 `dict/tools/` 的脚本生成。
 11. **新代码写中文注释**，说明它管什么、怎么改。改了维护流程，同步改这份说明。
@@ -357,4 +357,4 @@ GitHub Pages 上的副本和本地预览没有这个接口。那里页脚不显�
 - 网站不连接任何外部服务。字体都在 `fonts/` 里，访问计数记在自己的服务器上。
 - 搜索引擎：`index.html` 开头有一行必应的站长验证（`msvalidate.01`），不能删。以后登记别的搜索引擎，把它给的那一行 `<meta …>` 加在旁边。
 - 字体来源：Noto 系列与 Gentium Book Plus 均为 SIL Open Font License 开源字体。
-- 词典数据：满汉、蒙汉、满汉蒙、清文鉴来自栗林均词典，藏文来自 Christian Steinert 藏文词典。各词典版权属于原作者。
+- 词典数据：满汉、蒙汉、蒙汉满、清文鉴来自栗林均词典，藏文来自 Christian Steinert 藏文词典。各词典版权属于原作者。

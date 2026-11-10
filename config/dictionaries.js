@@ -13,7 +13,7 @@ SIYI.dictionaries = {
     // 示例字：bithe（满文“书”）、bičig（蒙古文“书”）、gisun 与 üge（满、蒙“词”）、buleku（满文“鉴”）、tshig mdzod（藏文“词典”）
     { name: '栗林均满汉词典', url: '#dict-manhan', langs: ['mnc'], glyph: [['ᠪᡳᡨᡥᡝ', 'mnc']] },
     { name: '栗林均蒙汉词典', url: '#dict-menghan', langs: ['mn'], glyph: [['ᠪᠢᠴᠢᠭ', 'mn']] },
-    { name: '栗林均满汉蒙词典', url: '#dict-manhanmeng', langs: ['mnc', 'mn'], glyph: [['ᡤᡳᠰᡠᠨ', 'mnc'], ['ᠦᠭᠡ', 'mn']] },
+    { name: '栗林均蒙汉满词典', url: '#dict-manhanmeng', langs: ['mnc', 'mn'], glyph: [['ᡤᡳᠰᡠᠨ', 'mnc'], ['ᠦᠭᠡ', 'mn']] },
     { name: '栗林均清文鉴词典', url: '#dict-qingwenjian', langs: ['mnc', 'mn'], glyph: [['ᠪᡠᠯᡝᡴᡠ', 'mnc']] },
     { name: 'Steinert 藏文词典', url: '#dict-tibetan', langs: ['bo'], glyph: [['ཚིག་མཛོད', 'bo']] },
 
