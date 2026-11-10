@@ -66,6 +66,14 @@
   /* 一部词典。C 是设置（见 dictionaries.js），root 是放这部词典的元素；headLeft 是顶栏左侧的 HTML（切换词典的链接）。 */
   // 上次是否收起了左栏
   try { if (localStorage.getItem('dict-spine') === 'off') document.documentElement.classList.add('dx-nospine'); } catch (e) {}
+  /* 每个词条左边那一列竖写的原文（满文、蒙古文词典才有）要不要显示。
+     读者选过就照读者的；没选过时，电脑上显示，手机上（窗口宽度不到 760）不显示，省地方 */
+  (function () {
+    var v = null;
+    try { v = localStorage.getItem('dict-col'); } catch (e) {}
+    var hide = v === null ? !!(window.matchMedia && window.matchMedia('(max-width: 760px)').matches) : v === 'off';
+    if (hide) document.documentElement.classList.add('dx-nocol');
+  })();
 
   function DictApp(C, root, headLeft) {
     var store = {
@@ -638,6 +646,7 @@
       if (pg) { if (!pg.disabled) goPage(+pg.getAttribute('data-pg')); return; }
       if (ev.target.closest('.dx-clear')) { qEl.value = ''; run(); qEl.focus(); return; }
       if (ev.target.closest('.dx-spine-btn')) { setSpine(!spineHidden()); return; }
+      if (ev.target.closest('.dx-col-btn')) { setCol(!colHidden()); return; }
       var pk = ev.target.closest('.dx-pick');
       if (pk) { panelEl.hidden = !panelEl.hidden; pk.setAttribute('aria-expanded', !panelEl.hidden); return; }
       if (ev.target.closest('.dx-legend-btn')) { setLegend(!q$('.dx-legend').classList.contains('open')); return; }
@@ -683,6 +692,14 @@
         b.setAttribute('aria-pressed', hide); b.textContent = hide ? '显示原文' : '收起原文';
       });
     }
+    // 词条左边的原文一列可以隐藏，各部词典共用这一设置，记在浏览器里。按钮按下（深色）表示正在显示
+    var COL_NAME = { mnc: '满文词条', mn: '蒙古文词条' };
+    function colHidden() { return document.documentElement.classList.contains('dx-nocol'); }
+    function setCol(hide) {
+      document.documentElement.classList.toggle('dx-nocol', hide);
+      try { localStorage.setItem('dict-col', hide ? 'off' : 'on'); } catch (e) {}
+      document.querySelectorAll('.dx-col-btn').forEach(function (b) { b.setAttribute('aria-pressed', !hide); });
+    }
     function buildFilters(counts) {
       var html = '';
       if (C.inputs.length > 1) {
@@ -690,34 +707,33 @@
           return '<button type="button" class="dx-segbtn" data-input="' + x.id + '" aria-pressed="' + (x.id === inputId) + '">' + esc(x.label) + '</button>';
         }).join('') + '</span>';
       }
-      if (C.groups) {
+      if (groups) {
         html += '<span class="dx-grp"><span>词典来源</span><button type="button" class="dx-pick" aria-expanded="' + !panelEl.hidden + '">' + pickLabel() + '</button></span>';
-      } else if (C.dicts.length > 1) {
-        html += '<span class="dx-grp"><span>词典来源</span>' + C.dicts.map(function (d, i) {
-          return '<label class="dx-toggle"><input type="checkbox" data-d="' + i + '"' + (enabled[i] ? ' checked' : '') + '>' +
-            '<span class="dx-seal d' + sealColor(i) + '">' + esc(d.seal) + '</span><span class="dx-name">' + esc(d.name) + '</span>' +
-            (counts ? '<span class="dx-n">' + counts[i].toLocaleString() + '</span>' : '') + '</label>';
-        }).join('') + '</span>';
       } else {
         html += '<span class="dx-grp"><span>词典来源</span><span class="dx-one">' + H.seal(0) + '<span class="dx-name">' + esc(C.dicts[0].name) + '</span>' +
           (counts ? '<span class="dx-n">' + E.length.toLocaleString() + ' 个词头</span>' : '') + '</span></span>';
       }
-      html += '<span class="dx-tools"><button type="button" class="dx-spine-btn" aria-pressed="' + spineHidden() + '">' + (spineHidden() ? '显示原文' : '收起原文') + '</button>' +
+      html += '<span class="dx-tools">' +
+        (C.noCol ? '' : '<button type="button" class="dx-col-btn" aria-pressed="' + !colHidden() + '" title="每个词条左边的原文，显示或隐藏">' + (COL_NAME[C.colLang] || '原文词条') + '</button>') +
+        '<button type="button" class="dx-spine-btn" aria-pressed="' + spineHidden() + '">' + (spineHidden() ? '显示原文' : '收起原文') + '</button>' +
         '<button type="button" class="dx-legend-btn" aria-expanded="false">转写规则</button></span>';
       var f = q$('.dx-filters');
       f.innerHTML = html;
-      f.querySelectorAll('input[data-d]').forEach(function (cb) {
-        cb.addEventListener('change', function () { enabled[+cb.getAttribute('data-d')] = cb.checked; store.set('dicts', enabled); run(); });
-      });
-      if (C.groups) buildPanel(counts);
+      if (groups) buildPanel(counts);
     }
-    // 词典很多（藏文）时，来源放在可展开的面板里，按语种分组，每组可全选、全不选
+    /* 词典来源放在可展开的面板里，点“已选 x / y 部”打开。
+       藏文词典很多，按语种分组（设置里的 groups），每组可全选、全不选；
+       其余词典没有分组，面板里就是一组。只有一部来源的词典不用面板。 */
     var panelEl = q$('.dx-dictpanel'), lastCounts = null;
+    var groups = C.groups || (C.dicts.length > 1 ? [{ id: '', label: '全部' }] : null);
+    function groupIds(gid) {
+      return C.dicts.map(function (d, i) { return (d.group || '') === gid ? i : -1; }).filter(function (i) { return i >= 0; });
+    }
     function pickLabel() { return '已选 ' + enabled.filter(Boolean).length + ' / ' + C.dicts.length + ' 部'; }
     function buildPanel(counts) {
       lastCounts = counts || lastCounts;
-      panelEl.innerHTML = C.groups.map(function (g) {
-        var ids = C.dicts.map(function (d, i) { return d.group === g.id ? i : -1; }).filter(function (i) { return i >= 0; });
+      panelEl.innerHTML = groups.map(function (g) {
+        var ids = groupIds(g.id);
         ids.sort(function (a, b) { return (C.dicts[a].rank || 0) - (C.dicts[b].rank || 0); });   // 与词条里的次序一致
         return '<section class="dx-pgroup"><h4>' + esc(g.label) + '<button type="button" data-all="' + g.id + '">全选</button>' +
           '<button type="button" data-none="' + g.id + '">全不选</button></h4><div class="dx-pgrid">' +
@@ -744,8 +760,7 @@
     panelEl.addEventListener('click', function (ev) {
       var a = ev.target.closest('[data-all],[data-none]');
       if (!a) return;
-      var g = a.getAttribute('data-all') || a.getAttribute('data-none');
-      setEnabled(C.dicts.map(function (d, i) { return d.group === g ? i : -1; }).filter(function (i) { return i >= 0; }), a.hasAttribute('data-all'));
+      setEnabled(groupIds(a.getAttribute(a.hasAttribute('data-all') ? 'data-all' : 'data-none')), a.hasAttribute('data-all'));
     });
 
     modeEl.value = store.get('mode', 'smart');

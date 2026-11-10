@@ -58,9 +58,9 @@ body.in-dict .site-foot { display: none; }
 .dx-clear[hidden] { display: none; }
 .dx-tools { margin-left: auto; order: 1; display: inline-flex; gap: 8px; white-space: nowrap; }
 /* “收起原文”“转写规则”两个按钮：与输入方式按钮同样的方框 */
-.dx-legend-btn, .dx-spine-btn { font: inherit; font-size: 13px; padding: 1px 12px; cursor: pointer; border-radius: 2px; background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); }
-.dx-legend-btn:hover, .dx-spine-btn:hover { border-color: var(--lapis); }
-.dx-legend-btn[aria-expanded="true"] { background: var(--lapis); border-color: var(--lapis); color: var(--sheet); }
+.dx-legend-btn, .dx-spine-btn, .dx-col-btn { font: inherit; font-size: 13px; padding: 1px 12px; cursor: pointer; border-radius: 2px; background: var(--sheet); color: var(--lapis); border: 1px solid var(--rule); }
+.dx-legend-btn:hover, .dx-spine-btn:hover, .dx-col-btn:hover { border-color: var(--lapis); }
+.dx-legend-btn[aria-expanded="true"], .dx-col-btn[aria-pressed="true"] { background: var(--lapis); border-color: var(--lapis); color: var(--sheet); }
 .dx-legend { position: absolute; grid-column: 2 / 3; left: 0; right: 0; top: calc(100% + 6px);
   /* 放在顶栏网格的第二列：左右边与上面的输入框、查询方式对齐；上下以整个顶栏为准，从顶栏下方展开 */
   font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 16px 14px; display: none;
@@ -221,6 +221,9 @@ body.in-dict .site-foot { display: none; }
   .dx-col { font-size: 20px; max-height: 160px; }
   .dx-headline .dx-tl { font-size: 21px; }
 }
+/* 隐藏词条左边的原文一列（“满文词条”“蒙古文词条”按钮）：释义占满整行 */
+.dx-nocol .dx-entry { grid-template-columns: 1fr; padding-left: 16px; }
+.dx-nocol .dx-col { display: none; }
 /* 收起左栏：结果占满宽度 */
 .dx-nospine .dx-spine { display: none; }
 .dx-nospine .dx-main, .dx-nospine .dx-main.two { grid-template-columns: 1fr; }
@@ -234,8 +237,6 @@ body.in-dict .site-foot { display: none; }
 .dx-results { overscroll-behavior: contain; }
 /* 输入框获得焦点时已有朱红底线，不再加外框 */
 #v-dict .dx-q:focus-visible { outline: none; }
-/* 有两组选项时（满汉蒙）：“转写规则”跟在第一组后面，第二组另起一行 */
-.dx-grp + .dx-grp { order: 2; width: 100%; }
 
 /* ---------- 藏文词典 ---------- */
 .dx-entry.nocol { grid-template-columns: 1fr; padding-left: 16px; }
