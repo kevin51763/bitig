@@ -183,7 +183,7 @@
       col: col,
       spine: function (c) {
         var live = c.q && !c.def && !c.selectedEntry, from = fromLabel(c);
-        var mnc = { lbl: '满文', lang: 'mnc', empty: '满文' }, mn = { lbl: '蒙文', lang: 'mn', empty: '蒙文' };
+        var mnc = { lbl: '满文', lang: 'mnc', empty: '满文随输入显示' }, mn = { lbl: '蒙文', lang: 'mn', empty: '蒙古文随输入显示' };
         if (live && c.inputId === 'mnc') { mnc.script = MNC.toScript(c.q); mnc.tl = MNC.display(c.q); }
         else if (c.top) { var p = manchuOf(c.top, c); if (p) { mnc.script = MNC.toScript(p); mnc.tl = MNC.display(p); mnc.from = from; } }
         if (live && c.inputId === 'mn') { mn.script = MN.toScript(MN.normInput(c.q), true); mn.tl = MN.normInput(c.q); }
@@ -252,7 +252,7 @@
       col: col,
       spine: function (c) {
         var live = c.q && !c.def && !c.selectedEntry, from = fromLabel(c);
-        var mnc = { lbl: '满文', lang: 'mnc', empty: '满文' }, mn = { lbl: '蒙文', lang: 'mn', empty: '蒙文' };
+        var mnc = { lbl: '满文', lang: 'mnc', empty: '满文随输入显示' }, mn = { lbl: '蒙文', lang: 'mn', empty: '蒙古文随输入显示' };
         if (live && c.inputId === 'mnc') { mnc.script = MNC.toScript(c.q); mnc.tl = D(c.q); }
         else if (c.top) { mnc.script = col(c.top); mnc.tl = D(c.top.key); mnc.from = from; }
         if (live && c.inputId === 'mn') { mn.script = MN.toScript(MN.normInput(c.q), true); mn.tl = MN.normInput(c.q); }

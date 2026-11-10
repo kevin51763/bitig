@@ -65,7 +65,7 @@
       WORD: { m: /[᠐-᠙ᠠ-ᡂ᠋-᠏‌‍ ]/, l: /[0-9A-Za-zÖÜöüγɣČčǰŠšĒē'\-]/ },
       UI: {
         name: '蒙古文', lang: 'mn-Mong', schemes: ['学术', '简便'], latinSub: '学术、简便两种写法都能输入',
-        sample: 'mongγol-un niγuča tobčiyan\n\nsayin bayin-a uu.\nköke tngri, aγula usu.\nmongγol kele bičig.\nkökeqota, ulaγanbaγatur.'
+        sample: 'mongγol-un niγuča tobčiyan\n\nčinggis qaγan-u uγ iǰaγur.\ndegere tngri-eče ǰayaγatu töregsen börte čino-a aǰuγu.\ngergei inu γoo-a maral aǰuγu.\ntenggis getülǰü irebe.\nonon mören-ü terigün-e burqan qaldun-a nutuγlaǰu,\ntöregsen batačiqan aǰuγu.'
       }
     };
   })();
