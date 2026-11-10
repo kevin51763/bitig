@@ -156,7 +156,7 @@
       WORD: { m: /[ཀ-ྼ]/, l: /[A-Za-z'+.\-]/ },
       UI: {
         name: '藏文', lang: 'bo', schemes: null, latinSub: '威利转写（Wylie / EWTS）',
-        sample: 'bkra shis bde legs/\n\nchu thigs bsags na rgya mtsho chags/\nsangs rgyas chos dang tshogs kyi mchog rnams la/\nbyang chub bar du bdag ni skyabs su mchi/'
+        sample: 'tshangs dbyangs rgya mtsho\'i mgul glu/\n\nshar phyogs ri bo\'i rtse nas/\ndkar gsal zla ba shar byung/\nma skyes a ma\'i zhal ras/\nyid la \'khor \'khor byas byung/'
       }
     };
   })();

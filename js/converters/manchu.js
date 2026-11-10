@@ -65,7 +65,7 @@
       WORD: { m: /[᠐-᠙ᠠ-ᡸ᠋-᠏‌‍ ]/, l: /[0-9A-Za-zŪūŮůŠšŽž'·|\-]/ },
       UI: {
         name: '满文', lang: 'mnc', schemes: ['穆麟德夫', '简便'], latinSub: 'ū、š、ž 也可以打 v、x、z',
-        sample: 'manju gisun\n\nbi manju bithe be tacimbi.\nere bithe be hūla.\nabka na, alin bira.\nsain inenggi, šun biya.'
+        sample: 'manju i da sekiyen\n\ngolmin šanggiyan alin den juwe tanggū ba, šurdeme minggan ba.\ntere alin i ninggu de tamun i gebungge omo bi, šurdeme jakūnju ba.\ntere alin ci tucikengge yalu, hūntung, aihu sere ilan giyang.\nyalu giyang alin i julergici tucifi wasihūn eyefi, liyoodung ni julergi mederi de dosikabi.\nhūntung giyang alin i amargici tucifi amasi eyefi, amargi mederi de dosikabi.\naihu bira wesihun eyefi, dergi mederi de dosikabi.'
       }
     };
   })();
