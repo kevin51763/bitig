@@ -1,0 +1,5 @@
+# 给搜索引擎看的说明：整个网站都可以收录，网址清单在 sitemap.xml。
+User-agent: *
+Allow: /
+
+Sitemap: https://bitig.ink/sitemap.xml
