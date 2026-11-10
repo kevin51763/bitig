@@ -14,7 +14,13 @@
 .brand { position: sticky; left: 0; z-index: 1; flex: none; background: var(--sheet);
   padding: .25rem .5rem .25rem 0; margin-right: -.5rem;
   box-shadow: calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 0 0 0 var(--sheet);
+  display: inline-flex; align-items: center; gap: .5rem;
   font-family: var(--f-lat); font-style: italic; font-weight: 400; font-size: 1.7rem; letter-spacing: .02em; line-height: 1; color: var(--ink); text-decoration: none; white-space: nowrap; }
+/* 网站名旁边竖排的回鹘文小印章：横写的字转 90°，自上而下读。负的上下外边距让它不把页头撑高 */
+.seal { position: relative; flex: none; width: 1rem; height: 2.3rem; margin-block: -.3rem; background: var(--seal); border-radius: 2px; transform: rotate(-3deg);
+  box-shadow: inset 0 0 0 1px var(--seal), inset 0 0 0 1.75px var(--sheet); }
+.seal > span { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(-90deg) translateY(-.24em);
+  font-family: var(--f-ug); font-style: normal; font-size: .8rem; line-height: 1; color: var(--sheet); white-space: nowrap; }
 .nav { display: flex; flex: none; gap: .15rem; }
 .nav:first-of-type { margin-right: auto; }
 .nav a { color: var(--ink-soft); text-decoration: none; font-size: .9rem; padding: .3rem .6rem; border-radius: 5px; white-space: nowrap; }
@@ -27,6 +33,7 @@
 @media (max-width: 560px) {
   .site-head .in { gap: .75rem; padding-block: .55rem; }
   .brand { font-size: 1.5rem; }
+  .seal { display: none; }   /* 手机上页头已经很挤，不显示印章 */
 }
 
 /* ---------- 页脚 ---------- */
@@ -41,15 +48,9 @@
 .foot-stats { font-size: .78rem; font-variant-numeric: tabular-nums; }
 .foot-stats b { font-weight: 600; color: var(--ink); }
 
-/* ---------- 首页大标题 ---------- */
-.hero .lead { margin: .35rem 0 0; color: var(--ink-soft); max-width: 44rem; }
+/* ---------- 首页最上面的介绍 ---------- */
+.hero .lead { margin: 0; color: var(--ink-soft); max-width: 44rem; }
 .hero .origin { margin: .5rem 0 0; font-size: .82rem; color: var(--ink-soft); max-width: 44rem; font-family: var(--f-zh); }
-.wordmark { margin: 0; display: flex; align-items: center; gap: 1.1rem; font-family: var(--f-lat); font-style: italic; font-weight: 400; font-size: 4.4rem; letter-spacing: .01em; line-height: 1; }
-/* 竖排的回鹘文印章：横写的字转 90°，自上而下读 */
-.seal { position: relative; flex: none; width: 2.5rem; height: 5.6rem; background: var(--seal); border-radius: 4px; transform: rotate(-3deg);
-  box-shadow: inset 0 0 0 2px var(--seal), inset 0 0 0 3.5px var(--sheet); }
-.seal > span { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(-90deg) translateY(-.24em);
-  font-family: var(--f-ug); font-style: normal; font-size: 1.95rem; line-height: 1; color: var(--sheet); white-space: nowrap; }
 
 /* ---------- 名句条（首页深色那一条） ---------- */
 .saying-band { position: relative; background: var(--scroll); color: var(--scroll-ink); border-radius: 6px; border-top: 3px solid var(--seal);
@@ -92,7 +93,6 @@
 #home-texts { margin-top: .6rem; }
 
 @media (max-width: 560px) {
-  .wordmark { font-size: 3.4rem; }
   .saying { padding-right: 0; padding-top: 1.4rem; }
   /* 手机上转写卡片两列，左边格子收窄（察合台文较宽，可以撑开）；词典名长，排成一列 */
   .tool-card { gap: .7rem; padding: 0 .8rem; }

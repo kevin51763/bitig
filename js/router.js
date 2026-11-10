@@ -11,7 +11,9 @@
 
   /* 页头与页脚 */
   document.title = site.title;
-  $('brand').textContent = site.title;
+  $('brand-name').textContent = site.title;
+  $('brand-seal').textContent = site.seal || '';
+  $('brand-seal').parentNode.hidden = !site.seal;
   const links = list => list.map(([h, t]) => `<a href="#${esc(h)}" data-nav="${esc(h)}">${esc(t)}</a>`).join('');
   $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
   $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '范文'], ['materials', '资料库']]);
