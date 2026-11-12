@@ -779,6 +779,8 @@
       },
       // 预先读入检索文件，切换过来时不用等
       prefetch: function () { loadIndex().catch(function () {}); },
+      // 替读者填好要查的词并查询（从编辑器里双击一个词过来时用）。inId 是输入方式，如 'mnc'
+      query: function (q, inId) { setQuery(q, inId); },
       // 从别的栏目回到词典时调用：清空输入框，结果区回到说明和查询历史
       reset: function () {
         clearTimeout(histTimer); histEditing = false;
