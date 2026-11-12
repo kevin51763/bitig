@@ -24,4 +24,17 @@
 .mm-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1rem; font-size: .9rem; color: var(--ink-soft); min-height: 2.2em; border-top: 1px solid var(--rule); padding-top: .6rem; }
 #mm-msg { margin-left: auto; }
 .mm-bar:has(#mm-msg:empty) { display: none; }
+/* 悬停释义的浮窗（js/editors/two-pane.js 的 showTip）。电脑上鼠标穿过它，不挡住下面的字；
+   触屏上可以点里面的“到词典里查” */
+.mm-tip { position: fixed; z-index: 30; max-width: min(26rem, calc(100vw - 16px)); padding: .5rem .7rem; pointer-events: none;
+  background: var(--sheet); color: var(--ink); border: 1px solid var(--rule); border-left: 3px solid var(--lapis); border-radius: 5px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .16); font-family: var(--f-zh); font-size: .9rem; line-height: 1.5; }
+.mm-tip.touch { pointer-events: auto; }
+.mm-tip-row { display: flex; flex-wrap: wrap; gap: 0 .6rem; align-items: baseline; }
+.mm-tip-row + .mm-tip-row { margin-top: .3rem; padding-top: .3rem; border-top: 1px dashed var(--rule); }
+.mm-tip-row b { font-family: var(--f-lat); font-style: italic; font-weight: 400; font-size: 1.05rem; color: var(--lapis); white-space: nowrap; }
+.mm-tip-row.none span, .mm-tip-note { color: var(--ink-soft); }
+.mm-tip-note { flex-basis: 100%; font-size: .82rem; }
+.mm-tip-foot { margin-top: .35rem; font-size: .72rem; color: var(--ink-soft); }
+.mm-tip-go { font: inherit; font-size: .82rem; color: var(--lapis); background: none; border: 0; padding: .2rem 0; cursor: pointer; }
 @media (max-width: 860px) { .mm-grid { grid-template-columns: 1fr; } .mm-pane { height: 56vh; min-height: 300px; } }

@@ -81,7 +81,13 @@
   let away = true;
   window.addEventListener('hashchange', () => { if (!/^#dict(-|$)/.test(location.hash)) away = true; });
 
+  let pending = null;   // 从别处带着一个词过来（open），等词典显示出来再替读者查
   SIYI.pages.dict = {
+    /* 打开某部词典并查一个词：编辑器里双击一个词时用。inputId 是那部词典的输入方式 */
+    open(id, q, inputId) {
+      pending = { id, q, inputId };
+      if (location.hash === '#dict-' + id) this.show(id); else location.hash = '#dict-' + id;
+    },
     show(id) {
       if (away) { Object.keys(apps).forEach(k => apps[k].reset()); away = false; }
       if (!cfgOf(id)) id = lastId();
@@ -91,6 +97,8 @@
       $('dict-h1').textContent = cfgOf(id).title;
       headH(); measure();
       apps[id].show();
+      if (pending && pending.id === id) apps[id].query(pending.q, pending.inputId);
+      pending = null;
       // 稍后趁空闲预读其余几部的检索文件，切换过去时不用等
       setTimeout(() => idle(() => SIYI.dictConfigs.forEach(c => app(c.id).prefetch())), 3000);
     }

@@ -1,0 +1,1855 @@
+'bugs	pierce
+'bugs pa	bore, hollow out, pierce, sting, bite
+'bugs ring	sigh
+'dir	here
+'dir 'byon	come here
+'dir 'dus	here included
+'dir 'phrad pa	meet here
+'dir bzhugs dang	sit down here
+'dir ni	1) here/ now; 2) within this life
+'dir snang	phenomena / experiences
+'dir yang	here/ now
+'gyer	AR abandon/ drop, knock off, make fall
+'gyer ba	to drop
+'jil	overcome
+'jil ba	to expel, eject, remove, turn off; intr. 'jil ba, 'jil…
+'jil bar byed pa	expel
+'jil le ba	vague
+'jil li	chair, wooden stool, colors of the rainbow
+'jil na shan	river in early indian history
+'jor	a hoe; hoe, grubbing-hoe, mattock, pick-axe, tool; a…
+'jor ba	mig zhar ba. Btsan-lha
+'jor bu	small hoe
+'jor gyis rko ba	turn up with the hoe
+'jor lcags	iron of a mattock
+'jor po	large mattock, spade
+'jor yu	handle of the hoe
+'khrog	p. 'khrogs 1) vi. to dislocate a joint. 2) vi. to get…
+'khrog khrog	roaring, rushing, buzzing
+'khrog lang	/ get stirred up
+'khrog pa	cause trouble
+'phel	breed
+'phel 'grib	wax and wane, increase and decrease; waxing and waning
+'phel 'grib kyi 'bor	'phel 'bor dang, chag 'bor, thon skyed brtan por gnas…
+'phel 'grib nad	diseases arising from excess or deficiency of humors
+'phel 'gyur	development
+'phel Bri	wax and wane, increase and decrease
+'phel ba	increase, improve, get stronger
+'phel ba byed	develop, cause to grow/ increase/ progress
+'phel ba can	palace, king's place, upright post of a house
+'phel ba med	non-increase
+'phel ba'i blo gros	Vardhamānamati
+'phel ba'i brtson 'grus	increasing effort
+'phel ba'i rnam pa	unfolding drama
+'phel ba'i zla ba	the 12th rgyal month
+'phel bar 'gyur	increase; will increase
+'phel bar 'gyur ba	increase; will increase
+'phel bar bya	I will increase
+'phel bar byed	increase; increasing
+'phel bar byed pa	[to increase, missing entries at this point, recheck…
+'phel bar mdzad pa	Vardhana
+'phel byed	to make increase; spel ba
+'phel byed pa	increase; increasing
+'phel gdung	multiplying remains
+'phel grib nad	1 of gnas bcu gcig
+'phel gtam	harangue, speech, sermon, discourse
+'phel ka	increase, development
+'phel ka can	snake
+'phel kha	development, growth, progress, expansion, spreading
+'phel med	non-increase
+'phel med 'grib med	not increase or decrese
+'phel med pa	non-increase
+'phel med rang gnas	absence of growth, static, standstill, w/o development/…
+'phel med sor gnas	absence of growth, static, standstill, w/o development/…
+'phel mo	Vṛddhi
+'phel phyogs	direction of development, tendency, trend, current
+'phel rgyas	developing, progressing
+'phel rgyas 'gro	become increased/ spread/ developed
+'phel rgyas brtan	increase, develop and stabilize
+'phel rgyas gling	Pelgyeling monastery, at Nyanang, in Latö
+'phel rgyas gtong	increase, spread, develop, progress, spread
+'phel rgyas phyin pa	wax
+'phel rgyas su gtong	increase, spread, develop, progress, spread
+'phel rim	successive changes/ stages, stages of progress/…
+'phel rkyen	basis for staying alive; tshe yi 'phel rkyen zad pa…
+'phel shed	power of manifold increase
+'phel shugs	spreading, dissemination
+'phel skyed	increase greatly
+'phel skyed gtong ba	increase greatly
+'phel skyed med pa	sterile
+'phel skyed nus shugs	power of great increase
+'phel skyed phyin pa	dilate
+'phel snang	appearance of increase, growth
+'phel snon	increase, augmentation, enlargement
+'phel snon byed	increase, augment, enlarge
+'phel stobs	reproductive ability/ capacity
+'phel thabs byed	find ways to develop/ progress/ advance/ increase
+'phel thig le ba	the increase of the bindu, multiplying, je cher expanded
+'phel thog	increase of cattle
+'phel tsha	a clan. Btsan-lha
+'phel tshad	rate of development/ growth/ increase
+'phel tshul	development/ growth/ increase
+'phel zad 'khrugs	struggle of increase and exhaustion
+'phel zhing rgyas pa	increasing and extending(S 29)
+'phel zhing yangs pa	increasing and extending
+'thugs bsgyur ba	transform the heart
+'tshong	to sell, barter, trade
+'tshong 'du	fair, market place, bazaar
+'tshong ba	'tshong ba, btsongs pa, btsong ba, tshongs trans. v.…
+'tshong ba'i tshad	for the purpose of selling
+'tshong bar byed	making sale, causes to be sold
+'tshong res	reciprocal sales/ trading, exchange sale
+'tshong res byed	conduct reciprocal sales/ trading/ exchange sales
+bcams	ply
+bcams pa	pf. of gcom pa
+bcin pa	Btsan-lha
+bgrangs	p. of bgrang
+bgrangs pa	lto bgrangs - a full stomach
+bgrangs pa la 'das	that is past counting
+bgyang	to postpone, to delay
+bgyang ba	ft. of bgyang ba; bgyang ba, bgyangs pa, bgyang ba…
+bhalla ta ka	marking nut
+bko bu	small basket
+bkol	(to boil) to bind into service; use, employ; 1) to use.…
+bkol ba	A. bkol ba, bkol ba, khol. trans. v. B. pf. and fut. of…
+bkol bde	easily employed, user-friendly
+bkol btub	duty, necessity
+bkol byang	Practice Manual; sm. phrin las, sgrub thabs
+bkol bzod pa	Btsan-lha
+bkol gcod	Syn bkol spyod
+bkol mag	husband of the daughter having come to live with the…
+bkol mdo	text by dharmabodhi who was an Indian master of the…
+bkol mkhas 'jog shes	Dpa'-ris
+bkol snyigs	waste material, cast off things
+bkol spyod	1) bound into servitude and exploited/ indentured…
+bkol spyod byed	1) urge/ put to work ; 2) enslave, exploit, force to…
+bkol spyod gsod pa	bondage and slaughter
+bkol spyod gtong	1) urge/ put to work ; 2) enslave, exploit, force to…
+bkol spyod lag rtsal	skill in working/ operating
+bkol spyod lugs srol	regulations for working/ operating
+bkol zog	working animals
+bkur	to serve, attend/ to praise, venerate; revere; 1)…
+bkur 'debs	Syn skur 'debs; joy, pleasure. 1) joy. 2) pleasure
+bkur 'os	1) worthy of honor, respect. 2) venerable
+bkur 'os kyi gnas	respectable, honorable
+bkur 'os pa	reverend
+bkur ba	1) to serve. 2) worship. 3) respect. 4) attend. 5)…
+bkur ba'i gzhi pa	Support of Veneration
+bkur ba'i las	ceremony. Syn bkur ba
+bkur bar byed pa	to do honor. Syn bkur ba
+bkur bsti	Syn bkur sti; respect
+bkur bzos	praising, expression of respect
+bkur bzos kyi bsngags	praising, expression of respect
+bkur rnyed	honor and gain
+bkur rtsi	respect
+bkur sti	1) veneration. 2) service. 3) homage. 4) respect. 5)…
+bkur sti bya ba	Syn bkur ba
+bkur sti byas pa	honored
+bkur sti byed	give respect, service, homage
+bkur sti byed pa	paying respect
+bkur sti mchod pa	to honor, to respect
+bkur sti zhu	give respect, service, homage
+bkur stir byed ba	to regard, show respect
+bkur stis dman pa	in low esteem
+bkur stis dregs	1) sense of honor. 2) self-respect
+bkur tshig	1) hymn, words of praise. 2) words or expression of…
+brling	ri bo las kyang brling firmer even than a mountain
+brling ba	firm, secure, sale
+brling log	confused, disorderly, not to be trusted
+brling po	dependable, steady, firm, secure, safe
+brnya ba	to borrow, to seize; ft. of rnya ba
+brnya skyi	borrow
+brnyal bcos	disdain
+brtsigs	build
+brtsigs pa	built, erected, piled up; pf. of rtsig pa; built
+brtsigs pa'i khang khyim	the house they've built; constructed houses
+brtsigs pa'i mgon gnang	Tsigpai Gön Nang, the Hermitage Built at the Order of…
+bshra	shining, beautiful, variegated
+bshud	rub
+bshud me	purifying fire
+bshud pa	ft. of shud pa; pf. of shud pa
+bshud rjer phyin pa	'drud pa'am bton pa'i phyir song bas so. Dpe-chos 506
+bshud sgra	whistle
+bsla ba	ft. of sla ba
+bsod	+ cing mang ba - both savory and abundant
+bsod bde	luck, fortune, luckiness, success
+bsod bde can	lucky, happy
+bsod bde chen po	blest
+bsod bde med	unhappy, wretched
+bsod bde med pa	hapless, unlucky
+bsod bde skam po	wretched
+bsod btags	fortuitous
+bsod de'i dbang thang	kha rje dbang thang. Dpe-chos 516
+bsod nams	'dod par bde ba myong byed dge ba'i las 'meritorious…
+bsod nams 'byor	Wealth of Merit
+bsod nams 'byor ldan	Endowed with Meritorious Wealth
+bsod nams 'byung gnas	Source of Merit
+bsod nams 'dod	Merit Wish, Wish for Merit
+bsod nams 'gros	Mode of Merit
+bsod nams 'khor	Merit Circle
+bsod nams 'od	Light of Merit, Puṇyābha, Meritorious Light, Puṇyaprabha
+bsod nams 'od 'phro	Puṇyaraśmi
+bsod nams 'od gsal	Luminous Merit
+bsod nams 'od zer	Merit Radiance, Puṇyaraśmi, Radiance of Merit, Lotsawa…
+bsod nams 'phags	Puṇyodgata, Noble Merit, Superior Merit
+bsod nams 'phel	increase of moral merit, a king of benares
+bsod nams 'phel ba	Puṇyaprasava
+bsod nams bkod	Merit Array
+bsod nams bkod pa	Array of Merit
+bsod nams bkra shis	1352-1412 - Sönam Tashi, Sakya master who built the…
+bsod nams bla ma	Superior Merit
+bsod nams blo gros	dmar sgom 1456-1521
+bsod nams brgya	Śatapuṇya
+bsod nams brgyan	Puṅyālaṃkāra
+bsod nams brtsegs	Merit Summit
+bsod nams brtsegs pa	Compiled Merit
+bsod nams bsags	Accumulation of Merit
+bsod nams bsags pa	accumulated merit
+bsod nams bshes gnyen	Meritorious Friend
+bsod nams bsung	magnolia
+bsod nams byin	Merit Gift
+bsod nams bzang po	excellent merit, bsod nams bzang po
+bsod nams bzhed	Acceptance of Merit
+bsod nams can	meritorious
+bsod nams cha mthun	mtho ris kyi bde ba'i ched du dge ba byed pa 'aid to…
+bsod nams che	great merit
+bsod nams chen ba	very virtuous person, of great moral merit
+bsod nams chen po	sbyin pas bsod nams chen po thob obtained great merit…
+bsod nams chos 'grub	rme ba mkhan chen
+bsod nams dag	Pure Merit
+bsod nams dar rgyas	increased and abundant merits, father of a dalai lama
+bsod nams dga'	Joyous Merit, Merit Joy
+bsod nams dgyes	Delighting in Merit, Puṇyapriya
+bsod nams dman pa	with little merit
+bsod nams dngos grub	accomplish merit
+bsod nams dpal	glory of merit
+bsod nams dpal 'dzom	It looks like a woman's name, but it is actually a name…
+bsod nams dpal 'dzoms	sngo tshal zhig ste 'u su ???
+bsod nams dpal byung	Arisen Great Merit
+bsod nams glang po	Puṇyahastin
+bsod nams grags pa	pan chen 1478-1554
+bsod nams gsal	Luminous Merit
+bsod nams gsog	accumulate merit
+bsod nams gyi cha	the aspect of merit, merit
+bsod nams gyi tshogs	collection of merit
+bsod nams gzi	Puṇyatejas
+bsod nams gzi brjid	Merit Splendor
+bsod nams khang pa	king's palace
+bsod nams kyi 'od	Puṇyaprabha
+bsod nams kyi chogs	the collection of merit
+bsod nams kyi gnas	holy place to visit which brings merit
+bsod nams kyi las	meritorious action
+bsod nams kyi mthus	sngon gi bsod nams kyi mthus because of the merit you…
+bsod nams kyi shugs	the strength of merit
+bsod nams kyi sku	Sinitic version of SambhogakAya. Stein, Tibetica…
+bsod nams kyi snod	1) object of collecting merit; 2) w merit
+bsod nams kyi stobs	Puṇyabala
+bsod nams kyi tog	Crest of Merit
+bsod nams kyi tshogs	Accumulation of merit
+bsod nams kyi zhing	field of merit
+bsod nams kyis brgyan	Ornamented with Merit
+bsod nams lag	Hand of Merit, Merit Hand, Puṇyabāhu
+bsod nams ldan	planet
+bsod nams ldan pa	lucky, fortunate, meritorious, w white karma
+bsod nams legs nges	Definitively Excellent Merit
+bsod nams lhun grub	glo bo mkhan chen
+bsod nams lhun po	Merupuṇya
+bsod nams ma yin	act that is not pious
+bsod nams mchod 'os	suitable offerings of merit
+bsod nams mchog	the best moral virtue, name of prince, son of king
+bsod nams me tog	se ba flower
+bsod nams min pa	'dod par sdug bsngal myong ba'i mi dge ba'i las…
+bsod nams mngon bsgrags	Announcing Merits
+bsod nams mnyam	Puṇyasama
+bsod nams mnyam pa	equal merit
+bsod nams mthong	Sight of Merit
+bsod nams mthu rtsal	Powerful Merit
+bsod nams mu stegs	Merit Support
+bsod nams nga ro	Roar of Merit
+bsod nams nyams pa	spoiled his merit
+bsod nams phun tshogs	Sönam Phuntsok
+bsod nams phung	heap of merit; aggregation of merit
+bsod nams phung po	assemblage of merit, mass of merit
+bsod nams rab brtan	Sönam Rapten
+bsod nams rab gsal	Bright Merit
+bsod nams rgya chen	Vast Merit
+bsod nams rgya mtsho	1543-88 - third Dalai Lama, Sönam Gyatso
+bsod nams rgyal	Victorious Merit
+bsod nams rgyal mtshan	ka: thog pa - rnying ma pa master
+bsod nams rgyun byas	one who is adorned with moral virtues
+bsod nams ri rab	Puṇyasumeru
+bsod nams rin chen	alias sgam po pa 1079-1153
+bsod nams rnam 'phrul	Display of Merit
+bsod nams rnam rgyal	1874-1952
+bsod nams rtse mo	1142-1182 - sa skya pa slob dpon
+bsod nams sgra sgrogs	proclamation of merit
+bsod nams sgron	Merit Lamp
+bsod nams sgron ma	Lamp of Insight, Merit Lamp, Puṇyapradīpa
+bsod nams skye	Born from Merit
+bsod nams skyes	Merit-Born; one of the abodes in the Fourth Dhyana
+bsod nams skyes pa	Puṇyaprasava
+bsod nams skyes po	meritorious person, one having moral merits
+bsod nams snang	Light of Merit
+bsod nams snyan grags	merit and fame
+bsod nams snying po	Merit Essence
+bsod nams sog pa	collect, accumulate merits
+bsod nams spos	Meritorious Incense
+bsod nams spos ldan	Merit Fragrance
+bsod nams stegs	Support for Merit
+bsod nams stegs bzang	Excellent Staircase of Merit
+bsod nams stobs	strength of merit
+bsod nams tog	Crest of Merit
+bsod nams tshogs	Merit Accumulated
+bsod nams zad kar	when his merits was finished
+bsod nams zhing	holy place, place of pilgrimage, place where deeds of…
+bsod nams zla ba	Moon of Merit
+bsod nyams	MSS: variant speling of bsod snyoms, alms. See CM
+bsod nyams kyi mtha'	'dod pa la lhag par longs spyod pa. Btsan-lha
+bsod nyams pa	1) fall away from/ destroy / 1's good fortune/ merit…
+bsod nyoms	alms
+bsod pa	to be pleased with, to take a delight in, to like
+bsod pa'i zas	good food, well-prepared, dressed, boiled
+bsod par brtsi	considered especially good
+bsod par byed	kill
+bsod par gnas	dwell in good fortune/ happiness
+bsod par gnas pa	dwell in good fortune/ happiness
+bsod shes	acceptance of the cognition of dharma
+bsod skyabs	Kāśyapa
+bsod snyams	alms
+bsod snyoms	alms; alms, gifts, mendicant
+bsod snyoms byed pa	beg, ask for alms
+bsod snyoms gyis	Beg alms!
+bsod snyoms gyis 'tsho	live on charity
+bsod snyoms la rgyu	ask for alms
+bsod snyoms len	Piṇḍola
+bsod snyoms mdzad	went begging alms
+bsod snyoms pa	alms food-eater sbyang ba'i yon tan bcu gsum begging…
+bsod snyoms phebs	asking for alms sangs rgyas rnam gzigs bsod snyoms…
+bsod snyoms phul ba	offered alms
+bsod snyoms sbyor ba	prepare an entertainment for the priesthood
+bsod snyoms slang ba	receive alms, beg alms
+bsod snyoms slong	beg for alms
+bsod snyoms slong ba	collect alms by begging
+bsod snyoms spyod pa	mendicant
+bsod zad	full of misfortune, unfortunate ones, disciples…
+bsod zas	alms food
+bsod zhan po	1) little merit/ happiness; 2) food of pleasant savor
+bstad	surface, direction, load
+bstad pa	facing; pf. of stod pa; ft. of stod pa
+bstad so	meditation object, reference point
+bzeng	rise, write
+bzes	to the left (?)
+ca'o dbye su'o	stock exchange
+ca'o hro'u	professor
+ca'o khre	car, sedan
+chems	1) will, last testament; 2) decrescendo (on cymbals)
+chems bzhag pa	kha chems
+chems chems	1) glittering, shining ; 2) trembling, shaking; 3)…
+chems pa	inform, deliver a message
+chems se chem	rattling sound
+chems se chems	rattling sound, rumbling
+ci	1) what, which. 2) how, why. 3) as much as, as good as…
+ci 'ang med pa	nothingness
+ci 'byor	whatever one can afford
+ci 'byor pa	whatever you have, possess
+ci 'dod	as much rain as desired
+ci 'dod 'dod	whatever 1 wants
+ci 'dod dris pa	asked him what it was he wished
+ci 'dod gang 'dod	whatever 1 wants
+ci 'dod pa	as you like, whatever you please
+ci 'dod sgrub pa	Sāketa
+ci 'dod ster ba	can give what I long for
+ci 'dra	Syn gang 'dra
+ci 'dra 'dug	how it is
+ci 'dra ba	of what kind? like what?; what kind?
+ci 'dra ba nyid	just as it is
+ci 'dra ba zhig	gang 'dra zhig what kind of
+ci 'dra red	how, why
+ci 'dra zhig	MG: = gang 'dra zhig, what kind of
+ci 'dra zhig dgos	what should it be like
+ci 'dra zhig yod	who knows what kind of
+ci 'dug	whether it consists in, whether there is, no matter how…
+ci 'dug blta	see whether there is
+ci 'gro	whatever is better, suitable, suits best
+ci 'gyus 'di 'gyus	noticing what one is thinning of
+ci 'jigs	Kimbhīra, Kiṃbhīra
+ci 'jigs med	ci 'jigs med
+ci 'phros mol 'phros	say what they remember
+ci 'thibs pa	exhausted, tired
+ci bas kyang bde	to feel much better
+ci bcol pa	whatever has been promised
+ci bde	as is comfortable; lus ci bder 'jog pa let your body…
+ci bde ba	what is good, what pleases, as they like
+ci bder	as you like. Syn ci dgar
+ci bder bzhugs	Stay well!
+ci bder spyod pa	at will, uncontrolled
+ci bder yan	to roam freely
+ci bgyi	servant, valet
+ci bgyi ba	servant, attendant
+ci bgyi bka' nyan	kha la nyan pa,...Btang 'gro bzhag sdod ci bgyi bka'…
+ci bgyis	how can they affect?
+ci brjod	what has been told(?)
+ci brtol	1) w/o shame or decency; 2) extreme bragging lying Ham…
+ci bsam 'grub	all your wishes will be fulfilled; ... spontaneously…
+ci bsam ltar 'grub	turn out as 1 wished, have 1's dream come true
+ci bsams ltar 'grub	turn out as 1 wished, have 1's dream come true
+ci bya	What's the use?/ what to do
+ci bya gtol bral	no way to do it, helpless, not knowing what to do
+ci bya gtol med	not knowing what to do
+ci bya med pa	not know what to do
+ci bya snyam	dispensable; x bshad pa ni tshig gi ro yin pas des ci…
+ci byar	what about?
+ci byar yod	What to do?
+ci byas	as to what to do
+ci byas dris pa	asked what happened to them
+ci byed	how could any
+ci byung	whatever occurs
+ci byung ba yin	what has become of him
+ci bzhig	whatever, something, anything
+ci bzhin	as it is
+ci cha	uncertain, incomprehensible helpless, not knowing what…
+ci cha med pa	1) helpless, not knowing what to do. 2) indefinite…
+ci cha med par	unvorhergesehen
+ci cha yod pa	definite; comprehensible; definite, comprehensible
+ci chab	mthar phyin pa
+ci chang	machine gun
+ci chang lci ba	heavy machine gun
+ci ched	for what purpose?
+ci cher	as big/ much as possible
+ci chib	exhaustive, brought to perfection, to the farthest limit
+ci chog	as / whatever you like
+ci cir	without hair on the head, bald head
+ci cog	whatever is, what is
+ci cog tshang ma	everything
+ci dag	such as, so forth, etc
+ci dang ci	no matter what
+ci dang ci 'dra	of whatever kind
+ci dang cir	whatever
+ci dga'	whatever one likes
+ci dgar	freely, as you please, feel like, at pleasure, whatever…
+ci dgar byas	did what liked
+ci dgar lus sbyong	free form exercise
+ci dgos	verb +: what is the use (of doing verb)
+ci dgu	all, however many, much there may be
+ci dgu byas	did what/all that could be don
+ci ding nge	(? CI DING DE?) rngub bzhin. Gces 583.6
+ci drag	whatever is best. 2) what to do? what can be done?…
+ci drag 'di drag	"what should I do? What is best?"
+ci drag na	ci 'dra byas na. Btsan-lha
+ci drag na snyam	What is to be done?
+ci drag tu gyur	What could he do?
+ci ga	what?
+ci gar	how? in what manner?
+ci gnas	as long as it lasts / remains
+ci gnas su bzhag	keep as long as it remains, resting in that
+ci go	gang 'dra' ci 'dra Dgos dus med le ci go red
+ci gsung bka' sgrub	fulfill his smallest command
+ci gsung dang len	teachings, instructions, directions, commands which are…
+ci gsung nyan pa	listen to what/ all that is taught
+ci gsung sgrub pa	obey his every instruction
+ci ka	ci ga
+ci khug rin 'jal	gang khug gi rin 'bab sprod 'jal,...Spus nyos kyi dngos…
+ci kon chang	machine gun
+ci krang	head pilot, captain
+ci krung	central Hopei PRC
+ci la	why, wherefore?
+ci la brten nas	because of what?
+ci la brten te	depending upon what; having what basis
+ci la ci la	why, for what
+ci la dgongs nas	thinking of what?
+ci la gnas	having what basis
+ci la snang	Why does that appear, happen?
+ci la thug rung	whatever may happen to me, at all events, at any rate
+ci la yang	whatever, anything. for whatever; whatever, anything
+ci la yod	whence?
+ci la zer na	"why" construction
+ci lags	why is that?; What is that?
+ci las	from what?
+ci lcogs	whatever possible
+ci lim	bowl
+ci lin	Kirin Province PRC
+ci lo gang nyan	whatever one has is adequate
+ci lta	how, in what way
+ci lta ba bzhin	just, exactly, as it is. Syn ji lta ba bzhin
+ci lta bu	of what kind, manner, nature. how
+ci lta bu nyid	just as it is
+ci ltar	Syn gang 'dra; how, in what way. Syn gang 'dra how, in…
+ci ltar byed na	legs, what is it best to do?
+ci ma rung	how nice it would be if...; how good it would be if…
+ci ma yin	1) rang gar [ordinary?, no big deal?; 2) various…
+ci mchis	whatever there is. Syn ci dgu; whatever there is
+ci mchis gsungs	say whatever there is to say
+ci mchis pa	all, whatever there is
+ci mdzad	what to do?
+ci mdzad khyed mkhyen	"Whatever you do, you know best"
+ci mdzad khyed shes	that it is up to whatever happens
+ci mdzad legs mthong	to perceive whatever he does as good, pure perception
+ci med cang med	nothing at all
+ci mi 'dra	why isn't it like that?
+ci mi chog	why isn't that enough?
+ci mi legs	why isn't that good?
+ci mi snyam	giving it no thought, carefree
+ci mngon	from where
+ci mno ba	ci yod. Gces 586.5
+ci mtshan	of what sex?
+ci myur	as speedily as possible
+ci nan	Tsinan
+ci nar	by all means, in any case, certainly, how? in what way?
+ci nas	from what
+ci nas ji lta	henceforth
+ci nas kyang	by all means, certainly, extremely, exceedingly. in any…
+ci nas kyang dgos	extremely necessary
+ci nas yang	by all means, certainly, extremely, exceedingly, in any…
+ci ne ya	Guinea
+ci ni	white sugar; sugar, white sugar
+ci ni rgyag	pour/ use sugar
+ci nongs	what has been done amiss?
+ci nus	as much / many times as you can
+ci nus bya	do it as much as possible
+ci nus bzlas pa	recite as many times as you can
+ci nus gang nus	try best! as well as can
+ci nus kyis	as much as possible
+ci nus su	try your best; as much as possible/ you can
+ci nyes	What has befallen?
+ci nyes na	what is the matter?
+ci pad	at ease
+ci phod	how can that be? try your best!
+ci phrel phrel	ci thub kyis dbral ba. Btsan-lha
+ci phu'u	jeep
+ci phyir	Why?
+ci rang drag	lamenting how bad something is: how very --
+ci re drag	what agony!
+ci rgod	wild millet
+ci rigs	1) whatever is suitable, appropriate, as suitable, in a…
+ci rigs pa	appropriate
+ci rigs pa yis	I shall use whatever means are needed
+ci rigs par	all kinds of
+ci rigs sbyar	either is affixed
+ci rigs su	appropriately, suitably
+ci rob	for what reason, why?
+ci rtse	kind of millet
+ci ru	whither, where to, (with yang) everywhere, in every…
+ci shar	no matter what is felt, no matter how it appears…
+ci shar ci shar	whatever appears and is experienced
+ci shar ci snang	no matter how they occur
+ci shar yang	whatever you experience
+ci shes	who knows
+ci shig	what
+ci shul	after whatever has been done
+ci skrigs	word for 'ghee.' = ci sgregs, etc. See Velm I 66
+ci slad	for what purpose
+ci slad du	on account of what?
+ci smos	what is there to say?
+ci smra	Kimi
+ci smra bar byed	what is there to say?
+ci snang	no matter what is perceived
+ci snyam	/(1 what is being thought; 2) why think?
+ci snye	how much, how many
+ci spyad kyang	whatever you experience? whatever you "do"
+ci srid de	how long, as long as
+ci srid du	how long, as long as
+ci sta de nas	so and so, but if, nevertheless
+ci ste	so, so that. though, although
+ci ste yang	ci ste yang ci nas kyang dang don gcig, Ci ste yang is…
+ci sto	MG: no harm, doesn't matter; e.g. kho ma yong na'ang ci…
+ci thod thod	in spite of everything
+ci thub	whatever one can; as much as possible
+ci thub kyi bar	as long as possible
+ci tra dmar po	red leadwort
+ci tra ka	leadwort
+ci tsam	however much
+ci tsam brtags kyang	no amount of careful examination
+ci tsam byas	how much have you done?
+ci tsam du	however much yun ring po ci tsam du 'grogs kyang…
+ci tsam nus	as many times as possible
+ci tse	kind of millet, species of grain eaten by the poor
+ci tshe	millet
+ci tshug	like what, how? In what way?
+ci tshug zer dgos	how should say it?
+ci tsug	how, in what manner
+ci tsug byed	What shall we do?
+ci yang	1) anything what(so)ever; anything; any, anything…
+ci yang 'char ba	med snang ci yang 'char ba sprul pa'i grong khyer lta…
+ci yang byar med	total nonaction
+ci yang ma byung	nothing happened, nothing came out of it
+ci yang ma yin	transcend all definitions, is not an object
+ci yang med	nothingness, none whatsoever; nothing whatsoever/ none
+ci yang med min	Neither Presence nor Absence
+ci yang med pa	nothing whatsoever. 2) one who has got nothing; nothing…
+ci yang mi 'gog	to refute nothing, to not refute anything
+ci yang mi nus	not able to do anything, not at all able
+ci yang mi shes	a know-nothing, ignoramus, dunce
+ci yang min	Nothing
+ci yang mkhyen pa	omniscient
+ci yang rig	Syn cang rig, learned, experienced, knowing everything
+ci yang rnyed med	nothing to be found
+ci yang rung	whatsoever it may be
+ci yang rung ba	whatever is permissible, suitable
+ci yang sa le	ci yang sa le gzigs pa you who see everything with…
+ci yang zer	bcom ldan 'das zer ba'i nga rgyal can des ci yang zer -…
+ci yi	What is that.?
+ci yi don du	why? for what reason?
+ci yi phyir	why? for what reason?
+ci yin	what?; What!; Why?
+ci yin nam	I wonder why
+ci yin rung	though it may be
+ci yin zhus pa	asked how could come to be
+ci yis	by what?
+ci yis lan	why?, because of what?
+ci yod	whatever there is, as much as there is. 2) what's the…
+ci yod 'don	put forth whatever there is/ all 1 has
+ci yod snyam na	If you wonder what is / exists
+ci yog pa	ci khebs sam ci 'dang. Btsan-lha
+ci yongs pa shog	whatever may happen
+ci zer	"What are you talking about?"
+ci zer 'bir ba	what was said to make him tremble
+ci zer ba	what does he say
+ci zhe na	what? To the question of what this is
+ci zhes bstan pa	whatever has been demonstrated
+ci zhig	any, at some point; what, whatever. Syn gang zhig, gang…
+ci zhig brtsal	whatever is there to seek with effort?
+ci zhig bya	1) what to do? ! 2) what accomplished...?
+ci zhig byed	what is the use? What is the point!
+ci zhig byed rgyu	why, what is it
+ci zhig drag	"it's a pity" construction
+ci zhig ltar	1) ji ltar, gang ltar ; 2) effortlessly accomplish…
+ci zhig ltar stes	ci 'dra'i stabs legs. Btsan-lha
+ci zhig na	at a certain point, at some point, there will come a…
+ci zhu	reply
+d+harmA ka ra	Dharmākara
+dbrang gu	a clan. Btsan-lha
+dkon	shin tu dkon - exceedingly rare
+dkon brtsegs	Ratnakuta, Jewel Mound Sutra. Syn dkon mchog brtsegs…
+dkon bu	1) wreath, garland of flowers. 2) string of beads
+dkon chog	Syn dkon mchog
+dkon cog	old form Syn dkon mchog
+dkon cog brtsegs pa	dkon mchog brtsegs pa'i mdo the Ratnakuta Sutra
+dkon cog pho brang	1) the palace of the Precious Ones. 2) A vihar. 3)…
+dkon dus	slack/ slow season/ period
+dkon gnyer	1) caretaker of a temple. 2) guardian of religious…
+dkon gnyer dpon	Dung-dkar 144-145
+dkon mchod gsum	three precious jewels (buddha sangs rgyas, doctrine…
+dkon mchog	1) jewel, rare and excellent ; 2) Dkon mchog dpang…
+dkon mchog 'bangs	alias dkon mchog yan lag zhwa dmar v, 1525-1583
+dkon mchog 'byung ba	Ratnasaṃpad
+dkon mchog 'byung gnas	1) one of the phyogs bcu'i sangs rgyas. 2) the buddhas…
+dkon mchog 'od 'phro	Ratnārcis
+dkon mchog blo gros	Ratnamati
+dkon mchog blo gtad	to rely on the Three Jewels
+dkon mchog brtsegs pa	Jewel Mound. A Mahayana sutra
+dkon mchog bzhi	the Four Precious Ones. dkon mchog gsum dang rtsa ba'i…
+dkon mchog bzhi pa	1) the Fourth Precious One. 2) the guru, master, lama
+dkon mchog chos	1) Syn chos dkon mchog. 2) The Precious Dharma
+dkon mchog chos 'phel	Könchok Chöpel :1767-1834
+dkon mchog chos grags	rnam gling pan chen
+dkon mchog dam pa	Holy Jewel
+dkon mchog dbyangs	1) Ratnadasa. 2) Indian philosopher
+dkon mchog dgu phrug	see skyabs gnas dgu phrug
+dkon mchog dkod pa	Ratnavyūha
+dkon mchog dpal	Ratnaśrī, Ratnaketu
+dkon mchog dpal sgron	Ratna Shri. The daughter of Chokgyur Lingpa
+dkon mchog dpang btsugs	mna' skyel ba'i tshig
+dkon mchog drug	the Six Precious Ones. 1) bla ma. 2) yi dam. 3) mkha'…
+dkon mchog gsum	Three Jewels. The Precious Buddha, the Precious Dharma…
+dkon mchog gsum gyi	devout buddhist, an individual
+dkon mchog kun 'dus	the embodiment of the Precious Ones
+dkon mchog lhun grub	ngor chen 1497-1557
+dkon mchog mchod pa	to venerate the Three Jewels
+dkon mchog mngon rtogs	a sadhana of lhag pa'i lha
+dkon mchog nang bzhin	god-like
+dkon mchog pho brang	1) a palace for the Precious Ones. 2) a shrine or temple
+dkon mchog rgyal mtshan	rdzogs chen stag bla
+dkon mchog rgyal po	n of person
+dkon mchog rjes dran	Triratna Anusmriti Sutra
+dkon mchog rnam gnyis	Dung-dkar 142
+dkon mchog sprin	1) the Ratnamegha Sutra. 2) Cloud of Jewels Sutra. 3)…
+dkon mchog sprin gyi	Cloud of Jewels Sutra
+dkon mchog spyi 'dus	1) Könchok Chidü. 2) the Embodiment of the Precious…
+dkon mchog yan lag	1525-1583 - fifth Shamar, Könchok Yenlak
+dkon mchog zla ba	Ratnacandra
+dkon mo	Syn dkon po
+dkon mo mchog gyur	Dpa'-ris
+dkon mthong	to realize the rarity
+dkon nor	valuable property, riches, rare things
+dkon pa	difficult to be obtained or attained. 1) rare. 2)…
+dkon pa bzhi	Dung-dkar 145
+dkon pa nyid	rarity
+dkon pa'i lcags rigs	rare metals
+dkon pa'i mchog	chief of rarities, rarest being or object, supreme being
+dkon po	rare, scarce. 1) rare. 2) scarce. 3) common. 4)…
+dkon po byung zer	said that meat had become scarce
+dkon por	hardly
+dkon por 'gyur ba	extinct
+dkon rgyu med	that is not a very precious thing, there is nothing…
+dkon spyi'i las byang	bka' rdzogs pa chen po yang zab dkon mchog spyi 'dus…
+dkon thag pa	Btsan-lha
+dkon zog	scarce commodities
+dkon zog sdeb bsags	hoard scarce commodities
+dmur ba	gnaw, crush w the teeth, bite through, chew
+dmur dmur ba	kha ldad rgyag tshul. Btsan-lha
+drog	suddenly/ incidentally arising food drink or enjoyment
+drog kha skyid pa	'tshengs pa'am / tshim pa. Btsan-lha
+drog phyva	grog phyva med. diagnosis
+drog skad	raven and bya khra calls as sign of coming food and…
+drog skam nya rgya	nets cast in a dry riverbed; x phyi tshes grab shom…
+drum pa	to have a strong desire, to long, languish, pine
+gro'i g.yung drung	in case of producing auspiciousness on bzhugs khri and…
+gro'i snye nag	grain blight
+gshis	nature/ natural disposition; innate disposition…
+gshis btsan po	strong/ violent/ stern nature
+gshis bzang	innate goodness, one who is by nature good
+gshis bzang po	good nature/ character, kindness, goodness
+gshis dngos po	reality
+gshis dngos po'i	reality
+gshis drang	just, upright, honest
+gshis gang du	when one is in the state
+gshis gdangs rtsal	Essence, nature, and expression; basic nature…
+gshis gnyug ma	the innate nature
+gshis gnyug ma'i	the innate nature
+gshis ji bzhin pa	the basic nature, exactly as it is
+gshis ka	temper, nature, temperament, disposition, quality…
+gshis ka bzang ngan	good or bad nature, quality
+gshis ka dag	the primordially pure nature, innate primordial purity
+gshis ka gyong po	brutal
+gshis kha	nature or quality , character, personality
+gshis khag	separate estates, individual estate
+gshis klong	the innate space, ex. stong nyid kyi gshis klong la…
+gshis kyi 'phral shor	Temporary straying from the essence
+gshis kyi gnas lugs	basic abiding nature
+gshis kyi phral shor	temporary straying of the essence
+gshis kyi rten 'brel	causal links resting upon the nature
+gshis kyi yin lugs	innate state
+gshis kyis	by the very nature of the case, naturally, quite of…
+gshis la	fundamentally
+gshis la med pa	not exist at all
+gshis la rdzogs pa	naturally complete
+gshis la shor ba	slipping into a pattern. Syn ngo bo like the sun itself…
+gshis ldan	sensible
+gshis lugs	the basic state, fundamental nature / reality…
+gshis mdangs rtsal	basic nature, expression, energy
+gshis mi blo	ignorance
+gshis ngan	bad disposition
+gshis ngan pa	bad/ evil nature/ character
+gshis ngo	essence
+gshis ngor	'at the level of the essence', essential level, in the…
+gshis ngor la bden	true while in the basic nature; don dam
+gshis nus	function
+gshis rang byung	self existing nature
+gshis rgyud	character
+gshis rgyud btsan po	strong/ violent/ stern nature
+gshis rgyud bzang po	good nature/ character
+gshis rgyud gyong po	strong/ rough/ tough/ stubborn natured
+gshis rgyud ngan pa	bad/ evil nature/ character
+gshis rgyud rtsing po	crude/ cruel natured
+gshis rig	tradition, culture, culture, manner
+gshis rtsing po	crude/ cruel natured
+gshis rtsub	acrimony
+gshis shor	falling away from one's innate disposition
+gshis skye med	nonarising essence
+gshis spyod	quality, character gshis ka
+gshis su	in the state, naturally present in the state of, in the…
+gshis thog tu	ex. pheb pa
+gshis ye babs	natural primordial state
+gshis yon gnyis legs	morally upright and highly educated
+gte'u	gta' ma
+hUng	H M
+karku ra	khyi'i ming. CSKG
+kha'i ma le	lower jaw
+kha'i nyin	day before yesterday
+kha'i rdo	covering rock
+kha'i ro	Cairo
+kha'i sbug cha nas	stomatititis
+kha'i spu	beard
+kha'i ya le	upper jaw
+khen	sky or the North-East
+khen 'dra	kind of cotton cloth
+khen gnam	(CH 1 of the spar kha brgyad 8 trigrams
+khen nyi ya	Kenya
+khen pa	wormwood, to add, lean, repose on
+khrogs kyis 'gro	BBNP 484
+khrums	n. of a constellation
+khrums kyi zla ba	the eighth month of the year according to Tibetan…
+khrums smad	the 26th lunar mansion, one of the rgyu skar nyi shu…
+khrums stod	the 25th lunar mansion, One of rgyu skar nyi shu rtsa…
+khrums stod zla ba	the eighth month
+khrums zhag	log zhag nyer bzhi dang bya zhag bzhi bcu rdzogs rjes…
+khrums zla	the eighth month. Syn ston zla rva ba
+mangs	increase
+mangs tshig	term for plural number
+mdud	Syn mdud pa
+mdud 'dra	disease of the membrum virile
+mdud 'dzin	wreath of flowers
+mdud dor ba	lay a wager
+mdud khyim	pole tent
+mdud log rgyag pa	knot that is hard to untie
+mdud pa	mdud pa, mdud pa, mdud pa, mdud intr. v.; 1) knot. 2)…
+mdud pa 'debs pa	tie a knot
+mdud pa 'grol	untie a knot/ bond
+mdud pa bcad pa	disconnect
+mdud pa bkrol ba	the knot untied
+mdud pa bor	tie a knot
+mdud pa bor ba	tie a knot
+mdud pa brgyab	tie a knot
+mdud pa brgyab pa	tie a knot
+mdud pa bshig	untie a knot/ bond
+mdud pa bzhi	the four knots
+mdud pa can	knotty
+mdud pa drug pa	See shu dag
+mdud pa med	free from knots
+mdud pa rgyab	tied a knot
+mdud pa rgyag pa	tie a knot
+mdud pa snying pa	wealth
+mdud pa thebs pa	constrict
+mdud pa zhig pa	self/ naturally untied knot
+mdud par 'dzin	let it fester
+mdud par bzung	malice
+mdud rdzongs	forms of the knots
+me'u bogs	me dug. Btsan-lha
+me'u dad po	1st chapter
+mkhrig dkar	horse/ mule's legs's mkhrig ma man chad having white…
+mkhrig ma	wrists and ankles
+mkhrig ma'i chu ba	DD illus. 29, 30
+mkhrig ma'i nywa snying	DD illus. 29
+mnams pa	pf. of nom pa
+ngan	bad, evil, wicked, unwholesome, black, ill, decaying…
+ngan 'bras	bad karma/ result
+ngan 'bras 'khor	receive retribution for 1's misdeeds
+ngan 'brel	negative connection, bad link
+ngan 'chang	evil/ wicked thoughts
+ngan 'char	plot, scheme, conspiracy
+ngan 'debs pa	curse, execrate
+ngan 'dris	bad habits/ acquaintance/ practices
+ngan 'gro	miserable existences
+ngan 'gro ba	a being in the lower realms
+ngan 'gro gsum	the three lower realms
+ngan 'gro skem	Sears the Lower Realms
+ngan 'gro'i gnas	the lower realms, unfortunate states
+ngan 'gro'i lam	scorpion
+ngan 'gro'i sdug bsngal	the miseries / suffering of the lower realms
+ngan 'gro'i srid pa	miserable existences
+ngan 'gro'o mthil	hell
+ngan 'gror 'gro ba	go to a bad transmigration
+ngan 'gror lhung ba	falling to the lower realms
+ngan 'gror ltung ba	fall into a bad transmigration
+ngan 'gyur	deteriorate, worsen, degenerate
+ngan 'gyur ba	degenerate
+ngan 'thung	scorpion
+ngan bdud	evil devil
+ngan bskul	instigation, incitement
+ngan bskul byed	instigate, incite
+ngan bskyul dkrug shing	by bad thoughts having encouraged others bka' dza'…
+ngan bslabs	incitement/ instigation to evil
+ngan bslabs rgyag	incitement/ instigation to evil
+ngan bu	we
+ngan bya ba	reproached, deceived, cheated
+ngan byas ngo khyer	spyod ngan ngo sor khyer ba,...Mig ltos shas rkyen gyi…
+ngan byas ngo so	ngan byas ngo khyer
+ngan byed	black magic
+ngan byed kyi sngags	charms for causing mischief to others
+ngan byus	evil strategy, conspiracy, plot, machination
+ngan byus 'dings	conspire, plot
+ngan byus byed	conspire, plot
+ngan byus mnyam 'god	conspiring, ploting, engineering a conspiracy, hatching…
+ngan bzos ma byas	made useless
+ngan chen po byas	it has done great mischief
+ngan cing dbul ba	weak and miserable
+ngan dbang nang gros	mi ngan gyi kha dbang lkog gros
+ngan dgu	very bad omens
+ngan dgu las tshang	completely evil/ wicked
+ngan dgu skyong ba	protects from all miseries
+ngan dgu thub pa	to overcome every evil, able to subdue all evil
+ngan dgu tshang ba	completely evil/ wicked
+ngan don	functional, serviceable
+ngan dpe	a bad example
+ngan dregs	ngan pa and khengs dregs
+ngan du brjod pa	revile a person
+ngan du song ba	spoiled, worsened, corrupted
+ngan g.yo	deception, deceit
+ngan g.yo can	deceitful, treacherous
+ngan g.yo dran 'phrul	bsam ngan g.yo 'phrul
+ngan g.yo ma	deceitful/ tricky 1, fox
+ngan gnon	Samdo A I 121r.2
+ngan goms	bag chags ngan goms - bad habits
+ngan gong	ngan ne ngon ne. Btsan-lha
+ngan gra sngon bsgrigs	bya ngan bed rgyu'i sngon gra bsgrigs pa
+ngan grags can	notorious
+ngan grogs	cohort, accomplice, puppet
+ngan gros	improper gros Rang don sems la bcangs nas gzhan gnod…
+ngan gshag	argue, strife
+ngan gshags	argue
+ngan gso	feed and foster persons or animals that have suffered…
+ngan gtad	evil spell
+ngan hrul	low and destitute, dilapidated, decomposed
+ngan jus	evil strategy, conspiracy, plot, machination
+ngan jus 'dings	conspire, plot
+ngan jus byed	conspire, plot
+ngan jus mnyam 'god	conspiring, ploting, engineering a conspiracy, hatching…
+ngan khreb	'os 'gan skyur 'jog
+ngan khreb rgal ral	work worthy of being done or rang la 'khris pa'i las ka…
+ngan khyab	preta
+ngan kreb	Stein
+ngan kyog	g.yo sgyu. Btsan-lha
+ngan lab	slander, lies
+ngan lab brjod	slander, lie
+ngan lab gtong	slander, lie
+ngan lam	place name
+ngan lan	return for evil done to 1
+ngan lan bslogs	past of ngan lan slog
+ngan lan bzang 'jal	return evil w good
+ngan lan ngan ldon	return bad with bad
+ngan lan slog	to respond to evil
+ngan lan slog pa	retort
+ngan lang	bad habit
+ngan lang du gtong	spoil, indulge
+ngan lang du shor	become spoiled
+ngan lang shor ba	slip into bad habits, indulge
+ngan las byed rogs	accomplice
+ngan las rgyal	friday, venus
+ngan lhung rul 'gyur	degenerate and corrupt
+ngan ltas	evil omen
+ngan med pa	Vigataśoka
+ngan med pa'i dpal	Aśokaśrī
+ngan mtha'	evil end
+ngan mthu	evil power, the power of evil
+ngan mthun	mi ngan kha mthun
+ngan mtshang smra ba	to criticize
+ngan mtshangs smra ba	to criticize
+ngan na ba	the bad
+ngan ne ba	bad inferior
+ngan ne ngon ne	see ngan ngon
+ngan ngon	1) the worst, the least. 2) bare necessities
+ngan ngon tsam	just the bare necessities , just functional
+ngan pa	base, vile
+ngan pa bcu	Sinitic vocab. for mi dge ba bcu. Stein, Tibetica…
+ngan pa brjod pa	blaspheme
+ngan pa bslabs	incited, instigated
+ngan pa byas rgyal	ngan pa byas lang du shor ba,...Rang snang gang dran…
+ngan pa byung	it proved to be a failure
+ngan pa dgu 'dzoms	the gathering of many inauspicious signs
+ngan pa dpung bsdebs	conspirators, evil-minded men who intrigue
+ngan pa g.yo can	an evil being
+ngan pa gcig 'dra	alike in evil
+ngan pa gnya' rengs	stiff-necked villain
+ngan pa kha mthun	conspiring, plotting, collaborating
+ngan pa kha sgrig	conspiring, plotting, collaborating
+ngan pa khyu 'dres	conspiring, plotting, collaborating
+ngan pa lag 'brel	accomplice
+ngan pa lang shor	mi ngan gyi spyod ngan goms thal
+ngan pa rgyud skul	instigation, incitement
+ngan pa rgyus yod	mi ngan gyis nang gi gnas tshul phyir shod pa
+ngan pa sbug mthun	mi ngan kha mthun nam ngan pa kha mthun
+ngan pa slob	incite, instigate
+ngan pa'i lam	Sinitic vocab. for ngan 'gro, ngan song. Stein…
+ngan pa'i phyogs	dark / seamy / evil side
+ngan pa'i rgyab rogs	accomplice
+ngan pa'i sa	inferior form of existence
+ngan pa'i shubs ldan	turtle
+ngan pa'i wa skyes	bad wolf
+ngan pa'i zas can	snake
+ngan par	ill, badly
+ngan par 'gro	unfavorable rebirth destiny
+ngan par 'gyur	tu become unwholesome
+ngan par 'gyur ba	to be inferior
+ngan par 'phyo	wallowed
+ngan par byas pa	evil deeds
+ngan par byed pa	to commit evil
+ngan par smra ba	speak ill of others
+ngan phyid	spend one's time in evil livelihood
+ngan po	mean, evil, vile, wicked, sinful
+ngan pu	a bad son
+ngan rengs	obstinate, stubborn
+ngan rengs pa	diehard
+ngan rgu	many bad omens
+ngan rgu las tshang	completely evil/ wicked
+ngan rgu tshang ba	completely evil/ wicked
+ngan rgyab	accomplice
+ngan rgyab byed mi	accomplice
+ngan rgyu can	one who does mischief, one who speaks ill of others
+ngan rims	epidemic
+ngan rings ma	procrastinating, delaying, putting a duty at a distance
+ngan rkang	sngar khral rgyug thub rgyu lta ci, mdor na so so'i…
+ngan rmongs	stupid, deceitful
+ngan rnyed	scabby, itchy; scabby, itchy, unchaste, libidinous
+ngan rogs	complicity, cohort, accomplice
+ngan rol ma	prostitute
+ngan rtags	evil mark or bad sign
+ngan rtog	negative thought
+ngan rul	rotten
+ngan rul chags	become malevolent/ rotten/ degenerate/ decadent
+ngan rul du 'gyur	become malevolent/ rotten/ degenerate/ decadent
+ngan rung	feeble
+ngan sbrel	mi ngan lag sbrel
+ngan sdug	bad, mean, sad, sorrowful
+ngan sel	water, that which removes the defilement and purifies
+ngan sems	evil intent, hostility evil mindedness, cruelty…
+ngan sems 'chang	bear a grudge, have evil thoughts/ intent
+ngan sems 'gyur med	incorrigibly evil/ creul/ mean
+ngan sems byed	act cruel/ mean
+ngan sems can	malevolent
+ngan sems dgu tshang	totally evil/ cruel/ mean
+ngan sems rgu tshang	totally evil/ cruel/ mean
+ngan sems rgyun 'chang	always bear a grudge, have evil/ mean/ nasty thoughts/…
+ngan sgrog phra ma	secretly, having proclaimed others' faults dbyen sbyor…
+ngan shags	bad joke
+ngan shags gtong ba	to bicker, answer back, give lip
+ngan shed sgal ral	bad lazy behavior
+ngan shi	death from starvation or accident or plague
+ngan shi thebs	die an unpleasant/ painful death
+ngan shom	conspiracy
+ngan shugs	power of habits of evil mind, evil force
+ngan shugs ham khyer	dbang shed kyis brnyas 'phrog...Byings la dbang jus med…
+ngan shul	remants of evil
+ngan skul	instigation, incitement
+ngan skul byed	instigate, incite
+ngan skyes	of low birth, anything produced from soil and manure…
+ngan skyugs	to vomit
+ngan slob	incitement/ instigation to evil
+ngan slob khog zhugs	incitement/ instigation to evil
+ngan slob rgyag	incitement/ instigation to evil
+ngan slod	ngan pa'i skyon gyis slod par byed pa'am, 'gos par byed…
+ngan slong	beggars
+ngan slong ba	beggars and poor people
+ngan smra	notoriety, bad reputation, disgrace
+ngan smra byed pa	to criticize
+ngan smras	'bad-mouthing', abuse, slander, put down
+ngan smras byed	'bad-mouth', abuse, slander, put down, use bad language
+ngan sngags	black magic, evil spells; evil mantras; subjugating…
+ngan sngags mthu gtad	spells and curses
+ngan snyigs	dregs, throw away
+ngan song	evil rebirths, lower rebirths
+ngan song 'gro ba	a being in one of the lower realms
+ngan song bzhi	four unpleasant rebirths
+ngan song du lhung	fall into a bad transmigration
+ngan song du ltung	fallen into damnation, send to the lower realms
+ngan song gi gnas	the lower states of being
+ngan song gnas gsum	the three evil states
+ngan song gsum	lower realms
+ngan song kun 'dren	leading out of the lower realms, which guides beings up…
+ngan song nyid sings	ngan song kho na brgyud pa. Btsan-lha
+ngan song pa	a being in one of the lower realms
+ngan song sbyong ba	Purifying the Lower Realms
+ngan song sdug bsngal	the suffering of the three lower realms
+ngan song sel	Apāyajaha, Apāyavidhama
+ngan song spong	Relinquisher of the Lower Realms, Relinquishment of the…
+ngan song spong ba	Relinquishing the Lower Realms
+ngan song spor	Conqueror of the Lower Realms
+ngan sor skye ba	be born in an inferior place
+ngan spel	spreading evil
+ngan spel byed	spread evil
+ngan spong	Bhṛgu, Bhārgava
+ngan spong 'dzin	friday, venus
+ngan spong bu	friday, venus
+ngan spong dga'	Bhṛṅgirasa
+ngan spong gi bu	Bhārgava
+ngan spong shes ldan	Understands the Renunciation of Negativity
+ngan spong skyes	epithet of sukra, planet venus
+ngan spyod	sexual behavior, misbehavior ?; evil actions, misdeeds…
+ngan spyod can	evil, malevolent, immoral, wicked
+ngan sri	böser Dämon (, der stets Unglück bringt). Kaschewsky2
+ngan thabs	dishonest or evil means or methods, deceitful or…
+ngan thag	opium
+ngan to re	Jujjuka
+ngan tshig	accusation
+ngan zhen	desire/ attachment to evil deeds
+rkan	palate. palate. gums
+rkan 'brum	pustules on the palate
+rkan 'debs	Syn rkan sgra gtog
+rkan dbus	ya rkan gyi dbus sam dkyil
+rkan gyi sum mdo	nadi in the mouth
+rkan ldan	having a palate
+rkan mar	butter used to moisten the palate ; butter used to…
+rkan mgyogs	swift-footed, fast-walking [one of thun mong gi dngos…
+rkan mgyogs pa	a fast-walker
+rkan mtha'i rnyil	end of the palate, gums at the end of the palate
+rkan nad	disease of the palate
+rkan nad drug	CHN
+rkan phug	palate
+rkan rdeb	make a sound w the palate
+rkan rmen	pustules on the palate
+rkan rnyil	rkan mtha'i rnyil te, so rnyil
+rkan sgra	palatal sound, smacking / cracking sound, smacking of…
+rkan sgra gtog	palatalized sound
+rkan sgra sgrogs	smacking the palate
+rkan tsa	= skas. 'flight of stairs, ladder.' Kuijp (1986) 37
+rlam	klam: a thick wool cloth
+rlam khyer	1) ham pas khyer ba; 2) rlan gyis zin pa
+rlam pa	1) ham pa'am snod sogs la chags pa'i spu sngon lta bu'i…
+rtsengs	imp. of rtseng pa
+rtsengs pa	mthon por rdze ba. Btsan-lha
+rtsod	imp. of rtsod pa; to debate, argue, dispute, discuss…
+rtsod 'dzing	'thab 'dzing,...Drag po'i rtsod 'dzing,...'Khrun thag…
+rtsod 'gyed	struggle
+rtsod 'os pa	debatable
+rtsod 'then	1) fight, struggle, quarrel; 2) legal defense, plea for…
+rtsod 'then byed	1) fight, struggle, quarrel; 2) conduct a legal defense…
+rtsod bral	indisputable
+rtsod bsher	hearing of a dispute/ case
+rtsod byed ma	tree pongamia glabra
+rtsod bzlog	Refutation of Criticism, Replies to Objections
+rtsod can	epithet of river yamuna
+rtsod cing	arguing
+rtsod don	civil case/ dispute/ suit
+rtsod don byed	institute a civil case/ dispute/ suit
+rtsod don gtug bsher	hearing/ trial of a civil case
+rtsod don khyad gzhi	civil case
+rtsod dpyod	examination/ investigation of a dispute/ quarrel
+rtsod dung ba	disputable
+rtsod dus	Age of Strife Aeon of Strife, era of strife and conflict
+rtsod gleng	1) lawsuit ; 2) mutually decide a topic ; 3) debate…
+rtsod gleng byed	argue, debate, hold a debate/ discussion, dispute…
+rtsod gleng byed pa	to argue, debate, hold a debate / discussion
+rtsod gnas	debate ground
+rtsod gra	/ grva - debate school / ground
+rtsod grib	sexual misconduct
+rtsod grwa	debate school / ground
+rtsod gyar	rtsod pa'i gnas su gyar ba,...Khrims khang la rtsod…
+rtsod gzhi	1) cause of dispute; 2) matter/ basis/ subject of debate
+rtsod gzhi can	'thab dang rtsod gzhi can gyi nor - disputed wealth
+rtsod gzhir bzung ba	held as the basis of the debate(LSR)
+rtsod lan	debate, disputation
+rtsod lan 'debs	give an answer in a debate/ dispute
+rtsod lang	get into a dispute/ controversy/ argument
+rtsod ldan	the strife-filled , of strife, the age of degeneration
+rtsod ldan dus	the strife-filled , of strife
+rtsod ldan gyi dus	age of strife Kaliyuga
+rtsod ldan snyigs ma	degenerate Age of Strife
+rtsod ldog	the Vigraha-vyavartani by Nagarjuna, rigs tshogs drug…
+rtsod len	answer to an objection
+rtsod len byed	1) fight, struggle, quarrel; 2) conduct a legal defense…
+rtsod med	beyond dispute
+rtsod mi dgos pa	indisputable, beyond dispute
+rtsod mkhas	skilled in debate
+rtsod mkhas pa	earnest, zealous, clever in disputation
+rtsod ngag	disputatious speech
+rtsod ngag drug	six divisions of speech in debate
+rtsod pa	argument
+rtsod pa 'dod pa	wish to debate; desire to dispute
+rtsod pa brgyab pa	to argue, debate
+rtsod pa byas pa	harassed
+rtsod pa byed	debate; dispute(N)
+rtsod pa byed pa	dispute, argue, quarrel, debate
+rtsod pa bzhi	the four rtsod pa
+rtsod pa bzlog pa	1) to refute accusations / attacks / criticism. 2) the…
+rtsod pa can	pawn
+rtsod pa chen po	contention, great quarrel
+rtsod pa kho na	was harassing him continually
+rtsod pa lhur len	rushing into disputation
+rtsod pa med pa	beyond dispute
+rtsod pa po	disputants, debaters
+rtsod pa rgyab pa	argue
+rtsod pa rgyag pa	to argue, dispute, debate
+rtsod pa rigs pa	rtsod pa rigs pa
+rtsod pa rnams	subject of disputation
+rtsod pa shor	break out fighting / fights break out
+rtsod pa skyon pa	to argue, debate
+rtsod pa smra ba	provoke, quarrel by words
+rtsod pa spang	clearing away or refuting others' objections
+rtsod pa spong ba	dispelling objections, rejection of controversy…
+rtsod pa spong pa	dispelling objections
+rtsod pa thug	get into a dispute/ argument/ quarrel/ debate
+rtsod pa thug pa	to conflict with
+rtsod pa zhi ba	settling their quarrels and bring peace to them
+rtsod pa' dpe gsum	CHN
+rtsod pa'i 'bras gsum	CHN
+rtsod pa'i bzhi'i gnas	serves as a basis for controversy
+rtsod pa'i dpe drug	CHN
+rtsod pa'i dus	the time of strife
+rtsod pa'i gzhi	matter of dispute
+rtsod pa'i gzhi'i gnas	serves as a basis for controversy
+rtsod pa'i lan du	in answer to this argument(BJ 51.1)
+rtsod pa'i rgyu bzhi	the four causes of duspute . the four causes of dispute
+rtsod pa'i rgyu gsum	the three causes of quarrel/ debate
+rtsod pa'i rgyud bzhi	CHN
+rtsod pa'i rigs pa	Treatise on Disputation, the Vada-nyaya [work on logic…
+rtsod pa'i sa yul	property disputes
+rtsod pa'i shing	plant terminalia bellerica, tree of strife (favorite…
+rtsod pa'i skyon gsum	don blo sgra skyon nam, ngan gyo dang, khyad gsod, yid…
+rtsod pa'i tshe	at the time of debating
+rtsod par 'gyur	debate; dispute; objection
+rtsod par bgyid pa	disputatious
+rtsod par bya ba	object of dispute; will dispute
+rtsod par byed pa	dispute; debate
+rtsod pas thub pa	to hold one's own in debate, unassailable
+rtsod rgyab pa	to argue
+rtsod rig	the art of debate, logic
+rtsod rigs	reasoning of disputation, art of debate, logic
+rtsod rnyog	dispute
+rtsod rnyog byung	trouble
+rtsod rnyog can	controversial
+rtsod rnyog lang	get into a dispute/ controversy/ argument
+rtsod rnyog slong	start/ create, cause a dispute/ controversy/ argument
+rtsod rnyog thag gcod	arbitration
+rtsod rnyog thug	get into a dispute/ controversy/ argument/ conflict
+rtsod sgrub	dialectic
+rtsod sgrub rig pa	dialectics
+rtsod shags	kha rtsod kyi shags,...Gyod ya phan tsun rtsod shags…
+rtsod sher	hearing of a dispute/ case
+rtsod smra ba	provoke, quarrel by words
+rtsod spang	refuting criticism
+rtsod spong	dispelling objections
+rtsod thug	get into a dispute/ controversy/ argument/ conflict
+rtsod yig	1) phan tsun rtsod pa byas pa'i yi ge; 2) Tshad ma sogs…
+rtsod zhu zhib nyan	hearing
+rtsod zing	rtsod pa mang ba'i zang zing,...Mgo rnyog che ba'i…
+rtsod zla	rtsod ya ste, rtsod pa rgyag mkhan kha gtad
+rtsod zlog	name of text
+sgang	1) ridge, mound. 2) [+ la) on, on top of, over, up…
+sgang 'bab	complete
+sgang 'bur	hillock
+sgang ba	to grow, become full
+sgang bal	back wool
+sgang bral zla shol	gnam stong dag la sgang shar na, zla ba de nyid brtsegs…
+sgang brgyud	hillside
+sgang bshong	= sgang gshong. ridges & valleys, highs & lows (in…
+sgang bu	ball
+sgang dras	ri sgang gi sa cha bgo ba. Btsan-lha
+sgang drug	the Six Ridges of Tibet
+sgang drug smad	mdo khams sgang drug
+sgang ga	all, everyone
+sgang gi ling	species of partridge
+sgang gseb	srog chags gze mo
+sgang gshags	means of piercing a bleeding point
+sgang gshong	elevations and depressions on a hillside
+sgang gshongs	lows and highs , ridges and valleys
+sgang gsum	sgang gsum
+sgang gzugs	gzer mo' or gzugs mo
+sgang kha	hill spur, full, entire
+sgang kha logs	everything, all
+sgang khul	hill spur
+sgang la	above
+sgang la 'gro ba	to go along
+sgang la bzhon pa	surmount
+sgang lam	road on a mt ridge
+sgang ma	upper
+sgang mdud	kha btags cha tshang ba gcig la brgyab pa'i protection…
+sgang mthon po	high hill
+sgang nag	zla sgang nag pa
+sgang pa	person born/ living on a mt ridge
+sgang pa bod	Tibet
+sgang phug	balloon
+sgang po	a ball
+sgang rgyud	mt sgang rgyud
+sgang rtsa	sgang bleeding nadi
+sgang sha	Original entry: (brla'i phyi zur) sgang sha. DD illus.…
+sgang sha dkar mo	DD illus. 29
+sgang shongs	lows and highs of land, ridges and valleys
+sgang skyes	born from an egg
+sgang ston	project byed sgang gi celebration
+sgang thur	gzugs mo'am gze mo
+sgang tog	Gangtok
+sgang tshad	lo tho'i nang du zla ba so sor 'thob rgyu'i dbugs sgang…
+sgang yin	just
+sgang zhing	sa babs high field
+sgang zur dgon pa	monastery in lhun rtse Bhutan, Thimphu
+skeng lungs	a place in tibet
+skyin	tibetan ibex, capra sakeen, proxy
+skyin 'dang	dkyus na skyin 'dang chu la bying ba med. Ma 36.4.…
+skyin 'dangs	ser ba. Btsan-lha
+skyin 'khri tshab gsum	return what was stolen from others, 'khri 'jal, dngos…
+skyin dang ngar gyi	1 of srid pa pho dgu
+skyin gnas	the worthy offerers
+skyin gor	lizard
+skyin gor can	See rtsangs pa
+skyin khab	kind of chinese satin
+skyin kheb	skying khab
+skyin khebs	skying khab
+skyin lus	'jal rgyur bsdad pa'i skyin pa lhag ma
+skyin mgo	lizard
+skyin mgo ma	One of ma mo brgyad, dbang phyug ma 28
+skyin mi	debtor
+skyin pa	debt, loan, borrowed goods or money
+skyin pa 'jal ba	to pay back a loan, return something borrowed
+skyin pa 'tshab	pay back a loan, return something borrowed, replace…
+skyin pa 'tshab pa	liquidator of debts
+skyin pa gsob pa	repay a loan
+skyin pa len pa	take on credit
+skyin pa mjal ba	pay back a loan, return something borrowed, replace…
+skyin pa sprod	pay back a loan, return something borrowed, replace…
+skyin pa sprod pa	give back, return, repay, pay back a loan, return a loan
+skyin po	loan, thing borrowed, money advanced without interest
+skyin thang	hail, sleet
+skyin thang chu	flood after hail falls
+skyin tshab	1) pledge for a loan. 2) anything paid as equivalent of…
+skyin tshab 'gal	pay back, repay a loan, replace, compensate, indemnify…
+skyin tshab sprad pa	to pay back, repay a loan
+skyin tshab sprod	pay back, repay a loan, replace, compensate, indemnify…
+skyin tshab sprod pa	compensate, pay for, repay
+smreng	mi mngon par smra ba. Btsan-lha
+smreng ba	speak
+smreng gsol ba	beg a word, beg leave to speak
+smreng tshig	O.T. = gsang tshig. = smra ba tsam. Blan 286.6. gsang…
+smye ba	damaged, impaired, poor quality
+smye bo	wooer, courtier
+smye gab	bud med kyi gsang gnas 'gebs byed kyi gos. Btsan-lha
+sna	1) nose, trunk, snout chu srin gyi. 2) kind, sort…
+sna 'ded pa	one who goes before, forerunner, pioneer, precede, go…
+sna 'dren	Syn sna khrid; the leader, head
+sna 'dren gcig 'gyur	united leadership
+sna 'dren pa	guide, lead, conduct, head an expedition
+sna 'dzar	fringe at the end
+sna 'dzin	nose rope holder, leader, beginner of a job
+sna 'dzom	rich, abundant
+sna 'dzoms	many kinds/ varieties
+sna 'dzoms dus deb	magazine, journal. dus nges gtan zhig la par du skrun…
+sna 'dzoms pa	gather many/all different kinds of things
+sna 'dzoms po	lavishly and complete. Syn phun sum tshogs
+sna 'ga' spyod pa	to observe a few rules
+sna 'ju	wooden nose string of yak
+sna 'khrid pa	leader
+sna 'khyog	1) crooked nose; 2) owl
+sna 'khyog pa	bent nose
+sna 'phyang	yellow pennants with studded jewelry
+sna 'phyid	handkerchief
+sna 'phyong	one of 'bras bu'i rta babs brgyad
+sna 'tshang ba	difficulty in breathing from the nostrils gtong len…
+sna ba	leader, guide
+sna ba 'dzin	ship commander, boat man
+sna ba'i dbang po	nose sense power
+sna babs	glanders
+sna bag brel	being tethered
+sna bcag pa	procure sanction for anything through the kindness of a…
+sna bo	1) chief, principal, leader, head 1; 2) Gros dpon, 1…
+sna bo che	minister, chief noble
+sna bo la kha	a mountain peak
+sna bon	bonpo charms during marriage
+sna brdabs pa	1) nose banging against a wall etc; 2) hopes not…
+sna bskyil ba	to direct; block, inhibit; ex rtog pa'i sna mi bskyil…
+sna bstad	blon po. Btsan-lha
+sna bstad pa	confident, rely on, trust
+sna bsu	sngon bsu'am mdun bsu. Btsan-lha
+sna bsun	pham nyes kyi nyams myong
+sna bsun 'khel	learn 1's lesson, get taught a lesson
+sna bug	Syn sna khung
+sna bug gi	nasal
+sna bum	ink stand
+sna can	wild pig, having a snout
+sna can ma	wind
+sna cham	nose cold
+sna chen po	big nose, government commissioner, beak, chief official…
+sna chu	nose mucus
+sna dbang	nose sense-power
+sna dbugs rngub pa	sniff
+sna dbyug gzhus pa	sna rgyug gzhus pa
+sna der	sna re der. Gces 588.6
+sna dga' dge bsnyen	TSE
+sna dgu	Syn sna rgu
+sna dgu tshong khang	department store
+sna dkar rtse	county in 21th cent Tibet
+sna dmar ba	red nose
+sna drangs	leader, guide; to head, lead
+sna drangs pa	headed Syn dbu mdzad pa the foremost, led
+sna dri	mucus in the nostrils
+sna drongs	chos kyi zhu sna drongs - assist them in asking for…
+sna g.yar	an advance/ short term loan, ahead of schedule
+sna ga	sna kha
+sna gcig	one of the
+sna gcig dge bsnyen	dge bsnyen practicing only 1 precept
+sna gcig spyod pa	practice only 1 [of the precepts
+sna gcod pa	cut the tip of the nose
+sna gcu	in mdzo or gyag nostrils round shing lcug
+sna gdan	lham mgo'i sna'i 'og gi streamer? snam bu
+sna gdong	1) nostrils dpangs zur; 2) mt's sna zur
+sna gnyer	undesired rnam pa zhig ste nose wrinkles
+sna gnyer ba	wrinkled nose
+sna gnyis nas	through the two nostrils
+sna gong	trunk, proboscis
+sna gong gnyer ba	knit the brows, frown
+sna grangs	dissimilar kinds kha grangs
+sna gshin	Namdak
+sna gshog	nostrils external sha 'bur po'am sna'i bya gshog
+sna gtor	greedy
+sna gug	flat nose
+sna gung dgong	morning noon/ afternoon and evening
+sna gzengs mtho ba	high nose
+sna kha	kind, sort, type, variety, species, different types…
+sna kha 'dzoms po	many kinds/ varieties
+sna kha 'khyil ba	Stein
+sna kha zin	hold to the edge, enter the threshold, reach the…
+sna khag	kind, type, variety, species
+sna khag 'dzoms po	many kinds/ varieties
+sna khog	nasal cavity, inside of the nose
+sna khrag	blood from nose
+sna khrag don pa	to bleed from nose
+sna khrid	guiding instruction
+sna khrid byed	lead, direct
+sna khrid gnang	lead, direct
+sna khrid gsum	the three guides/ directions
+sna khrid pa	lam 'khrid pa'am lam mkhan. Btsan-lha
+sna khu	nose
+sna khug	nose
+sna khug brdabs pa	run into something w the nose, be disappointed
+sna khug kha 'then	'grub thabs med pa'i bya bar au tshugs byed pa'i dpe
+sna khug rdab pa	have bad luck
+sna khug rdabs	be disappointed
+sna khug rdum rdum	quick tempered
+sna khug thung thung	quick tempered
+sna khung	nostril
+sna ku	nose
+sna la	sne mo la. Btsan-lha
+sna la 'gro	go ahead/ in front
+sna la gtogs pa	dpon chung ngu. Btsan-lha
+sna lcag rgyag	strike on the nose , block, halt
+sna ldan	nasal sounds/ consonants
+sna ldan mtshon pa	show which are the nasal sounds/ consonants
+sna ldog pa	change direction
+sna leb	snub-nosed
+sna leb pa	1 of 18 skyon bco brgyad, flat nose
+sna len	Syn sne len welcome; byas offered hospitality, welcoming
+sna len bgyi ba	to be hospitable
+sna len byed	arrange a welcoming feast
+sna len du	as a gesture of welcome
+sna len gyi	a welcoming
+sna len pa	give shelter, hospitality
+sna lnga	five kinds
+sna lo	ride-able yak
+sna lud	snot. nose mucus
+sna lung	rope through the nose
+sna ma	Das: the blossom of the nutmeg tree (?). name of a…
+sna ma 'gag pa	relentlessly
+sna ma 'gag par	relentlessly
+sna ma me tog	Das: n. of a flower (Jasminum grandiflorum)
+sna ma mi skal	informer tradition while traveling mi gcig gis bdag…
+sna ma'i 'bras bu	sna ma shing = dz' ti'i tree fruit de'i 'bras bu ni dz'…
+sna ma'i me tog	dza ti'i me tog. Btsan-lha. mngon brjod mang por dza ti…
+sna ma'i sna tshogs	various kinds
+sna mang	of every sort several
+sna mang bdag gnyer	diversified ownership/ business/ economy
+sna mang ngal rtsol	complex labor
+sna mang phun tshogs	varied, diverse
+sna mang sna tshogs	all sorts of
+sna mdzub	picking the nose, example of bad action
+sna mdzub sprod pa	1) pick the nose; 2) example of a fault
+sna med	1) sna thag brgyu sa'i torn hole; 2) cattle w/o nose…
+sna min sna tshogs	various kinds, all sorts of
+sna mo'i mi	Stein
+sna mtho la	sna mtho Pass
+sna mtshul	nose lower part of the face, nose and moth, muzzle
+sna nad	nose disease
+sna nad lnga	CHN
+sna nad sha lu	sna'i nang sha lhag skyes nas breath is stopped and…
+sna nag ma	inauspicious rnam grangs shig ste, gar song du don mi…
+sna nam	important family clan in early Tibet
+sna nam bza'	king khri lde gtsug brtan or, mes aag tshom can's queen…
+sna nas byung	Nāsika
+sna nas sbrid pa	sneeze
+sna nyag	nose w indentation/ hollow
+sna pa	leader, guide
+sna phu	place in tibet
+sna phyi	handkerchief
+sna phyis	nose rag
+sna po	leader, guide
+sna ral	person w torn nose
+sna re	a tiny piece; a few; single/ solitary
+sna re sna gnyis	a pair or several things
+sna re tsam	only a portion
+sna rgu	various kinds / types / items
+sna rgu tshong khang	department store
+sna rgyan	ornament attached to the nose
+sna rgyug gzhus pa	establishing 1's goal ma bcug pa'am, re don pham nyes…
+sna rgyug sprad	strike on the nose , block, halt
+sna rigs	kinds, varieties
+sna ring	1) elephant; 2) wild pig; 3) med/ spice pi pi ling; 4)…
+sna ring ba	1) long wool etc; 2) good-natured- forebearing; 3) 'Bel…
+sna ris spu tshogs	drag zhan ci rigs mang po 'dres pa
+sna rnam shes	nose consciousness
+sna rno ba	sharp sense of smell
+sna rnon po	1) sharp sense of smell; 2) sharp tipped nose; 3) bya…
+sna ro	the "o" vowel
+sna rtog	nostril
+sna rtse	tip of the nose
+sna rtse tsam	only a part / fraction
+sna rtser	onto the tip of the nose
+sna rtser babs pa	descends onto the tip of the nose
+sna rtug	snot
+sna ru	sign of vowel O, snuff bottle from yak horn
+sna ru bsdigs pa	sna ru brdegs pa'am 'phangs pa. Btsan-lha
+sna rwa	horn snuff box
+sna sa	husband
+sna sar sar	from before/ long ago, in advance
+sna sar sar nas	from before/ long ago, in advance
+sna sbrang	arrow-head
+sna sbrel	1) plow mdzo sna sbrel byed kyi rope; 2) 1 of cattle…
+sna sbyong	snuff
+sna sel	1) eliminate obstacles ; 2) where 1 is going gdong lam…
+sna sgang	bridge of nose
+sna sgo	opening
+sna sha	1) nose flesh; 2) nose rope
+sna shes	nose consciousness
+sna shes kyi khams	the nose consciousness element, abbr. of sna'i rnam par…
+sna sho	torn nose
+sna shu	1) in the nose shu thor skyes te disease where lesions…
+sna shu shu	bdag pos khrid kyang sna shu shu / rkun mas khrid kyang…
+sna shugs	grunting
+sna skad	whine, nasal twang
+sna smad	place in tibet
+sna sman	mgo dang nam tshong yan chad kyi nad la sman sna nang…
+sna sman nyes sel	a medicinal preparation. BP 210.6
+sna snabs	snot
+sna snem	lazy
+sna subs	nose disease where it is hard to breather
+sna sun	wearying
+sna sun phog pa	experience previous failure, defeat, downfall myong ba
+sna sun po	noisy, irritating
+sna tha	snuff, etc. snuffed into the nose
+sna tha blug snod	snuff box
+sna thag	snuff, rope passed through the nose, proboscis, snuff
+sna thag 'chod	rang dbang shor. Gces 588.3
+sna thag 'then pa	snuff
+sna thag bsdogs pa	1) nose rope; 2) Gzhan dbang du ma phyin pa'i dpe
+sna thag mgor dkris	grasping autonomy, wrapped my tether around my head
+sna thag sbrel	being tethered
+sna thag sbrel ba	being tethered
+sna thag shor ba	losing 1's nose rope/ autonomy
+sna thod	sling
+sna thung	short-tempered
+sna thung ba	short-tempered, one who loses his spirits very easily
+sna thung spu sud	easily angered and bad natured
+sna thung thung	short-tempered, easily angered
+sna ti	water from the nose
+sna tsha	sna tsha'i bu lon la dbus par du gzhan tsho'i bu lon…
+sna tsha g.ya'	gnyid nas sna sngur ba. Btsan-lha
+sna tsha ting nge	sna tsha ba. Gces 585.1. dri ma drag pas sna tsha ba.…
+sna tshad	various, of every kind, of all sorts
+sna tshang	complete in varieties
+sna tshog sbyin sbong	Giver of Various Things
+sna tshogs	all kinds of
+sna tshogs 'bras	medicinal fruit effective against worms
+sna tshogs 'dres ma	different sorts mixed up together
+sna tshogs 'dzin	earth
+sna tshogs 'gengs	the earth
+sna tshogs 'od	1 of 'od bdun pa
+sna tshogs 'od zer	1) fire ; 2) wind
+sna tshogs 'thung	all-drinking, the sun or moon or fire
+sna tshogs bkod pa	myriad arrays
+sna tshogs brtsegs	Viśvakūṭa, Citrakūṭa
+sna tshogs brtsegs pa	Manifold Pile
+sna tshogs bsgrub	brahma
+sna tshogs btsegs	mount sumeru
+sna tshogs byed po	Bhrama
+sna tshogs can	citrini water bird, wild cock
+sna tshogs chu bzhin	shimmers like a reflection in water
+sna tshogs dbyangs	Diverse Melody
+sna tshogs dbyangs brgyan	Adorned with Diverse Melody
+sna tshogs dbyig	39th year of rab byung Syn shing mo sbrul
+sna tshogs dga' ba	variegated joy
+sna tshogs don dbang	Citrārthendra
+sna tshogs gling	Vishva Temple. A temple at Samye
+sna tshogs gsung ba	Diverse Teaching
+sna tshogs gtsug can	vrhaspati, spiritual guide of the gods
+sna tshogs gtsug rgyan	Jupiter
+sna tshogs gzugs can	plant calotropis gigantea
+sna tshogs kyi grong	town of Viśvā
+sna tshogs ldan	Variegated
+sna tshogs lha	type of lha
+sna tshogs lhu sgrig	many things alike and not phyogs sgrig
+sna tshogs ma 'dres	manifold but unmixed distinguished
+sna tshogs mdog	variety of colors, plant curcuma amhaldi, zerumbet…
+sna tshogs mdog can	comet's tail
+sna tshogs mdzes	Diverse Beauty
+sna tshogs me tog	Manifold Flowers
+sna tshogs mig can	deity dbang phyug
+sna tshogs mu mtha'	limits of variety
+sna tshogs nyid	variousness; variety; variegated
+sna tshogs pa	different kinds, various; variety
+sna tshogs pad ma	multicolored lotus; variegated lotus
+sna tshogs phreng	Mālyacitra
+sna tshogs rang grol	rtse le rgod tshang pa b. 1608
+sna tshogs rdo rje	vishva vajra, vajra-cross, a double vajra in the form…
+sna tshogs rdzu 'phrul	various miraculous actions
+sna tshogs rgyal mtshan	Variegated Banner
+sna tshogs rgyan	Variously Ornamented
+sna tshogs rgyu	fish
+sna tshogs rta can	epithet of god of wind
+sna tshogs rtog pa	daydreams and mistakes
+sna tshogs sbed pa	Citragupta
+sna tshogs sde	a medicine, cassia alata plant
+sna tshogs sems	Diverse Mind
+sna tshogs shing	tree called harimantha
+sna tshogs shing rta	sun
+sna tshogs skyogs brgya	many means
+sna tshogs sngo btsun	Various Herbs Venerable
+sna tshogs so sor	various and distinct
+sna tshogs sprul pa	diversified emanations
+sna tshogs sprul sku	variegated nirmanakaya
+sna tshogs spu tshogs	different kinds of (animal), lit., various colored…
+sna tshogs ston pa	displaying various forms
+sna tshogs su	variously
+sna tshogs su snang	to manifest as variety
+sna tshogs thabs brgya	many means
+sna tshogs tog	a son of kamadeva
+sna tshogs tshon chags	Syn zal po multicolored
+sna tshogs yum	consort of dus 'khor
+sna tshogs za	Viśvabhuj
+sna yi lam	path of the nose
+sna zhags	CM: glang chen gyi sna zhags pa'i gsugs su bkod pa.…
+sna zhags can	CM: glang po che
+sna zhom	indrawn nostrils
+sna zin	threshold, beginning, initial state
+sna zin pa	to take/ have taken the first step, begun
+sna zin tsam	to take hold of
+snyem byed kyi bdud	the demon of pride, [according to Chod practice, one of…
+snyem chung	servile
+snyem ma	Atopa
+snyem ma rdo rje	Vajratopa. Syn rdo rje snyems ma
+snyem pa	snyem pa, bsnyems pa, bsnyem pa intr. v.; to be proud…
+stams las bcad pa	Also, stams las gcod pa. "oppression." Coblin in JAOS…
+tang	a sound (of a guitar)
+tang ba la	tang ba la pass
+tang btab pa	gtang rag gtong ba'am gzengs bstod byas pa. Btsan-lha
+tang gi 'thus mi	party delegate/ representative
+tang gi bca khrims	party constitution/ regulation
+tang gi dmigs yul	party program
+tang gi gron dngul	party expenses
+tang gi hru'u	secretary of a party branch
+tang gi lo rgyus	party history
+tang gi lu'u	party branch
+tang gi mtshan nyid	party principle/ spirit
+tang gi phyogs khag	party grouping
+tang gi rtsa 'dzin	party platform
+tang gi sgrig khrims	party discipline
+tang gi sgrig yig	party constitution/ regulation
+tang gi sku tshab	representative/ delegate of the party
+tang gi slob grwa	party school
+tang gi slob gso	party education
+tang gi tshags par	party newspaper
+tang krung dbyang	Central Committee of the party
+tang ku	tang kun field med
+tang kun	root used for inflammation of heart and fever
+tang kun nag po	cimicifuga foetida l
+tang la ngo rgol	anti-party
+tang lang	tanglang (a sound)
+tang lo	party membership age
+tang mi	party member
+tang mi ngo ma	full party member
+tang nang dag ther	party rectification
+tang pha'i	party, clique, faction
+tang phyi'i mi sna	non-party members
+tang rgol	anti-party
+tang rgol mna' 'brel	anti-party alliance
+tang srid	party and government
+tang srid las khungs	party and government offices
+tang tong	tong tong sound
+tang tsu'u	leading party members branch
+tang tsung kri	party general branch
+tang u	party committee/ organization
+tang u'i las lugs	party committee system
+tang yig	plain or clear decree or order
+tang yon	party member, communist
+tang yon bgros song	(CH veteran party member
+tang yongs	the whole party
+tshol	imp. of 'tshol ba; 1)
+tshol ba	search for
+tshol ba med pa	not investigate/examine/research/seek/look for
+tshol ba pa	seeker; seek; seeker out; investigater; examiner…
+tshol ba'i tshul can	Mṛgila
+tshol bar 'phen pa	Utkṛṣṭakṣepa
+tshol bzangs	Zhi-byed Coll. I 430.7
+tshol cig	investigate
+tshol khro	complication/ complexity; struggle/ frantic activity
+tshol kro	'tsho rten nam 'tsho thabs 'tshol ba. Btsan-lha
+tshol mkhan	searcher
+tshur	inward
+tshur 'byor pa	receipts, income, revenue
+tshur 'dus	gathered back
+tshur 'khyer	bring to
+tshur 'ong ba	went back, return
+tshur 'phar ba	rebound
+tshur 'then	withdraw
+tshur 'then byed	withdraw
+tshur bkug pa	attract
+tshur blangs pa	extracted
+tshur bltas	facing, looking at
+tshur bltas g.yog med	looking inward, has no servant
+tshur bsgyur	translated into
+tshur byed	take in; understand
+tshur byung phar song	byung song
+tshur bzhag	put to the side
+tshur dkar	alum
+tshur gson dang	Listen here!
+tshur ka	to this side
+tshur kha	on this side
+tshur la ngan	to return evil
+tshur la nyon	listen here
+tshur la ong	= tshur la thong. "throw (it) here!" Kuijp (1986) 38
+tshur len	receive, take , get
+tshur log	return
+tshur log byed	return
+tshur log nas	on our way back
+tshur log pa	return home
+tshur logs	this side; this side, returning
+tshur ltos	look here
+tshur mchi	tshur shog. Btsan-lha
+tshur mdzes	beautiful here
+tshur mo	paint, pigment
+tshur mthong	samsara's objectives, "seeing this side."
+tshur mthong gi blo	knowledge/ mind/ understanding of an ordinary person
+tshur mthong gi yul	objects of confined perception
+tshur mthong rgyud la	in the continuum of a short-sighted being
+tshur nga la phrod	give me one, fetch me one
+tshur nyo	buying
+tshur nyo byed	buy
+tshur phebs par zhu	ask to approach
+tshur phu	Tsurphu. The seat of H.H. the Karmapa in Tölung…
+tshur phyir	mthar phyin. Btsan-lha
+tshur phyogs	this direction
+tshur re	this side, here
+tshur rgol	attack/ offensive
+tshur rgol ba	1) harm ; 2) verbally attack; 3) snga rgol/ questioner…
+tshur rgol byed	attack/ launch an offensive
+tshur rgol byed pa	to be attacked
+tshur rgyab	on this side (of mt. or hill). MTTP
+tshur rol	near; close
+tshur rol gyi cha	near part; close part
+tshur sgom la gcur	push to the side through meditation, drive away by…
+tshur sheg	tshur shog. Btsan-lha
+tshur shig	O.T. tr. of Skt. ehi. = tshur shog. Blan 290.6
+tshur shog	come hither, come here
+tshur sleb	come to this side
+tshur snang	reflection
+tshur snang smra ba	theory of reflection
+tshur sngon	See big ban
+tshur spyon	come here, pray come
+tshur ston	a chief disciple of Marpa
+tshur tsha	Gold Ms. I 3r.4
+tshur tshur	nearer and nearer
+tshur yong babs	revenue, income
+yan	free, vacant, open/ ownerless; upper par, above
+yan 'debs	GJT: abbr for "yan nas 'debs pa" which means to "purify…
+yan 'jad	yan chad. Btsan-lha
+yan an	Yenan
+yan bdun	seven branches; Abbr. of yan lag bdun pa
+yan byang	supplementary inventory GD
+yan chad	above, in the upper part, up to and including, up to…
+yan chad kyi	above
+yan chad la	above, in the upper part, up to this point
+yan chod	Syn yan chad
+yan chod la	above, in the upper part
+yan du	spontaneously
+yan du 'jug	go ownerless
+yan du 'jug pa	go ownerless
+yan du chug	wanders free
+yan gar	put aside, separated, isolated, alone, single
+yan gar ba	discrete, separate, isolated, other than, unattached…
+yan gar du me	nothing other than
+yan gar du med	nothing other than
+yan kha	yang dag min pa. Btsan-lha
+yan khar	höher, übergeordnet, Sieger
+yan khyar ba	put aside, separated, scattered, scarce, sparse…
+yan la	above, in the upper part, up to and including, up to…
+yan lag	subsidiary ; branch/ auxiliary (practice); auxiliary…
+yan lag 'byung	in Kashmir, An.giraja. one of the 'phags pa'i gnas…
+yan lag 'jug	kar myang rtsis su yan lag 'jug gi ri mo ste gnyis shar…
+yan lag 'khums pa	be contracted of the limbs
+yan lag bcas pa	having branches; having limbs
+yan lag bcos ma	artificial limb
+yan lag bcu	10 limbs of kriya tantra approaching and accomplishing…
+yan lag bcu gnyis	12 links
+yan lag bdun	seven branches
+yan lag bdun pa	seven-branched prayer; seven offices of worship…
+yan lag bla ma	Branch Guru
+yan lag brgya pa	See 'u su
+yan lag brgyad	Eight branches. The seven branches in addition to…
+yan lag brgyad dbyangs	speech endowed with the eight aspects
+yan lag brgyad lam	eightfold path
+yan lag brgyad ldan	eight qualities
+yan lag brgyad pa	eight branches; also Daily Apology in Eight Branches
+yan lag bzang po	Śubhāṅga
+yan lag bzhi pa	the four kinds of troops
+yan lag bzhi'i dpung	four divisions of the army
+yan lag bzo grwa	branch factory
+yan lag can	the whole
+yan lag chu 'thung	KP1 170.4
+yan lag dga'	Branches of Joy
+yan lag dgu	nine branches (of the scriptures)
+yan lag dgu'i mdo	nine categories of discourses
+yan lag dmag khongs	military sub- division/ district
+yan lag dmar	Mars
+yan lag dngul khang	branch bank
+yan lag drug	six branches
+yan lag drug cu	sixty branches
+yan lag drug pa	bird
+yan lag g.yo	Swaying Limbs
+yan lag gcod pa	mutilate
+yan lag gi	subsidiary, element, subject, appendage, contributory…
+yan lag gi dbang	Subsidiary empowerments
+yan lag gi mthil	the palm of his hand
+yan lag gi rlung	secondary winds
+yan lag gi skor	subsidiary cycle of teachings
+yan lag lnga	five members
+yan lag lnga pa	tortoise
+yan lag lngas phyag	prostrate with the five points of the body
+yan lag mchog	head cinnamon
+yan lag mchog ldan	handsome person
+yan lag mdzes pa	Beautiful Limbs
+yan lag med pa	epithet of kamadeva
+yan lag med pa'i	anangavajra
+yan lag mnyam	very useful and important medicine
+yan lag mnyam pa	Even Limbs
+yan lag mthil du	on the palm of his hand
+yan lag ngan	pilferer, thief
+yan lag nyams pa	weak in the limbs, decrepit, lame
+yan lag pu'i khang	branch unit
+yan lag rgyal po	Royal Limbs
+yan lag rgyas	Pūritāṅga
+yan lag ru khag	sub/ branch unit, detachment
+yan lag skum pa	draw in the limbs
+yan lag skyes	penis
+yan lag skyon can	crippled
+yan lag tshags	branch organization
+yan lag tshong khang	branch store
+yan lag zha bo	crippled
+yan man	above and below
+yan mar	one above & the other below
+yan mar tsam pa	about
+yan na	above, in the beginning
+yan nas	from above, since
+yan pa	1) free, loose, vagrant. 2) vacant, unoccupied…
+yan pa ba	separate
+yan pa blo bde	1) a carefree vagrant. 2) free and serene - rig pa gu…
+yan pa btang	to let run wild
+yan pa dgab pa	na ba'i gos. Btsan-lha
+yan par btang	let loose
+yan par btang ba	to let free / loose / to roam wild / free
+yan par bzhag	set free
+yan par bzhag pa	to leave freely / openly
+yan par gtang	give rein to; x 'khrul rtog yan par ma gtang ma ni ba…
+yan par gtong ba	disappeared, became invisible
+yan po	bastard. Sources
+yan son	HCL
+yan stabs	remain in it freely
+yan stang	up to
+yan tan kun ldan	had all good qualities
+yan thabs	above, in the upper part,, more than, over, after…
+yan thon	advanced
+yan tshad	above, up to
+zam	line, continuity, succession, velvet cushion, woolen…
+zam 'bum	zam stegs. Btsan-lha
+zam bu lung	holy place in tsang
+zam chen	large bridge
+zam chu	water under a bridge
+zam chung	little bridge
+zam gdan	abutment
+zam gdung	bridge girder
+zam grong	bridge village, village having a bridge over a stream
+zam gsung	bridge girder
+zam kha'i 'thab rdzing	brigehead
+zam lam	the profound path
+zam ldem	1) crooked bridge; 2) bridge's sked pa ldem ldem du…
+zam ma chad pa	unbroken, uninterrupted
+zam me zom me	careless work
+zam mi 'chad par	continuously, uninterrupted
+zam mi zim mi	1) quickly blinking; 2) way of rain falling. 1) quickly…
+zam mig	hole/ arch where water goes under a bridge. hole where…
+zam pa	bridge
+zam pa rgyag	build a bridge
+zam pa'i 'od	Luminous Bridge
+zam pa'i ka ba	piers of a bridge
+zam pa'i rkang pa	piers of a bridge
+zam par gyur pa	is a bridge; which is a bridge
+zam rten	bridge support
+zam sna	bridge's sna gdong
+zam stegs	support platform under bridge supports of rock etc.…
+zam tog	a casket
+zam zim	number
+zam zo	soft cushion of velvet-like cloth
+zam zom	careless work
