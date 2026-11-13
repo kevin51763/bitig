@@ -23,4 +23,13 @@ SIYI.texts = [
     added: '2026-10-20',
   },
 
+  {
+    id: 'earlyqing-4-4',
+    title: '班第等题成衮扎布病故请准其长子承袭本',
+    subtitle: '乾隆十二年理藩院题本，满蒙转写对照与逐词释义',
+    langs: ['mnc', 'mn'],
+    file: 'content/texts/earlyqing-4-4.html',
+    added: '2026-11-13',
+  },
+
 ];
