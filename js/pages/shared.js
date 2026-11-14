@@ -2,7 +2,7 @@
 (function () {
   const esc = SIYI.esc;
 
-  /* 一条范文或资料归入的语言：[{ key, name }] */
+  /* 一条文章或资料归入的语言：[{ key, name }] */
   SIYI.itemLangs = d => (d.langs || []).map(k => ({ key: k, name: SIYI.langName(k) }));
 
   SIYI.chips = d => `<span class="lchips">${SIYI.itemLangs(d).map(x => `<span class="lchip">${esc(x.name)}</span>`).join('')}</span>`;

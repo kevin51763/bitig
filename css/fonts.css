@@ -40,7 +40,7 @@
 /* 满文、蒙古文（Noto Sans Mongolian 的精简本，含满文字母和词中连接需要的字符） */
 @font-face { font-family: "Mong"; font-display: block;
   src: url(../fonts/noto-sans-mongolian-subset.woff2) format("woff2"); }
-/* 同一个字体再登记一个通用的名字，范文 HTML 里写 "Noto Sans Mongolian" 也能用上 */
+/* 同一个字体再登记一个通用的名字，文章 HTML 里写 "Noto Sans Mongolian" 也能用上 */
 @font-face { font-family: "Noto Sans Mongolian"; font-display: block;
   src: url(../fonts/noto-sans-mongolian-subset.woff2) format("woff2"); }
 /* 藏文 */

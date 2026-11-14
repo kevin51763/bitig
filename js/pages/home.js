@@ -1,4 +1,4 @@
-/* 首页：介绍（可以没有）、名句条、查词、各语言的编辑器入口、新近范文，最底下是开发中的编辑器。文字来自 config/ 和 content/。 */
+/* 首页：介绍（可以没有）、名句条、查词、各语言的编辑器入口、新近文章，最底下是开发中的编辑器。文字来自 config/ 和 content/。 */
 (function () {
   const $ = SIYI.$, esc = SIYI.esc;
   let built = false;
@@ -52,7 +52,7 @@
     const items = SIYI.texts.slice(-n).reverse();
     $('home-texts').innerHTML = items.length
       ? SIYI.pages.texts.listHtml(items) + (SIYI.texts.length > items.length ? `<p class="small"><a href="#texts">查看全部 ${SIYI.texts.length} 篇 →</a></p>` : '')
-      : '<div class="empty-box">还没有范文。</div>';
+      : '<div class="empty-box">还没有文章。</div>';
   }
 
   SIYI.pages.home = { render };

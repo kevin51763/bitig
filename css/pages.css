@@ -1,11 +1,11 @@
-/* 范文、资料、名句三个栏目。 */
+/* 文章、资料、名句三个栏目。 */
 
 /* ---------- 按语言分组的目录 ---------- */
 .groups { display: flex; flex-direction: column; gap: 1.1rem; }
 .group h3 { margin: 0 0 .35rem; font-size: .95rem; display: flex; gap: .5rem; align-items: baseline; }
 .group h3 .n { font-weight: 400; font-size: .8rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 
-/* ---------- 范文 ---------- */
+/* ---------- 文章 ---------- */
 .tlist { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
 .tlist li { border-bottom: 1px solid var(--rule); }
 .tlist a { display: flex; flex-wrap: wrap; gap: .2rem 1rem; align-items: baseline; padding: .55rem .2rem; color: var(--ink); text-decoration: none; }
