@@ -1,5 +1,5 @@
 /* 最后载入：生成页头导航和页脚，按网址里 # 后面的部分切换栏目。
-     #home 首页   #texts 范文   #text-简写 单篇范文   #materials 资料   #sayings 全部名句
+     #home 首页   #texts 文章   #text-简写 单篇文章   #materials 资料   #sayings 全部名句
      #dict 词典（上次看的那部）   #dict-词典名 某一部词典，词典名见 js/dict/dictionaries.js
      #tool-语言简写 该语言的编辑器
    访问计数在 js/counter.js，不在这里。 */
@@ -16,7 +16,7 @@
   $('brand-seal').parentNode.hidden = !site.seal;
   const links = list => list.map(([h, t]) => `<a href="#${esc(h)}" data-nav="${esc(h)}">${esc(t)}</a>`).join('');
   $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
-  $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '范文'], ['materials', '资料库']]);
+  $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '文章'], ['materials', '资料库']]);
   $('foot-name').textContent = site.title;
   $('foot-meta').innerHTML = site.email ? `联系邮箱：<a href="mailto:${esc(site.email)}">${esc(site.email)}</a>` : '';
 
@@ -73,7 +73,7 @@
     });
     revealNav();
     open();
-    // 浏览器标签上的标题：栏目名 · 网站名。首页只写网站名；单篇范文的标题由 js/pages/texts.js 自己写
+    // 浏览器标签上的标题：栏目名 · 网站名。首页只写网站名；单篇文章的标题由 js/pages/texts.js 自己写
     if (view !== 'v-home' && view !== 'v-text') {
       const t = $(view).querySelector('h1');
       if (t && t.textContent) document.title = t.textContent + ' · ' + site.title;

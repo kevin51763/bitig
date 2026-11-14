@@ -2,7 +2,7 @@
 
 bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 
-网站 [bitig.ink](https://bitig.ink/) 收回鹘文、突厥如尼文、满文、蒙古文、藏文、察合台文的原文与拉丁转写对照，另有词典、范文、资料和名句。
+网站 [bitig.ink](https://bitig.ink/) 收回鹘文、突厥如尼文、满文、蒙古文、藏文、察合台文的原文与拉丁转写对照，另有词典、文章、资料和名句。
 
 网站是一批静态文件：没有数据库，不需要编译，也不依赖任何外部网站。改了文件，传到 GitHub，再让服务器取一次，网站就更新了。唯一要服务器配合的是页脚的访问计数。
 
@@ -10,7 +10,7 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 
 1. [文件夹里有什么](#一文件夹里有什么)
 2. [在自己电脑上预览](#二在自己电脑上预览)
-3. [日常维护](#三日常维护)：加范文、资料、名句、词典链接、语言，改配色
+3. [日常维护](#三日常维护)：加文章、资料、名句、词典链接、语言，改配色
 4. [写错了怎么办](#四写错了怎么办)
 5. [发布](#五发布)：版本号、提交、让 bitig.ink 更新
 6. [访问计数](#六访问计数)
@@ -31,8 +31,8 @@ config/               网站的设置
   languages.js          语言清单：名字、导航顺序、用哪种编辑器、字体、书写方向
   dictionaries.js       词典链接
 content/              网站的内容
-  texts.js              范文目录
-  texts/                范文的 HTML 文件
+  texts.js              文章目录
+  texts/                文章的 HTML 文件
   materials.js          资料目录
   materials/            资料文件（PDF、图片等）
   sayings.js            首页轮换的名句
@@ -40,7 +40,7 @@ content/              网站的内容
 css/                  样式
   theme.css             配色和各种文字的字体（想改颜色就改这里）
   fonts.css             字体文件的登记
-  其余                  各部分的版式：base 通用，layout 页头页脚和首页，pages 范文资料名句，
+  其余                  各部分的版式：base 通用，layout 页头页脚和首页，pages 文章资料名句，
                         two-pane、three-pane 两种编辑器，dict 词典
 fonts/                字体文件，随网站发布
 
@@ -49,7 +49,7 @@ js/                   程序
   router.js             按网址里 # 后面的部分切换栏目，生成页头和页脚
   counter.js            页脚的访问计数
   gloss.js              编辑器里的悬停释义：查词、还原词尾、虚词表
-  pages/                首页、范文、资料、名句、词典各栏目
+  pages/                首页、文章、资料、名句、词典各栏目
   editors/              三栏、两栏两种编辑器
   converters/           各文字的转换规则，一种文字一个文件
   data/                 碑文词形表
@@ -78,7 +78,7 @@ python3 -m http.server 8000
 
 然后在浏览器里打开 http://localhost:8000 。Windows 上把 `python3` 换成 `python`。
 
-双击 `index.html` 也能看个大概，但有几处不一样：词典读不到词库，范文框的高度不随正文调整，写错文件时提示里看不到行号。
+双击 `index.html` 也能看个大概，但有几处不一样：词典读不到词库，文章框的高度不随正文调整，写错文件时提示里看不到行号。
 
 两种办法下页脚都没有访问计数，因为计数在服务器上。这是正常的。
 
@@ -86,7 +86,7 @@ python3 -m http.server 8000
 
 ## 三、日常维护
 
-### 加一篇范文
+### 加一篇文章
 
 1. 把 HTML 文件放进 `content/texts/`。文件名用英文或拼音，比如 `daxue.html`。
 2. 打开 `content/texts.js`，在列表末尾照现有的样子加一项：
@@ -103,14 +103,14 @@ python3 -m http.server 8000
 ```
 
 - `langs` 里写语言简写，简写在 `config/languages.js` 里查；清单里没有的语言直接写中文名，比如 `'汉文'`。
-- `id` 会成为这篇范文的网址（`#text-daxue`），公开之后最好别再改。
-- 新的写在最后，首页“新近范文”从最后往前取。
+- `id` 会成为这篇文章的网址（`#text-daxue`），公开之后最好别再改。
+- 新的写在最后，首页“新近文章”从最后往前取。
 
-**请 AI 做范文时**，可以把下面这段要求一起交给它：
+**请 AI 做文章时**，可以把下面这段要求一起交给它：
 
 > 做成一个完整、独立的 HTML 文件，样式和脚本都写在文件里。不要引用 Google Fonts 等外部网站的字体，改为在 `<head>` 里加 `<link rel="stylesheet" href="../../css/fonts.css">`，字体名用 Noto Serif Old Uyghur、Noto Sans Old Turkic、Noto Sans Mongolian、Noto Serif Tibetan、Noto Naskh Arabic、Gentium Book Plus。
 
-这样范文和网站用同一套字体，在国内打开也不会卡住。《愚公移山》已经照这样改过。
+这样文章和网站用同一套字体，在国内打开也不会卡住。《愚公移山》已经照这样改过。
 
 ### 加一份资料
 
@@ -192,7 +192,7 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 
 ### 加一种语言
 
-**只用来给范文、资料分类**（比如以后加西夏文、粟特文的范文）：在 `config/languages.js` 里加一行即可：
+**只用来给文章、资料分类**（比如以后加西夏文、粟特文的文章）：在 `config/languages.js` 里加一行即可：
 
 ```js
   { id: 'txg', name: '西夏文' },
@@ -254,14 +254,14 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 
 **凡是改了 .js 或 .css 文件（包括 `config/`、`content/` 里的），都要把 `index.html` 里所有的 `?v=` 改成同一个新值。** 用编辑器的“全部替换”，把旧的数字换成当前的日期和小时。只改一部分，读者的浏览器会新旧文件混用，页面顶上出现黄色报错。
 
-只改 HTML（比如范文正文）或只加资料文件，不用改版本号。重新生成词库后要改的是 `js/dict/dictionaries.js` 开头的 `VER`，见上面的“词典栏目”。
+只改 HTML（比如文章正文）或只加资料文件，不用改版本号。重新生成词库后要改的是 `js/dict/dictionaries.js` 开头的 `VER`，见上面的“词典栏目”。
 
 ### 第二步：传到 GitHub
 
 - **改一个文件**：在 GitHub 网页上打开它，点右上角的铅笔图标，改完点 **Commit changes**。
-- **加文件**（新的范文、资料）：进入对应的文件夹，比如 `content/texts`，点 **Add file** → **Upload files**。
+- **加文件**（新的文章、资料）：进入对应的文件夹，比如 `content/texts`，点 **Add file** → **Upload files**。
 - **改得多时**：用 [GitHub Desktop](https://desktop.github.com/) 把仓库同步到电脑上，在本地改好、预览，再一次推送。
-- **让 Claude 改**：在 Claude 里连上这个仓库，直接说“加一篇范文，文件在这里”或者“给藏文加一个词典链接”。它会新建分支、开一个合并请求（PR），你看过之后点 **Merge** 合并。
+- **让 Claude 改**：在 Claude 里连上这个仓库，直接说“加一篇文章，文件在这里”或者“给藏文加一个词典链接”。它会新建分支、开一个合并请求（PR），你看过之后点 **Merge** 合并。
 
 ### 第三步：让 bitig.ink 更新
 
