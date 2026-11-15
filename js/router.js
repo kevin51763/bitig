@@ -1,6 +1,6 @@
 /* 最后载入：生成页头导航和页脚，按网址切换栏目。
    栏目的名字：
-     home 首页   texts 文章   text-简写 单篇文章   materials 资料   sayings 全部名句
+     home 首页   texts 文章   text-简写 单篇文章   materials 资料   sayings 全部名句   contact 留言
      dict 词典（上次看的那部）   dict-词典名 某一部词典，词典名见 js/dict/dictionaries.js
      tool-语言简写 该语言的编辑器
    网址有两种写法：没有服务器的地方是 # 加名字（#dict-manhan）；bitig.ink 上不带 #（/dict/manhan）。
@@ -21,7 +21,11 @@
   $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
   $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '文章'], ['materials', '资料库']]);
   $('foot-name').textContent = site.title;
-  $('foot-meta').innerHTML = site.email ? `联系邮箱：<a href="mailto:${esc(site.email)}">${esc(site.email)}</a>` : '';
+  // 页脚的联系方式：留言（要有服务器，见 js/pages/contact.js）和邮箱，config/site.js 里各有开关
+  $('foot-meta').innerHTML = [
+    site.contact !== false && SIYI.clean ? `<a href="${esc(SIYI.href('contact'))}">留言</a>` : '',
+    site.email ? `联系邮箱：<a href="mailto:${esc(site.email)}">${esc(site.email)}</a>` : '',
+  ].filter(Boolean).join(' · ');
 
   /* 页头只占一行。放不下时可以左右滑动：右边缘淡出作提示，当前栏目自动滑到看得见的地方 */
   const head = document.querySelector('.site-head'), bar = head.querySelector('.in');
@@ -48,7 +52,7 @@
      加新栏目：在 index.html 里加一块 <main class="view" id="v-xxx" hidden>，把 id 写进 VIEWS，再在这里加一行。
      新栏目的名字还要写进 js/routes.js，不带 # 的网址才认得它。
      这些名字公开后就是别人收藏的链接，不要改。 */
-  const VIEWS = ['v-home', 'v-texts', 'v-mats', 'v-tri', 'v-mm', 'v-text', 'v-says', 'v-dict'];
+  const VIEWS = ['v-home', 'v-texts', 'v-mats', 'v-tri', 'v-mm', 'v-text', 'v-says', 'v-dict', 'v-contact'];
   function resolve(h) {
     const P = SIYI.pages;
     const tool = h.startsWith('tool-') ? SIYI.lang(h.slice(5)) : null;
@@ -63,6 +67,7 @@
     if (h.startsWith('text-')) return { view: 'v-text', nav: 'texts', open: () => P.texts.renderReader(h.slice(5)) };
     if (h === 'materials') return { view: 'v-mats', nav: 'materials', open: P.materials.renderList };
     if (h === 'sayings') return { view: 'v-says', open: P.sayings.renderPage };
+    if (h === 'contact') return { view: 'v-contact', open: () => P.contact.render() };
     if (h === 'dict' || h.startsWith('dict-')) return { view: 'v-dict', nav: 'dict', open: () => P.dict.show(h.slice(5)) };
     return { view: 'v-home', nav: 'home', open: P.home.render };   // 认不出的网址都回首页
   }

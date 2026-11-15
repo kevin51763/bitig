@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 查看读者留言的页面，只给网站的主人用：bitig.ink/admin.html。
+     要输入密码（服务器上 /var/www/bitig/data/admin-password.txt 里的那一串）才看得到留言。
+     这个页面本身谁都能打开，里面没有任何秘密；留言由服务器的接口 /api/messages 提供（server/messages.js）。
+     安装和用法见 README 的“留言”。没有服务器的地方（GitHub Pages 上的副本）用不了。 -->
+<meta name="robots" content="noindex">
+<title>留言管理 · bitig</title>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/base.css">
+<style>
+  body { max-width: 760px; margin: 0 auto; padding: 1.5rem 16px 4rem; }
+  h1 { font-size: 1.4rem; margin: 0 0 1rem; }
+  .bar { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem; }
+  .bar input { font: inherit; padding: .4rem .6rem; border: 1px solid var(--rule); border-radius: 5px; background: var(--sheet); color: var(--ink); }
+  .msg { border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); padding: .8rem 1rem; margin-bottom: .8rem; }
+  .msg.done { opacity: .55; }
+  .msg .meta { font-size: .8rem; color: var(--ink-soft); display: flex; gap: .8rem; flex-wrap: wrap; }
+  .msg .meta b { color: var(--seal); font-weight: 600; }
+  .msg .text { white-space: pre-wrap; overflow-wrap: anywhere; margin: .5rem 0; }
+  .msg .contact { font-size: .88rem; }
+  .msg .ops { display: flex; gap: .5rem; margin-top: .5rem; }
+</style>
+</head>
+<body>
+<h1>留言管理</h1>
+
+<!-- 输入密码 -->
+<form class="bar" id="login">
+  <input type="password" id="pass" placeholder="密码" autocomplete="current-password" required>
+  <button type="submit" class="btn primary">查看留言</button>
+  <span class="small" id="login-note"></span>
+</form>
+
+<!-- 留言列表，输对密码后显示 -->
+<div id="board" hidden>
+  <div class="bar">
+    <div class="seg" id="filter"><button type="button" data-v="todo" aria-pressed="true">未处理</button><button type="button" data-v="all" aria-pressed="false">全部</button></div>
+    <span class="small" id="count"></span>
+    <button type="button" class="btn" id="reload">刷新</button>
+    <button type="button" class="btn" id="logout">退出</button>
+  </div>
+  <div id="list"></div>
+</div>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var KIND = { fix: '纠错', material: '添加资料', other: '其他' };
+  var API = '/api/messages';
+  var KEY = 'bitig-admin';   // 密码记在这个标签页里，关掉标签页就忘
+  var pass = '', all = [], filter = 'todo';
+  try { pass = sessionStorage.getItem(KEY) || ''; } catch (e) {}
+
+  /* 带着密码向服务器要数据。密码不对时回到输入密码的地方 */
+  function call(method, url) {
+    return fetch(url, { method: method, headers: { 'X-Admin-Password': pass }, cache: 'no-store' }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (d) {
+        if (r.ok) return d;
+        var note = r.status === 404 ? '这里没有服务器，看不了留言。请到 bitig.ink/admin.html。' : d.note || '出错了（' + r.status + '）';
+        if (r.status === 401 || r.status === 429 || r.status === 503 || r.status === 404) logout(note);
+        throw new Error(note);
+      });
+    });
+  }
+  function logout(note) {
+    pass = '';
+    try { sessionStorage.removeItem(KEY); } catch (e) {}
+    $('board').hidden = true; $('login').hidden = false;
+    $('login-note').textContent = note || '';
+  }
+  function load() {
+    return call('GET', API).then(function (d) {
+      all = d.messages || [];
+      try { sessionStorage.setItem(KEY, pass); } catch (e) {}
+      $('login').hidden = true; $('board').hidden = false; $('login-note').textContent = '';
+      draw();
+    }, function () {});
+  }
+
+  /* 画出留言。留言是别人写的，一律当作文字放进页面（textContent），不当作 HTML */
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function draw() {
+    var todo = all.filter(function (m) { return !m.done; });
+    var show = filter === 'todo' ? todo : all;
+    $('count').textContent = '未处理 ' + todo.length + ' 条，共 ' + all.length + ' 条';
+    var list = $('list');
+    list.textContent = '';
+    if (!show.length) { list.appendChild(el('div', 'empty-box', filter === 'todo' ? '没有未处理的留言。' : '还没有留言。')); return; }
+    show.forEach(function (m) {
+      var box = el('div', 'msg' + (m.done ? ' done' : ''));
+      var meta = el('div', 'meta');
+      meta.appendChild(el('b', '', KIND[m.kind] || m.kind));
+      meta.appendChild(el('span', '', m.time));
+      if (m.source) meta.appendChild(el('span', '', '来自 ' + m.source));
+      meta.appendChild(el('span', '', '第 ' + m.id + ' 条'));
+      box.appendChild(meta);
+      box.appendChild(el('div', 'text', m.text));
+      if (m.contact) box.appendChild(el('div', 'contact', '联系方式：' + m.contact));
+      var ops = el('div', 'ops');
+      var done = el('button', 'btn', m.done ? '改回未处理' : '标为已处理');
+      done.type = 'button';
+      done.onclick = function () { call('POST', API + '/' + m.id + '/done').then(load, function () {}); };
+      var del = el('button', 'btn', '删除');
+      del.type = 'button';
+      del.onclick = function () { if (confirm('删掉第 ' + m.id + ' 条留言？删了就找不回来。')) call('DELETE', API + '/' + m.id).then(load, function () {}); };
+      ops.appendChild(done); ops.appendChild(del);
+      box.appendChild(ops);
+      list.appendChild(box);
+    });
+  }
+
+  $('login').addEventListener('submit', function (e) { e.preventDefault(); pass = $('pass').value; $('pass').value = ''; $('login-note').textContent = '正在核对…'; load(); });
+  $('filter').addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b) return;
+    filter = b.getAttribute('data-v');
+    Array.prototype.forEach.call($('filter').children, function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+    draw();
+  });
+  $('reload').addEventListener('click', load);
+  $('logout').addEventListener('click', function () { logout(''); });
+  if (pass) load();
+})();
+</script>
+</body>
+</html>

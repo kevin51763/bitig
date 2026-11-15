@@ -90,7 +90,7 @@ module.exports = function (app, dataDir, siteDir) {
 
   /* 一个栏目的标题和简介；没有这个栏目（文章简写写错了等）返回 null。desc 不写就用 index.html 里原有的 */
   function meta(name) {
-    const plain = { texts: '文章', materials: '资料库', sayings: '名句', dict: '词典' };
+    const plain = { texts: '文章', materials: '资料库', sayings: '名句', dict: '词典', contact: '留言' };
     if (name === 'home') return {};
     if (plain[name]) return { title: plain[name] };
     const kind = name.slice(0, 5), id = name.slice(5);
@@ -131,7 +131,7 @@ module.exports = function (app, dataDir, siteDir) {
 
   const query = req => { const i = req.originalUrl.indexOf('?'); return i < 0 ? '' : req.originalUrl.slice(i); };
 
-  app.get(['/', '/texts', '/texts/:a', '/materials', '/sayings', '/dict', '/dict/:a', '/tool/:a'], (req, res, next) => {
+  app.get(['/', '/texts', '/texts/:a', '/materials', '/sayings', '/contact', '/dict', '/dict/:a', '/tool/:a'], (req, res, next) => {
     refresh(false);
     if (!S.html) return next();   // index.html 读不出来：交给后面，按老办法发原样的文件
     const name = routes.fromPath(req.path, S.langs);
