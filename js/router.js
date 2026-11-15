@@ -1,6 +1,6 @@
 /* 最后载入：生成页头导航和页脚，按网址切换栏目。
    栏目的名字：
-     home 首页   texts 文章   text-简写 单篇文章   materials 资料   sayings 全部名句   contact 留言
+     home 首页   texts 文章   text-简写 单篇文章   materials 资料   sayings 全部名句   contact 问题反馈
      dict 词典（上次看的那部）   dict-词典名 某一部词典，词典名见 js/dict/dictionaries.js
      tool-语言简写 该语言的编辑器
    网址有两种写法：没有服务器的地方是 # 加名字（#dict-manhan）；bitig.ink 上不带 #（/dict/manhan）。
@@ -21,9 +21,9 @@
   $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
   $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '文章'], ['materials', '资料库']]);
   $('foot-name').textContent = site.title;
-  // 页脚的联系方式：留言（要有服务器，见 js/pages/contact.js）和邮箱，config/site.js 里各有开关
+  // 页脚的联系方式：问题反馈（要有服务器，见 js/pages/contact.js）和邮箱，config/site.js 里各有开关
   $('foot-meta').innerHTML = [
-    site.contact !== false && SIYI.clean ? `<a href="${esc(SIYI.href('contact'))}">留言</a>` : '',
+    site.contact !== false && SIYI.clean ? `<a href="${esc(SIYI.href('contact'))}">问题反馈</a>` : '',
     site.email ? `联系邮箱：<a href="mailto:${esc(site.email)}">${esc(site.email)}</a>` : '',
   ].filter(Boolean).join(' · ');
 

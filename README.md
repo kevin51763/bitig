@@ -402,7 +402,7 @@ systemctl restart bitig
 
 ### 留言
 
-读者在“留言”栏目（`bitig.ink/contact`，页脚和资料库顶上有链接）写一段话给你，可以选“纠错”“添加资料”或“其他”，联系方式可留可不留。这样不用公开邮箱，读者也不用注册。
+读者在“问题反馈”栏目（`bitig.ink/contact`，页脚和资料库顶上有链接）写一段话给你，可以选“纠错”“添加资料”或“其他”，联系方式可留可不留。这样不用公开邮箱，读者也不用注册。
 
 **设密码（只做一次）**
 
@@ -430,7 +430,7 @@ cat /var/www/bitig/data/admin-password.txt
 | `server/messages.js` | 服务器部分：接口 `/api/messages`，收留言、核对密码 |
 | 服务器上的 `data/messages.db` | 留言，SQLite 数据库。不在仓库里，别人下载不到 |
 | 服务器上的 `data/admin-password.txt` | 密码。没有这个文件时，留言照收，但看不了 |
-| `config/site.js` 的 `contact` | 开关。改成 `false`，页脚和资料库顶上不再有“留言”链接 |
+| `config/site.js` 的 `contact` | 开关。改成 `false`，页脚和资料库顶上不再有“问题反馈”链接 |
 
 - 防垃圾：同一个网络地址 10 分钟内最多留 5 条，全站一天最多收 300 条；密码 10 分钟内最多输错 10 次。这些数字在 `server/messages.js` 开头。
 - 不记录读者的网络地址。会记下读者来留言之前所在的栏目（如 `dict-manhan`），纠错时方便查找。

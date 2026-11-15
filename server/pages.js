@@ -90,7 +90,7 @@ module.exports = function (app, dataDir, siteDir) {
 
   /* 一个栏目的标题和简介；没有这个栏目（文章简写写错了等）返回 null。desc 不写就用 index.html 里原有的 */
   function meta(name) {
-    const plain = { texts: '文章', materials: '资料库', sayings: '名句', dict: '词典', contact: '留言' };
+    const plain = { texts: '文章', materials: '资料库', sayings: '名句', dict: '词典', contact: '问题反馈' };
     if (name === 'home') return {};
     if (plain[name]) return { title: plain[name] };
     const kind = name.slice(0, 5), id = name.slice(5);

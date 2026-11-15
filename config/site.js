@@ -13,7 +13,7 @@ SIYI.config.site = {
   // 介绍下面那行小字
   origin: '', // 不需要就留空
 
-  // 留言：true 时页脚和资料库顶上有“留言”链接，读者可以写一段话给你，不用公开邮箱；false 不显示。
+  // 问题反馈：true 时页脚有“问题反馈”链接（资料库顶上也有），读者可以写一段话给你，不用公开邮箱；false 不显示。
   // 留言存在 bitig.ink 的服务器上，在 bitig.ink/admin.html 查看，做法见 README 的“留言”
   contact: true,
 

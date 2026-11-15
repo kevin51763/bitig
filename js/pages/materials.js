@@ -22,7 +22,7 @@
     // 顶上的“添加资料，请……”：能留言就指到留言栏目，否则用 config/site.js 里的 email；两样都没有就不显示这一行
     const site = SIYI.config.site, email = site.email, canContact = site.contact !== false && SIYI.clean;
     $('mats-contact').hidden = !email && !canContact;
-    $('mats-contact').innerHTML = canContact ? `添加资料，请<a id="mats-contact-link" href="${esc(SIYI.href('contact'))}">留言</a>`
+    $('mats-contact').innerHTML = canContact ? `添加资料，请到<a id="mats-contact-link" href="${esc(SIYI.href('contact'))}">问题反馈</a>里说明`
       : email ? `添加资料，请联系 <a href="mailto:${esc(email)}">${esc(email)}</a>` : '';
     // 从这里去留言，类别先选好“添加资料”
     const link = $('mats-contact-link');
