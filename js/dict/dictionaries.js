@@ -1,7 +1,11 @@
 /* “词典”栏目里各部词典各自的设置：读哪个词库、释义怎么排、左栏显示什么。
    查询程序在 js/dict/core.js，转写规则在 js/dict/translit-mnc.js 和 translit-mn.js。
    词库在 dict/data/，由 dict/tools/build_data.py 从栗林均词典的 CSV 生成；
-   重新生成词库后，把下面 VER 的日期改新，读者的浏览器才会重新下载。 */
+   重新生成词库后，把下面 VER 的日期改新，读者的浏览器才会重新下载。
+   VER 这一行的写法不要变：bitig.ink 的服务器（server/dict.js）也读它，用来核对词库的版本。
+
+   每部词典设置里的 textFields：sense 里哪几栏是释义文字（释义反查就在这几栏里找），
+   写栏的序号，和 sense 里 f[…] 的序号一致。如满汉词典 def 是 f[3]，就写 [3]。 */
 (function () {
   var VER = '?v=2026110709';
   // 栗林均词典的官网：词典页左上角点“栗林均词典”即打开
@@ -63,7 +67,7 @@
       legend: LEGEND_MNC + LEGEND_TAIL,
       sense: function (f) { return { d: f[0], hom: f[1], page: f[2], def: f[3] }; },
       looseOf: function (e) { return [{ r: e.key }]; },
-      senseText: function (s) { return s.def; },
+      textFields: [3],
       head: function (e, c) {
         var d = D(e.key);
         return '<button type="button" class="dx-tl" data-q="' + c.H.esc(d) + '" data-in="mnc">' + c.H.markDisplay(MNC, d, c.q) + '</button>';
@@ -108,7 +112,7 @@
       legend: LEGEND_MN + LEGEND_TAIL,
       sense: function (f) { return { d: f[0], hom: f[1], page: f[2], def: f[3], ipa: f[4], cyr: f[5] }; },
       looseOf: function (e) { return e.key.split('～').map(function (r) { return { r: r.trim() }; }); },
-      senseText: function (s) { return s.def; },
+      textFields: [3],
       loaded: function (E) { E.forEach(function (e) { var k = normSc(col(e)); if (!(k in INDEX)) INDEX[k] = e.key; }); },
       head: function (e, c) {
         var d = D(e.key), ss = c.H.senses(e);
@@ -168,7 +172,7 @@
       legend: LEGEND_MN + LEGEND_MNC + LEGEND_TAIL,
       sense: function (f) { return { d: f[0], hom: f[1], raw: f[2], zh: f[3], mnc: f[4], page: f[5] }; },
       looseOf: function (e, id, alts) { return id === 'mn' ? [{ r: e.key }] : alts(e); },
-      senseText: function (s) { return s.zh; },
+      textFields: [3],
       head: function (e, c) {
         var d = MN.display(e.key);
         return '<button type="button" class="dx-tl" data-q="' + c.H.esc(d) + '" data-in="mn">' +
@@ -233,7 +237,7 @@
       legend: LEGEND_MNC + LEGEND_MN + LEGEND_TAIL,
       sense: function (f) { return { d: f[0], hom: f[1], raw: f[2], zh: f[3], mn: f[4], expl: f[5], page: f[6], cyr: f[7] }; },
       looseOf: function (e, id, alts) { return id === 'mnc' ? [{ r: e.key }] : alts(e); },
-      senseText: function (s) { return s.zh + ' ' + s.expl; },
+      textFields: [3, 5],
       head: function (e, c) {
         var d = D(e.key);
         return '<button type="button" class="dx-tl" data-q="' + c.H.esc(d) + '" data-in="mnc">' +
@@ -326,7 +330,7 @@
       })(),
       sense: function (f) { return { d: f[0], def: f[1] }; },
       looseOf: function (e) { return [{ r: e.key }]; },
-      senseText: function (s) { return s.def; },
+      textFields: [1],
       head: function (e, c) {
         return '<span class="dx-bo" lang="bo">' + c.H.esc(BOC.toScript(e.key)) + '</span>' +
           '<button type="button" class="dx-tl" data-q="' + c.H.esc(e.key) + '" data-in="bo">' + c.H.markDisplay(BO, e.key, c.q) + '</button>';

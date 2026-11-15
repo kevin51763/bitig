@@ -4,13 +4,18 @@
    载入顺序：先读较小的检索文件（*.idx.txt），读完即可查询；释义文件（*.def.txt）随后在后台读入，
    读完后结果自动补上释义。读过的词库留在内存里，切换栏目、切换词典都不必重读。
    特别大的词典（藏文）设 shard：释义分成许多小份，只读当前这一页结果用得到的几份；
-   设 reverse 时，“释义反查”改查另备的反查索引（如英文 → 藏文）。 */
+   设 reverse 时，“释义反查”改查另备的反查索引（如英文 → 藏文）。
+
+   在 bitig.ink 上，其余几部词典的释义不必整份下载：服务器有接口 /api/dict/…（程序在 server/dict.js），
+   浏览器只向它要当前这一页词条的释义，释义反查也交给它做。接口不通或词库版本对不上时
+   （GitHub Pages 上的副本、本地预览都没有服务器），自动退回上面的老办法，下载整份释义文件。 */
 (function () {
   'use strict';
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var CJK = /[぀-ヿ㐀-鿿豈-﫿]/;
-  var SEG = /[①-⑳；;，,。．：:、！!？?\s\[\]〔〕<>〈〉（）()［］《》・\/]+/;
   var PAGE = 50;   // 每页条数
+  // 服务器的接口通不通。有一次不通（没有服务器、断网），这次打开网站就不再试，各部词典都走老办法
+  var apiDown = !/^https?:$/.test(location.protocol);
   var idle = window.requestIdleCallback || function (f) { return setTimeout(function () { f({ timeRemaining: function () { return 8; } }); }, 1); };
 
   // 逐字归并；每个字母的归并结果记在表里，免得反复计算
@@ -62,6 +67,12 @@
     if (!res.ok) throw new Error('词库文件读取失败（' + res.status + '）');
     return res.text();
   }
+  // 向服务器的接口要数据。出错时 err.status 是服务器回的状态码，连不上则没有
+  async function fetchApi(url) {
+    var res = await fetch(url);
+    if (!res.ok) { var err = new Error('接口不通（' + res.status + '）'); err.status = res.status; throw err; }
+    return res.json();
+  }
 
   /* 一部词典。C 是设置（见 dictionaries.js），root 是放这部词典的元素；headLeft 是顶栏左侧的 HTML（切换词典的链接）。 */
   // 上次是否收起了左栏
@@ -111,6 +122,7 @@
     var LOOSE = {};        // 输入方式 → { list, done }：每个词头用来匹配的归并转写
     var state = 'none';    // none → index（可以查询）→ full（释义也已读入）
     var pendingDef = false;
+    var remote = false;    // 释义是否向服务器要（见 probe）。为真时不下载整份释义文件
 
     function senses(e) {
       if (e.raw == null) return [];
@@ -165,9 +177,71 @@
       return loadingDef;
     }
 
+    // ---------- 向服务器要释义 ----------
+    var API = '/api/dict/' + C.id, VQ = '?v=' + String(C.ver || '').replace(/\D/g, '');
+    /* 问服务器：有没有这部词典，词库和这里读到的检索文件是不是同一版（版本号、词条数都相同）。
+       是，以后释义就向服务器要；不是，或者没有服务器，就下载整份释义文件 */
+    var probing = null;
+    function probe() {
+      if (probing) return probing;
+      if (C.shard || apiDown || state === 'full') return Promise.resolve(false);
+      probing = fetchApi(API + '/info' + VQ).then(function (d) {
+        remote = !!d && d.n === E.length && state !== 'full';
+        if (remote && (pendingDef || lastHits.length)) { pendingDef = false; run(true); }   // 已经在等释义的，现在去要
+        return remote;
+      }, function (err) {
+        if (err.status !== 409) apiDown = true;   // 409 只是这一部的版本不同，别的词典照常试
+        return false;
+      });
+      return probing;
+    }
+    // 接口中途出了错：改回老办法，下载整份释义文件；读完后结果自动补上
+    function giveUp(err) {
+      if (!err || err.status !== 409) apiDown = true;
+      remote = false;
+      loadDefs();
+    }
+    // 向服务器要一批词条的释义，要到后调用 done
+    function remoteRaw(list, done) {
+      var need = [];
+      list.forEach(function (e) { if (e.raw == null) need.push(e.i); });
+      if (!need.length) return false;
+      fetchApi(API + '/defs' + VQ + '&i=' + need.join(',')).then(function (d) {
+        need.forEach(function (i, k) { E[i].raw = typeof d.defs[k] === 'string' ? d.defs[k] : ''; });
+        done();
+      }, giveUp);
+      return true;
+    }
+    /* 释义反查交给服务器。服务器回的是按相符程度分成四组的词条序号，这里再按词头长短排好。
+       上一次的结果留着：翻页、补释义时重画，不必再问一遍 */
+    var RS = { key: '', hits: null, ms: 0 }, runId = 0;
+    function remoteSearch(q, keepScroll) {
+      var on = [];
+      enabled.forEach(function (v, i) { if (v) on.push(i); });
+      var key = on.join(',') + '|' + q;
+      if (RS.key === key) { showHits(RS.hits, q, RS.ms, keepScroll); return; }
+      var my = runId, t0 = performance.now();
+      statusEl.textContent = '正在查询…';
+      fetchApi(API + '/search' + VQ + '&f=' + C.textFields.join(',') + '&d=' + on.join(',') + '&q=' + encodeURIComponent(q)).then(function (d) {
+        var out = [];
+        d.hits.forEach(function (group, sc) {
+          group.forEach(function (i) { if (E[i]) out.push({ i: i, score: sc * 1000 + Math.min(E[i].key.length, 999) }); });
+        });
+        RS = { key: key, hits: sortOut(out), ms: Math.round(performance.now() - t0) };
+        if (my === runId) showHits(RS.hits, q, RS.ms, keepScroll);   // 期间读者又改了输入，这次的结果就不显示了
+      }, function (err) {
+        giveUp(err);
+        if (my !== runId) return;
+        pendingDef = true; lastHits = []; lastQ = q;
+        statusEl.textContent = '释义还在载入，载入后自动显示反查结果…';
+        listEl.innerHTML = ''; drawSpine();
+      });
+    }
+
     // 分份的释义：读入一批词条所在的那几份，读完后调用 done
     var SHARDS = {};
     function ensureRaw(list, done) {
+      if (!C.shard) return remote && remoteRaw(list, done);
       var need = {};
       list.forEach(function (e) { if (e.raw == null) need[Math.floor(e.i / C.shard)] = 1; });
       var ns = Object.keys(need);
@@ -244,28 +318,15 @@
       return false;
     }
 
+    // 在已读入的释义里反查。匹配规则在 js/dict/def-match.js，服务器上的反查用的是同一份
     function searchDefs(q) {
-      var out = [], mask = maskOn(), terms = q.split(/\s+/).filter(Boolean);
+      var out = [], mask = maskOn(), M = SIYI.defMatch, terms = M.terms(q);
+      var isOn = function (d) { return enabled[d]; };
       for (var i = 0; i < E.length; i++) {
         var e = E[i];
         if (!on(e, mask) || e.raw == null) continue;
-        var ok = true;
-        for (var t = 0; t < terms.length; t++) if (e.raw.indexOf(terms[t]) < 0) { ok = false; break; }
-        if (!ok) continue;
-        var ss = senses(e), best = 9;
-        for (var k = 0; k < ss.length; k++) {
-          if (!enabled[ss[k].d]) continue;
-          var txt = C.senseText(ss[k]), all = true;
-          for (t = 0; t < terms.length; t++) if (txt.indexOf(terms[t]) < 0) { all = false; break; }
-          if (!all) continue;
-          // 括号里的词类、类别标注（〔名〕、（马）、〈史〉等）不算释义本身
-          var segs = txt.replace(/〈[^〉]*〉|<[^>]*>|〔[^〕]*〕|（[^）]*）|\([^)]*\)|\[[^\]]*\]/g, ' ').split(SEG).filter(Boolean), sc = 3;
-          if (segs[0] === terms[0]) sc = 0;
-          else if (segs.indexOf(terms[0]) >= 0) sc = 1;
-          else if (segs.some(function (g) { return g.indexOf(terms[0]) === 0; })) sc = 2;
-          if (sc < best) best = sc;
-        }
-        if (best < 9) out.push({ i: i, score: best * 1000 + Math.min(e.key.length, 999) });
+        var best = M.score(e.raw, terms, C.textFields, isOn);
+        if (best >= 0) out.push({ i: i, score: best * 1000 + Math.min(e.key.length, 999) });
       }
       return out;
     }
@@ -462,8 +523,8 @@
       var from = page * PAGE, to = Math.min(from + PAGE, lastHits.length);
       listEl.innerHTML = renderEntries(from, to) + pager();
       foldLong();
-      if (C.shard) {
-        // 这一页还缺释义的，读入所在的几份后重画（期间若已换页、换词就不管了）
+      if (C.shard || remote) {
+        // 这一页还缺释义的，读入所在的几份（或向服务器要）后重画（期间若已换页、换词就不管了）
         var hits = lastHits, pg = page;
         ensureRaw(hits.slice(from, to).map(function (h) { return E[h.i]; }), function () {
           if (hits === lastHits && pg === page) { var st = resultsEl.scrollTop; drawList(); resultsEl.scrollTop = st; }
@@ -486,6 +547,7 @@
 
     function run(keepScroll) {
       var q = qEl.value.trim();
+      runId++;   // 每查一次加一：服务器的反查结果回来时，若已不是这一次，就不显示
       clearBtn.hidden = !qEl.value;
       if (!keepScroll) selected = -1;
       if (!q) {
@@ -503,15 +565,20 @@
         statusEl.textContent = '正在载入反查索引…';
         listEl.innerHTML = ''; drawSpine(); return;
       }
+      if (defMode && !C.reverse && state !== 'full' && remote) { remoteSearch(q, keepScroll); return; }
       if (defMode && !C.reverse && state !== 'full') {
         pendingDef = true; lastHits = []; lastQ = q;
         statusEl.textContent = '释义还在载入，载入后自动显示反查结果…';
         listEl.innerHTML = ''; drawSpine(); return;
       }
-      var t0 = performance.now();
-      lastHits = search(q, mode); lastQ = q;
+      var t0 = performance.now(), hits = search(q, mode);
+      showHits(hits, q, Math.round(performance.now() - t0), keepScroll);
+    }
+    // 显示一次查询的结果。hits 是排好的结果，ms 是用了多少毫秒
+    function showHits(hits, q, ms, keepScroll) {
+      lastHits = hits; lastQ = q;
       lastTerms = q.split(/\s+/).filter(Boolean);
-      lastMs = Math.round(performance.now() - t0);
+      lastMs = ms;
       // 新的查询回到第一页；补释义等重画时停在原页
       page = keepScroll ? Math.min(page, pages() - 1) : 0;
       drawStatus();
@@ -774,7 +841,8 @@
     return {
       // 栏目显示这部词典时调用：读词库（只读一次），把光标放进输入框
       show: function () {
-        loadDefs();
+        // 先读检索文件，再问服务器能不能按需要释义；不能，才下载整份释义文件
+        loadIndex().then(probe).then(function (ok) { if (!ok) loadDefs(); }, function () {});
         if (!window.matchMedia || !window.matchMedia('(pointer: coarse)').matches) qEl.focus();
       },
       // 预先读入检索文件，切换过来时不用等
