@@ -4,7 +4,7 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 
 网站 [bitig.ink](https://bitig.ink/) 收回鹘文、突厥如尼文、满文、蒙古文、藏文、察合台文的原文与拉丁转写对照，另有词典、文章、资料和名句。
 
-网站是一批静态文件：没有数据库，不需要编译，也不依赖任何外部网站。改了文件，传到 GitHub，再让服务器取一次，网站就更新了。唯一要服务器配合的是页脚的访问计数。
+网站是一批静态文件：没有数据库，不需要编译，也不依赖任何外部网站。改了文件，传到 GitHub，网站就自动更新。要服务器配合的只有两件事：自动更新和页脚的访问计数。
 
 这份说明分八节：
 
@@ -12,8 +12,8 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 2. [在自己电脑上预览](#二在自己电脑上预览)
 3. [日常维护](#三日常维护)：加文章、资料、名句、词典链接、语言，改配色
 4. [写错了怎么办](#四写错了怎么办)
-5. [发布](#五发布)：版本号、提交、让 bitig.ink 更新
-6. [访问计数](#六访问计数)
+5. [发布](#五发布)：版本号、提交、自动更新
+6. [服务器部分](#六服务器部分)：安装、自动更新、访问计数
 7. [改程序时的约定](#七改程序时的约定)
 8. [其他说明](#八其他说明)
 
@@ -58,8 +58,10 @@ dict/
   data/                 词库，由脚本生成，不要手改（其中 gloss/ 是悬停释义用的短释义表）
   tools/                生成词库的 Python 脚本
   *.html                旧网址的跳转页，不必改动
-server/
-  counter.js            访问计数的服务器部分，只在 bitig.ink 的服务器上运行
+server/               服务器部分，只在 bitig.ink 的服务器上运行
+  index.js              总入口，列出下面各项功能
+  deploy.js             自动更新：main 分支有改动时取最新的文件
+  counter.js            访问计数
 ```
 
 平时要改的只有 `config/` 和 `content/` 两个文件夹。
@@ -246,7 +248,9 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 网站有两个地址：
 
 - **bitig.ink**：正式网站，在阿里云香港的服务器上。
-- **kevin51763.github.io/bitig/**：GitHub Pages 上的副本，仓库的 main 分支一有改动就自动更新。它没有访问计数。
+- **kevin51763.github.io/bitig/**：GitHub Pages 上的副本。它没有访问计数。
+
+仓库的 main 分支一有改动，两个地址都自动更新。
 
 ### 第一步：改版本号
 
@@ -263,24 +267,93 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 - **改得多时**：用 [GitHub Desktop](https://desktop.github.com/) 把仓库同步到电脑上，在本地改好、预览，再一次推送。
 - **让 Claude 改**：在 Claude 里连上这个仓库，直接说“加一篇文章，文件在这里”或者“给藏文加一个词典链接”。它会新建分支、开一个合并请求（PR），你看过之后点 **Merge** 合并。
 
-### 第三步：让 bitig.ink 更新
+### 第三步：bitig.ink 自动更新
 
-合并到 main 之后，GitHub Pages 上的副本一两分钟内自动更新，**bitig.ink 不会**。登录服务器，取一次最新的文件：
+合并到 main 之后，两个地址都会在一两分钟内自动更新，不用登录服务器。bitig.ink 的自动更新由服务器上的程序完成，做法见下一节。
 
-```
-cd /var/www/bitig/public
-git pull
-```
-
-取完立即生效，不用重启。只有 `server/` 里的文件变了才要重启，见下一节。
+想确认更新到了没有，在浏览器里打开 https://bitig.ink/api/deploy ，那里写着上一次更新的时间和结果。
 
 浏览器如果还显示旧内容，按 Ctrl+F5（Mac 上是 ⌘+Shift+R）强制刷新。
 
+自动更新失灵时，登录服务器手工取一次：
+
+```
+sudo -u www-data git -C /var/www/bitig/public pull
+```
+
+取完立即生效。只有 `server/` 里的文件变了才要再运行 `systemctl restart bitig`。
+
 ---
 
-## 六、访问计数
+## 六、服务器部分
 
-页脚的“总访问 · 今日”由 bitig.ink 的服务器记录。
+bitig.ink 的服务器除了发送网站文件，还做两件事：自动更新和访问计数。程序在仓库的 `server/` 文件夹里，数据在服务器的 `/var/www/bitig/data/` 里。
+
+### 安装（只做一次）
+
+**1. 接上 `server/` 里的程序。** 服务器上的 `/var/www/bitig/server.js` 不在仓库里。打开它，在 `const app = express()` 之后、`express.static` 那一行之前，写上这一行（原先接访问计数的那一行删掉）：
+
+```js
+require('./public/server')(app, require('path').join(__dirname, 'data'));
+```
+
+以后新增服务器功能，不用再改 `server.js`。
+
+**2. 把两个文件夹交给网站程序。** 网站程序以 `www-data` 账户运行。它要能写数据文件夹，也要能在网站文件夹里取文件：
+
+```
+mkdir -p /var/www/bitig/data
+chown -R www-data:www-data /var/www/bitig/data /var/www/bitig/public
+```
+
+从此不要再以 root 身份在 `public` 里直接运行 `git pull`，那样取来的文件归 root，自动更新会失败。手工取文件用第五节末尾的那条命令。
+
+**3. 生成密钥。** 密钥是一段随机文字，只有 GitHub 和服务器知道，用来确认通知确实来自 GitHub：
+
+```
+openssl rand -hex 32 > /var/www/bitig/data/deploy-secret.txt
+chown www-data:www-data /var/www/bitig/data/deploy-secret.txt
+chmod 600 /var/www/bitig/data/deploy-secret.txt
+cat /var/www/bitig/data/deploy-secret.txt
+```
+
+最后一条命令显示密钥，复制下来，下一步要用。密钥不要写进仓库，也不要发给别人。
+
+**4. 重启。**
+
+```
+systemctl restart bitig
+```
+
+**5. 在 GitHub 上设通知。** 打开仓库的 **Settings** → **Webhooks** → **Add webhook**，填：
+
+| 项目 | 填什么 |
+| --- | --- |
+| Payload URL | `https://bitig.ink/api/deploy` |
+| Content type | `application/json` |
+| Secret | 上一步复制的密钥 |
+| Which events | Just the push event |
+
+点 **Add webhook**。GitHub 随即发一条试探的通知，在这个页面的 **Recent Deliveries** 里能看到，绿色的勾表示通了。
+
+装好后打开 bitig.ink，页脚出现“总访问 · 今日”；打开 https://bitig.ink/api/deploy 能看到一行文字。哪一样没有，运行 `journalctl -u bitig -n 20` 看报错。
+
+### 自动更新
+
+| 位置 | 作用 |
+| --- | --- |
+| `server/deploy.js` | 接口 `/api/deploy`：收 GitHub 的通知，核对签名，运行 `git pull` |
+| 服务器上的 `data/deploy-secret.txt` | 密钥。删掉这个文件，自动更新就停用 |
+| 服务器上的 `data/deploy.json` | 上一次更新的结果 |
+
+- 只有 main 分支的改动才更新网站。
+- 这次改动了 `server/` 里的文件时，程序取完文件自己退出，系统 3 秒后把它重新启动，不必手工重启。
+- 更新失败时，https://bitig.ink/api/deploy 写着“更新失败”，原因用 `journalctl -u bitig -n 20` 看。最常见的原因是有人在服务器上直接改过 `public` 里的文件，或者以 root 身份取过文件（重新运行安装第 2 步的 `chown` 即可）。
+- 换密钥：重新运行安装第 3 步，再到 GitHub 的 Webhooks 页面把新密钥填进去。不用重启。
+
+### 访问计数
+
+页脚的“总访问 · 今日”由服务器记录。
 
 **怎么算**
 
@@ -295,35 +368,17 @@ git pull
 | --- | --- |
 | `js/counter.js` | 网页部分：打开网站时向服务器报一次，把数字写进页脚 |
 | `server/counter.js` | 服务器部分：接口 `/api/visit`，记数、存盘 |
-| 服务器上的 `/var/www/bitig/data/visits.json` | 数字本身。不在仓库里，别人下载不到 |
+| 服务器上的 `data/visits.json` | 数字本身。不在仓库里，别人下载不到 |
 | `config/site.js` 的 `counter` | 开关。改成 `false`，页脚不显示，也不再计数 |
 | `css/layout.css` 的 `.foot-stats` | 样式 |
-
-**安装（只做一次）**
-
-服务器上的 `/var/www/bitig/server.js` 不在仓库里，要手工加一行。先照第五节取到最新文件，然后打开 `server.js`，在 `const app = express()` 之后、`express.static` 那一行之前加上：
-
-```js
-require('./public/server/counter')(app, require('path').join(__dirname, 'data'));
-```
-
-保存后重启：
-
-```
-systemctl restart bitig
-```
-
-打开 bitig.ink，页脚出现“总访问 1 · 今日 1”就装好了。没出现的话，运行 `journalctl -u bitig -n 20` 看报错。
-
-以后 `server/counter.js` 有改动，`git pull` 之后同样要运行一次 `systemctl restart bitig`。
 
 **看历史、改数字**
 
 `visits.json` 形如 `{ "total": 1234, "days": { "2026-11-10": 56 } }`，`days` 里留着每天的访问数。要清零或改数，先 `systemctl stop bitig`，改完文件再 `systemctl start bitig`；不停服务直接改，会被内存里的旧数字盖掉。
 
-**没有服务器的地方**
+### 没有服务器的地方
 
-GitHub Pages 上的副本和本地预览没有这个接口。那里页脚不显示计数，其余一切照常。
+GitHub Pages 上的副本和本地预览没有这些接口。那里页脚不显示计数，其余一切照常。
 
 ---
 

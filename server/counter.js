@@ -1,11 +1,6 @@
 /* 访问计数的服务器部分。只在 bitig.ink 的服务器上运行，浏览器不会载入这个文件。
 
-   安装（只做一次）：打开服务器上的 /var/www/bitig/server.js，在 const app = express() 之后、
-   发送网站文件的 express.static 那一行之前，加一行：
-
-       require('./public/server/counter')(app, require('path').join(__dirname, 'data'));
-
-   保存后运行 systemctl restart bitig。以后这个文件有改动，git pull 之后也要再运行一次这条命令。
+   由 server/index.js 接入。安装方法见 README 的“服务器部分”。
 
    接口：
      POST /api/visit   记一次访问，返回 { total: 总访问数, today: 今日访问数 }
