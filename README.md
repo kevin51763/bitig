@@ -61,6 +61,7 @@ dict/
 server/               服务器部分，只在 bitig.ink 的服务器上运行
   index.js              总入口，列出下面各项功能
   deploy.js             自动更新：main 分支有改动时取最新的文件
+  dict.js               词典释义：浏览器按需来要，不必整份下载
   counter.js            访问计数
 ```
 
@@ -159,6 +160,7 @@ python3 -m http.server 8000
 ```
 js/dict/dictionaries.js   各部词典的设置（显示什么、怎样排）
 js/dict/core.js           查询程序，各部共用
+js/dict/def-match.js      释义反查的匹配规则，浏览器和服务器共用
 js/dict/translit-mnc.js   满文转写与穆麟德夫式转写
 js/dict/translit-mn.js    蒙古文转写与学术转写
 js/pages/dict.js          栏目本身：切换词典、预读词库
@@ -167,7 +169,7 @@ dict/data/                词库（由 CSV 生成，不要手改）
 dict/tools/build_data.py  从 CSV 生成词库的脚本
 ```
 
-每部词典的词库分两个文件：较小的检索文件（`.idx.txt`）先读，读完即可查询；释义文件（`.def.txt`）随后在后台读入。读过的词库留在内存里，在栏目之间来回切换不必重读。
+每部词典的词库分两个文件：较小的检索文件（`.idx.txt`）和释义文件（`.def.txt`）。浏览器先读检索文件，读完即可查询。释义文件较大（满汉词典压缩后约 3 MB），在 bitig.ink 上不必下载：浏览器只向服务器要当前这一页词条的释义，输入汉字的释义反查也由服务器做，见第六节的“词典释义”。没有服务器的地方（GitHub Pages 上的副本、本地预览），释义文件照旧在后台整份读入。读过的词库留在内存里，在栏目之间来回切换不必重读。
 
 拿到新版 CSV 后，在仓库最外层运行（不需要的一份可以不给）：
 
@@ -175,7 +177,7 @@ dict/tools/build_data.py  从 CSV 生成词库的脚本
 python3 dict/tools/build_data.py --manhan 满汉.csv --menghan 蒙汉.csv --manhanmeng 满汉蒙.csv --qingwenjian 清文鉴.csv
 ```
 
-然后把 `js/dict/dictionaries.js` 开头 `VER` 的日期改新再上传。
+然后把 `js/dict/dictionaries.js` 开头 `VER` 的日期改新再上传。服务器也靠 `VER` 核对词库的版本，这一步不能省。
 
 藏文词典另有一个脚本。它收词约三十五万，释义分成数百份小文件（`dict/data/tibetan/`），网页只读当前一页结果用得到的几份；“英文反查”用 `dict/data/tibetan.en.txt`。更新时先把 Steinert 的仓库下载下来，再运行（需要装有 node）：
 
@@ -287,7 +289,7 @@ sudo -u www-data git -C /var/www/bitig/public pull
 
 ## 六、服务器部分
 
-bitig.ink 的服务器除了发送网站文件，还做两件事：自动更新和访问计数。程序在仓库的 `server/` 文件夹里，数据在服务器的 `/var/www/bitig/data/` 里。
+bitig.ink 的服务器除了发送网站文件，还做三件事：自动更新、词典释义和访问计数。程序在仓库的 `server/` 文件夹里，数据在服务器的 `/var/www/bitig/data/` 里。
 
 ### 安装（只做一次）
 
@@ -347,9 +349,24 @@ systemctl restart bitig
 | 服务器上的 `data/deploy.json` | 上一次更新的结果 |
 
 - 只有 main 分支的改动才更新网站。
-- 这次改动了 `server/` 里的文件时，程序取完文件自己退出，系统 3 秒后把它重新启动，不必手工重启。
+- 这次改动了服务器用到的程序（`server/` 里的文件和 `js/dict/def-match.js`）时，程序取完文件自己退出，系统 3 秒后把它重新启动，不必手工重启。
 - 更新失败时，https://bitig.ink/api/deploy 写着“更新失败”，原因用 `journalctl -u bitig -n 20` 看。最常见的原因是有人在服务器上直接改过 `public` 里的文件，或者以 root 身份取过文件（重新运行安装第 2 步的 `chown` 即可）。
 - 换密钥：重新运行安装第 3 步，再到 GitHub 的 Webhooks 页面把新密钥填进去。不用重启。
+
+### 词典释义
+
+满汉、蒙汉、蒙汉满、清文鉴四部词典的释义文件，服务器启动时读进内存（共约 20 MB，不用数据库）。浏览器查到词头后，只来要当前这一页词条的释义，每次几 KB。
+
+| 位置 | 作用 |
+| --- | --- |
+| `server/dict.js` | 接口 `/api/dict/<词典>/…`：`info` 核对版本，`defs` 取释义，`search` 释义反查 |
+| `js/dict/def-match.js` | 释义反查的匹配规则。浏览器和服务器用同一份，两边查出的结果才一样 |
+| `js/dict/core.js` | 网页部分：接口能用就按需要释义，不能用就下载整份释义文件 |
+
+- 查词头（输入转写）仍在浏览器里做，不经过服务器。
+- 更新词库不用多做什么：照“词典栏目”一节生成词库、改 `VER`、合并。服务器发现文件变了会重新读入。
+- 浏览器和服务器靠 `VER` 和词条数核对词库是不是同一版。对不上时（比如读者的浏览器还留着旧的检索文件），浏览器自动改为下载整份释义文件，不会张冠李戴。
+- 藏文词典的释义本来就分成小份按需读取，不经过这里。
 
 ### 访问计数
 
@@ -378,7 +395,7 @@ systemctl restart bitig
 
 ### 没有服务器的地方
 
-GitHub Pages 上的副本和本地预览没有这些接口。那里页脚不显示计数，其余一切照常。
+GitHub Pages 上的副本和本地预览没有这些接口。那里页脚不显示计数，词典下载整份释义文件，其余一切照常。
 
 ---
 

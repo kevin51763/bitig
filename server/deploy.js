@@ -5,7 +5,8 @@
      1. 合并到 main 后，GitHub 向 https://bitig.ink/api/deploy 发一条通知（webhook）。
      2. 这里先核对通知的签名。签名用一段只有 GitHub 和服务器知道的密钥算出，别人伪造不了。
      3. 核对无误，就在网站文件夹里运行 git pull。
-     4. 如果这次改动了 server/ 里的文件，程序自己退出，systemd 3 秒后把它重新启动，新程序生效。
+     4. 如果这次改动了服务器用到的程序（下面的 SERVER_FILES），程序自己退出，systemd 3 秒后把它重新启动，
+        新程序生效。
 
    接口：
      POST /api/deploy   GitHub 的通知
@@ -25,6 +26,9 @@ const BRANCH = 'main';            // 只有这个分支的改动才更新网站
 const GIT_TIMEOUT = 5 * 60 * 1000;  // 一条 git 命令最多等 5 分钟（词库更新时文件较大）
 const MAX_BODY = 5 * 1024 * 1024;   // 通知的正文超过 5 MB 就不收
 const RESTART_DELAY = 2000;       // 退出前等 2 秒，让访问计数先存盘
+/* 服务器用到的程序。这些文件有改动就要重新启动。
+   js/dict/def-match.js 是浏览器和服务器共用的（释义反查的匹配规则） */
+const SERVER_FILES = ['server', 'js/dict/def-match.js'];
 
 /* 北京时间，如 '2026-11-15 14:30:05' */
 const now = () => new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 19).replace('T', ' ');
@@ -91,8 +95,8 @@ module.exports = function (app, dataDir, siteDir) {
       const from = await git(['rev-parse', 'HEAD']);
       await git(['pull', '--ff-only', 'origin', BRANCH]);
       const to = await git(['rev-parse', 'HEAD']);
-      // 这次有没有改动 server/ 里的文件
-      restart = from !== to && (await git(['diff', '--name-only', from, to, '--', 'server'])) !== '';
+      // 这次有没有改动服务器用到的程序
+      restart = from !== to && (await git(['diff', '--name-only', from, to, '--'].concat(SERVER_FILES))) !== '';
       saveState({
         time: now(), ok: true, from: from.slice(0, 7), to: to.slice(0, 7),
         note: from === to ? '已是最新，没有要取的改动' : restart ? '已更新，服务器程序有改动，已重新启动' : '已更新',

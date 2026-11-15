@@ -15,6 +15,7 @@ const path = require('path');
 const PARTS = [
   ['访问计数', './counter'],
   ['自动更新', './deploy'],
+  ['词典释义', './dict'],
 ];
 
 module.exports = function (app, dataDir) {
