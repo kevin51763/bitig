@@ -72,6 +72,22 @@
     return { view: 'v-home', nav: 'home', open: P.home.render };   // 认不出的网址都回首页
   }
 
+  /* 一个网页只该有一个 h1（最大的标题），搜索引擎按这个检查。
+     各栏目都在同一个网页里，各有自己的标题，所以每次换栏目时整理一遍：
+     正在显示的栏目，标题用 h1；没显示的栏目，标题换成 div（带 data-h1 记号，下次显示时再换回来）。
+     新栏目的标题照常写 <h1>，或写成 <div data-h1>，这里都认。 */
+  function oneH1(view) {
+    VIEWS.forEach(id => $(id).querySelectorAll('h1, [data-h1]').forEach(el => {
+      const want = id === view ? 'H1' : 'DIV';
+      if (el.tagName === want) return;
+      const n = document.createElement(want);
+      for (const a of Array.from(el.attributes)) n.setAttribute(a.name, a.value);
+      n.setAttribute('data-h1', '');
+      while (el.firstChild) n.appendChild(el.firstChild);
+      el.replaceWith(n);
+    }));
+  }
+
   function route() {
     window.dispatchEvent(new Event('siyi-route'));   // 告诉各栏目：要换栏目了（词典、编辑器在听）
     const { view, nav, open } = resolve(SIYI.route());
@@ -84,6 +100,7 @@
     });
     revealNav();
     open();
+    oneH1(view);
     // 浏览器标签上的标题：栏目名 · 网站名。首页的在上面写好了；单篇文章的标题由 js/pages/texts.js 自己写
     if (view !== 'v-home' && view !== 'v-text') {
       const t = $(view).querySelector('h1');

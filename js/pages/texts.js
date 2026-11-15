@@ -31,8 +31,9 @@
     const d = SIYI.texts.find(t => t.id === id);
     if (!d) { v.innerHTML = `<a class="backlink" href="${esc(SIYI.href('texts'))}">← 全部文章</a><div class="empty-box">找不到这篇文章。</div>`; return; }
     document.title = d.title + ' · ' + SIYI.config.site.title;
-    // 标题、副标题已写在文章 HTML 里，这里不再重复
+    // 标题、副标题已写在文章 HTML 里，这里不再显示；只留一个看不见的 h1，给搜索引擎和读屏软件用
     v.innerHTML = `<a class="backlink" href="${esc(SIYI.href('texts'))}">← 全部文章</a>
+      <h1 class="sr-only">${esc(d.title || '文章')}</h1>
       <div id="reader-frame"></div>`;
     const f = document.createElement('iframe');
     f.className = 'tframe';

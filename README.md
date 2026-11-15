@@ -501,7 +501,7 @@ GitHub Pages 上的副本和本地预览没有服务器。那里网址带 `#`，
    | `SIYI.problem(msg)` | 页面顶上的黄色提示，用来报告配置写错 |
 
    按语言分组、语言小标签、检查目录漏项在 `js/pages/shared.js`。词典（`js/dict/`）原是独立的程序，自带一套同样的小工具，没有并过来。
-5. **加栏目**：在 `index.html` 里加一块 `<main class="view" id="v-xxx" hidden>`，然后在 `js/router.js` 的 `VIEWS` 和 `resolve` 里各加一行，再把栏目的名字写进 `js/routes.js`（和 `server/pages.js` 的 `meta`），不带 `#` 的网址才认得它。
+5. **加栏目**：在 `index.html` 里加一块 `<main class="view" id="v-xxx" hidden>`，栏目的标题写成 `<h1>`（没显示的栏目里的 h1，`js/router.js` 会自动换成 div，保证整个网页只有一个 h1）。然后在 `js/router.js` 的 `VIEWS` 和 `resolve` 里各加一行，再把栏目的名字写进 `js/routes.js`（和 `server/pages.js` 的 `meta`），不带 `#` 的网址才认得它。
 6. **网址不能随便变。** 栏目的名字（`texts`、`text-<id>`、`dict-<词典名>`、`tool-<语言简写>`）和它们的两种网址（见第六节“不带 # 的网址”）公开后就是别人收藏的链接。页面里的路径一律用相对路径（`css/base.css`，不以 `/` 开头），这样在 bitig.ink 和 GitHub Pages 的 `/bitig/` 下都能用。接口是例外，写 `/api/…`。
 7. **配置写错要在页面上说清楚。** 用 `SIYI.problem('哪个文件、怎么改')`，不要只写进控制台。
 8. **读者浏览器里存的名字不要改**（如 `mm-draft-mnc`、`ougr-draft-v1`、`dict-last`、`dict-spine`、`dict-col`）。改了，读者以前存的草稿和设置就读不到了。
