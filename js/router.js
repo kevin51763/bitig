@@ -75,7 +75,8 @@
   function route() {
     window.dispatchEvent(new Event('siyi-route'));   // 告诉各栏目：要换栏目了（词典、编辑器在听）
     const { view, nav, open } = resolve(SIYI.route());
-    document.title = site.title;
+    // 首页的标题：网站名 — 一句说明（config/site.js 的 tagline）
+    document.title = view === 'v-home' && site.tagline ? site.title + ' — ' + site.tagline : site.title;
     VIEWS.forEach(id => { $(id).hidden = id !== view; });
     document.body.classList.toggle('in-dict', view === 'v-dict');   // 词典占满窗口，版式不同（css/dict.css）
     document.querySelectorAll('[data-nav]').forEach(a => {
@@ -83,7 +84,7 @@
     });
     revealNav();
     open();
-    // 浏览器标签上的标题：栏目名 · 网站名。首页只写网站名；单篇文章的标题由 js/pages/texts.js 自己写
+    // 浏览器标签上的标题：栏目名 · 网站名。首页的在上面写好了；单篇文章的标题由 js/pages/texts.js 自己写
     if (view !== 'v-home' && view !== 'v-text') {
       const t = $(view).querySelector('h1');
       if (t && t.textContent) document.title = t.textContent + ' · ' + site.title;
