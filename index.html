@@ -26,14 +26,14 @@
 <!-- 这个文件只是页面的骨架。要改文字和内容，请看 config/ 和 content/ 两个文件夹；详见 README.md
      下面每个文件名后的 ?v=日期 是版本号：改过任何文件后，把所有 ?v= 后面的数字一起改成新日期，
      读者的浏览器就会重新下载，而不是沿用旧文件。 -->
-<link rel="stylesheet" href="css/fonts.css?v=2026111521">
-<link rel="stylesheet" href="css/theme.css?v=2026111521">
-<link rel="stylesheet" href="css/base.css?v=2026111521">
-<link rel="stylesheet" href="css/layout.css?v=2026111521">
-<link rel="stylesheet" href="css/pages.css?v=2026111521">
-<link rel="stylesheet" href="css/three-pane.css?v=2026111521">
-<link rel="stylesheet" href="css/two-pane.css?v=2026111521">
-<link rel="stylesheet" href="css/dict.css?v=2026111521">
+<link rel="stylesheet" href="css/fonts.css?v=2026111522">
+<link rel="stylesheet" href="css/theme.css?v=2026111522">
+<link rel="stylesheet" href="css/base.css?v=2026111522">
+<link rel="stylesheet" href="css/layout.css?v=2026111522">
+<link rel="stylesheet" href="css/pages.css?v=2026111522">
+<link rel="stylesheet" href="css/three-pane.css?v=2026111522">
+<link rel="stylesheet" href="css/two-pane.css?v=2026111522">
+<link rel="stylesheet" href="css/dict.css?v=2026111522">
 </head>
 <body>
 
@@ -48,10 +48,22 @@
 
 <!-- 首页 -->
 <main class="view wrap home" id="v-home">
-  <!-- 首页最上面的介绍（config/site.js 的 lead、origin）；两项都空着时这一块不显示 -->
+  <!-- 首页最上面：一行标题（config/site.js 的 lead）和“试一试”——输入转写，右边随即写出原文，按回车查词典。
+       内容由 js/pages/home.js 填写 -->
   <div class="hero" id="home-hero">
-    <p class="lead" id="home-lead"></p>
-    <p class="origin" id="home-origin"></p>
+    <div class="hero-main">
+      <h1 class="hero-title" id="home-lead"></h1>
+      <p class="origin" id="home-origin"></p>
+      <form class="hero-try" id="home-try" role="search">
+        <div class="hero-langs" id="home-try-langs" role="group" aria-label="选择文字"></div>
+        <div class="hero-row">
+          <input type="text" id="home-try-q" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="转写或汉字">
+          <button type="submit" class="btn primary">查词典</button>
+        </div>
+        <p class="small" id="home-try-note"></p>
+      </form>
+    </div>
+    <div class="hero-script" id="home-try-script" aria-live="polite"></div>
   </div>
   <section class="saying-band" aria-label="名句">
     <button type="button" class="btn say-next" id="say-next">换一句</button>
@@ -70,11 +82,8 @@
     <div class="sec-head"><h2>新近文章</h2><a class="meta" href="#texts">全部文章 →</a></div>
     <div id="home-texts"></div>
   </section>
-  <section id="home-wip-sec" hidden>
-    <div class="sec-head"><h2>开发中</h2></div>
-    <p class="small">以下转写功能还在开发中，转换结果可能不准确，仅供参考。</p>
-    <div class="tool-cards" id="home-wip"></div>
-  </section>
+  <!-- 开发中的编辑器（config/languages.js 里写了 wip 的）：只在最底下列一行小字 -->
+  <p class="small home-wip" id="home-wip-sec" hidden></p>
 </main>
 
 <!-- 文章目录 -->
@@ -118,46 +127,46 @@
 <div class="toast" id="toast" hidden></div>
 
 <!-- 载入顺序不能乱：先命名空间，再配置和内容，再转换规则和编辑器，然后是各栏目和路由，最后是访问计数 -->
-<script src="js/siyi.js?v=2026111521"></script>
-<script src="js/routes.js?v=2026111521"></script>
+<script src="js/siyi.js?v=2026111522"></script>
+<script src="js/routes.js?v=2026111522"></script>
 
-<script src="config/site.js?v=2026111521"></script>
-<script src="config/languages.js?v=2026111521"></script>
-<script src="config/dictionaries.js?v=2026111521"></script>
+<script src="config/site.js?v=2026111522"></script>
+<script src="config/languages.js?v=2026111522"></script>
+<script src="config/dictionaries.js?v=2026111522"></script>
 
-<script src="content/texts.js?v=2026111521"></script>
-<script src="content/materials.js?v=2026111521"></script>
-<script src="content/sayings.js?v=2026111521"></script>
+<script src="content/texts.js?v=2026111522"></script>
+<script src="content/materials.js?v=2026111522"></script>
+<script src="content/sayings.js?v=2026111522"></script>
 
-<script src="js/data/turkic-corpus.js?v=2026111521"></script>
-<script src="js/converters/turkic-common.js?v=2026111521"></script>
-<script src="js/converters/old-uyghur.js?v=2026111521"></script>
-<script src="js/converters/old-turkic.js?v=2026111521"></script>
-<script src="js/converters/manchu.js?v=2026111521"></script>
-<script src="js/converters/mongolian.js?v=2026111521"></script>
-<script src="js/converters/tibetan.js?v=2026111521"></script>
-<script src="js/converters/chagatai.js?v=2026111521"></script>
-<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026111521"></script> -->
+<script src="js/data/turkic-corpus.js?v=2026111522"></script>
+<script src="js/converters/turkic-common.js?v=2026111522"></script>
+<script src="js/converters/old-uyghur.js?v=2026111522"></script>
+<script src="js/converters/old-turkic.js?v=2026111522"></script>
+<script src="js/converters/manchu.js?v=2026111522"></script>
+<script src="js/converters/mongolian.js?v=2026111522"></script>
+<script src="js/converters/tibetan.js?v=2026111522"></script>
+<script src="js/converters/chagatai.js?v=2026111522"></script>
+<!-- 新加的转换规则放在这一行上面，如 <script src="js/converters/xxx.js?v=2026111522"></script> -->
 
-<script src="js/dict/translit-mnc.js?v=2026111521"></script>
-<script src="js/dict/translit-mn.js?v=2026111521"></script>
-<script src="js/dict/def-match.js?v=2026111521"></script>
-<script src="js/dict/core.js?v=2026111521"></script>
-<script src="js/dict/tibetan-dicts.js?v=2026111521"></script>
-<script src="js/dict/dictionaries.js?v=2026111521"></script>
+<script src="js/dict/translit-mnc.js?v=2026111522"></script>
+<script src="js/dict/translit-mn.js?v=2026111522"></script>
+<script src="js/dict/def-match.js?v=2026111522"></script>
+<script src="js/dict/core.js?v=2026111522"></script>
+<script src="js/dict/tibetan-dicts.js?v=2026111522"></script>
+<script src="js/dict/dictionaries.js?v=2026111522"></script>
 
-<script src="js/editors/three-pane.js?v=2026111521"></script>
-<script src="js/gloss.js?v=2026111521"></script>
-<script src="js/editors/two-pane.js?v=2026111521"></script>
+<script src="js/editors/three-pane.js?v=2026111522"></script>
+<script src="js/gloss.js?v=2026111522"></script>
+<script src="js/editors/two-pane.js?v=2026111522"></script>
 
-<script src="js/pages/shared.js?v=2026111521"></script>
-<script src="js/pages/sayings.js?v=2026111521"></script>
-<script src="js/pages/texts.js?v=2026111521"></script>
-<script src="js/pages/materials.js?v=2026111521"></script>
-<script src="js/pages/home.js?v=2026111521"></script>
-<script src="js/pages/contact.js?v=2026111521"></script>
-<script src="js/pages/dict.js?v=2026111521"></script>
-<script src="js/router.js?v=2026111521"></script>
-<script src="js/counter.js?v=2026111521"></script>
+<script src="js/pages/shared.js?v=2026111522"></script>
+<script src="js/pages/sayings.js?v=2026111522"></script>
+<script src="js/pages/texts.js?v=2026111522"></script>
+<script src="js/pages/materials.js?v=2026111522"></script>
+<script src="js/pages/home.js?v=2026111522"></script>
+<script src="js/pages/contact.js?v=2026111522"></script>
+<script src="js/pages/dict.js?v=2026111522"></script>
+<script src="js/router.js?v=2026111522"></script>
+<script src="js/counter.js?v=2026111522"></script>
 </body>
 </html>

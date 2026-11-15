@@ -50,9 +50,39 @@
 .foot-stats { font-size: .78rem; font-variant-numeric: tabular-nums; }
 .foot-stats b { font-weight: 600; color: var(--ink); }
 
-/* ---------- 首页最上面的介绍 ---------- */
-.hero .lead { margin: 0; color: var(--ink-soft); max-width: 44rem; }
-.hero .origin { margin: .5rem 0 0; font-size: .82rem; color: var(--ink-soft); max-width: 44rem; font-family: var(--f-zh); }
+/* ---------- 首页 ---------- */
+/* 首页比别的栏目窄一些，栏目之间留白多一些，免得卡片拉得太宽、内容挤在一起 */
+.home { max-width: 68rem; gap: 2.6rem; padding-top: 3.2rem; }
+.home section { display: flex; flex-direction: column; }
+/* 首页的栏目标题不加粗线，靠留白分开 */
+.home .sec-head { border-bottom: 0; padding-bottom: 0; }
+.home .sec-head h2 { font-family: var(--f-head); font-size: 1.2rem; font-weight: 600; }
+.home-wip a { color: inherit; }
+
+/* 最上面：左边标题和“试一试”的输入框，右边随输入写出的原文 */
+.hero { display: grid; grid-template-columns: minmax(0, 34rem) minmax(9rem, 1fr); gap: 1.5rem 3rem; align-items: center; padding-bottom: .6rem; }
+.hero-title { margin: 0; font-family: var(--f-head); font-weight: 600; font-size: clamp(1.7rem, 1.1rem + 2.2vw, 2.5rem); line-height: 1.3; letter-spacing: .04em; }
+.hero .origin { margin: .5rem 0 0; font-size: .85rem; color: var(--ink-soft); font-family: var(--f-zh); }
+.hero-try { margin-top: 1.6rem; display: flex; flex-direction: column; gap: .7rem; align-items: flex-start; }
+/* 选文字的几个按钮：各自分开，选中的那个填成蓝色 */
+.hero-langs { display: flex; flex-wrap: wrap; gap: .5rem; }
+.hero-row { display: flex; gap: .5rem; width: 100%; max-width: 32rem; }
+.hero-row input { flex: 1; min-width: 0; font: inherit; font-family: var(--f-lat); font-size: 1.15rem; color: var(--ink); background: var(--sheet);
+  border: 1px solid var(--rule); border-radius: 6px; padding: .55rem .8rem; }
+.hero-row input::placeholder { font-family: var(--f-ui); font-size: .9rem; }
+.hero-row input:focus { outline: none; border-color: var(--lapis); }
+.hero-row .btn { font-size: .95rem; padding: .55rem 1.1rem; white-space: nowrap; }
+.hero-script { height: 13rem; display: flex; align-items: center; justify-content: center; overflow: hidden; color: var(--lapis);
+  font-size: 3.2rem; line-height: 1.6; text-align: center; overflow-wrap: anywhere; }
+.hero-script.v { writing-mode: vertical-lr; font-size: 3.4rem; line-height: 1.5; }
+.hero-script.eg { opacity: .55; }   /* 输入框空着时写的是例词，淡一些 */
+@media (max-width: 640px) {
+  .home { gap: 2rem; padding-top: 1.8rem; }
+  .hero { grid-template-columns: 1fr; }
+  .hero { gap: .8rem; }
+  .hero-script { height: 7rem; font-size: 2.1rem; justify-content: flex-start; }
+  .hero-script.v { font-size: 2rem; align-items: flex-start; }
+}
 
 /* ---------- 名句条（首页深色那一条） ---------- */
 .saying-band { position: relative; background: var(--scroll); color: var(--scroll-ink); border-radius: 6px; border-top: 3px solid var(--seal);
@@ -93,6 +123,12 @@
   .tool-card .dglyph .g.v, .tool-card .dglyph.pair .g.v { font-size: 1rem; }
 }
 #home-texts { margin-top: .6rem; }
+/* 首页的名句条比“全部名句”页里的小一号：最显眼的位置让给上面的输入框 */
+.home .saying { min-height: 6rem; }
+.home .say-sc { font-size: calc(1.55rem * var(--s, 1)); }
+.home .say-sc.vert, .home .say-sc.rot { max-height: 10.5rem; font-size: calc(1.45rem * var(--s, 1)); }
+.home .say-lat { font-size: 1.05rem; }
+.home .say-zh { font-size: 1.05rem; }
 
 @media (max-width: 560px) {
   .saying { padding-right: 0; padding-top: 1.4rem; }
