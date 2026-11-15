@@ -15,16 +15,23 @@
 iframe.tframe { display: block; width: 100%; height: 80vh; border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); }
 
 /* ---------- 资料 ---------- */
+/* 顶上一行：左边语言筛选，右边搜索框；窄屏时搜索框折到下一行 */
+.mats-bar { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; justify-content: space-between; }
+.mats-q { font: inherit; font-size: .9rem; color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 5px;
+  padding: .3rem .6rem; width: 14rem; max-width: 100%; }
+.mats-q:focus { outline: none; border-color: var(--lapis); }
+/* 一份资料两行：书名（右边是类型、大小、语言标签），下面是作者与出版信息 */
 .mlist { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
-.mlist li { display: flex; gap: .9rem; align-items: center; padding: .6rem .2rem; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
-.mlist .kind { flex: none; width: 3.2rem; height: 3.2rem; border-radius: 4px; border: 1px solid var(--rule); background: var(--sheet); display: flex; align-items: center; justify-content: center;
-  font-size: .72rem; letter-spacing: .05em; color: var(--ink-soft); overflow: hidden; }
-.mlist .kind img { width: 100%; height: 100%; object-fit: cover; }
-.mlist .info { flex: 1 1 16rem; min-width: 0; display: flex; flex-direction: column; gap: .1rem; }
-.mlist .info .t { font-family: var(--f-zh); font-size: 1.05rem; font-weight: 600; color: var(--ink); text-decoration: none; }
-.mlist .info a.t:hover { color: var(--lapis); text-decoration: underline; }
-.mlist .info .note { font-size: .85rem; color: var(--ink-soft); white-space: pre-wrap; overflow-wrap: anywhere; }
-.mlist .info .meta { font-size: .75rem; color: var(--ink-soft); display: flex; gap: .3rem .8rem; flex-wrap: wrap; align-items: center; }
+.mlist li { display: flex; gap: .8rem; align-items: flex-start; padding: .5rem .2rem; border-bottom: 1px solid var(--rule); }
+.mlist .thumb { flex: none; width: 2.6rem; height: 2.6rem; border-radius: 4px; border: 1px solid var(--rule); object-fit: cover; }
+.mlist .info { flex: 1; min-width: 0; }
+.mlist .head { display: flex; flex-wrap: wrap; gap: .1rem 1rem; align-items: baseline; justify-content: space-between; }
+.mlist .t { font-family: var(--f-zh); font-size: 1.02rem; font-weight: 600; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.mlist a.t:hover { color: var(--lapis); }
+.mlist .out { font-weight: 400; color: var(--ink-soft); }
+.mlist .meta { font-size: .75rem; color: var(--ink-soft); display: flex; gap: .3rem .6rem; flex-wrap: wrap; align-items: center; }
+.mlist .meta:empty { display: none; }
+.mlist .note { font-size: .84rem; color: var(--ink-soft); overflow-wrap: anywhere; }
 
 /* ---------- 全部名句 ---------- */
 /* 资料库、全部名句页顶上的语言筛选：样式与页头导航一致 */
