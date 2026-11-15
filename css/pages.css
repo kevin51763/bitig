@@ -41,3 +41,18 @@ iframe.tframe { display: block; width: 100%; height: 80vh; border: 1px solid var
 .say-item .say-lang, .say-item .say-small, .say-item .say-src { color: var(--ink-soft); }
 .say-item .say-lat { font-size: 1.05rem; }
 .say-item .say-zh { font-size: 1rem; margin-top: .1rem; }
+
+/* 留言栏目（js/pages/contact.js） */
+.contact { display: grid; gap: .9rem; max-width: 38rem; margin-top: 1rem; }
+.contact label { display: grid; gap: .3rem; font-size: .88rem; color: var(--ink-soft); }
+.contact textarea, .contact input[type=text] {
+  font: inherit; font-size: .95rem; line-height: 1.6; color: var(--ink); background: var(--sheet);
+  border: 1px solid var(--rule); border-radius: 5px; padding: .5rem .65rem; width: 100%; box-sizing: border-box;
+}
+.contact textarea { resize: vertical; min-height: 8rem; }
+.contact textarea:focus, .contact input[type=text]:focus { outline: none; border-color: var(--lapis); }
+.contact .seg { justify-self: start; }
+/* 读者看不见的一栏，用来拦自动灌水的程序 */
+.contact-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+#contact-done { margin-top: 1rem; max-width: 38rem; display: flex; gap: .8rem; align-items: center; flex-wrap: wrap; }
+#contact-done[hidden] { display: none; }

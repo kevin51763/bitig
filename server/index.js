@@ -17,6 +17,7 @@ const PARTS = [
   ['自动更新', './deploy'],
   ['词典释义', './dict'],
   ['不带 # 的网址', './pages'],
+  ['留言', './messages'],
 ];
 
 module.exports = function (app, dataDir) {

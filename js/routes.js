@@ -1,7 +1,7 @@
 /* 栏目的名字和网址怎样对应。
 
    每个栏目有一个名字，程序里都用它：
-     home 首页   texts 文章目录   text-简写 单篇文章   materials 资料库   sayings 全部名句
+     home 首页   texts 文章目录   text-简写 单篇文章   materials 资料库   sayings 全部名句   contact 留言
      dict 词典（上次看的那部）   dict-词典名 某一部词典   tool-语言简写 该语言的编辑器
 
    网址有两种写法：
@@ -11,7 +11,7 @@
          /            home             /texts/简写      text-简写
          /texts       texts            /dict/词典名     dict-词典名
          /materials   materials        /tool/语言全名   tool-语言简写（全名是 config/languages.js 里的 slug）
-         /sayings     sayings
+         /sayings     sayings          /contact         contact
          /dict        dict
 
    这个文件浏览器和服务器都用，所以只能用最基本的写法，不能用 document、window 等浏览器才有的东西。
@@ -26,7 +26,7 @@
   for (var k in DICT_PATH) DICT_NAME[DICT_PATH[k]] = k;
 
   var WORD = /^[A-Za-z0-9_-]+$/;   // 简写、词典名、语言全名里可以用的字符
-  var PLAIN = { texts: 1, materials: 1, sayings: 1, dict: 1 };
+  var PLAIN = { texts: 1, materials: 1, sayings: 1, dict: 1, contact: 1 };
 
   /* 栏目的名字 → 不带 # 的网址。langs 是语言清单（config/languages.js）。认不出的名字返回 null */
   function toPath(name, langs) {

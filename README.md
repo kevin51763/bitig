@@ -23,11 +23,12 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 
 ```
 index.html            页面骨架，载入全部样式和程序。平时不用动
+admin.html            查看读者留言的页面（bitig.ink/admin.html，要密码）
 og.png                分享链接时显示的预览图（1200×630）
 robots.txt、sitemap.xml  给搜索引擎看的说明和网址清单。平时不用动（bitig.ink 上的网址清单由服务器自动生成）
 
 config/               网站的设置
-  site.js               网站名、首页介绍、联系邮箱、访问计数的开关
+  site.js               网站名、首页介绍、留言和访问计数的开关、联系邮箱
   languages.js          语言清单：名字、导航顺序、用哪种编辑器、字体、书写方向
   dictionaries.js       词典链接
 content/              网站的内容
@@ -64,6 +65,7 @@ server/               服务器部分，只在 bitig.ink 的服务器上运行
   deploy.js             自动更新：main 分支有改动时取最新的文件
   dict.js               词典释义：浏览器按需来要，不必整份下载
   pages.js              不带 # 的网址：/dict/manhan 这样的网址发回网页，配上各自的标题
+  messages.js           留言：收读者的留言，存进数据库
   counter.js            访问计数
 ```
 
@@ -291,7 +293,7 @@ sudo -u www-data git -C /var/www/bitig/public pull
 
 ## 六、服务器部分
 
-bitig.ink 的服务器除了发送网站文件，还做四件事：自动更新、不带 # 的网址、词典释义和访问计数。程序在仓库的 `server/` 文件夹里，数据在服务器的 `/var/www/bitig/data/` 里。
+bitig.ink 的服务器除了发送网站文件，还做五件事：自动更新、不带 # 的网址、词典释义、留言和访问计数。程序在仓库的 `server/` 文件夹里，数据在服务器的 `/var/www/bitig/data/` 里。
 
 ### 安装（只做一次）
 
@@ -363,7 +365,7 @@ systemctl restart bitig
 | --- | --- | --- |
 | 文章目录 | `bitig.ink/texts` | `…/#texts` |
 | 单篇文章 | `bitig.ink/texts/daxue` | `…/#text-daxue` |
-| 资料库、名句 | `bitig.ink/materials`、`bitig.ink/sayings` | `…/#materials`、`…/#sayings` |
+| 资料库、名句、留言 | `bitig.ink/materials`、`/sayings`、`/contact` | `…/#materials`、`…/#sayings`、`…/#contact` |
 | 词典 | `bitig.ink/dict/manhan` | `…/#dict-manhan` |
 | 编辑器 | `bitig.ink/tool/manchu` | `…/#tool-mnc` |
 
@@ -398,6 +400,43 @@ systemctl restart bitig
 - 浏览器和服务器靠 `VER` 和词条数核对词库是不是同一版。对不上时（比如读者的浏览器还留着旧的检索文件），浏览器自动改为下载整份释义文件，不会张冠李戴。
 - 藏文词典的释义本来就分成小份按需读取，不经过这里。
 
+### 留言
+
+读者在“留言”栏目（`bitig.ink/contact`，页脚和资料库顶上有链接）写一段话给你，可以选“纠错”“添加资料”或“其他”，联系方式可留可不留。这样不用公开邮箱，读者也不用注册。
+
+**设密码（只做一次）**
+
+看留言要密码。登录服务器，生成一个：
+
+```
+openssl rand -hex 12 > /var/www/bitig/data/admin-password.txt
+chown www-data:www-data /var/www/bitig/data/admin-password.txt
+chmod 600 /var/www/bitig/data/admin-password.txt
+cat /var/www/bitig/data/admin-password.txt
+```
+
+最后一条命令显示密码，记在自己的密码本里。不用重启。想换密码，重新运行一遍即可。
+
+**看留言**
+
+打开 `bitig.ink/admin.html`，输入密码。每条留言可以“标为已处理”或“删除”。密码记在当前的标签页里，关掉标签页就要重新输入。没有新留言的提醒，要自己隔几天去看一次。
+
+**各部分在哪**
+
+| 位置 | 作用 |
+| --- | --- |
+| `js/pages/contact.js` | 网页部分：留言的表单 |
+| `admin.html` | 查看留言的页面。页面本身谁都能打开，没有密码看不到留言 |
+| `server/messages.js` | 服务器部分：接口 `/api/messages`，收留言、核对密码 |
+| 服务器上的 `data/messages.db` | 留言，SQLite 数据库。不在仓库里，别人下载不到 |
+| 服务器上的 `data/admin-password.txt` | 密码。没有这个文件时，留言照收，但看不了 |
+| `config/site.js` 的 `contact` | 开关。改成 `false`，页脚和资料库顶上不再有“留言”链接 |
+
+- 防垃圾：同一个网络地址 10 分钟内最多留 5 条，全站一天最多收 300 条；密码 10 分钟内最多输错 10 次。这些数字在 `server/messages.js` 开头。
+- 不记录读者的网络地址。会记下读者来留言之前所在的栏目（如 `dict-manhan`），纠错时方便查找。
+- 备份：把 `data/messages.db` 复制一份即可。
+- 数据库用的是 Node.js 自带的 `node:sqlite`，不用另装东西，服务器上的 Node.js 要 22.5 以上。
+
 ### 访问计数
 
 页脚的“总访问 · 今日”由服务器记录。
@@ -425,7 +464,7 @@ systemctl restart bitig
 
 ### 没有服务器的地方
 
-GitHub Pages 上的副本和本地预览没有服务器。那里网址带 `#`，页脚不显示计数，词典下载整份释义文件，其余一切照常。
+GitHub Pages 上的副本和本地预览没有服务器。那里网址带 `#`，页脚不显示计数，不能留言，词典下载整份释义文件，其余一切照常。
 
 ---
 

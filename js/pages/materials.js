@@ -19,10 +19,14 @@
   /* 顶上一排语言按钮筛选；“全部”时每份资料只列一次，按加入先后，新的在前 */
   let filter = SIYI.store.get('siyi-mat-filter') || 'all';
   function renderList() {
-    // 顶上的联系邮箱用 config/site.js 里的 email；没写就不显示这一行
-    const email = SIYI.config.site.email;
-    $('mats-contact').hidden = !email;
-    $('mats-contact').innerHTML = email ? `添加资料，请联系 <a href="mailto:${esc(email)}">${esc(email)}</a>` : '';
+    // 顶上的“添加资料，请……”：能留言就指到留言栏目，否则用 config/site.js 里的 email；两样都没有就不显示这一行
+    const site = SIYI.config.site, email = site.email, canContact = site.contact !== false && SIYI.clean;
+    $('mats-contact').hidden = !email && !canContact;
+    $('mats-contact').innerHTML = canContact ? `添加资料，请<a id="mats-contact-link" href="${esc(SIYI.href('contact'))}">留言</a>`
+      : email ? `添加资料，请联系 <a href="mailto:${esc(email)}">${esc(email)}</a>` : '';
+    // 从这里去留言，类别先选好“添加资料”
+    const link = $('mats-contact-link');
+    if (link) link.addEventListener('click', () => { SIYI.pages.contact.preset = 'material'; });
     const all = SIYI.materials.slice().reverse();
     $('mats-count').textContent = all.length ? `共 ${all.length} 份` : '';
     if (!all.length) {
