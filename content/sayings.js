@@ -40,6 +40,14 @@ SIYI.sayings = [
   { lang: 'ug', tr: 'yïlan kändü ägrisin bilmäs, tävä boynïn ägri ter', zh: '蛇不知自己弯，倒说骆驼脖子弯。', src: '《突厥语大词典》' },
   { lang: 'ug', tr: 'beš ärŋäk tüz ärmäs', zh: '五个手指不一般齐。', src: '《突厥语大词典》' },
   { lang: 'ug', tr: 'tävä silkinsä äšäkkä yük čïqar', zh: '骆驼抖一抖，驴子就有了驮子。', src: '《突厥语大词典》' },
+  /* 《突厥语大词典》里的四行诗 */
+  { lang: 'ug', tr: 'alp är toŋa öldi mü, isiz ažun qaldï mu, ödläk öčin aldï mu, ämdi yüräk yïrtïlur', zh: '英雄同俄死了吗？这不公的人世还留着吗？时光报了它的仇吗？如今心都撕裂了。', src: '《突厥语大词典》，悼同俄挽歌' },
+  { lang: 'ug', tr: 'aγruq aγïr išiŋni adnaγuqa yüdürmä, ačrup özüŋ üšärip adnaγunï todurma', zh: '别把你沉重的担子压给别人；别让自己挨饿受累，去喂饱别人。', src: '《突厥语大词典》' },
+  { lang: 'ug', tr: 'taŋ ata yortalïm, budrač qanïn irtälim, basmïl begin örtälim, amdï yigit yewilsün', zh: '天一亮我们就出发，去讨还布德拉奇的血债，烧了拔悉密的首领；现在让壮士们集合。', src: '《突厥语大词典》' },
+  { lang: 'ug', tr: 'qïqrïp atïγ kämšälim, qalqan süŋün čomšalïm, qaynap yana yumšalïm, qatγï yaγï yawalsun', zh: '呐喊着策马冲上去，用盾和矛相撞；沸腾过后再转柔和，让强硬的敌人软下来。', src: '《突厥语大词典》' },
+  /* 下面两首的原文是凭记忆录的，还没有对过刊本，待核对 */
+  { lang: 'ug', tr: 'qar buz qamuγ ärüšdi, taγlar suwï aqïšdï, kökšin bulït örüšdi, qayγuq bolup ägrišür', zh: '冰雪全都融化了，山上的水流了下来；青灰的云升起，像小船一样摇荡。', src: '《突厥语大词典》' },
+  { lang: 'ug', tr: 'qïš yay bilä toqušdï, qïŋïr közün baqïšdï, tutušγalï yaqïšdï, utγalïmat oγrašur', zh: '冬和夏交了战，斜着眼互相打量；彼此逼近要扭打，都盘算着取胜。', src: '《突厥语大词典》' },
 
   /* ---- 满文：tl 写穆麟德夫转写 ---- */
   { lang: 'mnc', tl: 'tacimbime erindari urebuci, inu urgun akū semeo', zh: '学而时习之，不亦说乎？', src: '《论语·学而》' },
@@ -60,6 +68,7 @@ SIYI.sayings = [
   { lang: 'mnc', tl: 'dekdeni gisun, ajigan ci hūwašabuhade abkai banin i adali, tacime ilimbahade ini cisui oho adali sehebi', zh: '常言道：少成若天性，习惯成自然。', src: '《庸言知旨》' },
   { lang: 'mnc', tl: 'dehehe aisin gincihiyan gu i gese wesihun niyalma oki seci, toktofi dulere tuwa i dorgici urebume deijimbi; na be tukiyere abka be ubašara baita gungge be ilibuki seci, urunakū nekeliyen juhe i dergi be duleme yabumbi', zh: '欲做精金美玉的人品，定从烈火中煅来；思立掀天揭地的事功，须向薄冰上履过。', src: '《菜根谭》' },
   { lang: 'mnc', tl: 'mujilen i dorgi eldengge genggiyen oci, farhūn booi dolo niohon abka bi; gūnin deribun butu dushun oci, inenggi šun de ehe hutu sabumbi', zh: '心体光明，暗室中有青天；念头暗昧，白日下有厉鬼。', src: '《菜根谭》' },
+  { lang: 'mnc', tl: 'julergi lasari moo de, hūša siren fasimbi. buyecuke ambasa saisa de, hūturi fengšen isimbi', zh: '南有樛木，葛藟累之。乐只君子，福履绥之。', src: '《诗经·周南·樛木》' },
 
   /* ---- 蒙古文：tl 写学术转写，分写的 a、e 记作 -a、-e ---- */
   { lang: 'mn', tl: 'činggis qaγan-u uγ iǰaγur degere tngri-eče ǰayaγatu töregsen börte čino-a aǰuγu', zh: '当初元朝的人祖，是天生一个苍色的狼。', src: '《蒙古秘史》第 1 节' },
@@ -72,6 +81,8 @@ SIYI.sayings = [
   { lang: 'mn', tl: 'següder-eče busu nökör ügei, segül-eče busu čičuγ-a ügei bui bida', zh: '我们除了影子没有别的伙伴，除了马尾没有别的鞭子。', src: '《蒙古秘史》第 76 节' },
   { lang: 'mn', tl: 'eǰen kičiyebesü ǰayaγ-a kičiyen-e', zh: '主人肯用力，福运也跟着用力。', src: '蒙古族谚语' },
   { lang: 'mn', tl: 'aǰil kibesü ama tosudan-a', zh: '肯干活，嘴上就有油。', src: '蒙古族谚语' },
+  /* 下面一首的传统蒙古文写法是据西里尔蒙古文歌词转写的，还没有对过传统蒙古文的本子，待核对 */
+  { lang: 'mn', tl: 'ülemǰi-yin činar tegülder, öngge tunumal toli sig, üǰesküleng-tü čirai-yi činu, üǰebel laγšin tegüs mani, üneker sedkil-i bulaγanam ǰe', zh: '你那完美无缺的品性，像色泽澄明的镜子；看一眼你秀美的面容，身心圆满的你啊，真把我的心夺去了。', src: '丹津拉布杰《完美的品性》' },
 
   /* ---- 藏文：tl 写威利转写，/ 是垂符 ---- */
   { lang: 'bo', tl: 'sdig pa ci yang mi bya zhing/ dge ba phun sum tshogs par spyod/ rang gi sems ni yongs su \'dul/ \'di ni sangs rgyas bstan pa yin/', zh: '诸恶莫作，众善奉行，自净其意，是诸佛教。', src: '七佛通诫偈' },
@@ -81,6 +92,22 @@ SIYI.sayings = [
   { lang: 'bo', tl: 'byang chub sems mchog rin po che/ ma skyes pa rnams skye gyur cig/ skyes pa nyams pa med pa dang/ gong nas gong du \'phel bar shog/', zh: '菩提心妙宝，未生者令生，已生者不退，辗转益增上。', src: '发菩提心愿文' },
   { lang: 'bo', tl: 'ji srid nam mkha\' gnas pa dang/ \'gro ba ji srid gnas gyur pa/ de srid bdag ni gnas gyur nas/ \'gro ba\'i sdug bsngal sel bar shog/', zh: '乃至有虚空，以及众生住，愿吾住世间，尽除众生苦。', src: '寂天《入菩萨行论》第十品' },
   { lang: 'bo', tl: 'chu thigs bsags na rgya mtsho chags/', zh: '水滴积聚起来，便成大海。', src: '藏族谚语' },
+  /* 仓央嘉措的歌。原文据 Sørensen 1990 的校勘本（GRETIL 电子文本），编号是该本的编号 */
+  { lang: 'bo', tl: 'shar phyogs ri bo\'i rtse nas/ dkar gsal zla ba shar byung/ ma skyes a ma\'i zhal ras/ yid la \'khor \'khor byas byung/', zh: '东边的山顶上，升起了皎洁的月亮；那未嫁姑娘的面容，一遍遍浮上心头。', src: '仓央嘉措，第 1 首' },
+  { lang: 'bo', tl: 'rang sems song ba\'i mi de/ gtan gyi mdun mar byung na/ rgya mtsho\'i gting nas nor bu/ lon pa de dang mnyam byung/', zh: '心爱的人若能做我终身的伴侣，就像从海底捞到了一颗宝珠。', src: '仓央嘉措，第 3 首' },
+  { lang: 'bo', tl: 'me tog nam zla yal song/ g.yu sbrang sems pa ma skyo/ byams pa\'i las \'phro zad par/ nga ni skyo rgyu mi \'dug/', zh: '花期已经过去，玉蜂并不伤心；和恋人的缘分尽了，我也没什么可伤心的。', src: '仓央嘉措，第 7 首' },
+  { lang: 'bo', tl: 'bris pa\'i yi ge nag chung/ chu dang thig pas \'jig song/ ma bris sems kyi ri mo/ bsubs kyang zub rgyu mi \'dug/', zh: '写下的小小黑字，沾上水滴就毁了；没写下来的心中图画，想擦也擦不掉。', src: '仓央嘉措，第 13 首' },
+  { lang: 'bo', tl: 'sgom pa\'i bla ma\'i zhal ras/ yid la \'char rgyu mi \'dug/ ma sgom byams pa\'i zhal ras/ yid la wa le wa le/', zh: '用心观想的上师面容，心里总不显现；没去观想的恋人面容，心里却清清楚楚。', src: '仓央嘉措，第 18 首' },
+  { lang: 'bo', tl: 'sems pa \'di la \'gro \'gro/ dam pa\'i chos la phyin na/ tshe gcig lus gcig nyid la/ sangs rgyas thob pa \'dug go/', zh: '这颗心若照这样用到佛法上去，就在这一生、这一身，也成佛了。', src: '仓央嘉措，第 19 首' },
+  { lang: 'bo', tl: 'ha cang sems la song nas/ \'grogs \'dris e yong dris pas/ \'chi bral byed na min na/ gson bral mi byed gsungs byung/', zh: '因为太把她放在心上，我问她肯不肯与我相伴；她说：除非死别，活着决不分离。', src: '仓央嘉措，第 23 首' },
+  { lang: 'bo', tl: 'mdzangs ma\'i thugs dang bstun na/ tshe \'di\'i chos skal chad \'gro/ dben pa\'i ri khrod \'grims na/ bu mo\'i thugs dang \'gal \'gro/', zh: '若顺了聪慧姑娘的心意，今生的法缘就断了；若到幽静的山里去修行，又违背了姑娘的心愿。', src: '仓央嘉措，第 24 首' },
+  { lang: 'bo', tl: 'nor bu rang la yod dus/ nor bu\'i nor nyams ma chod/ nor bu mi la shor dus/ snying rlung stod la tshangs byung/', zh: '宝贝在自己手里时，不觉得它是宝贝；宝贝落到别人手里，心口却堵得发慌。', src: '仓央嘉措，第 31 首' },
+  { lang: 'bo', tl: 'po ta la ru bzhugs dus/ rig \'dzin tshangs dbyangs rgya mtsho/ lha sa zhol du sdod dus/ \'chal po dwangs bzang dbang po/', zh: '住在布达拉宫时，是持明仓央嘉措；住在拉萨雪村时，是浪子宕桑旺波。', src: '仓央嘉措，第 54 首' },
+  { lang: 'bo', tl: 'bya de khrung khrung dkar mo/ nga la gshog rtsal g.yar dang/ thag ring rgyang la mi \'gro/ li thang bskor nas slebs yong/', zh: '白鹤啊，请把翅膀借给我；我不往远处去，到理塘转一转就回来。', src: '仓央嘉措，第 57 首' },
+  { lang: 'bo', tl: 'mda\' mo \'ben la phog song/ mde\'u sa la \'dzul song/ chung \'dris byams pa \'phrad byung/ sems nyid rjes la \'brangs song/', zh: '箭射中了靶子，箭头钻进了土里；遇见了青梅竹马的恋人，心也跟着她去了。', src: '仓央嘉措，第 59 首' },
+  { lang: 'bo', tl: 'lcang ma byi\'ur sems shor/ byi\'u lcang mar sems shor/ sems shor mthun pa byung na/ skya khra hor pas mi thub/', zh: '柳树爱上了小鸟，小鸟爱上了柳树；只要两心相投，鹞鹰也奈何不得。', src: '仓央嘉措，第 62 首' },
+  { lang: 'bo', tl: 'da lta\'i tshe thung \'di la/ de kha tsam zhig zhus nas/ rting ma byis pa\'i lo la/ mjal \'dzom e yong blta\'o/', zh: '在这短短的今生，就只求这么多；到来世年少的时候，看能不能再相逢。', src: '仓央嘉措，第 63 首' },
+  { lang: 'bo', tl: 'dang po ma mthong chog pa/ sems pa shor don mi \'dug/ gnyis pa ma \'dris chog pa/ sems gcong yong don mi \'dug/', zh: '最好是不曾相见，便不会动心；其次是不曾相熟，便不会害相思。', src: '仓央嘉措，第 66 首' },
 
   /* ---- 察合台文：sc 写原文，tr 写读音 ---- */
   { lang: 'chg', sc: 'هر کیم که وفا قیلسه وفا تاپقوسیدور / هر کیم که جفا قیلسه جفا تاپقوسیدور', tr: 'har kim ki wafā qïlsa wafā tapqusïdur / har kim ki ǰafā qïlsa ǰafā tapqusïdur', zh: '谁守信义，终将得到信义；谁行残暴，终将遭到残暴。', src: '巴布尔四行诗' },
