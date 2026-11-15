@@ -43,7 +43,9 @@
   display: flex; flex-direction: column; gap: .3rem; align-items: center; text-align: center; font-size: .82rem; color: var(--ink-soft); }
 .foot-name { font-family: var(--f-lat); font-style: italic; font-size: 1.15rem; color: var(--seal); }
 .foot-meta:empty { display: none; }
-.foot-meta a { color: inherit; }
+/* 页脚的链接（问题反馈、联系邮箱）：不加下划线，和页头导航一致；鼠标移上去变色 */
+.foot-meta a { color: inherit; text-decoration: none; }
+.foot-meta a:hover { color: var(--lapis); }
 /* 访问计数（js/counter.js）：数字等宽，变动时不左右跳 */
 .foot-stats { font-size: .78rem; font-variant-numeric: tabular-nums; }
 .foot-stats b { font-weight: 600; color: var(--ink); }
