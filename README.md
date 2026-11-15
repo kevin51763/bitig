@@ -203,6 +203,7 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 首页最上面是一行标题和“试一试”：选一种文字，输入转写，右边随即写出原文，按回车到那种文字的词典里查。
 
 - 标题是 `config/site.js` 的 `lead`，越短越好；留空就不显示。
+- 搜索结果和浏览器标签上，首页显示成“bitig — 一句说明”。这句说明是 `config/site.js` 的 `tagline`，写别人会搜的词。改它时，`index.html` 开头 `<title>` 和 `og:title` 里的同一句话也要跟着改。
 - “试一试”里有哪几种文字、各查哪部词典、空着时写哪个例词，在 `js/pages/home.js` 开头的 `TRY` 里。
 - 首页词典卡片上的名字是 `config/dictionaries.js` 里的 `name`。
 

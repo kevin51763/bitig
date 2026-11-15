@@ -36,7 +36,7 @@ module.exports = function (app, dataDir, siteDir) {
     dicts: 'js/dict/dictionaries.js',
   };
   /* 现在用的一份：index.html 的内容（已加 <base>），以及文章、语言、词典的清单 */
-  let S = { html: '', origin: '', title: 'bitig', langs: [], texts: [], dicts: [] };
+  let S = { html: '', origin: '', title: 'bitig', tagline: '', langs: [], texts: [], dicts: [] };
   let stamp = '', checked = 0;
 
   /* 运行 config/、content/ 里的一个文件，取出它写在 SIYI 上的内容。
@@ -63,7 +63,7 @@ module.exports = function (app, dataDir, siteDir) {
     if (s === stamp) return;
 
     // 一个文件读不出来，只是那一类栏目暂时用不了不带 # 的网址，不影响别的
-    const next = { html: '', origin: '', title: 'bitig', langs: [], texts: [], dicts: [] };
+    const next = { html: '', origin: '', title: 'bitig', tagline: '', langs: [], texts: [], dicts: [] };
     const tryRead = (what, f) => { try { f(); } catch (e) { console.error('[pages] 读不出' + what + '：' + e.message); } };
     tryRead(FILES.index, () => {
       const raw = fs.readFileSync(path.join(siteDir, FILES.index), 'utf8');
@@ -73,7 +73,11 @@ module.exports = function (app, dataDir, siteDir) {
       next.html = html;
       next.origin = ((/<link rel="canonical" href="(https?:\/\/[^"\/]+)/.exec(raw) || [])[1]) || '';
     });
-    tryRead(FILES.site, () => { next.title = String(readSiyi(FILES.site).config.site.title || 'bitig'); });
+    tryRead(FILES.site, () => {
+      const site = readSiyi(FILES.site).config.site;
+      next.title = String(site.title || 'bitig');
+      next.tagline = String(site.tagline || '');
+    });
     tryRead(FILES.langs, () => { next.langs = list(readSiyi(FILES.langs).languages); });
     tryRead(FILES.texts, () => { next.texts = list(readSiyi(FILES.texts).texts); });
     tryRead(FILES.dicts, () => {
@@ -91,7 +95,8 @@ module.exports = function (app, dataDir, siteDir) {
   /* 一个栏目的标题和简介；没有这个栏目（文章简写写错了等）返回 null。desc 不写就用 index.html 里原有的 */
   function meta(name) {
     const plain = { texts: '文章', materials: '资料库', sayings: '名句', dict: '词典', contact: '问题反馈' };
-    if (name === 'home') return {};
+    // 首页：网站名 — 一句说明（config/site.js 的 tagline）；没写说明就用 index.html 里原有的标题
+    if (name === 'home') return S.tagline ? { full: S.title + ' — ' + S.tagline } : {};
     if (plain[name]) return { title: plain[name] };
     const kind = name.slice(0, 5), id = name.slice(5);
     if (kind === 'text-') {
@@ -117,8 +122,8 @@ module.exports = function (app, dataDir, siteDir) {
       attr(/(<link rel="canonical" href=")[^"]*(")/, S.origin + url);
       attr(/(<meta property="og:url" content=")[^"]*(")/, S.origin + url);
     }
-    if (m.title) {
-      const full = m.title + ' · ' + S.title;
+    if (m.title || m.full) {
+      const full = m.full || m.title + ' · ' + S.title;
       html = html.replace(/<title>[^<]*<\/title>/, () => '<title>' + esc(full) + '</title>');
       attr(/(<meta property="og:title" content=")[^"]*(")/, full);
     }
