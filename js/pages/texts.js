@@ -3,7 +3,7 @@
   const $ = SIYI.$, esc = SIYI.esc;
 
   function listHtml(items) {
-    return `<ul class="tlist">${items.map(d => `<li><a href="#text-${esc(d.id)}"><span class="t">${esc(d.title || '未命名')}</span><span class="s">${esc(d.subtitle || '')}</span>
+    return `<ul class="tlist">${items.map(d => `<li><a href="${esc(SIYI.href('text-' + d.id))}"><span class="t">${esc(d.title || '未命名')}</span><span class="s">${esc(d.subtitle || '')}</span>
       ${SIYI.chips(d)}</a></li>`).join('')}</ul>`;
   }
 
@@ -29,10 +29,10 @@
   function renderReader(id) {
     const v = $('v-text');
     const d = SIYI.texts.find(t => t.id === id);
-    if (!d) { v.innerHTML = '<a class="backlink" href="#texts">← 全部文章</a><div class="empty-box">找不到这篇文章。</div>'; return; }
+    if (!d) { v.innerHTML = `<a class="backlink" href="${esc(SIYI.href('texts'))}">← 全部文章</a><div class="empty-box">找不到这篇文章。</div>`; return; }
     document.title = d.title + ' · ' + SIYI.config.site.title;
     // 标题、副标题已写在文章 HTML 里，这里不再重复
-    v.innerHTML = `<a class="backlink" href="#texts">← 全部文章</a>
+    v.innerHTML = `<a class="backlink" href="${esc(SIYI.href('texts'))}">← 全部文章</a>
       <div id="reader-frame"></div>`;
     const f = document.createElement('iframe');
     f.className = 'tframe';

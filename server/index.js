@@ -16,6 +16,7 @@ const PARTS = [
   ['访问计数', './counter'],
   ['自动更新', './deploy'],
   ['词典释义', './dict'],
+  ['不带 # 的网址', './pages'],
 ];
 
 module.exports = function (app, dataDir) {

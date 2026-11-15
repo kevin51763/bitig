@@ -3,8 +3,10 @@
    排列顺序就是导航和分类的顺序。
 
    每一项可以写：
-     id         简写，只用小写英文字母。文章、资料、名句里的 langs: ['mnc'] 就是指这个；
-                编辑器的网址是 #tool-加简写，如 #tool-mnc
+     id         简写，只用小写英文字母。文章、资料、名句里的 langs: ['mnc'] 就是指这个。
+                公开后不要改
+     slug       全名，只用小写英文字母、数字和连字符。编辑器的网址用它：bitig.ink/tool/manchu。
+                不写就用简写。公开后不要改
      name       显示的名字
      short      页头导航里的短名（可不写，不写就用 name）
      editor     用哪种编辑器：
@@ -27,37 +29,37 @@
    加一种只作分类的语言，最少只要写 { id: 'xx', name: '某某文' }。 */
 SIYI.languages = [
   {
-    id: 'ug', name: '回鹘文', editor: 'three-pane', wip: true,
+    id: 'ug', slug: 'uyghur', name: '回鹘文', editor: 'three-pane', wip: true,
     font: 'var(--f-ug)', dir: 'rtl', vertical: 'rotated', scale: 1,
     card: { glyph: '𐽳𐽶𐽲𐽳𐽾' }
   },
 
   {
-    id: 'rn', name: '突厥如尼文', short: '如尼文', editor: 'three-pane', hidden: true,
+    id: 'rn', slug: 'runic', name: '突厥如尼文', short: '如尼文', editor: 'three-pane', hidden: true,
     font: 'var(--f-rn)', dir: 'rtl', vertical: false, scale: 0.86,
     card: { glyph: '𐱅𐰇𐰼𐰜' }
   },
 
   {
-    id: 'mnc', name: '满文', editor: 'two-pane',
+    id: 'mnc', slug: 'manchu', name: '满文', editor: 'two-pane',
     font: 'var(--f-mong)', dir: 'ltr', vertical: true, scale: 1,
     card: { glyph: 'ᠮᠠᠨᠵᡠ' }
   },
 
   {
-    id: 'mn', name: '蒙古文', editor: 'two-pane',
+    id: 'mn', slug: 'mongol', name: '蒙古文', editor: 'two-pane',
     font: 'var(--f-mong)', dir: 'ltr', vertical: true, scale: 1,
     card: { glyph: 'ᠮᠣᠩᠭᠣᠯ' }
   },
 
   {
-    id: 'bo', name: '藏文', editor: 'two-pane',
+    id: 'bo', slug: 'tibetan', name: '藏文', editor: 'two-pane',
     font: 'var(--f-bo)', dir: 'ltr', vertical: false, scale: 0.88, lineHeight: 2.1,
     card: { glyph: 'བོད' }
   },
 
   {
-    id: 'chg', name: '察合台文', editor: 'two-pane', wip: true,
+    id: 'chg', slug: 'chagatai', name: '察合台文', editor: 'two-pane', wip: true,
     font: 'var(--f-chg)', dir: 'rtl', vertical: false, scale: 0.9, lineHeight: 2,
     card: { glyph: 'تورکی' }
   },

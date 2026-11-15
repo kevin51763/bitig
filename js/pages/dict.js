@@ -1,5 +1,6 @@
 /* “词典”栏目：满汉、蒙汉、蒙汉满、清文鉴、藏文五部词典。
-   网址：#dict（上次看的那部）、#dict-manhan、#dict-menghan、#dict-manhanmeng、#dict-qingwenjian、#dict-tibetan。
+   栏目的名字：dict（上次看的那部）、dict-manhan、dict-menghan、dict-manhanmeng、dict-qingwenjian、dict-tibetan；
+   网址的写法见 js/routes.js。
    各词典的设置在 js/dict/dictionaries.js，查询程序在 js/dict/core.js。
    词库只在第一次用到时读入，之后留在内存里，切换栏目、切换词典都不再重读。 */
 (function () {
@@ -25,7 +26,7 @@
         ? `<a class="dx-tabsrc" href="${esc(r.url)}" target="_blank" rel="noopener" title="数据来源">${esc(r.src)}</a>`
         : `<span class="dx-tabsrc" title="数据来源">${esc(r.src)}</span>`;
       return `<div class="dx-tabrow${cur ? ' cur' : ''}">${label}<span class="dx-tablist">` +
-        r.list.map(c => `<a href="#dict-${c.id}"${c.id === id ? ' aria-current="page"' : ''}>${esc(c.tab)}</a>`).join('') + '</span></div>';
+        r.list.map(c => `<a href="${esc(SIYI.href('dict-' + c.id))}"${c.id === id ? ' aria-current="page"' : ''}>${esc(c.tab)}</a>`).join('') + '</span></div>';
     }).join('') + '</nav>';
   };
 
@@ -79,14 +80,14 @@
 
   /* 离开词典栏目（去了首页、编辑器等）后再回来，各部词典的输入框都清空；在词典之间切换则不清 */
   let away = true;
-  window.addEventListener('hashchange', () => { if (!/^#dict(-|$)/.test(location.hash)) away = true; });
+  window.addEventListener('siyi-route', () => { if (!/^dict(-|$)/.test(SIYI.route())) away = true; });
 
   let pending = null;   // 从别处带着一个词过来（open），等词典显示出来再替读者查
   SIYI.pages.dict = {
     /* 打开某部词典并查一个词：编辑器里双击一个词时用。inputId 是那部词典的输入方式 */
     open(id, q, inputId) {
       pending = { id, q, inputId };
-      if (location.hash === '#dict-' + id) this.show(id); else location.hash = '#dict-' + id;
+      if (SIYI.route() === 'dict-' + id) this.show(id); else SIYI.go('dict-' + id);
     },
     show(id) {
       if (away) { Object.keys(apps).forEach(k => apps[k].reset()); away = false; }
@@ -107,8 +108,9 @@
   /* 还没打开词典时：鼠标移到“词典”或查词链接上，就先读检索文件；首页闲下来也预读上次用的那部 */
   const warm = id => { if (SIYI.dictConfigs && cfgOf(id)) app(id).prefetch(); };
   ['pointerover', 'focusin'].forEach(type => document.addEventListener(type, e => {
-    const a = e.target.closest && e.target.closest('a[href^="#dict"]');
-    if (a) warm(a.getAttribute('href').slice(6) || lastId());
+    const a = e.target.closest && e.target.closest('a[href]');
+    const name = a && SIYI.routeOfLink(a);
+    if (name && /^dict(-|$)/.test(name)) warm(name.slice(5) || lastId());
   }));
   window.addEventListener('load', () => setTimeout(() => idle(() => warm(lastId())), 2500));
 })();

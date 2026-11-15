@@ -27,6 +27,29 @@ var SIYI = globalThis.SIYI = {
   /* 网址是不是站外的（以 http 开头）。站外链接在新标签页打开 */
   SIYI.isExternal = url => /^https?:/.test(url || '');
 
+  /* ---------- 栏目的网址 ----------
+     栏目在程序里各有一个名字（home、texts、text-简写、dict-词典名、tool-语言简写……，见 js/routes.js）。
+     网址有两种写法：带 # 的（#dict-manhan）和不带 # 的（/dict/manhan）。
+     bitig.ink 的服务器发页面时，在 <head> 里加一行 <base href="/" data-clean>（server/pages.js），
+     见到这一行就用不带 # 的；没有服务器的地方见不到这一行，照旧用带 # 的。 */
+  SIYI.clean = typeof document !== 'undefined' && !!document.querySelector('base[data-clean]');
+  /* 栏目的名字 → 链接里写的网址。写链接都用它：href="${SIYI.href('texts')}" */
+  SIYI.href = name => (SIYI.clean && SIYI.routes.toPath(name, SIYI.languages)) || '#' + name;
+  /* 配置里写的网址（config/dictionaries.js 的 url）：以 # 开头的是本站栏目，换成当前用的写法；其余原样 */
+  SIYI.link = url => (url && url.charAt(0) === '#' ? SIYI.href(url.slice(1)) : url);
+  /* 现在的网址是哪个栏目 */
+  SIYI.route = () => SIYI.clean
+    ? SIYI.routes.fromPath(location.pathname, SIYI.languages) || 'home'
+    : (location.hash || '#home').slice(1);
+  /* 一个链接（<a> 元素）指向哪个栏目；不是本站栏目的返回 null */
+  SIYI.routeOfLink = a => {
+    const raw = a.getAttribute('href') || '';
+    if (raw.charAt(0) === '#') return !SIYI.clean || SIYI.routes.toPath(raw.slice(1), SIYI.languages) ? raw.slice(1) : null;
+    if (!SIYI.clean || a.origin !== location.origin) return null;
+    return SIYI.routes.fromPath(a.pathname, SIYI.languages);
+  };
+  /* 另有 SIYI.go(名字)：转到某个栏目，在 js/router.js 里 */
+
   /* 某种语言的原文该怎样排：竖写、转 90° 竖写，还是横写（config/languages.js 的 vertical）。
      返回要加的 class；竖写的 class 名各处不同，由调用的地方给出 */
   SIYI.vertClass = (lang, vert, rotated = 'rot') =>
@@ -44,7 +67,7 @@ var SIYI = globalThis.SIYI = {
   /* 一条词典链接：站外的在新标签页打开并加 ↗，站内的（如 dict/ 里的词典）直接打开 */
   SIYI.dictLink = d => SIYI.isExternal(d.url)
     ? `<a href="${SIYI.esc(d.url)}" target="_blank" rel="noopener">${SIYI.esc(d.name)} ↗</a>`
-    : `<a href="${SIYI.esc(d.url)}">${SIYI.esc(d.name)}</a>`;
+    : `<a href="${SIYI.esc(SIYI.link(d.url))}">${SIYI.esc(d.name)}</a>`;
 
   /* 某种语言的词典入口，显示在编辑器标题下面，每部词典一个按钮（样式在 three-pane.css 的 .tool-dicts） */
   SIYI.dictLine = (el, langId) => {
@@ -84,7 +107,7 @@ var SIYI = globalThis.SIYI = {
     if (/ResizeObserver loop/.test(e.message || '')) return;
     if (!e.lineno && e.filename && !/\.js(\?|$)/.test(e.filename)) return;
     const cur = document.currentScript && document.currentScript.getAttribute('src');
-    const f = (e.filename || '').replace(location.href.replace(/[#?].*$/, '').replace(/[^/]*$/, ''), '') || cur || '某个文件';
+    const f = (e.filename || '').replace(document.baseURI.replace(/[#?].*$/, '').replace(/[^/]*$/, ''), '') || cur || '某个文件';
     if (!e.lineno || /^Script error/.test(e.message)) SIYI.problem(`${f} 有写法错误（常见的是漏了逗号、引号或括号）。双击打开时看不到具体行号，用 README 里的“本地预览”方法打开即可看到。`);
     else SIYI.problem(`${f} 第 ${e.lineno} 行：${e.message}`);
   });
