@@ -25,6 +25,8 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 index.html            页面骨架，载入全部样式和程序。平时不用动
 admin.html            查看读者留言的页面（bitig.ink/admin.html，要密码）
 og.png                分享链接时显示的预览图（1200×630）
+favicon.ico、favicon-96.png、icon-192.png、apple-touch-icon.png
+                      网站的小图标（红底白色的 b），几种大小。平时不用动
 robots.txt、sitemap.xml  给搜索引擎看的说明和网址清单。平时不用动（bitig.ink 上的网址清单由服务器自动生成）
 
 config/               网站的设置
