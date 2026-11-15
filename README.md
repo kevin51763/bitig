@@ -24,7 +24,7 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 ```
 index.html            页面骨架，载入全部样式和程序。平时不用动
 og.png                分享链接时显示的预览图（1200×630）
-robots.txt、sitemap.xml  给搜索引擎看的说明和网址清单。平时不用动
+robots.txt、sitemap.xml  给搜索引擎看的说明和网址清单。平时不用动（bitig.ink 上的网址清单由服务器自动生成）
 
 config/               网站的设置
   site.js               网站名、首页介绍、联系邮箱、访问计数的开关
@@ -46,7 +46,8 @@ fonts/                字体文件，随网站发布
 
 js/                   程序
   siyi.js               最先载入：公共工具，以及写错文件时页面顶上的黄色提示
-  router.js             按网址里 # 后面的部分切换栏目，生成页头和页脚
+  routes.js             栏目的名字和网址怎样对应，浏览器和服务器共用
+  router.js             按网址切换栏目，生成页头和页脚
   counter.js            页脚的访问计数
   gloss.js              编辑器里的悬停释义：查词、还原词尾、虚词表
   pages/                首页、文章、资料、名句、词典各栏目
@@ -62,6 +63,7 @@ server/               服务器部分，只在 bitig.ink 的服务器上运行
   index.js              总入口，列出下面各项功能
   deploy.js             自动更新：main 分支有改动时取最新的文件
   dict.js               词典释义：浏览器按需来要，不必整份下载
+  pages.js              不带 # 的网址：/dict/manhan 这样的网址发回网页，配上各自的标题
   counter.js            访问计数
 ```
 
@@ -106,7 +108,7 @@ python3 -m http.server 8000
 ```
 
 - `langs` 里写语言简写，简写在 `config/languages.js` 里查；清单里没有的语言直接写中文名，比如 `'汉文'`。
-- `id` 会成为这篇文章的网址（`#text-daxue`），公开之后最好别再改。
+- `id` 会成为这篇文章的网址（`bitig.ink/texts/daxue`），公开之后最好别再改。
 - 新的写在最后，首页“新近文章”从最后往前取。
 
 **请 AI 做文章时**，可以把下面这段要求一起交给它：
@@ -155,7 +157,7 @@ python3 -m http.server 8000
 
 ### 词典栏目
 
-页头的“词典”栏目里有满汉、蒙汉、蒙汉满、清文鉴、藏文五部词典。前四部数据来自栗林均词典，藏文词典数据来自 [Christian Steinert 藏文词典](https://github.com/christiansteinert/tibetan-dictionary)（各词典版权属于原作者）。网址分别是 `#dict-manhan`、`#dict-menghan`、`#dict-manhanmeng`、`#dict-qingwenjian`、`#dict-tibetan`。
+页头的“词典”栏目里有满汉、蒙汉、蒙汉满、清文鉴、藏文五部词典。前四部数据来自栗林均词典，藏文词典数据来自 [Christian Steinert 藏文词典](https://github.com/christiansteinert/tibetan-dictionary)（各词典版权属于原作者）。网址分别是 `bitig.ink/dict/manhan`、`/dict/menghan`、`/dict/menghanman`、`/dict/qingwenjian`、`/dict/tibetan`。
 
 ```
 js/dict/dictionaries.js   各部词典的设置（显示什么、怎样排）
@@ -206,7 +208,7 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 
 1. 照 `js/converters/_template.js` 写一个转换规则文件，放进 `js/converters/`。
 2. 在 `index.html` 里“新加的转换规则放在这一行上面”那一行之上，加一行 `<script src="js/converters/文件名.js?v=版本号"></script>`，版本号和其他行一样。
-3. 在 `config/languages.js` 里给这种语言写上 `editor: 'two-pane'`，以及 `font`、`dir` 等。
+3. 在 `config/languages.js` 里给这种语言写上 `editor: 'two-pane'`，以及 `slug`（网址里用的全名，如 `'manchu'`）、`font`、`dir` 等。
 4. 如果需要新字体：把 `.woff2` 文件放进 `fonts/`，在 `css/fonts.css` 里照样登记。
 
 这一步涉及程序，交给 Claude 做最省事：告诉它是哪种文字、用哪套转写方案即可。
@@ -289,7 +291,7 @@ sudo -u www-data git -C /var/www/bitig/public pull
 
 ## 六、服务器部分
 
-bitig.ink 的服务器除了发送网站文件，还做三件事：自动更新、词典释义和访问计数。程序在仓库的 `server/` 文件夹里，数据在服务器的 `/var/www/bitig/data/` 里。
+bitig.ink 的服务器除了发送网站文件，还做四件事：自动更新、不带 # 的网址、词典释义和访问计数。程序在仓库的 `server/` 文件夹里，数据在服务器的 `/var/www/bitig/data/` 里。
 
 ### 安装（只做一次）
 
@@ -353,6 +355,34 @@ systemctl restart bitig
 - 更新失败时，https://bitig.ink/api/deploy 写着“更新失败”，原因用 `journalctl -u bitig -n 20` 看。最常见的原因是有人在服务器上直接改过 `public` 里的文件，或者以 root 身份取过文件（重新运行安装第 2 步的 `chown` 即可）。
 - 换密钥：重新运行安装第 3 步，再到 GitHub 的 Webhooks 页面把新密钥填进去。不用重启。
 
+### 不带 # 的网址
+
+栏目的网址有两种写法：
+
+| | bitig.ink（有服务器） | GitHub Pages、本地预览（没有服务器） |
+| --- | --- | --- |
+| 文章目录 | `bitig.ink/texts` | `…/#texts` |
+| 单篇文章 | `bitig.ink/texts/daxue` | `…/#text-daxue` |
+| 资料库、名句 | `bitig.ink/materials`、`bitig.ink/sayings` | `…/#materials`、`…/#sayings` |
+| 词典 | `bitig.ink/dict/manhan` | `…/#dict-manhan` |
+| 编辑器 | `bitig.ink/tool/manchu` | `…/#tool-mnc` |
+
+`#` 后面的部分不会发给服务器，搜索引擎也只认 `#` 前面的，所以带 `#` 时整个网站在搜索引擎眼里只有首页一个网址。不带 `#` 的网址要服务器配合：读者访问 `bitig.ink/dict/manhan` 时，服务器发回网页，并配上这个栏目自己的标题和简介。
+
+| 位置 | 作用 |
+| --- | --- |
+| `js/routes.js` | 栏目的名字和网址怎样对应。浏览器和服务器共用 |
+| `server/pages.js` | 服务器部分：发回网页，换上标题、简介；生成 `sitemap.xml` |
+| `js/siyi.js` 的 `SIYI.clean`、`SIYI.href` | 网页部分：判断用哪种写法，生成链接 |
+| `js/router.js` | 按网址切换栏目；点站内链接时只换栏目，不重新载入整页 |
+
+- 用哪种写法是自动的：服务器发网页时在 `<head>` 里加一行 `<base href="/" data-clean>`，网页见到它就用不带 `#` 的。不用设置。
+- 以前公开的旧链接（`bitig.ink/#dict-manhan`）照样能用，打开后自动换成新网址。
+- 词典在网址里的名字就是 `#dict-` 后面的名字，只有蒙汉满词典例外：程序和词库里叫 `manhanmeng`，网址是 `bitig.ink/dict/menghanman`（写在 `js/routes.js` 的 `DICT_PATH`）。
+- 编辑器在网址里用语言的全名，即 `config/languages.js` 里的 `slug`：满文 `manchu`、蒙古文 `mongol`、藏文 `tibetan`、回鹘文 `uyghur`、如尼文 `runic`、察合台文 `chagatai`。
+- `bitig.ink/sitemap.xml` 由服务器按现有的文章、词典、编辑器生成，加了文章不用手改。仓库里的 `sitemap.xml` 只给 GitHub Pages 上的副本用。
+- 文章、语言的改动（`content/texts.js`、`config/languages.js`）服务器会自己重新读，不必重启。
+
 ### 词典释义
 
 满汉、蒙汉、蒙汉满、清文鉴四部词典的释义文件，服务器启动时读进内存（共约 20 MB，不用数据库）。浏览器查到词头后，只来要当前这一页词条的释义，每次几 KB。
@@ -395,7 +425,7 @@ systemctl restart bitig
 
 ### 没有服务器的地方
 
-GitHub Pages 上的副本和本地预览没有这些接口。那里页脚不显示计数，词典下载整份释义文件，其余一切照常。
+GitHub Pages 上的副本和本地预览没有服务器。那里网址带 `#`，页脚不显示计数，词典下载整份释义文件，其余一切照常。
 
 ---
 
@@ -415,13 +445,16 @@ GitHub Pages 上的副本和本地预览没有这些接口。那里页脚不显�
    | `SIYI.store.get / set` | 在读者浏览器里存取小段文字（草稿、上次的选择） |
    | `SIYI.lang(id)`、`SIYI.langName(id)` | 按简写查语言、查语言名 |
    | `SIYI.isExternal(url)` | 是不是站外链接 |
+   | `SIYI.href(名字)` | 某个栏目的网址，写链接时用：`href="${SIYI.href('texts')}"`。不要直接写 `href="#texts"` |
+   | `SIYI.go(名字)` | 转到某个栏目 |
+   | `SIYI.route()` | 现在在哪个栏目 |
    | `SIYI.vertClass(lang, …)` | 这种文字竖写还是横写 |
    | `SIYI.toast(msg)` | 页面底部弹一句短提示 |
    | `SIYI.problem(msg)` | 页面顶上的黄色提示，用来报告配置写错 |
 
    按语言分组、语言小标签、检查目录漏项在 `js/pages/shared.js`。词典（`js/dict/`）原是独立的程序，自带一套同样的小工具，没有并过来。
-5. **加栏目**：在 `index.html` 里加一块 `<main class="view" id="v-xxx" hidden>`，然后在 `js/router.js` 的 `VIEWS` 和 `resolve` 里各加一行。
-6. **网址不能随便变。** `#texts`、`#text-<id>`、`#dict-<词典名>`、`#tool-<语言简写>` 公开后就是别人收藏的链接。页面里的路径一律用相对路径（`css/base.css`，不以 `/` 开头），这样在 bitig.ink 和 GitHub Pages 的 `/bitig/` 下都能用。接口是例外，写 `/api/…`。
+5. **加栏目**：在 `index.html` 里加一块 `<main class="view" id="v-xxx" hidden>`，然后在 `js/router.js` 的 `VIEWS` 和 `resolve` 里各加一行，再把栏目的名字写进 `js/routes.js`（和 `server/pages.js` 的 `meta`），不带 `#` 的网址才认得它。
+6. **网址不能随便变。** 栏目的名字（`texts`、`text-<id>`、`dict-<词典名>`、`tool-<语言简写>`）和它们的两种网址（见第六节“不带 # 的网址”）公开后就是别人收藏的链接。页面里的路径一律用相对路径（`css/base.css`，不以 `/` 开头），这样在 bitig.ink 和 GitHub Pages 的 `/bitig/` 下都能用。接口是例外，写 `/api/…`。
 7. **配置写错要在页面上说清楚。** 用 `SIYI.problem('哪个文件、怎么改')`，不要只写进控制台。
 8. **读者浏览器里存的名字不要改**（如 `mm-draft-mnc`、`ougr-draft-v1`、`dict-last`、`dict-spine`、`dict-col`）。改了，读者以前存的草稿和设置就读不到了。
 9. **颜色只在 `css/theme.css` 里定义**，其他样式文件引用变量名。深色模式的颜色在同一个文件里。

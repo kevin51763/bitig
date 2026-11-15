@@ -24,13 +24,13 @@
     }).join('');
     $('home-dict-links').innerHTML = list.map(d => {
       const out = SIYI.isExternal(d.url);
-      return `<a class="tool-card" href="${esc(d.url)}"${out ? ' target="_blank" rel="noopener"' : ''}>
+      return `<a class="tool-card" href="${esc(SIYI.link(d.url))}"${out ? ' target="_blank" rel="noopener"' : ''}>
         <span class="glyph dglyph${d.glyph && d.glyph.length > 1 ? ' pair' : ''}">${glyphHtml(d)}</span><b>${esc(d.name)}${out ? ' ↗' : ''}</b></a>`;
     }).join('');
 
     const card = l => {
       const c = l.card || {};
-      return `<a class="tool-card" href="#tool-${esc(l.id)}">
+      return `<a class="tool-card" href="${esc(SIYI.href('tool-' + l.id))}">
         <span class="glyph${SIYI.vertClass(l, 'v')}" style="font-family:${esc(l.font || 'inherit')}" dir="${l.dir || 'ltr'}">${esc(c.glyph || '')}</span>
         <b>${esc(l.name)}</b></a>`;
     };
@@ -51,7 +51,7 @@
     const n = SIYI.config.site.recentTexts || 6;
     const items = SIYI.texts.slice(-n).reverse();
     $('home-texts').innerHTML = items.length
-      ? SIYI.pages.texts.listHtml(items) + (SIYI.texts.length > items.length ? `<p class="small"><a href="#texts">查看全部 ${SIYI.texts.length} 篇 →</a></p>` : '')
+      ? SIYI.pages.texts.listHtml(items) + (SIYI.texts.length > items.length ? `<p class="small"><a href="${esc(SIYI.href('texts'))}">查看全部 ${SIYI.texts.length} 篇 →</a></p>` : '')
       : '<div class="empty-box">还没有文章。</div>';
   }
 

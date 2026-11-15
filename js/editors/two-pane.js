@@ -237,7 +237,7 @@
       t.addEventListener('scroll', hideTip);
     }
     window.addEventListener('scroll', hideTip, { passive: true });
-    window.addEventListener('hashchange', hideTip);
+    window.addEventListener('siyi-route', hideTip);
   }
   function pressSeg(id, v) { document.querySelectorAll(`#${id} button`).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === v))); }
   /* 把一段文字放进某一栏（'l' 拉丁转写，'m' 原文），另一栏随之生成 */

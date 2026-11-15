@@ -68,7 +68,7 @@
     const list = SIYI.sayings;
     const counts = {}; list.forEach(q => { counts[q.lang] = (counts[q.lang] || 0) + 1; });
     const langs = SIYI.languages.map(l => l.id).filter(k => counts[k]).concat(Object.keys(counts).filter(k => !SIYI.lang(k)));
-    $('v-says').innerHTML = `<a class="backlink" href="#home">← 首页</a>
+    $('v-says').innerHTML = `<a class="backlink" href="${esc(SIYI.href('home'))}">← 首页</a>
       <div class="sec-head plain"><h1 class="vh">名句</h1><span class="meta">共 ${list.length} 句</span></div>
       <p class="small">首页轮流显示这里的句子。句子写在 content/sayings.js 里。</p>
       <div class="lang-filter" role="group">${[['all', `全部 ${list.length}`]].concat(langs.map(k => [k, `${SIYI.langName(k)} ${counts[k]}`]))

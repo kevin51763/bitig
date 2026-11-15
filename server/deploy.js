@@ -27,8 +27,8 @@ const GIT_TIMEOUT = 5 * 60 * 1000;  // 一条 git 命令最多等 5 分钟（词
 const MAX_BODY = 5 * 1024 * 1024;   // 通知的正文超过 5 MB 就不收
 const RESTART_DELAY = 2000;       // 退出前等 2 秒，让访问计数先存盘
 /* 服务器用到的程序。这些文件有改动就要重新启动。
-   js/dict/def-match.js 是浏览器和服务器共用的（释义反查的匹配规则） */
-const SERVER_FILES = ['server', 'js/dict/def-match.js'];
+   后两个是浏览器和服务器共用的：释义反查的匹配规则，栏目的名字和网址的对应 */
+const SERVER_FILES = ['server', 'js/dict/def-match.js', 'js/routes.js'];
 
 /* 北京时间，如 '2026-11-15 14:30:05' */
 const now = () => new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 19).replace('T', ' ');
