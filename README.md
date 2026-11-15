@@ -200,6 +200,12 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 
 都在 `config/site.js`。邮箱只写这一处，页脚和资料库顶上都用它。
 
+首页最上面是一行标题和“试一试”：选一种文字，输入转写，右边随即写出原文，按回车到那种文字的词典里查。
+
+- 标题是 `config/site.js` 的 `lead`，越短越好；留空就不显示。
+- “试一试”里有哪几种文字、各查哪部词典、空着时写哪个例词，在 `js/pages/home.js` 开头的 `TRY` 里。
+- 首页词典卡片上的名字是 `config/dictionaries.js` 里的 `name`。
+
 ### 加一种语言
 
 **只用来给文章、资料分类**（比如以后加西夏文、粟特文的文章）：在 `config/languages.js` 里加一行即可：

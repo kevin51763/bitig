@@ -108,7 +108,7 @@
           '<option value="contain">包含</option><option value="fuzzy">近似拼写</option><option value="def">' + esc(C.defLabel || '释义反查') + '</option></select></form>' +
         '<div class="dx-filters"></div>' +
         '<div class="dx-dictpanel" hidden></div>' +
-        // 转写规则：点“转写规则”后浮在结果区上方，不挤动页面；再点按钮、点框外或按 Esc 关上
+        // 词典来源（上面那个）和转写规则：点按钮后浮在结果区上方，不挤动页面；再点按钮、点框外或按 Esc 关上
         '<div class="dx-legend" role="dialog" aria-label="转写规则">' + C.legend + '</div>' +
       '</div>' +
       '<div class="dx-main' + (C.twoPanes ? ' two' : '') + '"><aside class="dx-spine" aria-label="原文"></aside>' +
@@ -715,9 +715,9 @@
       if (ev.target.closest('.dx-spine-btn')) { setSpine(!spineHidden()); return; }
       if (ev.target.closest('.dx-col-btn')) { setCol(!colHidden()); return; }
       var pk = ev.target.closest('.dx-pick');
-      if (pk) { panelEl.hidden = !panelEl.hidden; pk.setAttribute('aria-expanded', !panelEl.hidden); return; }
-      if (ev.target.closest('.dx-legend-btn')) { setLegend(!q$('.dx-legend').classList.contains('open')); return; }
-      if (ev.target.closest('.dx-legend')) return;
+      if (pk) { setLegend(false); setPanel(panelEl.hidden); return; }   // 两个下拉框一次只开一个
+      if (ev.target.closest('.dx-legend-btn')) { setPanel(false); setLegend(!q$('.dx-legend').classList.contains('open')); return; }
+      if (ev.target.closest('.dx-legend') || ev.target.closest('.dx-dictpanel')) return;
       var cp = ev.target.closest('.dx-copy');
       if (cp) {
         navigator.clipboard.writeText(cp.getAttribute('data-copy')).then(function () { cp.textContent = '已复制'; }, function () { cp.textContent = '无法复制'; });
@@ -741,14 +741,25 @@
       box.classList.toggle('open', open);
       if (b) b.setAttribute('aria-expanded', open);
     }
-    // 转写规则开着时，点它以外的地方或按 Esc 就关上
+    function setPanel(open) {
+      panelEl.hidden = !open;
+      var b = q$('.dx-pick');
+      if (b) b.setAttribute('aria-expanded', open);
+    }
+    // 转写规则、词典来源开着时，点它以外的地方或按 Esc 就关上
     document.addEventListener('click', function (ev) {
-      if (!q$('.dx-legend.open')) return;
-      if (ev.target.closest && (ev.target.closest('.dx-legend') || ev.target.closest('.dx-legend-btn'))) return;
-      setLegend(false);
+      if (q$('.dx-legend.open') && !(ev.target.closest && (ev.target.closest('.dx-legend') || ev.target.closest('.dx-legend-btn')))) setLegend(false);
+      // 词典来源：点“全选”“全不选”时框里的内容会重画，被点的按钮已不在页面上，所以按点击经过的路径来判断
+      if (!panelEl.hidden) {
+        var path = ev.composedPath ? ev.composedPath() : [], pick = q$('.dx-pick');
+        if (path.indexOf(panelEl) < 0 && path.indexOf(pick) < 0) setPanel(false);
+      }
     });
     document.addEventListener('keydown', function (ev) {
-      if (ev.key === 'Escape' && q$('.dx-legend.open')) { setLegend(false); var b = q$('.dx-legend-btn'); if (b) b.focus(); }
+      if (ev.key !== 'Escape') return;
+      var b;
+      if (q$('.dx-legend.open')) { setLegend(false); b = q$('.dx-legend-btn'); if (b) b.focus(); }
+      else if (!panelEl.hidden) { setPanel(false); b = q$('.dx-pick'); if (b) b.focus(); }
     });
     // 左栏（原文与复制按钮）可以收起，各部词典共用这一设置，记在浏览器里
     function spineHidden() { return document.documentElement.classList.contains('dx-nospine'); }
@@ -788,7 +799,7 @@
       f.innerHTML = html;
       if (groups) buildPanel(counts);
     }
-    /* 词典来源放在可展开的面板里，点“已选 x / y 部”打开。
+    /* 词典来源放在下拉框里，点“已选 x / y 部”打开，样子和“转写规则”的下拉框一样。
        藏文词典很多，按语种分组（设置里的 groups），每组可全选、全不选；
        其余词典没有分组，面板里就是一组。只有一部来源的词典不用面板。 */
     var panelEl = q$('.dx-dictpanel'), lastCounts = null;

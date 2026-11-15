@@ -12,11 +12,11 @@ SIYI.dictionaries = {
   list: [
     // 下面是本站“词典”栏目里的词典：前四部数据来自栗林均词典，藏文词典数据来自 Christian Steinert 藏文词典
     // 示例字：bithe（满文“书”）、bičig（蒙古文“书”）、gisun 与 üge（满、蒙“词”）、buleku（满文“鉴”）、tshig mdzod（藏文“词典”）
-    { name: '栗林均满汉词典', url: '#dict-manhan', langs: ['mnc'], glyph: [['ᠪᡳᡨᡥᡝ', 'mnc']] },
-    { name: '栗林均蒙汉词典', url: '#dict-menghan', langs: ['mn'], glyph: [['ᠪᠢᠴᠢᠭ', 'mn']] },
-    { name: '栗林均蒙汉满词典', url: '#dict-manhanmeng', langs: ['mnc', 'mn'], glyph: [['ᡤᡳᠰᡠᠨ', 'mnc'], ['ᠦᠭᠡ', 'mn']] },
-    { name: '栗林均清文鉴词典', url: '#dict-qingwenjian', langs: ['mnc', 'mn'], glyph: [['ᠪᡠᠯᡝᡴᡠ', 'mnc']] },
-    { name: 'Steinert 藏文词典', url: '#dict-tibetan', langs: ['bo'], glyph: [['ཚིག་མཛོད', 'bo']] },
+    { name: '满汉词典', url: '#dict-manhan', langs: ['mnc'], glyph: [['ᠪᡳᡨᡥᡝ', 'mnc']] },
+    { name: '蒙汉词典', url: '#dict-menghan', langs: ['mn'], glyph: [['ᠪᠢᠴᠢᠭ', 'mn']] },
+    { name: '蒙汉满词典', url: '#dict-manhanmeng', langs: ['mnc', 'mn'], glyph: [['ᡤᡳᠰᡠᠨ', 'mnc'], ['ᠦᠭᠡ', 'mn']] },
+    { name: '清文鉴', url: '#dict-qingwenjian', langs: ['mnc', 'mn'], glyph: [['ᠪᡠᠯᡝᡴᡠ', 'mnc']] },
+    { name: '藏文词典', url: '#dict-tibetan', langs: ['bo'], glyph: [['ཚིག་མཛོད', 'bo']] },
 
     // 例：再加一部词典，照上面的格式写一行
     // { name: '某某词典', url: 'https://…', langs: ['chg'] },
