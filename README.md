@@ -378,6 +378,7 @@ systemctl restart bitig
 | 单篇文章 | `bitig.ink/texts/daxue` | `…/#text-daxue` |
 | 资料库、名句、留言 | `bitig.ink/materials`、`/sayings`、`/contact` | `…/#materials`、`…/#sayings`、`…/#contact` |
 | 词典 | `bitig.ink/dict/manhan` | `…/#dict-manhan` |
+| 词典里的一个词条 | `bitig.ink/dict/manhan/abka` | `…/#dict-manhan/abka` |
 | 编辑器 | `bitig.ink/tool/manchu` | `…/#tool-mnc` |
 
 `#` 后面的部分不会发给服务器，搜索引擎也只认 `#` 前面的，所以带 `#` 时整个网站在搜索引擎眼里只有首页一个网址。不带 `#` 的网址要服务器配合：读者访问 `bitig.ink/dict/manhan` 时，服务器发回网页，并配上这个栏目自己的标题和简介。
@@ -395,6 +396,27 @@ systemctl restart bitig
 - 编辑器在网址里用语言的全名，即 `config/languages.js` 里的 `slug`：满文 `manchu`、蒙古文 `mongol`、藏文 `tibetan`、回鹘文 `uyghur`、如尼文 `runic`、察合台文 `chagatai`。
 - `bitig.ink/sitemap.xml` 由服务器按现有的文章、词典、编辑器生成，加了文章不用手改。仓库里的 `sitemap.xml` 只给 GitHub Pages 上的副本用。
 - 文章、语言的改动（`content/texts.js`、`config/languages.js`）服务器会自己重新读，不必重启。
+
+### 词条的固定网址
+
+词典里每个词条都有自己的网址，读者可以把一个词发给别人。五部词典都有。
+
+- 网址是词典的网址后面加 `/` 和词头，如 `bitig.ink/dict/manhan/abka`。词头用词库里的写法（检索文件每行的第一栏），如满文的 `hvwa`（即 hūwa）、蒙古文的 `tabaraG_a`（即 tabaraγ-a）。它在一部词典里不重复。
+- 每条结果的词头后面有“链接”二字，点一下复制这个词条的网址。
+- 打开这样的网址，词典替读者查出这个词，把它排在结果最前面。读者改查别的词，地址栏自动换回词典本身的网址。
+- 重新生成词库不影响这些网址，只要词头没变。
+
+**服务器把释义写进网页**（现在只有满汉词典）：访问 `bitig.ink/dict/manhan/abka` 时，服务器把释义直接写在发出的网页里，简介也换成释义的开头。分享链接时能带出释义，搜索引擎不运行程序也读得到。要给别的词典也做，在 `server/pages.js` 开头的 `SSR` 里加一行。
+
+**要不要让搜索引擎收录词条页**：由 `config/site.js` 的 `indexEntries` 决定，现在是 `false`（不让）。改成 `true` 等于把整部词典一页一页公开给搜索引擎，改之前请先确认词典数据的授权。词条页不在 `sitemap.xml` 里。
+
+| 位置 | 作用 |
+| --- | --- |
+| `js/routes.js` | 词条的名字（`dict-manhan/abka`）和网址怎样对应 |
+| `js/dict/core.js` 的 `openKey`、`permalink` | 按词头显示词条；画“链接”二字 |
+| `js/pages/dict.js` | 打开词条的网址时调用 `openKey`，改标题 |
+| `server/pages.js` 的 `entryMeta`、`SSR` | 服务器部分：词条页的标题、简介、写进网页的释义 |
+| `server/dict.js` | 按词头找释义（供上一行使用） |
 
 ### 词典释义
 

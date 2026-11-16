@@ -34,21 +34,24 @@ var SIYI = globalThis.SIYI = {
      见到这一行就用不带 # 的；没有服务器的地方见不到这一行，照旧用带 # 的。 */
   SIYI.clean = typeof document !== 'undefined' && !!document.querySelector('base[data-clean]');
   /* 栏目的名字 → 链接里写的网址。写链接都用它：href="${SIYI.href('texts')}" */
-  SIYI.href = name => (SIYI.clean && SIYI.routes.toPath(name, SIYI.languages)) || '#' + name;
+  SIYI.href = name => (SIYI.clean && SIYI.routes.toPath(name, SIYI.languages)) || SIYI.routes.toHash(name);
   /* 配置里写的网址（config/dictionaries.js 的 url）：以 # 开头的是本站栏目，换成当前用的写法；其余原样 */
   SIYI.link = url => (url && url.charAt(0) === '#' ? SIYI.href(url.slice(1)) : url);
   /* 现在的网址是哪个栏目 */
   SIYI.route = () => SIYI.clean
     ? SIYI.routes.fromPath(location.pathname, SIYI.languages) || 'home'
-    : (location.hash || '#home').slice(1);
+    : SIYI.routes.fromHash(location.hash || '#home');
   /* 一个链接（<a> 元素）指向哪个栏目；不是本站栏目的返回 null */
   SIYI.routeOfLink = a => {
     const raw = a.getAttribute('href') || '';
-    if (raw.charAt(0) === '#') return !SIYI.clean || SIYI.routes.toPath(raw.slice(1), SIYI.languages) ? raw.slice(1) : null;
+    if (raw.charAt(0) === '#') {
+      const name = SIYI.routes.fromHash(raw);
+      return !SIYI.clean || SIYI.routes.toPath(name, SIYI.languages) ? name : null;
+    }
     if (!SIYI.clean || a.origin !== location.origin) return null;
     return SIYI.routes.fromPath(a.pathname, SIYI.languages);
   };
-  /* 另有 SIYI.go(名字)：转到某个栏目，在 js/router.js 里 */
+  /* 另有 SIYI.go(名字)：转到某个栏目；SIYI.replace(名字)：只把地址栏换成那个栏目的网址。都在 js/router.js 里 */
 
   /* 某种语言的原文该怎样排：竖写、转 90° 竖写，还是横写（config/languages.js 的 vertical）。
      返回要加的 class；竖写的 class 名各处不同，由调用的地方给出 */

@@ -89,28 +89,46 @@
       pending = { id, q, inputId };
       if (SIYI.route() === 'dict-' + id) this.show(id); else SIYI.go('dict-' + id);
     },
-    show(id) {
+    /* 显示某部词典。key 是词头：按词条的网址（/dict/manhan/abka）打开时有，这时直接显示那个词条 */
+    show(id, key) {
       if (away) { Object.keys(apps).forEach(k => apps[k].reset()); away = false; }
       if (!cfgOf(id)) id = lastId();
       SIYI.store.set('dict-last', id);
       app(id);
       SIYI.dictConfigs.forEach(c => { $('dx-' + c.id).hidden = c.id !== id; });
-      $('dict-h1').textContent = cfgOf(id).title;
+      // 标题：词条页是“词头 · 词典名”（浏览器标签上的标题由 js/router.js 照它来写）
+      const title = cfgOf(id).title;
+      $('dict-h1').textContent = key ? key + ' · ' + title : title;
       headH(); measure();
       apps[id].show();
       if (pending && pending.id === id) apps[id].query(pending.q, pending.inputId);
+      else if (key) apps[id].openKey(key).then(shown => {
+        // 词库读完、词条显示出来后，把标题里的词头换成正式写法（如 hvwa → hūwa）
+        if (!shown || SIYI.route() !== 'dict-' + id + '/' + key) return;
+        $('dict-h1').textContent = shown + ' · ' + title;
+        document.title = shown + ' · ' + title + ' · ' + SIYI.config.site.title;
+      });
       pending = null;
       // 稍后趁空闲预读其余几部的检索文件，切换过去时不用等
       setTimeout(() => idle(() => SIYI.dictConfigs.forEach(c => app(c.id).prefetch())), 3000);
     }
   };
 
+  /* 按词条的网址打开后，读者改查别的词：地址栏和标题换回词典本身的 */
+  $('v-dict').addEventListener('dx-unpin', () => {
+    const r = SIYI.route(), k = r.indexOf('/');
+    if (k < 0 || r.indexOf('dict-') !== 0) return;
+    const c = cfgOf(r.slice(5, k));
+    SIYI.replace(r.slice(0, k));
+    if (c) { $('dict-h1').textContent = c.title; document.title = c.title + ' · ' + SIYI.config.site.title; }
+  });
+
   /* 还没打开词典时：鼠标移到“词典”或查词链接上，就先读检索文件；首页闲下来也预读上次用的那部 */
   const warm = id => { if (SIYI.dictConfigs && cfgOf(id)) app(id).prefetch(); };
   ['pointerover', 'focusin'].forEach(type => document.addEventListener(type, e => {
     const a = e.target.closest && e.target.closest('a[href]');
     const name = a && SIYI.routeOfLink(a);
-    if (name && /^dict(-|$)/.test(name)) warm(name.slice(5) || lastId());
+    if (name && /^dict(-|$)/.test(name)) warm(name.slice(5).split('/')[0] || lastId());
   }));
   window.addEventListener('load', () => setTimeout(() => idle(() => warm(lastId())), 2500));
 })();

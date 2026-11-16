@@ -337,3 +337,13 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
 @media (max-width: 760px) {
   .dx-sense.tagged { grid-template-columns: 4.2em minmax(0, 1fr); column-gap: 10px; }
 }
+
+/* 词条的固定网址：词头后面的“链接”二字，点一下复制（js/dict/core.js 的 permalink） */
+.dx-permalink { margin-left: .6em; font-family: var(--f-ui); font-size: 12px; font-weight: 400; color: var(--ink-soft); text-decoration: none; white-space: nowrap; opacity: .7; }
+.dx-permalink:hover, .dx-permalink.done { color: var(--lapis); opacity: 1; }
+/* 服务器直接写进网页的释义（server/pages.js）。只在程序运行之前显示一瞬，随后被词典的界面换掉 */
+.dx-ssr { max-width: 46rem; margin: 0 auto; padding: 1.5rem 16px; font-family: var(--f-zh); }
+.dx-ssr h1 { margin: 0; font-family: var(--f-lat); font-size: 1.6rem; }
+.dx-ssr-from { margin: .2rem 0 1rem; color: var(--ink-soft); font-size: .9rem; }
+.dx-ssr dt { margin-top: .8rem; color: var(--ink-soft); font-size: .85rem; }
+.dx-ssr dd { margin: .2rem 0 0; line-height: 1.8; }
