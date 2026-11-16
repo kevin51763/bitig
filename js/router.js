@@ -68,7 +68,11 @@
     if (h === 'materials') return { view: 'v-mats', nav: 'materials', open: P.materials.renderList };
     if (h === 'sayings') return { view: 'v-says', open: P.sayings.renderPage };
     if (h === 'contact') return { view: 'v-contact', open: () => P.contact.render() };
-    if (h === 'dict' || h.startsWith('dict-')) return { view: 'v-dict', nav: 'dict', open: () => P.dict.show(h.slice(5)) };
+    if (h === 'dict' || h.startsWith('dict-')) {
+      // dict-词典名，或 dict-词典名/词头（词典里的一个词条）
+      const k = h.indexOf('/'), id = (k < 0 ? h : h.slice(0, k)).slice(5), key = k < 0 ? '' : h.slice(k + 1);
+      return { view: 'v-dict', nav: 'dict', open: () => P.dict.show(id, key) };
+    }
     return { view: 'v-home', nav: 'home', open: P.home.render };   // 认不出的网址都回首页
   }
 
@@ -118,20 +122,26 @@
 
   /* 转到某个栏目，name 是栏目的名字，如 SIYI.go('dict-manhan') */
   SIYI.go = name => {
-    if (!SIYI.clean) { location.hash = '#' + name; return; }
+    if (!SIYI.clean) { location.hash = SIYI.routes.toHash(name); return; }
     const p = SIYI.routes.toPath(name, SIYI.languages);
-    if (!p || p === location.pathname) return;
+    if (!p || name === SIYI.route()) return;
     history.pushState(null, '', p);
     route();
+  };
+  /* 只把地址栏换成某个栏目的网址，页面不动，也不留浏览记录。
+     词典用它：按词条的网址打开后，读者改查别的词，地址栏就换回词典本身的网址 */
+  SIYI.replace = name => {
+    const u = SIYI.clean ? SIYI.routes.toPath(name, SIYI.languages) : SIYI.routes.toHash(name);
+    if (u) history.replaceState(null, '', u);
   };
 
   if (SIYI.clean) {
     /* 不带 # 的网址（bitig.ink） */
     // 页面骨架和配置里按老写法写的链接（href="#texts"），换成不带 # 的
-    document.querySelectorAll('a[href^="#"]').forEach(a => a.setAttribute('href', SIYI.href(a.getAttribute('href').slice(1))));
+    document.querySelectorAll('a[href^="#"]').forEach(a => a.setAttribute('href', SIYI.href(SIYI.routes.fromHash(a.getAttribute('href')))));
     // 以前公开的带 # 的旧链接（bitig.ink/#dict-manhan）照样能用：换成新网址，不留在浏览记录里
     const adoptHash = () => {
-      const p = location.hash.length > 1 && SIYI.routes.toPath(location.hash.slice(1), SIYI.languages);
+      const p = location.hash.length > 1 && SIYI.routes.toPath(SIYI.routes.fromHash(location.hash), SIYI.languages);
       if (p) history.replaceState(null, '', p);
       return !!p;
     };

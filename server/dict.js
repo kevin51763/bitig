@@ -46,7 +46,7 @@ function ints(s, max, count) {
 module.exports = function (app, dataDir, siteDir) {
   const dir = path.join(siteDir, 'dict', 'data');
   const verFile = path.join(siteDir, 'js', 'dict', 'dictionaries.js');
-  const books = new Map();   // 词典名 → { stamp: 文件的时间和大小, lines: 各词条的释义 }
+  const books = new Map();   // 词典名 → { stamp: 文件的时间和大小, lines: 各词条的释义, keys: 词头 → 第几条 }
   let ver = '', verStamp = '', checked = 0;
 
   /* 文件的时间和大小，用来判断它变没变。文件不存在、或刚改动还没满 2 秒，返回 '' */
@@ -80,12 +80,28 @@ module.exports = function (app, dataDir, siteDir) {
       const s = stampOf(file, now), old = books.get(id);
       if (!s || (old && old.stamp === s)) continue;
       try {
-        books.set(id, { stamp: s, lines: fs.readFileSync(file, 'utf8').split('\n') });
+        const book = { stamp: s, lines: fs.readFileSync(file, 'utf8').split('\n'), keys: new Map() };
+        // 检索文件每行的第一栏是词头：记下“词头 → 第几条”，词条页（server/pages.js）按词头找释义时用
+        fs.readFileSync(path.join(dir, id + '.idx.txt'), 'utf8').split('\n').forEach((line, i) => {
+          const k = line.split('\t')[0];
+          if (k && !book.keys.has(k)) book.keys.set(k, i);
+        });
+        books.set(id, book);
         console.log('[dict] 读入 ' + id + '：' + books.get(id).lines.length + ' 条');
       } catch (e) { console.error('[dict] 读不出 ' + file + '：' + e.message); }
     }
   }
   refresh(true);
+
+  /* 给服务器上别的部分用（server/pages.js 的词条页）：按词头找一个词条的释义。
+     找到返回 { i: 第几条, raw: 释义（词库里的一行） }，没有这部词典或这个词头返回 null */
+  app.locals.bitigDict = {
+    find(id, key) {
+      refresh(false);
+      const b = books.get(id), i = b && b.keys.get(key);
+      return i === undefined || !b ? null : { i, raw: b.lines[i] || '' };
+    },
+  };
 
   /* 找到请求里说的那部词典；找不到或版本不对，就回话并返回 null */
   function bookOf(req, res) {

@@ -463,7 +463,7 @@
         if (C.groupSenses) ss = groupSenses(ss);
         html += '<article class="dx-entry' + (C.noCol ? ' nocol' : '') + (e.i === selected ? ' sel' : '') + '" data-i="' + e.i + '">' +
           (C.noCol ? '' : '<div class="dx-col" lang="' + C.colLang + '">' + esc(C.col(e)) + '</div>') + '<div class="dx-body">' +
-          '<div class="dx-headline">' + C.head(e, c) + '</div>' +
+          '<div class="dx-headline">' + C.head(e, c) + permalink(e) + '</div>' +
           (e.raw != null
             ? ss.map(function (s) {
                 if (s.heading) return '<div class="dx-sgroup">' + esc(s.heading) + '<span>' + s.count + ' 部</span></div>';
@@ -545,8 +545,30 @@
       spineEl.innerHTML = C.spine(ctx({ q: q, top: top, selectedEntry: selected >= 0, def: q && (modeEl.value === 'def' || CJK.test(q)) }));
     }
 
+    /* 按词条的固定网址（/dict/manhan/abka）打开的那个词条：pinQ 是替读者填进输入框的写法，pinI 是词条的序号。
+       输入框里还是这个写法时，这个词条排在结果的最前面；读者一改输入，就不再算“在这个词条的网址上”，
+       通知 js/pages/dict.js 把地址栏换回词典本身的网址 */
+    var pinQ = null, pinI = -1, KEYS = null;
+    function unpin() {
+      if (pinQ === null) return;
+      pinQ = null; pinI = -1;
+      root.dispatchEvent(new CustomEvent('dx-unpin', { bubbles: true }));
+    }
+    // 按词头找词条。词头是检索文件每行的第一栏，在一部词典里不重复
+    function byKey(key) {
+      if (!KEYS) { KEYS = Object.create(null); for (var i = 0; i < E.length; i++) KEYS[E[i].key] = E[i]; }
+      return KEYS[key];
+    }
+    // 词条的固定网址上的“链接”二字：点一下复制网址，随后变成“已复制”
+    var copiedI = -1, copiedTimer = 0;
+    function permalink(e) {
+      return '<a class="dx-permalink' + (e.i === copiedI ? ' done' : '') + '" href="' + esc(SIYI.href('dict-' + C.id + '/' + e.key)) +
+        '" data-i="' + e.i + '" title="这个词条的固定网址，点一下复制">' + (e.i === copiedI ? '已复制' : '链接') + '</a>';
+    }
+
     function run(keepScroll) {
       var q = qEl.value.trim();
+      if (pinQ !== null && q !== pinQ) unpin();
       runId++;   // 每查一次加一：服务器的反查结果回来时，若已不是这一次，就不显示
       clearBtn.hidden = !qEl.value;
       if (!keepScroll) selected = -1;
@@ -576,6 +598,10 @@
     }
     // 显示一次查询的结果。hits 是排好的结果，ms 是用了多少毫秒
     function showHits(hits, q, ms, keepScroll) {
+      // 按固定网址打开的词条排在最前面（查询方式、所选词典不同，它未必本来就在最前）
+      if (pinQ !== null && q === pinQ && (!hits.length || hits[0].i !== pinI)) {
+        hits = [{ i: pinI, score: -1 }].concat(hits.filter(function (h) { return h.i !== pinI; }));
+      }
       lastHits = hits; lastQ = q;
       lastTerms = q.split(/\s+/).filter(Boolean);
       lastMs = ms;
@@ -724,6 +750,22 @@
         setTimeout(function () { cp.textContent = cp.getAttribute('data-label'); }, 1500);
         return;
       }
+      // 点词条的“链接”：复制这个词条的固定网址。随后路由会转到那个网址（js/router.js），所以这里不拦
+      var pl = ev.target.closest('.dx-permalink');
+      if (pl) {
+        if (navigator.clipboard) navigator.clipboard.writeText(pl.href).then(function () {
+          copiedI = +pl.getAttribute('data-i');
+          var a = listEl.querySelector('.dx-permalink[data-i="' + copiedI + '"]');
+          if (a) { a.textContent = '已复制'; a.classList.add('done'); }
+          clearTimeout(copiedTimer);
+          copiedTimer = setTimeout(function () {
+            copiedI = -1;
+            var d = listEl.querySelector('.dx-permalink.done');
+            if (d) { d.textContent = '链接'; d.classList.remove('done'); }
+          }, 1800);
+        }, function () {});
+        return;
+      }
       // 点词条空白处：左栏改显示这个词条
       var art = ev.target.closest('.dx-entry');
       if (art && !window.getSelection().toString()) {
@@ -860,6 +902,24 @@
       prefetch: function () { loadIndex().catch(function () {}); },
       // 替读者填好要查的词并查询（从编辑器里双击一个词过来时用）。inId 是输入方式，如 'mnc'
       query: function (q, inId) { setQuery(q, inId); },
+      /* 按词头直接显示一个词条（按词条的固定网址打开时用）。key 是词库里的写法。
+         等检索文件读完才能找，所以返回一个 Promise：找到了给出填进输入框的写法（正式转写），没找到给出 '' */
+      openKey: function (key) {
+        return loadIndex().then(function () {
+          var e = byKey(key);
+          if (!e) { pinQ = null; pinI = -1; qEl.value = key; run(); return ''; }   // 没有这个词头：照普通查询，显示“没有找到”
+          // 词头的正式写法和输入方式，取自各词典 head() 画出的那个按钮（data-q、data-in）
+          var t = document.createElement('div');
+          t.innerHTML = C.head(e, ctx({ e: e }));
+          var b = t.querySelector('[data-q]'), q = b ? b.getAttribute('data-q') : key;
+          if (b && b.getAttribute('data-in')) setInput(b.getAttribute('data-in'));
+          if (modeEl.value === 'def') modeEl.value = 'smart';
+          pinQ = q; pinI = e.i;
+          qEl.value = q;
+          run();
+          return q;
+        }, function () { return ''; });
+      },
       // 从别的栏目回到词典时调用：清空输入框，结果区回到说明和查询历史
       reset: function () {
         clearTimeout(histTimer); histEditing = false;
