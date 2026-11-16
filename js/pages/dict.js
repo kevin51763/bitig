@@ -101,6 +101,7 @@
       $('dict-h1').textContent = key ? key + ' · ' + title : title;
       headH(); measure();
       apps[id].show();
+      if (!key) apps[id].closeEntry();
       if (pending && pending.id === id) apps[id].query(pending.q, pending.inputId);
       else if (key) apps[id].openKey(key).then(shown => {
         // 词库读完、词条显示出来后，把标题里的词头换成正式写法（如 hvwa → hūwa）
@@ -119,7 +120,7 @@
     const r = SIYI.route(), k = r.indexOf('/');
     if (k < 0 || r.indexOf('dict-') !== 0) return;
     const c = cfgOf(r.slice(5, k));
-    SIYI.replace(r.slice(0, k));
+    SIYI.replace(r.slice(0, k), true);
     if (c) { $('dict-h1').textContent = c.title; document.title = c.title + ' · ' + SIYI.config.site.title; }
   });
 
