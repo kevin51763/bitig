@@ -460,7 +460,9 @@
     /* 一个词条的各个义项。all 为真时不管读者勾选了哪几部词典，全部列出（词卡用） */
     function sensesHtml(e, c, all) {
       if (e.raw == null) return '<div class="dx-wait">释义载入中…</div>';
-      var ss = senses(e).filter(function (s) { return all || enabled[s.d]; });
+      // 只显示读者勾选的那几部词典的释义。词卡上（all 为 true）若勾选的几部都没收这个词，就全部显示，免得卡片是空的
+      var every = senses(e), ss = every.filter(function (s) { return enabled[s.d]; });
+      if (all && !ss.length) ss = every;
       if (C.groupSenses) ss = groupSenses(ss);
       return ss.map(function (s) {
         if (s.heading) return '<div class="dx-sgroup">' + esc(s.heading) + '<span>' + s.count + ' 部</span></div>';
