@@ -21,6 +21,13 @@
   $('nav').innerHTML = links(shown.map(l => ['tool-' + l.id, l.short || l.name]));
   $('nav-right').innerHTML = links([['dict', '词典'], ['texts', '文章'], ['materials', '资料库']]);
   $('foot-name').textContent = site.title;
+  // 管理页的暗门：两秒内连点页脚的网站名 5 下，转到 admin.html（查看留言，要密码）。页面上没有任何提示
+  let taps = 0, tapTimer = 0;
+  $('foot-name').addEventListener('click', () => {
+    clearTimeout(tapTimer);
+    if (++taps >= 5) { taps = 0; location.href = new URL('admin.html', document.baseURI).href; return; }
+    tapTimer = setTimeout(() => { taps = 0; }, 2000);
+  });
   // 页脚的联系方式：问题反馈（要有服务器，见 js/pages/contact.js）和邮箱，config/site.js 里各有开关
   $('foot-meta').innerHTML = [
     site.contact !== false && SIYI.clean ? `<a href="${esc(SIYI.href('contact'))}">问题反馈</a>` : '',
