@@ -338,7 +338,7 @@ a.dx-tabsrc:hover { border-color: var(--seal); }
   .dx-sense.tagged { grid-template-columns: 4.2em minmax(0, 1fr); column-gap: 10px; }
 }
 
-/* 词条的固定网址：词头后面的“链接”二字，点一下复制（js/dict/core.js 的 permalink） */
+/* 词头后面的“分享”二字，点一下打开这个词条的词卡（js/dict/core.js 的 permalink） */
 .dx-permalink { margin-left: .6em; font-family: var(--f-ui); font-size: 12px; font-weight: 400; color: var(--ink-soft); text-decoration: none; white-space: nowrap; opacity: .7; }
 .dx-permalink:hover { color: var(--lapis); opacity: 1; }
 
