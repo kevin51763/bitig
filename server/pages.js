@@ -11,9 +11,10 @@
    另外 /sitemap.xml 在这里按现有的文章、词典、编辑器生成，加了文章不用手改。
 
    词典里的每个词条也有自己的网址（/dict/manhan/abka，词头用词库里的写法）：
-     · 五部词典都认这样的网址，标题换成“词头 · 词典名”，网页打开后由浏览器里的程序显示那个词条。
-     · 下面 SSR 里列出的词典（现在只有满汉），服务器还把释义直接写进网页：
-       分享链接时能带出释义，搜索引擎不运行程序也读得到。词头不存在时回 404。
+     · 五部词典都认这样的网址。标题换成“词头 · 词典名”，简介换成释义的开头，
+       释义也直接写进网页：分享链接时能带出释义，搜索引擎不运行程序也读得到。词头不存在时回 404。
+     · 各部词典的名字、释义在第几栏、词头怎样显示，都读自 js/dict/dictionaries.js
+       （和网页用的是同一份设置，在这里的一个隔离环境里运行，见 loadDicts）。
      · 词条页默认不让搜索引擎收录（网页里加 noindex）。要放开，把 config/site.js 的 indexEntries 改成 true。
        放开前请先确认词典数据的授权：那等于把整部词典一页一页公开给搜索引擎。
 
@@ -27,16 +28,6 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 const routes = require('../js/routes.js');
-const mnc = require('../js/dict/translit-mnc.js');   // 满文转写：词库里的写法 → 正式写法（hvwa → hūwa）
-
-/* 服务器把释义写进网页的词典。每部一行：
-     names    各部分词典的名字，和 js/dict/dictionaries.js 里那部词典的 NAMES 一致
-     def      释义文字在义项的第几栏，和那里的 textFields 一致
-     display  词库里的写法 → 显示的写法
-   要给别的词典也做，在这里加一行即可 */
-const SSR = {
-  manhan: { names: ['满汉大辞典', '新满汉', '满汉和'], def: 3, display: mnc.formal },
-};
 const DESC_LEN = 110;   // 简介里最多放释义开头的多少个字
 
 const CHECK_GAP = 5000;   // 每隔 5 秒才看一次文件有没有变
@@ -53,6 +44,19 @@ module.exports = function (app, dataDir, siteDir) {
     texts: 'content/texts.js',
     dicts: 'js/dict/dictionaries.js',
   };
+  /* 词典的设置（dictionaries.js）运行时要用到的几个文件，按网页里载入的先后排列 */
+  const DICT_FILES = ['js/dict/translit-mnc.js', 'js/dict/translit-mn.js', 'js/converters/tibetan.js', 'js/dict/tibetan-dicts.js', FILES.dicts];
+  /* 运行这几个文件，取出各部词典的设置。它们是给浏览器写的，会往 window 和 SIYI 上放东西，
+     这里给一个只有这两样的隔离环境 */
+  function loadDicts() {
+    const box = { SIYI: { converters: {} } };
+    box.window = box; box.globalThis = box;
+    vm.createContext(box);
+    for (const f of DICT_FILES) vm.runInContext(fs.readFileSync(path.join(siteDir, f), 'utf8'), box, { filename: f, timeout: 3000 });
+    const list = box.SIYI.dictConfigs;
+    if (!Array.isArray(list) || !list.length) throw new Error('没有得到词典的设置（SIYI.dictConfigs）');
+    return list.filter(c => c && typeof c.id === 'string').map(c => ({ id: c.id, title: String(c.title || c.id), conf: c }));
+  }
   /* 现在用的一份：index.html 的内容（已加 <base>），以及文章、语言、词典的清单 */
   let S = { html: '', origin: '', title: 'bitig', tagline: '', indexEntries: false, langs: [], texts: [], dicts: [] };
   let stamp = '', checked = 0;
@@ -72,8 +76,8 @@ module.exports = function (app, dataDir, siteDir) {
     checked = now;
     let s = '';
     try {
-      for (const k in FILES) {
-        const st = fs.statSync(path.join(siteDir, FILES[k]));
+      for (const f of Object.values(FILES).concat(DICT_FILES.slice(0, -1))) {
+        const st = fs.statSync(path.join(siteDir, f));
         if (!first && now - st.mtimeMs < SETTLE) return;   // 还在改，下次再看
         s += st.mtimeMs + ':' + st.size + ';';
       }
@@ -99,14 +103,7 @@ module.exports = function (app, dataDir, siteDir) {
     });
     tryRead(FILES.langs, () => { next.langs = list(readSiyi(FILES.langs).languages); });
     tryRead(FILES.texts, () => { next.texts = list(readSiyi(FILES.texts).texts); });
-    tryRead(FILES.dicts, () => {
-      // 各部词典设置的第一行形如  id: 'manhan', tab: '满汉', title: '满汉词典', …
-      const code = fs.readFileSync(path.join(siteDir, FILES.dicts), 'utf8');
-      const re = /\bid: '([a-z0-9]+)', tab: '[^']*', title: '([^']*)'/g;
-      let m;
-      while ((m = re.exec(code))) next.dicts.push({ id: m[1], title: m[2] });
-      if (!next.dicts.length) throw new Error('没有找到词典的设置（id: …, tab: …, title: …）');
-    });
+    tryRead(FILES.dicts, () => { next.dicts = loadDicts(); });
     S = next; stamp = s;
   }
   refresh(true);
@@ -139,23 +136,38 @@ module.exports = function (app, dataDir, siteDir) {
     const k = name.indexOf('/'), key = name.slice(k + 1);
     const d = S.dicts.find(x => 'dict-' + x.id === name.slice(0, k));
     if (!d) return null;
-    const conf = SSR[d.id], find = app.locals.bitigDict && app.locals.bitigDict.find;
-    // 不在 SSR 里的词典（或词库没读进来）：只换标题，释义由浏览器里的程序去取
-    if (!conf || !find) return { title: key + ' · ' + d.title, noindex: !S.indexEntries };
-    const head = conf.display(key), hit = find(d.id, key);
+    const c = d.conf, find = app.locals.bitigDict && app.locals.bitigDict.find;
+    // 词库没读进来（server/dict.js 没装上）：只换标题，释义由浏览器里的程序去取
+    if (!find) return { title: key + ' · ' + d.title, noindex: !S.indexEntries };
+    let m;
+    // 设置里的函数是给浏览器写的，万一在这里出错，退回只换标题，不让整个页面打不开
+    try { m = entryBody(d, c, key, find(d.id, key, c.shard)); }
+    catch (e) { console.error('[pages] 词条 ' + name + ' 写不出来：' + e.message); m = { title: key + ' · ' + d.title }; }
+    m.noindex = m.noindex || !S.indexEntries;
+    return m;
+  }
+  function entryBody(d, c, key, hit) {
+    const head = c.show ? String(c.show(key)) : key;
     if (!hit) return { title: head + ' · ' + d.title, noindex: true, status: 404 };
-    // 释义里夹着的拉丁字母转写词也换成正式写法，和网页上显示的一致
-    const show = t => String(t || '').replace(/[A-Za-z@][A-Za-z@'_=\-]*[A-Za-z@]|[A-Za-z@]/g, w => conf.display(w));
-    const senses = hit.raw.split('\x1e').map(x => x.split('\x1f')).filter(f => f[conf.def])
-      .map(f => ({ from: conf.names[+f[0] || 0] || '', text: show(f[conf.def]) }));
-    const first = senses.length ? senses[0].text.replace(/\s+/g, ' ').trim() : '';
+    const fields = Array.isArray(c.textFields) ? c.textFields : [];
+    const senses = hit.raw.split('\x1e').map(x => x.split('\x1f')).map(f => ({
+      from: ((c.dicts || [])[+f[0] || 0] || {}).name || '',
+      text: String(c.plain ? c.plain(f) : fields.map(n => f[n]).filter(Boolean).join(' ')).replace(/\s+/g, ' ').trim(),
+    })).filter(x => x.text);
+    // 词头的原文：有原文栏的词典用 col，没有的（藏文）用 script
+    const e = { i: hit.i, key, script: '' };
+    const script = c.noCol ? (c.script ? String(c.script(e)) : '') : (c.col ? String(c.col(e)) : '');
+    const lang = c.noCol ? (c.scriptLang || '') : (c.colLang || '');
+    const first = senses.length ? senses[0].text : '';
     return {
       title: head + ' · ' + d.title,
       desc: first ? head + '：' + (first.length > DESC_LEN ? first.slice(0, DESC_LEN) + '…' : first) : undefined,
-      noindex: !S.indexEntries,
-      // 写进网页的释义。浏览器里的程序一运行，这一块就被词典的界面换掉（js/pages/dict.js 的 build）
-      body: '<div class="dx-ssr"><h1>' + esc(head) + '</h1><p class="dx-ssr-from">' + esc(d.title) + '</p><dl>' +
-        senses.map(x => '<dt>' + esc(x.from) + '</dt><dd>' + esc(x.text) + '</dd>').join('') + '</dl></div>',
+      /* 写进网页的释义，排成词卡的样子（样式在 css/dict.css 的“词卡”）。
+         浏览器里的程序一运行，这一块就被词典自己画的词卡换掉（js/pages/dict.js 的 build） */
+      body: '<div class="dx-ssr"><article class="dx-card' + (script ? '' : ' noscript') + (lang === 'bo' ? ' across' : '') + '">' +
+        (script ? '<div class="dx-card-script' + (script.length > 24 ? ' long' : '') + '" lang="' + esc(lang) + '">' + esc(script) + '</div>' : '') +
+        '<div class="dx-card-body"><div class="dx-card-dict">' + esc(d.title) + '</div><h1>' + esc(head) + '</h1><dl>' +
+        senses.map(x => '<dt>' + esc(x.from) + '</dt><dd>' + esc(x.text) + '</dd>').join('') + '</dl></div></article></div>',
     };
   }
 

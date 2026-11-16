@@ -128,11 +128,11 @@
     history.pushState(null, '', p);
     route();
   };
-  /* 只把地址栏换成某个栏目的网址，页面不动，也不留浏览记录。
+  /* 只把地址栏换成某个栏目的网址，页面不动，默认也不留浏览记录。
      词典用它：按词条的网址打开后，读者改查别的词，地址栏就换回词典本身的网址 */
-  SIYI.replace = name => {
+  SIYI.replace = (name, keep) => {
     const u = SIYI.clean ? SIYI.routes.toPath(name, SIYI.languages) : SIYI.routes.toHash(name);
-    if (u) history.replaceState(null, '', u);
+    if (u) history[keep ? 'pushState' : 'replaceState'](null, '', u);   // keep 为 true 时留一条浏览记录，按“后退”能回到词卡
   };
 
   if (SIYI.clean) {

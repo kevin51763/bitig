@@ -5,12 +5,22 @@
    VER 这一行的写法不要变：bitig.ink 的服务器（server/dict.js）也读它，用来核对词库的版本。
 
    每部词典设置里的 textFields：sense 里哪几栏是释义文字（释义反查就在这几栏里找），
-   写栏的序号，和 sense 里 f[…] 的序号一致。如满汉词典 def 是 f[3]，就写 [3]。 */
+   写栏的序号，和 sense 里 f[…] 的序号一致。如满汉词典 def 是 f[3]，就写 [3]。
+
+   词条页（一个词条单独的网址，如 /dict/manhan/abka）还用到三项，服务器（server/pages.js）把释义写进网页时也读它们：
+     show(key)   词头在词库里的写法 → 显示的写法（hvwa → hūwa）
+     plain(f)    一个义项的释义，写成不带任何标记的文字。不写就把 textFields 那几栏连起来
+     script(e)   词头的原文。有左边原文栏的词典用 col(e)，不必写；没有的（藏文）才写
+   这个文件服务器也要运行，所以最外层不能用 document 等浏览器才有的东西（函数里面用不要紧）。 */
 (function () {
   var VER = '?v=2026110709';
   // 栗林均词典的官网：词典页左上角点“栗林均词典”即打开
   var KURI = 'http://hkuri.cneas.tohoku.ac.jp/';
   var MNC = window.MNC, MN = window.MN;
+  // 释义里夹着的拉丁字母转写词，换成正式写法（给 plain 用，和 core.js 的 linkWords 认词的办法一致）
+  function latinWords(text, lang) {
+    return String(text || '').replace(/[A-Za-z@][A-Za-z@'_=\-]*[A-Za-z@]|[A-Za-z@]/g, function (w) { return lang.display(w); });
+  }
 
   /* ---------- 转写规则表（词典顶栏“转写规则”按钮打开） ----------
      每格上面是原文字母，中间是转写，下面是说明（如可代用的打法）。
@@ -68,6 +78,8 @@
       sense: function (f) { return { d: f[0], hom: f[1], page: f[2], def: f[3] }; },
       looseOf: function (e) { return [{ r: e.key }]; },
       textFields: [3],
+      show: function (key) { return D(key); },
+      plain: function (f) { return latinWords(f[3], MNC); },
       head: function (e, c) {
         var d = D(e.key);
         return '<button type="button" class="dx-tl" data-q="' + c.H.esc(d) + '" data-in="mnc">' + c.H.markDisplay(MNC, d, c.q) + '</button>';
@@ -113,6 +125,7 @@
       sense: function (f) { return { d: f[0], hom: f[1], page: f[2], def: f[3], ipa: f[4], cyr: f[5] }; },
       looseOf: function (e) { return e.key.split('～').map(function (r) { return { r: r.trim() }; }); },
       textFields: [3],
+      show: function (key) { return D(key); },
       loaded: function (E) { E.forEach(function (e) { var k = normSc(col(e)); if (!(k in INDEX)) INDEX[k] = e.key; }); },
       head: function (e, c) {
         var d = D(e.key), ss = c.H.senses(e);
@@ -173,6 +186,7 @@
       sense: function (f) { return { d: f[0], hom: f[1], raw: f[2], zh: f[3], mnc: f[4], page: f[5] }; },
       looseOf: function (e, id, alts) { return id === 'mn' ? [{ r: e.key }] : alts(e); },
       textFields: [3],
+      show: function (key) { return MN.display(key); },
       head: function (e, c) {
         var d = MN.display(e.key);
         return '<button type="button" class="dx-tl" data-q="' + c.H.esc(d) + '" data-in="mn">' +
@@ -238,6 +252,7 @@
       sense: function (f) { return { d: f[0], hom: f[1], raw: f[2], zh: f[3], mn: f[4], expl: f[5], page: f[6], cyr: f[7] }; },
       looseOf: function (e, id, alts) { return id === 'mnc' ? [{ r: e.key }] : alts(e); },
       textFields: [3, 5],
+      show: function (key) { return D(key); },
       head: function (e, c) {
         var d = D(e.key);
         return '<button type="button" class="dx-tl" data-q="' + c.H.esc(d) + '" data-in="mnc">' +
@@ -331,6 +346,11 @@
       sense: function (f) { return { d: f[0], def: f[1] }; },
       looseOf: function (e) { return [{ r: e.key }]; },
       textFields: [1],
+      show: function (key) { return key; },
+      // 释义里 {威利} 是藏文，写成藏文字；\n 是换行，这里换成空格
+      plain: function (f) { return String(f[1] || '').replace(/\{([^}]*)\}/g, function (m, w) { return BOC.toScript(w); }).replace(/\\n/g, ' '); },
+      script: function (e) { return BOC.toScript(e.key); },
+      scriptLang: 'bo',
       head: function (e, c) {
         return '<span class="dx-bo" lang="bo">' + c.H.esc(BOC.toScript(e.key)) + '</span>' +
           '<button type="button" class="dx-tl" data-q="' + c.H.esc(e.key) + '" data-in="bo">' + c.H.markDisplay(BO, e.key, c.q) + '</button>';

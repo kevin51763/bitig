@@ -93,13 +93,48 @@ module.exports = function (app, dataDir, siteDir) {
   }
   refresh(true);
 
-  /* 给服务器上别的部分用（server/pages.js 的词条页）：按词头找一个词条的释义。
+  /* 释义分成小份的词典（藏文）：释义不读进内存，用到哪一份才从硬盘读哪一份。
+     检索文件等第一次有人访问它的词条页才读，而且只原样留着（十几 MB），不拆成“词头 → 第几条”的表：
+     三十多万个词头拆开要多占一百 MB 内存。找一个词头时在整份文件里搜，再数它在第几行，一次十几毫秒 */
+  const sharded = new Map();   // 词典名 → { stamp, buf: 检索文件的内容 }
+  function shardedIndex(id, key) {
+    const file = path.join(dir, id + '.idx.txt'), s = stampOf(file, Date.now());
+    let book = sharded.get(id);
+    if (!book || (s && book.stamp !== s)) {
+      if (!s) return -1;
+      try { book = { stamp: s, buf: fs.readFileSync(file) }; sharded.set(id, book); }
+      catch (e) { console.error('[dict] 读不出 ' + file + '：' + e.message); return -1; }
+    }
+    // 每行是“词头<Tab>…”。找“换行 + 词头 + Tab”；第一行前面没有换行，单独看
+    const buf = book.buf, head = Buffer.from(key + '\t');
+    let at = buf.subarray(0, head.length).equals(head) ? 0 : buf.indexOf(Buffer.concat([Buffer.from('\n'), head]));
+    if (at < 0) return -1;
+    let line = 0;
+    for (let k = 0; k <= at; k++) if (buf[k] === 10) line++;
+    return line;
+  }
+
+  /* 给服务器上别的部分用（server/pages.js 的词条页）：按词头找一个词条。
+     shard 是那部词典每一份有多少条（js/dict/dictionaries.js 里的 shard），不分份的词典不用给。
      找到返回 { i: 第几条, raw: 释义（词库里的一行） }，没有这部词典或这个词头返回 null */
   app.locals.bitigDict = {
-    find(id, key) {
+    find(id, key, shard) {
+      if (!/^[a-z0-9]+$/.test(id)) return null;
       refresh(false);
-      const b = books.get(id), i = b && b.keys.get(key);
-      return i === undefined || !b ? null : { i, raw: b.lines[i] || '' };
+      const b = books.get(id);
+      if (b) {
+        const i = b.keys.get(key);
+        return i === undefined ? null : { i, raw: b.lines[i] || '' };
+      }
+      if (!shard) return null;
+      if (/[\t\n]/.test(key)) return null;
+      const i = shardedIndex(id, key);
+      if (i < 0) return null;
+      try {
+        // 第 i 条在第 floor(i / shard) 份里，文件名是四位数字（见 js/dict/core.js 的 ensureRaw）
+        const n = Math.floor(i / shard), name = String(n).padStart(4, '0') + '.txt';
+        return { i, raw: fs.readFileSync(path.join(dir, id, name), 'utf8').split('\n')[i - n * shard] || '' };
+      } catch (e) { console.error('[dict] 读不出 ' + id + ' 的释义：' + e.message); return null; }
     },
   };
 

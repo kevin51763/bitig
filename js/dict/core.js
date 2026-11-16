@@ -112,10 +112,12 @@
         '<div class="dx-legend" role="dialog" aria-label="转写规则">' + C.legend + '</div>' +
       '</div>' +
       '<div class="dx-main' + (C.twoPanes ? ' two' : '') + '"><aside class="dx-spine" aria-label="原文"></aside>' +
-        '<section class="dx-results" aria-live="polite"><div class="dx-status">正在载入词库…</div><div class="dx-list"></div></section></div>';
+        '<section class="dx-results" aria-live="polite"><div class="dx-status">正在载入词库…</div><div class="dx-list"></div></section></div>' +
+      // 词卡：按词条的固定网址打开时，只显示这一个词条（见下面的 drawCard）
+      '<div class="dx-cardwrap" hidden></div>';
     var q$ = function (sel) { return root.querySelector(sel); };
     var qEl = q$('.dx-q'), modeEl = q$('.dx-mode'), listEl = q$('.dx-list'), statusEl = q$('.dx-status');
-    var spineEl = q$('.dx-spine'), resultsEl = q$('.dx-results'), clearBtn = q$('.dx-clear');
+    var spineEl = q$('.dx-spine'), resultsEl = q$('.dx-results'), clearBtn = q$('.dx-clear'), cardEl = q$('.dx-cardwrap');
 
     // ---------- 数据 ----------
     var E = [];            // 词头 { i, key, script, mask, alt, raw（释义原文，读入后才有）, senses }
@@ -455,21 +457,24 @@
     }
 
     // ---------- 显示 ----------
+    /* 一个词条的各个义项。all 为真时不管读者勾选了哪几部词典，全部列出（词卡用） */
+    function sensesHtml(e, c, all) {
+      if (e.raw == null) return '<div class="dx-wait">释义载入中…</div>';
+      var ss = senses(e).filter(function (s) { return all || enabled[s.d]; });
+      if (C.groupSenses) ss = groupSenses(ss);
+      return ss.map(function (s) {
+        if (s.heading) return '<div class="dx-sgroup">' + esc(s.heading) + '<span>' + s.count + ' 部</span></div>';
+        return '<div class="dx-sense' + (C.dicts[s.d].abbr ? ' tagged' : '') + '">' + H.seal(s.d) + '<div>' + C.senseHtml(s, c) + '</div></div>';
+      }).join('');
+    }
     function renderEntries(from, to) {
       var html = '';
       for (var r = from; r < to; r++) {
         var e = E[lastHits[r].i], c = ctx({ e: e });
-        var ss = senses(e).filter(function (s) { return enabled[s.d]; });
-        if (C.groupSenses) ss = groupSenses(ss);
         html += '<article class="dx-entry' + (C.noCol ? ' nocol' : '') + (e.i === selected ? ' sel' : '') + '" data-i="' + e.i + '">' +
           (C.noCol ? '' : '<div class="dx-col" lang="' + C.colLang + '">' + esc(C.col(e)) + '</div>') + '<div class="dx-body">' +
           '<div class="dx-headline">' + C.head(e, c) + permalink(e) + '</div>' +
-          (e.raw != null
-            ? ss.map(function (s) {
-                if (s.heading) return '<div class="dx-sgroup">' + esc(s.heading) + '<span>' + s.count + ' 部</span></div>';
-                return '<div class="dx-sense' + (C.dicts[s.d].abbr ? ' tagged' : '') + '">' + H.seal(s.d) + '<div>' + C.senseHtml(s, c) + '</div></div>';
-              }).join('')
-            : '<div class="dx-wait">释义载入中…</div>') +
+          sensesHtml(e, c, false) +
           '</div></article>';
       }
       return html;
@@ -523,6 +528,7 @@
       var from = page * PAGE, to = Math.min(from + PAGE, lastHits.length);
       listEl.innerHTML = renderEntries(from, to) + pager();
       foldLong();
+      drawCard();   // 词卡开着时跟着重画（比如释义刚读到）
       if (C.shard || remote) {
         // 这一页还缺释义的，读入所在的几份（或向服务器要）后重画（期间若已换页、换词就不管了）
         var hits = lastHits, pg = page;
@@ -546,13 +552,36 @@
     }
 
     /* 按词条的固定网址（/dict/manhan/abka）打开的那个词条：pinQ 是替读者填进输入框的写法，pinI 是词条的序号。
-       输入框里还是这个写法时，这个词条排在结果的最前面；读者一改输入，就不再算“在这个词条的网址上”，
-       通知 js/pages/dict.js 把地址栏换回词典本身的网址 */
+       这时词典不显示输入框和结果列表，只显示一张词卡（drawCard），上面是这一个词条。
+       读者点“在词典里查这个词”、点释义里的词，或者输入框里的内容变了，就回到平常的样子（unpin），
+       并通知 js/pages/dict.js 把地址栏换回词典本身的网址 */
     var pinQ = null, pinI = -1, KEYS = null;
-    function unpin() {
+    function unpin(quiet) {
       if (pinQ === null) return;
       pinQ = null; pinI = -1;
-      root.dispatchEvent(new CustomEvent('dx-unpin', { bubbles: true }));
+      root.classList.remove('dx-card-on');
+      cardEl.hidden = true; cardEl.innerHTML = '';
+      if (!quiet) root.dispatchEvent(new CustomEvent('dx-unpin', { bubbles: true }));
+    }
+    /* 词卡：左边（藏文在上边）是大字的原文，右边是词典名、词头、各部词典的释义，底下两个按钮。
+       释义还没读到时先写“释义载入中…”，读到后 drawList 会再画一遍 */
+    function drawCard() {
+      if (pinQ === null) return;
+      var e = E[pinI], c = ctx({ e: e });
+      var script = C.noCol ? (C.script ? C.script(e) : '') : C.col(e);
+      var lang = C.noCol ? (C.scriptLang || '') : C.colLang;
+      var url = new URL(SIYI.href('dict-' + C.id + '/' + e.key), document.baseURI).href;
+      cardEl.innerHTML = '<article class="dx-card' + (script ? '' : ' noscript') + (lang === 'bo' ? ' across' : '') + '">' +
+        (script ? '<div class="dx-card-script' + (script.length > 24 ? ' long' : '') + '" lang="' + esc(lang) + '">' + esc(script) + '</div>' : '') +
+        '<div class="dx-card-body">' +
+          '<div class="dx-card-dict">' + esc(C.title) + '</div>' +
+          '<div class="dx-headline">' + C.head(e, c) + '</div>' +
+          sensesHtml(e, c, true) +
+          '<div class="dx-card-foot"><button type="button" class="dx-btn dx-card-back">在词典里查这个词</button>' +
+            '<button type="button" class="dx-btn dx-copy" data-copy="' + esc(url) + '" data-label="复制链接">复制链接</button></div>' +
+        '</div></article>';
+      cardEl.hidden = false;
+      root.classList.add('dx-card-on');
     }
     // 按词头找词条。词头是检索文件每行的第一栏，在一部词典里不重复
     function byKey(key) {
@@ -750,6 +779,8 @@
         setTimeout(function () { cp.textContent = cp.getAttribute('data-label'); }, 1500);
         return;
       }
+      // 词卡上的“在词典里查这个词”：收起词卡，回到平常的样子，结果里仍是这个词
+      if (ev.target.closest('.dx-card-back')) { unpin(); run(true); qEl.focus(); return; }
       // 点词条的“链接”：复制这个词条的固定网址。随后路由会转到那个网址（js/router.js），所以这里不拦
       var pl = ev.target.closest('.dx-permalink');
       if (pl) {
@@ -902,7 +933,9 @@
       prefetch: function () { loadIndex().catch(function () {}); },
       // 替读者填好要查的词并查询（从编辑器里双击一个词过来时用）。inId 是输入方式，如 'mnc'
       query: function (q, inId) { setQuery(q, inId); },
-      /* 按词头直接显示一个词条（按词条的固定网址打开时用）。key 是词库里的写法。
+      // 收起词卡（从词条的网址转到词典本身的网址时用）。地址栏已经换过了，所以不再通知
+      closeEntry: function () { if (pinQ !== null) { unpin(true); run(true); } },
+      /* 按词头直接显示一个词条（按词条的固定网址打开时用），显示成一张词卡。key 是词库里的写法。
          等检索文件读完才能找，所以返回一个 Promise：找到了给出填进输入框的写法（正式转写），没找到给出 '' */
       openKey: function (key) {
         return loadIndex().then(function () {
@@ -917,6 +950,7 @@
           pinQ = q; pinI = e.i;
           qEl.value = q;
           run();
+          drawCard();
           return q;
         }, function () { return ''; });
       },
