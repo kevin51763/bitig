@@ -577,8 +577,9 @@
           '<div class="dx-card-dict">' + esc(C.title) + '</div>' +
           '<div class="dx-headline">' + C.head(e, c) + '</div>' +
           sensesHtml(e, c, true) +
-          '<div class="dx-card-foot"><button type="button" class="dx-btn dx-card-back">在词典里查这个词</button>' +
-            '<button type="button" class="dx-btn dx-copy" data-copy="' + esc(url) + '" data-label="复制链接">复制链接</button></div>' +
+          '<div class="dx-card-foot"><button type="button" class="dx-card-save">保存为图片</button>' +
+            '<button type="button" class="dx-copy" data-copy="' + esc(url) + '" data-label="复制链接">复制链接</button>' +
+            '<button type="button" class="dx-card-back">在词典里查这个词</button></div>' +
         '</div></article>';
       cardEl.hidden = false;
       root.classList.add('dx-card-on');
@@ -588,11 +589,37 @@
       if (!KEYS) { KEYS = Object.create(null); for (var i = 0; i < E.length; i++) KEYS[E[i].key] = E[i]; }
       return KEYS[key];
     }
-    // 词条的固定网址上的“链接”二字：点一下复制网址，随后变成“已复制”
-    var copiedI = -1, copiedTimer = 0;
+    // 词头后面的“分享”二字：点一下打开这个词条的词卡（是个普通链接，由 js/router.js 转过去）
     function permalink(e) {
-      return '<a class="dx-permalink' + (e.i === copiedI ? ' done' : '') + '" href="' + esc(SIYI.href('dict-' + C.id + '/' + e.key)) +
-        '" data-i="' + e.i + '" title="这个词条的固定网址，点一下复制">' + (e.i === copiedI ? '已复制' : '链接') + '</a>';
+      return '<a class="dx-permalink" href="' + esc(SIYI.href('dict-' + C.id + '/' + e.key)) + '" title="打开这个词的词卡，可以复制链接或保存为图片">分享</a>';
+    }
+    // 词卡存成图片（js/dict/card-image.js 画）。电脑上直接下载；手机上把图片摆出来，长按保存，微信里也能用
+    function saveCard(btn) {
+      var card = cardEl.querySelector('.dx-card'), e = E[pinI];
+      if (!card || !e || !SIYI.cardImage) return;
+      var url = new URL(SIYI.href('dict-' + C.id + '/' + e.key), document.baseURI);
+      var done = function (t) { btn.textContent = t; setTimeout(function () { btn.textContent = '保存为图片'; }, 1500); };
+      var canvas;
+      try { canvas = SIYI.cardImage(card, { skip: '.dx-card-foot', note: decodeURI(url.host + url.pathname + url.hash) }); }
+      catch (err) { done('无法生成图片'); return; }
+      canvas.toBlob(function (blob) {
+        if (!blob) { done('无法生成图片'); return; }
+        var src = URL.createObjectURL(blob);
+        if (window.matchMedia('(pointer: coarse)').matches) {
+          var box = document.createElement('div');
+          box.className = 'dx-shot';
+          box.innerHTML = '<p>长按图片保存</p><img alt="词卡图片"><button type="button">关闭</button>';
+          box.querySelector('img').src = src;
+          box.addEventListener('click', function (ev) { if (ev.target.tagName !== 'IMG') { box.remove(); URL.revokeObjectURL(src); } });
+          document.body.appendChild(box);
+          return;
+        }
+        var a = document.createElement('a');
+        a.href = src; a.download = 'bitig-' + C.title + '-' + (C.show ? C.show(e.key) : e.key).replace(/[\\/:*?"<>|]/g, '_') + '.png';
+        document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(function () { URL.revokeObjectURL(src); }, 5000);
+        done('已保存');
+      }, 'image/png');
     }
 
     function run(keepScroll) {
@@ -781,22 +808,9 @@
       }
       // 词卡上的“在词典里查这个词”：收起词卡，回到平常的样子，结果里仍是这个词
       if (ev.target.closest('.dx-card-back')) { unpin(); run(true); qEl.focus(); return; }
-      // 点词条的“链接”：复制这个词条的固定网址。随后路由会转到那个网址（js/router.js），所以这里不拦
-      var pl = ev.target.closest('.dx-permalink');
-      if (pl) {
-        if (navigator.clipboard) navigator.clipboard.writeText(pl.href).then(function () {
-          copiedI = +pl.getAttribute('data-i');
-          var a = listEl.querySelector('.dx-permalink[data-i="' + copiedI + '"]');
-          if (a) { a.textContent = '已复制'; a.classList.add('done'); }
-          clearTimeout(copiedTimer);
-          copiedTimer = setTimeout(function () {
-            copiedI = -1;
-            var d = listEl.querySelector('.dx-permalink.done');
-            if (d) { d.textContent = '链接'; d.classList.remove('done'); }
-          }, 1800);
-        }, function () {});
-        return;
-      }
+      var sv = ev.target.closest('.dx-card-save');
+      if (sv) { saveCard(sv); return; }
+      if (ev.target.closest('.dx-permalink')) return;   // “分享”是普通链接，路由会转到词卡
       // 点词条空白处：左栏改显示这个词条
       var art = ev.target.closest('.dx-entry');
       if (art && !window.getSelection().toString()) {
