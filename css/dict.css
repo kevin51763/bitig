@@ -104,6 +104,7 @@ body.in-dict .site-foot { display: none; }
 .dx-v { writing-mode: vertical-lr; font-family: var(--f-mong); font-size: 50px; line-height: 1.3; max-height: 100%; }
 .dx-main.two .dx-v { font-size: 40px; }
 .dx-empty { writing-mode: vertical-lr; font-size: 14px; letter-spacing: .3em; color: var(--scroll-soft); }
+html:lang(en) .dx-empty { writing-mode: horizontal-tb; letter-spacing: .04em; line-height: 1.5; }   /* 英文界面：这句提示横着写 */
 .dx-foot { border-top: 1px solid var(--scroll-rule); padding: 10px 16px 14px; font-size: 13px; color: var(--scroll-soft); }
 .dx-tl { font-family: var(--latin); }
 .dx-foot .dx-tl { font-size: 16px; color: var(--scroll-ink); word-break: break-word; line-height: 1.3; }

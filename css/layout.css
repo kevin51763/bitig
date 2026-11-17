@@ -26,6 +26,10 @@
 .nav a { color: var(--ink-soft); text-decoration: none; font-size: .9rem; padding: .3rem .6rem; border-radius: 5px; white-space: nowrap; }
 .nav a:hover { color: var(--ink); background: var(--paper); }
 .nav a[aria-current="page"] { color: var(--sheet); background: var(--lapis); }
+/* 界面语言的按钮（中文 / EN），在页头最右边 */
+.lang-switch { flex: none; margin-left: -.6rem; font: inherit; font-family: var(--f-ui); font-size: .8rem; line-height: 1.4; padding: .2rem .55rem; cursor: pointer; white-space: nowrap;
+  color: var(--ink-soft); background: none; border: 1px solid var(--rule); border-radius: 5px; }
+.lang-switch:hover { color: var(--ink); border-color: var(--ink-soft); }
 /* 导航放不下时（由 js/router.js 判断），右边缘淡出，提示还能往左滑 */
 .site-head.scrolls::after { content: ""; position: absolute; top: env(safe-area-inset-top, 0px); right: 0; bottom: 0; width: 2.5rem; pointer-events: none;
   background: linear-gradient(to right, transparent, var(--sheet)); }

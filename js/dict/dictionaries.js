@@ -300,7 +300,7 @@
     var GROUP = { en: { seal: '英', color: 0 }, tib: { seal: '藏', color: 1 }, skt: { seal: '梵', color: 2 } };
     var DICTS = (SIYI.tibetanDicts || []).map(function (d) {
       return { name: d.name, group: d.group, about: d.about, seal: GROUP[d.group].seal, color: GROUP[d.group].color,
-        abbr: d.abbr, sub: d.sub, zh: d.zh, rank: d.rank };
+        abbr: d.abbr, sub: d.sub, zh: SIYI.ui === 'en' ? '' : d.zh, rank: d.rank };   // 英文界面不显示中文说明
     });
     // 释义里 {威利} 是藏文：写成藏文字，短的可点击查询；\n 换行
     function defHtml(def, H) {
