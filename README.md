@@ -27,6 +27,7 @@ admin.html            查看读者留言的页面（bitig.ink/admin.html，要�
 og.png                分享链接时显示的预览图（1200×630）
 favicon.ico、favicon-96.png、icon-192.png、apple-touch-icon.png
                       网站的小图标（红底白色的 b），几种大小。平时不用动
+manifest.webmanifest  装到手机主屏幕时用的名字、图标和底色。平时不用动（见“八、其他说明”）
 robots.txt、sitemap.xml  给搜索引擎看的说明和网址清单。平时不用动（bitig.ink 上的网址清单由服务器自动生成）
 
 config/               网站的设置
@@ -249,6 +250,8 @@ python3 dict/tools/build_tibetan.py /tmp/tibdict
 ### 改配色和字体
 
 颜色和字体都集中在 `css/theme.css`。每个颜色后面都注明了用在哪里。深色模式（读者的系统设为深色时）的颜色在同一个文件的下半部分，只有一份。
+
+换了页头的底色（`--sheet`），`index.html` 开头两行 `theme-color` 也要跟着改：一行是浅色，一行是深色。手机浏览器的地址栏和状态栏用的是它们。
 
 ### 编辑器里的悬停释义
 
@@ -575,6 +578,7 @@ GitHub Pages 上的副本和本地预览没有服务器。那里网址带 `#`，
 
 - 编辑器里打的字、改过的读法，存在读者自己的浏览器里，不会上传，也不会互相看见。
 - 网站不连接任何外部服务。字体都在 `fonts/` 里，访问计数记在自己的服务器上。
+- 装到手机上：在 iPhone 的 Safari 里打开 bitig.ink，点底部的“分享”按钮，选“添加到主屏幕”，主屏幕上就有一个 bitig 图标，点开没有地址栏，用起来像一个 App。它读的仍是网站本身，网站更新了，它也跟着更新，不用另外安装。没有网络时打不开。图标下面的名字、打开时的底色写在 `manifest.webmanifest` 里，改的话照原样改引号里的字；这个文件不能写注释，也不能多逗号或少逗号。安卓手机的 Chrome 也能这样装（菜单里的“添加到主屏幕”或“安装应用”）。
 - 搜索引擎：`index.html` 开头有一行必应的站长验证（`msvalidate.01`），不能删。以后登记别的搜索引擎，把它给的那一行 `<meta …>` 加在旁边。
 - 字体来源：Noto 系列与 Gentium Book Plus 均为 SIL Open Font License 开源字体。
 - 词典数据：满汉、蒙汉、蒙汉满、清文鉴来自栗林均词典，藏文来自 Christian Steinert 藏文词典。各词典版权属于原作者。

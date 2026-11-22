@@ -7,7 +7,10 @@
 <!-- 搜索结果里的摘要，以及分享链接时的标题、摘要和预览图（og.png）。
      og:url、og:image 要写完整网址；以后换了网址（如绑定自己的域名），这三处一起改。 -->
 <meta name="description" content="bitig：回鹘文、满文、蒙古文、藏文、察合台文的原文与拉丁转写对照，附满汉、蒙汉、蒙汉满词典，以及文章、资料和名句。">
-<meta name="theme-color" content="#fbfbf8">
+<!-- 页头的底色。手机浏览器的地址栏、装到主屏幕后顶上的状态栏会跟着它变色。
+     两个值分别对应 css/theme.css 里浅色和深色的 --sheet，改配色时一起改 -->
+<meta name="theme-color" content="#fbfbf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#181c21" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://bitig.ink/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="bitig">
@@ -29,6 +32,13 @@
 <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- 装到手机主屏幕：在 iPhone 的 Safari 里点“分享”→“添加到主屏幕”，网站就像一个 App，
+     有自己的图标，打开时没有地址栏。名字、图标、底色写在 manifest.webmanifest 里；
+     下面两行是 iPhone 另外要看的：主屏幕图标下面的名字，以及全屏打开 -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="bitig">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <!-- 这个文件只是页面的骨架。要改文字和内容，请看 config/ 和 content/ 两个文件夹；详见 README.md
      下面每个文件名后的 ?v=日期 是版本号：改过任何文件后，把所有 ?v= 后面的数字一起改成新日期，
      读者的浏览器就会重新下载，而不是沿用旧文件。 -->
