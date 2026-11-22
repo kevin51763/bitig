@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 网站图标的原稿：米色圆角方块上一个黑色的 b，竖笔顶端斜切。
+       favicon.ico、favicon-96.png、icon-192.png、apple-touch-icon.png 都由它导出。
+       改颜色就改下面的 fill：第一个是底色，后两个是 b 的颜色 -->
+  <rect width="512" height="512" rx="116" fill="#f3ecdc"/>
+  <!-- b 的竖笔 -->
+  <path fill="#1b2024" d="M124 318 L124 132 Q124 114 140 105 L188 78 Q200 72 200 86 L200 318 Z"/>
+  <!-- b 的圆肚，中间挖空 -->
+  <path fill="#1b2024" fill-rule="evenodd" d="M258 186 A132 132 0 1 1 257.9 186 Z M258 264 A54 54 0 1 0 258.1 264 Z"/>
+</svg>

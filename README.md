@@ -25,8 +25,9 @@ bitig，古突厥语、回鹘语，意为文字、书籍、碑文。
 index.html            页面骨架，载入全部样式和程序。平时不用动
 admin.html            查看读者留言的页面（bitig.ink/admin.html，要密码）
 og.png                分享链接时显示的预览图（1200×630）
+logo.svg              网站小图标的原稿（米色底黑色的 b）。平时不用动
 favicon.ico、favicon-96.png、icon-192.png、apple-touch-icon.png
-                      网站的小图标（红底白色的 b），几种大小。平时不用动
+                      由 logo.svg 导出的几种大小。平时不用动；换图标的做法见“八、其他说明”
 manifest.webmanifest  装到手机主屏幕时用的名字、图标和底色。平时不用动（见“八、其他说明”）
 robots.txt、sitemap.xml  给搜索引擎看的说明和网址清单。平时不用动（bitig.ink 上的网址清单由服务器自动生成）
 
@@ -579,6 +580,15 @@ GitHub Pages 上的副本和本地预览没有服务器。那里网址带 `#`，
 - 编辑器里打的字、改过的读法，存在读者自己的浏览器里，不会上传，也不会互相看见。
 - 网站不连接任何外部服务。字体都在 `fonts/` 里，访问计数记在自己的服务器上。
 - 装到手机上：在 iPhone 的 Safari 里打开 bitig.ink，点底部的“分享”按钮，选“添加到主屏幕”，主屏幕上就有一个 bitig 图标，点开没有地址栏，用起来像一个 App。它读的仍是网站本身，网站更新了，它也跟着更新，不用另外安装。没有网络时打不开。图标下面的名字、打开时的底色写在 `manifest.webmanifest` 里，改的话照原样改引号里的字；这个文件不能写注释，也不能多逗号或少逗号。安卓手机的 Chrome 也能这样装（菜单里的“添加到主屏幕”或“安装应用”）。
+- 换网站图标：原稿是根目录的 `logo.svg`，文件里写着哪个颜色管哪一块。改完后要重新导出 `favicon.ico`、`favicon-96.png`、`icon-192.png`、`apple-touch-icon.png` 这四个文件，可以交给 AI，说“照 logo.svg 重新导出网站图标”。`apple-touch-icon.png` 要导出成直角满版（去掉 `logo.svg` 里的 `rx="116"`），iPhone 会自己裁圆角。在装了 librsvg 和 Python Pillow 的电脑上，命令是：
+
+```bash
+rsvg-convert -w 96 logo.svg -o favicon-96.png
+rsvg-convert -w 192 logo.svg -o icon-192.png
+sed 's/rx="116" //' logo.svg | rsvg-convert -w 180 -o apple-touch-icon.png
+for s in 16 32 48; do rsvg-convert -w $s logo.svg -o /tmp/ico-$s.png; done
+python3 -c "from PIL import Image; a=[Image.open(f'/tmp/ico-{s}.png') for s in (48,32,16)]; a[0].save('favicon.ico', sizes=[(48,48),(32,32),(16,16)], append_images=a[1:])"
+```
 - 搜索引擎：`index.html` 开头有一行必应的站长验证（`msvalidate.01`），不能删。以后登记别的搜索引擎，把它给的那一行 `<meta …>` 加在旁边。
 - 字体来源：Noto 系列与 Gentium Book Plus 均为 SIL Open Font License 开源字体。
 - 词典数据：满汉、蒙汉、蒙汉满、清文鉴来自栗林均词典，藏文来自 Christian Steinert 藏文词典。各词典版权属于原作者。
